@@ -1,5 +1,115 @@
 [
   {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+    "summary": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongside an IOS XR…",
+    "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+    "category": "Vest",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T15:52:07+00:00"
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal",
+    "summary": "Hacker group published roughly 550GB of data after MAG reportedly refused to pay a ransom demand; the group says it gained access via exposed admin keys. The post Manchester Airports Group Data on 8.8 Million People…",
+    "url": "https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/",
+    "category": "Cybercrime",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T15:35:19+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+    "summary": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts. \"Unlike the…",
+    "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
+    "category": "Vest",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T15:26:47+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
+    "summary": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
+    "category": "Microsoft",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T15:22:33+00:00"
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue Agents",
+    "summary": "New models, trained using NVIDIA Nemotron 3 Ultra, aim to catch rogue agent behavior before it executes, without the latency of large-model review. The post Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue…",
+    "url": "https://www.securityweek.com/capsule-security-launches-ai-circuit-breaker-to-stop-rogue-agents/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T15:15:00+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
+    "summary": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T15:13:29+00:00"
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "SonicWall urges immediate patching of chained vulnerabilities",
+    "summary": "Just weeks after a wave of ransomware attacks, new flaws in SMA1000 series appliances are being exploited.",
+    "url": "https://www.cybersecuritydive.com/news/sonicwall-immediate-patching-chained-vulnerabilities/829567/",
+    "category": "Vest",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T15:03:50+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Anthropic confirms Claude is down, multiple models affected",
+    "summary": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T15:02:52+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
+    "summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+    "category": "Security",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T14:52:20+00:00"
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
+    "summary": "The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours",
+    "category": "Vest",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T14:38:49+00:00"
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "Outsider Phishing Kit Survives Takedown With 700 New Pages",
+    "summary": "Outsider phishing kit generated 700 new pages after a Google-led disruption",
+    "url": "https://www.infosecurity-magazine.com/news/outsider-phishing-kit-survives/",
+    "category": "Vest",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T14:00:00+00:00"
+  },
+  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
@@ -18,6 +128,16 @@
     "category": "News",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T13:34:07+00:00"
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "412,000 The Town 2025 Ticket Buyers’ Data Hits the Dark Web",
+    "summary": "412,000 The Town 2025 festival buyer records are being sold for $10,000, with Brazil’s data openly marketed for bank fraud, loans and SIM registration. A seller on a Russian-language data-trading forum listed what…",
+    "url": "https://securityaffairs.com/198354/data-breach/412000-the-town-2025-ticket-buyers-data-hits-the-dark-web.html",
+    "category": "Breaking News",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T13:17:41+00:00"
   },
   {
     "source": "Infosecurity Magazine",
@@ -100,6 +220,16 @@
     "timestamp": "2026-09-03T11:58:00+00:00"
   },
   {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "Government, industry partner to shut down long-running Sality botnet",
+    "summary": "A nonprofit group is now working to contact the botnet’s victims.",
+    "url": "https://www.cybersecuritydive.com/news/doj-crowdstrike-botnet-sality-takedown/829512/",
+    "category": "Vest",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T11:55:00+00:00"
+  },
+  {
     "source": "CSO Online",
     "rank": 12,
     "title": "Decade-old PostgreSQL flaw turns backup account into a backdoor",
@@ -138,6 +268,16 @@
     "category": "Cybercrime",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T10:54:18+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Russian man indicted for spreading malware to 80,000 freelancers",
+    "summary": "A Russian national accused of using fake accounts on a freelance employment platform to spread malware to approximately 80,000 users has been indicted by a federal grand jury in California. Searzhudin Tamirlanovich…",
+    "url": "https://www.helpnetsecurity.com/2026/09/03/russian-national-indicted-freelance-platform-malware/",
+    "category": "News",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T10:43:36+00:00"
   },
   {
     "source": "The Hacker News",
@@ -392,7 +532,7 @@
   {
     "source": "Dark Reading",
     "rank": 4,
-    "title": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
+    "title": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
     "summary": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
     "url": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
     "category": "Vest",
@@ -610,16 +750,6 @@
     "timestamp": "2026-09-02T15:00:00+00:00"
   },
   {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "Russian Man Extradited Over Malware Campaign Targeting Freelancers",
-    "summary": "Russian man extradited to US over malware campaign that targeted 80,000 freelance users",
-    "url": "https://www.infosecurity-magazine.com/news/russian-man-extradited-malware/",
-    "category": "Vest",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T15:00:00+00:00"
-  },
-  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
@@ -650,16 +780,6 @@
     "timestamp": "2026-09-02T14:00:00+00:00"
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
-    "summary": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using them to…",
-    "url": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
-    "category": "Vest",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T13:44:16+00:00"
-  },
-  {
     "source": "Help Net Security",
     "rank": 7,
     "title": "Nearly 22,000 Microsoft Exchange servers remain exposed to critical security flaw (CVE-2026-62911)",
@@ -668,16 +788,6 @@
     "category": "News",
     "date": "2026-09-02",
     "timestamp": "2026-09-02T13:24:09+00:00"
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
-    "summary": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installations. A…",
-    "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
-    "category": "Vest",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T13:12:45+00:00"
   },
   {
     "source": "TechCrunch Security",
@@ -720,16 +830,6 @@
     "timestamp": "2026-09-02T12:39:07+00:00"
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Dropbox accounts breached through Lenovo email verification flaw",
-    "summary": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
-    "category": "Security",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T12:30:22+00:00"
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "Exploited JFrog Artifactory bug puts software supply chain on alert",
@@ -740,16 +840,6 @@
     "timestamp": "2026-09-02T12:24:40+00:00"
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
-    "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators…",
-    "url": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
-    "category": "Vest",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T12:22:02+00:00"
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "$536 and 8 Hours: AI Learns to Attack a Different PLC",
@@ -758,26 +848,6 @@
     "category": "Artificial Intelligence",
     "date": "2026-09-02",
     "timestamp": "2026-09-02T12:19:36+00:00"
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Exploit Published for Fresh Cleo Harmony Vulnerability",
-    "summary": "The security defect allows remote attackers to bypass authentication through argument bearer manipulation. The post Exploit Published for Fresh Cleo Harmony Vulnerability appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/exploit-published-for-fresh-cleo-harmony-vulnerability/",
-    "category": "Vulnerabilities",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T12:18:15+00:00"
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards",
-    "summary": "Anthropic introduced Enterprise Frontier Safeguards (EFS), a system that combines zero data retention with automated monitoring for misuse. The post Anthropic Details Response to Security Incidents, Unveils Enterprise…",
-    "url": "https://www.securityweek.com/anthropic-details-response-to-security-incidents-unveils-enterprise-safeguards/",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T11:48:31+00:00"
   },
   {
     "source": "Ars Technica Security",
@@ -800,16 +870,6 @@
     "timestamp": "2026-09-02T10:45:00+00:00"
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Microsoft Defender flags legitimate Google search links as malicious",
-    "summary": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
-    "category": "Security",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T10:29:39+00:00"
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "Iran-linked APT Mirage Kitten Uses Fake Job Tests to Spread Malware",
@@ -818,16 +878,6 @@
     "category": "APT",
     "date": "2026-09-02",
     "timestamp": "2026-09-02T10:25:24+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "US charges Russian for infecting 80,000 freelancers with malware",
-    "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
-    "category": "Security",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T09:06:48+00:00"
   },
   {
     "source": "Infosecurity Magazine",
@@ -870,16 +920,6 @@
     "timestamp": "2026-09-02T08:15:00+00:00"
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Sality botnet infrastructure dismantled in joint global takedown",
-    "summary": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
-    "category": "Security",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T08:00:43+00:00"
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "Hackers Target Langflow in CVE-2026-0768 Attacks",
@@ -888,6 +928,16 @@
     "category": "Breaking News",
     "date": "2026-09-02",
     "timestamp": "2026-09-02T07:58:46+00:00"
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Risky Bulletin: BGP hijack delivers malicious Virtualizor updates",
+    "summary": "A BGP hijack delivered malicious Virtualizor updates, the White House launches Project Watershed 250, Indian authorities take down a Telegram doxing bot, and Composer packages deliver iOS badness.",
+    "url": "https://risky.biz/RBNEWS608/",
+    "category": "Vest",
+    "date": "2026-09-02",
+    "timestamp": "2026-09-02T02:46:34+00:00"
   },
   {
     "source": "CSO Online",
@@ -1110,36 +1160,6 @@
     "timestamp": "2026-09-01T13:56:42+00:00"
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Five Venezuelan Nationals Plead Guilty in Kansas ATM Jackpotting Attempt",
-    "summary": "Five Venezuelan nationals pleaded guilty after failed ATM jackpotting attempts in Kansas. The FBI recorded 700+ cases in 2025, causing $20M in losses. Five Venezuelan nationals have pleaded guilty after trying to steal…",
-    "url": "https://securityaffairs.com/198233/cyber-crime/five-venezuelan-nationals-plead-guilty-in-kansas-atm-jackpotting-attempt.html",
-    "category": "Breaking News",
-    "date": "2026-09-01",
-    "timestamp": "2026-09-01T13:50:54+00:00"
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "65% of Enterprises Have Seen AI Agents Act Out of Scope",
-    "summary": "EMA survey finds 65% of enterprises have seen AI agents act beyond intended scope",
-    "url": "https://www.infosecurity-magazine.com/news/65-percent-enterprises-ai-agents/",
-    "category": "Vest",
-    "date": "2026-09-01",
-    "timestamp": "2026-09-01T13:30:00+00:00"
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "White House Launches Pilot Program in Texas to Protect Water Infrastructure",
-    "summary": "Project Watershed 250 will see water providers in Texas provided with federal and private sector cybersecurity resources amid rising nation-state threats",
-    "url": "https://www.infosecurity-magazine.com/news/white-house-texas-protect-water/",
-    "category": "Vest",
-    "date": "2026-09-01",
-    "timestamp": "2026-09-01T12:45:00+00:00"
-  },
-  {
     "source": "WIRED Security",
     "rank": 18,
     "title": "Using High-Energy Laser, US Shoots Down Drones Near Mexico Border",
@@ -1168,16 +1188,6 @@
     "category": "Healthcare",
     "date": "2026-08-31",
     "timestamp": "2026-08-31T21:39:01+00:00"
-  },
-  {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
-    "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
-    "category": "Vest",
-    "date": "2026-08-31",
-    "timestamp": "2026-08-31T21:08:46+00:00"
   },
   {
     "source": "Risky Business News",
@@ -1420,16 +1430,6 @@
     "timestamp": "2026-08-27T12:58:59+00:00"
   },
   {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "Federal authorities disrupt China-backed hacking operation targeting US critical infrastructure",
-    "summary": "Compromised IoT devices were used in a yearslong campaign against key sectors and federal agencies.",
-    "url": "https://www.cybersecuritydive.com/news/federal-authorities-disrupt-china-hacking-US-critical-infrastructure/828913/",
-    "category": "Vest",
-    "date": "2026-08-27",
-    "timestamp": "2026-08-27T12:33:36+00:00"
-  },
-  {
     "source": "Krebs on Security",
     "rank": 5,
     "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
@@ -1470,16 +1470,6 @@
     "timestamp": "2026-08-26T17:57:06+00:00"
   },
   {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "Boston Scientific says cyberattack disrupted order processing, shipping",
-    "summary": "The medical device-maker says it cannot yet determine any financial impact from the attack it suffered this week.",
-    "url": "https://www.cybersecuritydive.com/news/boston-scientific-cyberattack-disrupted-order-processing-shipping/828816/",
-    "category": "Vest",
-    "date": "2026-08-26",
-    "timestamp": "2026-08-26T13:34:25+00:00"
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Risky Bulletin: Russia starts blocking DoH and DoT",
@@ -1498,5 +1488,15 @@
     "category": "Security",
     "date": "2026-08-25",
     "timestamp": "2026-08-25T11:00:00+00:00"
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Between Two Nerds: Attribution is dead, long live attribution",
+    "summary": "In this edition of Between Two Nerds Tom Uren and The Grugq talk about whether the increasing use of AI will make it harder for forensics teams to determine who is responsible for a hack. This episode is also available…",
+    "url": "https://risky.biz/BTN180/",
+    "category": "Vest",
+    "date": "2026-08-24",
+    "timestamp": "2026-08-24T19:53:46+00:00"
   }
 ]
