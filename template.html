@@ -67,7 +67,24 @@
   .source-list .stag{display:block;font-size:12px;color:var(--text-faint);margin-top:3px;line-height:1.4;}
   .source-list .rank{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-right:8px;}
 
-  footer{max-width:1180px;margin:0 auto;padding:0 24px 60px;color:var(--text-faint);font-size:12.5px;line-height:1.7;border-top:1px solid var(--border);padding-top:24px;}
+   footer{max-width:1180px;margin:0 auto;padding:0 24px 60px;color:var(--text-faint);font-size:12.5px;line-height:1.7;border-top:1px solid var(--border);padding-top:24px;}
+
+  /* ---------- mobilni telefoni ---------- */
+  @media (max-width:640px){
+    .top-inner{padding:14px 16px;gap:10px;}
+    .brand h1{font-size:17px;}
+    .tagline{font-size:12px;}
+    .search-wrap{min-width:0;width:100%;order:3;}
+    .filters{padding:12px 16px 0;}
+    .pill-row{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:14px;scrollbar-width:none;}
+    .pill-row::-webkit-scrollbar{display:none;}
+    .layout{padding:8px 16px 60px;gap:32px;}
+    .item{padding:16px 0;gap:12px;}
+    .item-title{font-size:16px;}
+    .item-summary{font-size:14px;}
+    footer{padding:0 16px 40px;padding-top:20px;}
+  }
+</style>
 </style>
 </head>
 <body>
