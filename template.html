@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIGNAL/20 — Presek sajber bezbednosnih vesti</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0c11; --bg-elevated:#11141c; --border:#1e222c; --border-soft:#171a22;
+    --text:#e7e9ee; --text-dim:#8991a1; --text-faint:#525968;
+    --accent:#e8a33d; --accent-soft:rgba(232,163,61,.14); --link:#8fb8ff;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:'IBM Plex Sans',-apple-system,sans-serif;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none;}
+
+  header.top{position:sticky;top:0;z-index:20;background:rgba(10,12,17,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);}
+  .top-inner{max-width:1180px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;}
+  .brand{display:flex;align-items:baseline;gap:12px;}
+  .brand .mark{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--accent-soft);animation:pulse 2.4s ease-in-out infinite;position:relative;top:-2px;}
+  @keyframes pulse{0%,100%{box-shadow:0 0 0 3px var(--accent-soft);}50%{box-shadow:0 0 0 6px rgba(232,163,61,.05);}}
+  .brand h1{font-family:'IBM Plex Mono',monospace;font-size:19px;font-weight:600;letter-spacing:.02em;margin:0;}
+  .meta-line{display:flex;flex-direction:column;align-items:flex-start;gap:2px;}
+  .tagline{color:var(--text-dim);font-size:13px;margin-top:2px;}
+  .updated{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-top:2px;}
+
+  .search-wrap{position:relative;min-width:260px;flex:0 0 auto;}
+  .search-wrap input{width:100%;background:var(--bg-elevated);border:1px solid var(--border);color:var(--text);font-family:'IBM Plex Sans',sans-serif;font-size:14px;padding:9px 12px 9px 34px;border-radius:6px;outline:none;transition:border-color .15s;}
+  .search-wrap input:focus{border-color:var(--accent);}
+  .search-wrap input::placeholder{color:var(--text-faint);}
+  .search-wrap svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:14px;height:14px;color:var(--text-faint);pointer-events:none;}
+
+  .filters{max-width:1180px;margin:0 auto;padding:14px 24px 0;}
+  .filters .cat-label{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-bottom:10px;letter-spacing:.03em;}
+  .pill-row{display:flex;gap:8px;flex-wrap:wrap;padding-bottom:16px;}
+  .pill{font-family:'IBM Plex Mono',monospace;font-size:12.5px;padding:6px 12px;border-radius:20px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-dim);cursor:pointer;white-space:nowrap;transition:.15s;user-select:none;}
+  .pill:hover{border-color:var(--text-faint);color:var(--text);}
+  .pill.active{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);}
+  .pill .count{opacity:.6;margin-left:4px;}
+
+  .layout{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1fr 300px;gap:48px;padding:8px 24px 80px;}
+  @media (max-width:880px){.layout{grid-template-columns:1fr;} aside.sources{order:2;}}
+
+  .feed-count{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-faint);margin:20px 0 4px;}
+  .item{display:flex;gap:16px;padding:20px 0;border-bottom:1px solid var(--border-soft);}
+  .item .bar{width:3px;border-radius:2px;flex-shrink:0;margin-top:3px;align-self:stretch;}
+  .item-body{flex:1;min-width:0;}
+  .item-meta{display:flex;align-items:center;gap:10px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-faint);margin-bottom:6px;}
+  .item-meta .src{color:var(--accent);font-weight:600;}
+  .item-title{font-size:17px;line-height:1.4;font-weight:600;margin:0 0 6px;}
+  .item-title a{transition:color .15s;}
+  .item-title a:hover{color:var(--link);}
+  .item-summary{font-size:14.5px;line-height:1.55;color:var(--text-dim);margin:0 0 10px;max-width:62ch;}
+  .item-cat{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);border:1px solid var(--border);padding:2px 8px;border-radius:4px;}
+  .empty-state{padding:60px 0;text-align:center;color:var(--text-faint);font-family:'IBM Plex Mono',monospace;font-size:13px;}
+
+  aside.sources{padding-top:20px;}
+  aside.sources h2{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-faint);letter-spacing:.03em;margin:0 0 14px;padding-bottom:10px;border-bottom:1px solid var(--border);}
+  .source-list{list-style:none;margin:0;padding:0;}
+  .source-list li{padding:11px 0;border-bottom:1px solid var(--border-soft);}
+  .source-list a.sname{font-size:13.5px;font-weight:600;}
+  .source-list a.sname:hover{color:var(--link);}
+  .source-list .stag{display:block;font-size:12px;color:var(--text-faint);margin-top:3px;line-height:1.4;}
+  .source-list .rank{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-right:8px;}
+
+  footer{max-width:1180px;margin:0 auto;padding:0 24px 60px;color:var(--text-faint);font-size:12.5px;line-height:1.7;border-top:1px solid var(--border);padding-top:24px;}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-inner">
+    <div class="meta-line">
+      <div class="brand"><span class="mark"></span><h1>SIGNAL/20</h1></div>
+      <div class="tagline">Presek najnovijih vesti sa 20 vodećih cyber security portala</div>
+      <div class="updated">Automatski ažurirano: __GENERATED_AT__</div>
+    </div>
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input id="searchInput" type="text" placeholder="Pretraži vesti…">
+    </div>
+  </div>
+  <div class="filters">
+    <div class="cat-label">IZVOR</div>
+    <div class="pill-row" id="pillRow"></div>
+  </div>
+</header>
+
+<div class="layout">
+  <main>
+    <div class="feed-count" id="feedCount"></div>
+    <div id="feed"></div>
+  </main>
+  <aside class="sources">
+    <h2>20 PRAĆENIH PORTALA</h2>
+    <ul class="source-list" id="sourceList"></ul>
+  </aside>
+</div>
+
+<footer>
+  Sajt se automatski ažurira putem RSS feed-ova sa 20 portala (poslednje ažuriranje: __GENERATED_AT__). Naslovi i sažeci preuzimaju se u originalnom jeziku izvora (uglavnom engleski) — klikom na naslov otvara se pun članak. Kada je ista vest objavljena na više portala, prikazuje se samo verzija sa portala višeg ranga sa liste, kako se vesti ne bi ponavljale.
+</footer>
+
+<script>
+const SOURCES = __SOURCES_JSON__;
+const NEWS = __NEWS_JSON__;
+
+const PALETTE = ["#e8a33d","#ef6a5a","#5aa9e6","#a682e8","#5ac8a8","#e6c15a","#e68ac8","#e88a5a","#6ad1e0","#c6c98f","#9fe85a","#8991a1"];
+function colorFor(cat){
+  let h = 0;
+  for(let i=0;i<cat.length;i++) h = (h*31 + cat.charCodeAt(i)) >>> 0;
+  return PALETTE[h % PALETTE.length];
+}
+
+NEWS.sort((a,b)=> new Date(b.timestamp) - new Date(a.timestamp));
+
+const monthsSR = ["jan","feb","mar","apr","maj","jun","jul","avg","sep","okt","nov","dec"];
+function fmtDate(iso){
+  const d = new Date(iso+"T00:00:00");
+  return `${String(d.getDate()).padStart(2,"0")}. ${monthsSR[d.getMonth()]} ${d.getFullYear()}.`;
+}
+
+let activeSource = "Sve";
+let query = "";
+
+function countsBySource(){
+  const c = {};
+  NEWS.forEach(n=> c[n.source] = (c[n.source]||0)+1);
+  return c;
+}
+
+function renderPills(){
+  const counts = countsBySource();
+  const row = document.getElementById("pillRow");
+  const names = ["Sve", ...SOURCES.map(s=>s.name)];
+  row.innerHTML = names.map(name=>{
+    const cnt = name==="Sve" ? NEWS.length : (counts[name]||0);
+    if(name!=="Sve" && !cnt) return "";
+    const activeCls = (name===activeSource) ? "active" : "";
+    return `<span class="pill ${activeCls}" data-name="${name}">${name}<span class="count">${cnt}</span></span>`;
+  }).join("");
+  row.querySelectorAll(".pill").forEach(p=>{
+    p.addEventListener("click", ()=>{
+      activeSource = p.dataset.name;
+      renderPills();
+      renderFeed();
+    });
+  });
+}
+
+function renderSidebar(){
+  const list = document.getElementById("sourceList");
+  list.innerHTML = SOURCES.map(s=>`
+    <li>
+      <span class="rank">${String(s.rank).padStart(2,"0")}</span>
+      <a class="sname" href="${s.url}" target="_blank" rel="noopener">${s.name}</a>
+      <span class="stag">${s.tag}</span>
+    </li>
+  `).join("");
+}
+
+function renderFeed(){
+  const feed = document.getElementById("feed");
+  const q = query.trim().toLowerCase();
+  const filtered = NEWS.filter(n=>{
+    const sourceOk = activeSource==="Sve" || n.source===activeSource;
+    const qOk = !q || (n.title+" "+n.summary+" "+n.source).toLowerCase().includes(q);
+    return sourceOk && qOk;
+  });
+
+  document.getElementById("feedCount").textContent =
+    `${filtered.length} ${filtered.length===1?"vest":"vesti"} · sortirano od najnovije ka najstarijoj`;
+
+  if(!filtered.length){
+    feed.innerHTML = `<div class="empty-state">Nema vesti koje odgovaraju pretrazi.</div>`;
+    return;
+  }
+
+  feed.innerHTML = filtered.map(n=>`
+    <article class="item">
+      <span class="bar" style="background:${colorFor(n.category)}"></span>
+      <div class="item-body">
+        <div class="item-meta">
+          <span class="src">${n.source}</span>
+          <span>${fmtDate(n.date)}</span>
+        </div>
+        <h3 class="item-title"><a href="${n.url}" target="_blank" rel="noopener">${n.title}</a></h3>
+        <p class="item-summary">${n.summary}</p>
+        <span class="item-cat">${n.category}</span>
+      </div>
+    </article>
+  `).join("");
+}
+
+document.getElementById("searchInput").addEventListener("input", (e)=>{
+  query = e.target.value;
+  renderFeed();
+});
+
+renderPills();
+renderSidebar();
+renderFeed();
+</script>
+</body>
+</html>
