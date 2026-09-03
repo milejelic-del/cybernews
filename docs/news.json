@@ -690,16 +690,6 @@
     "timestamp": "2026-09-02T13:11:47+00:00"
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Download: The Agentic Software Development Guide",
-    "summary": "AI makes it easy to ship more code. It does not make that code easier to trust. Most teams don’t fail because their developers can’t use AI. They fail because the dev’s job changed and nobody redefined it. Under AI,…",
-    "url": "https://www.helpnetsecurity.com/2026/09/02/download-the-agentic-software-development-guide/",
-    "category": "Don't miss",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T13:00:33+00:00"
-  },
-  {
     "source": "The Record",
     "rank": 2,
     "title": "Hackers expose donor data from Russian fundraisers for Ukrainians, political prisoners",
@@ -1498,5 +1488,15 @@
     "category": "Vest",
     "date": "2026-08-26",
     "timestamp": "2026-08-26T03:02:50+00:00"
+  },
+  {
+    "source": "WIRED Security",
+    "rank": 18,
+    "title": "The County Prosecutors Who Became ICE Informants",
+    "summary": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public disclosure, or legislative oversight.",
+    "url": "https://www.wired.com/story/the-county-prosecutors-who-became-ice-informants/",
+    "category": "Security",
+    "date": "2026-08-25",
+    "timestamp": "2026-08-25T11:00:00+00:00"
   }
 ]
