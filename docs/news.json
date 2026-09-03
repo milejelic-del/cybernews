@@ -1,5 +1,15 @@
 [
   {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Google’s Gemini 3.8 Flash takes on bigger AI models at a lower cost",
+    "summary": "Google has introduced Gemini 3.8 Flash, available to developers today, and a gated sibling, Gemini 3.8 Flash Cyber, reserved for vetted security teams. “Our 3rd Flash release in just 6 wks,” Google CEO Sundar Pichai…",
+    "url": "https://www.helpnetsecurity.com/2026/09/03/google-gemini-3-8-flash/",
+    "category": "News",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T13:34:07+00:00"
+  },
+  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "CREST Onboards First Cohort for AI-Enabled Pentesting Accreditation",
@@ -670,16 +680,6 @@
     "timestamp": "2026-09-02T13:11:47+00:00"
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Download: The Agentic Software Development Guide",
-    "summary": "AI makes it easy to ship more code. It does not make that code easier to trust. Most teams don’t fail because their developers can’t use AI. They fail because the dev’s job changed and nobody redefined it. Under AI,…",
-    "url": "https://www.helpnetsecurity.com/2026/09/02/download-the-agentic-software-development-guide/",
-    "category": "Don't miss",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T13:00:33+00:00"
-  },
-  {
     "source": "The Record",
     "rank": 2,
     "title": "Hackers expose donor data from Russian fundraisers for Ukrainians, political prisoners",
@@ -698,16 +698,6 @@
     "category": "Artificial Intelligence, Data Privacy, Privacy, Security",
     "date": "2026-09-02",
     "timestamp": "2026-09-02T12:46:00+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Exploitation of Sangoma Switchvox flaw is underway (CVE-2026-9586)",
-    "summary": "A threat actor is actively targeting internet-exposed Sangoma Switchvox instance through a recently patched SQL injection flaw (CVE-2026-9586), and organizations running them should check for signs of compromise…",
-    "url": "https://www.helpnetsecurity.com/2026/09/02/exploitation-of-sangoma-switchvox-flaw-underway-cve-2026-9586/",
-    "category": "Don't miss",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T12:42:26+00:00"
   },
   {
     "source": "SecurityWeek",
@@ -1498,5 +1488,15 @@
     "category": "Vest",
     "date": "2026-08-26",
     "timestamp": "2026-08-26T03:02:50+00:00"
+  },
+  {
+    "source": "WIRED Security",
+    "rank": 18,
+    "title": "The County Prosecutors Who Became ICE Informants",
+    "summary": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public disclosure, or legislative oversight.",
+    "url": "https://www.wired.com/story/the-county-prosecutors-who-became-ice-informants/",
+    "category": "Security",
+    "date": "2026-08-25",
+    "timestamp": "2026-08-25T11:00:00+00:00"
   }
 ]

@@ -67,7 +67,24 @@
   .source-list .stag{display:block;font-size:12px;color:var(--text-faint);margin-top:3px;line-height:1.4;}
   .source-list .rank{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-right:8px;}
 
-  footer{max-width:1180px;margin:0 auto;padding:0 24px 60px;color:var(--text-faint);font-size:12.5px;line-height:1.7;border-top:1px solid var(--border);padding-top:24px;}
+   footer{max-width:1180px;margin:0 auto;padding:0 24px 60px;color:var(--text-faint);font-size:12.5px;line-height:1.7;border-top:1px solid var(--border);padding-top:24px;}
+
+  /* ---------- mobilni telefoni ---------- */
+  @media (max-width:640px){
+    .top-inner{padding:14px 16px;gap:10px;}
+    .brand h1{font-size:17px;}
+    .tagline{font-size:12px;}
+    .search-wrap{min-width:0;width:100%;order:3;}
+    .filters{padding:12px 16px 0;}
+    .pill-row{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:14px;scrollbar-width:none;}
+    .pill-row::-webkit-scrollbar{display:none;}
+    .layout{padding:8px 16px 60px;gap:32px;}
+    .item{padding:16px 0;gap:12px;}
+    .item-title{font-size:16px;}
+    .item-summary{font-size:14px;}
+    footer{padding:0 16px 40px;padding-top:20px;}
+  }
+</style>
 </style>
 </head>
 <body>
@@ -77,7 +94,7 @@
     <div class="meta-line">
       <div class="brand"><span class="mark"></span><h1>SIGNAL/20</h1></div>
       <div class="tagline">Presek najnovijih vesti sa 20 vodećih cyber security portala</div>
-      <div class="updated">Automatski ažurirano: 03.09.2026. 13:29 UTC</div>
+      <div class="updated">Automatski ažurirano: 03.09.2026. 13:52 UTC</div>
     </div>
     <div class="search-wrap">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
@@ -102,7 +119,7 @@
 </div>
 
 <footer>
-  Sajt se automatski ažurira putem RSS feed-ova sa 20 portala (poslednje ažuriranje: 03.09.2026. 13:29 UTC). Naslovi i sažeci preuzimaju se u originalnom jeziku izvora (uglavnom engleski) — klikom na naslov otvara se pun članak. Kada je ista vest objavljena na više portala, prikazuje se samo verzija sa portala višeg ranga sa liste, kako se vesti ne bi ponavljale.
+  Sajt se automatski ažurira putem RSS feed-ova sa 20 portala (poslednje ažuriranje: 03.09.2026. 13:52 UTC). Naslovi i sažeci preuzimaju se u originalnom jeziku izvora (uglavnom engleski) — klikom na naslov otvara se pun članak. Kada je ista vest objavljena na više portala, prikazuje se samo verzija sa portala višeg ranga sa liste, kako se vesti ne bi ponavljale.
 </footer>
 
 <script>
@@ -229,6 +246,16 @@ const SOURCES = [
   }
 ];
 const NEWS = [
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Google’s Gemini 3.8 Flash takes on bigger AI models at a lower cost",
+    "summary": "Google has introduced Gemini 3.8 Flash, available to developers today, and a gated sibling, Gemini 3.8 Flash Cyber, reserved for vetted security teams. “Our 3rd Flash release in just 6 wks,” Google CEO Sundar Pichai…",
+    "url": "https://www.helpnetsecurity.com/2026/09/03/google-gemini-3-8-flash/",
+    "category": "News",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T13:34:07+00:00"
+  },
   {
     "source": "Infosecurity Magazine",
     "rank": 9,
@@ -900,16 +927,6 @@ const NEWS = [
     "timestamp": "2026-09-02T13:11:47+00:00"
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Download: The Agentic Software Development Guide",
-    "summary": "AI makes it easy to ship more code. It does not make that code easier to trust. Most teams don’t fail because their developers can’t use AI. They fail because the dev’s job changed and nobody redefined it. Under AI,…",
-    "url": "https://www.helpnetsecurity.com/2026/09/02/download-the-agentic-software-development-guide/",
-    "category": "Don't miss",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T13:00:33+00:00"
-  },
-  {
     "source": "The Record",
     "rank": 2,
     "title": "Hackers expose donor data from Russian fundraisers for Ukrainians, political prisoners",
@@ -928,16 +945,6 @@ const NEWS = [
     "category": "Artificial Intelligence, Data Privacy, Privacy, Security",
     "date": "2026-09-02",
     "timestamp": "2026-09-02T12:46:00+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Exploitation of Sangoma Switchvox flaw is underway (CVE-2026-9586)",
-    "summary": "A threat actor is actively targeting internet-exposed Sangoma Switchvox instance through a recently patched SQL injection flaw (CVE-2026-9586), and organizations running them should check for signs of compromise…",
-    "url": "https://www.helpnetsecurity.com/2026/09/02/exploitation-of-sangoma-switchvox-flaw-underway-cve-2026-9586/",
-    "category": "Don't miss",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T12:42:26+00:00"
   },
   {
     "source": "SecurityWeek",
@@ -1728,6 +1735,16 @@ const NEWS = [
     "category": "Vest",
     "date": "2026-08-26",
     "timestamp": "2026-08-26T03:02:50+00:00"
+  },
+  {
+    "source": "WIRED Security",
+    "rank": 18,
+    "title": "The County Prosecutors Who Became ICE Informants",
+    "summary": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public disclosure, or legislative oversight.",
+    "url": "https://www.wired.com/story/the-county-prosecutors-who-became-ice-informants/",
+    "category": "Security",
+    "date": "2026-08-25",
+    "timestamp": "2026-08-25T11:00:00+00:00"
   }
 ];
 
