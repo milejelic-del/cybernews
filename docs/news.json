@@ -2,6 +2,26 @@
   {
     "source": "Ars Technica Security",
     "rank": 19,
+    "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+    "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+    "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+    "category": "AI",
+    "date": "2026-09-04",
+    "timestamp": "2026-09-04T22:17:36+00:00"
+  },
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "European parliament members call for slowdown of Serbia’s EU entry over spyware use",
+    "summary": "The letter follows revelations about Serbian student activists being infected with Pegasus and NoviSpy, and coincides with other pressures on Belgrade. The post European parliament members call for slowdown of Serbia’s…",
+    "url": "https://cyberscoop.com/eu-parliament-serbia-accession-spyware-demands/",
+    "category": "Geopolitics",
+    "date": "2026-09-04",
+    "timestamp": "2026-09-04T21:02:39+00:00"
+  },
+  {
+    "source": "Ars Technica Security",
+    "rank": 19,
     "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
     "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
     "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
@@ -140,16 +160,6 @@
     "timestamp": "2026-09-04T14:30:15+00:00"
   },
   {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "OpenAI pledges $1 billion to provide resources, training for frontline cyber defenders",
-    "summary": "Amid heightened scrutiny, the company will use frontier AI to help water, power and local government providers fight malicious actors.",
-    "url": "https://www.cybersecuritydive.com/news/openai-pledges-1-billion-resources-cyber-defenders/829676/",
-    "category": "Vest",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T14:23:44+00:00"
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "39 New Methods That Compromise Passkey Authentication",
@@ -258,6 +268,16 @@
     "category": "Industry news",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T12:19:50+00:00"
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Insurers Search for Answers to Rein in Rogue AI",
+    "summary": "As incidents of unintended harm caused by rogue AI agents mount, CISOs and insurance firms are figuring out how to handle the fallout.",
+    "url": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai",
+    "category": "Vest",
+    "date": "2026-09-04",
+    "timestamp": "2026-09-04T12:15:03+00:00"
   },
   {
     "source": "SecurityWeek",
@@ -1170,16 +1190,6 @@
     "timestamp": "2026-09-02T02:46:34+00:00"
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
-    "summary": "Threat actors exploited commodity vulnerabilities in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
-    "category": "Vest",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T01:00:00+00:00"
-  },
-  {
     "source": "Krebs on Security",
     "rank": 5,
     "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
@@ -1218,16 +1228,6 @@
     "category": "Vest",
     "date": "2026-09-01",
     "timestamp": "2026-09-01T20:30:33+00:00"
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Tina Peters, through attorney, backs off formal role in Shasta County elections",
-    "summary": "Peters still left the door open to working with Shasta County on elections and doubled down on her statements that electronic voting machines should be discontinued. The post Tina Peters, through attorney, backs off…",
-    "url": "https://cyberscoop.com/tina-peters-shasta-county-election-role/",
-    "category": "Cybersecurity",
-    "date": "2026-09-01",
-    "timestamp": "2026-09-01T20:24:15+00:00"
   },
   {
     "source": "WIRED Security",
@@ -1410,6 +1410,16 @@
     "timestamp": "2026-08-28T15:57:58+00:00"
   },
   {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "Frontier AI tipping the scales toward cyber adversaries",
+    "summary": "Researchers at Palo Alto Networks’ Unit 42 warn that threat actors are already using AI to accelerate cyberattacks beyond the abilities of modern defenses.",
+    "url": "https://www.cybersecuritydive.com/news/frontier-ai-tipping-scales-cyber-adversaries/829088/",
+    "category": "Vest",
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T15:01:51+00:00"
+  },
+  {
     "source": "Ars Technica Security",
     "rank": 19,
     "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
@@ -1488,15 +1498,5 @@
     "category": "Breadcrumbs",
     "date": "2026-08-27",
     "timestamp": "2026-08-27T11:04:15+00:00"
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Srsly Risky Biz: China's AI-Enabled APT Operations Are Getting Interesting",
-    "summary": "Tom Uren and James Wilson talk about evidence that Chinese APT groups are using AI in a really sensible way, to beef up their malware arsenal. This will make it harder for threat intel firms to cluster activity for…",
-    "url": "https://risky.biz/SRB181/",
-    "category": "Vest",
-    "date": "2026-08-27",
-    "timestamp": "2026-08-27T04:53:24+00:00"
   }
 ]
