@@ -1,5 +1,15 @@
 [
   {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Risky Bulletin: Russia tells data centers to deploy drone defenses",
+    "summary": "Russia tells data centers to deploy drone defenses, Dropbox discloses a security breach, a new spyware wave hits Serbia, and CISA scraps six free cybersecurity assessment programs.",
+    "url": "https://risky.biz/RBNEWS609/",
+    "category": "Vest",
+    "date": "2026-09-04",
+    "timestamp": "2026-09-04T02:54:21+00:00"
+  },
+  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "Attackers exploit zero-days in consistently besieged SonicWall product",
@@ -1488,15 +1498,5 @@
     "category": "Business",
     "date": "2026-08-26",
     "timestamp": "2026-08-26T19:16:42+00:00"
-  },
-  {
-    "source": "WIRED Security",
-    "rank": 18,
-    "title": "FBI Disrupts Chinese Proxy Tools Used in Mass Hacking of US Agencies and Infrastructure",
-    "summary": "China’s hacking campaign targeted NASA, the Federal Reserve, the US Senate, the Justice Department, and more, according to the DOJ.",
-    "url": "https://www.wired.com/story/fbi-disrupts-chinese-proxy-tools-used-in-mass-hacking-of-us-agencies-and-infrastructure/",
-    "category": "Security",
-    "date": "2026-08-26",
-    "timestamp": "2026-08-26T17:57:06+00:00"
   }
 ]
