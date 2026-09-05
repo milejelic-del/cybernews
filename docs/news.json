@@ -170,16 +170,6 @@
     "timestamp": "2026-09-04T14:30:15+00:00"
   },
   {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "OpenAI pledges $1 billion to provide resources, training for frontline cyber defenders",
-    "summary": "Amid heightened scrutiny, the company will use frontier AI to help water, power and local government providers fight malicious actors.",
-    "url": "https://www.cybersecuritydive.com/news/openai-pledges-1-billion-resources-cyber-defenders/829676/",
-    "category": "Vest",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T14:23:44+00:00"
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "39 New Methods That Compromise Passkey Authentication",
@@ -920,16 +910,6 @@
     "timestamp": "2026-09-03T10:00:00+00:00"
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Chaotic Eclipse Releases Crowdstrike Falcon ZeroDay FalconFlank",
-    "summary": "Chaotic Eclipse released FalconFlank, a PoC exploit for a Crowdstrike Falcon ZeroDay Elevation of Privileges Vulnerability Security researcher Chaotic Eclipse, also known as INFINITE NIGHTMARE, MSNightmare and…",
-    "url": "https://securityaffairs.com/198342/hacking/chaotic-eclipse-releases-crowdstrike-falcon-zeroday-falconflank.html",
-    "category": "Breaking News",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T09:52:26+00:00"
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "AI agents help compress ransomware intrusion to under 10 hours, raising stakes for CISOs",
@@ -1420,6 +1400,16 @@
     "timestamp": "2026-08-28T15:57:58+00:00"
   },
   {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "Frontier AI tipping the scales toward cyber adversaries",
+    "summary": "Researchers at Palo Alto Networks’ Unit 42 warn that threat actors are already using AI to accelerate cyberattacks beyond the abilities of modern defenses.",
+    "url": "https://www.cybersecuritydive.com/news/frontier-ai-tipping-scales-cyber-adversaries/829088/",
+    "category": "Vest",
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T15:01:51+00:00"
+  },
+  {
     "source": "Ars Technica Security",
     "rank": 19,
     "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
@@ -1498,5 +1488,15 @@
     "category": "Breadcrumbs",
     "date": "2026-08-27",
     "timestamp": "2026-08-27T11:04:15+00:00"
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Srsly Risky Biz: China's AI-Enabled APT Operations Are Getting Interesting",
+    "summary": "Tom Uren and James Wilson talk about evidence that Chinese APT groups are using AI in a really sensible way, to beef up their malware arsenal. This will make it harder for threat intel firms to cluster activity for…",
+    "url": "https://risky.biz/SRB181/",
+    "category": "Vest",
+    "date": "2026-08-27",
+    "timestamp": "2026-08-27T04:53:24+00:00"
   }
 ]
