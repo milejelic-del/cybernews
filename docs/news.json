@@ -1,5 +1,15 @@
 [
   {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "OpenAI Announced $1B in Defensive Tools for Water Utilities",
+    "summary": "OpenAI pledges $1B in subsidized Daybreak AI cybersecurity tools for under-resourced critical infrastructure defenders. OpenAI announced Daybreak for Frontline Defenders on September 3, 2026, committing $1 billion in…",
+    "url": "https://securityaffairs.com/198506/ai/openai-announced-1b-in-defensive-tools-for-water-utilities.html",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-05",
+    "timestamp": "2026-09-05T21:14:01+00:00"
+  },
+  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
@@ -298,16 +308,6 @@
     "category": "Microsoft",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T14:30:15+00:00"
-  },
-  {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "OpenAI pledges $1 billion to provide resources, training for frontline cyber defenders",
-    "summary": "Amid heightened scrutiny, the company will use frontier AI to help water, power and local government providers fight malicious actors.",
-    "url": "https://www.cybersecuritydive.com/news/openai-pledges-1-billion-resources-cyber-defenders/829676/",
-    "category": "Vest",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T14:23:44+00:00"
   },
   {
     "source": "BleepingComputer",
@@ -768,16 +768,6 @@
     "category": "Apple",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T19:52:06+00:00"
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Cisco Fixed Critical RCE in Nexus 9000 Series Switches",
-    "summary": "Cisco patched a critical Nexus 9000 vulnerability, CVE-2026-20212, allowing unauthenticated remote root code execution. Cisco has released patches for a critical flaw, tracked as tracked as CVE-2026-20212 (CVSS score of…",
-    "url": "https://securityaffairs.com/198366/security/cisco-fixed-critical-rce-in-nexus-9000-series-switches.html",
-    "category": "Breaking News",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T19:47:40+00:00"
   },
   {
     "source": "Dark Reading",
@@ -1438,6 +1428,16 @@
     "category": "Security",
     "date": "2026-08-28",
     "timestamp": "2026-08-28T15:57:58+00:00"
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "Frontier AI tipping the scales toward cyber adversaries",
+    "summary": "Researchers at Palo Alto Networks’ Unit 42 warn that threat actors are already using AI to accelerate cyberattacks beyond the abilities of modern defenses.",
+    "url": "https://www.cybersecuritydive.com/news/frontier-ai-tipping-scales-cyber-adversaries/829088/",
+    "category": "Vest",
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T15:01:51+00:00"
   },
   {
     "source": "Ars Technica Security",
