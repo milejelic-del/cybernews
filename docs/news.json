@@ -1,5 +1,25 @@
 [
   {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+    "summary": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+    "category": "Security",
+    "date": "2026-09-05",
+    "timestamp": "2026-09-05T14:29:13+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+    "summary": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names,…",
+    "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+    "category": "Vest",
+    "date": "2026-09-05",
+    "timestamp": "2026-09-05T14:17:02+00:00"
+  },
+  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
@@ -790,16 +810,6 @@
     "timestamp": "2026-09-03T15:52:07+00:00"
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
-    "summary": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts. \"Unlike the…",
-    "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
-    "category": "Vest",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T15:26:47+00:00"
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "Pegasus Zero-Click Exploit Infects Serbian Student Activist's iPhone",
@@ -808,16 +818,6 @@
     "category": "Vest",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T15:25:00+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
-    "summary": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
-    "category": "Microsoft",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T15:22:33+00:00"
   },
   {
     "source": "Cybersecurity Dive",
