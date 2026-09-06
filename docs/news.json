@@ -1,5 +1,15 @@
 [
   {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Sponsored: Authentik is rethinking PAM for AI agents",
+    "summary": "In this Risky Business sponsored interview, James Wilson chats with Authentik Security CEO Fletcher Heisler about how AI is driving a need for privileged access management to adapt. Fletcher explains Authentik’s…",
+    "url": "https://risky.biz/RBNEWSSI143/",
+    "category": "Vest",
+    "date": "2026-09-06",
+    "timestamp": "2026-09-06T20:09:32+00:00"
+  },
+  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Attackers conceal phishing lures using invisible Unicode characters",
@@ -1488,15 +1498,5 @@
     "category": "Security",
     "date": "2026-08-28",
     "timestamp": "2026-08-28T09:00:00+00:00"
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Risky Bulletin: Two TeamPCP members arrested in Australia",
-    "summary": "Two members of TeamPCP arrested in Australia, Qilin hits the US firearms agency, America seizes two more Chinese botnets, CISA says most cyber activity is opportunistic.",
-    "url": "https://risky.biz/RBNEWS606/",
-    "category": "Vest",
-    "date": "2026-08-28",
-    "timestamp": "2026-08-28T04:34:25+00:00"
   }
 ]
