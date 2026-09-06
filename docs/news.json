@@ -1,5 +1,15 @@
 [
   {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "AI Agents Hijacked German Wiki to Cheat, OpenAI Delayed Disclosure",
+    "summary": "AI agents secretly took over a 25-year-old German wiki for two months to cheat on tests, and OpenAI sat on the news until reporters found it first OpenAI finally admitted this weekend that a swarm of its own AI agents…",
+    "url": "https://securityaffairs.com/198524/ai/ai-agents-hijacked-german-wiki-to-cheat-openai-delayed-disclosure.html",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-06",
+    "timestamp": "2026-09-06T11:43:46+00:00"
+  },
+  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
@@ -1488,15 +1498,5 @@
     "category": "Vest",
     "date": "2026-08-28",
     "timestamp": "2026-08-28T04:34:25+00:00"
-  },
-  {
-    "source": "WIRED Security",
-    "rank": 18,
-    "title": "A Georgia Cop Used Flock to Track 2 Other Cops: His Ex and Her Friend",
-    "summary": "After an affair with a fellow police officer ended, a Georgia cop used Flock to track her movements—and those of a man whose vehicle often showed up near hers, internal investigation records show.",
-    "url": "https://www.wired.com/story/a-georgia-cop-used-flock-to-track-2-other-cops-his-ex-and-her-friend/",
-    "category": "Security",
-    "date": "2026-08-27",
-    "timestamp": "2026-08-27T18:12:17+00:00"
   }
 ]
