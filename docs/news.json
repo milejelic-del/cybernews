@@ -1,5 +1,55 @@
 [
   {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+    "summary": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to CERT Polska's…",
+    "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+    "category": "Vest",
+    "date": "2026-09-06",
+    "timestamp": "2026-09-06T09:32:38+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+    "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of…",
+    "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+    "category": "Vest",
+    "date": "2026-09-06",
+    "timestamp": "2026-09-06T08:34:20+00:00"
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 113",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Hackers Steal Claude Login Sessions With Infostealer Malware to…",
+    "url": "https://securityaffairs.com/198522/security/security-affairs-malware-newsletter-round-113.html",
+    "category": "Breaking News",
+    "date": "2026-09-06",
+    "timestamp": "2026-09-06T08:27:01+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Week in review: Claude accounts compromised through infostealer, Patch Tuesday forecast",
+    "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Anthropic locks out Claude users after infostealers hijack login sessions Anthropic has started locking users out of…",
+    "url": "https://www.helpnetsecurity.com/2026/09/06/week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast/",
+    "category": "News",
+    "date": "2026-09-06",
+    "timestamp": "2026-09-06T08:00:56+00:00"
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Security Affairs newsletter Round 593 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter,…",
+    "url": "https://securityaffairs.com/198495/breaking-news/security-affairs-newsletter-round-593-by-pierluigi-paganini-international-edition.html",
+    "category": "Breaking News",
+    "date": "2026-09-06",
+    "timestamp": "2026-09-06T07:56:16+00:00"
+  },
+  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "OpenAI Announced $1B in Defensive Tools for Water Utilities",
@@ -590,26 +640,6 @@
     "timestamp": "2026-09-04T08:28:51+00:00"
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
-    "summary": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws. The fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0.…",
-    "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
-    "category": "Vest",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T07:35:14+00:00"
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Dark Web Service Nexus Sells 153M+ Driver’s Licenses",
-    "summary": "FBI probes suspected breach at IDScan.net after dark web service Nexus offered 153M+ US and Canadian driver’s license scans. A dark web identity theft service called Nexus appeared on September 1, 2026, offering…",
-    "url": "https://securityaffairs.com/198388/security/dark-web-service-nexus-sells-153m-drivers-licenses.html",
-    "category": "Breaking News",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T07:02:00+00:00"
-  },
-  {
     "source": "Help Net Security",
     "rank": 7,
     "title": "September 2026 Patch Tuesday forecast: All we need is more time",
@@ -750,16 +780,6 @@
     "timestamp": "2026-09-03T20:18:14+00:00"
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Pegasus and NoviSpy Used Against Serbian Protesters",
-    "summary": "Serbian activists were targeted with zero-click Pegasus and NoviSpy spyware, exposing a major surveillance campaign ahead of elections. A member of Serbia’s student protest movement had their iPhone infected with NSO…",
-    "url": "https://securityaffairs.com/198377/intelligence/pegasus-and-novispy-used-against-serbian-protesters.html",
-    "category": "Breaking News",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T20:17:00+00:00"
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Coder's registry infrastructure compromised to push malicious modules",
@@ -870,16 +890,6 @@
     "timestamp": "2026-09-03T14:00:00+00:00"
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Thomson Reuters reveals breach that exposed U.S. and Canadian court records",
-    "summary": "Thomson Reuters has disclosed a data breach affecting C-Track, a court case management platform operated by its subsidiaries, exposing court records and sensitive personal information across courts in at least 12 US…",
-    "url": "https://www.helpnetsecurity.com/2026/09/03/thomson-reuters-reveals-breach-that-exposed-u-s-and-canadian-court-records/",
-    "category": "Don't miss",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T13:50:36+00:00"
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "CREST Onboards First Cohort for AI-Enabled Pentesting Accreditation",
@@ -895,6 +905,16 @@
     "title": "'Breeze Comet' Tears Into Brazilian & Global Financial Systems",
     "summary": "Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.",
     "url": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems",
+    "category": "Vest",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T12:00:00+00:00"
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "US and Canadian Court Records Breached Following Thomson Reuters Incident",
+    "summary": "Thomson Reuters has disclosed a cyber incident affecting its C-Track court management software, potentially exposing court records in Canada and the US",
+    "url": "https://www.infosecurity-magazine.com/news/us-canada-court-breach-thomson/",
     "category": "Vest",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T12:00:00+00:00"
@@ -1478,25 +1498,5 @@
     "category": "Security",
     "date": "2026-08-27",
     "timestamp": "2026-08-27T18:12:17+00:00"
-  },
-  {
-    "source": "Ars Technica Security",
-    "rank": 19,
-    "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
-    "summary": "227 install commands were found in corporate docs pointing at code nobody owns.",
-    "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
-    "category": "AI",
-    "date": "2026-08-27",
-    "timestamp": "2026-08-27T14:00:13+00:00"
-  },
-  {
-    "source": "Ars Technica Security",
-    "rank": 19,
-    "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
-    "summary": "Without authorization, 1,200 OpenAI agents conspired among themselves to game a test.",
-    "url": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
-    "category": "AI",
-    "date": "2026-08-27",
-    "timestamp": "2026-08-27T12:58:59+00:00"
   }
 ]
