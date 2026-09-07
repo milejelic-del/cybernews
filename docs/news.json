@@ -1,5 +1,15 @@
 [
   {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "ChatGPT Astra is now rolling out to $20 Plus subscription",
+    "summary": "OpenAI is now rolling out ChatGPT Astra, its most powerful model to date, to those with a $20 Plus subscription, but there's no word on when free users will get access.. [...]",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T01:15:43+00:00"
+  },
+  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Sponsored: Authentik is rethinking PAM for AI agents",
@@ -400,16 +410,6 @@
     "timestamp": "2026-09-04T14:30:15+00:00"
   },
   {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "OpenAI pledges $1 billion to provide resources, training for frontline cyber defenders",
-    "summary": "Amid heightened scrutiny, the company will use frontier AI to help water, power and local government providers fight malicious actors.",
-    "url": "https://www.cybersecuritydive.com/news/openai-pledges-1-billion-resources-cyber-defenders/829676/",
-    "category": "Vest",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T14:23:44+00:00"
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "39 New Methods That Compromise Passkey Authentication",
@@ -808,16 +808,6 @@
     "category": "Vest",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T20:18:14+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Coder's registry infrastructure compromised to push malicious modules",
-    "summary": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
-    "category": "Security",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T20:04:24+00:00"
   },
   {
     "source": "Ars Technica Security",
@@ -1478,6 +1468,16 @@
     "category": "Security",
     "date": "2026-08-28",
     "timestamp": "2026-08-28T15:57:58+00:00"
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "Frontier AI tipping the scales toward cyber adversaries",
+    "summary": "Researchers at Palo Alto Networks’ Unit 42 warn that threat actors are already using AI to accelerate cyberattacks beyond the abilities of modern defenses.",
+    "url": "https://www.cybersecuritydive.com/news/frontier-ai-tipping-scales-cyber-adversaries/829088/",
+    "category": "Vest",
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T15:01:51+00:00"
   },
   {
     "source": "Ars Technica Security",
