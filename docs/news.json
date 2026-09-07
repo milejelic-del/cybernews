@@ -2,6 +2,296 @@
   {
     "source": "Infosecurity Magazine",
     "rank": 9,
+    "title": "NCSC Warns Shadow AI Creates New Security Risks",
+    "summary": "NCSC warns unapproved AI tools can expose corporate data and create new security risks",
+    "url": "https://www.infosecurity-magazine.com/news/ncsc-warns-shadow-ai-security-risks/",
+    "category": "Vest",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T14:00:00+00:00"
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Chaotic Eclipse Released A PoC For NVIDIA GreenSection Memory Corruption Zero-Day",
+    "summary": "Chaotic Eclipse released GreenSection, a PoC exploit for an Nvidia GreenSection Memory Corruption Zero-Day Security researcher Chaotic Eclipse, also known as INFINITE NIGHTMARE, MSNightmare and Nightmare-Eclipse,…",
+    "url": "https://securityaffairs.com/198589/hacking/chaotic-eclipse-released-a-poc-for-nvidia-greensection-memory-corruption-zero-day.html",
+    "category": "Breaking News",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T13:42:58+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Mathspace discloses data breach affecting over 1 million people",
+    "summary": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+    "category": "Security",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T13:05:11+00:00"
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "N-able Releases Hotfix for Critical Remote Code Execution Vulnerability",
+    "summary": "The vulnerability, CVE-2026-86218, was allocated a maximum-severity rating by the software provider itself",
+    "url": "https://www.infosecurity-magazine.com/news/nable-hotfix-critical-rce/",
+    "category": "Vest",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T12:45:00+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Trezor data breach impact now reaches 81,000 customers",
+    "summary": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
+    "category": "Security",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T12:16:32+00:00"
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits",
+    "summary": "The proof-of-concept (PoC) exploits lead to privilege escalation, spawning a shell with System privileges. The post Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T12:15:57+00:00"
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Sam Altman calls GPT-6 Astra rollout ‘messy’ as enterprise users wait for access",
+    "summary": "OpenAI’s rollout of its GPT-6 Astra model ran into early access issues after paying ChatGPT users were unable to use the system shortly after launch, prompting CEO Sam Altman to apologize and say the release had been…",
+    "url": "https://www.csoonline.com/article/4219249/sam-altman-calls-gpt-6-astra-rollout-messy-as-enterprise-users-wait-for-access.html",
+    "category": "Artificial Intelligence, Generative AI, IT Governance, Security",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T12:14:18+00:00"
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "North Korean Hackers Deploy New Linux Espionage Toolkit",
+    "summary": "The stealthy toolkit embeds a backdoor in HAProxy and targets automotive and media organizations in South Korea for long-term surveillance. The post North Korean Hackers Deploy New Linux Espionage Toolkit appeared first…",
+    "url": "https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit/",
+    "category": "Malware & Threats",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T12:12:08+00:00"
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "OpenAI Agents Hijack Another Victim Website",
+    "summary": "OpenAI agents made 15,000–18,000 autonomous edits to a German wiki over three months, evading moderation and echoing tactics seen in the Hugging Face breach. The post OpenAI Agents Hijack Another Victim Website appeared…",
+    "url": "https://www.securityweek.com/openai-agents-hijack-another-victim-website/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T12:03:04+00:00"
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "Rhysida Publishes Berlin Government Data After €2m Extortion Demand Refused",
+    "summary": "The ransomware group’s published dataset reportedly includes Berlin state employee data, as well as highly sensitive emergency plans",
+    "url": "https://www.infosecurity-magazine.com/news/rhysida-berlin-data-extortion/",
+    "category": "Vest",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T12:00:00+00:00"
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+    "summary": "The StyleSmuggler zero-day allows attackers to execute code and deploy a stealthy backdoor on Adobe Commerce and Magento stores. The post Adobe Commerce Zero-Day Exploited to Backdoor Online Stores appeared first on…",
+    "url": "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T11:58:37+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "N-able patches critical N-central zero-day exploited in the wild (CVE-2026-86218)",
+    "summary": "N-able released an emergency hotfix for CVE-2026-86218, a remote code execution (RCE) flaw affecting N-central, its remote monitoring and management (RMM) solution popular with managed service providers (MSPs). In its…",
+    "url": "https://www.helpnetsecurity.com/2026/09/07/n-able-n-central-hotfix-cve-2026-86218/",
+    "category": "News",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T11:55:57+00:00"
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Back-to-back N-able bugs send admins on a patching spree",
+    "summary": "A max-severity zero-day bug could be affecting cybersecurity firm N-able’s N-central remote monitoring and management platform, the company said, even as administrators were applying a hotfix for two vulnerabilities…",
+    "url": "https://www.csoonline.com/article/4219242/back-to-back-n-able-bugs-send-admins-on-a-patching-spree.html",
+    "category": "Network Security, Remote Access Security, Security, Vulnerabilities, Zero-Day Vulnerabilities",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T11:53:54+00:00"
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "Berlin investigates new data leak after hackers publish stolen login credentials",
+    "summary": "Another trove of data from Berlin's government has appeared online, authorities said. Germany's information security agency separately warned about the Rhysida cybercrime group.",
+    "url": "https://therecord.media/germany-berlin-second-data-breach-city-agencies",
+    "category": "Government",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T11:50:00+00:00"
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Modified ScreenConnect Clients Used in Worm-Like Campaign",
+    "summary": "The attacks rely on backdoored ScreenConnect instances to transfer and execute payloads to newly connected clients. The post Modified ScreenConnect Clients Used in Worm-Like Campaign appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/modified-screenconnect-clients-used-in-worm-like-campaign/",
+    "category": "Malware & Threats",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T11:45:48+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+    "summary": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organizations across AWS,…",
+    "url": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+    "category": "Vest",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T11:45:00+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+    "summary": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. According to…",
+    "url": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+    "category": "Vest",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T11:36:39+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+    "summary": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and…",
+    "url": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+    "category": "Vest",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T11:20:14+00:00"
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "North Korea’s Lazarus Operates Through Six Distinct Cyber Clusters",
+    "summary": "Sekoia and Kudelski Security have observed that North Korea's Lazarus umbrella is split into six distinct clusters, focused on espionage, financial theft and sanctions evasion",
+    "url": "https://www.infosecurity-magazine.com/news/north-korea-lazarus-six-cyber/",
+    "category": "Vest",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T11:00:00+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "ChatGPT can now connect to your personal apps to mimic writing style",
+    "summary": "OpenAI appears to be testing a new \"Writing Style\" feature for ChatGPT that can learn how you write by looking at examples from your connected apps. [...]",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T10:36:37+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+    "summary": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services exposed to the internet. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+    "category": "Security",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T10:32:40+00:00"
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "JSCeal Hides Crypto Malware in V8 Bytecode",
+    "summary": "JSCeal hides crypto-stealing malware in V8 bytecode, but researchers built a tool to decompile it and expose its advanced theft capabilities. JSCeal is a cryptocurrency stealer that Check Point Research has tracked…",
+    "url": "https://securityaffairs.com/198573/malware/jsceal-hides-crypto-malware-in-v8-bytecode.html",
+    "category": "Breaking News",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T10:19:45+00:00"
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "New CISO appointments 2026",
+    "summary": "The upper ranks of corporate security are seeing a high rate of change as companies try to adapt to the evolving threat landscape. Many companies are hiring a chief security officer (CSO) or chief information security…",
+    "url": "https://www.csoonline.com/article/4186743/new-ciso-appointments-2026.html",
+    "category": "C-Suite, Careers, CSO and CISO, IT Governance, IT Jobs, IT Leadership",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T10:09:50+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "ConnectWise warns of new ScreenConnect flaw without patch",
+    "summary": "ConnectWise has shared temporary mitigation measures for a new ScreenConnect Remote Access vulnerability that it plans to patch later this week. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+    "category": "Security",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T10:06:38+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Attackers use rogue ScreenConnect clients to spread malware",
+    "summary": "A file transfer flaw in ScreenConnect Remote Access Support and Access sessions affects both Cloud and On-Premise deployments, ConnectWise confirmed. “A CVE identifier and an official fix will be issued within the…",
+    "url": "https://www.helpnetsecurity.com/2026/09/07/connectwise-screenconnect-file-transfer-flaw/",
+    "category": "News",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T09:13:06+00:00"
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "Multiple Class Action Lawsuits Filed Against IDScan",
+    "summary": "Several victims of a recent breach of driver’s license information have sued the company they believe responsible",
+    "url": "https://www.infosecurity-magazine.com/news/multiple-class-action-lawsuits/",
+    "category": "Vest",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T09:10:00+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "OpenAI just hit a milestone on the road to self-improving AI",
+    "summary": "OpenAI has announced that it has reached a goal set last fall of having an automated research intern by September 2026. The milestone means a system can carry out well-defined research tasks under human direction,…",
+    "url": "https://www.helpnetsecurity.com/2026/09/07/openai-research-automation-intern/",
+    "category": "News",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T09:05:18+00:00"
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Why AI Agent Sandboxes Are Failing Security Tests",
+    "summary": "Autonomous AI agents escaped a sandbox and accessed Hugging Face via reward hacking, exposing serious architectural control and isolation flaws. The recent case involving OpenAI test agents and Hugging Face should…",
+    "url": "https://securityaffairs.com/198563/ai/why-ai-agent-sandboxes-are-failing-security-tests.html",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T08:35:04+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+    "summary": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say…",
+    "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+    "category": "Vest",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T08:31:12+00:00"
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
     "title": "Researcher Publishes CrowdStrike Privilege Escalation Zero Day",
     "summary": "A security researcher has posted a zero-day exploit in CrowdStrike which could allow hackers to escalate privileges",
     "url": "https://www.infosecurity-magazine.com/news/crowdstrike-privilege-escalation/",
@@ -200,16 +490,6 @@
     "timestamp": "2026-09-05T21:14:01+00:00"
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-    "summary": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec…",
-    "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-    "category": "Vest",
-    "date": "2026-09-05",
-    "timestamp": "2026-09-05T20:14:47+00:00"
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "PaperCut Flaws Exploited in Attacks on U.S. and European Schools",
@@ -260,16 +540,6 @@
     "timestamp": "2026-09-05T14:29:13+00:00"
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
-    "summary": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names,…",
-    "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
-    "category": "Vest",
-    "date": "2026-09-05",
-    "timestamp": "2026-09-05T14:17:02+00:00"
-  },
-  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
@@ -290,16 +560,6 @@
     "timestamp": "2026-09-05T11:11:50+00:00"
   },
   {
-    "source": "WIRED Security",
-    "rank": 18,
-    "title": "OpenAI Agents Hacked Another Website",
-    "summary": "Plus: Tens of millions of US and Canadian drivers’ licenses go up for sale on the dark web, the US military finally tries to tackle the risk online ad data poses to troops, and more.",
-    "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
-    "category": "Security",
-    "date": "2026-09-05",
-    "timestamp": "2026-09-05T10:30:00+00:00"
-  },
-  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
@@ -308,26 +568,6 @@
     "category": "Vest",
     "date": "2026-09-05",
     "timestamp": "2026-09-05T07:55:10+00:00"
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
-    "summary": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed…",
-    "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
-    "category": "Vest",
-    "date": "2026-09-05",
-    "timestamp": "2026-09-05T07:31:53+00:00"
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "U.S. CISA adds Google Chromium V8 flaw to its Known Exploited Vulnerabilities catalog",
-    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Google Chromium V8 flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a Google…",
-    "url": "https://securityaffairs.com/198455/security/u-s-cisa-adds-google-chromium-v8-flaw-to-its-known-exploited-vulnerabilities-catalog-2.html",
-    "category": "Breaking News",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T22:50:15+00:00"
   },
   {
     "source": "Ars Technica Security",
@@ -348,16 +588,6 @@
     "category": "Geopolitics",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T21:02:39+00:00"
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Crooks Behind Manchester Airports Group Hack Leaked Data of 8.8 Million People",
-    "summary": "Manchester Airports Group (MAG) data allegedly leaked by FulcrumSec exposes emails and phone numbers of 8.8 million people. Manchester Airports Group, which operates Manchester, London Stansted and East Midlands…",
-    "url": "https://securityaffairs.com/198447/data-breach/crooks-behind-manchester-airports-group-hack-leaked-data-of-8-8-million-people.html",
-    "category": "Breaking News",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T18:30:17+00:00"
   },
   {
     "source": "Ars Technica Security",
@@ -420,16 +650,6 @@
     "timestamp": "2026-09-04T15:57:31+00:00"
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
-    "summary": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters. \"Instead of using these characters to hide instructions from people while exposing them…",
-    "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
-    "category": "Vest",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T15:57:15+00:00"
-  },
-  {
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "Nvidia’s $12.9B Hugging Face deal could benefit enterprises",
@@ -460,26 +680,6 @@
     "timestamp": "2026-09-04T15:25:59+00:00"
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-    "summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server. The flaw, tracked as…",
-    "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-    "category": "Vest",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T15:20:19+00:00"
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-    "summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to…",
-    "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-    "category": "Vest",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T14:51:13+00:00"
-  },
-  {
     "source": "The Record",
     "rank": 2,
     "title": "UK account-hack losses surge as new reporting system exposes hidden cases",
@@ -490,16 +690,6 @@
     "timestamp": "2026-09-04T14:45:00+00:00"
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Microsoft says some users can’t open the Teams desktop client",
-    "summary": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
-    "category": "Microsoft",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T14:30:15+00:00"
-  },
-  {
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "OpenAI pledges $1 billion to provide resources, training for frontline cyber defenders",
@@ -508,16 +698,6 @@
     "category": "Vest",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T14:23:44+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "39 New Methods That Compromise Passkey Authentication",
-    "summary": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced…",
-    "url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
-    "category": "Security",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T14:01:11+00:00"
   },
   {
     "source": "CSO Online",
@@ -560,16 +740,6 @@
     "timestamp": "2026-09-04T13:23:12+00:00"
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
-    "summary": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date Windows systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
-    "category": "Security",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T13:22:01+00:00"
-  },
-  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "US military disabled ad tracking on troops’ devices following reports of targeted attacks",
@@ -600,16 +770,6 @@
     "timestamp": "2026-09-04T12:34:00+00:00"
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Exchange Online outage causes email delays, 'Server busy' errors",
-    "summary": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
-    "category": "Microsoft",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T12:22:30+00:00"
-  },
-  {
     "source": "Help Net Security",
     "rank": 7,
     "title": "Synology ActiveProtect Manager 2.0 improves AI-driven security",
@@ -630,56 +790,6 @@
     "timestamp": "2026-09-04T12:15:03+00:00"
   },
   {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover",
-    "summary": "Dubbed PostGREShell, CVE-2026-6471 turns low-level replication access into code execution, permanent superuser privileges and a persistent database backdoor. The post 12-Year-Old PostgreSQL Vulnerability Enables…",
-    "url": "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/",
-    "category": "Vulnerabilities",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T12:06:13+00:00"
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Catch Raises $5 Million for AI Executive Assistant With Guardrails",
-    "summary": "Catch promises the capabilities of a trusted executive assistant, with built-in controls governing what data and systems it can access. The post Catch Raises $5 Million for AI Executive Assistant With Guardrails…",
-    "url": "https://www.securityweek.com/catch-raises-5-million-for-ai-executive-assistant-with-guardrails/",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T11:55:17+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
-    "summary": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
-    "category": "Security",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T11:48:17+00:00"
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "VMware Workstation and Fusion Updates Patch Critical Vulnerability",
-    "summary": "The flaws could allow attackers with administrative access to a virtual machine to execute code on the host system. The post VMware Workstation and Fusion Updates Patch Critical Vulnerability appeared first on…",
-    "url": "https://www.securityweek.com/vmware-workstation-and-fusion-updates-patch-critical-vulnerability/",
-    "category": "Vulnerabilities",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T11:42:55+00:00"
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Google Patches 6th Chrome Zero-Day of 2026",
-    "summary": "Google’s Chrome 152 security update resolves 12 vulnerabilities, including a high-severity type confusion flaw in the V8 engine. The post Google Patches 6th Chrome Zero-Day of 2026 appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/",
-    "category": "Vulnerabilities",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T11:31:52+00:00"
-  },
-  {
     "source": "WIRED Security",
     "rank": 18,
     "title": "ICE Wants to Know Everyone Who Bought a Certain Green Beanie From REI in the Last 2 Years",
@@ -698,16 +808,6 @@
     "category": "Vest",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T10:15:00+00:00"
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Nvidia Is Buying AI Platform Hugging Face for $13 Billion",
-    "summary": "The deal highlights Nvidia’s push to champion increasingly popular open-source AI models. The post Nvidia Is Buying AI Platform Hugging Face for $13 Billion appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/nvidia-is-buying-ai-platform-hugging-face-for-13-billion/",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T10:00:00+00:00"
   },
   {
     "source": "CyberScoop",
@@ -748,56 +848,6 @@
     "category": "Cyberattacks, Cybercrime, Data and Information Security, Security, Security Practices",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T09:00:00+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Microsoft Teams is about to make QR code phishing much harder",
-    "summary": "Microsoft is preparing a new feature for Teams users that will help them stay safe from QR code phishing. Teams will automatically hide QR codes sent by people outside the organization. Users will need to reveal the…",
-    "url": "https://www.helpnetsecurity.com/2026/09/04/microsoft-teams-qr-code-phishing-protection/",
-    "category": "News",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T08:28:51+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "September 2026 Patch Tuesday forecast: All we need is more time",
-    "summary": "The Patch Apocalypse is continuing unabated. We are seeing record numbers of patches being released and reported CVEs continue to grow as well. August 2026 Patch Tuesday was the second biggest in history with 398…",
-    "url": "https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast/",
-    "category": "Don't miss",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T06:00:19+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "A five-part inventory for your AI agent credentials",
-    "summary": "In this Help Net Security video, Roy Katmor, co-founder and CEO of Orchid, explains why AI agents hold credentials that nobody reviews. Organizations build agents in AI studios, connect them to enterprise tools, and…",
-    "url": "https://www.helpnetsecurity.com/2026/09/04/ai-agent-credentials-video/",
-    "category": "News",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T05:30:39+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Scammers have figured out the best time to text you",
-    "summary": "The suspicious calls, texts, and DMs you got recently aren’t a coincidence, according to Malwarebytes. Scammers have worked out which platform gets them the best results for each type of con, and they stick to that…",
-    "url": "https://www.helpnetsecurity.com/2026/09/04/scam-texts-peak-research/",
-    "category": "News",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T05:00:59+00:00"
-  },
-  {
-    "source": "The Record",
-    "rank": 2,
-    "title": "US offers $10 million for info on Iranian allegedly behind cyberattacks on critical infrastructure",
-    "summary": "Amir Yaryab is the leader of the IRGC's cyber unit and oversees hacker groups such as the CyberAv3ngers, the State Department said in posting a reward for information about him.",
-    "url": "https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks",
-    "category": "Nation-state",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T04:00:00+00:00"
   },
   {
     "source": "Risky Business News",
@@ -1040,46 +1090,6 @@
     "timestamp": "2026-09-03T09:42:29+00:00"
   },
   {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "FBI Probes Possible Breach of 153 Million Driver’s Licenses",
-    "summary": "The FBI is investigating how scans of over 153 million driver’s licenses are being sold on the dark web",
-    "url": "https://www.infosecurity-magazine.com/news/fbi-probes-breach-153-million/",
-    "category": "Vest",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T09:33:00+00:00"
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Stop playing with the CISO role. Fix cybersecurity leadership",
-    "summary": "We have spent years telling chief information security officers (CISOs) that they need to become better aligned with the business. They need to understand strategy. They need to speak the language of the board. They…",
-    "url": "https://www.csoonline.com/article/4217607/stop-playing-with-the-ciso-role-fix-cybersecurity-leadership.html",
-    "category": "C-Suite, Careers, CSO and CISO, IT Leadership, Roles",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T09:00:00+00:00"
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "International Operation Disrupts Sality P2P Botnet",
-    "summary": "US-led action sinkholes machines caught up in Sality botnet",
-    "url": "https://www.infosecurity-magazine.com/news/international-operation-disrupts/",
-    "category": "Vest",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T08:30:00+00:00"
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Zero trust has a big AI agent problem ahead",
-    "summary": "Despite singing the praises of zero trust for many years, many CISOs have struggled to implement the framework in full . And now comes what could be the final nail: agentic AI. Can zero trust coexist with autonomous…",
-    "url": "https://www.csoonline.com/article/4215449/zero-trust-has-a-big-ai-agent-problem-ahead.html",
-    "category": "Access Control, Artificial Intelligence, Identity and Access Management, Security, Zero Trust",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T08:25:00+00:00"
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Srsly Risky Biz: China's botnets are worth disrupting",
@@ -1088,16 +1098,6 @@
     "category": "Vest",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T04:19:35+00:00"
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "SonicWall reports two major security holes under active exploit",
-    "summary": "SonicWall on Monday reported two major security holes in its Secure Mobile Access 1000 series appliances, both of which it said are being actively exploited, and published patches for each. Consultants called the holes,…",
-    "url": "https://www.csoonline.com/article/4217682/sonicwall-reports-two-major-security-holes-under-active-exploit-2.html",
-    "category": "Network Security, Security, Vulnerabilities",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T23:22:10+00:00"
   },
   {
     "source": "Dark Reading",
@@ -1220,26 +1220,6 @@
     "timestamp": "2026-09-02T15:00:00+00:00"
   },
   {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "Russian Man Extradited Over Malware Campaign Targeting Freelancers",
-    "summary": "Russian man extradited to US over malware campaign that targeted 80,000 freelance users",
-    "url": "https://www.infosecurity-magazine.com/news/russian-man-extradited-malware/",
-    "category": "Vest",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T15:00:00+00:00"
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "Gambling Goblin Turns Brazilian Government Sites Into SEO Weapons",
-    "summary": "Gambling Goblin compromised Brazilian government sites to drive gambling traffic through SEO fraud",
-    "url": "https://www.infosecurity-magazine.com/news/gambling-goblin-brazilian/",
-    "category": "Vest",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T14:00:00+00:00"
-  },
-  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "Norway considers ban on camera-enabled wearable ‘pervert glasses’",
@@ -1258,16 +1238,6 @@
     "category": "Biz & IT",
     "date": "2026-09-02",
     "timestamp": "2026-09-02T11:00:43+00:00"
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "Nutex Health Says Patient Data Stolen, Hackers Threaten Leak",
-    "summary": "The US healthcare provider confirmed that sensitive patient and employee data, alongside financial and business information, were exfiltrated by a third party",
-    "url": "https://www.infosecurity-magazine.com/news/nutex-patient-data-stolen/",
-    "category": "Vest",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T10:45:00+00:00"
   },
   {
     "source": "Risky Business News",
@@ -1498,5 +1468,35 @@
     "category": "Security",
     "date": "2026-08-28",
     "timestamp": "2026-08-28T15:57:58+00:00"
+  },
+  {
+    "source": "Ars Technica Security",
+    "rank": 19,
+    "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
+    "summary": "The group infected more than 1,000 organizations in a relentless supply-chain attack campaign.",
+    "url": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/",
+    "category": "Biz & IT",
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T11:15:05+00:00"
+  },
+  {
+    "source": "WIRED Security",
+    "rank": 18,
+    "title": "How an Atlanta Suburb Ended Up Sharing Flock Data With More Than 2,000 Organizations",
+    "summary": "Alpharetta, Georgia, cops share data with thousands of Flock users, ranging from federal agencies to a fish and wildlife commission. The reasons why show how vast—and invasive—the network has become.",
+    "url": "https://www.wired.com/story/how-an-atlanta-suburb-ended-up-sharing-flock-data-with-more-than-2000-organizations/",
+    "category": "Security",
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T09:00:00+00:00"
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Risky Bulletin: Two TeamPCP members arrested in Australia",
+    "summary": "Two members of TeamPCP arrested in Australia, Qilin hits the US firearms agency, America seizes two more Chinese botnets, CISA says most cyber activity is opportunistic.",
+    "url": "https://risky.biz/RBNEWS606/",
+    "category": "Vest",
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T04:34:25+00:00"
   }
 ]
