@@ -1,5 +1,125 @@
 [
   {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "N-able Patches Critical Zero-Day in N-central",
+    "summary": "Administrators are advised to check their deployments for newly created user accounts they don’t recognize. The post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T10:37:58+00:00"
+  },
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "In most cities, nobody owns the whole network",
+    "summary": "July’s intrusions reached water controllers that sat on a cellular link no city network scan would find. Naming an owner and paying for the fix are decisions a utility can make this fiscal year, out of money it already…",
+    "url": "https://cyberscoop.com/water-utility-cybersecurity-network-segmentation-op-ed/",
+    "category": "Commentary",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T10:00:00+00:00"
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "BigBear 2 PhaaS Campaign Steals 5000+ Microsoft Credentials",
+    "summary": "CloudSEK has uncovered BigBear 2.0, a new phishing-as-a-service operation targeting Microsoft 365",
+    "url": "https://www.infosecurity-magazine.com/news/bigbear-2-phaas-5000-microsoft/",
+    "category": "Vest",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T09:45:00+00:00"
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "North Korea-linked Hackers Hide a Backdoor Inside HAProxy",
+    "summary": "North Korea-linked hackers hid a backdoor inside HAProxy, masking C2 traffic and stealing data while keeping the load balancer working normally. North Korean-linked hackers found a genuinely clever hiding spot for their…",
+    "url": "https://securityaffairs.com/198656/apt/north-korea-linked-hackers-hide-a-backdoor-inside-haproxy.html",
+    "category": "APT",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T09:11:01+00:00"
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Security leaders must prepare for likely threats, not sensationalized agentic attacks",
+    "summary": "A malicious dataset exploits code-execution paths in a remote-code dataset loader and a dataset configuration before compromising access credentials to move laterally through the target network. A frontier AI model…",
+    "url": "https://www.csoonline.com/article/4218759/security-leaders-must-prepare-for-likely-threats-not-sensationalized-agentic-attacks.html",
+    "category": "Artificial Intelligence, Cyberattacks, Cybercrime, Security, Threat and Vulnerability Management",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T09:00:00+00:00"
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "Essential AI agent security questions",
+    "summary": "AI agents are outpacing legacy IAM. Discover the 3 questions every CISO must ask to secure them.",
+    "url": "https://www.cybersecuritydive.com/spons/essential-ai-agent-security-questions/829508/",
+    "category": "Vest",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T09:00:00+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+    "summary": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams. The campaign, discovered by the DFIR…",
+    "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+    "category": "Vest",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T08:43:51+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Jellyfin 12.0 security fixes arrive alongside the removal of legacy client logins",
+    "summary": "Jellyfin shipped version 12.0 of its media server. Several of the security fixes in it block requests built to reach files outside the folders the server is supposed to hand out. The rest of the security work touches…",
+    "url": "https://www.helpnetsecurity.com/2026/09/08/jellyfin-12-0-security-fixes/",
+    "category": "News",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T08:41:53+00:00"
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Securing AI agents: Key controls and best practices",
+    "summary": "Enterprises increasingly give AI agents the credentials, tools, and network access of privileged employees, but security experts warn that existing security controls designed to govern human access are insufficient. An…",
+    "url": "https://www.csoonline.com/article/4218440/securing-ai-agents-key-controls-and-best-practices.html",
+    "category": "Access Control, Artificial Intelligence, Identity and Access Management, Risk Management, Security",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T08:25:00+00:00"
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "IT Help Desk Impersonation Lets Hackers Bypass MFA",
+    "summary": "Attackers bypass endpoint security by posing as IT staff, stealing Microsoft 365 sessions, draining SaaS data and demanding extortion. Forget installing malware because today’s extortionists just pick up the phone…",
+    "url": "https://securityaffairs.com/198634/cyber-crime/it-help-desk-impersonation-lets-hackers-bypass-mfa.html",
+    "category": "Breaking News",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T07:41:27+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
+    "summary": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight details spanning 2017…",
+    "url": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+    "category": "Security",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T07:35:50+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
+    "summary": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties. Grindr,…",
+    "url": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
+    "category": "Vest",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T07:00:43+00:00"
+  },
+  {
     "source": "Help Net Security",
     "rank": 7,
     "title": "Ransomware negotiation tactics have turned into a business process",
@@ -230,16 +350,6 @@
     "timestamp": "2026-09-07T11:58:37+00:00"
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "N-able patches critical N-central zero-day exploited in the wild (CVE-2026-86218)",
-    "summary": "N-able released an emergency hotfix for CVE-2026-86218, a remote code execution (RCE) flaw affecting N-central, its remote monitoring and management (RMM) solution popular with managed service providers (MSPs). In its…",
-    "url": "https://www.helpnetsecurity.com/2026/09/07/n-able-n-central-hotfix-cve-2026-86218/",
-    "category": "News",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T11:55:57+00:00"
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "Back-to-back N-able bugs send admins on a patching spree",
@@ -460,26 +570,6 @@
     "timestamp": "2026-09-07T06:17:41+00:00"
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "ToolHive: The open-source way to run any MCP server securely",
-    "summary": "ToolHive is an open-source platform that runs Model Context Protocol servers inside containers. An MCP server is the connector that lets an AI client like Cursor or Claude Code reach an outside tool, and Stacklok ships…",
-    "url": "https://www.helpnetsecurity.com/2026/09/07/toolhive-open-source-mcp-server-security/",
-    "category": "News",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T05:30:26+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Zero trust AI agents demand a different kind of security",
-    "summary": "In this interview, Chris Webber, VP, Product Marketing at Teleport, explains why zero trust principles need to change for AI agents. He covers how agents act fast, unpredictably, and continuously, and why old ideas like…",
-    "url": "https://www.helpnetsecurity.com/2026/09/07/chris-webber-teleport-zero-trust-ai-agents/",
-    "category": "News",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T05:00:25+00:00"
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Risky Bulletin: BEC campaign steals €35 million from French notaries",
@@ -550,36 +640,6 @@
     "timestamp": "2026-09-06T09:32:38+00:00"
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
-    "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of…",
-    "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-    "category": "Vest",
-    "date": "2026-09-06",
-    "timestamp": "2026-09-06T08:34:20+00:00"
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 113",
-    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Hackers Steal Claude Login Sessions With Infostealer Malware to…",
-    "url": "https://securityaffairs.com/198522/security/security-affairs-malware-newsletter-round-113.html",
-    "category": "Breaking News",
-    "date": "2026-09-06",
-    "timestamp": "2026-09-06T08:27:01+00:00"
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Security Affairs newsletter Round 593 by Pierluigi Paganini – INTERNATIONAL EDITION",
-    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter,…",
-    "url": "https://securityaffairs.com/198495/breaking-news/security-affairs-newsletter-round-593-by-pierluigi-paganini-international-edition.html",
-    "category": "Breaking News",
-    "date": "2026-09-06",
-    "timestamp": "2026-09-06T07:56:16+00:00"
-  },
-  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
@@ -588,16 +648,6 @@
     "category": "AI",
     "date": "2026-09-05",
     "timestamp": "2026-09-05T18:05:27+00:00"
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-    "summary": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to…",
-    "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-    "category": "Vest",
-    "date": "2026-09-05",
-    "timestamp": "2026-09-05T16:52:33+00:00"
   },
   {
     "source": "BleepingComputer",
@@ -618,16 +668,6 @@
     "category": "Application Security",
     "date": "2026-09-05",
     "timestamp": "2026-09-05T13:00:28+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
-    "summary": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model \"misalignment\"…",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
-    "category": "Security",
-    "date": "2026-09-05",
-    "timestamp": "2026-09-05T11:11:50+00:00"
   },
   {
     "source": "Ars Technica Security",
@@ -732,7 +772,7 @@
   {
     "source": "Cybersecurity Dive",
     "rank": 14,
-    "title": "OpenAI pledges $1 billion to provide resources, training for frontline cyber defenders",
+    "title": "OpenAI pledges $1B to provide resources, training for frontline cyber defenders",
     "summary": "Amid heightened scrutiny, the company will use frontier AI to help water, power and local government providers fight malicious actors.",
     "url": "https://www.cybersecuritydive.com/news/openai-pledges-1-billion-resources-cyber-defenders/829676/",
     "category": "Vest",
@@ -768,16 +808,6 @@
     "category": "Data Privacy, Industry, Markets, Privacy, Security, Transportation and Logistics Industry",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T13:29:51+00:00"
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Sangoma Switchvox Vulnerabilities Exploited in the Wild",
-    "summary": "Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution. The post Sangoma Switchvox Vulnerabilities Exploited in the Wild appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/",
-    "category": "Vulnerabilities",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T13:23:12+00:00"
   },
   {
     "source": "TechCrunch Security",
@@ -1030,31 +1060,11 @@
     "timestamp": "2026-09-03T14:00:00+00:00"
   },
   {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "CREST Onboards First Cohort for AI-Enabled Pentesting Accreditation",
-    "summary": "CREST’s new AI-enabled penetration testing accreditation welcomes its first 10 providers",
-    "url": "https://www.infosecurity-magazine.com/news/crest-first-cohort-ai-pentesting/",
-    "category": "Vest",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T13:00:00+00:00"
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "'Breeze Comet' Tears Into Brazilian & Global Financial Systems",
     "summary": "Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.",
     "url": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems",
-    "category": "Vest",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T12:00:00+00:00"
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "US and Canadian Court Records Breached Following Thomson Reuters Incident",
-    "summary": "Thomson Reuters has disclosed a cyber incident affecting its C-Track court management software, potentially exposing court records in Canada and the US",
-    "url": "https://www.infosecurity-magazine.com/news/us-canada-court-breach-thomson/",
     "category": "Vest",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T12:00:00+00:00"
@@ -1090,16 +1100,6 @@
     "timestamp": "2026-09-03T11:38:01+00:00"
   },
   {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Counterfeit installers turn routine software downloads into enterprise breaches",
-    "summary": "Microsoft has warned that attackers are breaching enterprise systems via counterfeit download sites impersonating software including Microsoft Edge, Kaspersky and Razer, delivering trojanized installers for persistent…",
-    "url": "https://www.csoonline.com/article/4218075/counterfeit-installers-turn-routine-software-downloads-into-enterprise-breaches.html",
-    "category": "Cybercrime, Malware, Security",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T11:17:32+00:00"
-  },
-  {
     "source": "WIRED Security",
     "rank": 18,
     "title": "This Is Flock’s AI Search Tool for Cops",
@@ -1108,16 +1108,6 @@
     "category": "Security",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T10:00:00+00:00"
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "AI agents help compress ransomware intrusion to under 10 hours, raising stakes for CISOs",
-    "summary": "A ransomware attacker used AI agents to move through an enterprise network in less than 10 hours, according to Palo Alto Networks researchers, who estimated that similar work could have taken human operators about two…",
-    "url": "https://www.csoonline.com/article/4217976/ai-agents-help-compress-ransomware-intrusion-to-under-10-hours-raising-stakes-for-cisos.html",
-    "category": "Artificial Intelligence, Cybercrime, Malware, Ransomware, Security",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T09:42:29+00:00"
   },
   {
     "source": "Risky Business News",
@@ -1290,16 +1280,6 @@
     "timestamp": "2026-09-01T22:40:28+00:00"
   },
   {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "FBI raises alarm over deceptive phishing campaign targeting prominent people",
-    "summary": "The ongoing social engineering threat, which dates back to late 2025, tricks victims into granting threat actors long-term access to their accounts. The post FBI raises alarm over deceptive phishing campaign targeting…",
-    "url": "https://cyberscoop.com/fbi-alert-oauth-consent-phishing-campaign/",
-    "category": "Cybersecurity",
-    "date": "2026-09-01",
-    "timestamp": "2026-09-01T21:30:45+00:00"
-  },
-  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "X says attackers are targeting user accounts after the launch of X Money",
@@ -1430,16 +1410,6 @@
     "timestamp": "2026-08-31T15:19:32+00:00"
   },
   {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "State-linked actor targets Cisco routers for espionage",
-    "summary": "An actor known as Fire Ant has expanded its reach into trusted environments, with unique tooling and stealth.",
-    "url": "https://www.cybersecuritydive.com/news/state-actor-cisco-routers-China-espionage/829181/",
-    "category": "Vest",
-    "date": "2026-08-31",
-    "timestamp": "2026-08-31T14:57:44+00:00"
-  },
-  {
     "source": "WIRED Security",
     "rank": 18,
     "title": "ATM Flaws Reveal Key Weaknesses in the Software Supply Chain",
@@ -1498,5 +1468,35 @@
     "category": "Security",
     "date": "2026-08-28",
     "timestamp": "2026-08-28T15:57:58+00:00"
+  },
+  {
+    "source": "Ars Technica Security",
+    "rank": 19,
+    "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
+    "summary": "The group infected more than 1,000 organizations in a relentless supply-chain attack campaign.",
+    "url": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/",
+    "category": "Biz & IT",
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T11:15:05+00:00"
+  },
+  {
+    "source": "WIRED Security",
+    "rank": 18,
+    "title": "How an Atlanta Suburb Ended Up Sharing Flock Data With More Than 2,000 Organizations",
+    "summary": "Alpharetta, Georgia, cops share data with thousands of Flock users, ranging from federal agencies to a fish and wildlife commission. The reasons why show how vast—and invasive—the network has become.",
+    "url": "https://www.wired.com/story/how-an-atlanta-suburb-ended-up-sharing-flock-data-with-more-than-2000-organizations/",
+    "category": "Security",
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T09:00:00+00:00"
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Risky Bulletin: Two TeamPCP members arrested in Australia",
+    "summary": "Two members of TeamPCP arrested in Australia, Qilin hits the US firearms agency, America seizes two more Chinese botnets, CISA says most cyber activity is opportunistic.",
+    "url": "https://risky.biz/RBNEWS606/",
+    "category": "Vest",
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T04:34:25+00:00"
   }
 ]
