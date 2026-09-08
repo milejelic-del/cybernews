@@ -1,5 +1,45 @@
 [
   {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Ransomware negotiation tactics have turned into a business process",
+    "summary": "In this Help Net Security video, Dave Ross, Senior Director of the Intelligence Fusion Team at Intel 471, explains what happens behind the scenes during ransomware negotiations. Ross walks through the tactics groups use…",
+    "url": "https://www.helpnetsecurity.com/2026/09/08/ransomware-negotiation-tactics-video/",
+    "category": "Don't miss",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T05:40:27+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Product showcase: Doppler secures secrets for humans, pipelines, and AI agents",
+    "summary": "Every engineering team has spent years trying to keep credentials out of source code. Then AI agents moved the problem. Coding agents review code, agents run workflows, and MCP servers broker access to databases, cloud…",
+    "url": "https://www.helpnetsecurity.com/2026/09/08/product-showcase-doppler-secrets-management-platform/",
+    "category": "News",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T05:00:56+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Microsoft’s Project Zenith puts large AI models directly on developer PCs",
+    "summary": "Microsoft’s Project Zenith is a ready-to-code Windows 11 experience for developer-class PCs capable of running AI models with more than 30 billion parameters locally without relying on metered cloud tokens. Designed for…",
+    "url": "https://www.helpnetsecurity.com/2026/09/08/microsoft-project-zenith-windows-11-experience/",
+    "category": "News",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T04:30:33+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Cybersecurity jobs available right now: September 8, 2026",
+    "summary": "CISO AudioCodes | Israel | Hybrid – View job details As a CISO, you will lead security strategy, governance, and risk management across SaaS, managed services, and customer-hosted environments. You will oversee security…",
+    "url": "https://www.helpnetsecurity.com/2026/09/08/cybersecurity-jobs-available-right-now-september-8-2026/",
+    "category": "News",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T04:00:11+00:00"
+  },
+  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Between Two Nerds: Can AI defend critical infrastructure?",
@@ -440,16 +480,6 @@
     "timestamp": "2026-09-07T05:00:25+00:00"
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "18 ways to check whether data can be trusted for AI",
-    "summary": "ETSI has published TR 104 180, a technical report that defines 18 metrics for measuring data quality, giving companies a way to check whether their data is good enough for AI before they use it. The report defines each…",
-    "url": "https://www.helpnetsecurity.com/2026/09/07/etsi-ai-data-quality-metrics/",
-    "category": "News",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T04:30:27+00:00"
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Risky Bulletin: BEC campaign steals €35 million from French notaries",
@@ -538,16 +568,6 @@
     "category": "Breaking News",
     "date": "2026-09-06",
     "timestamp": "2026-09-06T08:27:01+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Week in review: Claude accounts compromised through infostealer, Patch Tuesday forecast",
-    "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Anthropic locks out Claude users after infostealers hijack login sessions Anthropic has started locking users out of…",
-    "url": "https://www.helpnetsecurity.com/2026/09/06/week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast/",
-    "category": "News",
-    "date": "2026-09-06",
-    "timestamp": "2026-09-06T08:00:56+00:00"
   },
   {
     "source": "Security Affairs",
@@ -788,16 +808,6 @@
     "category": "Cybercrime",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T12:34:00+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Synology ActiveProtect Manager 2.0 improves AI-driven security",
-    "summary": "Synology launched ActiveProtect Manager 2.0 (APM 2.0), the latest software update for its ActiveProtect data protection appliances. This release introduces expanded platform coverage, cross-platform recovery, and…",
-    "url": "https://www.helpnetsecurity.com/2026/09/04/synology-activeprotect-manager-2-0-data-protection/",
-    "category": "Industry news",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T12:19:50+00:00"
   },
   {
     "source": "Dark Reading",
@@ -1488,15 +1498,5 @@
     "category": "Security",
     "date": "2026-08-28",
     "timestamp": "2026-08-28T15:57:58+00:00"
-  },
-  {
-    "source": "Ars Technica Security",
-    "rank": 19,
-    "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
-    "summary": "The group infected more than 1,000 organizations in a relentless supply-chain attack campaign.",
-    "url": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/",
-    "category": "Biz & IT",
-    "date": "2026-08-28",
-    "timestamp": "2026-08-28T11:15:05+00:00"
   }
 ]
