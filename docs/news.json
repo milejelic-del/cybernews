@@ -1,5 +1,25 @@
 [
   {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Cisco bundles fixes for multiple vulnerabilities, some critical, into one patch",
+    "summary": "Cisco is looking to get ahead of attackers with a new set of more than a half-dozen fixes, some of them critical, for its IOS XR Linux-based network operating system (OS). As part of its regular testing, Cisco’s…",
+    "url": "https://www.csoonline.com/article/4219968/cisco-bundles-fixes-for-multiple-vulnerabilities-some-critical-into-one-patch-2.html",
+    "category": "Network Security, Security, Vulnerabilities",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T02:22:40+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
+    "summary": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their exact date of birth. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
+    "category": "Microsoft",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T01:16:27+00:00"
+  },
+  {
     "source": "The Record",
     "rank": 2,
     "title": "Microsoft posts nearly 1,000 bugs for Patch Tuesday as CISA warns two being exploited",
@@ -433,7 +453,7 @@
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "Don’t let AI distract from cybersecurity basics, officials and executives warn",
-    "summary": "Government and industry leaders said simple attacks remain far more consequential than anything AI is doing.",
+    "summary": "Simple attacks remain far more consequential than anything AI is doing, government and industry leaders said.",
     "url": "https://www.cybersecuritydive.com/news/ai-cybersecurity-basics-billington/829777/",
     "category": "Vest",
     "date": "2026-09-08",
@@ -468,16 +488,6 @@
     "category": "Industry news",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T13:43:18+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
-    "summary": "Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
-    "category": "Security",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T13:34:47+00:00"
   },
   {
     "source": "SecurityWeek",
@@ -658,6 +668,16 @@
     "category": "Vest",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T09:45:00+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+    "summary": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as…",
+    "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+    "category": "Vest",
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T09:13:47+00:00"
   },
   {
     "source": "Security Affairs",
@@ -950,16 +970,6 @@
     "timestamp": "2026-09-07T08:28:00+00:00"
   },
   {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "What do CISOs need to rest easy about future AI risks?",
-    "summary": "Security leaders’ confidence in their ability to navigate the security risks AI will pose over the next two years rests on several clear factors, according to IANS analysis of its AI Security Survey, fielded earlier…",
-    "url": "https://www.csoonline.com/article/4218433/what-do-cisos-need-to-rest-easy-about-future-ai-risks.html",
-    "category": "Artificial Intelligence, CSO and CISO, IT Governance, IT Leadership, Risk Management, Security",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T08:25:00+00:00"
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Risky Bulletin: BEC campaign steals €35 million from French notaries",
@@ -1058,16 +1068,6 @@
     "category": "Vest",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T14:23:44+00:00"
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "FBI investigates breach of 153 million driving license records at IDscan.net",
-    "summary": "Drivers in North America received a nasty shock this week when it was revealed that digital scans of 153 million drivers’ licenses were for sale on the dark web. Among the victims were US Defense Secretary Pete Hegseth…",
-    "url": "https://www.csoonline.com/article/4218789/fbi-investigates-breach-of-153-million-driving-license-records-at-idscan-net.html",
-    "category": "Cyberattacks, Cybercrime, Data Breach, Data Privacy, Privacy, Security",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T13:47:47+00:00"
   },
   {
     "source": "TechCrunch Security",
