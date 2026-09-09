@@ -1,5 +1,145 @@
 [
   {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Man gets 15 years for extorting women with AI-generated porn videos",
+    "summary": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+    "category": "Security",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T08:44:22+00:00"
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "50% of CISOs see Mythos as a sign to exit the profession",
+    "summary": "CISOs already have it tough, but the straw that breaks the back of many IT security executives may be the rapidly advancing capabilities of frontier AI models, enterprise insistence on rapid and widespread AI…",
+    "url": "https://www.csoonline.com/article/4218857/50-of-cisos-see-mythos-as-a-sign-to-exit-the-profession.html",
+    "category": "Artificial Intelligence, C-Suite, Careers, CSO and CISO, IT Leadership, Risk Management, Security",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T08:25:00+00:00"
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "SAP Patches Maximum Severity “Overpass” Flaw",
+    "summary": "Onapsis urges SAP customers to patch “Overpass” vulnerability, which has a CVSS score of 10.0",
+    "url": "https://www.infosecurity-magazine.com/news/sap-patches-maximum-severity/",
+    "category": "Vest",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T08:15:00+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Google fixes yet another actively exploited Chrome zero-day (CVE-2026-87491)",
+    "summary": "Google has fixed 230 vulnerabilities in Chrome, including a zero-day flaw, CVE-2026-87491, with an in-the-wild exploit. “Google is aware that an exploit for CVE-2026-87491 exists in the wild,” the company said in a…",
+    "url": "https://www.helpnetsecurity.com/2026/09/09/google-chrome-cve-2026-87491-zero-day-flaw/",
+    "category": "Don't miss",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T07:53:57+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+    "summary": "An anonymous security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Microsoft rolled out its September 2026 Patch Tuesday security updates.…",
+    "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+    "category": "Security",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T07:30:15+00:00"
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Microsoft’s Biggest Patch Tuesday: 974 CVEs, 2 Zero-Days and 20 Wormable Bugs",
+    "summary": "September 2026 Patch Tuesday fixes a record 974 CVEs including 2 exploited zero-days, 20 wormable bugs, and a critical Exchange RCE via Visio email. Microsoft’s September 2026 Patch Tuesday set a new record. Depending…",
+    "url": "https://securityaffairs.com/198705/security/microsofts-biggest-patch-tuesday-974-cves-2-zero-days-and-20-wormable-bugs.html",
+    "category": "Breaking News",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T07:03:55+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+    "summary": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+    "category": "Security",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T06:25:48+00:00"
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Risky Bulletin: Ukraine's top prosecutor resigns amid scam call center scandal",
+    "summary": "Ukraine’s top prosecutor resigns amid a scam call center scandal, the US accuses Chinese AI companies of industrial-scale distillation, a cyberattack hits medical practices in Luxembourg, and the Liquid Network attacker…",
+    "url": "https://risky.biz/RBNEWS611/",
+    "category": "Vest",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T06:02:16+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "AI-Infra-Guard: Open-source security scanner for AI systems",
+    "summary": "Tencent’s Zhuque Lab built AI-Infra-Guard, an open-source security scanner for AI systems. It fingerprints running services such as Ollama, vLLM and ComfyUI and checks them against more than 1,600 known CVEs, inspects…",
+    "url": "https://www.helpnetsecurity.com/2026/09/09/ai-infra-guard-open-source-security-scanner-ai-systems/",
+    "category": "Don't miss",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T05:30:53+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Gartner: 70% of SOCs will pilot AI agents. Only 15% will see results",
+    "summary": "In the Gartner report Validate the Promises of AI SOC Agents With These Key Questions, analysts Craig Lawson and Andrew Davies posit that “By 2028, 70% of large SOCs will pilot AI agents to augment Tier 1 and Tier 2…",
+    "url": "https://www.helpnetsecurity.com/2026/09/09/prophet-security-evaluating-ai-soc-agents/",
+    "category": "Don't miss",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T05:00:50+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "AWS spent years rebuilding its routing control plane without taking the network down",
+    "summary": "Every AWS API call, CloudFront video stream, and Route 53 lookup crosses the same infrastructure, which AWS calls its border network. It now runs on a routing system rebuilt from scratch over several years. The system…",
+    "url": "https://www.helpnetsecurity.com/2026/09/09/aws-routing-control-plane-network/",
+    "category": "News",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T04:52:14+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "What breach and attack simulation needs to become in the AI era",
+    "summary": "Breach and attack simulation (BAS) has always had a supply chain. Somebody has to read the threat report, pull out the techniques, and turn them into something that will actually run against your controls. That somebody…",
+    "url": "https://www.helpnetsecurity.com/2026/09/09/picus-security-autonomous-breach-attack-simulation/",
+    "category": "Don't miss",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T04:30:05+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal…",
+    "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+    "category": "Vest",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T04:27:51+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "BleachBit 6.0.4 fixes secure wiping that skipped clusters on Windows",
+    "summary": "The open source cleaner BleachBit reached version 6.0.4 this week, erasing caches, browser traces, and files on Windows, Linux, and now macOS. If you shredded a sensitive file on Windows with an earlier build, parts of…",
+    "url": "https://www.helpnetsecurity.com/2026/09/09/bleachbit-6-0-4-released/",
+    "category": "News",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T04:00:38+00:00"
+  },
+  {
     "source": "CSO Online",
     "rank": 12,
     "title": "Cisco bundles fixes for multiple vulnerabilities, some critical, into one patch",
@@ -330,16 +470,6 @@
     "timestamp": "2026-09-08T16:20:23+00:00"
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
-    "summary": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnostic service is enabled. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/",
-    "category": "Microsoft",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T15:22:33+00:00"
-  },
-  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "Cylake Raises $245 Million Ahead of Cybersecurity Platform Beta",
@@ -370,16 +500,6 @@
     "timestamp": "2026-09-08T15:04:09+00:00"
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "SAP warns of maximum severity 'OVERPASS' kernel vulnerability",
-    "summary": "SAP has addressed 20 vulnerabilities across multiple products in its September 2026 security updates, including a maximum-severity memory corruption flaw in the SAP Kernel code. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
-    "category": "Security",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T14:55:20+00:00"
-  },
-  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "SAP Patches Critical Extended Passport Processing Vulnerability",
@@ -408,16 +528,6 @@
     "category": "Artificial Intelligence, Security",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T14:41:21+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
-    "summary": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. [...]",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T14:40:32+00:00"
   },
   {
     "source": "Infosecurity Magazine",
@@ -453,7 +563,7 @@
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "Don’t let AI distract from cybersecurity basics, officials and executives warn",
-    "summary": "Simple attacks remain far more consequential than anything AI is doing, government and industry leaders said.",
+    "summary": "Government and industry leaders said simple attacks remain far more consequential than anything AI is doing.",
     "url": "https://www.cybersecuritydive.com/news/ai-cybersecurity-basics-billington/829777/",
     "category": "Vest",
     "date": "2026-09-08",
@@ -578,16 +688,6 @@
     "category": "Vest",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T11:22:07+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "IT help-desk vishing tricks executives into handing over Microsoft 365 access",
-    "summary": "IT help-desk vishing calls, stolen session tokens, and sign-ins routed through residential proxies are behind a wave of data theft and extortion against Microsoft 365 and other SaaS accounts, according to Arctic Wolf.…",
-    "url": "https://www.helpnetsecurity.com/2026/09/08/vishing-microsoft-365-data-theft-extortion/",
-    "category": "News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T11:17:28+00:00"
   },
   {
     "source": "SecurityWeek",
@@ -730,16 +830,6 @@
     "timestamp": "2026-09-08T08:43:51+00:00"
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Jellyfin 12.0 security fixes arrive alongside the removal of legacy client logins",
-    "summary": "Jellyfin shipped version 12.0 of its media server. Several of the security fixes in it block requests built to reach files outside the folders the server is supposed to hand out. The rest of the security work touches…",
-    "url": "https://www.helpnetsecurity.com/2026/09/08/jellyfin-12-0-security-fixes/",
-    "category": "News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T08:41:53+00:00"
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "Securing AI agents: Key controls and best practices",
@@ -770,36 +860,6 @@
     "timestamp": "2026-09-08T07:00:43+00:00"
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Ransomware negotiation tactics have turned into a business process",
-    "summary": "In this Help Net Security video, Dave Ross, Senior Director of the Intelligence Fusion Team at Intel 471, explains what happens behind the scenes during ransomware negotiations. Ross walks through the tactics groups use…",
-    "url": "https://www.helpnetsecurity.com/2026/09/08/ransomware-negotiation-tactics-video/",
-    "category": "Don't miss",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T05:40:27+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Product showcase: Doppler secures secrets for humans, pipelines, and AI agents",
-    "summary": "Every engineering team has spent years trying to keep credentials out of source code. Then AI agents moved the problem. Coding agents review code, agents run workflows, and MCP servers broker access to databases, cloud…",
-    "url": "https://www.helpnetsecurity.com/2026/09/08/product-showcase-doppler-secrets-management-platform/",
-    "category": "News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T05:00:56+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Microsoft’s Project Zenith puts large AI models directly on developer PCs",
-    "summary": "Microsoft’s Project Zenith is a ready-to-code Windows 11 experience for developer-class PCs capable of running AI models with more than 30 billion parameters locally without relying on metered cloud tokens. Designed for…",
-    "url": "https://www.helpnetsecurity.com/2026/09/08/microsoft-project-zenith-windows-11-experience/",
-    "category": "News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T04:30:33+00:00"
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Between Two Nerds: Can AI defend critical infrastructure?",
@@ -820,16 +880,6 @@
     "timestamp": "2026-09-07T19:40:06+00:00"
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-    "summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior administrative or code…",
-    "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
-    "category": "Vest",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T18:12:09+00:00"
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "StyleSmuggler: The Magento Zero-Day Behind New Store Attacks",
@@ -838,16 +888,6 @@
     "category": "Uncategorized",
     "date": "2026-09-07",
     "timestamp": "2026-09-07T17:49:08+00:00"
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
-    "summary": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk…",
-    "url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-    "category": "Vest",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T15:51:56+00:00"
   },
   {
     "source": "Infosecurity Magazine",
@@ -862,9 +902,9 @@
   {
     "source": "Security Affairs",
     "rank": 13,
-    "title": "Chaotic Eclipse Released A PoC For NVIDIA GreenSection Memory Corruption Zero-Day",
-    "summary": "Chaotic Eclipse released GreenSection, a PoC exploit for an Nvidia GreenSection Memory Corruption Zero-Day Security researcher Chaotic Eclipse, also known as INFINITE NIGHTMARE, MSNightmare and Nightmare-Eclipse,…",
-    "url": "https://securityaffairs.com/198589/hacking/chaotic-eclipse-released-a-poc-for-nvidia-greensection-memory-corruption-zero-day.html",
+    "title": "Chaotic Eclipse Released GreenSection, A PoC For NVIDIA Memory Corruption Zero-Day",
+    "summary": "Chaotic Eclipse released GreenSection, a PoC exploit for an Nvidia Memory Corruption Zero-Day Security researcher Chaotic Eclipse, also known as INFINITE NIGHTMARE, MSNightmare and Nightmare-Eclipse, released a new…",
+    "url": "https://securityaffairs.com/198589/hacking/chaotic-eclipse-released-greensection-a-poc-for-nvidia-memory-corruption-zero-day.html",
     "category": "Breaking News",
     "date": "2026-09-07",
     "timestamp": "2026-09-07T13:42:58+00:00"
@@ -920,26 +960,6 @@
     "timestamp": "2026-09-07T11:00:00+00:00"
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "JSCeal Hides Crypto Malware in V8 Bytecode",
-    "summary": "JSCeal hides crypto-stealing malware in V8 bytecode, but researchers built a tool to decompile it and expose its advanced theft capabilities. JSCeal is a cryptocurrency stealer that Check Point Research has tracked…",
-    "url": "https://securityaffairs.com/198573/malware/jsceal-hides-crypto-malware-in-v8-bytecode.html",
-    "category": "Breaking News",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T10:19:45+00:00"
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "New CISO appointments 2026",
-    "summary": "The upper ranks of corporate security are seeing a high rate of change as companies try to adapt to the evolving threat landscape. Many companies are hiring a chief security officer (CSO) or chief information security…",
-    "url": "https://www.csoonline.com/article/4186743/new-ciso-appointments-2026.html",
-    "category": "C-Suite, Careers, CSO and CISO, IT Governance, IT Jobs, IT Leadership",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T10:09:50+00:00"
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "Multiple Class Action Lawsuits Filed Against IDScan",
@@ -948,26 +968,6 @@
     "category": "Vest",
     "date": "2026-09-07",
     "timestamp": "2026-09-07T09:10:00+00:00"
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Why AI Agent Sandboxes Are Failing Security Tests",
-    "summary": "Autonomous AI agents escaped a sandbox and accessed Hugging Face via reward hacking, exposing serious architectural control and isolation flaws. The recent case involving OpenAI test agents and Hugging Face should…",
-    "url": "https://securityaffairs.com/198563/ai/why-ai-agent-sandboxes-are-failing-security-tests.html",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T08:35:04+00:00"
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "Researcher Publishes CrowdStrike Privilege Escalation Zero Day",
-    "summary": "A security researcher has posted a zero-day exploit in CrowdStrike which could allow hackers to escalate privileges",
-    "url": "https://www.infosecurity-magazine.com/news/crowdstrike-privilege-escalation/",
-    "category": "Vest",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T08:28:00+00:00"
   },
   {
     "source": "Risky Business News",
