@@ -111,6 +111,21 @@
   .saved-toggle:hover{border-color:var(--text-faint);color:var(--text);}
   .saved-toggle.active{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);}
 
+  .pill.reg{border-color:rgba(143,184,255,.3);}
+  .pill.reg:hover{border-color:var(--link);color:var(--link);}
+
+  .reg-detail{max-width:820px;margin:8px auto 80px;padding:0 24px;}
+  .back-btn{font-family:'IBM Plex Mono',monospace;font-size:12.5px;background:var(--bg-elevated);border:1px solid var(--border);color:var(--text-dim);padding:8px 16px;border-radius:6px;cursor:pointer;margin-bottom:24px;transition:.15s;}
+  .back-btn:hover{border-color:var(--text-faint);color:var(--text);}
+  .reg-name{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--link);letter-spacing:.03em;margin:0 0 6px;}
+  .reg-title{font-size:26px;font-weight:700;margin:0 0 24px;line-height:1.3;}
+  .reg-section{margin-bottom:24px;}
+  .reg-section h3{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-faint);letter-spacing:.03em;margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid var(--border);}
+  .reg-section p{font-size:15px;line-height:1.65;color:var(--text-dim);margin:0;}
+  .reg-section ul{margin:0;padding-left:20px;}
+  .reg-section li{font-size:15px;line-height:1.7;color:var(--text-dim);margin-bottom:8px;}
+  .reg-section li::marker{color:var(--link);}
+
   footer{max-width:1180px;margin:0 auto;padding:0 24px 60px;color:var(--text-faint);font-size:12.5px;line-height:1.7;border-top:1px solid var(--border);padding-top:24px;}
 
   /* ---------- mobilni telefoni ---------- */
@@ -154,9 +169,20 @@
     <div class="cat-label">SOURCE</div>
     <div class="pill-row" id="pillRow"></div>
   </div>
+  <div class="filters" style="padding-top:0;">
+    <div class="cat-label">EU REGULATIONS</div>
+    <div class="pill-row" id="regRow"></div>
+  </div>
 </header>
 
-<div class="layout">
+<div class="reg-detail" id="regDetail" style="display:none;">
+  <button class="back-btn" id="regBackBtn">← Back to News</button>
+  <div class="reg-name" id="regName"></div>
+  <h2 class="reg-title" id="regTitle"></h2>
+  <div id="regBody"></div>
+</div>
+
+<div class="layout" id="mainLayout">
   <main>
     <div class="new-banner" id="newBanner"></div>
     <div class="recap-panel" id="recapPanel"></div>
@@ -324,6 +350,135 @@ function countsBySource(){
   return c;
 }
 
+// ---------- EU regulations reference panel ----------
+const REGULATIONS = [
+  {
+    key: "nis2",
+    tag: "Directive (EU) 2022/2555",
+    name: "NIS2 Directive",
+    what: "NIS2 is the EU's core cybersecurity law for critical sectors. It replaces the original 2016 NIS Directive with a much wider scope, stricter security requirements, and direct liability for management if obligations are ignored.",
+    who: "Medium and large organizations (generally 50+ staff or €10M+ turnover) in sectors such as energy, transport, banking, healthcare, water, digital infrastructure, public administration, and manufacturing of critical products. Some smaller entities are in scope too if they play a critical role in their sector.",
+    steps: [
+      "Put a formal cybersecurity risk management framework in place (policies, risk assessments, asset inventory).",
+      "Cover supply chain security — vet and monitor the cyber risk posed by suppliers and service providers.",
+      "Build an incident response plan that can meet the strict reporting clock: an early warning within 24 hours, a fuller notification within 72 hours, and a final report within one month.",
+      "Make sure top management is trained and formally accountable — NIS2 allows fines against executives personally for gross negligence.",
+      "Register with the relevant national authority if your sector requires it, and prepare for possible audits.",
+    ],
+  },
+  {
+    key: "dora",
+    tag: "Regulation (EU) 2022/2554",
+    name: "DORA",
+    what: "The Digital Operational Resilience Act is a dedicated cybersecurity and IT-risk framework for the EU financial sector. It standardizes how financial firms manage, test, and report on their digital resilience, including the risk posed by their IT vendors.",
+    who: "Banks, insurers, investment firms, payment and e-money institutions, crypto-asset service providers, and other regulated financial entities operating in the EU — plus the critical ICT third-party providers (cloud, data centers, software vendors) that serve them.",
+    steps: [
+      "Establish an ICT risk management framework approved and overseen by the management body.",
+      "Classify and report major ICT-related incidents to regulators within DORA's set timelines.",
+      "Run regular digital operational resilience testing, including advanced threat-led penetration testing for larger firms.",
+      "Manage third-party ICT risk formally — maintain a register of all ICT providers and include mandatory contract clauses on audit rights, security, and exit strategy.",
+      "Prepare for direct regulatory oversight if you're designated a 'critical' ICT third-party provider.",
+    ],
+  },
+  {
+    key: "cra",
+    tag: "Regulation (EU) 2024/2847",
+    name: "Cyber Resilience Act (CRA)",
+    what: "The CRA introduces mandatory cybersecurity requirements for hardware and software products sold in the EU — the first EU-wide law to regulate the security of products themselves, similar to how CE marking covers physical safety.",
+    who: "Manufacturers, importers, and distributors of 'products with digital elements' — anything from IoT devices and routers to standalone software and apps — that is placed on the EU market, with limited exceptions (e.g. medical devices and cars already covered by other EU rules).",
+    steps: [
+      "Build security into products by design and by default, including secure default configurations.",
+      "Provide security updates for the expected product lifetime and disclose how long support will last.",
+      "Set up a vulnerability handling process, including a way for security researchers to report issues.",
+      "Report actively exploited vulnerabilities and severe incidents to ENISA/national CSIRTs within tight deadlines (an early warning within 24 hours).",
+      "Complete a conformity assessment and affix CE marking before placing a covered product on the EU market.",
+    ],
+  },
+  {
+    key: "gdpr",
+    tag: "Regulation (EU) 2016/679",
+    name: "GDPR",
+    what: "The General Data Protection Regulation is the EU's foundational data protection law. It gives individuals rights over their personal data and sets strict rules for how organizations may collect, use, store, and share it.",
+    who: "Any organization — anywhere in the world — that processes the personal data of people located in the EU, whether it's a multinational, an online store, or a small local business with a website that collects visitor data.",
+    steps: [
+      "Establish a lawful basis (consent, contract, legal obligation, etc.) for every type of personal data processing you do.",
+      "Honor data subject rights — access, correction, deletion, portability — within one month of a request.",
+      "Apply data protection by design and by default, and run Data Protection Impact Assessments for high-risk processing.",
+      "Report qualifying personal data breaches to the relevant supervisory authority within 72 hours of discovery.",
+      "Appoint a Data Protection Officer if required (e.g. large-scale monitoring or sensitive data processing), and keep records of processing activities.",
+    ],
+  },
+  {
+    key: "cer",
+    tag: "Directive (EU) 2022/2557",
+    name: "CER Directive",
+    what: "The Critical Entities Resilience Directive is NIS2's physical-world counterpart: instead of cyber risk, it focuses on protecting critical entities against physical, natural, and hybrid threats — sabotage, terrorism, natural disasters, and supply disruption.",
+    who: "Organizations identified by EU member states as 'critical entities' in sectors like energy, transport, banking, health, drinking water, digital infrastructure, public administration, space, and food production — largely the same sectors covered by NIS2.",
+    steps: [
+      "Carry out a risk assessment covering physical, environmental, and hybrid threats to your critical operations.",
+      "Implement resilience measures — physical security, business continuity, and crisis management plans.",
+      "Notify the national competent authority promptly of incidents that significantly disrupt or could disrupt essential services.",
+      "Vet key personnel where relevant (background checks for staff in sensitive roles), in line with national rules.",
+      "Cooperate with national authorities that will formally designate your organization as a 'critical entity' and may conduct inspections.",
+    ],
+  },
+  {
+    key: "aiact",
+    tag: "Regulation (EU) 2024/1689",
+    name: "AI Act",
+    what: "The EU AI Act is the world's first comprehensive AI law. It takes a risk-based approach — the stricter the rules, the higher the risk an AI system poses to safety or fundamental rights — ranging from outright bans to light transparency duties.",
+    who: "Providers and deployers of AI systems placed on the EU market or whose output affects people in the EU — from developers of AI models to any company embedding AI (chatbots, hiring tools, credit scoring, biometric systems) into its products or operations.",
+    steps: [
+      "Classify each AI system you build or use by risk level: unacceptable (banned), high-risk, limited-risk, or minimal-risk.",
+      "For high-risk systems, implement risk management, data governance, technical documentation, human oversight, and accuracy/robustness testing before deployment.",
+      "Meet transparency obligations for limited-risk systems — e.g. disclosing when a user is talking to a chatbot or content is AI-generated.",
+      "Providers of general-purpose AI models must maintain technical documentation and, for the most capable models, assess and mitigate systemic risk.",
+      "Track the phased deadlines — banned-practice rules, general-purpose AI rules, and high-risk system rules apply at different dates as the Act rolls out.",
+    ],
+  },
+];
+
+function renderRegPills(){
+  const row = document.getElementById("regRow");
+  row.innerHTML = REGULATIONS.map(r =>
+    `<span class="pill reg" data-key="${r.key}">${r.name}</span>`
+  ).join("");
+  row.querySelectorAll(".pill.reg").forEach(p=>{
+    p.addEventListener("click", ()=> showRegulation(p.dataset.key));
+  });
+}
+
+function showRegulation(key){
+  const reg = REGULATIONS.find(r => r.key === key);
+  if(!reg) return;
+  document.getElementById("regName").textContent = reg.tag;
+  document.getElementById("regTitle").textContent = reg.name;
+  document.getElementById("regBody").innerHTML = `
+    <div class="reg-section">
+      <h3>WHAT IT IS</h3>
+      <p>${reg.what}</p>
+    </div>
+    <div class="reg-section">
+      <h3>WHO IT'S FOR</h3>
+      <p>${reg.who}</p>
+    </div>
+    <div class="reg-section">
+      <h3>WHAT COMPANIES NEED TO DO</h3>
+      <ul>${reg.steps.map(s=>`<li>${s}</li>`).join("")}</ul>
+    </div>
+  `;
+  document.getElementById("mainLayout").style.display = "none";
+  document.getElementById("regDetail").style.display = "block";
+  window.scrollTo(0,0);
+}
+
+function hideRegulation(){
+  document.getElementById("regDetail").style.display = "none";
+  document.getElementById("mainLayout").style.display = "";
+}
+
+document.getElementById("regBackBtn").addEventListener("click", hideRegulation);
+
 function renderStats(){
   const bar = document.getElementById("statsBar");
   const counts = countsBySource();
@@ -456,6 +611,7 @@ renderStreak();
 renderNewBanner();
 renderRecap();
 renderFeed();
+renderRegPills();
 writeLastVisitNow();
 
 // PWA: registruj service worker da bi telefon mogao da instalira sajt
