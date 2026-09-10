@@ -1,5 +1,55 @@
 [
   {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
+    "summary": "Surfshark disclosed that hackers accessed one of its internal test servers after a configuration error exposed it to the internet. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+    "category": "Security",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T19:15:07+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
+    "summary": "Microsoft Excel users report that this week's KB5002914 Office security update is breaking copy-and-paste operations and formula dragging, with affected users saying that removing or rolling back the update restores…",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+    "category": "Microsoft",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T19:07:33+00:00"
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "U.S. CISA adds Cisco, Google Chromium V8, Fortinet, and Citrix NetScaler flaws to its Known Exploited Vulnerabilities catalog",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Cisco, Google Chromium V8, Fortinet, and Citrix NetScaler flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure…",
+    "url": "https://securityaffairs.com/198850/security/u-s-cisa-adds-cisco-google-chromium-v8-fortinet-and-citrix-netscaler-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+    "category": "Breaking News",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T18:57:21+00:00"
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "Cyber Command turns to veteran of intelligence agencies for top AI role",
+    "summary": "Ronzelle Green, most recently a senior official at the National Geospatial-Intelligence Agency, will be U.S. Cyber Command's chief AI officer.",
+    "url": "https://therecord.media/cyber-command-ai-leader-ronzelle-green",
+    "category": "People",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T18:25:00+00:00"
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+    "summary": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old…",
+    "url": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+    "category": "News",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T17:47:38+00:00"
+  },
+  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "Cybersecurity M&A Roundup: 33 Deals Announced in August 2026",
@@ -15,7 +65,7 @@
     "title": "Threat groups enhance cyberattack capabilities with AI",
     "summary": "A report shows state-linked and criminal hackers are incorporating automation and agentic technology to find new victims and bypass traditional defenses.",
     "url": "https://www.cybersecuritydive.com/news/threat-groups-enhance-cyberattack-capabilities-ai/830055/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T16:08:00+00:00"
   },
@@ -55,7 +105,7 @@
     "title": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
     "summary": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
     "url": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T15:29:12+00:00"
   },
@@ -105,7 +155,7 @@
     "title": "White House sees water cybersecurity partnership in Texas as national blueprint",
     "summary": "A top cybersecurity official said the government was taking a new approach to protecting critical infrastructure.",
     "url": "https://www.cybersecuritydive.com/news/water-cybersecurity-white-house-oncd-texas-partnership-cairncross/830029/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T14:27:00+00:00"
   },
@@ -115,7 +165,7 @@
     "title": "CISA is on the verge of filling hundreds of critical vacancies",
     "summary": "Meanwhile, the agency is finalizing an incident-reporting regulation and setting up a new industry coordination structure.",
     "url": "https://www.cybersecuritydive.com/news/cisa-hiring-circia-anchor-nick-andersen/829980/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T14:27:00+00:00"
   },
@@ -145,7 +195,7 @@
     "title": "CISA Updates Insider Threat Guide With New Mitigation Advice",
     "summary": "CISA has updated its insider threat guide with new advice on remote work, AI and risk detection",
     "url": "https://www.infosecurity-magazine.com/news/cisa-updates-insider-threat-guide/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T14:00:00+00:00"
   },
@@ -215,7 +265,7 @@
     "title": "MantaxOtax Android Malware Combines Ransomware With Spyware",
     "summary": "MantaxOtax Android malware combines ransomware with extensive spyware capabilities",
     "url": "https://www.infosecurity-magazine.com/news/mantaxotax-android-malware/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T13:00:00+00:00"
   },
@@ -245,7 +295,7 @@
     "title": "FBI Publishes First-Ever Cyber Strategy, With Focus on Disrupting Threat Actors",
     "summary": "The new document appears to be part of a broader shift by the US government towards the proactive disruption of cyber threat actors",
     "url": "https://www.infosecurity-magazine.com/news/fbi-cyber-strategy-disrupting/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T12:15:00+00:00"
   },
@@ -285,7 +335,7 @@
     "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
     "summary": "Check Point has patched two critical vulnerabilities in the way its firewall and management products handle VPN certificates. The company says both could allow an unauthenticated remote attacker to run code, but only…",
     "url": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T11:45:05+00:00"
   },
@@ -295,7 +345,7 @@
     "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
     "summary": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds…",
     "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T11:41:53+00:00"
   },
@@ -305,7 +355,7 @@
     "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
     "summary": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a report published on September 9.…",
     "url": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T11:33:43+00:00"
   },
@@ -345,7 +395,7 @@
     "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal…",
     "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T10:36:46+00:00"
   },
@@ -445,7 +495,7 @@
     "title": "Anthropic Reveals Yet Another Cybersecurity Incident",
     "summary": "Anthropic has found a fourth case of its model accessing third-party systems without authorization",
     "url": "https://www.infosecurity-magazine.com/news/anthropic-another-cybersecurity/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T08:45:00+00:00"
   },
@@ -480,22 +530,12 @@
     "timestamp": "2026-09-10T08:08:16+00:00"
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "U.S. CISA adds Microsoft Windows, N-able N-central, and Adobe flaws to its Known Exploited Vulnerabilities catalog",
-    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Microsoft Windows, N-able N-central, and Adobe flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security…",
-    "url": "https://securityaffairs.com/198802/hacking/u-s-cisa-adds-microsoft-windows-n-able-n-central-and-adobe-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-    "category": "Breaking News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T08:06:19+00:00"
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "OFAC Sanctions Chinese Scam Platform Xinbi Guarantee",
     "summary": "The US Treasury has placed sanctions on notorious Chinese cybercrime marketplace Xinbi Guarantee",
     "url": "https://www.infosecurity-magazine.com/news/ofac-sanctions-chinese-scam/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T08:00:00+00:00"
   },
@@ -505,7 +545,7 @@
     "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
     "summary": "Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned in February accepted sk-1234, the example admin key in LiteLLM's own setup guide. LiteLLM is an open-source AI gateway, the software a…",
     "url": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T07:12:55+00:00"
   },
@@ -525,7 +565,7 @@
     "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
     "summary": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the…",
     "url": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T07:04:01+00:00"
   },
@@ -535,7 +575,7 @@
     "title": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
     "summary": "Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.",
     "url": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T07:00:00+00:00"
   },
@@ -585,7 +625,7 @@
     "title": "Srsly Risky Biz: America's drivers licence breach is a national security disaster",
     "summary": "Tom Uren and James Wilson talk about how Chinese intelligence services will take advantage of a massive breach of 150 million American drivers licences. They also discuss the steps the US military is taking to counter…",
     "url": "https://risky.biz/SRB183/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T03:18:00+00:00"
   },
@@ -600,32 +640,12 @@
     "timestamp": "2026-09-09T21:40:44+00:00"
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
-    "summary": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
-    "category": "Security",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T21:30:36+00:00"
-  },
-  {
-    "source": "The Record",
-    "rank": 2,
-    "title": "CISA head says agency must change quickly to prevent the 'worst that could happen'",
-    "summary": "CISA's cybersecurity, infrastructure security and emergency communications divisions are among the priorities as the agency fills vacancies created at the beginning of the Trump administration, acting director Nick…",
-    "url": "https://therecord.media/cisa-hiring-nick-andersen-warning",
-    "category": "News Briefs",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T21:25:00+00:00"
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
     "summary": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
     "url": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T21:19:55+00:00"
   },
@@ -650,22 +670,12 @@
     "timestamp": "2026-09-09T21:15:27+00:00"
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
-    "summary": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction.…",
-    "url": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
-    "category": "Security",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T21:02:14+00:00"
-  },
-  {
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "How AI anxieties dominated the summer’s big cybersecurity conference",
     "summary": "From the CVE Program to autonomous hacks, everyone is worried about the technology’s next evolution.",
     "url": "https://www.cybersecuritydive.com/news/black-hat-ai-cve-reporters-notebook/829978/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T20:10:34+00:00"
   },
@@ -680,22 +690,12 @@
     "timestamp": "2026-09-09T20:00:12+00:00"
   },
   {
-    "source": "The Record",
-    "rank": 2,
-    "title": "US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy",
-    "summary": "The U.S. government also carried out a seizure of $52.8 million from 52 wallets connected to the platform.",
-    "url": "https://therecord.media/us-disrupts-xinbi-guarantee-marketplace-cybercrime",
-    "category": "Cybercrime",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T19:54:00+00:00"
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
     "summary": "US agencies claim Chinese companies covertly extracted billions of tokens from OpenAI, Anthropic, Google Gemini, and SpaceX's Grok to reduce development costs.",
     "url": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T19:47:50+00:00"
   },
@@ -730,6 +730,16 @@
     "timestamp": "2026-09-09T18:43:58+00:00"
   },
   {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+    "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including seizing Telegram channels used to run…",
+    "url": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+    "category": "News",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T18:26:05+00:00"
+  },
+  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "US Agencies Warn Chinese AI Firms Are Extracting Advanced AI Models",
@@ -740,22 +750,12 @@
     "timestamp": "2026-09-09T18:20:36+00:00"
   },
   {
-    "source": "The Record",
-    "rank": 2,
-    "title": "Grindr settles privacy lawsuit tied to disclosure of users’ HIV statuses for $35 million",
-    "summary": "The settlement concludes a legal fight that dates to April 2024, when UK users sued for the alleged violations of their country’s privacy laws.",
-    "url": "https://therecord.media/grindr-settles-privacy-lawsuit-hiv-status-35-million",
-    "category": "Industry",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T18:11:00+00:00"
-  },
-  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
     "summary": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome.…",
     "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T16:34:05+00:00"
   },
@@ -775,7 +775,7 @@
     "title": "CISOs are feeling the security burden of accelerated AI use",
     "summary": "A report shows CISOs face increased pressures related to cyber resilience and business continuity.",
     "url": "https://www.cybersecuritydive.com/news/cisos-feeling-security-burden-accelerated-ai-use/829930/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T15:36:12+00:00"
   },
@@ -805,7 +805,7 @@
     "title": "Researchers Build WeChat Zero-Click Worm Hijacking Phones via Calls",
     "summary": "The hacking tool, built using a combination of AI models, is effective against Android and iOS devices",
     "url": "https://www.infosecurity-magazine.com/news/wechat-zeroclick-worm-hijack/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T15:00:00+00:00"
   },
@@ -815,7 +815,7 @@
     "title": "New FBI cyber strategy promises increase in adversary disruptions",
     "summary": "The document also focuses on helping victims, reflecting the bureau’s goal of encouraging more companies to share information with it.",
     "url": "https://www.cybersecuritydive.com/news/fbi-cybersecurity-strategy-disruptions-information-sharing/829913/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T14:42:02+00:00"
   },
@@ -825,7 +825,7 @@
     "title": "Identity-Based AI Attack Threatens Security of Enterprise Data",
     "summary": "\"Workflow identity hijacking\" can bypass standard security controls and hijack an organization's data by sending a basic request through an unauthenticated entry point.",
     "url": "https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T14:39:44+00:00"
   },
@@ -835,7 +835,7 @@
     "title": "Gigabud Uses Android App Cloning to Evade Fraud Detection",
     "summary": "Gigabud clones banking apps into a work profile to break the link between malware alerts and fraud",
     "url": "https://www.infosecurity-magazine.com/news/gigabud-android-app-cloning-fraud/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T14:30:00+00:00"
   },
@@ -845,7 +845,7 @@
     "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
     "summary": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others.…",
     "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T14:23:55+00:00"
   },
@@ -865,7 +865,7 @@
     "title": "ClickFix Moves into the Browser to Steal Cryptocurrency",
     "summary": "ClickFix campaign uses browser-injected JavaScript and Google Sheets to steal cryptocurrency",
     "url": "https://www.infosecurity-magazine.com/news/clickfix-browser-cryptocurrency/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T13:45:00+00:00"
   },
@@ -895,7 +895,7 @@
     "title": "NHIs Now the Number One Corporate Entry Point for Hackers",
     "summary": "SpyCloud claims non-human identities are the most likely route into the enterprise",
     "url": "https://www.infosecurity-magazine.com/news/nhis-number-one-corporate-entry/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T13:00:00+00:00"
   },
@@ -925,7 +925,7 @@
     "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
     "summary": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping between vulnerability scanners, endpoint…",
     "url": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T11:57:36+00:00"
   },
@@ -948,16 +948,6 @@
     "category": "Cybercrime, Malware, Ransomware, Security",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T11:25:52+00:00"
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
-    "summary": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command. The tool runs an agent's commands…",
-    "url": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
-    "category": "Vest",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T11:17:07+00:00"
   },
   {
     "source": "CSO Online",
@@ -1005,7 +995,7 @@
     "title": "SAP Patches Maximum Severity “Overpass” Flaw",
     "summary": "Onapsis urges SAP customers to patch “Overpass” vulnerability, which has a CVSS score of 10.0",
     "url": "https://www.infosecurity-magazine.com/news/sap-patches-maximum-severity/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T08:15:00+00:00"
   },
@@ -1025,7 +1015,7 @@
     "title": "Risky Bulletin: Ukraine's top prosecutor resigns amid scam call center scandal",
     "summary": "Ukraine’s top prosecutor resigns amid a scam call center scandal, the US accuses Chinese AI companies of industrial-scale distillation, a cyberattack hits medical practices in Luxembourg, and the Liquid Network attacker…",
     "url": "https://risky.biz/RBNEWS611/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T06:02:16+00:00"
   },
@@ -1055,7 +1045,7 @@
     "title": "Patch Tuesday Sets Another Record With 974 CVEs",
     "summary": "Attackers are actively exploiting two of the vulnerabilities, and another 58 are more likely to be exploited, according to Microsoft.",
     "url": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T21:26:02+00:00"
   },
@@ -1075,7 +1065,7 @@
     "title": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
     "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
     "url": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T21:03:46+00:00"
   },
@@ -1095,19 +1085,9 @@
     "title": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
     "summary": "Researchers and OpenAI disagree on whether an earlier incident involving DseWiki, which the company did not disclose, was a “hack.\"",
     "url": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T20:36:15+00:00"
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Hackers Drain $320 Million From Liquid Network, Then Return Most of It",
-    "summary": "Crypto exchange network Liquid Network lost $320 million overnight, then got most of it back after the hackers demanded a bug fix instead of a ransom Bitcoin’s Liquid Network, a sidechain built by Blockstream and used…",
-    "url": "https://securityaffairs.com/198697/cyber-crime/hackers-drain-320-million-from-liquid-network-then-return-most-of-it.html",
-    "category": "Breaking News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T20:35:34+00:00"
   },
   {
     "source": "CyberScoop",
@@ -1145,7 +1125,7 @@
     "title": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
     "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
     "url": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T17:25:37+00:00"
   },
@@ -1155,7 +1135,7 @@
     "title": "N-able issues patch for zero-day flaw",
     "summary": "Security researchers warned the company of unusual threat activity in a recently patched N-able environment.",
     "url": "https://www.cybersecuritydive.com/news/n-able-issues-patch-zero-day-flaw/829808/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T15:44:51+00:00"
   },
@@ -1175,7 +1155,7 @@
     "title": "France Establishes New Government-Focused Cyber Incident Response Unit",
     "summary": "After a major cyber-attack targeted France's national tax authority, the Prime Minister called for the establishment of a new dedicated cyber incident response capability",
     "url": "https://www.infosecurity-magazine.com/news/france-new-government-cyber/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T14:30:00+00:00"
   },
@@ -1195,7 +1175,7 @@
     "title": "Don’t let AI distract from cybersecurity basics, officials and executives warn",
     "summary": "Government and industry leaders said simple attacks remain far more consequential than anything AI is doing.",
     "url": "https://www.cybersecuritydive.com/news/ai-cybersecurity-basics-billington/829777/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T14:05:44+00:00"
   },
@@ -1205,7 +1185,7 @@
     "title": "Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites",
     "summary": "A Chinese-language group is compromising government and education sites to create a reverse-proxy network with gambling-themed sites.",
     "url": "https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T12:00:00+00:00"
   },
@@ -1225,7 +1205,7 @@
     "title": "Essential AI agent security questions",
     "summary": "AI agents are outpacing legacy IAM. Discover the 3 questions every CISO must ask to secure them.",
     "url": "https://www.cybersecuritydive.com/spons/essential-ai-agent-security-questions/829508/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T09:00:00+00:00"
   },
@@ -1235,7 +1215,7 @@
     "title": "Between Two Nerds: Can AI defend critical infrastructure?",
     "summary": "In this edition of Between Two Nerds Tom Uren and The Grugq talk about whether AI will help cyber defence in critical infrastructure and organisations that are below the cyber poverty line. This episode is also…",
     "url": "https://risky.biz/BTN182/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-07",
     "timestamp": "2026-09-07T19:58:22+00:00"
   },
@@ -1245,7 +1225,7 @@
     "title": "Risky Bulletin: BEC campaign steals €35 million from French notaries",
     "summary": "Hackers steal €35 million euros from French notaries, OpenAI agents hacked a German wiki, a new bill will allow the Pentagon to use cyber contractors, and the Five Eyes members tell hacked companies to drop PR spin.",
     "url": "https://risky.biz/RBNEWS610/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-07",
     "timestamp": "2026-09-07T03:34:35+00:00"
   },
@@ -1255,7 +1235,7 @@
     "title": "Sponsored: Authentik is rethinking PAM for AI agents",
     "summary": "In this Risky Business sponsored interview, James Wilson chats with Authentik Security CEO Fletcher Heisler about how AI is driving a need for privileged access management to adapt. Fletcher explains Authentik’s…",
     "url": "https://risky.biz/RBNEWSSI143/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-06",
     "timestamp": "2026-09-06T20:09:32+00:00"
   },
@@ -1305,7 +1285,7 @@
     "title": "Companies Have 6 Months to Prepare for Automated Attacks",
     "summary": "Frontier AI models have already demonstrated they can autonomously — and in some cases, inadvertently — conduct end-to-end compromises, but researchers warn the situation will become more urgent very soon.",
     "url": "https://www.darkreading.com/cybersecurity-operations/companies-six-months-prepare-automated-attacks",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T15:57:31+00:00"
   },
@@ -1315,7 +1295,7 @@
     "title": "Nvidia’s $12.9B Hugging Face deal could benefit enterprises",
     "summary": "The chipmaker’s acquisition could eventually bring additional security resources and model evaluation tools to the platform, according to experts.",
     "url": "https://www.cybersecuritydive.com/news/Nvidia-acquires-hugging-face-enterprises/829697/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T15:44:43+00:00"
   },
@@ -1335,7 +1315,7 @@
     "title": "AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?",
     "summary": "A tidal wave of bug reports is overwhelming software vendors, exposing secure-by-design failures and creating disclosure bottlenecks.",
     "url": "https://www.darkreading.com/vulnerabilities-threats/ai-ending-era-hidden-vulnerabilities-are-vendors-ready",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T13:00:00+00:00"
   },
@@ -1355,7 +1335,7 @@
     "title": "Risky Bulletin: Russia tells data centers to deploy drone defenses",
     "summary": "Russia tells data centers to deploy drone defenses, Dropbox discloses a security breach, a new spyware wave hits Serbia, and CISA scraps six free cybersecurity assessment programs.",
     "url": "https://risky.biz/RBNEWS609/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T02:54:21+00:00"
   },
@@ -1415,7 +1395,7 @@
     "title": "Srsly Risky Biz: China's botnets are worth disrupting",
     "summary": "Tom Uren and James Wilson talk about China’s long-term shift to getting private companies to build botnets for cyberespionage. A disruption effort from the US this week is good news, but China has been using these…",
     "url": "https://risky.biz/SRB182/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T04:19:35+00:00"
   },
@@ -1475,7 +1455,7 @@
     "title": "Risky Bulletin: BGP hijack delivers malicious Virtualizor updates",
     "summary": "A BGP hijack delivered malicious Virtualizor updates, the White House launches Project Watershed 250, Indian authorities take down a Telegram doxing bot, and Composer packages deliver iOS badness.",
     "url": "https://risky.biz/RBNEWS608/",
-    "category": "Vest",
+    "category": "News",
     "date": "2026-09-02",
     "timestamp": "2026-09-02T02:46:34+00:00"
   },
@@ -1498,5 +1478,25 @@
     "category": "Business",
     "date": "2026-09-01",
     "timestamp": "2026-09-01T20:00:00+00:00"
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Between Two Nerds: The perfect hacker",
+    "summary": "In this edition of Between Two Nerds Tom Uren and The Grugq talk about how AI is the perfect hacker, but what makes it perfect for states is the opposite of what makes it perfect for criminals. This episode is also…",
+    "url": "https://risky.biz/BTN181/",
+    "category": "News",
+    "date": "2026-08-31",
+    "timestamp": "2026-08-31T20:07:52+00:00"
+  },
+  {
+    "source": "Ars Technica Security",
+    "rank": 19,
+    "title": "Think twice before installing this device promising free movies",
+    "summary": "In exchange for free stuff, devices make home connections part of a proxy network.",
+    "url": "https://arstechnica.com/security/2026/08/how-some-media-streaming-devices-open-home-networks-to-a-world-of-harm/",
+    "category": "Biz & IT",
+    "date": "2026-08-31",
+    "timestamp": "2026-08-31T16:33:38+00:00"
   }
 ]
