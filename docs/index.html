@@ -37,6 +37,7 @@
   .meta-line{display:flex;flex-direction:column;align-items:flex-start;gap:2px;}
   .tagline{color:var(--text-dim);font-size:13px;margin-top:2px;}
   .credit{color:var(--text-faint);font-size:11.5px;margin-top:1px;font-family:'IBM Plex Mono',monospace;}
+  .streak-badge{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--text-faint);margin-top:1px;}
   .updated{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-top:2px;}
 
   .search-wrap{position:relative;min-width:260px;flex:0 0 auto;}
@@ -71,6 +72,8 @@
   .item-summary{font-size:14.5px;line-height:1.55;color:var(--text-dim);margin:0 0 10px;max-width:62ch;}
   .item-tags{display:flex;gap:8px;flex-wrap:wrap;}
   .item-cat{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);border:1px solid var(--border);padding:2px 8px;border-radius:4px;}
+  .coverage-badge{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--link);border:1px solid rgba(143,184,255,.35);background:rgba(143,184,255,.08);padding:2px 8px;border-radius:4px;}
+  .new-tag{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.04em;color:var(--bg);background:var(--accent);padding:1px 6px;border-radius:3px;}
   .severity-badge{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;padding:2px 8px;border-radius:4px;letter-spacing:.02em;}
   .sev-critical{background:rgba(239,106,90,.14);color:#ef6a5a;border:1px solid rgba(239,106,90,.35);}
   .sev-exploited{background:rgba(239,83,80,.18);color:#ff8a80;border:1px solid rgba(255,138,128,.4);}
@@ -84,6 +87,23 @@
   .source-list a.sname:hover{color:var(--link);}
   .source-list .stag{display:block;font-size:12px;color:var(--text-faint);margin-top:3px;line-height:1.4;}
   .source-list .rank{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-right:8px;}
+  .source-list li{display:flex;flex-wrap:wrap;align-items:center;gap:8px 0;}
+  .source-list .stag{flex:1 0 100%;}
+  .follow-btn{margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:10.5px;padding:3px 9px;border-radius:12px;border:1px solid var(--border);background:transparent;color:var(--text-faint);cursor:pointer;white-space:nowrap;transition:.15s;}
+  .follow-btn:hover{border-color:var(--text-faint);color:var(--text);}
+  .follow-btn.following{border-color:var(--accent);color:var(--accent);background:var(--accent-soft);}
+
+  .new-banner{display:none;align-items:center;justify-content:space-between;gap:12px;background:var(--accent-soft);border:1px solid var(--accent);border-radius:8px;padding:12px 16px;margin:16px 0;font-size:13.5px;color:var(--text);}
+  .new-banner button{font-family:'IBM Plex Mono',monospace;font-size:11.5px;background:none;border:1px solid var(--border);color:var(--text-dim);padding:5px 10px;border-radius:6px;cursor:pointer;}
+  .new-banner button:hover{border-color:var(--text-faint);color:var(--text);}
+
+  .recap-panel{margin:4px 0 24px;}
+  .recap-panel:empty{margin:0;}
+  .recap-title{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-faint);letter-spacing:.03em;margin:0 0 12px;}
+  .recap-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;}
+  .recap-list li{display:flex;align-items:baseline;gap:10px;padding:10px 14px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:8px;}
+  .recap-list a{font-size:14px;font-weight:600;flex:1;}
+  .recap-list a:hover{color:var(--link);}
 
   .stats-bar{display:flex;gap:24px;flex-wrap:wrap;padding:14px 0;margin-bottom:4px;border-bottom:1px solid var(--border);font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:var(--text-dim);}
   .stats-bar strong{color:var(--accent);font-weight:600;}
@@ -117,8 +137,9 @@
     <div class="meta-line">
       <div class="brand"><span class="mark"></span><h1>SIGNAL/20</h1></div>
       <div class="credit">made by Mile Jelic</div>
+      <div class="streak-badge" id="streakBadge"></div>
       <div class="tagline">A digest of the latest news from 20 leading cybersecurity portals</div>
-      <div class="updated">Automatically updated: 10.09.2026. 20:09 UTC</div>
+      <div class="updated">Automatically updated: 10.09.2026. 20:11 UTC</div>
     </div>
     <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
       <div class="search-wrap">
@@ -126,6 +147,7 @@
         <input id="searchInput" type="text" placeholder="Search news…">
       </div>
       <button class="saved-toggle" id="savedToggle">★ Saved</button>
+      <button class="saved-toggle" id="followingToggle">♥ Following</button>
     </div>
   </div>
   <div class="filters">
@@ -136,6 +158,8 @@
 
 <div class="layout">
   <main>
+    <div class="new-banner" id="newBanner"></div>
+    <div class="recap-panel" id="recapPanel"></div>
     <div class="stats-bar" id="statsBar"></div>
     <div class="feed-count" id="feedCount"></div>
     <div id="feed"></div>
@@ -147,7 +171,7 @@
 </div>
 
 <footer>
-  This site updates automatically from RSS feeds across 20 portals (last updated: 10.09.2026. 20:09 UTC). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
+  This site updates automatically from RSS feeds across 20 portals (last updated: 10.09.2026. 20:11 UTC). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
 </footer>
 
 <script>
@@ -1944,6 +1968,7 @@ function fmtDate(iso){
 let activeSource = "All";
 let query = "";
 let showSavedOnly = false;
+let showFollowingOnly = false;
 
 // ---------- saved articles (kept in this browser only) ----------
 const SAVED_KEY = "signal20-saved";
@@ -1961,12 +1986,108 @@ function toggleSaved(url){
   setSaved(arr);
 }
 
+// ---------- followed sources ----------
+const FOLLOWED_KEY = "signal20-followed";
+function getFollowed(){
+  try { return JSON.parse(localStorage.getItem(FOLLOWED_KEY) || "[]"); } catch(e){ return []; }
+}
+function setFollowed(arr){
+  try { localStorage.setItem(FOLLOWED_KEY, JSON.stringify(arr)); } catch(e){}
+}
+function isFollowed(name){ return getFollowed().includes(name); }
+function toggleFollowed(name){
+  const arr = getFollowed();
+  const idx = arr.indexOf(name);
+  if(idx === -1) arr.push(name); else arr.splice(idx,1);
+  setFollowed(arr);
+}
+
+// ---------- last visit / new-since-last-time ----------
+const LAST_VISIT_KEY = "signal20-last-visit";
+function readLastVisit(){
+  const v = localStorage.getItem(LAST_VISIT_KEY);
+  return v ? new Date(v) : null;
+}
+function writeLastVisitNow(){
+  try { localStorage.setItem(LAST_VISIT_KEY, new Date().toISOString()); } catch(e){}
+}
+const lastVisit = readLastVisit();
+function isNewArticle(n){
+  return !!lastVisit && new Date(n.timestamp) > lastVisit;
+}
+
+// ---------- visit streak ----------
+const STREAK_KEY = "signal20-streak";
+function updateStreak(){
+  const todayStr = new Date().toISOString().slice(0,10);
+  let data;
+  try { data = JSON.parse(localStorage.getItem(STREAK_KEY) || "null"); } catch(e){ data = null; }
+  if(!data){
+    data = { count: 1, lastDate: todayStr };
+  } else if(data.lastDate !== todayStr){
+    const prevDate = new Date(data.lastDate + "T00:00:00");
+    const today = new Date(todayStr + "T00:00:00");
+    const diffDays = Math.round((today - prevDate) / 86400000);
+    data.count = (diffDays === 1) ? data.count + 1 : 1;
+    data.lastDate = todayStr;
+  }
+  try { localStorage.setItem(STREAK_KEY, JSON.stringify(data)); } catch(e){}
+  return data.count;
+}
+
 // ---------- severity detection from title keywords ----------
 function severityFor(title){
   const t = title.toLowerCase();
   if(/actively exploited|exploited in the wild|zero-day/.test(t)) return {label:"Actively Exploited", cls:"sev-exploited"};
   if(/\bcritical\b/.test(t)) return {label:"Critical", cls:"sev-critical"};
   return null;
+}
+
+function renderStreak(){
+  const count = updateStreak();
+  document.getElementById("streakBadge").textContent =
+    `\u{1F525} ${count} day${count===1?"":"s"} streak`;
+}
+
+function renderNewBanner(){
+  const banner = document.getElementById("newBanner");
+  const newItems = lastVisit ? NEWS.filter(isNewArticle) : [];
+  if(!newItems.length){
+    banner.style.display = "none";
+    banner.innerHTML = "";
+    return;
+  }
+  banner.style.display = "flex";
+  banner.innerHTML = `<span>${newItems.length} new article${newItems.length===1?"":"s"} since your last visit</span><button id="dismissBanner">Dismiss</button>`;
+  document.getElementById("dismissBanner").addEventListener("click", ()=>{
+    banner.style.display = "none";
+  });
+  if("setAppBadge" in navigator){
+    try { navigator.setAppBadge(newItems.length); } catch(e){}
+  }
+}
+
+function renderRecap(){
+  const panel = document.getElementById("recapPanel");
+  if(!NEWS.length){ panel.innerHTML = ""; return; }
+  const newestTs = new Date(NEWS[0].timestamp).getTime();
+  const weekAgo = newestTs - 7*24*3600*1000;
+  const recent = NEWS.filter(n => new Date(n.timestamp).getTime() >= weekAgo);
+  const top = [...recent].sort((a,b)=>
+    (b.coverage||1) - (a.coverage||1) || new Date(b.timestamp) - new Date(a.timestamp)
+  ).slice(0,5);
+  if(!top.length){ panel.innerHTML = ""; return; }
+  panel.innerHTML = `
+    <h2 class="recap-title">THIS WEEK'S TOP STORIES</h2>
+    <ul class="recap-list">
+      ${top.map(n => `
+        <li>
+          <a href="${n.url}" target="_blank" rel="noopener">${n.title}</a>
+          ${(n.coverage||1) > 1 ? `<span class="coverage-badge">${n.coverage} sources</span>` : ""}
+        </li>
+      `).join("")}
+    </ul>
+  `;
 }
 
 function countsBySource(){
@@ -2013,9 +2134,17 @@ function renderSidebar(){
     <li>
       <span class="rank">${String(s.rank).padStart(2,"0")}</span>
       <a class="sname" href="${s.url}" target="_blank" rel="noopener">${s.name}</a>
+      <button class="follow-btn ${isFollowed(s.name)?"following":""}" data-name="${s.name}">${isFollowed(s.name)?"\u2713 Following":"+ Follow"}</button>
       <span class="stag">${s.tag}</span>
     </li>
   `).join("");
+  list.querySelectorAll(".follow-btn").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      toggleFollowed(btn.dataset.name);
+      renderSidebar();
+      renderFeed();
+    });
+  });
 }
 
 function renderFeed(){
@@ -2025,20 +2154,25 @@ function renderFeed(){
     const sourceOk = activeSource==="All" || n.source===activeSource;
     const qOk = !q || (n.title+" "+n.summary+" "+n.source).toLowerCase().includes(q);
     const savedOk = !showSavedOnly || isSaved(n.url);
-    return sourceOk && qOk && savedOk;
+    const followingOk = !showFollowingOnly || isFollowed(n.source);
+    return sourceOk && qOk && savedOk && followingOk;
   });
 
   document.getElementById("feedCount").textContent =
     `${filtered.length} ${filtered.length===1?"article":"articles"} · sorted newest to oldest`;
 
   if(!filtered.length){
-    feed.innerHTML = `<div class="empty-state">${showSavedOnly ? "You haven't saved any articles yet." : "No articles match your search."}</div>`;
+    let msg = "No articles match your search.";
+    if(showSavedOnly) msg = "You haven't saved any articles yet.";
+    else if(showFollowingOnly) msg = "You're not following any sources with articles yet.";
+    feed.innerHTML = `<div class="empty-state">${msg}</div>`;
     return;
   }
 
   feed.innerHTML = filtered.map(n=>{
     const sev = severityFor(n.title);
     const saved = isSaved(n.url);
+    const isNew = isNewArticle(n);
     return `
     <article class="item">
       <span class="bar" style="background:${colorFor(n.category)}"></span>
@@ -2046,6 +2180,7 @@ function renderFeed(){
         <div class="item-meta">
           <span class="src">${n.source}</span>
           <span>${fmtDate(n.date)}</span>
+          ${isNew ? `<span class="new-tag">NEW</span>` : ""}
           <button class="save-btn ${saved?"saved":""}" data-url="${n.url}" aria-label="Save article" title="Save for later">${saved?"\u2605":"\u2606"}</button>
         </div>
         <h3 class="item-title"><a href="${n.url}" target="_blank" rel="noopener">${n.title}</a></h3>
@@ -2053,6 +2188,7 @@ function renderFeed(){
         <div class="item-tags">
           <span class="item-cat">${n.category}</span>
           ${sev ? `<span class="severity-badge ${sev.cls}">${sev.label}</span>` : ""}
+          ${(n.coverage||1) > 1 ? `<span class="coverage-badge">${n.coverage} sources</span>` : ""}
         </div>
       </div>
     </article>
@@ -2079,10 +2215,20 @@ document.getElementById("savedToggle").addEventListener("click", ()=>{
   renderFeed();
 });
 
+document.getElementById("followingToggle").addEventListener("click", ()=>{
+  showFollowingOnly = !showFollowingOnly;
+  document.getElementById("followingToggle").classList.toggle("active", showFollowingOnly);
+  renderFeed();
+});
+
 renderPills();
 renderSidebar();
 renderStats();
+renderStreak();
+renderNewBanner();
+renderRecap();
 renderFeed();
+writeLastVisitNow();
 
 // PWA: registruj service worker da bi telefon mogao da instalira sajt
 // kao aplikaciju i da poslednje učitane vesti ostanu vidljive offline
