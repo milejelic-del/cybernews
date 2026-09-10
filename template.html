@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="sr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CYBER NEWS — Presek sajber bezbednosnih vesti</title>
+<title>SIGNAL/20 — Cybersecurity News Digest</title>
 
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#0a0c11">
-  <link rel="apple-touch-icon" href="icon-192.png">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="SIGNAL/20">
-  <link rel="icon" href="icon-192.png">
+<!-- PWA: govori telefonu da ovo može da se instalira kao aplikacija -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0a0c11">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SIGNAL/20">
+<link rel="icon" href="icon-192.png">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -34,6 +36,7 @@
   .brand h1{font-family:'IBM Plex Mono',monospace;font-size:19px;font-weight:600;letter-spacing:.02em;margin:0;}
   .meta-line{display:flex;flex-direction:column;align-items:flex-start;gap:2px;}
   .tagline{color:var(--text-dim);font-size:13px;margin-top:2px;}
+  .credit{color:var(--text-faint);font-size:11.5px;margin-top:1px;font-family:'IBM Plex Mono',monospace;}
   .updated{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-top:2px;}
 
   .search-wrap{position:relative;min-width:260px;flex:0 0 auto;}
@@ -100,16 +103,17 @@
   <div class="top-inner">
     <div class="meta-line">
       <div class="brand"><span class="mark"></span><h1>SIGNAL/20</h1></div>
-      <div class="tagline">Presek najnovijih vesti sa 20 vodećih cyber security portala</div>
-      <div class="updated">Automatski ažurirano: __GENERATED_AT__</div>
+      <div class="credit">made by Mile Jelic</div>
+      <div class="tagline">A digest of the latest news from 20 leading cybersecurity portals</div>
+      <div class="updated">Automatically updated: __GENERATED_AT__</div>
     </div>
     <div class="search-wrap">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input id="searchInput" type="text" placeholder="Pretraži vesti…">
+      <input id="searchInput" type="text" placeholder="Search news…">
     </div>
   </div>
   <div class="filters">
-    <div class="cat-label">IZVOR</div>
+    <div class="cat-label">SOURCE</div>
     <div class="pill-row" id="pillRow"></div>
   </div>
 </header>
@@ -120,13 +124,13 @@
     <div id="feed"></div>
   </main>
   <aside class="sources">
-    <h2>20 PRAĆENIH PORTALA</h2>
+    <h2>20 TRACKED PORTALS</h2>
     <ul class="source-list" id="sourceList"></ul>
   </aside>
 </div>
 
 <footer>
-  Sajt se automatski ažurira putem RSS feed-ova sa 20 portala (poslednje ažuriranje: __GENERATED_AT__). Naslovi i sažeci preuzimaju se u originalnom jeziku izvora (uglavnom engleski) — klikom na naslov otvara se pun članak. Kada je ista vest objavljena na više portala, prikazuje se samo verzija sa portala višeg ranga sa liste, kako se vesti ne bi ponavljale.
+  This site updates automatically from RSS feeds across 20 portals (last updated: __GENERATED_AT__). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
 </footer>
 
 <script>
@@ -142,13 +146,13 @@ function colorFor(cat){
 
 NEWS.sort((a,b)=> new Date(b.timestamp) - new Date(a.timestamp));
 
-const monthsSR = ["jan","feb","mar","apr","maj","jun","jul","avg","sep","okt","nov","dec"];
+const monthsEN = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 function fmtDate(iso){
   const d = new Date(iso+"T00:00:00");
-  return `${String(d.getDate()).padStart(2,"0")}. ${monthsSR[d.getMonth()]} ${d.getFullYear()}.`;
+  return `${monthsEN[d.getMonth()]} ${String(d.getDate()).padStart(2,"0")}, ${d.getFullYear()}`;
 }
 
-let activeSource = "Sve";
+let activeSource = "All";
 let query = "";
 
 function countsBySource(){
@@ -160,10 +164,10 @@ function countsBySource(){
 function renderPills(){
   const counts = countsBySource();
   const row = document.getElementById("pillRow");
-  const names = ["Sve", ...SOURCES.map(s=>s.name)];
+  const names = ["All", ...SOURCES.map(s=>s.name)];
   row.innerHTML = names.map(name=>{
-    const cnt = name==="Sve" ? NEWS.length : (counts[name]||0);
-    if(name!=="Sve" && !cnt) return "";
+    const cnt = name==="All" ? NEWS.length : (counts[name]||0);
+    if(name!=="All" && !cnt) return "";
     const activeCls = (name===activeSource) ? "active" : "";
     return `<span class="pill ${activeCls}" data-name="${name}">${name}<span class="count">${cnt}</span></span>`;
   }).join("");
@@ -191,16 +195,16 @@ function renderFeed(){
   const feed = document.getElementById("feed");
   const q = query.trim().toLowerCase();
   const filtered = NEWS.filter(n=>{
-    const sourceOk = activeSource==="Sve" || n.source===activeSource;
+    const sourceOk = activeSource==="All" || n.source===activeSource;
     const qOk = !q || (n.title+" "+n.summary+" "+n.source).toLowerCase().includes(q);
     return sourceOk && qOk;
   });
 
   document.getElementById("feedCount").textContent =
-    `${filtered.length} ${filtered.length===1?"vest":"vesti"} · sortirano od najnovije ka najstarijoj`;
+    `${filtered.length} ${filtered.length===1?"article":"articles"} · sorted newest to oldest`;
 
   if(!filtered.length){
-    feed.innerHTML = `<div class="empty-state">Nema vesti koje odgovaraju pretrazi.</div>`;
+    feed.innerHTML = `<div class="empty-state">No articles match your search.</div>`;
     return;
   }
 
@@ -229,14 +233,13 @@ renderPills();
 renderSidebar();
 renderFeed();
 
-  // PWA: registruj service worker da bi telefon mogao da instalira sajt
-  // kao aplikaciju i da poslednje ucitane vesti ostanu vidljive offline
-  if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-            navigator.serviceWorker.register("service-worker.js").catch(() => {});
-      });
-  }
+// PWA: registruj service worker da bi telefon mogao da instalira sajt
+// kao aplikaciju i da poslednje učitane vesti ostanu vidljive offline
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("service-worker.js").catch(() => {});
+  });
+}
 </script>
-
 </body>
 </html>
