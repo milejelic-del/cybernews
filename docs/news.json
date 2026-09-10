@@ -1,5 +1,205 @@
 [
   {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Cybersecurity M&A Roundup: 33 Deals Announced in August 2026",
+    "summary": "Significant cybersecurity M&A deals announced by Brinqa, Cribl, Echo, Fortinet, Kiteworks, Palo Alto Networks, and Visa. The post Cybersecurity M&A Roundup: 33 Deals Announced in August 2026 appeared first on…",
+    "url": "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-august-2026/",
+    "category": "Funding/M&A",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T16:14:58+00:00"
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "Threat groups enhance cyberattack capabilities with AI",
+    "summary": "A report shows state-linked and criminal hackers are incorporating automation and agentic technology to find new victims and bypass traditional defenses.",
+    "url": "https://www.cybersecuritydive.com/news/threat-groups-enhance-cyberattack-capabilities-ai/830055/",
+    "category": "Vest",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T16:08:00+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Your passkeys can now move between password managers on Android",
+    "summary": "Google turned on a transfer feature in Android that moves passwords and passkeys straight from one password manager to another, with no file to download along the way. You start it from inside the app you are switching…",
+    "url": "https://www.helpnetsecurity.com/2026/09/10/google-android-password-manager-transfer/",
+    "category": "News",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T16:00:09+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+    "summary": "A threat actor, likely Russian-speaking, used hundreds of AI agents to develop and launch a global exploitation campaign targeting vulnerable PaperCut NG/MF servers. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+    "category": "Security",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T15:55:56+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+    "summary": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+    "category": "Security",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T15:43:58+00:00"
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
+    "summary": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
+    "category": "Vest",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T15:29:12+00:00"
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "More Capable AI, Not Enough Guardrails",
+    "summary": "AI agents are gaining real-world access faster than safeguards can mature, making permissions, isolation and oversight critical to prevent harmful actions. Jacob Coxon, a researcher who spent three years working on…",
+    "url": "https://securityaffairs.com/198833/ai/more-capable-ai-not-enough-guardrails.html",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T15:19:09+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
+    "summary": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's…",
+    "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+    "category": "Security",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T14:55:33+00:00"
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Anthropic Researcher Resigns With Warning About the Dangers of AI Development",
+    "summary": "Both Anthropic and OpenAI have seen high-profile resignations in recent years that were tied to safety concerns. The post Anthropic Researcher Resigns With Warning About the Dangers of AI Development appeared first on…",
+    "url": "https://www.securityweek.com/anthropic-researcher-resigns-with-warning-about-the-dangers-of-ai-development/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T14:52:07+00:00"
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Hacker Conversations: Vinnie Liu, Performer Turned Ringmaster",
+    "summary": "Vinnie Liu was recruited by the NSA when he was just 17 years old. He is now the CEO of Bishop Fox. The post Hacker Conversations: Vinnie Liu, Performer Turned Ringmaster appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/hacker-conversations-vinnie-liu-performer-turned-ringmaster/",
+    "category": "Hacker Conversations",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T14:30:00+00:00"
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "White House sees water cybersecurity partnership in Texas as national blueprint",
+    "summary": "A top cybersecurity official said the government was taking a new approach to protecting critical infrastructure.",
+    "url": "https://www.cybersecuritydive.com/news/water-cybersecurity-white-house-oncd-texas-partnership-cairncross/830029/",
+    "category": "Vest",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T14:27:00+00:00"
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "CISA is on the verge of filling hundreds of critical vacancies",
+    "summary": "Meanwhile, the agency is finalizing an incident-reporting regulation and setting up a new industry coordination structure.",
+    "url": "https://www.cybersecuritydive.com/news/cisa-hiring-circia-anchor-nick-andersen/829980/",
+    "category": "Vest",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T14:27:00+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+    "summary": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+    "category": "Security",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T14:11:34+00:00"
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
+    "summary": "Identity was the target in roughly half of all confirmed malicious activity. Prophet Security breaks down the four main attack patterns seen across customer environments between May and July 2026, and explains why some…",
+    "url": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
+    "category": "Security",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T14:00:10+00:00"
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "CISA Updates Insider Threat Guide With New Mitigation Advice",
+    "summary": "CISA has updated its insider threat guide with new advice on remote work, AI and risk detection",
+    "url": "https://www.infosecurity-magazine.com/news/cisa-updates-insider-threat-guide/",
+    "category": "Vest",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T14:00:00+00:00"
+  },
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "Governments ‘buying time’ in race between innovation, security, national cyber director says",
+    "summary": "Sean Cairncross also said AI has shown long-standing issues in cyber rather than creating new ones. The post Governments ‘buying time’ in race between innovation, security, national cyber director says appeared first on…",
+    "url": "https://cyberscoop.com/national-cyber-director-ai-cybersecurity-threats/",
+    "category": "AI",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T13:53:55+00:00"
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Deceptive Android Apps Exploit Google Play Early Access to Evade Reviews",
+    "summary": "Deceptive apps in Early Access are being used by dishonest developers for their own benefit. The post Deceptive Android Apps Exploit Google Play Early Access to Evade Reviews appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/deceptive-android-apps-exploit-google-play-early-access-to-evade-reviews/",
+    "category": "Fraud & Identity Theft",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T13:39:52+00:00"
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "Russian e-commerce giant Wildberries says DDoS attack delayed payments to sellers",
+    "summary": "Wildberries told several Russian media outlets earlier this week that payments to some sellers were delayed by security measures introduced after a distributed denial-of-service (DDoS) attack targeted systems used to…",
+    "url": "https://therecord.media/russian-e-commerce-giant-wildberries-says-payments-disrupted",
+    "category": "Cybercrime",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T13:31:00+00:00"
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Webinar Today: Keep Pace With AI – A New Operating Model for Endpoint Remediation",
+    "summary": "Join the webinar for a focused, 20-minute discussion on Frontier Pace Governance, an approach to balancing automation, policy, and business risk as IT operations accelerate. The post Webinar Today: Keep Pace With AI – A…",
+    "url": "https://www.securityweek.com/webinar-today-keep-pace-with-ai-a-new-operating-model-for-endpoint-remediation/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T13:30:00+00:00"
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Attackers call employees’ personal phones to break into Microsoft 365 accounts",
+    "summary": "Attackers are calling or texting employees on their personal phones, posing as internal IT staff, in a social engineering campaign that tricks them into handing over access to corporate cloud accounts. Once inside, they…",
+    "url": "https://www.helpnetsecurity.com/2026/09/10/microsoft-365-social-engineering-personal-phones/",
+    "category": "News",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T13:26:23+00:00"
+  },
+  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen",
@@ -333,7 +533,7 @@
     "source": "Dark Reading",
     "rank": 4,
     "title": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
-    "summary": "Starting Friday, businesses operating in the EU will have just 24 hours to notify the government any time they discover serious product security incidents.",
+    "summary": "Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.",
     "url": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
     "category": "Vest",
     "date": "2026-09-10",
@@ -348,16 +548,6 @@
     "category": "Security",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T06:56:33+00:00"
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Fortinet Code Execution Flaw Exploited in PivotC2 RAT Attacks",
-    "summary": "The high-severity, unauthenticated vulnerability tracked as CVE-2025-25249 was patched in January 2026. The post Fortinet Code Execution Flaw Exploited in PivotC2 RAT Attacks appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks/",
-    "category": "Malware & Threats",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T06:33:36+00:00"
   },
   {
     "source": "Help Net Security",
@@ -388,26 +578,6 @@
     "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T04:30:14+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "A new open standard locks AI weights to approved hardware",
-    "summary": "OPAQUE, a confidential computing company that runs AI workloads inside hardware-isolated environments so operators cannot inspect them, released an open standard that lets AI model builders decide when and where their…",
-    "url": "https://www.helpnetsecurity.com/2026/09/10/weight-custody-manifest-open-standard/",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T04:10:19+00:00"
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Kevin Mandia joins the Amazon board with 30-plus years in cybersecurity",
-    "summary": "Amazon elected Kevin Mandia to its Board of Directors on September 8. Mandia founded Mandiant and served as its CEO before Google acquired the firm in September 2022, and he has worked against cyber threats in the…",
-    "url": "https://www.helpnetsecurity.com/2026/09/10/kevin-mandia-joins-amazon-board/",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T04:03:03+00:00"
   },
   {
     "source": "Risky Business News",
@@ -453,7 +623,7 @@
     "source": "Dark Reading",
     "rank": 4,
     "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
-    "summary": "An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.",
+    "summary": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
     "url": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
     "category": "Vest",
     "date": "2026-09-09",
@@ -490,6 +660,16 @@
     "timestamp": "2026-09-09T21:02:14+00:00"
   },
   {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "How AI anxieties dominated the summer’s big cybersecurity conference",
+    "summary": "From the CVE Program to autonomous hacks, everyone is worried about the technology’s next evolution.",
+    "url": "https://www.cybersecuritydive.com/news/black-hat-ai-cve-reporters-notebook/829978/",
+    "category": "Vest",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T20:10:34+00:00"
+  },
+  {
     "source": "CSO Online",
     "rank": 12,
     "title": "MikroTik patches flaws currently being exploited to take over routers",
@@ -508,6 +688,16 @@
     "category": "Cybercrime",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T19:54:00+00:00"
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
+    "summary": "US agencies claim Chinese companies covertly extracted billions of tokens from OpenAI, Anthropic, Google Gemini, and SpaceX's Grok to reduce development costs.",
+    "url": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
+    "category": "Vest",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T19:47:50+00:00"
   },
   {
     "source": "CyberScoop",
@@ -532,8 +722,8 @@
   {
     "source": "CyberScoop",
     "rank": 8,
-    "title": "Lawmakers call on Treasury to sanction hackers-for-hire",
-    "summary": "The groups have allegedly targeted American citizens and companies, including the wife of GOP Senate candidate Mike Rogers, a former representative running in a Michigan swing race. The post Lawmakers call on Treasury…",
+    "title": "Lawmakers call on Commerce to sanction hackers-for-hire",
+    "summary": "The groups have allegedly targeted American citizens and companies, including the wife of GOP Senate candidate Mike Rogers, a former representative running in a Michigan swing race. The post Lawmakers call on Commerce…",
     "url": "https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/",
     "category": "Government",
     "date": "2026-09-09",
@@ -560,46 +750,6 @@
     "timestamp": "2026-09-09T18:11:00+00:00"
   },
   {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "HelmGuard Raises $7.3 Million for Agentic GRC and Security",
-    "summary": "The company will increase its US market presence and will expand its engineering and go-to-market teams. The post HelmGuard Raises $7.3 Million for Agentic GRC and Security appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/helmguard-raises-7-3-million-for-agentic-grc-and-security/",
-    "category": "Compliance",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T17:23:58+00:00"
-  },
-  {
-    "source": "The Record",
-    "rank": 2,
-    "title": "Electronic health record company says customer data stolen in breach",
-    "summary": "Veradigm said access was limited to a specific interface, and did not impact the company’s broader environment such as its networks, servers or databases. The incident did not result in operational disruptions, the…",
-    "url": "https://therecord.media/electronic-health-record-company-says-customer-data-stolen-in-breach",
-    "category": "Cybercrime",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T17:03:00+00:00"
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "AI Is Giving Lesser-Resourced Attackers Nation-State-Level Reach, Google Warns",
-    "summary": "Criminal and state-sponsored adversaries are increasingly using AI to automate and scale their attacks, according to GTIG. The post AI Is Giving Lesser-Resourced Attackers Nation-State-Level Reach, Google Warns appeared…",
-    "url": "https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns/",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T16:56:25+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
-    "summary": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI models since at least late 2024. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
-    "category": "Security",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T16:48:33+00:00"
-  },
-  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
@@ -608,16 +758,6 @@
     "category": "Vest",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T16:34:05+00:00"
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Android’s September 2026 Updates Patch 180 Vulnerabilities",
-    "summary": "The security updates resolve critical flaws across Android’s Framework, System, and Kernel components. The post Android’s September 2026 Updates Patch 180 Vulnerabilities appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/androids-september-2026-updates-patch-180-vulnerabilities/",
-    "category": "Mobile & Wireless",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T16:30:40+00:00"
   },
   {
     "source": "WIRED Security",
@@ -630,16 +770,6 @@
     "timestamp": "2026-09-09T16:30:00+00:00"
   },
   {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Chipmaker Patch Tuesday: Nvidia, AMD, Arm Issue Security Advisories",
-    "summary": "Major chipmakers announced patches for vulnerabilities recently discovered in their products. The post Chipmaker Patch Tuesday: Nvidia, AMD, Arm Issue Security Advisories appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/chipmaker-patch-tuesday-nvidia-amd-arm-issue-security-advisories/",
-    "category": "Vulnerabilities",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T16:22:54+00:00"
-  },
-  {
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "CISOs are feeling the security burden of accelerated AI use",
@@ -648,16 +778,6 @@
     "category": "Vest",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T15:36:12+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
-    "summary": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
-    "category": "Security",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T15:31:23+00:00"
   },
   {
     "source": "CyberScoop",
@@ -693,7 +813,7 @@
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "New FBI cyber strategy promises increase in adversary disruptions",
-    "summary": "The document also focuses on helping victims, reflecting the bureau’s attempt to encourage more companies to share information with it.",
+    "summary": "The document also focuses on helping victims, reflecting the bureau’s goal of encouraging more companies to share information with it.",
     "url": "https://www.cybersecuritydive.com/news/fbi-cybersecurity-strategy-disruptions-information-sharing/829913/",
     "category": "Vest",
     "date": "2026-09-09",
@@ -728,16 +848,6 @@
     "category": "Vest",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T14:23:55+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
-    "summary": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verification at the service…",
-    "url": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
-    "category": "Security",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T14:01:11+00:00"
   },
   {
     "source": "Security Affairs",
@@ -850,26 +960,6 @@
     "timestamp": "2026-09-09T11:17:07+00:00"
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
-    "summary": "Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachable from the internet. Alby…",
-    "url": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
-    "category": "Vest",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T10:43:04+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
-    "summary": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
-    "category": "Security",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T10:11:29+00:00"
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "When the prompt becomes the payload: A practical pen-testing guide for GenAI, LLM and RAG applications",
@@ -898,16 +988,6 @@
     "category": "Breaking News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T08:50:44+00:00"
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Man gets 15 years for extorting women with AI-generated porn videos",
-    "summary": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
-    "category": "Security",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T08:44:22+00:00"
   },
   {
     "source": "CSO Online",
@@ -973,7 +1053,7 @@
     "source": "Dark Reading",
     "rank": 4,
     "title": "Patch Tuesday Sets Another Record With 974 CVEs",
-    "summary": "Attackers are actively exploiting two of the vulnerabilities and another 58 are more likely to be exploited, according to Microsoft.",
+    "summary": "Attackers are actively exploiting two of the vulnerabilities, and another 58 are more likely to be exploited, according to Microsoft.",
     "url": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
     "category": "Vest",
     "date": "2026-09-08",
@@ -1013,7 +1093,7 @@
     "source": "Dark Reading",
     "rank": 4,
     "title": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
-    "summary": "Researchers and OpenAI disagree on whether the earlier incident involving DseWiki, which the company did not disclose, was a “hack.\"",
+    "summary": "Researchers and OpenAI disagree on whether an earlier incident involving DseWiki, which the company did not disclose, was a “hack.\"",
     "url": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack",
     "category": "Vest",
     "date": "2026-09-08",
@@ -1058,26 +1138,6 @@
     "category": "AI",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T19:49:14+00:00"
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Why federal cyber defense demands an offense-driven mindset",
-    "summary": "Static checklists and annual penetration tests leave agencies with dangerous blind spots. True resilience requires moving from reactive attestation to continuous, automated validation. The post Why federal cyber defense…",
-    "url": "https://cyberscoop.com/offense-driven-federal-cyber-defense/",
-    "category": "Insights",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T18:30:00+00:00"
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "WeChat Worm Can Hijack Accounts Without Victims Answering Calls",
-    "summary": "Researchers built a WeChat worm that spreads through incoming calls without user action. Tencent has blocked the exploit. Researchers at Calif created a WeChat worm that can take over an account through an incoming…",
-    "url": "https://securityaffairs.com/198688/hacking/wechat-worm-can-hijack-accounts-without-victims-answering-calls.html",
-    "category": "Breaking News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T18:09:13+00:00"
   },
   {
     "source": "Dark Reading",
@@ -1138,16 +1198,6 @@
     "category": "Vest",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T14:05:44+00:00"
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "Grindr Settles UK Data Privacy Claims for £26m",
-    "summary": "Grindr settled UK claims over alleged unlawful processing of sensitive user data",
-    "url": "https://www.infosecurity-magazine.com/news/grindr-settles-uk-data-privacy/",
-    "category": "Vest",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T13:00:00+00:00"
   },
   {
     "source": "Dark Reading",
@@ -1253,7 +1303,7 @@
     "source": "Dark Reading",
     "rank": 4,
     "title": "Companies Have 6 Months to Prepare for Automated Attacks",
-    "summary": "Frontier AI models have already demonstrated they can autonomously — and in some cases, inadvertently — conduct end-to-end compromises, but the situation will become more urgent very soon.",
+    "summary": "Frontier AI models have already demonstrated they can autonomously — and in some cases, inadvertently — conduct end-to-end compromises, but researchers warn the situation will become more urgent very soon.",
     "url": "https://www.darkreading.com/cybersecurity-operations/companies-six-months-prepare-automated-attacks",
     "category": "Vest",
     "date": "2026-09-04",
@@ -1268,16 +1318,6 @@
     "category": "Vest",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T15:44:43+00:00"
-  },
-  {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "OpenAI pledges $1B to provide resources, training for frontline cyber defenders",
-    "summary": "Amid heightened scrutiny, the company will use frontier AI to help water, power and local government providers fight malicious actors.",
-    "url": "https://www.cybersecuritydive.com/news/openai-pledges-1-billion-resources-cyber-defenders/829676/",
-    "category": "Vest",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T14:23:44+00:00"
   },
   {
     "source": "TechCrunch Security",
@@ -1298,16 +1338,6 @@
     "category": "Vest",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T13:00:00+00:00"
-  },
-  {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Insurers Search for Answers to Rein in Rogue AI",
-    "summary": "As incidents of unintended harm caused by rogue AI agents mount, CISOs and insurance firms are figuring out how to handle the fallout.",
-    "url": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai",
-    "category": "Vest",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T12:15:03+00:00"
   },
   {
     "source": "WIRED Security",
@@ -1368,36 +1398,6 @@
     "category": "AI",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T18:37:57+00:00"
-  },
-  {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "SonicWall urges immediate patching of chained vulnerabilities",
-    "summary": "Just weeks after a wave of ransomware attacks, new flaws in SMA1000 series appliances are being exploited.",
-    "url": "https://www.cybersecuritydive.com/news/sonicwall-immediate-patching-chained-vulnerabilities/829567/",
-    "category": "Vest",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T15:03:50+00:00"
-  },
-  {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "Government, industry partner to shut down long-running Sality botnet",
-    "summary": "A nonprofit group is now working to contact victims.",
-    "url": "https://www.cybersecuritydive.com/news/doj-crowdstrike-botnet-sality-takedown/829512/",
-    "category": "Vest",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T11:55:00+00:00"
-  },
-  {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "Government lacks ability to verify AI labs’ claims, experts say",
-    "summary": "A new survey of national security practitioners identified a wide range of near- and medium-term AI risks for policymakers to consider.",
-    "url": "https://www.cybersecuritydive.com/news/ai-national-security-risks-ist-survey/829516/",
-    "category": "Vest",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T11:54:00+00:00"
   },
   {
     "source": "WIRED Security",
