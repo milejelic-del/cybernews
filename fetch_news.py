@@ -52,7 +52,7 @@ SOURCES = [
 MAX_PER_SOURCE = 12           # koliko najnovijih stavki uzimamo po portalu
 MAX_TOTAL = 150                # gornja granica ukupnog broja vesti na sajtu
 TOKEN_OVERLAP_THRESHOLD = 0.38 # Jaccard prag na značajnim (stemovanim) rečima -> duplikat
-CHAR_SIMILARITY_THRESHOLD = 0.82  # dodatni, strožiji character-level prag
+CHAR_SIMILARITY_THRESHOLD = 0.82  # dodatni, stroži character-level prag
 SUMMARY_MAX_LEN = 220
 
 TAG_RE = re.compile(r"<[^>]+>")
@@ -189,6 +189,7 @@ def fetch_source(source: dict) -> list:
                 "category": entry_category(entry),
                 "date": dt.strftime("%Y-%m-%d"),
                 "timestamp": dt.isoformat(),
+                "coverage": 1,
             })
         if items:
             break  # ovaj kandidat je uspeo, ne probaj ostale adrese za ovaj izvor
@@ -201,9 +202,12 @@ def dedupe(items: list) -> list:
     """Kad su dve vesti iz različitih izvora dovoljno slične po naslovu,
     zadrži samo onu sa portala nižeg (boljeg) ranga sa liste. Poredi se
     samo unutar prozora od nekoliko dana, jer ista vest o istom događaju
-    izlazi na različitim portalima u kratkom vremenskom razmaku."""
+    izlazi na različitim portalima u kratkom vremenskom razmaku.
+    Svaki zadržani item dobija "coverage" — broj portala koji su pokrili
+    istu priču — koristi se za nedeljni rekap najbitnijih vesti na sajtu."""
     kept = []
     for item in sorted(items, key=lambda x: x["rank"]):
+        item.setdefault("coverage", 1)
         item_dt = datetime.fromisoformat(item["timestamp"])
         is_dup = False
         for existing in kept:
@@ -211,6 +215,7 @@ def dedupe(items: list) -> list:
             if abs((item_dt - existing_dt).total_seconds()) > 4 * 24 * 3600:
                 continue
             if titles_are_duplicates(item["title"], existing["title"]):
+                existing["coverage"] = existing.get("coverage", 1) + 1
                 is_dup = True
                 break
         if not is_dup:
