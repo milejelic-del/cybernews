@@ -1,5 +1,16 @@
 [
   {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Mandiant Founder Kevin Mandia Joins Amazon Board",
+    "summary": "Mandiant founder and cybersecurity veteran brings more than 30 years of public and private sector experience to Amazon’s board. The post Mandiant Founder Kevin Mandia Joins Amazon Board appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/mandiant-founder-kevin-mandia-joins-amazon-board/",
+    "category": "Management & Strategy",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T20:30:44+00:00",
+    "coverage": 1
+  },
+  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "Hawley probes OpenAI over Hugging Face breach",
@@ -627,17 +638,6 @@
     "coverage": 1
   },
   {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "New ‘ShieldCrash’ Zero-Day Exploit Targets Microsoft Defender",
-    "summary": "The exploit provides full System privileges on Windows machines running the September 2026 patches. The post New ‘ShieldCrash’ Zero-Day Exploit Targets Microsoft Defender appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/new-shieldcrash-zero-day-exploit-targets-microsoft-defender/",
-    "category": "Endpoint Security",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T07:09:36+00:00",
-    "coverage": 2
-  },
-  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
@@ -1119,6 +1119,17 @@
     "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T08:15:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Chaotic Eclipse Released ShieldCrash, A PoC For Microsoft Defender Zero-Day",
+    "summary": "The researcher Chaotic Eclipse released ShieldCrash, a PoC exploit for a Microsoft Defender Zero-Day vulnerability. Security researcher Chaotic Eclipse, also known as INFINITE NIGHTMARE, MSNightmare and…",
+    "url": "https://securityaffairs.com/198726/security/chaotic-eclipse-released-shieldcrash-a-poc-for-microsoft-defender-zero-day.html",
+    "category": "Breaking News",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T07:53:00+00:00",
     "coverage": 1
   },
   {
@@ -1636,17 +1647,6 @@
     "category": "News",
     "date": "2026-08-31",
     "timestamp": "2026-08-31T20:07:52+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Ars Technica Security",
-    "rank": 19,
-    "title": "Think twice before installing this device promising free movies",
-    "summary": "In exchange for free stuff, devices make home connections part of a proxy network.",
-    "url": "https://arstechnica.com/security/2026/08/how-some-media-streaming-devices-open-home-networks-to-a-world-of-harm/",
-    "category": "Biz & IT",
-    "date": "2026-08-31",
-    "timestamp": "2026-08-31T16:33:38+00:00",
     "coverage": 1
   }
 ]
