@@ -1,5 +1,15 @@
 [
   {
+    "source": "TechCrunch Security",
+    "rank": 17,
+    "title": "ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen",
+    "summary": "The ID checking company said the data breach included people's full names and driver's licenses and other government-issued identity documents.",
+    "url": "https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/",
+    "category": "Government & Policy",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T13:21:09+00:00"
+  },
+  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "MantaxOtax Android Malware Combines Ransomware With Spyware",
@@ -1478,16 +1488,6 @@
     "category": "A Little Sunshine",
     "date": "2026-09-01",
     "timestamp": "2026-09-01T22:40:28+00:00"
-  },
-  {
-    "source": "TechCrunch Security",
-    "rank": 17,
-    "title": "X says attackers are targeting user accounts after the launch of X Money",
-    "summary": "X is investigating a wave of unsolicited password reset emails that it believes may be tied to the rollout of its new payments service.",
-    "url": "https://techcrunch.com/2026/09/01/x-says-attackers-are-targeting-accounts-after-the-launch-of-x-money/",
-    "category": "Security",
-    "date": "2026-09-01",
-    "timestamp": "2026-09-01T20:48:32+00:00"
   },
   {
     "source": "WIRED Security",
