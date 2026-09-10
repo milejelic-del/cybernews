@@ -1,5 +1,27 @@
 [
   {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "September Windows Server updates break Remote Desktop Services",
+    "summary": "Windows admins report that the September 2026 security updates are causing Remote Desktop Services (RDS) failures on Windows Server 2019, 2022, and 2025 servers, preventing users from connecting and, in some cases,…",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/",
+    "category": "Microsoft",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T20:34:37+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "Conti ransomware crew member sentenced to four years in prison",
+    "summary": "Oleksii Lytvynenko joined the notorious group in 2021 and was directly involved in attacks on at least 12 companies. The post Conti ransomware crew member sentenced to four years in prison appeared first on CyberScoop .",
+    "url": "https://cyberscoop.com/conti-ransomware-developer-sentenced/",
+    "category": "Cybercrime",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T20:31:35+00:00",
+    "coverage": 1
+  },
+  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "Mandiant Founder Kevin Mandia Joins Amazon Board",
@@ -715,17 +737,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
-    "summary": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management Center (FMC) software is being actively exploited in attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
-    "category": "Security",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T21:40:44+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
@@ -1207,17 +1218,6 @@
     "category": "News",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T21:03:46+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Feds accuse China of ‘systematic’ distillation of U.S. AI models",
-    "summary": "A joint advisory alleges Chinese companies are using sophisticated systems to route millions of data requests to US AI models across different accounts and platforms. The post Feds accuse China of ‘systematic’…",
-    "url": "https://cyberscoop.com/us-accuses-chinese-ai-companies-distillation/",
-    "category": "AI",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T20:47:53+00:00",
     "coverage": 1
   },
   {
