@@ -27,32 +27,32 @@ import feedparser
 # skripta preskače izvore koji ne rade i nastavlja sa ostalima.
 # ---------------------------------------------------------------------------
 SOURCES = [
-    {"rank": 1,  "name": "BleepingComputer",     "feeds": ["https://www.bleepingcomputer.com/feed/"], "site": "https://www.bleepingcomputer.com/news/security/", "tag": "Incidenti, ransomware, ranjivosti i zakrpe"},
-    {"rank": 2,  "name": "The Record",           "feeds": ["https://therecord.media/feed"], "site": "https://therecord.media/", "tag": "Cybercrime, geopolitika i državno sponzorisani napadi"},
-    {"rank": 3,  "name": "SecurityWeek",         "feeds": ["https://www.securityweek.com/feed/"], "site": "https://www.securityweek.com/", "tag": "Enterprise bezbednost, ICS/OT, cloud i threat intelligence"},
-    {"rank": 4,  "name": "Dark Reading",         "feeds": ["https://www.darkreading.com/rss.xml", "https://www.darkreading.com/rss_simple.asp"], "site": "https://www.darkreading.com/", "tag": "SOC, SecOps, CISO teme i stručne analize"},
-    {"rank": 5,  "name": "Krebs on Security",    "feeds": ["https://krebsonsecurity.com/feed/"], "site": "https://krebsonsecurity.com/", "tag": "Istraživanja cyber kriminala, prevara i curenja podataka"},
-    {"rank": 6,  "name": "The Hacker News",      "feeds": ["https://feeds.feedburner.com/TheHackersNews", "https://thehackernews.com/feeds/posts/default"], "site": "https://thehackernews.com/", "tag": "Napadi, malver i ranjivosti"},
-    {"rank": 7,  "name": "Help Net Security",    "feeds": ["https://www.helpnetsecurity.com/feed/"], "site": "https://www.helpnetsecurity.com/", "tag": "Enterprise trendovi, regulativa i istraživanja"},
-    {"rank": 8,  "name": "CyberScoop",           "feeds": ["https://cyberscoop.com/feed/"], "site": "https://cyberscoop.com/", "tag": "Državna bezbednost, politika i međunarodni cyber događaji"},
-    {"rank": 9,  "name": "Infosecurity Magazine","feeds": ["https://www.infosecurity-magazine.com/rss/news/"], "site": "https://www.infosecurity-magazine.com/", "tag": "Vesti, analize, intervjui i istraživanja"},
-    {"rank": 10, "name": "SC Media",             "feeds": ["https://www.scworld.com/feed", "https://www.scworld.com/rss.xml"], "site": "https://www.scworld.com/", "tag": "CISO teme, compliance, cloud i upravljanje rizicima"},
-    {"rank": 11, "name": "Risky Business News",  "feeds": ["https://risky.biz/feeds/risky-business-news/"], "site": "https://news.risky.biz/", "tag": "Dnevni pregled cyber događaja i istraživanja"},
-    {"rank": 12, "name": "CSO Online",           "feeds": ["https://www.csoonline.com/feed/"], "site": "https://www.csoonline.com/", "tag": "Strategija, leadership, budžeti i regulativa"},
-    {"rank": 13, "name": "Security Affairs",     "feeds": ["https://securityaffairs.com/feed"], "site": "https://securityaffairs.com/", "tag": "APT grupe, malver, ranjivosti i incidenti"},
-    {"rank": 14, "name": "Cybersecurity Dive",   "feeds": ["https://www.cybersecuritydive.com/feeds/news/"], "site": "https://www.cybersecuritydive.com/", "tag": "Poslovni uticaj incidenata, regulativa i strategija"},
-    {"rank": 15, "name": "BankInfoSecurity",     "feeds": ["https://www.bankinfosecurity.com/rssFeeds.php?type=main"], "site": "https://www.bankinfosecurity.com/", "tag": "Finansijski sektor, prevare, identitet i zaštita podataka"},
-    {"rank": 16, "name": "Cybernews",            "feeds": ["https://cybernews.com/feed/", "https://cybernews.com/security/feed/"], "site": "https://cybernews.com/security/", "tag": "Data breach događaji, privatnost i cybercrime"},
-    {"rank": 17, "name": "TechCrunch Security",  "feeds": ["https://techcrunch.com/category/security/feed/"], "site": "https://techcrunch.com/category/security/", "tag": "Tehnološke kompanije, cloud i startup incidenti"},
-    {"rank": 18, "name": "WIRED Security",       "feeds": ["https://www.wired.com/feed/category/security/latest/rss"], "site": "https://www.wired.com/category/security/", "tag": "Privatnost, nadzor i veliki incidenti"},
-    {"rank": 19, "name": "Ars Technica Security","feeds": ["https://arstechnica.com/security/feed/"], "site": "https://arstechnica.com/security/", "tag": "Tehničke analize ranjivosti, napada i platformi"},
-    {"rank": 20, "name": "CISA",                 "feeds": ["https://www.cisa.gov/cybersecurity-advisories/all.xml"], "site": "https://www.cisa.gov/news-events/cybersecurity-advisories", "tag": "Autoritativna upozorenja i preporučene mere"},
+    {"rank": 1,  "name": "BleepingComputer",     "feeds": ["https://www.bleepingcomputer.com/feed/"], "site": "https://www.bleepingcomputer.com/news/security/", "tag": "Incidents, ransomware, vulnerabilities, and patches"},
+    {"rank": 2,  "name": "The Record",           "feeds": ["https://therecord.media/feed"], "site": "https://therecord.media/", "tag": "Cybercrime, geopolitics, and state-sponsored attacks"},
+    {"rank": 3,  "name": "SecurityWeek",         "feeds": ["https://www.securityweek.com/feed/"], "site": "https://www.securityweek.com/", "tag": "Enterprise security, ICS/OT, cloud, and threat intelligence"},
+    {"rank": 4,  "name": "Dark Reading",         "feeds": ["https://www.darkreading.com/rss.xml", "https://www.darkreading.com/rss_simple.asp"], "site": "https://www.darkreading.com/", "tag": "SOC, SecOps, CISO topics, and expert analysis"},
+    {"rank": 5,  "name": "Krebs on Security",    "feeds": ["https://krebsonsecurity.com/feed/"], "site": "https://krebsonsecurity.com/", "tag": "Cybercrime investigations, fraud, and data breaches"},
+    {"rank": 6,  "name": "The Hacker News",      "feeds": ["https://feeds.feedburner.com/TheHackersNews", "https://thehackernews.com/feeds/posts/default"], "site": "https://thehackernews.com/", "tag": "Attacks, malware, and vulnerabilities"},
+    {"rank": 7,  "name": "Help Net Security",    "feeds": ["https://www.helpnetsecurity.com/feed/"], "site": "https://www.helpnetsecurity.com/", "tag": "Enterprise trends, regulation, and research"},
+    {"rank": 8,  "name": "CyberScoop",           "feeds": ["https://cyberscoop.com/feed/"], "site": "https://cyberscoop.com/", "tag": "National security, policy, and international cyber events"},
+    {"rank": 9,  "name": "Infosecurity Magazine","feeds": ["https://www.infosecurity-magazine.com/rss/news/"], "site": "https://www.infosecurity-magazine.com/", "tag": "News, analysis, interviews, and research"},
+    {"rank": 10, "name": "SC Media",             "feeds": ["https://www.scworld.com/feed", "https://www.scworld.com/rss.xml"], "site": "https://www.scworld.com/", "tag": "CISO topics, compliance, cloud, and risk management"},
+    {"rank": 11, "name": "Risky Business News",  "feeds": ["https://risky.biz/feeds/risky-business-news/"], "site": "https://news.risky.biz/", "tag": "Daily roundup of cyber events and research"},
+    {"rank": 12, "name": "CSO Online",           "feeds": ["https://www.csoonline.com/feed/"], "site": "https://www.csoonline.com/", "tag": "Strategy, leadership, budgets, and regulation"},
+    {"rank": 13, "name": "Security Affairs",     "feeds": ["https://securityaffairs.com/feed"], "site": "https://securityaffairs.com/", "tag": "APT groups, malware, vulnerabilities, and incidents"},
+    {"rank": 14, "name": "Cybersecurity Dive",   "feeds": ["https://www.cybersecuritydive.com/feeds/news/"], "site": "https://www.cybersecuritydive.com/", "tag": "Business impact of incidents, regulation, and strategy"},
+    {"rank": 15, "name": "BankInfoSecurity",     "feeds": ["https://www.bankinfosecurity.com/rssFeeds.php?type=main"], "site": "https://www.bankinfosecurity.com/", "tag": "Financial sector, fraud, identity, and data protection"},
+    {"rank": 16, "name": "Cybernews",            "feeds": ["https://cybernews.com/feed/", "https://cybernews.com/security/feed/"], "site": "https://cybernews.com/security/", "tag": "Data breach events, privacy, and cybercrime"},
+    {"rank": 17, "name": "TechCrunch Security",  "feeds": ["https://techcrunch.com/category/security/feed/"], "site": "https://techcrunch.com/category/security/", "tag": "Tech companies, cloud, and startup incidents"},
+    {"rank": 18, "name": "WIRED Security",       "feeds": ["https://www.wired.com/feed/category/security/latest/rss"], "site": "https://www.wired.com/category/security/", "tag": "Privacy, surveillance, and major incidents"},
+    {"rank": 19, "name": "Ars Technica Security","feeds": ["https://arstechnica.com/security/feed/"], "site": "https://arstechnica.com/security/", "tag": "Technical analysis of vulnerabilities, attacks, and platforms"},
+    {"rank": 20, "name": "CISA",                 "feeds": ["https://www.cisa.gov/cybersecurity-advisories/all.xml"], "site": "https://www.cisa.gov/news-events/cybersecurity-advisories", "tag": "Authoritative alerts and recommended actions"},
 ]
 
 MAX_PER_SOURCE = 12           # koliko najnovijih stavki uzimamo po portalu
 MAX_TOTAL = 150                # gornja granica ukupnog broja vesti na sajtu
 TOKEN_OVERLAP_THRESHOLD = 0.38 # Jaccard prag na značajnim (stemovanim) rečima -> duplikat
-CHAR_SIMILARITY_THRESHOLD = 0.82  # dodatni, stroži character-level prag
+CHAR_SIMILARITY_THRESHOLD = 0.82  # dodatni, strožiji character-level prag
 SUMMARY_MAX_LEN = 220
 
 TAG_RE = re.compile(r"<[^>]+>")
@@ -155,7 +155,7 @@ def entry_category(entry) -> str:
         term = tags[0].get("term")
         if term:
             return clean_text(term)
-    return "Vest"
+    return "News"
 
 
 def fetch_source(source: dict) -> list:
