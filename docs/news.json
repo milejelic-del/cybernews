@@ -1,5 +1,15 @@
 [
   {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "MantaxOtax Android Malware Combines Ransomware With Spyware",
+    "summary": "MantaxOtax Android malware combines ransomware with extensive spyware capabilities",
+    "url": "https://www.infosecurity-magazine.com/news/mantaxotax-android-malware/",
+    "category": "Vest",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T13:00:00+00:00"
+  },
+  {
     "source": "The Record",
     "rank": 2,
     "title": "UK appoints new commander of National Cyber Force",
@@ -1128,16 +1138,6 @@
     "category": "Vest",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T13:00:00+00:00"
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "AI Coding Tools Now a Prime Target for Threat Actors, Google Warns",
-    "summary": "Google warned that the rapid integration of AI-assisted coding tools has significantly expanded software supply chain risks",
-    "url": "https://www.infosecurity-magazine.com/news/ai-coding-tools-threat-actors/",
-    "category": "Vest",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T12:02:00+00:00"
   },
   {
     "source": "Dark Reading",
