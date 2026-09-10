@@ -62,11 +62,18 @@
   .item-body{flex:1;min-width:0;}
   .item-meta{display:flex;align-items:center;gap:10px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-faint);margin-bottom:6px;}
   .item-meta .src{color:var(--accent);font-weight:600;}
+  .save-btn{margin-left:auto;background:none;border:none;cursor:pointer;font-size:16px;line-height:1;color:var(--text-faint);padding:2px 4px;transition:color .15s,transform .15s;}
+  .save-btn:hover{color:var(--accent);transform:scale(1.15);}
+  .save-btn.saved{color:var(--accent);}
   .item-title{font-size:17px;line-height:1.4;font-weight:600;margin:0 0 6px;}
   .item-title a{transition:color .15s;}
   .item-title a:hover{color:var(--link);}
   .item-summary{font-size:14.5px;line-height:1.55;color:var(--text-dim);margin:0 0 10px;max-width:62ch;}
+  .item-tags{display:flex;gap:8px;flex-wrap:wrap;}
   .item-cat{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);border:1px solid var(--border);padding:2px 8px;border-radius:4px;}
+  .severity-badge{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;padding:2px 8px;border-radius:4px;letter-spacing:.02em;}
+  .sev-critical{background:rgba(239,106,90,.14);color:#ef6a5a;border:1px solid rgba(239,106,90,.35);}
+  .sev-exploited{background:rgba(239,83,80,.18);color:#ff8a80;border:1px solid rgba(255,138,128,.4);}
   .empty-state{padding:60px 0;text-align:center;color:var(--text-faint);font-family:'IBM Plex Mono',monospace;font-size:13px;}
 
   aside.sources{padding-top:20px;}
@@ -77,6 +84,12 @@
   .source-list a.sname:hover{color:var(--link);}
   .source-list .stag{display:block;font-size:12px;color:var(--text-faint);margin-top:3px;line-height:1.4;}
   .source-list .rank{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-right:8px;}
+
+  .stats-bar{display:flex;gap:24px;flex-wrap:wrap;padding:14px 0;margin-bottom:4px;border-bottom:1px solid var(--border);font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:var(--text-dim);}
+  .stats-bar strong{color:var(--accent);font-weight:600;}
+  .saved-toggle{font-family:'IBM Plex Mono',monospace;font-size:12.5px;padding:9px 14px;border-radius:6px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-dim);cursor:pointer;white-space:nowrap;transition:.15s;}
+  .saved-toggle:hover{border-color:var(--text-faint);color:var(--text);}
+  .saved-toggle.active{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);}
 
   footer{max-width:1180px;margin:0 auto;padding:0 24px 60px;color:var(--text-faint);font-size:12.5px;line-height:1.7;border-top:1px solid var(--border);padding-top:24px;}
 
@@ -105,11 +118,14 @@
       <div class="brand"><span class="mark"></span><h1>SIGNAL/20</h1></div>
       <div class="credit">made by Mile Jelic</div>
       <div class="tagline">A digest of the latest news from 20 leading cybersecurity portals</div>
-      <div class="updated">Automatically updated: 10.09.2026. 19:42 UTC</div>
+      <div class="updated">Automatically updated: 10.09.2026. 19:52 UTC</div>
     </div>
-    <div class="search-wrap">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input id="searchInput" type="text" placeholder="Search news…">
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input id="searchInput" type="text" placeholder="Search news…">
+      </div>
+      <button class="saved-toggle" id="savedToggle">★ Saved</button>
     </div>
   </div>
   <div class="filters">
@@ -120,6 +136,7 @@
 
 <div class="layout">
   <main>
+    <div class="stats-bar" id="statsBar"></div>
     <div class="feed-count" id="feedCount"></div>
     <div id="feed"></div>
   </main>
@@ -130,7 +147,7 @@
 </div>
 
 <footer>
-  This site updates automatically from RSS feeds across 20 portals (last updated: 10.09.2026. 19:42 UTC). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
+  This site updates automatically from RSS feeds across 20 portals (last updated: 10.09.2026. 19:52 UTC). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
 </footer>
 
 <script>
@@ -257,6 +274,16 @@ const SOURCES = [
   }
 ];
 const NEWS = [
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "AI lets small actors run state-level hacking campaigns, Anthropic report finds",
+    "summary": "The report details a Russian-aligned espionage campaign against more than 20 organizations, an exploit foundry run by Chinese undergraduates and ShinyHunters-affiliated breaches, among other disrupted operations. The…",
+    "url": "https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/",
+    "category": "AI",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T19:45:29+00:00"
+  },
   {
     "source": "BleepingComputer",
     "rank": 1,
@@ -1368,16 +1395,6 @@ const NEWS = [
     "timestamp": "2026-09-08T20:12:51+00:00"
   },
   {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "CIA’s Michael Ellis says cyber intelligence is changing how the agency operates",
-    "summary": "The deputy director cited Operation Absolute Resolve as evidence that cyber teams have become central to CIA missions. The post CIA’s Michael Ellis says cyber intelligence is changing how the agency operates appeared…",
-    "url": "https://cyberscoop.com/cia-cyber-operations-operation-absolute-resolve-michael-ellis-billington-cybersecurity/",
-    "category": "AI",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T19:49:14+00:00"
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
@@ -1776,11 +1793,49 @@ function fmtDate(iso){
 
 let activeSource = "All";
 let query = "";
+let showSavedOnly = false;
+
+// ---------- saved articles (kept in this browser only) ----------
+const SAVED_KEY = "signal20-saved";
+function getSaved(){
+  try { return JSON.parse(localStorage.getItem(SAVED_KEY) || "[]"); } catch(e){ return []; }
+}
+function setSaved(arr){
+  try { localStorage.setItem(SAVED_KEY, JSON.stringify(arr)); } catch(e){}
+}
+function isSaved(url){ return getSaved().includes(url); }
+function toggleSaved(url){
+  const arr = getSaved();
+  const idx = arr.indexOf(url);
+  if(idx === -1) arr.push(url); else arr.splice(idx,1);
+  setSaved(arr);
+}
+
+// ---------- severity detection from title keywords ----------
+function severityFor(title){
+  const t = title.toLowerCase();
+  if(/actively exploited|exploited in the wild|zero-day/.test(t)) return {label:"Actively Exploited", cls:"sev-exploited"};
+  if(/\bcritical\b/.test(t)) return {label:"Critical", cls:"sev-critical"};
+  return null;
+}
 
 function countsBySource(){
   const c = {};
   NEWS.forEach(n=> c[n.source] = (c[n.source]||0)+1);
   return c;
+}
+
+function renderStats(){
+  const bar = document.getElementById("statsBar");
+  const counts = countsBySource();
+  let topSource = "\u2014", topCount = 0;
+  Object.entries(counts).forEach(([name,c])=>{ if(c>topCount){ topCount=c; topSource=name; } });
+  const flagged = NEWS.filter(n=>severityFor(n.title)).length;
+  bar.innerHTML = `
+    <span><strong>${NEWS.length}</strong> articles tracked</span>
+    <span><strong>${topSource}</strong> most active (${topCount})</span>
+    <span><strong>${flagged}</strong> flagged critical / actively exploited</span>
+  `;
 }
 
 function renderPills(){
@@ -1819,31 +1874,48 @@ function renderFeed(){
   const filtered = NEWS.filter(n=>{
     const sourceOk = activeSource==="All" || n.source===activeSource;
     const qOk = !q || (n.title+" "+n.summary+" "+n.source).toLowerCase().includes(q);
-    return sourceOk && qOk;
+    const savedOk = !showSavedOnly || isSaved(n.url);
+    return sourceOk && qOk && savedOk;
   });
 
   document.getElementById("feedCount").textContent =
     `${filtered.length} ${filtered.length===1?"article":"articles"} · sorted newest to oldest`;
 
   if(!filtered.length){
-    feed.innerHTML = `<div class="empty-state">No articles match your search.</div>`;
+    feed.innerHTML = `<div class="empty-state">${showSavedOnly ? "You haven't saved any articles yet." : "No articles match your search."}</div>`;
     return;
   }
 
-  feed.innerHTML = filtered.map(n=>`
+  feed.innerHTML = filtered.map(n=>{
+    const sev = severityFor(n.title);
+    const saved = isSaved(n.url);
+    return `
     <article class="item">
       <span class="bar" style="background:${colorFor(n.category)}"></span>
       <div class="item-body">
         <div class="item-meta">
           <span class="src">${n.source}</span>
           <span>${fmtDate(n.date)}</span>
+          <button class="save-btn ${saved?"saved":""}" data-url="${n.url}" aria-label="Save article" title="Save for later">${saved?"\u2605":"\u2606"}</button>
         </div>
         <h3 class="item-title"><a href="${n.url}" target="_blank" rel="noopener">${n.title}</a></h3>
         <p class="item-summary">${n.summary}</p>
-        <span class="item-cat">${n.category}</span>
+        <div class="item-tags">
+          <span class="item-cat">${n.category}</span>
+          ${sev ? `<span class="severity-badge ${sev.cls}">${sev.label}</span>` : ""}
+        </div>
       </div>
     </article>
-  `).join("");
+  `;
+  }).join("");
+
+  feed.querySelectorAll(".save-btn").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      toggleSaved(btn.dataset.url);
+      renderPills();
+      renderFeed();
+    });
+  });
 }
 
 document.getElementById("searchInput").addEventListener("input", (e)=>{
@@ -1851,8 +1923,15 @@ document.getElementById("searchInput").addEventListener("input", (e)=>{
   renderFeed();
 });
 
+document.getElementById("savedToggle").addEventListener("click", ()=>{
+  showSavedOnly = !showSavedOnly;
+  document.getElementById("savedToggle").classList.toggle("active", showSavedOnly);
+  renderFeed();
+});
+
 renderPills();
 renderSidebar();
+renderStats();
 renderFeed();
 
 // PWA: registruj service worker da bi telefon mogao da instalira sajt

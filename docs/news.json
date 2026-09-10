@@ -1,5 +1,15 @@
 [
   {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "AI lets small actors run state-level hacking campaigns, Anthropic report finds",
+    "summary": "The report details a Russian-aligned espionage campaign against more than 20 organizations, an exploit foundry run by Chinese undergraduates and ShinyHunters-affiliated breaches, among other disrupted operations. The…",
+    "url": "https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/",
+    "category": "AI",
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T19:45:29+00:00"
+  },
+  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
@@ -1108,16 +1118,6 @@
     "category": "Security",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T20:12:51+00:00"
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "CIA’s Michael Ellis says cyber intelligence is changing how the agency operates",
-    "summary": "The deputy director cited Operation Absolute Resolve as evidence that cyber teams have become central to CIA missions. The post CIA’s Michael Ellis says cyber intelligence is changing how the agency operates appeared…",
-    "url": "https://cyberscoop.com/cia-cyber-operations-operation-absolute-resolve-michael-ellis-billington-cybersecurity/",
-    "category": "AI",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T19:49:14+00:00"
   },
   {
     "source": "Dark Reading",
