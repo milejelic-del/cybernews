@@ -1,5 +1,93 @@
 [
   {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "Cyberattack causes a flight delay? Airlines won’t owe you a hotel or meal",
+    "summary": "A Department of Transportation rule published last week says that airlines complying with cybersecurity regulations will have reduced customer obligations in the event of an attack. The post Cyberattack causes a flight…",
+    "url": "https://cyberscoop.com/dot-rule-airline-cyberattack-flight-delays/",
+    "category": "Government",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T21:26:23+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+    "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+    "category": "Security",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T20:19:09+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device",
+    "summary": "The Florida Department of Motor Vehicles confirmed a data breach claimed by the cybercrime group ShinyHunters, saying it originated with the theft of credentials stored on a police officer's personal device.",
+    "url": "https://therecord.media/florida-shiny-hunters-motor-vehicle",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T20:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
+    "summary": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T19:21:08+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Florida confirms DMV database breached via stolen police account",
+    "summary": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the attackers gained access using credentials belonging to a police…",
+    "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+    "category": "Security",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T19:00:29+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "WIRED Security",
+    "rank": 18,
+    "title": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
+    "summary": "The proposed class action alleges Meta illegally harvested people’s Facebook and Instagram photos to train its AI image-generation models and to build its unreleased “NameTag” face recognition feature.",
+    "url": "https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/",
+    "category": "Security",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T18:59:25+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "CISA Calls for More Guidance, Less Spin, as Cyber Outages Escalate",
+    "summary": "A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols.",
+    "url": "https://www.darkreading.com/cyber-risk/cisa-calls-for-more-guidance-less-spin-as-cyber-outages-escalate",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T18:44:03+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "GitLab’s critical flaw is already drawing internet-wide probes",
+    "summary": "One flaw allows an unauthenticated attacker to read files from the server. GitLab urged operators of self-managed installations to upgrade immediately. The post GitLab’s critical flaw is already drawing internet-wide…",
+    "url": "https://cyberscoop.com/gitlab-critical-flaws-path-traversal-scans/",
+    "category": "Threats",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T18:41:52+00:00",
+    "coverage": 1
+  },
+  {
     "source": "The Record",
     "rank": 2,
     "title": "Microsoft sees some new wrinkles in invoice-scam emails",
@@ -8,6 +96,17 @@
     "category": "Cybercrime",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T18:40:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Why AI Is So Good at Scamming Humans",
+    "summary": "Fred Heiding of Menlo Park Intelligence talks with the Dark Reading News Desk about his research on frontier models, and their ability to influence human behavior and create emotional dependency.",
+    "url": "https://www.darkreading.com/cyber-risk/ai-scamming-humans",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T18:14:06+00:00",
     "coverage": 1
   },
   {
@@ -330,6 +429,17 @@
     "coverage": 1
   },
   {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "AI agents exploited PaperCut flaws to breach 395 organizations",
+    "summary": "A threat actor built a working exploit for PaperCut print management software, then handed the job of breaking into hundreds of organizations to AI agents that did most of the work on their own, according to GreyNoise.…",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/ai-agents-papercut-ng-mf-attack-campaign/",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T10:05:32+00:00",
+    "coverage": 1
+  },
+  {
     "source": "CSO Online",
     "rank": 12,
     "title": "Attackers use passkey-themed scams to hijack Microsoft 365 accounts",
@@ -396,6 +506,17 @@
     "coverage": 1
   },
   {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "IDScan confirms breach after 153 million driver’s licenses leak on dark web",
+    "summary": "Days after reports linked IDScan to a dark web database holding more than 153 million driver’s license scans, the identity verification company has confirmed hackers accessed customer data stored on its cloud platform.…",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/idscan-net-data-breach-153-million-drivers-licenses/",
+    "category": "Don't miss",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T08:39:33+00:00",
+    "coverage": 1
+  },
+  {
     "source": "CSO Online",
     "rank": 12,
     "title": "Google’s Early Access is creating a blind spot for malicious apps",
@@ -404,6 +525,17 @@
     "category": "Endpoint Protection, Mobile Security, Security",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T08:36:24+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "PaperCut Flaws Exploited in AI-Powered Attacks",
+    "summary": "A Russian threat actor used AI to build, test, and deploy exploits against hundreds of organizations worldwide. The post PaperCut Flaws Exploited in AI-Powered Attacks appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/papercut-flaws-exploited-in-ai-powered-attacks/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T08:18:23+00:00",
     "coverage": 1
   },
   {
@@ -671,17 +803,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
-    "summary": "Microsoft Excel users report that this week's KB5002914 Office security update is breaking copy-and-paste operations and formula dragging, with affected users saying that removing or rolling back the update restores…",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
-    "category": "Microsoft",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T19:07:33+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "U.S. CISA adds Cisco, Google Chromium V8, Fortinet, and Citrix NetScaler flaws to its Known Exploited Vulnerabilities catalog",
@@ -690,17 +811,6 @@
     "category": "Breaking News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T18:57:21+00:00",
-    "coverage": 2
-  },
-  {
-    "source": "The Record",
-    "rank": 2,
-    "title": "IDScan confirms breach after hackers offer 153 million driver’s license scans for sale",
-    "summary": "A notice dated September 4 but not widely shared shows that IDScan acknowledged a data breach but did not specify how many people were affected.",
-    "url": "https://therecord.media/idscan-data-breach-notice-drivers-licenses",
-    "category": "Cybercrime",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T18:55:00+00:00",
     "coverage": 2
   },
   {
@@ -724,17 +834,6 @@
     "date": "2026-09-10",
     "timestamp": "2026-09-10T16:08:00+00:00",
     "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
-    "summary": "A threat actor, likely Russian-speaking, used hundreds of AI agents to develop and launch a global exploitation campaign targeting vulnerable PaperCut NG/MF servers. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
-    "category": "Security",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T15:55:56+00:00",
-    "coverage": 3
   },
   {
     "source": "Dark Reading",
@@ -1047,8 +1146,8 @@
   {
     "source": "CyberScoop",
     "rank": 8,
-    "title": "FTC rescinds policy requiring health apps to notify customers after a breach",
-    "summary": "The policy, passed under the Biden administration, forced health apps to disclose when users’ personal health records were exposed in a breach or shared without authorization. The post FTC rescinds policy requiring…",
+    "title": "FTC rescinds policy statement requiring health apps to notify customers after a breach",
+    "summary": "The policy, passed under the Biden administration, forced health apps to disclose when users’ personal health records were exposed in a breach or shared without authorization. The post FTC rescinds policy statement…",
     "url": "https://cyberscoop.com/ftc-rescinds-health-app-data-breach-policy/",
     "category": "Cybersecurity",
     "date": "2026-09-09",
@@ -1210,17 +1309,6 @@
     "coverage": 1
   },
   {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "FBI officials say AI is bolstering adversaries, emphasizing need to focus on cyber basics, patching",
-    "summary": "The remarks, to both CyberScoop and at the Billington CyberSecurity Summit, dovetail with the release of a new bureau cyber strategy. The post FBI officials say AI is bolstering adversaries, emphasizing need to focus on…",
-    "url": "https://cyberscoop.com/fbi-cyber-strategy-ai-threats-patching/",
-    "category": "AI",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T13:00:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "NHIs Now the Number One Corporate Entry Point for Hackers",
@@ -1243,6 +1331,17 @@
     "coverage": 1
   },
   {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "Microsoft Shatters Patch Tuesday Record With 974 CVE Fixes in September 2026",
+    "summary": "The update contained 119 critical flaws and two zero days, with security teams needing to prioritize updates",
+    "url": "https://www.infosecurity-magazine.com/news/microsoft-patch-tuesday-record/",
+    "category": "News",
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T09:40:00+00:00",
+    "coverage": 1
+  },
+  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Risky Bulletin: Ukraine's top prosecutor resigns amid scam call center scandal",
@@ -1251,17 +1350,6 @@
     "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T06:02:16+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Microsoft discloses two actively exploited zero-days among 974 vulnerabilities",
-    "summary": "While the vendor hit another monthly record, it hasn’t resulted in a flood of active exploits. Researchers encourage customers to focus on their specific areas of risk and exposure. The post Microsoft discloses two…",
-    "url": "https://cyberscoop.com/microsoft-patch-tuesday-september-2026/",
-    "category": "Cybersecurity",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T22:50:41+00:00",
     "coverage": 1
   },
   {
@@ -1276,17 +1364,6 @@
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Patch Tuesday Sets Another Record With 974 CVEs",
-    "summary": "Attackers are actively exploiting two of the vulnerabilities, and another 58 are more likely to be exploited, according to Microsoft.",
-    "url": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
-    "category": "News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T21:26:02+00:00",
-    "coverage": 2
-  },
-  {
     "source": "Ars Technica Security",
     "rank": 19,
     "title": "Why this month's Microsoft patch release is a doozy",
@@ -1295,28 +1372,6 @@
     "category": "AI",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T21:11:46+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
-    "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign",
-    "category": "News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T21:03:46+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
-    "summary": "Researchers and OpenAI disagree on whether an earlier incident involving DseWiki, which the company did not disclose, was a “hack.\"",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack",
-    "category": "News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T20:36:15+00:00",
     "coverage": 1
   },
   {
@@ -1540,17 +1595,6 @@
     "coverage": 1
   },
   {
-    "source": "WIRED Security",
-    "rank": 18,
-    "title": "This Is Flock’s AI Search Tool for Cops",
-    "summary": "WIRED rebuilt Flock’s latest search tool from code the company sends to a police officer’s browser. Its AI can keep watch across multiple cameras for anyone fitting a written description.",
-    "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
-    "category": "Security",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T10:00:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Srsly Risky Biz: China's botnets are worth disrupting",
@@ -1603,50 +1647,6 @@
     "category": "Biz & IT",
     "date": "2026-09-02",
     "timestamp": "2026-09-02T11:00:43+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Risky Bulletin: BGP hijack delivers malicious Virtualizor updates",
-    "summary": "A BGP hijack delivered malicious Virtualizor updates, the White House launches Project Watershed 250, Indian authorities take down a Telegram doxing bot, and Composer packages deliver iOS badness.",
-    "url": "https://risky.biz/RBNEWS608/",
-    "category": "News",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T02:46:34+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Krebs on Security",
-    "rank": 5,
-    "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-    "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose…",
-    "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-    "category": "A Little Sunshine",
-    "date": "2026-09-01",
-    "timestamp": "2026-09-01T22:40:28+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Between Two Nerds: The perfect hacker",
-    "summary": "In this edition of Between Two Nerds Tom Uren and The Grugq talk about how AI is the perfect hacker, but what makes it perfect for states is the opposite of what makes it perfect for criminals. This episode is also…",
-    "url": "https://risky.biz/BTN181/",
-    "category": "News",
-    "date": "2026-08-31",
-    "timestamp": "2026-08-31T20:07:52+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Ars Technica Security",
-    "rank": 19,
-    "title": "Think twice before installing this device promising free movies",
-    "summary": "In exchange for free stuff, devices make home connections part of a proxy network.",
-    "url": "https://arstechnica.com/security/2026/08/how-some-media-streaming-devices-open-home-networks-to-a-world-of-harm/",
-    "category": "Biz & IT",
-    "date": "2026-08-31",
-    "timestamp": "2026-08-31T16:33:38+00:00",
     "coverage": 1
   }
 ]
