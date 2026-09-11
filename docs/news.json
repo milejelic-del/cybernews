@@ -1,5 +1,93 @@
 [
   {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Building a ransomware decision tree before the call comes in",
+    "summary": "In this Help Net Security video, Kerri Shafer-Page, VP of Incident Response at Arctic Wolf, walks through the ransomware decision tree in this video. She covers four areas where decisions need settling in advance,…",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/ransomware-decision-tree-video/",
+    "category": "Don't miss",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T05:30:53+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Companies may be measuring phishing resilience the wrong way",
+    "summary": "Companies that judge phishing simulation programs by how often employees click simulated attack emails may be overlooking more important indicators of cyber resilience, according to Pistachio’s Phishing Behaviour Report…",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/pistachio-employee-phishing-risk-report/",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T05:00:07+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "AI is changing what Salesforce security needs to govern",
+    "summary": "Existing security and governance practices have largely focused on identities, permissions, access, configurations and controls. WithSecure’s Navigating Trust in the Modern Salesforce Ecosystem paper says Salesforce…",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/withsecure-salesforce-ai-trust-governance-paper/",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T04:30:42+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Ubuntu 24.04.5 LTS release patches security bugs across ten flavors",
+    "summary": "Canonical shipped Ubuntu 24.04.5 LTS, bundling security updates and fixes for high-severity bugs into new installation media for the “Noble Numbat” release. Anyone installing fresh now gets those corrections baked in…",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/ubuntu-24-04-5-lts-released/",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T04:07:41+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "New infosec products of the week: September 11, 2026",
+    "summary": "Here’s a look at the most interesting products from the past week, featuring releases from Akeyless, Orchid Security, Scytale, and Securin. Securin Platform helps security teams prove when attack paths are closed…",
+    "url": "https://www.helpnetsecurity.com/2026/09/11/new-infosec-products-of-the-week-september-11-2026/",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T04:00:08+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Risky Bulletin: Anthropic agents went hacking again",
+    "summary": "Anthropic agents went hacking again, South Korea increases its data breach fines, Apple notifies three Turkish ministers of mercenary spyware attacks, and CISA is ready to hire 250 staff.",
+    "url": "https://risky.biz/RBNEWS612/",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T02:32:11+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Attackers are weaponizing the gap between Chromium fixes and Chrome patches",
+    "summary": "A new exploit kit is revealing the perils of the “patch later” mentality. According to the Proofpoint Threat Research team , espionage-motivated threat actors are using a new malicious toolkit to chain together four…",
+    "url": "https://www.csoonline.com/article/4220939/attackers-are-weaponizing-the-gap-between-chromium-fixes-and-chrome-patches.html",
+    "category": "Artificial Intelligence, Browser Security, Endpoint Protection, Security, Vulnerabilities",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T01:10:19+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Indonesia Hit by Android Banking App-Cloning Campaign",
+    "summary": "The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.",
+    "url": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T01:00:00+00:00",
+    "coverage": 1
+  },
+  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "New Android malware encrypts files, steals data, and harasses victims",
@@ -583,17 +671,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Fake GTA 6 download delivers malware-packed bundle to impatient gamers",
-    "summary": "Grand Theft Auto VI (GTA 6) is still three months from release, but cybercriminals are not waiting for the launch date. Security firm Huntress found malware disguised as a leaked copy of the game, aimed at fans hoping…",
-    "url": "https://www.helpnetsecurity.com/2026/09/10/fake-gta-6-downloads-malware-ransomware/",
-    "category": "Don't miss",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T09:51:44+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "A New Claude ‘s Sandbox Failure Shows How AI Can Rationalize Real-World Harm",
@@ -649,17 +726,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Apple is building photo verification for the people who need it most",
-    "summary": "Apple has introduced Apple Reference Image, an opt-in feature designed to verify the authenticity of photos taken with iPhone 18 Pro models. Apple Reference Image provides users with an unalterable reference photo,…",
-    "url": "https://www.helpnetsecurity.com/2026/09/10/apple-reference-image-iphone-18-pro/",
-    "category": "Don't miss",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T08:18:59+00:00",
-    "coverage": 1
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Microsoft fixes bug that wiped Windows desktop settings",
@@ -712,39 +778,6 @@
     "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T07:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Product showcase: GitGuardian Honeytoken catches credential theft as it happens",
-    "summary": "Credential harvesting on developer machines has widened. Earlier infostealers worked from a short list of known targets, mostly browser stores and a few cloud credential paths. The families active now cast a much wider…",
-    "url": "https://www.helpnetsecurity.com/2026/09/10/product-showcase-gitguardian-honeytoken-decoy-service/",
-    "category": "Don't miss",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T05:30:24+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Cybercriminals are building phishing pages that exist only inside victims’ browsers",
-    "summary": "A phishing campaign routes victims through genuine Microsoft OAuth and Teams infrastructure before showing them a fake login page built entirely inside their own browser, according to researchers at Barracuda. “Instead…",
-    "url": "https://www.helpnetsecurity.com/2026/09/10/browser-based-phishing-blob-urls-microsoft-oauth/",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T05:00:14+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "AI adoption brings new security headaches for already stretched CISOs",
-    "summary": "CISOs are taking on AI governance without a matching increase in resources or expertise, adding to an already broad remit spanning data protection, identity, resilience and compliance, according to Proofpoint’s 2026…",
-    "url": "https://www.helpnetsecurity.com/2026/09/10/proofpoint-ciso-ai-security-risks-report/",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T04:30:14+00:00",
     "coverage": 1
   },
   {
@@ -1133,17 +1166,6 @@
     "coverage": 1
   },
   {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "50% of CISOs see Mythos as a sign to exit the profession",
-    "summary": "CISOs already have it tough, but the straw that breaks the back of many IT security executives may be the rapidly advancing capabilities of frontier AI models, enterprise insistence on rapid and widespread AI…",
-    "url": "https://www.csoonline.com/article/4218857/50-of-cisos-see-mythos-as-a-sign-to-exit-the-profession.html",
-    "category": "Artificial Intelligence, C-Suite, Careers, CSO and CISO, IT Leadership, Risk Management, Security",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T08:25:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "SAP Patches Maximum Severity “Overpass” Flaw",
@@ -1441,17 +1463,6 @@
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Companies Have 6 Months to Prepare for Automated Attacks",
-    "summary": "Frontier AI models have already demonstrated they can autonomously — and in some cases, inadvertently — conduct end-to-end compromises, but researchers warn the situation will become more urgent very soon.",
-    "url": "https://www.darkreading.com/cybersecurity-operations/companies-six-months-prepare-automated-attacks",
-    "category": "News",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T15:57:31+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "Nvidia’s $12.9B Hugging Face deal could benefit enterprises",
@@ -1636,17 +1647,6 @@
     "category": "A Little Sunshine",
     "date": "2026-09-01",
     "timestamp": "2026-09-01T22:40:28+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "WIRED Security",
-    "rank": 18,
-    "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
-    "summary": "The company will give select partners early access to its Astra AI model—so they have time to shore up their defenses.",
-    "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
-    "category": "Business",
-    "date": "2026-09-01",
-    "timestamp": "2026-09-01T20:00:00+00:00",
     "coverage": 1
   }
 ]
