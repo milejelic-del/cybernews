@@ -1,5 +1,16 @@
 [
   {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Why AI raises the stakes for exposure validation",
+    "summary": "AI dominated the conversation at Fal.Con 2026, but one of the most important takeaways wasn’t simply how AI is changing cyber defense. It was how AI is changing the speed and scale of a problem defenders already face.…",
+    "url": "https://www.csoonline.com/article/4221299/why-ai-raises-the-stakes-for-exposure-validation.html",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T21:49:32+00:00",
+    "coverage": 1
+  },
+  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "Cyberattack causes a flight delay? Airlines won’t owe you a hotel or meal",
@@ -1009,17 +1020,6 @@
     "category": "Artificial Intelligence",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T09:21:36+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Getting ahead of ‘harvest-now-decrypt-later’: Post-quantum cryptography planning",
-    "summary": "I’ve sat in enough boardroom conversations about quantum computing to notice a pattern. Someone raises it, someone else says “that’s ten years out,” and the topic gets tabled until next year’s budget cycle. The clock…",
-    "url": "https://www.csoonline.com/article/4220259/getting-ahead-of-harvest-now-decrypt-later-post-quantum-cryptography-planning.html",
-    "category": "Data and Information Security, Encryption, Security",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T09:00:00+00:00",
     "coverage": 1
   },
   {
