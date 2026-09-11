@@ -154,7 +154,7 @@
       <div class="credit">made by Mile Jelic</div>
       <div class="streak-badge" id="streakBadge"></div>
       <div class="tagline">A digest of the latest news from 20 leading cybersecurity portals</div>
-      <div class="updated">Automatically updated: 11.09.2026. 14:51 UTC</div>
+      <div class="updated">Automatically updated: 11.09.2026. 18:12 UTC</div>
     </div>
     <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
       <div class="search-wrap">
@@ -197,7 +197,7 @@
 </div>
 
 <footer>
-  This site updates automatically from RSS feeds across 20 portals (last updated: 11.09.2026. 14:51 UTC). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
+  This site updates automatically from RSS feeds across 20 portals (last updated: 11.09.2026. 18:12 UTC). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
 </footer>
 
 <script>
@@ -325,6 +325,171 @@ const SOURCES = [
 ];
 const NEWS = [
   {
+    "source": "The Record",
+    "rank": 2,
+    "title": "Microsoft sees some new wrinkles in invoice-scam emails",
+    "summary": "Researchers analyzed a flood of fraudulent business emails and found that the threat actors had doubled-up on tactics to make them appear legitimate, including help from AI.",
+    "url": "https://therecord.media/invoice-scam-emails-new-features-microsoft-researchers",
+    "category": "Cybercrime",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T18:40:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "The AI Supply Chain Has a Security Problem, and Much of It Is Sitting on the Open Internet",
+    "summary": "Researchers found 36,769 exposed AI endpoints, but only 2% had an HTTP authentication gate. Running AI locally is supposed to give organizations more control. Models, prompts and documents stay on infrastructure they…",
+    "url": "https://securityaffairs.com/198898/ai/the-ai-supply-chain-has-a-security-problem-and-much-of-it-is-sitting-on-the-open-internet.html",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T17:27:25+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+    "summary": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from…",
+    "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+    "category": "Security",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T17:26:50+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Phishing Research Challenges Conventional Security Awareness Testing",
+    "summary": "Analysis of 2.47 million simulated attacks shows why organizations should measure credential leaks and reporting, not just clicks. The post Phishing Research Challenges Conventional Security Awareness Testing appeared…",
+    "url": "https://www.securityweek.com/phishing-research-challenges-conventional-security-awareness-testing/",
+    "category": "Phishing",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T17:23:36+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "AI Governance Can't Wait",
+    "summary": "Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
+    "url": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T17:10:56+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Update your firewall rules: Teams and Copilot are changing address",
+    "summary": "Microsoft is changing the destination address of two of its most popular services: starting this month, it will redirect M365 and Teams web users to copilot.cloud.microsoft and teams.cloud.microsoft, respectively. The…",
+    "url": "https://www.csoonline.com/article/4221275/update-your-firewall-rules-teams-and-copilot-are-changing-address.html",
+    "category": "Application Security, Network Security, Security",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T17:00:20+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+    "summary": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure. The vulnerability in question is…",
+    "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T16:30:18+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Artifactory flaws chained in attacks deploying backdoor malware",
+    "summary": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative privileges, and deploy a Rust backdoor on vulnerable self-hosted servers. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+    "category": "Security",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T16:29:44+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "ConnectWise patches critical ScreenConnect authentication failure after five days",
+    "summary": "ConnectWise has issued a security update for ScreenConnect, five days after warning customers the product could allow files to be transferred and executed through active remote sessions without authorization or…",
+    "url": "https://www.csoonline.com/article/4221263/connectwise-patches-critical-screenconnect-authentication-failure-after-five-days-2.html",
+    "category": "Network Security, Remote Access Security, Security, Vulnerabilities, Zero-Day Vulnerabilities",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T16:17:07+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+    "summary": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax.…",
+    "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T16:15:29+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "GitLab Vulnerability Exploited One Day After Disclosure",
+    "summary": "The critical-severity path traversal flaw allows unauthenticated attackers to read arbitrary files from the GitLab server. The post GitLab Vulnerability Exploited One Day After Disclosure appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T16:11:08+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Papercut AI Swarm Attack Heralds Changes for Cyber Kill Chain",
+    "summary": "From creating lab environments for staging and testing agentic attacks to reconnaissance to lateral movement and exfiltration, the most innovative attackers are widely incorporating AI.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/papercut-ai-swarm-attack-cyber-kill-chain",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T15:48:27+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "India’s STPI serves TerminalFix-style attack via fake Cloudflare check",
+    "summary": "A website linked to India’s Software Technology Parks of India (STPI) is serving a spoofed Cloudflare verification page that silently copies a malicious string to visitors’ clipboards and prompts them to execute it via…",
+    "url": "https://www.csoonline.com/article/4221243/indias-stpi-serves-terminalfix-style-attack-via-fake-cloudflare-check.html",
+    "category": "Cloud Security, Cyberattacks, Cybercrime, Government, Government IT, Industry, Malware, Markets, Security",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T15:26:58+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "State authorities warn they lack resources to address cyber threat to critical sectors",
+    "summary": "A report shows that state CIOs and CISOs need additional funding, personnel and training to protect water, energy and healthcare.",
+    "url": "https://www.cybersecuritydive.com/news/state-infrastructure-resources-cyberthreats/830178/",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T15:23:29+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+    "summary": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026. The…",
+    "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T14:29:47+00:00",
+    "coverage": 1
+  },
+  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "In Other News: InjectEave Attack, SIM Swapper Sentenced, Glasswing Findings Review",
@@ -344,6 +509,17 @@ const NEWS = [
     "category": "Artificial Intelligence, Cyberattacks, Cybercrime, Security",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T14:13:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+    "summary": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve. The operation has…",
+    "url": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T14:10:20+00:00",
     "coverage": 1
   },
   {
@@ -396,6 +572,17 @@ const NEWS = [
     "title": "Ukrainian hacker gets four years in US prison over Conti ransomware attacks",
     "summary": "A Ukrainian national was sentenced to four years in a U.S. prison for his role in the notorious Conti ransomware operation, which targeted more than 1,000 victims worldwide before shutting down in 2022.",
     "url": "https://therecord.media/conti-ransomware-ukraine-hacker",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T12:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "Accountability, oversight and AI: Inside Microsoft’s security transformation",
+    "summary": "Stung by years of embarrassing hacks, the tech giant overhauled how it approached cybersecurity. Company leaders now say they’re seeing results.",
+    "url": "https://www.cybersecuritydive.com/news/microsoft-cybersecurity-culture-accountability-software-development/830048/",
     "category": "News",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T12:00:00+00:00",
@@ -465,17 +652,6 @@ const NEWS = [
     "category": "Artificial Intelligence, Security Infrastructure, Technology Industry",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T10:15:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Attackers Exploit Critical Cisco FMC Flaw to deploy Qilin ransomware",
-    "summary": "Three threat groups are exploiting two Cisco FMC flaws to steal credentials, gain root access and deploy Qilin ransomware. Cisco Talos says three separate threat groups are exploiting two recently patched Secure…",
-    "url": "https://securityaffairs.com/198884/cyber-crime/attackers-exploit-critical-cisco-fmc-flaw-to-deploy-qilin-ransomware.html",
-    "category": "Breaking News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T10:14:46+00:00",
     "coverage": 1
   },
   {
@@ -633,6 +809,17 @@ const NEWS = [
     "coverage": 1
   },
   {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+    "summary": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities. The attacks…",
+    "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+    "category": "News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T06:19:59+00:00",
+    "coverage": 2
+  },
+  {
     "source": "Help Net Security",
     "rank": 7,
     "title": "Getting a stranger’s phone kicked off the cellular network costs a few dollars",
@@ -776,17 +963,6 @@ const NEWS = [
     "coverage": 1
   },
   {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Mandiant Founder Kevin Mandia Joins Amazon Board",
-    "summary": "Mandiant founder and cybersecurity veteran brings more than 30 years of public and private sector experience to Amazon’s board. The post Mandiant Founder Kevin Mandia Joins Amazon Board appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/mandiant-founder-kevin-mandia-joins-amazon-board/",
-    "category": "Management & Strategy",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T20:30:44+00:00",
-    "coverage": 1
-  },
-  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "Hawley probes OpenAI over Hugging Face breach",
@@ -844,13 +1020,13 @@ const NEWS = [
   {
     "source": "The Record",
     "rank": 2,
-    "title": "Cyber Command turns to veteran of intelligence agencies for top AI role",
-    "summary": "Ronzelle Green, most recently a senior official at the National Geospatial-Intelligence Agency, will be U.S. Cyber Command's chief AI officer.",
-    "url": "https://therecord.media/cyber-command-ai-leader-ronzelle-green",
-    "category": "People",
+    "title": "IDScan confirms breach after hackers offer 153 million driver’s license scans for sale",
+    "summary": "A notice dated September 4 but not widely shared shows that IDScan acknowledged a data breach but did not specify how many people were affected.",
+    "url": "https://therecord.media/idscan-data-breach-notice-drivers-licenses",
+    "category": "Cybercrime",
     "date": "2026-09-10",
-    "timestamp": "2026-09-10T18:25:00+00:00",
-    "coverage": 1
+    "timestamp": "2026-09-10T18:55:00+00:00",
+    "coverage": 2
   },
   {
     "source": "The Hacker News",
@@ -861,17 +1037,6 @@ const NEWS = [
     "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T17:47:38+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Cybersecurity M&A Roundup: 33 Deals Announced in August 2026",
-    "summary": "Significant cybersecurity M&A deals announced by Brinqa, Cribl, Echo, Fortinet, Kiteworks, Palo Alto Networks, and Visa. The post Cybersecurity M&A Roundup: 33 Deals Announced in August 2026 appeared first on…",
-    "url": "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-august-2026/",
-    "category": "Funding/M&A",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T16:14:58+00:00",
     "coverage": 1
   },
   {
@@ -897,17 +1062,6 @@ const NEWS = [
     "coverage": 3
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
-    "summary": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
-    "category": "Security",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T15:43:58+00:00",
-    "coverage": 2
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
@@ -930,17 +1084,6 @@ const NEWS = [
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
-    "summary": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's…",
-    "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
-    "category": "Security",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T14:55:33+00:00",
-    "coverage": 3
-  },
-  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
@@ -954,9 +1097,9 @@ const NEWS = [
   {
     "source": "Cybersecurity Dive",
     "rank": 14,
-    "title": "White House sees water cybersecurity partnership in Texas as national blueprint",
-    "summary": "A top cybersecurity official said the government was taking a new approach to protecting critical infrastructure.",
-    "url": "https://www.cybersecuritydive.com/news/water-cybersecurity-white-house-oncd-texas-partnership-cairncross/830029/",
+    "title": "CISA is on the verge of filling hundreds of critical vacancies",
+    "summary": "The agency is also working to finalize an incident-reporting regulation and set up a new industry coordination structure, its acting director said.",
+    "url": "https://www.cybersecuritydive.com/news/cisa-hiring-circia-anchor-nick-andersen/829980/",
     "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T14:27:00+00:00",
@@ -965,9 +1108,9 @@ const NEWS = [
   {
     "source": "Cybersecurity Dive",
     "rank": 14,
-    "title": "CISA is on the verge of filling hundreds of critical vacancies",
-    "summary": "Meanwhile, the agency is finalizing an incident-reporting regulation and setting up a new industry coordination structure.",
-    "url": "https://www.cybersecuritydive.com/news/cisa-hiring-circia-anchor-nick-andersen/829980/",
+    "title": "White House sees water cybersecurity partnership in Texas as national blueprint",
+    "summary": "The government is taking a new approach to protecting critical infrastructure, National Cyber Director Sean Cairncross said.",
+    "url": "https://www.cybersecuritydive.com/news/water-cybersecurity-white-house-oncd-texas-partnership-cairncross/830029/",
     "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T14:27:00+00:00",
@@ -1062,39 +1205,6 @@ const NEWS = [
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
-    "summary": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds…",
-    "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T11:41:53+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
-    "summary": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a report published on September 9.…",
-    "url": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T11:33:43+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal…",
-    "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T10:36:46+00:00",
-    "coverage": 1
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "The longitude problem: In the AI era, detection is won on facts, not guesses",
@@ -1150,17 +1260,6 @@ const NEWS = [
     "coverage": 1
   },
   {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "10 most critical LLM vulnerabilities",
-    "summary": "Enterprise adoption of generative AI technologies has exploded due to the rapid evolution of the technology and the emergence of a variety of business use cases. But large language models (LLMs) can accidentally produce…",
-    "url": "https://www.csoonline.com/article/575497/owasp-lists-10-most-critical-large-language-model-vulnerabilities.html",
-    "category": "Generative AI, Vulnerabilities",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T08:25:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "OFAC Sanctions Chinese Scam Platform Xinbi Guarantee",
@@ -1169,17 +1268,6 @@ const NEWS = [
     "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T08:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
-    "summary": "Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned in February accepted sk-1234, the example admin key in LiteLLM's own setup guide. LiteLLM is an open-source AI gateway, the software a…",
-    "url": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T07:12:55+00:00",
     "coverage": 1
   },
   {
@@ -1268,17 +1356,6 @@ const NEWS = [
     "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T20:10:34+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "MikroTik patches flaws currently being exploited to take over routers",
-    "summary": "Networking gear manufacturer MikroTik has released patches for six vulnerabilities in its RouterOS firmware, two of which can be chained together to take over devices without authentication over SSH. The exploit chain,…",
-    "url": "https://www.csoonline.com/article/4220390/mikrotik-patches-flaws-currently-being-exploited-to-take-over-routers.html",
-    "category": "Network Security, Security, Vulnerabilities",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T20:00:12+00:00",
     "coverage": 1
   },
   {
@@ -1491,28 +1568,6 @@ const NEWS = [
     "coverage": 1
   },
   {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "SpyCloud 2026 Identity Threat Report Finds Non-Human Identities Are Now the Leading Path into the Enterprise",
-    "summary": "Ninety-five percent of organizations believe they have visibility into their AI and machine identity exposures, yet only 36% are actually monitoring them. SpyCloud , the leader in identity threat protection, today…",
-    "url": "https://www.csoonline.com/article/4220209/spycloud-2026-identity-threat-report-finds-non-human-identities-are-now-the-leading-path-into-the-enterprise.html",
-    "category": "Security",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T12:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "PoisonedRefresh: A Fileless Linux Rootkit That Injects PHP Web Shells Into F5 BIG-IP APM Server Memory",
-    "summary": "PoisonedRefresh rootkit injects PHP web shells into F5 BIG-IP APM Apache memory, leaving no disk artifacts. SophosLabs published a detailed technical analysis on September 8, 2026, of a Linux implant, dubbed…",
-    "url": "https://securityaffairs.com/198746/malware/poisonedrefresh-a-fileless-linux-rootkit-that-injects-php-web-shells-into-f5-big-ip-apm-server-memory.html",
-    "category": "Breaking News",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T08:50:44+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Risky Bulletin: Ukraine's top prosecutor resigns amid scam call center scandal",
@@ -1601,17 +1656,6 @@ const NEWS = [
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
-    "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
-    "url": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access",
-    "category": "News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T17:25:37+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "N-able issues patch for zero-day flaw",
@@ -1656,17 +1700,6 @@ const NEWS = [
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites",
-    "summary": "A Chinese-language group is compromising government and education sites to create a reverse-proxy network with gambling-themed sites.",
-    "url": "https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites",
-    "category": "News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T12:00:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "WIRED Security",
     "rank": 18,
     "title": "Meta Failed to Catch Hundreds of AI Child Abuse Ads. Some Included Images of Real Kids",
@@ -1675,17 +1708,6 @@ const NEWS = [
     "category": "Security",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T12:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "Essential AI agent security questions",
-    "summary": "AI agents are outpacing legacy IAM. Discover the 3 questions every CISO must ask to secure them.",
-    "url": "https://www.cybersecuritydive.com/spons/essential-ai-agent-security-questions/829508/",
-    "category": "News",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T09:00:00+00:00",
     "coverage": 1
   },
   {
@@ -1763,17 +1785,6 @@ const NEWS = [
     "category": "AI",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T17:18:12+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "Nvidia’s $12.9B Hugging Face deal could benefit enterprises",
-    "summary": "The chipmaker’s acquisition could eventually bring additional security resources and model evaluation tools to the platform, according to experts.",
-    "url": "https://www.cybersecuritydive.com/news/Nvidia-acquires-hugging-face-enterprises/829697/",
-    "category": "News",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T15:44:43+00:00",
     "coverage": 1
   },
   {
@@ -1961,17 +1972,6 @@ const NEWS = [
     "category": "Biz & IT",
     "date": "2026-08-31",
     "timestamp": "2026-08-31T16:33:38+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Risky Bulletin: New powers for Dutch intelligence services",
-    "summary": "Dutch intelligence services will get new powers, a security expert has been arrested in Israel for hacking, the BTS hacker gets a 20 year sentence in South Korea, and an AfD politician in Germany has been linked to a…",
-    "url": "https://risky.biz/RBNEWS607/",
-    "category": "News",
-    "date": "2026-08-31",
-    "timestamp": "2026-08-31T03:20:09+00:00",
     "coverage": 1
   }
 ];
