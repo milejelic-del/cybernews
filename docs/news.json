@@ -1,5 +1,27 @@
 [
   {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Anthropic: AI Misuse Is Entering a New Phase: From Cybercrime to Surveillance, Propaganda and Weapons",
+    "summary": "AI is becoming an operational force for cybercrime, surveillance, propaganda, fraud and weapons development, lowering the cost and scale of attacks. Artificial intelligence (AI) is becoming more than a tool for people…",
+    "url": "https://securityaffairs.com/198905/ai/anthropic-ai-misuse-is-entering-a-new-phase-from-cybercrime-to-surveillance-propaganda-and-weapons.html",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-12",
+    "timestamp": "2026-09-12T16:46:56+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV)…",
+    "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+    "category": "News",
+    "date": "2026-09-12",
+    "timestamp": "2026-09-12T15:54:45+00:00",
+    "coverage": 1
+  },
+  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "Revolut confirms customer data breach through fake government requests",
@@ -880,17 +902,6 @@
     "coverage": 2
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
-    "summary": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old…",
-    "url": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T17:47:38+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "Threat groups enhance cyberattack capabilities with AI",
@@ -1295,17 +1306,6 @@
     "category": "News",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T14:30:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Google fixes the seventh actively exploited Chrome zero-day of 2026",
-    "summary": "Google patched 230 Chrome flaws, including an actively exploited V8 bug that could let attackers run arbitrary code through a crafted HTML page. Google released a Chrome update fixing 230 security vulnerabilities,…",
-    "url": "https://securityaffairs.com/198757/security/google-fixes-the-seventh-actively-exploited-chrome-zero-day-of-2026.html",
-    "category": "Breaking News",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T13:47:16+00:00",
     "coverage": 1
   },
   {
