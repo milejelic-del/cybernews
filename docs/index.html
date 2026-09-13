@@ -154,7 +154,7 @@
       <div class="credit">made by Mile Jelic</div>
       <div class="streak-badge" id="streakBadge"></div>
       <div class="tagline">A digest of the latest news from 20 leading cybersecurity portals</div>
-      <div class="updated">Automatically updated: 13.09.2026. 03:41 UTC</div>
+      <div class="updated">Automatically updated: 13.09.2026. 14:08 UTC</div>
     </div>
     <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
       <div class="search-wrap">
@@ -197,7 +197,7 @@
 </div>
 
 <footer>
-  This site updates automatically from RSS feeds across 20 portals (last updated: 13.09.2026. 03:41 UTC). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
+  This site updates automatically from RSS feeds across 20 portals (last updated: 13.09.2026. 14:08 UTC). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
 </footer>
 
 <script>
@@ -324,6 +324,61 @@ const SOURCES = [
   }
 ];
 const NEWS = [
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
+    "summary": "Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire internet. The post Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety…",
+    "url": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-13",
+    "timestamp": "2026-09-13T13:27:25+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "GitLab CVE-2026-85706: One HTTP Request, No Authentication, Full File Read – Exploited Within 24 Hours",
+    "summary": "CVE-2026-85706, a CVSS 10.0 GitLab path traversal, was under active exploitation within 24 hours of disclosure. GitLab disclosed CVE-2026-85706 (CVSS score of 10.0) on September 10, 2026, a path traversal vulnerability…",
+    "url": "https://securityaffairs.com/198945/hacking/gitlab-cve-2026-85706-one-http-request-no-authentication-full-file-read-exploited-within-24-hours.html",
+    "category": "Breaking News",
+    "date": "2026-09-13",
+    "timestamp": "2026-09-13T12:26:54+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+    "summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach…",
+    "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+    "category": "News",
+    "date": "2026-09-13",
+    "timestamp": "2026-09-13T10:11:48+00:00",
+    "coverage": 2
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Conti Hacker Who Built Malware and Attacked Victims Gets Four-Year Sentence",
+    "summary": "Ukrainian lawyer and Conti malware developer Oleksii Lytvynenko was sentenced to four years in U.S. prison for ransomware attacks. Oleksii Oleksiyovych Lytvynenko had, by most accounts, a fairly ordinary legal career in…",
+    "url": "https://securityaffairs.com/198931/cyber-crime/conti-hacker-who-built-malware-and-attacked-victims-gets-four-year-sentence.html",
+    "category": "Breaking News",
+    "date": "2026-09-13",
+    "timestamp": "2026-09-13T09:19:42+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Week in review: Linux rootkit deployed on F5 BIG-IP APM devices, Cisco FMC bugs exploited",
+    "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Zero trust AI agents demand a different kind of security In this interview, Chris Webber, VP, Product Marketing at…",
+    "url": "https://www.helpnetsecurity.com/2026/09/13/week-in-review-linux-rootkit-deployed-on-f5-big-ip-apm-devices-cisco-fmc-bugs-exploited/",
+    "category": "News",
+    "date": "2026-09-13",
+    "timestamp": "2026-09-13T08:00:57+00:00",
+    "coverage": 1
+  },
   {
     "source": "Security Affairs",
     "rank": 13,
@@ -886,6 +941,17 @@ const NEWS = [
     "coverage": 1
   },
   {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Attackers Exploit Critical Cisco FMC Flaw to deploy Qilin ransomware",
+    "summary": "Three threat groups are exploiting two Cisco FMC flaws to steal credentials, gain root access and deploy Qilin ransomware. Cisco Talos says three separate threat groups are exploiting two recently patched Secure…",
+    "url": "https://securityaffairs.com/198884/cyber-crime/attackers-exploit-critical-cisco-fmc-flaw-to-deploy-qilin-ransomware.html",
+    "category": "Breaking News",
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T10:14:46+00:00",
+    "coverage": 1
+  },
+  {
     "source": "Help Net Security",
     "rank": 7,
     "title": "AI agents exploited PaperCut flaws to breach 395 organizations",
@@ -894,28 +960,6 @@ const NEWS = [
     "category": "News",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T10:05:32+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Attackers use passkey-themed scams to hijack Microsoft 365 accounts",
-    "summary": "Attackers are using passkey-themed social engineering to trick employees into giving them access to their Microsoft accounts. Microsoft Security Research said it has been tracking active cloud intrusions since May in…",
-    "url": "https://www.csoonline.com/article/4221110/attackers-use-passkey-themed-scams-to-hijack-microsoft-365-accounts.html",
-    "category": "Cybercrime, Security, Social Engineering",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T09:51:37+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Surfshark Systems Targeted by Hackers",
-    "summary": "A misconfigured test server containing engineering material, including internal configurations, was accessed by threat actors. The post Surfshark Systems Targeted by Hackers appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/surfshark-systems-targeted-by-hackers/",
-    "category": "Data Breaches",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T09:41:03+00:00",
     "coverage": 1
   },
   {
@@ -1051,17 +1095,6 @@ const NEWS = [
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-    "summary": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities. The attacks…",
-    "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
-    "category": "News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T06:19:59+00:00",
-    "coverage": 2
-  },
-  {
     "source": "Help Net Security",
     "rank": 7,
     "title": "Getting a stranger’s phone kicked off the cellular network costs a few dollars",
@@ -1114,17 +1147,6 @@ const NEWS = [
     "category": "News",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T04:07:41+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "New infosec products of the week: September 11, 2026",
-    "summary": "Here’s a look at the most interesting products from the past week, featuring releases from Akeyless, Orchid Security, Scytale, and Securin. Securin Platform helps security teams prove when attack paths are closed…",
-    "url": "https://www.helpnetsecurity.com/2026/09/11/new-infosec-products-of-the-week-september-11-2026/",
-    "category": "News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T04:00:08+00:00",
     "coverage": 1
   },
   {
@@ -1235,7 +1257,7 @@ const NEWS = [
     "category": "Breaking News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T18:57:21+00:00",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "source": "Cybersecurity Dive",
@@ -1433,17 +1455,6 @@ const NEWS = [
     "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T07:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Four Nation-State Actors Used the Same Chrome Zero-Day Exploit Kit Within 12 Days",
-    "summary": "Four espionage groups used the BlueMoon Chrome+Windows exploit kit within 12 days. Researchers suspect AI development. Proofpoint published a detailed analysis of a Chrome-and-Windows exploit kit it tracks as BlueMoon…",
-    "url": "https://securityaffairs.com/198783/apt/four-nation-state-actors-used-the-same-chrome-zero-day-exploit-kit-within-12-days.html",
-    "category": "APT",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T05:35:04+00:00",
     "coverage": 1
   },
   {
@@ -1961,17 +1972,6 @@ const NEWS = [
     "category": "Security",
     "date": "2026-09-02",
     "timestamp": "2026-09-02T19:35:09+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Ars Technica Security",
-    "rank": 19,
-    "title": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
-    "summary": "What can we learn from a BGP hijacking that poisoned production software? Plenty.",
-    "url": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
-    "category": "Biz & IT",
-    "date": "2026-09-02",
-    "timestamp": "2026-09-02T11:00:43+00:00",
     "coverage": 1
   }
 ];
