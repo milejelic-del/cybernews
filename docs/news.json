@@ -1,9 +1,130 @@
 [
   {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Cybersecurity jobs available right now: September 15, 2026",
+    "summary": "AI & Security Architect SecNinjaz Technologies | India | On-site – View job details As an AI & Security Architect, you will design secure and reliable AI agent platforms, including tools, memory, models, evaluations,…",
+    "url": "https://www.helpnetsecurity.com/2026/09/15/cybersecurity-jobs-available-right-now-september-15-2026/",
+    "category": "News",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T22:15:54+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+    "summary": "The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+    "category": "News",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T21:37:28+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Microsoft releases emergency Windows updates to fix RDS failures",
+    "summary": "Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month's security updates, along with Hyper-V and USB audio problems on some Windows versions. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
+    "category": "Microsoft",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T20:52:18+00:00",
+    "coverage": 2
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
+    "summary": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
+    "category": "Security",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T20:36:02+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "ENISA: Frontier AI Is Changing the Speed of Cyberattacks. Europe Needs to Catch Up",
+    "summary": "Frontier AI is compressing the attack lifecycle from vulnerability discovery to exploitation, forcing defenders to detect, patch and respond at machine speed. Cybersecurity has always been a race between attackers and…",
+    "url": "https://securityaffairs.com/199063/ai/enisa-frontier-ai-is-changing-the-speed-of-cyberattacks-europe-needs-to-catch-up.html",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T20:35:42+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
+    "summary": "CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk",
+    "category": "News",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T20:19:22+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
+    "summary": "Homebrew package manager version 7.0.0 has been released with a built-in vulnerability scanner, stronger security controls, and the full release of its native BrewUI graphical interface. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
+    "category": "Security",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T19:51:04+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "Members of ‘Black Axe’ cybercriminal group extradited from South Africa",
+    "summary": "Prosecutors unsealed a 2021 indictment accusing the five men of conducting lucrative romance scams that stole thousands of dollars from more than 100 people.",
+    "url": "https://therecord.media/members-of-black-axe-cybercrime-group-extradited-south-africa",
+    "category": "Cybercrime",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T19:40:00+00:00",
+    "coverage": 2
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
+    "summary": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+    "category": "Security",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T19:03:51+00:00",
+    "coverage": 3
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
+    "summary": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+    "category": "Security",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T18:34:16+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "China Calls Amodei’s AI Proposal a New Cold War Playbook",
+    "summary": "China rejects Amodei’s AI slowdown proposal, calling it fearmongering and a US attempt to contain China’s technology sector. The debate over whether the world should slow down the development of advanced AI has quickly…",
+    "url": "https://securityaffairs.com/199048/uncategorized/china-calls-amodeis-ai-proposal-a-new-cold-war-playbook.html",
+    "category": "Uncategorized",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T18:11:19+00:00",
+    "coverage": 1
+  },
+  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "ClickFix attacks are tricking Mac and Windows users into hacking themselves",
-    "summary": "If you clicked on a fake HBO Max ad on Reddit in the past week, you might have fallen victim to a rising 'ClickFix' security threat.",
+    "summary": "If you clicked on a fake HBO Max ad on Reddit in the past week, you might have fallen victim to a rising \"ClickFix\" security threat.",
     "url": "https://techcrunch.com/2026/09/14/clickfix-attacks-are-tricking-mac-and-windows-users-into-hacking-themselves/",
     "category": "Security",
     "date": "2026-09-14",
@@ -18,14 +139,36 @@
     "url": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
     "category": "News",
     "date": "2026-09-14",
-    "timestamp": "2026-09-14T16:58:42+00:00",
+    "timestamp": "2026-09-14T18:02:13+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+    "summary": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat…",
+    "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+    "category": "News",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T18:01:49+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+    "summary": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a writeup published on September 12. In Telegram, the…",
+    "url": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+    "category": "News",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T17:58:16+00:00",
     "coverage": 1
   },
   {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
-    "summary": "A Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national…",
+    "summary": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a…",
     "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
     "category": "News",
     "date": "2026-09-14",
@@ -341,14 +484,14 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Microsoft: September updates cause RDS failures on Windows Server",
-    "summary": "Microsoft has confirmed reports that the September 2026 security updates cause Remote Desktop Services (RDS) failures on Windows Server systems. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
-    "category": "Microsoft",
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Dutch NCSC Warns: Critical Check Point VPN Flaws Put Networks at Risk",
+    "summary": "Two critical Check Point VPN flaws score 9.8 and could enable remote code execution. Patch now and restrict VPN access before exploitation begins. The Dutch NCSC warns that two critical vulnerabilities in Check Point…",
+    "url": "https://securityaffairs.com/199015/security/dutch-ncsc-warns-critical-check-point-vpn-flaws-put-networks-at-risk.html",
+    "category": "Breaking News",
     "date": "2026-09-14",
-    "timestamp": "2026-09-14T09:50:25+00:00",
+    "timestamp": "2026-09-14T09:43:29+00:00",
     "coverage": 1
   },
   {
@@ -473,17 +616,6 @@
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-    "summary": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named \"Twitch Enhanced Viewer |…",
-    "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
-    "category": "News",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T07:24:39+00:00",
-    "coverage": 2
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
@@ -528,17 +660,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Permify: Open-source authorization as a service",
-    "summary": "Permify is an open-source authorization service that answers access questions at run time: can user X view document Y, which posts can members of team Y edit. It keeps those rules in one place, apart from the…",
-    "url": "https://www.helpnetsecurity.com/2026/09/14/permify-open-source-authorization-as-a-service/",
-    "category": "Don't miss",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T05:30:58+00:00",
-    "coverage": 1
-  },
-  {
     "source": "The Record",
     "rank": 2,
     "title": "Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI",
@@ -558,17 +679,6 @@
     "category": "Breaking News",
     "date": "2026-09-13",
     "timestamp": "2026-09-13T17:27:51+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
-    "summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
-    "category": "Security",
-    "date": "2026-09-13",
-    "timestamp": "2026-09-13T14:26:32+00:00",
     "coverage": 1
   },
   {
@@ -638,17 +748,6 @@
     "coverage": 1
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Anthropic: AI Misuse Is Entering a New Phase: From Cybercrime to Surveillance, Propaganda and Weapons",
-    "summary": "AI is becoming an operational force for cybercrime, surveillance, propaganda, fraud and weapons development, lowering the cost and scale of attacks. Artificial intelligence (AI) is becoming more than a tool for people…",
-    "url": "https://securityaffairs.com/198905/ai/anthropic-ai-misuse-is-entering-a-new-phase-from-cybercrime-to-surveillance-propaganda-and-weapons.html",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-12",
-    "timestamp": "2026-09-12T16:46:56+00:00",
-    "coverage": 1
-  },
-  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
@@ -657,17 +756,6 @@
     "category": "News",
     "date": "2026-09-12",
     "timestamp": "2026-09-12T15:54:45+00:00",
-    "coverage": 2
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
-    "summary": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-    "category": "Security",
-    "date": "2026-09-12",
-    "timestamp": "2026-09-12T14:14:32+00:00",
     "coverage": 2
   },
   {
@@ -737,28 +825,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
-    "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
-    "category": "Security",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T20:19:09+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Record",
-    "rank": 2,
-    "title": "Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device",
-    "summary": "The Florida Department of Motor Vehicles confirmed a data breach claimed by the cybercrime group ShinyHunters, saying it originated with the theft of credentials stored on a police officer's personal device.",
-    "url": "https://therecord.media/florida-shiny-hunters-motor-vehicle",
-    "category": "News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T20:00:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
@@ -767,17 +833,6 @@
     "category": "News",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T19:21:08+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Florida confirms DMV database breached via stolen police account",
-    "summary": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the attackers gained access using credentials belonging to a police…",
-    "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
-    "category": "Security",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T19:00:29+00:00",
     "coverage": 1
   },
   {
@@ -836,28 +891,6 @@
     "coverage": 1
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "The AI Supply Chain Has a Security Problem, and Much of It Is Sitting on the Open Internet",
-    "summary": "Researchers found 36,769 exposed AI endpoints, but only 2% had an HTTP authentication gate. Running AI locally is supposed to give organizations more control. Models, prompts and documents stay on infrastructure they…",
-    "url": "https://securityaffairs.com/198898/ai/the-ai-supply-chain-has-a-security-problem-and-much-of-it-is-sitting-on-the-open-internet.html",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T17:27:25+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
-    "summary": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from…",
-    "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-    "category": "Security",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T17:26:50+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "AI Governance Can't Wait",
@@ -880,17 +913,6 @@
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
-    "summary": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure. The vulnerability in question is…",
-    "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-    "category": "News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T16:30:18+00:00",
-    "coverage": 1
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "ConnectWise patches critical ScreenConnect authentication failure after five days",
@@ -899,17 +921,6 @@
     "category": "Network Security, Remote Access Security, Security, Vulnerabilities, Zero-Day Vulnerabilities",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T16:17:07+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-    "summary": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax.…",
-    "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-    "category": "News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T16:15:29+00:00",
     "coverage": 1
   },
   {
@@ -1254,17 +1265,6 @@
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
-    "summary": "Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.",
-    "url": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T07:00:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Srsly Risky Biz: America's drivers licence breach is a national security disaster",
@@ -1273,17 +1273,6 @@
     "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T03:18:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
-    "summary": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
-    "url": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
-    "category": "News",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T21:19:55+00:00",
     "coverage": 1
   },
   {
@@ -1350,17 +1339,6 @@
     "category": "Security",
     "date": "2026-09-09",
     "timestamp": "2026-09-09T19:14:26+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Lawmakers call on Commerce to sanction hackers-for-hire",
-    "summary": "The groups have allegedly targeted American citizens and companies, including the wife of GOP Senate candidate Mike Rogers, a former representative running in a Michigan swing race. The post Lawmakers call on Commerce…",
-    "url": "https://cyberscoop.com/us-lawmakers-treasury-sanctions-india-hack-for-hire/",
-    "category": "Government",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T18:43:58+00:00",
     "coverage": 1
   },
   {
@@ -1647,6 +1625,28 @@
     "category": "News",
     "date": "2026-09-02",
     "timestamp": "2026-09-02T02:46:34+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Krebs on Security",
+    "rank": 5,
+    "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+    "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose…",
+    "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+    "category": "A Little Sunshine",
+    "date": "2026-09-01",
+    "timestamp": "2026-09-01T22:40:28+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Between Two Nerds: The perfect hacker",
+    "summary": "In this edition of Between Two Nerds Tom Uren and The Grugq talk about how AI is the perfect hacker, but what makes it perfect for states is the opposite of what makes it perfect for criminals. This episode is also…",
+    "url": "https://risky.biz/BTN181/",
+    "category": "News",
+    "date": "2026-08-31",
+    "timestamp": "2026-08-31T20:07:52+00:00",
     "coverage": 1
   }
 ]
