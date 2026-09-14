@@ -154,7 +154,7 @@
       <div class="credit">made by Mile Jelic</div>
       <div class="streak-badge" id="streakBadge"></div>
       <div class="tagline">A digest of the latest news from 20 leading cybersecurity portals</div>
-      <div class="updated">Automatically updated: __GENERATED_AT__</div>
+      <div class="updated" id="updatedText"></div>
     </div>
     <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
       <div class="search-wrap">
@@ -166,12 +166,12 @@
     </div>
   </div>
   <div class="filters">
-    <div class="cat-label">SOURCE</div>
-    <div class="pill-row" id="pillRow"></div>
-  </div>
-  <div class="filters" style="padding-top:0;">
     <div class="cat-label">EU REGULATIONS</div>
     <div class="pill-row" id="regRow"></div>
+  </div>
+  <div class="filters" style="padding-top:0;">
+    <div class="cat-label">SOURCE</div>
+    <div class="pill-row" id="pillRow"></div>
   </div>
 </header>
 
@@ -197,12 +197,26 @@
 </div>
 
 <footer>
-  This site updates automatically from RSS feeds across 20 portals (last updated: __GENERATED_AT__). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
+  This site updates automatically from RSS feeds across 20 portals (last updated: <span id="footerUpdated"></span>). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
 </footer>
 
 <script>
 const SOURCES = __SOURCES_JSON__;
 const NEWS = __NEWS_JSON__;
+const GENERATED_AT_ISO = "__GENERATED_AT_ISO__";
+
+// ---------- prikaz vremena azuriranja u lokalnoj vremenskoj zoni uredjaja ----------
+function formatLocalDateTime(iso){
+  const d = new Date(iso);
+  if(isNaN(d.getTime())) return iso;
+  return d.toLocaleString(undefined, {
+    year: "numeric", month: "short", day: "2-digit",
+    hour: "2-digit", minute: "2-digit"
+  });
+}
+const generatedAtLocal = formatLocalDateTime(GENERATED_AT_ISO);
+document.getElementById("updatedText").textContent = "Automatically updated: " + generatedAtLocal;
+document.getElementById("footerUpdated").textContent = generatedAtLocal;
 
 const PALETTE = ["#e8a33d","#ef6a5a","#5aa9e6","#a682e8","#5ac8a8","#e6c15a","#e68ac8","#e88a5a","#6ad1e0","#c6c98f","#9fe85a","#8991a1"];
 function colorFor(cat){
