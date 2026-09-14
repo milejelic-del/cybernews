@@ -1,5 +1,49 @@
 [
   {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Permify: Open-source authorization as a service",
+    "summary": "Permify is an open-source authorization service that answers access questions at run time: can user X view document Y, which posts can members of team Y edit. It keeps those rules in one place, apart from the…",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/permify-open-source-authorization-as-a-service/",
+    "category": "Don't miss",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T05:30:58+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Cybersecurity attention fades within months after a breach",
+    "summary": "Cybersecurity attention often rises after an incident, then recedes as organizations return to their existing priorities and practices, according to a new ManageEngine survey of 700 IT and cybersecurity leaders in the…",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/manageengine-cybersecurity-breach-confidence-report/",
+    "category": "News",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T05:00:57+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Certificate failures can cost firms over $250,000",
+    "summary": "The move toward 47-day public TLS certificates by 2029 will increase the certificate management workload for enterprises, according to DigiCert’s Certificate Management Outlook. Organizations will need to renew…",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/digicert-certificate-management-automation-report/",
+    "category": "News",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T04:30:38+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "AWS puts AI vulnerability detection to the test, and false positives pile up",
+    "summary": "AWS’ Deception Benchmark measures how well AI models distinguish genuine security vulnerabilities from code that looks risky but is safe. AWS is making it publicly available so researchers can use the dataset and…",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/aws-deception-benchmark-security-vulnerabilities/",
+    "category": "News",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T04:00:14+00:00",
+    "coverage": 1
+  },
+  {
     "source": "The Record",
     "rank": 2,
     "title": "Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI",
@@ -822,50 +866,6 @@
     "category": "Don't miss",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T06:00:16+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Building a ransomware decision tree before the call comes in",
-    "summary": "In this Help Net Security video, Kerri Shafer-Page, VP of Incident Response at Arctic Wolf, walks through the ransomware decision tree in this video. She covers four areas where decisions need settling in advance,…",
-    "url": "https://www.helpnetsecurity.com/2026/09/11/ransomware-decision-tree-video/",
-    "category": "Don't miss",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T05:30:53+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Companies may be measuring phishing resilience the wrong way",
-    "summary": "Companies that judge phishing simulation programs by how often employees click simulated attack emails may be overlooking more important indicators of cyber resilience, according to Pistachio’s Phishing Behaviour Report…",
-    "url": "https://www.helpnetsecurity.com/2026/09/11/pistachio-employee-phishing-risk-report/",
-    "category": "News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T05:00:07+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "AI is changing what Salesforce security needs to govern",
-    "summary": "Existing security and governance practices have largely focused on identities, permissions, access, configurations and controls. WithSecure’s Navigating Trust in the Modern Salesforce Ecosystem paper says Salesforce…",
-    "url": "https://www.helpnetsecurity.com/2026/09/11/withsecure-salesforce-ai-trust-governance-paper/",
-    "category": "News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T04:30:42+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Ubuntu 24.04.5 LTS release patches security bugs across ten flavors",
-    "summary": "Canonical shipped Ubuntu 24.04.5 LTS, bundling security updates and fixes for high-severity bugs into new installation media for the “Noble Numbat” release. Anyone installing fresh now gets those corrections baked in…",
-    "url": "https://www.helpnetsecurity.com/2026/09/11/ubuntu-24-04-5-lts-released/",
-    "category": "News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T04:07:41+00:00",
     "coverage": 1
   },
   {
