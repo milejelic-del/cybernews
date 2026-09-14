@@ -232,11 +232,11 @@ def build_html(news: list) -> str:
         [{"rank": s["rank"], "name": s["name"], "url": s["site"], "tag": s["tag"]} for s in SOURCES],
         ensure_ascii=False, indent=2,
     )
-    generated_at = datetime.now(timezone.utc).strftime("%d.%m.%Y. %H:%M UTC")
+    generated_at_iso = datetime.now(timezone.utc).isoformat()
 
     out = template.replace("__NEWS_JSON__", news_json)
     out = out.replace("__SOURCES_JSON__", sources_json)
-    out = out.replace("__GENERATED_AT__", generated_at)
+    out = out.replace("__GENERATED_AT_ISO__", generated_at_iso)
     return out
 
 
