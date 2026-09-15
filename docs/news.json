@@ -1,5 +1,324 @@
 [
   {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "eBook: Identity-First Threat Intelligence",
+    "summary": "Attackers increasingly bypass traditional defenses by logging in with credentials that have already been stolen, exposed, or sold on the Dark Web. As infostealer malware accelerates credential theft, organizations need…",
+    "url": "https://www.helpnetsecurity.com/2026/09/15/enzoic-ebook-identity-first-threat-intelligence/",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T13:00:09+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "AI the Top Priority for New Spend as Cyber Budgets Flatline",
+    "summary": "IANS finds AI is dominating net-new budgets even as overall funding for the function is flat",
+    "url": "https://www.infosecurity-magazine.com/news/ai-top-priority-new-spend-cyber/",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T13:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Exaforce extends its AI security tool to monitor more than just Claude",
+    "summary": "Exaforce is offering to help enterprise security teams discover and monitor AI agents using security telemetry they already collect, rather than requiring yet another endpoint sensor. By combining usage data from…",
+    "url": "https://www.csoonline.com/article/4222191/exaforce-extends-its-ai-security-tool-to-monitor-more-than-just-claude.html",
+    "category": "Artificial Intelligence, Identity and Access Management, Security, Security Software",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T13:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "China spy chief points at US AI models in cyber threat warning",
+    "summary": "China's spy chief identified Anthropic’s Claude Mythos and OpenAI’s GPT-5.5-Cyber as signs of what he called a “disruptive upgrade” in cyber capabilities, increasing the speed and potential weaponization of…",
+    "url": "https://therecord.media/china-spy-chief-warns-of-us-ai-models",
+    "category": "China",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T12:54:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "OpenAI Investigates Report Linking AI Agents to RubyGems Attack",
+    "summary": "The incident occurred in May, when RubyGems maintainers suspended new account registrations due to what appeared like malicious activity. The post OpenAI Investigates Report Linking AI Agents to RubyGems Attack appeared…",
+    "url": "https://www.securityweek.com/openai-investigates-report-linking-ai-agents-to-rubygems-attack/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T12:42:32+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "Manhattan DA takes down 12 AI deepfake porn sites",
+    "summary": "Manhattan District Attorney Alvin Bragg held a press conference on Monday touting the takedown of the sites, which hosted AI-generated videos of more than 1,200 people. The sites allowed users to use the faces and…",
+    "url": "https://therecord.media/manhattan-da-takes-down-12-ai-deepfake-porn-sites",
+    "category": "Cybercrime",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T12:42:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Uncensored AI sold on hacking forum as alternative to ChatGPT and Claude jailbreaks",
+    "summary": "A new AI subscription service called Luciferus is being marketed on a hacking forum as an alternative to jailbreaking ChatGPT or Claude, Sophos found. The Counter Threat Unit (CTU) spotted the advertisement on August 24…",
+    "url": "https://www.helpnetsecurity.com/2026/09/15/luciferus-uncensored-ai-service-hacking-forum/",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T12:32:29+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "TechCrunch Security",
+    "rank": 17,
+    "title": "New Italian unicorn Exein rides the physical AI wave",
+    "summary": "Italian startup Exein has raised a $270 million round of funding led by Headline at a $1.7 billion valuation.",
+    "url": "https://techcrunch.com/2026/09/15/new-italian-unicorn-exein-rides-the-physical-ai-wave/",
+    "category": "Fundraising",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T12:19:38+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Shared Hosting at Risk: LiteSpeed Enterprise Bug Can Grant Root from a Single Tenant",
+    "summary": "Critical LiteSpeed Enterprise flaw lets one shared hosting account gain root, bypassing CageFS; patch now to 6.3.7 via forced update. cPanel warned that a critical flaw in LiteSpeed Enterprise can let a low‑privilege…",
+    "url": "https://securityaffairs.com/199127/security/shared-hosting-at-risk-litespeed-enterprise-bug-can-grant-root-from-a-single-tenant.html",
+    "category": "Breaking News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T12:19:11+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+    "category": "Security",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T12:16:32+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
+    "summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can…",
+    "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T11:52:28+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "240,000 Hit by Data Breach at Japan’s Digital Agency",
+    "summary": "Hackers exploited a vulnerability in a VPN product to steal the personal information of roughly 240,000 people. The post 240,000 Hit by Data Breach at Japan’s Digital Agency appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/240000-hit-by-data-breach-at-japans-digital-agency/",
+    "category": "Data Breaches",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T11:45:31+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
+    "summary": "Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this…",
+    "url": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T11:26:36+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+    "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed Vite development servers…",
+    "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T11:12:32+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases",
+    "summary": "The updates resolve kernel vulnerabilities that could lead to memory corruption, privilege escalation, system termination, and information leaks. The post Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden…",
+    "url": "https://www.securityweek.com/apple-patches-200-vulnerabilities-with-new-ios-27-macos-golden-gate-27-releases/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T11:06:11+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Microsoft sets security and safety rules for its AI models",
+    "summary": "Microsoft AI has published the first draft of its Humanist AI Code of Conduct, a training manual outlining how it develops AI models and intends them to behave during deployment. The draft is open for public…",
+    "url": "https://www.helpnetsecurity.com/2026/09/15/microsoft-ai-safety-rules-humanist-ai-code-of-conduct/",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T10:50:36+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "One Exploit Chain, Two Espionage Campaigns: Chrome and Windows Under Fire",
+    "summary": "Two China-linked groups ran identical Chrome/Windows zero-day exploits against NGOs, before Chrome’s patch shipped, deploying different backdoors each. Two China-linked threat actors used the same Chrome/Windows…",
+    "url": "https://securityaffairs.com/199104/apt/one-exploit-chain-two-espionage-campaigns-chrome-and-windows-under-fire.html",
+    "category": "APT",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T10:17:40+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Attackers hijack HBO Max’s Reddit account for 48-hour malvertising blitz",
+    "summary": "Attackers compromised the verified official HBO Max Reddit account, u/hbomax, and used its trusted advertising status to launch a ClickFix campaign targeting macOS and Windows devices with information-stealing malware.…",
+    "url": "https://www.helpnetsecurity.com/2026/09/15/hbo-max-reddit-account-clickfix-infostealer-malware/",
+    "category": "Don't miss",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T10:10:15+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
+    "summary": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradited to the United States to face wire fraud and money laundering…",
+    "url": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
+    "category": "Security",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T09:50:25+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints",
+    "summary": "The Humanist AI Code of Conduct draws a line between defensive cyber research and operational attack capability. The post Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints…",
+    "url": "https://www.securityweek.com/microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-chain-of-command-safety-constraints/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T09:40:25+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "AI is exposing a security structure built for yesterday’s threats",
+    "summary": "Organizations are investing more in security than ever before, yet many still struggle with a fundamental problem: they are preparing for tomorrow’s crisis with yesterday’s mindset. For decades, companies organized…",
+    "url": "https://www.csoonline.com/article/4221801/ai-is-exposing-a-security-structure-built-for-yesterdays-threats.html",
+    "category": "Artificial Intelligence, Physical Security, Security, Security Practices",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T09:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+    "summary": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+    "category": "Microsoft",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T08:40:20+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Akuity gives AI agents operational context to safely ship software",
+    "summary": "Akuity has introduced its Agentic Control Plane and MCP Server. Akuity’s Agentic Control Plane lets AI agents accelerate software delivery by giving them the operational context and permissions to act, all governed by…",
+    "url": "https://www.helpnetsecurity.com/2026/09/15/akuity-agentic-control-plane/",
+    "category": "Industry news",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T08:37:15+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Threat actors are coming for your AI assets to operationalize their use of AI",
+    "summary": "Both state-affiliated cyberespionage group and cybercrime gangs are targeting AI-related documents, configuration files, and proprietary models during intrusions. In addition, the number and scope of distillation…",
+    "url": "https://www.csoonline.com/article/4221307/threat-actors-are-coming-for-your-ai-assets-to-operationalize-their-use-of-ai.html",
+    "category": "Advanced Persistent Threats, Artificial Intelligence, Cyberattacks, Cybercrime, Security",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T08:25:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Traefik Labs brings independent verification to AI agent governance",
+    "summary": "Traefik Labs has introduced the Sovereign Trust Plane (STP), a set of capabilities in Traefik Hub that brings verifiable evidence to AI agent governance, with general availability planned by September 30, 2026. STP…",
+    "url": "https://www.helpnetsecurity.com/2026/09/15/traefik-labs-sovereign-trust-plane/",
+    "category": "Industry news",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T08:20:11+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Telegram Desktop Flaw Could Turn Old Chat Exports Into Data Theft Traps",
+    "summary": "A Telegram Desktop flaw let bots inject JavaScript into exported chats, enabling data theft and page manipulation. Old HTML exports remain unsafe. A vulnerability in Telegram Desktop could have turned an ordinary chat…",
+    "url": "https://securityaffairs.com/199076/security/telegram-desktop-flaw-could-turn-old-chat-exports-into-data-theft-traps.html",
+    "category": "Breaking News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T07:48:52+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+    "summary": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+    "category": "Security",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T07:31:09+00:00",
+    "coverage": 3
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Non-Zero-Day VPN Flaw Left Japan ‘s Government Shared Network Platform Exposed: 246,000 Records at Risk",
+    "summary": "Japan ‘s Digital Agency disclosed a VPN breach exposing 246,000 government employee records across 23 ministries. Detected June 25, publicly disclosed September 11. Japan ‘s Digital Agency disclosed that attackers…",
+    "url": "https://securityaffairs.com/199090/security/non-zero-day-vpn-flaw-left-japan-government-shared-network-platform-exposed-246000-records-at-risk.html",
+    "category": "Breaking News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T07:19:25+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+    "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory published on September 14. On such servers,…",
+    "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T06:52:16+00:00",
+    "coverage": 1
+  },
+  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
@@ -30,17 +349,6 @@
     "category": "News",
     "date": "2026-09-15",
     "timestamp": "2026-09-15T05:30:02+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation",
-    "summary": "An unauthenticated attacker can exploit CVE-2026-76461 to execute arbitrary commands on the underlying OS with root privileges. The post Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation appeared…",
-    "url": "https://www.securityweek.com/root-rce-zero-day-in-cisco-secure-email-gateway-under-active-exploitation/",
-    "category": "Email Security",
-    "date": "2026-09-15",
-    "timestamp": "2026-09-15T05:18:51+00:00",
     "coverage": 1
   },
   {
@@ -85,39 +393,6 @@
     "category": "CI/CD, Devops, GitLab, Security, Software Development, Version Control Systems, Vulnerabilities",
     "date": "2026-09-15",
     "timestamp": "2026-09-15T00:52:55+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Homebrew 7.0.0 is out, here’s what changed for security",
-    "summary": "Homebrew installs command-line software and desktop applications from the terminal on macOS and Linux, and Mac developers use it to set up their machines. On Sunday the project shipped version 7.0.0 and closed eight…",
-    "url": "https://www.helpnetsecurity.com/2026/09/15/homebrew-7-0-0-security-open-source/",
-    "category": "News",
-    "date": "2026-09-15",
-    "timestamp": "2026-09-15T00:47:06+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Apple parental controls in iOS 27 let kids ask before opening new websites",
-    "summary": "Apple has overhauled the child-safety tools that ship across iPhone, iPad, and Mac. One idea runs through the redesign. Give a child a device that does very little, then open it up as they’re ready. The tools went live…",
-    "url": "https://www.helpnetsecurity.com/2026/09/15/apple-parental-controls-ios-27/",
-    "category": "News",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T22:37:34+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Cybersecurity jobs available right now: September 15, 2026",
-    "summary": "AI & Security Architect SecNinjaz Technologies | India | On-site – View job details As an AI & Security Architect, you will design secure and reliable AI agent platforms, including tools, memory, models, evaluations,…",
-    "url": "https://www.helpnetsecurity.com/2026/09/15/cybersecurity-jobs-available-right-now-september-15-2026/",
-    "category": "News",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T22:15:54+00:00",
     "coverage": 1
   },
   {
@@ -173,7 +448,7 @@
     "category": "News",
     "date": "2026-09-14",
     "timestamp": "2026-09-14T20:19:22+00:00",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "source": "BleepingComputer",
@@ -206,7 +481,7 @@
     "category": "Security",
     "date": "2026-09-14",
     "timestamp": "2026-09-14T19:03:51+00:00",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "source": "BleepingComputer",
@@ -217,7 +492,7 @@
     "category": "Security",
     "date": "2026-09-14",
     "timestamp": "2026-09-14T18:34:16+00:00",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "source": "Security Affairs",
@@ -407,6 +682,17 @@
     "coverage": 1
   },
   {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "U.S. CISA adds GitLab, JFrog Artifactory, and ConnectWise ScreenConnect flaws to its Known Exploited Vulnerabilities catalog",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds GitLab, JFrog Artifactory, and ConnectWise ScreenConnect flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure…",
+    "url": "https://securityaffairs.com/199032/security/u-s-cisa-adds-gitlab-jfrog-artifactory-and-connectwise-screenconnect-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+    "category": "Breaking News",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T14:08:02+00:00",
+    "coverage": 1
+  },
+  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
@@ -415,28 +701,6 @@
     "category": "Security",
     "date": "2026-09-14",
     "timestamp": "2026-09-14T14:01:11+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Entrust turns cryptographic inventory data into security action",
-    "summary": "Entrust has unveiled new capabilities for its Cryptographic Security Platform (CSP) that help organizations turn Cryptographic Bill of Materials (CBOMs) data into action. Government agencies, financial institutions,…",
-    "url": "https://www.helpnetsecurity.com/2026/09/14/entrust-cbom-capabilities/",
-    "category": "Industry news",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T13:54:15+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Bitsight connects threat intelligence and exposure monitoring across the supply chain",
-    "summary": "Bitsight access to a broad risk dataset, combining threat intelligence and continuous exposure monitoring to help teams mitigate risk across the supply chain. “The surge in third-party-originating cybersecurity breaches…",
-    "url": "https://www.helpnetsecurity.com/2026/09/14/bitsight-beacon/",
-    "category": "Industry news",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T13:42:56+00:00",
     "coverage": 1
   },
   {
@@ -451,14 +715,14 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Dataminr uses agentic AI to predict and verify security threats",
-    "summary": "Dataminr has announced Dataminr Advanced for Corporate Security, delivering agentic AI capabilities that give corporate security teams the confidence to protect their people, sites, and operations before risk escalates.…",
-    "url": "https://www.helpnetsecurity.com/2026/09/14/dataminr-uses-agentic-ai-to-predict-and-verify-security-threats/",
-    "category": "Industry news",
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Personal, Financial Info Exposed in Revolut Data Breach",
+    "summary": "The company unintentionally disclosed users’ information to a third party impersonating a government agency. The post Personal, Financial Info Exposed in Revolut Data Breach appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach/",
+    "category": "Data Breaches",
     "date": "2026-09-14",
-    "timestamp": "2026-09-14T13:25:25+00:00",
+    "timestamp": "2026-09-14T13:03:35+00:00",
     "coverage": 1
   },
   {
@@ -484,17 +748,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "ENISA launched the CRA Single Reporting Platform for actively exploited vulnerabilities",
-    "summary": "The EU Agency for Cybersecurity switched on the Cyber Resilience Act‘s Single Reporting Platform on 11 September 2026, the same day the law’s reporting obligations started binding manufacturers. ENISA built the tool and…",
-    "url": "https://www.helpnetsecurity.com/2026/09/14/enisa-cra-single-reporting-platform/",
-    "category": "News",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T12:23:42+00:00",
-    "coverage": 1
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
@@ -503,39 +756,6 @@
     "category": "Security",
     "date": "2026-09-14",
     "timestamp": "2026-09-14T12:15:23+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Record",
-    "rank": 2,
-    "title": "Revolut handed customer data to fraudsters using government email account",
-    "summary": "British fintech company Revolut confirmed disclosing sensitive customer data to fraudsters who submitted emergency data requests from a legitimate government email account.",
-    "url": "https://therecord.media/revolut-scam-crypto-impersonation",
-    "category": "News",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T12:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-    "summary": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while…",
-    "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
-    "category": "News",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T11:58:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution",
-    "summary": "The Chinese-language input method editor for Windows can allow attackers to execute arbitrary code remotely. The post Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution appeared first on…",
-    "url": "https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/",
-    "category": "Nation-State",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T11:51:29+00:00",
     "coverage": 1
   },
   {
@@ -561,28 +781,6 @@
     "coverage": 1
   },
   {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "CISOs Race to Control AI Agents Without Destroying Their Value",
-    "summary": "Security leaders are struggling to modernize cyber hygiene and prevent over-privileged agents from causing unintended harm. The post CISOs Race to Control AI Agents Without Destroying Their Value appeared first on…",
-    "url": "https://www.securityweek.com/cisos-race-to-control-ai-agents-without-destroying-their-value/",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T10:30:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Telus Warns Customers of Account Breaches",
-    "summary": "Stolen credentials were used in a multi-month campaign to access subscriber personal data and billing records. The post Telus Warns Customers of Account Breaches appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/telus-warns-customers-of-account-breaches/",
-    "category": "Data Breaches",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T09:56:57+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "Dutch NCSC Warns: Critical Check Point VPN Flaws Put Networks at Risk",
@@ -591,17 +789,6 @@
     "category": "Breaking News",
     "date": "2026-09-14",
     "timestamp": "2026-09-14T09:43:29+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Three JFrog Artifactory Flaws Exploited for Backdoor Deployment",
-    "summary": "The vulnerabilities can allow attackers to bypass authentication and elevate their privileges to administrator. The post Three JFrog Artifactory Flaws Exploited for Backdoor Deployment appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/three-jfrog-artifactory-flaws-exploited-for-backdoor-deployment/",
-    "category": "Vulnerabilities",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T09:27:29+00:00",
     "coverage": 1
   },
   {
@@ -649,28 +836,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Revolut discloses data breach exposing financial info, passports",
-    "summary": "Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a government agency. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
-    "category": "Security",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T08:48:24+00:00",
-    "coverage": 2
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "ConnectWise Patches ScreenConnect Vulnerability Exploited in Worm-Like Attacks",
-    "summary": "The flaw allows attackers to send files and execute them without authorization through an active remote session. The post ConnectWise Patches ScreenConnect Vulnerability Exploited in Worm-Like Attacks appeared first on…",
-    "url": "https://www.securityweek.com/connectwise-patches-screenconnect-vulnerability-exploited-in-worm-like-attacks/",
-    "category": "Vulnerabilities",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T08:25:14+00:00",
-    "coverage": 1
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "How to level up from security pro to security leader",
@@ -680,28 +845,6 @@
     "date": "2026-09-14",
     "timestamp": "2026-09-14T08:25:00+00:00",
     "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Microsoft: September updates break audio on some Windows PCs",
-    "summary": "Microsoft has confirmed that USB audio devices may fail on some Windows systems after installing the KB5124008and KB5124012 September 2026 security updates. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
-    "category": "Microsoft",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T08:08:16+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
-    "category": "Security",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T07:06:27+00:00",
-    "coverage": 2
   },
   {
     "source": "Security Affairs",
@@ -715,17 +858,6 @@
     "coverage": 1
   },
   {
-    "source": "The Record",
-    "rank": 2,
-    "title": "Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI",
-    "summary": "The largest electronic spy agency in the world is reorganizing. And fast.",
-    "url": "https://therecord.media/nsa-reorganization-five-mission-centers",
-    "category": "Government",
-    "date": "2026-09-13",
-    "timestamp": "2026-09-13T21:36:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 114",
@@ -735,72 +867,6 @@
     "date": "2026-09-13",
     "timestamp": "2026-09-13T17:27:51+00:00",
     "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Security Affairs newsletter Round 594 by Pierluigi Paganini – INTERNATIONAL EDITION",
-    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter,…",
-    "url": "https://securityaffairs.com/198957/security/security-affairs-newsletter-round-594-by-pierluigi-paganini-international-edition.html",
-    "category": "Breaking News",
-    "date": "2026-09-13",
-    "timestamp": "2026-09-13T14:23:47+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "GitLab CVE-2026-85706: One HTTP Request, No Authentication, Full File Read – Exploited Within 24 Hours",
-    "summary": "CVE-2026-85706, a CVSS 10.0 GitLab path traversal, was under active exploitation within 24 hours of disclosure. GitLab disclosed CVE-2026-85706 (CVSS score of 10.0) on September 10, 2026, a path traversal vulnerability…",
-    "url": "https://securityaffairs.com/198945/hacking/gitlab-cve-2026-85706-one-http-request-no-authentication-full-file-read-exploited-within-24-hours.html",
-    "category": "Breaking News",
-    "date": "2026-09-13",
-    "timestamp": "2026-09-13T12:26:54+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-    "summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach…",
-    "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-    "category": "News",
-    "date": "2026-09-13",
-    "timestamp": "2026-09-13T10:11:48+00:00",
-    "coverage": 2
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Conti Hacker Who Built Malware and Attacked Victims Gets Four-Year Sentence",
-    "summary": "Ukrainian lawyer and Conti malware developer Oleksii Lytvynenko was sentenced to four years in U.S. prison for ransomware attacks. Oleksii Oleksiyovych Lytvynenko had, by most accounts, a fairly ordinary legal career in…",
-    "url": "https://securityaffairs.com/198931/cyber-crime/conti-hacker-who-built-malware-and-attacked-victims-gets-four-year-sentence.html",
-    "category": "Breaking News",
-    "date": "2026-09-13",
-    "timestamp": "2026-09-13T09:19:42+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Revolut Exposed KYC Data After Fraudulent Government Email Passed Security Checks",
-    "summary": "Revolut handed over KYC documents, selfies, and Bitcoin transaction histories after a fake government email with valid domain credentials passed its checks. Revolut confirmed on September 12, 2026, that it disclosed…",
-    "url": "https://securityaffairs.com/198922/data-breach/revolut-exposed-kyc-data-after-fraudulent-government-email-passed-security-checks.html",
-    "category": "Breaking News",
-    "date": "2026-09-12",
-    "timestamp": "2026-09-12T21:05:41+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV)…",
-    "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-    "category": "News",
-    "date": "2026-09-12",
-    "timestamp": "2026-09-12T15:54:45+00:00",
-    "coverage": 2
   },
   {
     "source": "WIRED Security",
@@ -1067,17 +1133,6 @@
     "coverage": 1
   },
   {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Google’s Early Access is creating a blind spot for malicious apps",
-    "summary": "Google’s Early Access program is meant to give developers a place to release unfinished apps, gather feedback and handle bugs before a full launch. But new research from Bitdefender Labs suggests the feature may also be…",
-    "url": "https://www.csoonline.com/article/4221068/googles-early-access-is-creating-a-blind-spot-for-malicious-apps.html",
-    "category": "Endpoint Protection, Mobile Security, Security",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T08:36:24+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Risky Bulletin: Anthropic agents went hacking again",
@@ -1086,17 +1141,6 @@
     "category": "News",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T02:32:11+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Attackers are weaponizing the gap between Chromium fixes and Chrome patches",
-    "summary": "A new exploit kit is revealing the perils of the “patch later” mentality. According to the Proofpoint Threat Research team , espionage-motivated threat actors are using a new malicious toolkit to chain together four…",
-    "url": "https://www.csoonline.com/article/4220939/attackers-are-weaponizing-the-gap-between-chromium-fixes-and-chrome-patches.html",
-    "category": "Artificial Intelligence, Browser Security, Endpoint Protection, Security, Vulnerabilities",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T01:10:19+00:00",
     "coverage": 1
   },
   {
@@ -1243,17 +1287,6 @@
     "coverage": 1
   },
   {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "FBI Publishes First-Ever Cyber Strategy, With Focus on Disrupting Threat Actors",
-    "summary": "The new document appears to be part of a broader shift by the US government towards the proactive disruption of cyber threat actors",
-    "url": "https://www.infosecurity-magazine.com/news/fbi-cyber-strategy-disrupting/",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T12:15:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "WIRED Security",
     "rank": 18,
     "title": "Clearview AI Is Testing an AI Tool That Would Let Cops Unearth Your Life Online",
@@ -1262,17 +1295,6 @@
     "category": "Security",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T10:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "Anthropic Reveals Yet Another Cybersecurity Incident",
-    "summary": "Anthropic has found a fourth case of its model accessing third-party systems without authorization",
-    "url": "https://www.infosecurity-magazine.com/news/anthropic-another-cybersecurity/",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T08:45:00+00:00",
     "coverage": 1
   },
   {
@@ -1573,17 +1595,6 @@
     "coverage": 1
   },
   {
-    "source": "TechCrunch Security",
-    "rank": 17,
-    "title": "Abliteration.ai is making a business out of removing AI guardrails",
-    "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
-    "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-    "category": "AI",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T18:37:57+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Srsly Risky Biz: China's botnets are worth disrupting",
@@ -1636,17 +1647,6 @@
     "category": "A Little Sunshine",
     "date": "2026-09-01",
     "timestamp": "2026-09-01T22:40:28+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Between Two Nerds: The perfect hacker",
-    "summary": "In this edition of Between Two Nerds Tom Uren and The Grugq talk about how AI is the perfect hacker, but what makes it perfect for states is the opposite of what makes it perfect for criminals. This episode is also…",
-    "url": "https://risky.biz/BTN181/",
-    "category": "News",
-    "date": "2026-08-31",
-    "timestamp": "2026-08-31T20:07:52+00:00",
     "coverage": 1
   }
 ]
