@@ -1,5 +1,38 @@
 [
   {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "A maximum severity GitLab flaw could turn your CI/CD server into an attacker’s treasure trove",
+    "summary": "Yet another security vulnerability has been discovered in GitLab infrastructure, this one a perfect 10 in severity. CVE-2026-85706 , the second flaw GitLab has disclosed in just a month, is a maximum-severity…",
+    "url": "https://www.csoonline.com/article/4221934/a-maximum-severity-gitlab-flaw-could-turn-your-ci-cd-server-into-an-attackers-treasure-trove.html",
+    "category": "CI/CD, Devops, GitLab, Security, Software Development, Version Control Systems, Vulnerabilities",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T00:52:55+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Homebrew 7.0.0 is out, here’s what changed for security",
+    "summary": "Homebrew installs command-line software and desktop applications from the terminal on macOS and Linux, and Mac developers use it to set up their machines. On Sunday the project shipped version 7.0.0 and closed eight…",
+    "url": "https://www.helpnetsecurity.com/2026/09/15/homebrew-7-0-0-security-open-source/",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T00:47:06+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Apple parental controls in iOS 27 let kids ask before opening new websites",
+    "summary": "Apple has overhauled the child-safety tools that ship across iPhone, iPad, and Mac. One idea runs through the redesign. Give a child a device that does very little, then open it up as they’re ready. The tools went live…",
+    "url": "https://www.helpnetsecurity.com/2026/09/15/apple-parental-controls-ios-27/",
+    "category": "News",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T22:37:34+00:00",
+    "coverage": 1
+  },
+  {
     "source": "Help Net Security",
     "rank": 7,
     "title": "Cybersecurity jobs available right now: September 15, 2026",
@@ -627,17 +660,6 @@
     "coverage": 2
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "What we know about the Revolut data breach so far",
-    "summary": "Someone impersonating a government agency, using an email address on that agency’s domain, obtained sensitive customer records from Revolut. The bank confirmed the incident on Saturday, September 12. The London-based…",
-    "url": "https://www.helpnetsecurity.com/2026/09/14/revolut-data-breach-privacy/",
-    "category": "Don't miss",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T07:02:51+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "Anthropic CEO Calls for an AI Slowdown. Is It Possible?",
@@ -646,17 +668,6 @@
     "category": "Artificial Intelligence",
     "date": "2026-09-14",
     "timestamp": "2026-09-14T06:40:53+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Turn it off and on again, but for critical infrastructure",
-    "summary": "Researchers at KTH Royal Institute of Technology built a container replica of a segmented industrial network, attacked it repeatedly across 14 days of running time, and used the captured traffic to train a defense agent…",
-    "url": "https://www.helpnetsecurity.com/2026/09/14/ot-intrusion-response-agent/",
-    "category": "Don't miss",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T06:00:04+00:00",
     "coverage": 1
   },
   {
@@ -1229,17 +1240,6 @@
     "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T12:15:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "AI workflows may be creating a dangerous new authorization blind spot",
-    "summary": "A newly identified AI attack technique can let unauthenticated users trigger privileged workflows and access enterprise systems, highlighting a gap in how identity and access controls apply to AI agents, according to…",
-    "url": "https://www.csoonline.com/article/4220702/ai-workflows-may-be-creating-a-dangerous-new-authorization-blind-spot.html",
-    "category": "Access Control, Artificial Intelligence, Authentication, Identity and Access Management, Security",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T12:04:44+00:00",
     "coverage": 1
   },
   {
