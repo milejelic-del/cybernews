@@ -1,8 +1,96 @@
 [
   {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
+    "summary": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that created a hidden…",
+    "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
+    "category": "Security",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T20:34:15+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow?",
+    "summary": "Microsoft agreed to adopt guardrails and privacy standards for its AI in schools, as negotiated with the American Federation of Teachers. The post Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other…",
+    "url": "https://www.securityweek.com/microsoft-commits-to-sweeping-ai-privacy-rules-for-students-will-other-tech-giants-follow/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T20:24:51+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Microsoft Issues Emergency Fixes After Massive Patch Tuesday",
+    "summary": "You can't make an omelet without breaking a few eggs, and you can't patch nearly 1,000 CVEs without a few glitches.",
+    "url": "https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T20:16:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "Norway announces investigations into telecom Telenor’s work with Myanmar junta",
+    "summary": "Oslo-based Telenor potentially enabled crimes against humanity and violated sanctions in its dealings with the military regime that took over Myanmar in 2021, Norwegian authorities said.",
+    "url": "https://therecord.media/norway-investigations-telenor-telecom-myanmar-regime",
+    "category": "Nation-state",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T20:01:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "What’s next for CISA’s CDM program that gives cybersecurity tools to federal agencies",
+    "summary": "Three feds spoke about future plans for the Continuous Diagnostics and Mitigation program, and lessons they’ve learned. The post What’s next for CISA’s CDM program that gives cybersecurity tools to federal agencies…",
+    "url": "https://cyberscoop.com/whats-next-for-cisas-cdm-program-that-gives-cybersecurity-tools-to-federal-agencies/",
+    "category": "Government",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T19:45:35+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "“We Think the Security Control Is Working” Is No Longer Good Enough",
+    "summary": "Point-in-time audits and sampled assessments offer only snapshots; continuous control monitoring provides evidence that security controls are working today. The post “We Think the Security Control Is Working” Is No…",
+    "url": "https://www.securityweek.com/we-think-the-security-control-is-working-is-no-longer-good-enough/",
+    "category": "CISO Strategy",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T19:30:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
+    "summary": "The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the…",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T19:27:19+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
+    "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN. Elastic Security Labs is tracking the activity under the moniker…",
+    "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T18:54:14+00:00",
+    "coverage": 1
+  },
+  {
     "source": "TechCrunch Security",
     "rank": 17,
-    "title": "US military confirms it launched space weapons into Earth’s orbit",
+    "title": "US military says it has launched weapons into space",
     "summary": "This is the first public acknowledgment that the U.S. military put a space weapon in Earth's orbit.",
     "url": "https://techcrunch.com/2026/09/15/us-military-confirms-it-launched-space-weapons-into-earths-orbit/",
     "category": "Security",
@@ -91,7 +179,7 @@
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "AI is now leading driver of new cybersecurity spending",
-    "summary": "AI investments are expected to help automate security operations and enhance identity and access management.",
+    "summary": "The prioritization comes at a time of relatively modest growth in overall security investments, according to IANS and Artico Search.",
     "url": "https://www.cybersecuritydive.com/news/ai-leading-driver-cybersecurity-spending/830418/",
     "category": "News",
     "date": "2026-09-15",
@@ -145,7 +233,7 @@
   {
     "source": "Cybersecurity Dive",
     "rank": 14,
-    "title": "Companies’ AI strategies don’t account for their agentic tools",
+    "title": "Companies’ AI strategies don’t account for agentic tools",
     "summary": "Businesses are taking AI governance seriously, but their plans lag behind the technology they’re using, according to an EY survey.",
     "url": "https://www.cybersecuritydive.com/news/ai-governance-agents-ey/830282/",
     "category": "News",
@@ -330,17 +418,6 @@
     "coverage": 1
   },
   {
-    "source": "The Record",
-    "rank": 2,
-    "title": "Manhattan DA takes down 12 AI deepfake porn sites",
-    "summary": "Manhattan District Attorney Alvin Bragg held a press conference on Monday touting the takedown of the sites, which hosted AI-generated videos of more than 1,200 people. The sites allowed users to use the faces and…",
-    "url": "https://therecord.media/manhattan-da-takes-down-12-ai-deepfake-porn-sites",
-    "category": "Cybercrime",
-    "date": "2026-09-15",
-    "timestamp": "2026-09-15T12:42:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Help Net Security",
     "rank": 7,
     "title": "Uncensored AI sold on hacking forum as alternative to ChatGPT and Claude jailbreaks",
@@ -492,17 +569,6 @@
     "category": "Artificial Intelligence",
     "date": "2026-09-15",
     "timestamp": "2026-09-15T09:40:25+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Hacked HBO Max Reddit Account Used for Malware Delivery via ClickFix Attack",
-    "summary": "Ads led to a ClickFix page designed to trick macOS and Windows users into installing malware. The post Hacked HBO Max Reddit Account Used for Malware Delivery via ClickFix Attack appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/hacked-hbo-reddit-account-used-for-malware-delivery-via-clickfix-attack/",
-    "category": "Malware & Threats",
-    "date": "2026-09-15",
-    "timestamp": "2026-09-15T09:09:00+00:00",
     "coverage": 1
   },
   {
@@ -704,17 +770,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
-    "summary": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
-    "category": "Security",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T19:03:51+00:00",
-    "coverage": 2
-  },
-  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "Five alleged leaders of Black Axe’s operations in South Africa extradited to US",
@@ -781,17 +836,6 @@
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
-    "summary": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a…",
-    "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
-    "category": "News",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T16:56:30+00:00",
-    "coverage": 1
-  },
-  {
     "source": "WIRED Security",
     "rank": 18,
     "title": "New York Seizes a Dozen Celebrity Deepfake Websites",
@@ -822,6 +866,17 @@
     "category": "News",
     "date": "2026-09-14",
     "timestamp": "2026-09-14T15:20:22+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "Malicious Twitch Extension Exposes 31,000 Users' OAuth Tokens",
+    "summary": "Socket has discovered a Twitch browser extension forwarding users' OAuth tokens to a Russian bot service",
+    "url": "https://www.infosecurity-magazine.com/news/malicious-twitch-extension-oauth/",
+    "category": "News",
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T15:00:00+00:00",
     "coverage": 1
   },
   {
@@ -1144,17 +1199,6 @@
     "coverage": 1
   },
   {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Anthropic finds evidence of a fourth AI escaping from containment",
-    "summary": "Anthropic has owned up to a fourth security incident involving its AI model, Claude, escaping onto the open internet and attacking other organizations during a test of cybersecurity abilities on what was believed to be…",
-    "url": "https://www.csoonline.com/article/4221160/anthropic-finds-evidence-of-a-fourth-ai-escaping-from-containment.html",
-    "category": "Artificial Intelligence, Cyberattacks, Cybercrime, Security",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T14:13:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "Scammers target hundreds of thousands of crypto owners after Trezor confirms data breach of email provider",
@@ -1221,28 +1265,6 @@
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Indonesia Hit by Android Banking App-Cloning Campaign",
-    "summary": "The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.",
-    "url": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
-    "category": "News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T01:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
-    "summary": "Threat actors are leveraging Microsoft's Graph API to identify lucrative targets, then passing their access to extortion groups like ShinyHunters.",
-    "url": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T20:36:03+00:00",
-    "coverage": 1
-  },
-  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "Conti ransomware crew member sentenced to four years in prison",
@@ -1295,17 +1317,6 @@
     "category": "News",
     "date": "2026-09-10",
     "timestamp": "2026-09-10T14:27:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Governments ‘buying time’ in race between innovation, security, national cyber director says",
-    "summary": "Sean Cairncross also said AI has shown long-standing issues in cyber rather than creating new ones. The post Governments ‘buying time’ in race between innovation, security, national cyber director says appeared first on…",
-    "url": "https://cyberscoop.com/national-cyber-director-ai-cybersecurity-threats/",
-    "category": "AI",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T13:53:55+00:00",
     "coverage": 1
   },
   {
@@ -1636,17 +1647,6 @@
     "category": "A Little Sunshine",
     "date": "2026-09-01",
     "timestamp": "2026-09-01T22:40:28+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Between Two Nerds: The perfect hacker",
-    "summary": "In this edition of Between Two Nerds Tom Uren and The Grugq talk about how AI is the perfect hacker, but what makes it perfect for states is the opposite of what makes it perfect for criminals. This episode is also…",
-    "url": "https://risky.biz/BTN181/",
-    "category": "News",
-    "date": "2026-08-31",
-    "timestamp": "2026-08-31T20:07:52+00:00",
     "coverage": 1
   }
 ]
