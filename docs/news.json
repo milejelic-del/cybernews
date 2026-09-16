@@ -1,5 +1,49 @@
 [
   {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "DeepZero: Open-source hunting for vulnerable Windows drivers",
+    "summary": "DeepZero is an open-source engine that automates the search for exploitable Windows kernel drivers. You point it at a folder of binaries and it parses them, pulls them apart, scans them, throws most of them away, and…",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/vulnerable-windows-drivers-deepzero-open-source/",
+    "category": "Don't miss",
+    "date": "2026-09-16",
+    "timestamp": "2026-09-16T05:30:38+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "The modern attack chain: Rethinking Google Workspace security in the age of AI",
+    "summary": "Over the past two months, I’ve written about the Vercel breach and the Composio breach separately. Both offer lessons to learn on their own. But reading them together, I keep coming back to the same observation: these…",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/material-google-workspace-attack-chains/",
+    "category": "Don't miss",
+    "date": "2026-09-16",
+    "timestamp": "2026-09-16T05:00:49+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "MSPs say nearly half their customers rely on them for CISO services",
+    "summary": "MSPs estimate that 46% of their customers, on average, look to them to act as CISOs, according to Sophos. Most of those providers do that job without the full set of compliance services, and many spread the work across…",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/msp-ciso-services-compliance/",
+    "category": "News",
+    "date": "2026-09-16",
+    "timestamp": "2026-09-16T04:30:20+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Cyber Op Targets South Korean Media & Automotive Sectors",
+    "summary": "A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications, and further exploit networks.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive",
+    "category": "News",
+    "date": "2026-09-16",
+    "timestamp": "2026-09-16T01:00:00+00:00",
+    "coverage": 1
+  },
+  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
@@ -437,7 +481,7 @@
     "category": "Artificial Intelligence",
     "date": "2026-09-15",
     "timestamp": "2026-09-15T12:42:32+00:00",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "source": "Help Net Security",
@@ -539,17 +583,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Microsoft sets security and safety rules for its AI models",
-    "summary": "Microsoft AI has published the first draft of its Humanist AI Code of Conduct, a training manual outlining how it develops AI models and intends them to behave during deployment. The draft is open for public…",
-    "url": "https://www.helpnetsecurity.com/2026/09/15/microsoft-ai-safety-rules-humanist-ai-code-of-conduct/",
-    "category": "News",
-    "date": "2026-09-15",
-    "timestamp": "2026-09-15T10:50:36+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "One Exploit Chain, Two Espionage Campaigns: Chrome and Windows Under Fire",
@@ -558,17 +591,6 @@
     "category": "APT",
     "date": "2026-09-15",
     "timestamp": "2026-09-15T10:17:40+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Attackers hijack HBO Max’s Reddit account for 48-hour malvertising blitz",
-    "summary": "Attackers compromised the verified official HBO Max Reddit account, u/hbomax, and used its trusted advertising status to launch a ClickFix campaign targeting macOS and Windows devices with information-stealing malware.…",
-    "url": "https://www.helpnetsecurity.com/2026/09/15/hbo-max-reddit-account-clickfix-infostealer-malware/",
-    "category": "Don't miss",
-    "date": "2026-09-15",
-    "timestamp": "2026-09-15T10:10:15+00:00",
     "coverage": 1
   },
   {
@@ -613,17 +635,6 @@
     "category": "Microsoft",
     "date": "2026-09-15",
     "timestamp": "2026-09-15T08:40:20+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Akuity gives AI agents operational context to safely ship software",
-    "summary": "Akuity has introduced its Agentic Control Plane and MCP Server. Akuity’s Agentic Control Plane lets AI agents accelerate software delivery by giving them the operational context and permissions to act, all governed by…",
-    "url": "https://www.helpnetsecurity.com/2026/09/15/akuity-agentic-control-plane/",
-    "category": "Industry news",
-    "date": "2026-09-15",
-    "timestamp": "2026-09-15T08:37:15+00:00",
     "coverage": 1
   },
   {
@@ -1155,28 +1166,6 @@
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Papercut AI Swarm Attack Heralds Changes for Cyber Kill Chain",
-    "summary": "From creating lab environments for staging and testing agentic attacks to reconnaissance to lateral movement and exfiltration, the most innovative attackers are widely incorporating AI.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/papercut-ai-swarm-attack-cyber-kill-chain",
-    "category": "News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T15:48:27+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "India’s STPI serves TerminalFix-style attack via fake Cloudflare check",
-    "summary": "A website linked to India’s Software Technology Parks of India (STPI) is serving a spoofed Cloudflare verification page that silently copies a malicious string to visitors’ clipboards and prompts them to execute it via…",
-    "url": "https://www.csoonline.com/article/4221243/indias-stpi-serves-terminalfix-style-attack-via-fake-cloudflare-check.html",
-    "category": "Cloud Security, Cyberattacks, Cybercrime, Government, Government IT, Industry, Malware, Markets, Security",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T15:26:58+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "State authorities warn they lack resources to address cyber threat to critical sectors",
@@ -1647,6 +1636,17 @@
     "category": "News",
     "date": "2026-08-31",
     "timestamp": "2026-08-31T20:07:52+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Ars Technica Security",
+    "rank": 19,
+    "title": "Think twice before installing this device promising free movies",
+    "summary": "In exchange for free stuff, devices make home connections part of a proxy network.",
+    "url": "https://arstechnica.com/security/2026/08/how-some-media-streaming-devices-open-home-networks-to-a-world-of-harm/",
+    "category": "Biz & IT",
+    "date": "2026-08-31",
+    "timestamp": "2026-08-31T16:33:38+00:00",
     "coverage": 1
   }
 ]
