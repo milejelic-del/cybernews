@@ -1,5 +1,16 @@
 [
   {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Anthropic wants Claude to analyze your bank account and financial data",
+    "summary": "Anthropic is testing a new personal finance feature called \"Claude Money\" that will allow you to connect your bank accounts directly to Claude and \"understand your money.\" [...]",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-17",
+    "timestamp": "2026-09-17T00:35:48+00:00",
+    "coverage": 1
+  },
+  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
@@ -800,17 +811,6 @@
     "category": "Breaking News",
     "date": "2026-09-15",
     "timestamp": "2026-09-15T20:46:41+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
-    "summary": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that created a hidden…",
-    "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
-    "category": "Security",
-    "date": "2026-09-15",
-    "timestamp": "2026-09-15T20:34:15+00:00",
     "coverage": 1
   },
   {
