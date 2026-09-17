@@ -11,6 +11,72 @@
     "coverage": 1
   },
   {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "Cisco alerts customers to second actively exploited zero-day in as many days",
+    "summary": "The latest zero-day has a maximum-severity rating and affects Cisco Identity Services Engine, a product hit with three actively exploited vulnerabilities since June 2025. The post Cisco alerts customers to second…",
+    "url": "https://cyberscoop.com/cisco-ise-zero-day-cve-2026-76460/",
+    "category": "Cybersecurity",
+    "date": "2026-09-17",
+    "timestamp": "2026-09-17T21:03:42+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "European Commission set to push social media restrictions, safety requirements into law",
+    "summary": "The proposal, known as the EU KIDS Act, would block social media platforms from offering accounts to children younger than 13 and establish a bloc-wide minimum age of 15 for account creation.",
+    "url": "https://therecord.media/european-commission-set-to-push-social-media-kids-restrictions-into-law",
+    "category": "Government",
+    "date": "2026-09-17",
+    "timestamp": "2026-09-17T20:36:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "The AI hacking apocalypse is not inevitable",
+    "summary": "While large language models present real risks to society, experts say they can be tested and largely controlled using well-worn cybersecurity and policy choices. The post The AI hacking apocalypse is not inevitable…",
+    "url": "https://cyberscoop.com/ai-agent-hacking-apocalypse-cybersecurity/",
+    "category": "AI",
+    "date": "2026-09-17",
+    "timestamp": "2026-09-17T19:18:07+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "OpenAI details more cases of AI agents taking unauthorized actions",
+    "summary": "OpenAI has presented new examples of what they call \"AI model misalignment\" from the past six months, including unauthorized file uploads, following self-generated instructions, hiding mistakes, and leveraging exposed…",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
+    "category": "Security",
+    "date": "2026-09-17",
+    "timestamp": "2026-09-17T18:55:12+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Ars Technica Security",
+    "rank": 19,
+    "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
+    "summary": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
+    "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+    "category": "AI",
+    "date": "2026-09-17",
+    "timestamp": "2026-09-17T18:33:13+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Cyberattacks on Oil Tankers Put Maritime Critical Infrastructure at Risk",
+    "summary": "Cyberattacks on oil tankers show how connected ships can expose navigation and critical systems, threatening safety, ports and global trade. U.S. Coast Guard personnel and FBI agents boarded two Texas‑bound energy…",
+    "url": "https://securityaffairs.com/199280/hacking/cyberattacks-on-oil-tankers-put-maritime-critical-infrastructure-at-risk.html",
+    "category": "Breaking News",
+    "date": "2026-09-17",
+    "timestamp": "2026-09-17T18:06:07+00:00",
+    "coverage": 1
+  },
+  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
@@ -41,7 +107,7 @@
     "category": "News",
     "date": "2026-09-17",
     "timestamp": "2026-09-17T16:30:00+00:00",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "source": "CSO Online",
@@ -517,6 +583,17 @@
     "coverage": 1
   },
   {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Spain reports first data breach involving autonomous AI agent",
+    "summary": "Spain’s data protection authority (AEPD) has reported its first data breach blamed on an AI agent acting on its own, after the system reportedly logged into a company’s network, found a way to alter personal records,…",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/spain-ai-agent-data-breach/",
+    "category": "News",
+    "date": "2026-09-17",
+    "timestamp": "2026-09-17T08:39:44+00:00",
+    "coverage": 1
+  },
+  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "AI Agent Carries Out Multi-Stage Data Theft Attack",
@@ -613,7 +690,7 @@
     "category": "Security",
     "date": "2026-09-17",
     "timestamp": "2026-09-17T07:20:54+00:00",
-    "coverage": 3
+    "coverage": 4
   },
   {
     "source": "The Hacker News",
@@ -657,17 +734,6 @@
     "category": "Biz & IT",
     "date": "2026-09-16",
     "timestamp": "2026-09-16T21:08:14+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Record",
-    "rank": 2,
-    "title": "Key lawmaker suggests action on AI safety legislation will wait until 2027",
-    "summary": "“It's really complicated, and I wouldn't want to do something in a lame duck session to do it quickly and not get it right,” said House Energy and Commerce Chairman Brett Guthrie about the FRONTIER Act.",
-    "url": "https://therecord.media/frontier-act-ai-bill-house-brett-guthrie",
-    "category": "Technology",
-    "date": "2026-09-16",
-    "timestamp": "2026-09-16T21:07:00+00:00",
     "coverage": 1
   },
   {
@@ -768,17 +834,6 @@
     "date": "2026-09-16",
     "timestamp": "2026-09-16T18:00:54+00:00",
     "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Spain's data agency gets first report of AI-powered data breach",
-    "summary": "The Spanish Data Protection Agency (AEPD) was notified of an attack allegedly carried out with an AI agent powered by a known large language model (LLM). [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
-    "category": "Security",
-    "date": "2026-09-16",
-    "timestamp": "2026-09-16T17:26:41+00:00",
-    "coverage": 2
   },
   {
     "source": "Dark Reading",
@@ -1078,17 +1133,6 @@
     "coverage": 1
   },
   {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Critical Cisco Secure Email Gateway zero-day gives attackers root access",
-    "summary": "Cisco released emergency patches for a critical vulnerability in its Secure Email Gateway appliance that could allow attackers to take over the device by simply sending malicious crafted emails to users. The flaw was…",
-    "url": "https://www.csoonline.com/article/4222391/critical-cisco-secure-email-gateway-zero-day-gives-attackers-root-access.html",
-    "category": "Communications Security, Email Security, Network Security, Security, Vulnerabilities",
-    "date": "2026-09-15",
-    "timestamp": "2026-09-15T19:56:58+00:00",
-    "coverage": 2
-  },
-  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "What’s next for CISA’s CDM program that gives cybersecurity tools to federal agencies",
@@ -1210,17 +1254,6 @@
     "coverage": 1
   },
   {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Five alleged leaders of Black Axe’s operations in South Africa extradited to US",
-    "summary": "Officials said the five individuals concocted various long-running romance scams to trick U.S.-based victims into sending them money. The post Five alleged leaders of Black Axe’s operations in South Africa extradited to…",
-    "url": "https://cyberscoop.com/black-axe-south-africa-leaders-extradited/",
-    "category": "Cybercrime",
-    "date": "2026-09-14",
-    "timestamp": "2026-09-14T18:37:44+00:00",
-    "coverage": 1
-  },
-  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "ClickFix attacks are tricking Mac and Windows users into hacking themselves",
@@ -1328,28 +1361,6 @@
     "category": "Security",
     "date": "2026-09-12",
     "timestamp": "2026-09-12T10:30:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Researchers say OpenAI agents were behind May hacking campaign targeting RubyGems",
-    "summary": "OpenAI confirmed their agents were behind a campaign in May that researchers say flooded the popular online code repository with malicious software packages. The post Researchers say OpenAI agents were behind May…",
-    "url": "https://cyberscoop.com/openai-agents-malicious-rubygems-packages/",
-    "category": "AI",
-    "date": "2026-09-12",
-    "timestamp": "2026-09-12T01:50:30+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
-    "summary": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days",
-    "category": "News",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T19:21:08+00:00",
     "coverage": 1
   },
   {
@@ -1636,17 +1647,6 @@
     "category": "Apple",
     "date": "2026-09-03",
     "timestamp": "2026-09-03T19:52:06+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Srsly Risky Biz: China's botnets are worth disrupting",
-    "summary": "Tom Uren and James Wilson talk about China’s long-term shift to getting private companies to build botnets for cyberespionage. A disruption effort from the US this week is good news, but China has been using these…",
-    "url": "https://risky.biz/SRB182/",
-    "category": "News",
-    "date": "2026-09-03",
-    "timestamp": "2026-09-03T04:19:35+00:00",
     "coverage": 1
   }
 ]
