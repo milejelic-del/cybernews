@@ -437,7 +437,7 @@
     "category": "Malware & Threats",
     "date": "2026-09-18",
     "timestamp": "2026-09-18T09:46:57+00:00",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "source": "BleepingComputer",
@@ -1089,17 +1089,6 @@
     "coverage": 1
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "BambooToken: The Malware That Speaks MQTT to Stay Under the Radar",
-    "summary": "Lumen exposes BambooToken, a stealthy malware family using MQTT and sideloading to quietly infect targets across Asia and beyond. BambooToken is a new malware family that uses MQTT, a lightweight messaging protocol…",
-    "url": "https://securityaffairs.com/199205/malware/bambootoken-the-malware-that-speaks-mqtt-to-stay-under-the-radar.html",
-    "category": "Breaking News",
-    "date": "2026-09-16",
-    "timestamp": "2026-09-16T20:20:36+00:00",
-    "coverage": 1
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "LinkedIn fights for the right to tell customers when the feds want their data",
@@ -1647,6 +1636,17 @@
     "category": "News",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T02:54:21+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Ars Technica Security",
+    "rank": 19,
+    "title": "Confused about which VPN is right, US senator asks the NSA for guidance",
+    "summary": "Open source, commercial, single-hop, multi-hop, mixnet? The array of options is dizzying.",
+    "url": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/",
+    "category": "Apple",
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T19:52:06+00:00",
     "coverage": 1
   }
 ]
