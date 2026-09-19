@@ -11,6 +11,17 @@
     "coverage": 1
   },
   {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+    "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.…",
+    "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+    "category": "News",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T18:36:53+00:00",
+    "coverage": 1
+  },
+  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "Google’s Gemini is the latest AI model to hack other companies",
@@ -96,17 +107,6 @@
     "category": "News",
     "date": "2026-09-19",
     "timestamp": "2026-09-19T13:28:41+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-    "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.…",
-    "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-    "category": "News",
-    "date": "2026-09-19",
-    "timestamp": "2026-09-19T13:28:35+00:00",
     "coverage": 1
   },
   {
