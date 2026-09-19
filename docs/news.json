@@ -11,6 +11,28 @@
     "coverage": 1
   },
   {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+    "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec said on September 18. The French security company had kept his GitHub access…",
+    "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+    "category": "News",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T07:14:54+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active…",
+    "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+    "category": "News",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T06:24:10+00:00",
+    "coverage": 1
+  },
+  {
     "source": "WIRED Security",
     "rank": 18,
     "title": "Flock Offers Employees Buyouts as Customers Flee",
@@ -781,17 +803,6 @@
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
-    "summary": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them. This week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly…",
-    "url": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
-    "category": "News",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T17:32:22+00:00",
-    "coverage": 1
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
@@ -833,17 +844,6 @@
     "category": "Application Security, Artificial Intelligence, IT Governance, IT Leadership, Security",
     "date": "2026-09-17",
     "timestamp": "2026-09-17T15:46:10+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
-    "summary": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a security announcement on…",
-    "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
-    "category": "News",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T15:37:56+00:00",
     "coverage": 1
   },
   {
