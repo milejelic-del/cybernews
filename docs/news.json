@@ -13,9 +13,108 @@
   {
     "source": "BleepingComputer",
     "rank": 1,
-    "title": "Calling viral AI actress Tilly Norwood? Agree to a face scan first",
+    "title": "BragJack attacks hijack AI browser agents through malicious extensions",
+    "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. The Prompt Forcing…",
+    "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+    "category": "Security",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T14:56:31+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "TigerByte Cyber Emerges From Stealth With $3 Million in Funding",
+    "summary": "The company has secured over $7 million in contracts with US government agencies, including the US Space Force, the US Navy, and DARPA. The post TigerByte Cyber Emerges From Stealth With $3 Million in Funding appeared…",
+    "url": "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/",
+    "category": "Cybersecurity Funding",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T14:30:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Google Gemini also Broke Out of Its Test Environment",
+    "summary": "Google Gemini escaped a cyber test environment, reached three real companies, and exposed why AI security tests need strict isolation. Google has confirmed that one of its Gemini models broke into the systems of three…",
+    "url": "https://securityaffairs.com/199392/ai/google-gemini-also-broke-out-of-its-test-environment.html",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T14:09:34+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+    "summary": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 through July 2026 and transferred more than $10.7 million in stolen…",
+    "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+    "category": "Security",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T14:05:15+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+    "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+    "category": "Security",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T13:48:32+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+    "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time…",
+    "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+    "category": "News",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T13:28:48+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+    "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual…",
+    "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+    "category": "News",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T13:28:41+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+    "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.…",
+    "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+    "category": "News",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T13:28:35+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "AI Helps Hackers Hijack OpenAI Staff Accounts Through a Forum",
+    "summary": "AI helped researchers exploit a Discourse flaw in under 72 hours, hijacking OpenAI staff accounts and exposing the risks of shared SSO. Three researchers at Hacktron just took over ChatGPT and Codex accounts belonging…",
+    "url": "https://securityaffairs.com/199378/ai/ai-helps-hackers-hijack-openai-staff-accounts-through-a-forum.html",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-19",
+    "timestamp": "2026-09-19T13:01:08+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
     "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses callers' moods during…",
-    "url": "https://www.bleepingcomputer.com/news/security/calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-first/",
+    "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
     "category": "Security",
     "date": "2026-09-19",
     "timestamp": "2026-09-19T11:38:20+00:00",
@@ -30,17 +129,6 @@
     "category": "Security",
     "date": "2026-09-19",
     "timestamp": "2026-09-19T11:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-    "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.…",
-    "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-    "category": "News",
-    "date": "2026-09-19",
-    "timestamp": "2026-09-19T10:01:10+00:00",
     "coverage": 1
   },
   {
@@ -253,6 +341,17 @@
     "coverage": 1
   },
   {
+    "source": "TechCrunch Security",
+    "rank": 17,
+    "title": "FBI, Coast Guard boarded hacked oil tankers heading toward US coast",
+    "summary": "The feds are said to be investigating the compromise of the tankers' networks, which in one case interfered with one of the tanker's navigation and propulsion systems.",
+    "url": "https://techcrunch.com/2026/09/18/fbi-coast-guard-boarded-hacked-oil-tankers-heading-towards-us-coast/",
+    "category": "Security",
+    "date": "2026-09-18",
+    "timestamp": "2026-09-18T15:44:09+00:00",
+    "coverage": 1
+  },
+  {
     "source": "CSO Online",
     "rank": 12,
     "title": "A zero-click RCE flaw in AI coding agents could have exposed enterprise systems",
@@ -449,28 +548,6 @@
     "date": "2026-09-18",
     "timestamp": "2026-09-18T11:38:40+00:00",
     "coverage": 2
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-    "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network. The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost…",
-    "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-    "category": "News",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T11:01:16+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-    "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed…",
-    "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-    "category": "News",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T11:01:01+00:00",
-    "coverage": 1
   },
   {
     "source": "SecurityWeek",
@@ -748,17 +825,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "New RatHat Android malware uses AI to automate device control",
-    "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
-    "category": "Security",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T21:50:26+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
@@ -814,17 +880,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "OpenAI details more cases of AI agents taking unauthorized actions",
-    "summary": "OpenAI has presented new examples of what they call \"AI model misalignment\" from the past six months, including unauthorized file uploads, following self-generated instructions, hiding mistakes, and leveraging exposed…",
-    "url": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
-    "category": "Security",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T18:55:12+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Ars Technica Security",
     "rank": 19,
     "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
@@ -845,28 +900,6 @@
     "date": "2026-09-17",
     "timestamp": "2026-09-17T18:06:07+00:00",
     "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
-    "summary": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embedded on customer sites to distribute malware. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
-    "category": "Security",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T17:11:34+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Cyberattacks on Two Oil Tankers Prompt Coast Guard, FBI to Board Vessels",
-    "summary": "The Coast Guard confirmed evidence of malicious cyber activity on the VL Prosperity, but has not attributed the attack to Iran. The post Cyberattacks on Two Oil Tankers Prompt Coast Guard, FBI to Board Vessels appeared…",
-    "url": "https://www.securityweek.com/cyberattacks-on-two-oil-tankers-prompt-coast-guard-fbi-to-board-vessels/",
-    "category": "ICS/OT",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T17:09:40+00:00",
-    "coverage": 2
   },
   {
     "source": "The Record",
@@ -1045,17 +1078,6 @@
     "coverage": 1
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "U.S. CISA adds Acronis Backup, Cisco ISE, and Google Pixel flaws to its Known Exploited Vulnerabilities catalog",
-    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Acronis Backup, Cisco ISE, and Google Pixel flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security…",
-    "url": "https://securityaffairs.com/199239/security/u-s-cisa-adds-acronis-backup-cisco-ise-and-google-pixel-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-    "category": "Breaking News",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T09:26:14+00:00",
-    "coverage": 1
-  },
-  {
     "source": "WIRED Security",
     "rank": 18,
     "title": "Flock Once Touted Its Cameras as ‘Made in the USA.’ Now It’s Not So Clear",
@@ -1086,17 +1108,6 @@
     "category": "Application Security, Artificial Intelligence, IT Governance, Security",
     "date": "2026-09-17",
     "timestamp": "2026-09-17T08:25:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Chosen Brick, Iran’s Surveillance Malware",
-    "summary": "UK, US, and Dutch agencies expose Chosen Brick, Iranian malware used to track and harass dissidents, journalists, and activists via Telegram. The UK, the US, and the Netherlands published a joint advisory warning about…",
-    "url": "https://securityaffairs.com/199217/malware/chosen-brick-irans-surveillance-malware.html",
-    "category": "Breaking News",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T07:25:27+00:00",
     "coverage": 1
   },
   {
@@ -1636,17 +1647,6 @@
     "category": "AI",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T17:18:12+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Risky Bulletin: Russia tells data centers to deploy drone defenses",
-    "summary": "Russia tells data centers to deploy drone defenses, Dropbox discloses a security breach, a new spyware wave hits Serbia, and CISA scraps six free cybersecurity assessment programs.",
-    "url": "https://risky.biz/RBNEWS609/",
-    "category": "News",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T02:54:21+00:00",
     "coverage": 1
   }
 ]
