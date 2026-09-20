@@ -11,6 +11,17 @@
     "coverage": 1
   },
   {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Security Affairs newsletter Round 595 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter,…",
+    "url": "https://securityaffairs.com/199400/security/security-affairs-newsletter-round-595-by-pierluigi-paganini-international-edition.html",
+    "category": "Breaking News",
+    "date": "2026-09-20",
+    "timestamp": "2026-09-20T00:08:59+00:00",
+    "coverage": 1
+  },
+  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
@@ -1042,17 +1053,6 @@
     "category": "News",
     "date": "2026-09-17",
     "timestamp": "2026-09-17T12:15:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "NightmareStresser Goes Offline in Global DDoS-for-Hire Crackdown",
-    "summary": "The DOJ seized domains behind NightmareStresser, a DDoS-for-hire service tied to hundreds of thousands of attacks since 2022, as part of Operation PowerOFF. Renting a DDoS attack used to be as easy as renting a movie.…",
-    "url": "https://securityaffairs.com/199251/cyber-crime/nightmarestresser-goes-offline-in-global-ddos-for-hire-crackdown.html",
-    "category": "Breaking News",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T11:35:13+00:00",
     "coverage": 1
   },
   {
