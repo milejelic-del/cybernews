@@ -11,6 +11,17 @@
     "coverage": 1
   },
   {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Sponsored: SpecterOps on the impact of AI agents on BloodHound",
+    "summary": "In this Risky Business sponsored interview, Catalin Cimpanu talks with Justin Kohler, Chief Product Officer at SpecterOps. Justin explains how Entra Agent ID can introduce new identity relationships and potential attack…",
+    "url": "https://risky.biz/RBNEWSSI144/",
+    "category": "News",
+    "date": "2026-09-20",
+    "timestamp": "2026-09-20T20:39:24+00:00",
+    "coverage": 1
+  },
+  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Malicious npm packages evade install-script defenses at runtime",
@@ -1636,17 +1647,6 @@
     "category": "AI",
     "date": "2026-09-04",
     "timestamp": "2026-09-04T17:18:12+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Risky Bulletin: Russia tells data centers to deploy drone defenses",
-    "summary": "Russia tells data centers to deploy drone defenses, Dropbox discloses a security breach, a new spyware wave hits Serbia, and CISA scraps six free cybersecurity assessment programs.",
-    "url": "https://risky.biz/RBNEWS609/",
-    "category": "News",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T02:54:21+00:00",
     "coverage": 1
   }
 ]
