@@ -11,6 +11,138 @@
     "coverage": 1
   },
   {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+    "category": "Security",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T20:12:17+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "ShinyHunters Hacked Clop. Now What About Clop's Victims?",
+    "summary": "ShinyHunters defaced Clop's Dark Web site and claims to have stolen victim data, potentially exposing organizations that paid ransoms to renewed extortion attempts.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims",
+    "category": "News",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T20:07:56+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Between Two Nerds: Real-time cyber defence",
+    "summary": "In this edition of Between Two Nerds Tom Uren and The Grugq talk about whether there is such a thing as real-time cyber defence. Will agentic AI save us from hacking AI? This episode is also available on YouTube.",
+    "url": "https://risky.biz/BTN183/",
+    "category": "News",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T20:02:45+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "EU data regulator fines Google more than $460 million for location data violations",
+    "summary": "Ireland’s Data Protection Commission will fine Google more than €403 million ($462 million) over the tech giant’s processing of location data, concluding an inquiry into the company that began in early 2020.",
+    "url": "https://therecord.media/google-europe-location-data-fine",
+    "category": "News",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T19:15:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Cybercriminals Are Hiding New Malware in Torrents for Popular Films",
+    "summary": "Victims have been identified in Africa, including in Kenya and Uganda.",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films",
+    "category": "News",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T19:11:26+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+    "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+    "category": "Security",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T18:23:11+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Foreign Hackers Target Two Colorado Water Utilities",
+    "summary": "Hackers targeted two Colorado water utilities, changing OT settings and disabling alarms, but causing no impact on water services or safety. Foreign hackers targeted the operational technology (OT) systems of two small…",
+    "url": "https://securityaffairs.com/199480/ics-scada/foreign-hackers-target-two-colorado-water-utilities.html",
+    "category": "Breaking News",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T18:09:32+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Microsoft to retire Microsoft 365 Companion apps in December",
+    "summary": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+    "category": "Microsoft",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T17:54:49+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+    "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it,…",
+    "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+    "category": "News",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T17:31:01+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Google Hit With $463 Million Fine for EU Location Data Rule Breach",
+    "summary": "Google has been fined 403 million euros ($463 million) for breaching the European Union’s strict privacy rules because it mishandled users’ location data. The post Google Hit With $463 Million Fine for EU Location Data…",
+    "url": "https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach/",
+    "category": "Privacy & Compliance",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T17:19:53+00:00",
+    "coverage": 2
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+    "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000…",
+    "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+    "category": "News",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T17:19:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "After spending billions, OpenAI still has gaps in its cybersecurity",
+    "summary": "Two separate reports of security flaws in OpenAI systems highlight how even a company spending billions on developing its own AI-powered cybersecurity testing tools remains vulnerable. In one incident, researchers…",
+    "url": "https://www.csoonline.com/article/4224453/after-spending-billions-openai-still-has-gaps-in-its-cybersecurity.html",
+    "category": "Artificial Intelligence, Development Tools, Identity and Access Management, Security, Software Development",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T16:24:03+00:00",
+    "coverage": 1
+  },
+  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "Dems seek top-to-bottom assessment of CISA workforce",
@@ -41,7 +173,7 @@
     "category": "Security",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T15:41:22+00:00",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "source": "Cybersecurity Dive",
@@ -129,17 +261,6 @@
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T14:24:13+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "Google AI models broke out of sandbox, hacked three companies",
-    "summary": "The incidents stemmed from the same testing environment defects that tripped up OpenAI, Anthropic and Meta.",
-    "url": "https://www.cybersecuritydive.com/news/google-ai-gemini-autonomous-hacks/830884/",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T14:21:29+00:00",
     "coverage": 1
   },
   {
@@ -286,15 +407,15 @@
     "coverage": 1
   },
   {
-    "source": "The Record",
-    "rank": 2,
-    "title": "Google says Gemini breached three companies during security test",
-    "summary": "Google’s artificial intelligence model Gemini accessed computer systems belonging to three real companies without authorization during a cybersecurity test in May — the latest in a string of similar incidents.",
-    "url": "https://therecord.media/gemini-google-cyber-breach",
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "ShinyHunters Claim Hack of Rival Ransomware Gang Clop",
+    "summary": "ShinyHunters has claimed responsibility for hacking the Clop ransomware group, defacing its leak site and alleging theft of key operational data",
+    "url": "https://www.infosecurity-magazine.com/news/shinyhunters-claim-hack-of-clop/",
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T12:30:00+00:00",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "source": "Help Net Security",
@@ -316,7 +437,7 @@
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T12:23:19+00:00",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "source": "SecurityWeek",
@@ -415,7 +536,7 @@
     "category": "Vulnerabilities",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T09:31:12+00:00",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "source": "Infosecurity Magazine",
@@ -470,6 +591,17 @@
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T09:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Hackers exploit Gyazo server flaw to steal 23.6 million user records",
+    "summary": "Japanese software company Helpfeel has confirmed a data breach on its screenshot-sharing platform Gyazo, in which attackers exploited a vulnerability in its image upload server, stealing approximately 23.62 million user…",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/helpfeel-gyazo-data-breach/",
+    "category": "Don't miss",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T08:57:26+00:00",
     "coverage": 1
   },
   {
@@ -693,17 +825,6 @@
     "coverage": 1
   },
   {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "TigerByte Cyber Emerges From Stealth With $3 Million in Funding",
-    "summary": "The company has secured over $7 million in contracts with US government agencies, including the US Space Force, the US Navy, and DARPA. The post TigerByte Cyber Emerges From Stealth With $3 Million in Funding appeared…",
-    "url": "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/",
-    "category": "Cybersecurity Funding",
-    "date": "2026-09-19",
-    "timestamp": "2026-09-19T14:30:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "Google Gemini also Broke Out of Its Test Environment",
@@ -726,17 +847,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-    "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
-    "category": "Security",
-    "date": "2026-09-19",
-    "timestamp": "2026-09-19T13:48:32+00:00",
-    "coverage": 2
-  },
-  {
     "source": "The Hacker News",
     "rank": 6,
     "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
@@ -756,28 +866,6 @@
     "category": "News",
     "date": "2026-09-19",
     "timestamp": "2026-09-19T13:28:41+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "AI Helps Hackers Hijack OpenAI Staff Accounts Through a Forum",
-    "summary": "AI helped researchers exploit a Discourse flaw in under 72 hours, hijacking OpenAI staff accounts and exposing the risks of shared SSO. Three researchers at Hacktron just took over ChatGPT and Codex accounts belonging…",
-    "url": "https://securityaffairs.com/199378/ai/ai-helps-hackers-hijack-openai-staff-accounts-through-a-forum.html",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-19",
-    "timestamp": "2026-09-19T13:01:08+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
-    "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses callers' moods during…",
-    "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
-    "category": "Security",
-    "date": "2026-09-19",
-    "timestamp": "2026-09-19T11:38:20+00:00",
     "coverage": 1
   },
   {
@@ -822,17 +910,6 @@
     "category": "News",
     "date": "2026-09-19",
     "timestamp": "2026-09-19T08:18:54+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
-    "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec said on September 18. The French security company had kept his GitHub access…",
-    "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-    "category": "News",
-    "date": "2026-09-19",
-    "timestamp": "2026-09-19T07:14:54+00:00",
     "coverage": 1
   },
   {
@@ -922,17 +999,6 @@
     "date": "2026-09-18",
     "timestamp": "2026-09-18T16:52:04+00:00",
     "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Gyazo server flaw exploited to steal 23.6 million user records",
-    "summary": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23.6 million user records. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
-    "category": "Security",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T16:00:38+00:00",
-    "coverage": 2
   },
   {
     "source": "WIRED Security",
@@ -1210,17 +1276,6 @@
     "coverage": 1
   },
   {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Self-modifying AI agents expose a blind spot in enterprise security",
-    "summary": "As debate over AI safety intensifies, new research is drawing attention to a more immediate risk for enterprises: AI agents that can alter the models they rely on while carrying out routine tasks. Researchers at AI…",
-    "url": "https://www.csoonline.com/article/4223334/self-modifying-ai-agents-expose-a-blind-spot-in-enterprise-security.html",
-    "category": "Application Security, Artificial Intelligence, IT Governance, IT Leadership, Security",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T13:32:52+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "New Chinese-Made ‘RatHat’ Android Malware Leverages AI to Steal Financial Data",
@@ -1309,17 +1364,6 @@
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Fighting Your Dragons Through Tough Tech Times",
-    "summary": "Cybersecurity industry veteran Hal Pomeranz gives a pep talk on career anxiety and self-doubt and shares how to build meaningful connections during historical tech industry downturns.",
-    "url": "https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market",
-    "category": "News",
-    "date": "2026-09-16",
-    "timestamp": "2026-09-16T18:00:54+00:00",
-    "coverage": 1
-  },
-  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "Hackers publish thousands of drivers’ data after breaching Florida motor vehicle database",
@@ -1328,17 +1372,6 @@
     "category": "Security",
     "date": "2026-09-16",
     "timestamp": "2026-09-16T18:00:54+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "BragJack Attack Can Turn a Browser's Agentic AI Against It",
-    "summary": "A new type of attack hijacks the AI assistant built directly into various browsers to access sensitive information, execute malicious actions, and exfiltrate data.",
-    "url": "https://www.darkreading.com/endpoint-security/bragjack-browser-agentic-ai",
-    "category": "News",
-    "date": "2026-09-16",
-    "timestamp": "2026-09-16T16:43:37+00:00",
     "coverage": 1
   },
   {
@@ -1416,6 +1449,17 @@
     "category": "Security",
     "date": "2026-09-15",
     "timestamp": "2026-09-15T16:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "AI is now leading driver of new cybersecurity spending",
+    "summary": "The prioritization comes at a time of relatively modest growth in overall security investments, according to IANS and Artico Search.",
+    "url": "https://www.cybersecuritydive.com/news/ai-leading-driver-cybersecurity-spending/830418/",
+    "category": "News",
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T15:32:29+00:00",
     "coverage": 1
   },
   {
@@ -1603,50 +1647,6 @@
     "category": "News",
     "date": "2026-09-07",
     "timestamp": "2026-09-07T19:58:22+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Risky Bulletin: BEC campaign steals €35 million from French notaries",
-    "summary": "Hackers steal €35 million euros from French notaries, OpenAI agents hacked a German wiki, a new bill will allow the Pentagon to use cyber contractors, and the Five Eyes members tell hacked companies to drop PR spin.",
-    "url": "https://risky.biz/RBNEWS610/",
-    "category": "News",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T03:34:35+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Sponsored: Authentik is rethinking PAM for AI agents",
-    "summary": "In this Risky Business sponsored interview, James Wilson chats with Authentik Security CEO Fletcher Heisler about how AI is driving a need for privileged access management to adapt. Fletcher explains Authentik’s…",
-    "url": "https://risky.biz/RBNEWSSI143/",
-    "category": "News",
-    "date": "2026-09-06",
-    "timestamp": "2026-09-06T20:09:32+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Ars Technica Security",
-    "rank": 19,
-    "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-    "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
-    "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-    "category": "AI",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T22:17:36+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Ars Technica Security",
-    "rank": 19,
-    "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
-    "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
-    "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
-    "category": "AI",
-    "date": "2026-09-04",
-    "timestamp": "2026-09-04T17:18:12+00:00",
     "coverage": 1
   }
 ]
