@@ -2,12 +2,188 @@
   {
     "source": "BleepingComputer",
     "rank": 1,
+    "title": "Rogue external MFA providers can steal passwords during logins",
+    "summary": "Security researchers developed an attack that lets hackers with privileged access register a rogue external MFA provider that steals users' passwords during legitimate login attempts. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+    "category": "Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T21:45:45+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
+    "summary": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Miljödata for inadequate security measures leading to a breach in August 2025 affecting 2.2 million people. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
+    "category": "Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T21:40:37+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "After water attacks, Capitol Hill offers its own proposal for an AI-cyber test program",
+    "summary": "A key House Democrat and his bipartisan sponsors want to see a $100 million DHS pilot to help critical infrastructure owners and operators — separate from another administration-proposed pilot program. The post After…",
+    "url": "https://cyberscoop.com/gottheimer-ai-cyber-defense-act-cisa-pilot/",
+    "category": "AI",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T21:14:32+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
+    "summary": "More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
+    "url": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T21:12:37+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Microsoft’s EvilTokens takedown sheds light on state of AI-powered cybercrime",
+    "summary": "Microsoft has hailed its success in disrupting EvilTokens , an AI-powered a phishing-as-a-service (PhaaS) platform linked to more than 12,000 compromised Microsoft 365 inboxes across more than 10,000 organizations…",
+    "url": "https://www.csoonline.com/article/4225175/microsofts-eviltokens-takedown-sheds-light-on-state-of-ai-powered-cybercrime.html",
+    "category": "Cybercrime, Phishing, Security, Social Engineering",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T20:40:34+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
+    "summary": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from 996 devices and more than 18,500 records stored in backend databases.…",
+    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
+    "category": "Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T20:35:24+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
+    "summary": "Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts.",
+    "url": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T20:02:02+00:00",
+    "coverage": 2
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "Canadian regulator opens probe of IDScan for allegedly violating data privacy laws",
+    "summary": "The investigation, announced Monday, will probe IDScan’s security practices and whether victim notifications were adequate under Canada’s federal private-sector privacy law, the regulator said in a press release.",
+    "url": "https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach",
+    "category": "Cybercrime",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T19:52:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Ars Technica Security",
+    "rank": 19,
+    "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+    "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+    "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+    "category": "AI",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T19:45:47+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Check Point Fixes a New Actively Exploited Critical Security Flaw",
+    "summary": "Check Point fixes an actively exploited flaw that lets unauthenticated attackers upload and run scripts on vulnerable Security Management Servers. Check Point has released emergency hotfixes for CVE-2026-93616, a…",
+    "url": "https://securityaffairs.com/199549/security/check-point-fixes-a-new-actively-exploited-critical-security-flaw.html",
+    "category": "Breaking News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T19:31:40+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+    "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+    "category": "Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T19:13:29+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "Volexity spots another China-aligned threat group exploiting Chrome and Microsoft defects",
+    "summary": "The threat group Volexity tracks as UTA0565 showcased a variance in tactics, but it used the same exploit kit as multiple Chinese threat groups. The post Volexity spots another China-aligned threat group exploiting…",
+    "url": "https://cyberscoop.com/volexity-uta0565-china-exploit-chain-chrome-microsoft/",
+    "category": "Cybersecurity",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T18:47:07+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "TechCrunch Security",
+    "rank": 17,
+    "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
+    "summary": "The theft of agents' personal information could present a major counterintelligence threat, where agents and their families are extorted into cooperating with a foreign government.",
+    "url": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
+    "category": "Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T18:40:30+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
     "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
     "summary": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
     "category": "Security",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T18:04:39+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+    "summary": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders. On some servers, that can go further, allowing the attacker to…",
+    "url": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T18:03:10+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+    "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily…",
+    "url": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T17:58:15+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "BigCommerce Data Stolen via Ribon Apps Hack",
+    "summary": "The attackers used a compromised BigCommerce application key held by Ribon to access customer data. The post BigCommerce Data Stolen via Ribon Apps Hack appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack/",
+    "category": "Data Breaches",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T17:58:00+00:00",
     "coverage": 1
   },
   {
@@ -46,17 +222,6 @@
   {
     "source": "The Hacker News",
     "rank": 6,
-    "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-    "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\" The action, carried out with authorization…",
-    "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T17:03:31+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
     "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
     "summary": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP…",
     "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
@@ -74,7 +239,7 @@
     "category": "Security",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T16:32:47+00:00",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "source": "The Record",
@@ -616,17 +781,6 @@
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
-    "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy campaign operations…",
-    "url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T07:52:03+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "Contagious Interview: 30,000 devices infected by a fake job interview",
@@ -638,17 +792,6 @@
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-    "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept released on September…",
-    "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T06:33:57+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Help Net Security",
     "rank": 7,
     "title": "A cheap fake base station can still track 5G subscribers",
@@ -657,17 +800,6 @@
     "category": "Don't miss",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T06:30:21+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-    "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.…",
-    "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T06:03:14+00:00",
     "coverage": 1
   },
   {
@@ -737,17 +869,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
-    "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores.…",
-    "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
-    "category": "Security",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T21:18:49+00:00",
-    "coverage": 2
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "Google Fined €403 Million Over Location Data Practices",
@@ -756,17 +877,6 @@
     "category": "Breaking News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T20:20:23+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "CISA alerts of active exploitation of three Linux kernel flaws",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-    "category": "Security",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T20:12:17+00:00",
     "coverage": 1
   },
   {
@@ -814,17 +924,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
-    "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
-    "category": "Security",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T18:23:11+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "Foreign Hackers Target Two Colorado Water Utilities",
@@ -833,17 +932,6 @@
     "category": "Breaking News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T18:09:32+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Microsoft to retire Microsoft 365 Companion apps in December",
-    "summary": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
-    "category": "Microsoft",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T17:54:49+00:00",
     "coverage": 1
   },
   {
@@ -888,17 +976,6 @@
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T15:19:50+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Record",
-    "rank": 2,
-    "title": "Belgian table tennis, gymnastics federations hit by cyberattacks",
-    "summary": "Belgium’s national table tennis federation is investigating a cyberattack after a hacker claimed to have stolen data on tens of thousands of members.",
-    "url": "https://therecord.media/belgium-table-tennis-cyberattack",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T15:00:00+00:00",
     "coverage": 1
   },
   {
@@ -1089,17 +1166,6 @@
     "coverage": 1
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "UK Police Data Faces Long-Standing Microsoft Cloud Security Concerns",
-    "summary": "A 2017 UK assessment warned that police data on Microsoft Azure could face foreign access risks. The risks may still exist. A Guardian investigation has surfaced a 2017 document signed off by then City of London police…",
-    "url": "https://securityaffairs.com/199442/uncategorized/uk-police-data-faces-long-standing-microsoft-cloud-security-concerns.html",
-    "category": "Uncategorized",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T07:28:40+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Risky Bulletin: Gemini finally did some crimes",
@@ -1210,17 +1276,6 @@
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "MFA Won't Save You From OAuth Consent Abuse",
-    "summary": "MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
-    "url": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
-    "category": "News",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T18:15:20+00:00",
-    "coverage": 1
-  },
-  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "Researchers use AI to find widespread software decoder flaw",
@@ -1276,17 +1331,6 @@
     "coverage": 1
   },
   {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "A zero-click RCE flaw in AI coding agents could have exposed enterprise systems",
-    "summary": "Popular AI coding agents such as OpenAI’s Codex, Anthropic’s Claude Code, Google’s Gemini CLI, and Microsoft-owned GitHub Copilot were vulnerable to a zero-click attack that enabled attackers to execute malicious code,…",
-    "url": "https://www.csoonline.com/article/4223909/a-zero-click-rce-flaw-in-ai-coding-agents-could-have-exposed-enterprise-systems-2.html",
-    "category": "Artificial Intelligence, Code Editors, Development Tools, Security, Software Development, Vulnerabilities",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T15:42:30+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Cybersecurity Dive",
     "rank": 14,
     "title": "CISA ends weekly vulnerability roundups as part of shift to prioritization approach",
@@ -1331,17 +1375,6 @@
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
-    "summary": "AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data",
-    "category": "News",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T07:00:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "Cisco alerts customers to second actively exploited zero-day in as many days",
@@ -1350,17 +1383,6 @@
     "category": "Cybersecurity",
     "date": "2026-09-17",
     "timestamp": "2026-09-17T21:03:42+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "The AI hacking apocalypse is not inevitable",
-    "summary": "While large language models present real risks to society, experts say they can be tested and largely controlled using well-worn cybersecurity and policy choices. The post The AI hacking apocalypse is not inevitable…",
-    "url": "https://cyberscoop.com/ai-agent-hacking-apocalypse-cybersecurity/",
-    "category": "AI",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T19:18:07+00:00",
     "coverage": 1
   },
   {
@@ -1394,17 +1416,6 @@
     "category": "News",
     "date": "2026-09-17",
     "timestamp": "2026-09-17T13:42:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Authorities seize popular, long-running DDoS-for-hire service domains",
-    "summary": "Cybercriminals used NightmareStresser to launch hundreds of thousands of DDoS attacks since at least 2022. Threat actors behind the operation claimed links to Russia. The post Authorities seize popular, long-running…",
-    "url": "https://cyberscoop.com/fbi-seizes-nightmarestresser-ddos-for-hire-domains/",
-    "category": "Cybercrime",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T13:37:23+00:00",
     "coverage": 1
   },
   {
@@ -1559,17 +1570,6 @@
     "category": "Fintech",
     "date": "2026-09-12",
     "timestamp": "2026-09-12T14:40:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "TechCrunch Security",
-    "rank": 17,
-    "title": "Scammers target hundreds of thousands of crypto owners after Trezor confirms data breach of email provider",
-    "summary": "This is the second data breach affecting a company that hardware crypto wallet maker Trezor relies on.",
-    "url": "https://techcrunch.com/2026/09/11/scammers-target-hundreds-of-thousands-of-crypto-owners-after-trezor-confirms-data-breach-of-email-provider/",
-    "category": "Security",
-    "date": "2026-09-11",
-    "timestamp": "2026-09-11T13:32:54+00:00",
     "coverage": 1
   },
   {
