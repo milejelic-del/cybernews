@@ -1,14 +1,355 @@
 [
   {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "North Korean Attackers Hit 30,000 Devices and Steal $10.7m",
+    "summary": "WaterPlum compromised 30,000 devices and took funds or credentials from 7000 crypto wallets",
+    "url": "https://www.infosecurity-magazine.com/news/north-korean-waterplum-30000/",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T14:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Researchers uncover malware that uses AI to choose its next move",
+    "summary": "To help security practitioners catch malware that leans on AI, researchers from Cisco Talos shared an open-source framework that they hope will be used to classify and analyze the threat. The tool, called CAIRN, works…",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/cairn-open-source-framework-ai-malware-closedquorum/",
+    "category": "Don't miss",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T13:56:55+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Brief hijack makes Elsevier domains redirect to LAPSUS$ “Chapter II” page",
+    "summary": "Three domains / web portals belonging to Dutch academic publishing company Elsevier have been redirecting users to a page branded “LAPSUS$ GROUP, Chapter II,” carrying a signed statement that taunted the FBI and counted…",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/elsevier-domains-hijack-lapsus/",
+    "category": "Don't miss",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T13:46:45+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity",
+    "summary": "Abdelhamid Naceri, a former Microsoft Germany employee, is the exploit leaker Nightmare Eclipse, aka Chaotic Eclipse. The post Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity appeared…",
+    "url": "https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T13:26:51+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Beware these fake websites selling subscriptions to AI assistants",
+    "summary": "Websites offering fake subscriptions to AI transcription tools, image generators, and other digital assistants could be putting enterprise data at risk, according to researchers at Malwarebytes. The sites impersonate AI…",
+    "url": "https://www.csoonline.com/article/4224923/beware-these-fake-websites-selling-subscriptions-to-ai-assistants-2.html",
+    "category": "Artificial Intelligence, Cybercrime, Fraud, Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T13:11:29+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "AI is set to help cyber attackers much more than defenders, says UK official",
+    "summary": "Dave Chismon, the NCSC’s chief technology officer for architecture, said in a blog post that the imbalance in AI means cyberattacks would likely grow as automated defenses struggle to keep pace.",
+    "url": "https://therecord.media/ai-set-to-help-attackers-more-than-defenders",
+    "category": "Cybercrime",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T13:05:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "AI Incident Response Readiness Lags Behind AI Adoption, ISACA Finds",
+    "summary": "A new report by ISACA found that 71% of orgs have not run AI incident response exercises as teams face rising pressure",
+    "url": "https://www.infosecurity-magazine.com/news/orgs-lack-ai-incident-response/",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T13:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
+    "summary": "Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Learn which security…",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
+    "category": "Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T12:57:07+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+    "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+    "category": "Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T12:48:06+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+    "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has? A…",
+    "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T12:30:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+    "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The flaw, tracked as CVE-2026-93952, may…",
+    "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T12:29:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Only 13% of OT Network Segments Are Fully Isolated: Analysis",
+    "summary": "Forescout’s new network segmentation research shows that OT and medical devices often share network segments with other enterprise assets. The post Only 13% of OT Network Segments Are Fully Isolated: Analysis appeared…",
+    "url": "https://www.securityweek.com/only-13-of-ot-network-segments-are-fully-isolated-analysis/",
+    "category": "ICS/OT",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T12:24:30+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "The latest deepfake numbers give CISOs plenty to worry about",
+    "summary": "AI is letting cybercriminals reach deeper into organizations than a phishing email ever could. 41% of CISOs reported at least one social engineering incident involving a deepfake during an employee audio call in the…",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/cisos-deepfake-incidents-social-engineering-survey/",
+    "category": "Don't miss",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T12:05:36+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "The next intellectual property thief may sound like your CEO",
+    "summary": "Impersonation, phishing and domain-name abuse are the most concerning types of online intellectual property infringement, according to CSC’s The State of Online IP Risk 2026 report. Internet and branded content, online…",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/csc-online-intellectual-property-risk-report/",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T12:00:05+00:00",
+    "coverage": 1
+  },
+  {
     "source": "Dark Reading",
     "rank": 4,
-    "title": "[Virtual Event] Cybersecurity Outlook 2027",
-    "summary": "",
-    "url": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027",
+    "title": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
+    "summary": "Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.",
+    "url": "https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle",
     "category": "News",
-    "date": "2026-12-03",
-    "timestamp": "2026-12-03T16:00:00+00:00",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T12:00:00+00:00",
     "coverage": 1
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "Network Segmentation Failures Are Expanding the Corporate Attack Surface",
+    "summary": "Forescout warns that incomplete network segmentation is widening the potential blast radius of attacks",
+    "url": "https://www.infosecurity-magazine.com/news/segmentation-failures-expanding/",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T12:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers",
+    "summary": "A Chinese threat actor has exploited the bug to exfiltrate sensitive information from nearly 1,000 ZyXEL switches. The post Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T11:55:20+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
+    "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk…",
+    "url": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T11:45:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+    "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled. The bug, tracked as…",
+    "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T11:38:40+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Malicious B-tree NPM Package Accumulates Millions of Downloads",
+    "summary": "Posing as the legitimate sorted-btree package, indexed-btree hides a malware trigger in its prototype method. The post Malicious B-tree NPM Package Accumulates Millions of Downloads appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/",
+    "category": "Application Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T11:33:59+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+    "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical details published today…",
+    "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T11:17:41+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Attacker compromised nearly 1000 Zyxel switches since August (CVE-2026-7273)",
+    "summary": "A Chinese-speaking threat actor has exploited a vulnerability (CVE-2026-7273) in unpatched ZyXEL GS1900 Smart Managed Switches and has exfiltrated sensitive data from 996 devices across 48 countries, GreyNoise reported…",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/zyxel-switches-cve-2026-7273-vulnerability-exploited/",
+    "category": "Don't miss",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T10:42:54+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Somewhere in your traffic logs, a bot is doing more than looking",
+    "summary": "Akamai has watched verified AI crawlers, ChatGPT among them, move from reading web pages to sending high-frequency POST requests. In a 30-day analysis of its global customers, ecommerce accounted for 44.8% of those AI…",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/ai-crawler-traffic-online-stores/",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T10:30:31+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "AI Drives Surge in Bot and API Threats",
+    "summary": "Akamai report warns of increase in bot traffic, API threats, chatbot leaks and other AI-related threats",
+    "url": "https://www.infosecurity-magazine.com/news/ai-drives-surge-in-bot-and-api/",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T10:30:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "WordPress Patches ‘Click2Shell’ Vulnerability",
+    "summary": "The bug lets attackers automatically install and preview themes and could lead to remote code execution. The post WordPress Patches ‘Click2Shell’ Vulnerability appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T10:22:27+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Public PoC Exposes Critical Veeam Agent Privilege Escalation",
+    "summary": "A Veeam Agent flaw lets local users gain SYSTEM privileges. A public PoC is available, raising the risk of exploitation on shared Windows systems. If you’re running Veeam Agent on a Windows endpoint with more than one…",
+    "url": "https://securityaffairs.com/199532/security/public-poc-exposes-critical-veeam-agent-privilege-escalation.html",
+    "category": "Breaking News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T10:13:28+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "Another worry for water systems: infostealer exposure",
+    "summary": "SpyCloud’s study found 1,787 of the approximately 10,000 U.S. organizations had it, including one infected device that saved logins for 167 utility metering tenants. The post Another worry for water systems: infostealer…",
+    "url": "https://cyberscoop.com/spycloud-study-water-utilities-infostealer-exposure/",
+    "category": "Exclusive",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T10:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "WIRED Security",
+    "rank": 18,
+    "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+    "summary": "Cisco Talos researchers created a new framework for identifying malware and hacking tools that rely on AI chatbots—and quickly discovered something unusual.",
+    "url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/",
+    "category": "Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T10:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+    "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+    "category": "Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T09:55:11+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+    "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in…",
+    "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T09:38:18+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "CISOs Must Update Incident Response Playbooks for Multimodal Deepfakes, Gartner Warns",
+    "summary": "Gartner warns that CISOs must update incident response playbooks as AI-powered deepfakes make social engineering attacks more convincing and harder to detect",
+    "url": "https://www.infosecurity-magazine.com/news/update-incident-response/",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T09:30:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "U.S. CISA adds Zyxel flaw to its Known Exploited Vulnerabilities catalog",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Zyxel flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a Zyxel GS1900 Series…",
+    "url": "https://securityaffairs.com/199518/hacking/u-s-cisa-adds-zyxel-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+    "category": "Breaking News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T09:13:54+00:00",
+    "coverage": 2
   },
   {
     "source": "CSO Online",
@@ -74,6 +415,17 @@
     "category": "Advanced Persistent Threats, Artificial Intelligence, Cyberattacks, Cybercrime, Security",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T08:25:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+    "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy campaign operations…",
+    "url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T07:52:03+00:00",
     "coverage": 1
   },
   {
@@ -154,28 +506,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Cybersecurity jobs available right now: September 22, 2026",
-    "summary": "Analyst Threat Intelligence Optimum | USA | On-site – View job details As an Analyst Threat Intelligence, you will collect and analyze intelligence to identify threats, threat actors, malware campaigns, and relevant…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/cybersecurity-jobs-available-right-now-september-22-2026/",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T04:00:23+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "DavMail 7.0.0 puts most of its work into Microsoft Graph",
-    "summary": "Anyone who wants to leave Outlook but still has a mailbox on Exchange needs a translator. DavMail is one: a Java gateway that converts the open protocols most mail, calendar and contact apps speak (IMAP, SMTP, CalDAV,…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/davmail-7-0-0-microsoft-graph/",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T03:48:17+00:00",
-    "coverage": 1
-  },
-  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
@@ -195,6 +525,17 @@
     "category": "Artificial Intelligence, Cybercrime, Hacking, Security",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T01:02:19+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "Russia's internet shutdowns disrupt warnings about incoming drone attacks",
+    "summary": "Russia’s growing restrictions on mobile internet and cellular service are making it harder for people to receive warnings about incoming Ukrainian drone and missile attacks.",
+    "url": "https://therecord.media/russia-internet-shutdowns-disrupt-warnings-about-drone-attacks",
+    "category": "Government",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T23:00:00+00:00",
     "coverage": 1
   },
   {
@@ -393,7 +734,7 @@
     "category": "Security",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T15:41:22+00:00",
-    "coverage": 3
+    "coverage": 2
   },
   {
     "source": "Cybersecurity Dive",
@@ -473,28 +814,6 @@
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-    "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming…",
-    "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T14:24:13+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-    "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests…",
-    "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T14:15:40+00:00",
-    "coverage": 1
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
@@ -514,39 +833,6 @@
     "category": "Cybercrime",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T14:01:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "The TASK#STOMP Windows backdoor takes Wi-Fi passwords, screenshots, and business files",
-    "summary": "Researchers have taken apart TASK#STOMP, a Windows backdoor that searches a victim’s drives for business documents, uploads them to attacker servers, and then stays put to grab each new or edited document. The same…",
-    "url": "https://www.helpnetsecurity.com/2026/09/21/taskstomp-windows-backdoor/",
-    "category": "Don't miss",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T14:00:18+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal",
-    "summary": "The transaction is part of the $4.1 billion deal in which Accenture acquired a majority stake in Dragos in an OT cybersecurity push. The post Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal…",
-    "url": "https://www.securityweek.com/dragos-completes-netrise-and-runzero-acquisitions-following-accenture-deal/",
-    "category": "M&A Tracker",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T14:00:13+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Record",
-    "rank": 2,
-    "title": "ShinyHunters cybercrime gang takes over Cl0p ransomware site, demands extortion payment",
-    "summary": "The ShinyHunters extortion group hijacked the dark web leak site of the prolific Cl0p ransomware gang, according to material posted on the site over the weekend.",
-    "url": "https://therecord.media/shinyhunters-clop-cyberattack-website",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T14:00:00+00:00",
     "coverage": 1
   },
   {
@@ -594,39 +880,6 @@
     "coverage": 1
   },
   {
-    "source": "The Record",
-    "rank": 2,
-    "title": "LinkedIn wins court order blocking mass scraping of user data",
-    "summary": "The agreement between LinkedIn, ProAPIs and joint business operator Netswift also requires the firms to stop selling and transferring the data, no longer access LinkedIn through fake accounts and delete the data that…",
-    "url": "https://therecord.media/linkedin-wins-court-order-blocking-mass-scraping",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T12:55:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "RatHat Android Trojan Uses AI for Automation",
-    "summary": "The malware relies on AI for real-time device navigation and control, increasing adaptability and evasion. The post RatHat Android Trojan Uses AI for Automation appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/",
-    "category": "Malware & Threats",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T12:51:41+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Fastly gives enterprises real-time control over AI models and agents",
-    "summary": "Fastly has announced AI Runtime Control, AI Firewall, and new API Security capabilities designed to give organizations real-time visibility and control across their AI systems. Expanding the Fastly for AI portfolio,…",
-    "url": "https://www.helpnetsecurity.com/2026/09/21/fastly-ai-runtime-control/",
-    "category": "Industry news",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T12:49:01+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "ShinyHunters Claim Hack of Rival Ransomware Gang Clop",
@@ -635,61 +888,6 @@
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T12:30:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "North Korea’s job interview scam runs both ways",
-    "summary": "Attackers are targeting members of the Rust Project and maintainers of widely used crates (Rust code libraries), dangling attractive opportunities to compromise their devices and accounts and, ultimately, publish…",
-    "url": "https://www.helpnetsecurity.com/2026/09/21/north-korean-hackers-contagious-interview-defenses/",
-    "category": "Don't miss",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T12:27:05+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Google hit with €403 million GDPR fine over location tracking",
-    "summary": "Ireland’s Data Protection Commission (DPC) has fined Google €403 million (about $463 million) over its processing of users’ location data and ordered the company to bring that processing into compliance within six…",
-    "url": "https://www.helpnetsecurity.com/2026/09/21/ireland-google-users-location-data-processing-fine/",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T12:23:19+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Rust Team Members and Popular Crate Owners Targeted via Video Calls",
-    "summary": "It’s unclear if the attacks are part of previous campaigns against Rust, but the techniques used by the attackers match those used by North Korea. The post Rust Team Members and Popular Crate Owners Targeted via Video…",
-    "url": "https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/",
-    "category": "Supply Chain Security",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T11:57:35+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Microsoft: September updates break File History backup feature",
-    "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
-    "category": "Microsoft",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T11:45:54+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "CrowdSec Confirms Source Code Stolen in Supply Chain Attack",
-    "summary": "The cybersecurity firm believes the data breach was the result of the May 2026 TanStack supply chain attack. The post CrowdSec Confirms Source Code Stolen in Supply Chain Attack appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/",
-    "category": "Data Breaches",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T10:55:46+00:00",
     "coverage": 1
   },
   {
@@ -712,17 +910,6 @@
     "category": "Breaking News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T10:32:03+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems",
-    "summary": "The hackers changed equipment settings, disabled remote access and alarms, and altered pumping cycles, officials said. The post Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems appeared first on…",
-    "url": "https://www.securityweek.com/colorado-water-utilities-hit-by-cyberattacks-targeting-ot-systems/",
-    "category": "ICS/OT",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T10:03:44+00:00",
     "coverage": 1
   },
   {
@@ -781,17 +968,6 @@
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-    "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33,…",
-    "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T08:39:38+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Security Affairs",
     "rank": 13,
     "title": "The Target Is No Longer the Model. It’s the Agent.",
@@ -825,17 +1001,6 @@
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-    "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the…",
-    "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T06:06:44+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Risky Bulletin: Gemini finally did some crimes",
@@ -858,72 +1023,6 @@
     "coverage": 1
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "U.S. CISA adds Linux Kernel flaws to its Known Exploited Vulnerabilities catalog",
-    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Linux Kernel flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added [1, 2] the…",
-    "url": "https://securityaffairs.com/199430/security/u-s-cisa-adds-linux-kernel-flaws-to-its-known-exploited-vulnerabilities-catalog-2.html",
-    "category": "Breaking News",
-    "date": "2026-09-20",
-    "timestamp": "2026-09-20T16:12:59+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Malicious npm packages evade install-script defenses at runtime",
-    "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation…",
-    "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-    "category": "Security",
-    "date": "2026-09-20",
-    "timestamp": "2026-09-20T14:11:21+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "AI Hallucinations Nearly Triggered a US-China Military Confrontation",
-    "summary": "An AI-generated intelligence report falsely identified weapons on a Chinese ship, nearly triggering a US military operation during the Iran war. According to CNN, four sources familiar with the episode say an…",
-    "url": "https://securityaffairs.com/199415/ai/ai-hallucination-nearly-triggered-a-us-china-military-confrontation.html",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-20",
-    "timestamp": "2026-09-20T13:44:39+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 115",
-    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Gray Rabbits and the Tale of a One-Click Backdoor Red Heron…",
-    "url": "https://securityaffairs.com/199409/malware/security-affairs-malware-newsletter-round-115.html",
-    "category": "Breaking News",
-    "date": "2026-09-20",
-    "timestamp": "2026-09-20T12:22:06+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
-    "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
-    "category": "Security",
-    "date": "2026-09-20",
-    "timestamp": "2026-09-20T12:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-    "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.…",
-    "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-    "category": "News",
-    "date": "2026-09-19",
-    "timestamp": "2026-09-19T18:36:53+00:00",
-    "coverage": 1
-  },
-  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "Google’s Gemini is the latest AI model to hack other companies",
@@ -932,17 +1031,6 @@
     "category": "AI",
     "date": "2026-09-19",
     "timestamp": "2026-09-19T17:30:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-    "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time…",
-    "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-    "category": "News",
-    "date": "2026-09-19",
-    "timestamp": "2026-09-19T13:28:48+00:00",
     "coverage": 1
   },
   {
@@ -1155,39 +1243,6 @@
     "coverage": 1
   },
   {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "CISA Upgrades Vulnerability Reporting Platform with More Automation",
-    "summary": "The US cybersecurity agency is moving to a new vulnerability coordination platform called VINCE-NT",
-    "url": "https://www.infosecurity-magazine.com/news/cisa-upgrades-vulnerability/",
-    "category": "News",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T10:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Strong fundamentals make next-gen security possible",
-    "summary": "Risk management has always been a difficult job, but the current threat landscape has taken the challenge to a new level. I’ve spent years leading cybersecurity efforts at large enterprises, including Hyatt and United…",
-    "url": "https://www.csoonline.com/article/4223032/strong-fundamentals-make-next-gen-security-possible.html",
-    "category": "IT Leadership, Security, Security Practices",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T08:25:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "Manufacturing Accounts for 22% of all Ransomware Victims",
-    "summary": "Black Kite has found that manufacturing remained the most targeted sector for ransomware attacks, and saw a big jump in incidents in H1 2026",
-    "url": "https://www.infosecurity-magazine.com/news/manufacturing-22-ransomware-victims/",
-    "category": "News",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T08:00:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
@@ -1254,25 +1309,14 @@
     "coverage": 1
   },
   {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "FamousSparrow Swaps SparrowDoor For New SparroWocky Backdoor",
-    "summary": "ESET said FamousSparrow has replaced SparrowDoor with SparroWocky",
-    "url": "https://www.infosecurity-magazine.com/news/famoussparrow-sparrowocky-latin/",
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "FBI, Coast Guard probe suspected cyberattacks on ships entering US waters",
+    "summary": "The investigation comes at a time of heightened vigilance over U.S. port facilities and maritime security.",
+    "url": "https://www.cybersecuritydive.com/news/fbi-coast-guard-probe-cyberattacks-ships-us-waters/830668/",
     "category": "News",
     "date": "2026-09-17",
-    "timestamp": "2026-09-17T15:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "CISA Urges Critical Infrastructure to Plant Decoys Inside Networks",
-    "summary": "CISA released guidance on using cyber decoys to detect & disrupt malicious activity inside networks",
-    "url": "https://www.infosecurity-magazine.com/news/cisa-critical-infrastructure-cyber/",
-    "category": "News",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T14:00:00+00:00",
+    "timestamp": "2026-09-17T15:16:26+00:00",
     "coverage": 1
   },
   {
@@ -1295,17 +1339,6 @@
     "category": "Cybercrime",
     "date": "2026-09-17",
     "timestamp": "2026-09-17T13:37:23+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "New Chinese-Made ‘RatHat’ Android Malware Leverages AI to Steal Financial Data",
-    "summary": "Researchers at Zimperium have uncovered a new Android malware strain, dubbed RatHat, with spyware and backdoor capabilities",
-    "url": "https://www.infosecurity-magazine.com/news/rathat-android-malware-ai-steal/",
-    "category": "News",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T13:00:00+00:00",
     "coverage": 1
   },
   {
@@ -1406,17 +1439,6 @@
     "date": "2026-09-16",
     "timestamp": "2026-09-16T15:36:15+00:00",
     "coverage": 1
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Coast Guard, FBI board US-bound foreign ships in order to probe for cyberattacks",
-    "summary": "The agencies issued a joint statement saying the “joint security boardings” came in response to “indications that the networks of both vessels were compromised.” The post Coast Guard, FBI board US-bound foreign ships in…",
-    "url": "https://cyberscoop.com/coast-guard-fbi-investigate-tanker-cyberattacks/",
-    "category": "Geopolitics",
-    "date": "2026-09-16",
-    "timestamp": "2026-09-16T14:48:07+00:00",
-    "coverage": 2
   },
   {
     "source": "TechCrunch Security",
@@ -1529,17 +1551,6 @@
     "coverage": 1
   },
   {
-    "source": "WIRED Security",
-    "rank": 18,
-    "title": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
-    "summary": "Plus: The US disrupts the internet’s biggest black market, a Conti ransomware hacker gets prison time, Meta fails to stop AI-generated videos of child abuse.",
-    "url": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/",
-    "category": "Security",
-    "date": "2026-09-12",
-    "timestamp": "2026-09-12T10:30:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "Scammers target hundreds of thousands of crypto owners after Trezor confirms data breach of email provider",
@@ -1636,17 +1647,6 @@
     "category": "AI",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T21:11:46+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Between Two Nerds: Can AI defend critical infrastructure?",
-    "summary": "In this edition of Between Two Nerds Tom Uren and The Grugq talk about whether AI will help cyber defence in critical infrastructure and organisations that are below the cyber poverty line. This episode is also…",
-    "url": "https://risky.biz/BTN182/",
-    "category": "News",
-    "date": "2026-09-07",
-    "timestamp": "2026-09-07T19:58:22+00:00",
     "coverage": 1
   }
 ]
