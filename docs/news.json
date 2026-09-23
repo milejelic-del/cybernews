@@ -2,6 +2,138 @@
   {
     "source": "BleepingComputer",
     "rank": 1,
+    "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+    "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell…",
+    "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+    "category": "Security",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T22:46:01+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Americans’ views on data centers have turned more negative",
+    "summary": "American attitudes toward data centers have turned noticeably more negative over the course of 2026, according to a new Pew Research Center survey. 54% of U.S. adults now say data centers are mostly bad for the…",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/americans-views-on-data-centers/",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T22:15:08+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Ars Technica Security",
+    "rank": 19,
+    "title": "FBI rushes to investigate if ShinyHunters hack of thousands of employees is real",
+    "summary": "It's unclear what will happen if FBI misses ShinyHunters' deadline.",
+    "url": "https://arstechnica.com/tech-policy/2026/09/fbi-rushes-to-investigate-if-shinyhunters-hack-of-thousands-of-employees-is-real/",
+    "category": "Policy",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T21:46:36+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "New RemControl Android banking malware targets users in Europe and Canada",
+    "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+    "category": "Security",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T21:25:13+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "EDR Evasion Stack Helps Process Injection Slip Past Defenses",
+    "summary": "A process parameter-poisoning technique evades EDR by injecting code into process initialization structures without using the Windows APIs that EDR tools typically watch out for.",
+    "url": "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T21:03:01+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
+    "summary": "Incoming email addresses automatically assigned to each user on the platform contain highly privileged access tokens that attackers can use.",
+    "url": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T20:53:38+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "U.S. CISA adds Check Point, Arista VeloCloud Orchestrator, and F5 BIG-IP APM flaws to its Known Exploited Vulnerabilities catalog",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Check Point, Arista VeloCloud Orchestrator, and F5 BIG-IP APM flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and…",
+    "url": "https://securityaffairs.com/199631/hacking/u-s-cisa-adds-check-point-arista-velocloud-orchestrator-and-f5-big-ip-apm-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+    "category": "Breaking News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T20:37:18+00:00",
+    "coverage": 2
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "UK regulator to investigate Pornhub parent company for alleged age verification failings",
+    "summary": "In May, Pornhub began using a new age assurance process to verify some users’ ages, according to an Ofcom press release. The new method relies on signals from Apple that suggest under 18s in the UK “may have completed…",
+    "url": "https://therecord.media/uk-regulator-to-investigate-pornhub-parent-company-privacy",
+    "category": "Government",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T20:07:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+    "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway…",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+    "category": "Security",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T19:53:54+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "Watchdog finds most agencies failed to meet CISA cloud security orders, heightening risk of attack",
+    "summary": "The DHS inspector general said CISA lacks the power to compel agencies to implement its Binding Operational Directives. The post Watchdog finds most agencies failed to meet CISA cloud security orders, heightening risk…",
+    "url": "https://cyberscoop.com/dhs-ig-report-federal-agencies-fail-cisa-cloud-security-directives/",
+    "category": "Government",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T19:40:53+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin",
+    "summary": "IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction. The post IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin…",
+    "url": "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/",
+    "category": "Data Protection",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T19:32:49+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Record",
+    "rank": 2,
+    "title": "No evidence of successful foreign meddling in 2024 election, spy agencies found",
+    "summary": "U.S. intelligence officials found no evidence that any foreign adversary successfully interfered in the 2024 presidential election, according to sources familiar with the findings of a classified assessment.",
+    "url": "https://therecord.media/trump-harris-election-meddling-russia",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T19:30:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
     "title": "Hackers start exploiting critical WordPress flaw for code execution",
     "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
@@ -30,6 +162,17 @@
     "category": "AI",
     "date": "2026-09-23",
     "timestamp": "2026-09-23T18:10:42+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+    "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a…",
+    "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T18:06:30+00:00",
     "coverage": 1
   },
   {
@@ -374,17 +517,6 @@
     "coverage": 1
   },
   {
-    "source": "The Record",
-    "rank": 2,
-    "title": "Burnham announces plan for new UK center to fight disinformation",
-    "summary": "The United Kingdom will create a new national center \"to detect, attribute and disrupt” hostile state disinformation, Prime Minister Andy Burnham announced at the United Nations General Assembly.",
-    "url": "https://therecord.media/uk-disinformation-russia-center",
-    "category": "News",
-    "date": "2026-09-23",
-    "timestamp": "2026-09-23T12:30:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
@@ -550,17 +682,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "GPT-6 Sol and Luna arrive with 50% lower API prices",
-    "summary": "OpenAI has expanded GPT-6 with the GPT-6 Sol and GPT-6 Luna models. Both are available in ChatGPT Work and Codex for Plus, Pro, Business, Enterprise, and Edu users. Free and Go users can access GPT-6 Luna in the desktop…",
-    "url": "https://www.helpnetsecurity.com/2026/09/23/gpt-6-sol-luna-lower-api-prices/",
-    "category": "News",
-    "date": "2026-09-23",
-    "timestamp": "2026-09-23T10:08:26+00:00",
-    "coverage": 1
-  },
-  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "Outerlimit Raises $16 Million to Stop Rogue AI Agents From Causing Harm",
@@ -570,6 +691,17 @@
     "date": "2026-09-23",
     "timestamp": "2026-09-23T10:00:00+00:00",
     "coverage": 1
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "ShinyHunters Claims FBI Hack Via PeopleSoft Zero Day",
+    "summary": "Infamous threat group ShinyHunters claims to have personal information on thousands of FBI employees",
+    "url": "https://www.infosecurity-magazine.com/news/shinyhunters-fbi-hack-peoplesoft/",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T10:00:00+00:00",
+    "coverage": 2
   },
   {
     "source": "SecurityWeek",
@@ -668,18 +800,7 @@
     "category": "Security",
     "date": "2026-09-23",
     "timestamp": "2026-09-23T07:17:23+00:00",
-    "coverage": 3
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "ShinyHunters Claims FBI Hack, Demands Retraction of Threat Report",
-    "summary": "The cybercrime group is unhappy with its description in an FBI report and threatens to leak stolen information. The post ShinyHunters Claims FBI Hack, Demands Retraction of Threat Report appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/shinyhunters-claims-fbi-hack-demands-retraction-of-threat-report/",
-    "category": "Data Breaches",
-    "date": "2026-09-23",
-    "timestamp": "2026-09-23T07:13:49+00:00",
-    "coverage": 1
+    "coverage": 4
   },
   {
     "source": "The Hacker News",
@@ -702,17 +823,6 @@
     "date": "2026-09-23",
     "timestamp": "2026-09-23T05:56:34+00:00",
     "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-    "summary": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. \"We have compromised…",
-    "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-    "category": "News",
-    "date": "2026-09-23",
-    "timestamp": "2026-09-23T05:30:09+00:00",
-    "coverage": 2
   },
   {
     "source": "CSO Online",
@@ -745,17 +855,6 @@
     "category": "Security",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T21:45:45+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
-    "summary": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Miljödata for inadequate security measures leading to a breach in August 2025 affecting 2.2 million people. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
-    "category": "Security",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T21:40:37+00:00",
     "coverage": 1
   },
   {
@@ -803,17 +902,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
-    "summary": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from 996 devices and more than 18,500 records stored in backend databases.…",
-    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
-    "category": "Security",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T20:35:24+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
@@ -833,17 +921,6 @@
     "category": "News",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T19:59:24+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Record",
-    "rank": 2,
-    "title": "Canadian regulator opens probe of IDScan for allegedly violating data privacy laws",
-    "summary": "The investigation, announced Monday, will probe IDScan’s security practices and whether victim notifications were adequate under Canada’s federal private-sector privacy law, the regulator said in a press release.",
-    "url": "https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach",
-    "category": "Cybercrime",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T19:52:00+00:00",
     "coverage": 1
   },
   {
@@ -869,17 +946,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-    "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
-    "category": "Security",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T19:13:29+00:00",
-    "coverage": 3
-  },
-  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "Volexity spots another China-aligned threat group exploiting Chrome and Microsoft defects",
@@ -888,6 +954,17 @@
     "category": "Cybersecurity",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T18:47:07+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "TechCrunch Security",
+    "rank": 17,
+    "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
+    "summary": "The theft of agents' personal information could present a major counterintelligence threat, where agents and their families are extorted into cooperating with a foreign government.",
+    "url": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
+    "category": "Security",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T18:40:30+00:00",
     "coverage": 1
   },
   {
@@ -1067,17 +1144,6 @@
     "coverage": 1
   },
   {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Another worry for water systems: infostealer exposure",
-    "summary": "SpyCloud’s study found 1,787 of the approximately 10,000 U.S. organizations had it, including one infected device that saved logins for 167 utility metering tenants. The post Another worry for water systems: infostealer…",
-    "url": "https://cyberscoop.com/spycloud-study-water-utilities-infostealer-exposure/",
-    "category": "Exclusive",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T10:00:00+00:00",
-    "coverage": 1
-  },
-  {
     "source": "WIRED Security",
     "rank": 18,
     "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
@@ -1097,17 +1163,6 @@
     "category": "News",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T09:30:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "U.S. CISA adds Zyxel flaw to its Known Exploited Vulnerabilities catalog",
-    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Zyxel flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a Zyxel GS1900 Series…",
-    "url": "https://securityaffairs.com/199518/hacking/u-s-cisa-adds-zyxel-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-    "category": "Breaking News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T09:13:54+00:00",
     "coverage": 1
   },
   {
@@ -1144,17 +1199,6 @@
     "coverage": 1
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "Contagious Interview: 30,000 devices infected by a fake job interview",
-    "summary": "North Korea-linked WaterPlum runs the Contagious Interview campaign, infecting over 30,000 devices using a fake job interview. On September 18, Japan’s National Police Agency, the FBI, the US Department of Defense’s…",
-    "url": "https://securityaffairs.com/199506/uncategorized/contagious-interview-30000-devices-infected-by-a-fake-job-interview.html",
-    "category": "Uncategorized",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T06:44:46+00:00",
-    "coverage": 1
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "Gemini broke into 3 companies, but Google kept it quiet because ‘no damage was done’",
@@ -1177,17 +1221,6 @@
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "ShinyHunters Hacked Cl0p. Now What About Cl0p's Victims?",
-    "summary": "ShinyHunters defaced Cl0p's Dark Web site and claims to have stolen victim data, potentially exposing organizations that paid ransoms to renewed extortion attempts.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T20:07:56+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Risky Business News",
     "rank": 11,
     "title": "Between Two Nerds: Real-time cyber defence",
@@ -1196,17 +1229,6 @@
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T20:02:45+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Cybercriminals Are Hiding New Malware in Torrents for Popular Films",
-    "summary": "Victims have been identified in Africa, including in Kenya and Uganda.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T19:11:26+00:00",
     "coverage": 1
   },
   {
@@ -1273,17 +1295,6 @@
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T14:21:29+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "Orchid Security Introduces AI Agent Readiness Controls Featuring Continuous Identity Monitoring and Kill-Switch Capabilities",
-    "summary": "Readiness tagging for AI, always-on observability, and coordinated kill switches at the application layer give enterprises a defensible route to scaling agents while keeping authority in human hands. New York, London –…",
-    "url": "https://www.csoonline.com/article/4224374/orchid-security-introduces-ai-agent-readiness-controls-featuring-continuous-identity-monitoring-and-kill-switch-capabilities.html",
-    "category": "Artificial Intelligence, Security",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T13:35:37+00:00",
     "coverage": 1
   },
   {
@@ -1636,17 +1647,6 @@
     "category": "Latest Warnings",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T21:44:22+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Ars Technica Security",
-    "rank": 19,
-    "title": "Why this month's Microsoft patch release is a doozy",
-    "summary": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
-    "url": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
-    "category": "AI",
-    "date": "2026-09-08",
-    "timestamp": "2026-09-08T21:11:46+00:00",
     "coverage": 1
   }
 ]
