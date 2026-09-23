@@ -1,5 +1,225 @@
 [
   {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks",
+    "summary": "The United Arab Emirates and Kingdom of Saudi Arabia together absorbed 50% of all cyberattacks recorded across the Gulf region in the first half of 2026.",
+    "url": "https://www.darkreading.com/threat-intelligence/uae-saudi-arabia-face-onslaught-of-increasingly-sophisticated-automated-cyberattacks",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T16:01:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Chrome 154 Patches 108 Vulnerabilities",
+    "summary": "The browser update resolves several critical-severity memory safety and memory corruption flaws. The post Chrome 154 Patches 108 Vulnerabilities appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T10:36:07+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Attackers hit Check Point Management Servers and Spark firewalls, F5 BIG-IP APM instances",
+    "summary": "Check Point Software has released emergency fixes for a critical Check Point Management Server vulnerability (CVE-2026-93616) that has been exploited as far back as July 23, 2026. The company also confirmed that a…",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/check-point-f5-big-ip-apm-zero-days-targeted/",
+    "category": "Don't miss",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T10:22:52+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "A Look at AI Doomsday Scenarios That Researchers Say Could Put Humanity at Risk",
+    "summary": "Debates over the plausibility of these doomsday scenarios have heated up since several executives endorsed slowing the technology’s development for safety reasons. The post A Look at AI Doomsday Scenarios That…",
+    "url": "https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T10:20:36+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "GPT-6 Sol and Luna arrive with 50% lower API prices",
+    "summary": "OpenAI has expanded GPT-6 with the GPT-6 Sol and GPT-6 Luna models. Both are available in ChatGPT Work and Codex for Plus, Pro, Business, Enterprise, and Edu users. Free and Go users can access GPT-6 Luna in the desktop…",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/gpt-6-sol-luna-lower-api-prices/",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T10:08:26+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Outerlimit Raises $16 Million to Stop Rogue AI Agents From Causing Harm",
+    "summary": "Emerging from stealth with $16 million in pre-seed funding, Outerlimit offers a decentralized authorization layer designed to discover, observe, and block harmful autonomous AI actions. The post Outerlimit Raises $16…",
+    "url": "https://www.securityweek.com/outerlimit-raises-16-million-to-stop-rogue-ai-agents-from-causing-harm/",
+    "category": "Artificial Intelligence",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T10:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "WordPress 7.1.2 fixes critical unauthenticated path traversal vulnerability (CVE-2026-87902)",
+    "summary": "WordPress released version 7.1.2 to fix a critical flaw that lets an unauthenticated attacker make the software load a PHP file of the attacker’s choosing from outside the site’s active theme folders. On sites where the…",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/cve-2026-87902-wordpress-7-1-2-security-release/",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T09:01:45+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Arista Urges Immediate Patching of Exploited VCO Zero-Day",
+    "summary": "Remote attackers could trigger the critical-severity flaw to access privileged internal functionality. The post Arista Urges Immediate Patching of Exploited VCO Zero-Day appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T08:33:06+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Claude Opus 5.5 cuts costs and adds safeguards for autonomous AI",
+    "summary": "Claude Opus 5.5 is available across Anthropic’s platforms, Amazon Web Services, Google Cloud and Microsoft Azure. Developers can access it through the Claude Platform using the model name claude-opus-5-5. It includes…",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/anthropic-claude-opus-5-5/",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T08:30:52+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "EU Auditors Warn Information-Sharing Gaps Are Hindering Cyber Incident Response",
+    "summary": "The EU Court of Auditors has criticized EU shortcomings in responding to major cyber incidents",
+    "url": "https://www.infosecurity-magazine.com/news/eu-auditors-slam-blocs-cyberinfo/",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T08:30:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+    "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4,…",
+    "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T08:29:24+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "Fake LastPass on GitHub Led to an Infostealer That Killed 145 Security Tools",
+    "summary": "Attackers spoofed LastPass on GitHub, used a Microsoft-signed driver to disable 145 security products, then deployed an infostealer. Someone impersonated LastPass on GitHub, got users to download a fake authenticator,…",
+    "url": "https://securityaffairs.com/199577/malware/fake-lastpass-on-github-led-to-an-infostealer-that-killed-145-security-tools.html",
+    "category": "Breaking News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T08:25:27+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "Okta bets on identity to control AI agents, but is identity enough?",
+    "summary": "Concerns over agentic risks are rising, and identity and access management (IAM) giant Okta believes it’s making the moves of a would-be leader in this emerging cyber market. “Identity is the primary control plane for…",
+    "url": "https://www.csoonline.com/article/4225230/okta-bets-on-identity-to-control-ai-agents-but-is-identity-alone-enough.html",
+    "category": "Artificial Intelligence, Identity and Access Management, Industry, Markets, Security, Technology Industry",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T08:25:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "Ryuk ransomware member sentenced to 24 months in prison",
+    "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+    "category": "Security",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T08:20:05+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Security Affairs",
+    "rank": 13,
+    "title": "CVE-2026-87902: how close is your WordPress to remote code execution?",
+    "summary": "WordPress 7.1.2 fixes an unauthenticated file inclusion bug active since version 4.7, patchable but exploitable into remote code execution. WordPress 7.1.2 shipped on September 22 address an unauthenticated local file…",
+    "url": "https://securityaffairs.com/199564/hacking/cve-2026-87902-how-close-is-your-wordpress-to-remote-code-execution.html",
+    "category": "Breaking News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T07:36:14+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Critical F5 BIG-IP Vulnerability Exploited as Zero-Day",
+    "summary": "Unauthenticated attackers could send malicious traffic to BIG-IP to achieve remote code execution. The post Critical F5 BIG-IP Vulnerability Exploited as Zero-Day appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/",
+    "category": "Vulnerabilities",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T07:34:18+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "BleepingComputer",
+    "rank": 1,
+    "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+    "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+    "category": "Security",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T07:17:23+00:00",
+    "coverage": 2
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "ShinyHunters Claims FBI Hack, Demands Retraction of Threat Report",
+    "summary": "The cybercrime group is unhappy with its description in an FBI report and threatens to leak stolen information. The post ShinyHunters Claims FBI Hack, Demands Retraction of Threat Report appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/shinyhunters-claims-fbi-hack-demands-retraction-of-threat-report/",
+    "category": "Data Breaches",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T07:13:49+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+    "summary": "A new security vulnerability in Next.js could allow attackers to run code on a server via ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said. The risk applies when an app…",
+    "url": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T07:04:40+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Risky Bulletin: Team Cymru unmasks shady Chinese proxy network",
+    "summary": "A network of 10,000 AI servers is masking malicious Chinese AI activity, Ukrainian hackers leak Russia’s naval secrets, ShinyHunters hacks the FBI, and the EvilTokens phishing service is disrupted by tech companies.",
+    "url": "https://risky.biz/RBNEWS614/",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T05:56:34+00:00",
+    "coverage": 1
+  },
+  {
     "source": "Help Net Security",
     "rank": 7,
     "title": "Prismor: Open-source runtime control plane for AI agents",
@@ -9,6 +229,17 @@
     "date": "2026-09-23",
     "timestamp": "2026-09-23T05:30:31+00:00",
     "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+    "summary": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. \"We have compromised…",
+    "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T05:30:09+00:00",
+    "coverage": 2
   },
   {
     "source": "Help Net Security",
@@ -151,7 +382,7 @@
     "category": "News",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T20:02:02+00:00",
-    "coverage": 2
+    "coverage": 3
   },
   {
     "source": "The Record",
@@ -195,7 +426,7 @@
     "category": "Security",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T19:13:29+00:00",
-    "coverage": 1
+    "coverage": 2
   },
   {
     "source": "CyberScoop",
@@ -206,17 +437,6 @@
     "category": "Cybersecurity",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T18:47:07+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "TechCrunch Security",
-    "rank": 17,
-    "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
-    "summary": "The theft of agents' personal information could present a major counterintelligence threat, where agents and their families are extorted into cooperating with a foreign government.",
-    "url": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
-    "category": "Security",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T18:40:30+00:00",
     "coverage": 1
   },
   {
@@ -316,7 +536,18 @@
     "category": "Security",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T16:32:47+00:00",
-    "coverage": 2
+    "coverage": 3
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+    "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on September 19. The tool, called BigDiskBuster,…",
+    "url": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+    "category": "News",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T16:14:04+00:00",
+    "coverage": 1
   },
   {
     "source": "The Record",
@@ -440,28 +671,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Researchers uncover malware that uses AI to choose its next move",
-    "summary": "To help security practitioners catch malware that leans on AI, researchers from Cisco Talos shared an open-source framework that they hope will be used to classify and analyze the threat. The tool, called CAIRN, works…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/cairn-open-source-framework-ai-malware-closedquorum/",
-    "category": "Don't miss",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T13:56:55+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Brief hijack makes Elsevier domains redirect to LAPSUS$ “Chapter II” page",
-    "summary": "Three domains / web portals belonging to Dutch academic publishing company Elsevier have been redirecting users to a page branded “LAPSUS$ GROUP, Chapter II,” carrying a signed statement that taunted the FBI and counted…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/elsevier-domains-hijack-lapsus/",
-    "category": "Don't miss",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T13:46:45+00:00",
-    "coverage": 1
-  },
-  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity",
@@ -561,39 +770,6 @@
     "coverage": 1
   },
   {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Only 13% of OT Network Segments Are Fully Isolated: Analysis",
-    "summary": "Forescout’s new network segmentation research shows that OT and medical devices often share network segments with other enterprise assets. The post Only 13% of OT Network Segments Are Fully Isolated: Analysis appeared…",
-    "url": "https://www.securityweek.com/only-13-of-ot-network-segments-are-fully-isolated-analysis/",
-    "category": "ICS/OT",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T12:24:30+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "The latest deepfake numbers give CISOs plenty to worry about",
-    "summary": "AI is letting cybercriminals reach deeper into organizations than a phishing email ever could. 41% of CISOs reported at least one social engineering incident involving a deepfake during an employee audio call in the…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/cisos-deepfake-incidents-social-engineering-survey/",
-    "category": "Don't miss",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T12:05:36+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "The next intellectual property thief may sound like your CEO",
-    "summary": "Impersonation, phishing and domain-name abuse are the most concerning types of online intellectual property infringement, according to CSC’s The State of Online IP Risk 2026 report. Internet and branded content, online…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/csc-online-intellectual-property-risk-report/",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T12:00:05+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Dark Reading",
     "rank": 4,
     "title": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
@@ -616,72 +792,6 @@
     "coverage": 1
   },
   {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers",
-    "summary": "A Chinese threat actor has exploited the bug to exfiltrate sensitive information from nearly 1,000 ZyXEL switches. The post Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/",
-    "category": "Vulnerabilities",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T11:55:20+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
-    "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk…",
-    "url": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T11:45:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
-    "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled. The bug, tracked as…",
-    "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T11:38:40+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Malicious B-tree NPM Package Accumulates Millions of Downloads",
-    "summary": "Posing as the legitimate sorted-btree package, indexed-btree hides a malware trigger in its prototype method. The post Malicious B-tree NPM Package Accumulates Millions of Downloads appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/",
-    "category": "Application Security",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T11:33:59+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
-    "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical details published today…",
-    "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T11:17:41+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Attacker compromised nearly 1000 Zyxel switches since August (CVE-2026-7273)",
-    "summary": "A Chinese-speaking threat actor has exploited a vulnerability (CVE-2026-7273) in unpatched ZyXEL GS1900 Smart Managed Switches and has exfiltrated sensitive data from 996 devices across 48 countries, GreyNoise reported…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/zyxel-switches-cve-2026-7273-vulnerability-exploited/",
-    "category": "Don't miss",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T10:42:54+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "AI Drives Surge in Bot and API Threats",
@@ -690,17 +800,6 @@
     "category": "News",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T10:30:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "WordPress Patches ‘Click2Shell’ Vulnerability",
-    "summary": "The bug lets attackers automatically install and preview themes and could lead to remote code execution. The post WordPress Patches ‘Click2Shell’ Vulnerability appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/",
-    "category": "Vulnerabilities",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T10:22:27+00:00",
     "coverage": 1
   },
   {
@@ -734,28 +833,6 @@
     "category": "Security",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T10:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
-    "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
-    "category": "Security",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T09:55:11+00:00",
-    "coverage": 2
-  },
-  {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
-    "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in…",
-    "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T09:38:18+00:00",
     "coverage": 1
   },
   {
@@ -803,28 +880,6 @@
     "coverage": 1
   },
   {
-    "source": "BleepingComputer",
-    "rank": 1,
-    "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
-    "summary": "​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
-    "category": "Security",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T08:53:09+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme",
-    "summary": "The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea’s WaterPlum campaign. The post Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme…",
-    "url": "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/",
-    "category": "Nation-State",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T08:37:06+00:00",
-    "coverage": 1
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "CISOs can no longer ignore the nation-state threat",
@@ -844,17 +899,6 @@
     "category": "Uncategorized",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T06:44:46+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
-    "summary": "Trump has resisted calls to slow down AI development, saying that would help China catch up to U.S. companies. The post US Proposes AI Incident Alert System in Talks With China, Bessent Says appeared first on…",
-    "url": "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T02:01:24+00:00",
     "coverage": 1
   },
   {
@@ -957,17 +1001,6 @@
     "coverage": 1
   },
   {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "Google Hit With $463 Million Fine for EU Location Data Rule Breach",
-    "summary": "Google has been fined 403 million euros ($463 million) for breaching the European Union’s strict privacy rules because it mishandled users’ location data. The post Google Hit With $463 Million Fine for EU Location Data…",
-    "url": "https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach/",
-    "category": "Privacy & Compliance",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T17:19:53+00:00",
-    "coverage": 2
-  },
-  {
     "source": "CSO Online",
     "rank": 12,
     "title": "After spending billions, OpenAI still has gaps in its cybersecurity",
@@ -998,6 +1031,17 @@
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T15:19:50+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Infosecurity Magazine",
+    "rank": 9,
+    "title": "Google Hit with €403m GDPR Fine Over Location Data Practices",
+    "summary": "The Irish DPC found that Google users were unaware that their location was being used to influence them with ads",
+    "url": "https://www.infosecurity-magazine.com/news/google-hit-with-403m-gdpr-fine/",
+    "category": "News",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T15:00:00+00:00",
     "coverage": 1
   },
   {
@@ -1100,17 +1144,6 @@
     "coverage": 1
   },
   {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "A BYD Shark 6 Hack Shows the Risks of Connected Cars",
-    "summary": "A BYD Shark 6 was remotely hacked, exposing vehicle controls, location tracking and cabin audio, raising serious connected-car security concerns. A journalist drove a BYD Shark 6 down a country road outside Canberra…",
-    "url": "https://securityaffairs.com/199460/hacking/a-byd-shark-6-hack-shows-the-risks-of-connected-cars.html",
-    "category": "Breaking News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T10:32:03+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "Experts Alarmed Over Gyazo’s Breach of 490 Million Metadata Records",
@@ -1119,17 +1152,6 @@
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T09:30:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "Revolut Customers Targeted with New Wave of Phishing Attacks",
-    "summary": "Following a major data breach, Revolut customers are being sent convincing phishing messages",
-    "url": "https://www.infosecurity-magazine.com/news/revolut-customers-targeted-wave/",
-    "category": "News",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T09:00:00+00:00",
     "coverage": 1
   },
   {
@@ -1163,28 +1185,6 @@
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T09:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Security Affairs",
-    "rank": 13,
-    "title": "The Target Is No Longer the Model. It’s the Agent.",
-    "summary": "AI agents are becoming the new attack surface, exposed to poisoned skills, prompt injection, jailbreaks and attacks through connected tools. I read the AI security research published in a single month, February 2026,…",
-    "url": "https://securityaffairs.com/199454/ai/the-target-is-no-longer-the-model-its-the-agent.html",
-    "category": "Artificial Intelligence",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T08:27:47+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "5 ways AI is reshaping the cybersecurity job market",
-    "summary": "Mario Platt spent part of last year eliminating a team. As CISO for online password management service LastPass, he shut down the company’s dedicated vulnerability management function in late 2025, folding its…",
-    "url": "https://www.csoonline.com/article/4224019/5-ways-ai-is-reshaping-the-cybersecurity-job-market.html",
-    "category": "Artificial Intelligence, Careers, IT Jobs, IT Skills and Training, Security",
-    "date": "2026-09-21",
-    "timestamp": "2026-09-21T08:25:00+00:00",
     "coverage": 1
   },
   {
@@ -1287,17 +1287,6 @@
     "coverage": 1
   },
   {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "EY Survey Finds Autonomous AI Implementation Outpaces Oversight",
-    "summary": "A new survey of senior AI execs shows that while organizations are rapidly deploying AI and autonomous systems, their process and controls are not keeping pace.",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight",
-    "category": "News",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T19:23:48+00:00",
-    "coverage": 1
-  },
-  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "Researchers use AI to find widespread software decoder flaw",
@@ -1344,6 +1333,17 @@
   {
     "source": "Cybersecurity Dive",
     "rank": 14,
+    "title": "Settra ransomware variant deployed in recent attacks",
+    "summary": "Security researchers warned that hackers are using VPN credentials for initial access and deploying RMM tools.",
+    "url": "https://www.cybersecuritydive.com/news/settra-ransomware-variant-recent-attacks/830787/",
+    "category": "News",
+    "date": "2026-09-18",
+    "timestamp": "2026-09-18T15:32:22+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
     "title": "CISA ends weekly vulnerability roundups as part of shift to prioritization approach",
     "summary": "The agency wants to help companies sort through the AI-fueled avalanche of bug reports.",
     "url": "https://www.cybersecuritydive.com/news/cisa-vulnerability-bulletins-sunset-prioritization/830779/",
@@ -1361,17 +1361,6 @@
     "category": "AI",
     "date": "2026-09-18",
     "timestamp": "2026-09-18T14:00:14+00:00",
-    "coverage": 2
-  },
-  {
-    "source": "Infosecurity Magazine",
-    "rank": 9,
-    "title": "New Settra Ransomware Variant Deployed in Attacks on Retail and Manufacturing",
-    "summary": "Huntress researchers highlighted a new ransomware variant, named Settra, and the post-compromise techniques used in two recent attacks",
-    "url": "https://www.infosecurity-magazine.com/news/settra-ransomware-retail/",
-    "category": "News",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T13:30:00+00:00",
     "coverage": 2
   },
   {
@@ -1647,6 +1636,17 @@
     "category": "AI",
     "date": "2026-09-08",
     "timestamp": "2026-09-08T21:11:46+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Between Two Nerds: Can AI defend critical infrastructure?",
+    "summary": "In this edition of Between Two Nerds Tom Uren and The Grugq talk about whether AI will help cyber defence in critical infrastructure and organisations that are below the cyber poverty line. This episode is also…",
+    "url": "https://risky.biz/BTN182/",
+    "category": "News",
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T19:58:22+00:00",
     "coverage": 1
   }
 ]
