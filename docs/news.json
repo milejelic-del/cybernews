@@ -1,5 +1,16 @@
 [
   {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "ShinyHunters claims attack on FBI exposes almost all agents",
+    "summary": "The FBI jobs site, which was temporarily defaced, remains unavailable and the agency said it’s investigating the claims. The post ShinyHunters claims attack on FBI exposes almost all agents appeared first on CyberScoop .",
+    "url": "https://cyberscoop.com/shinyhunters-claims-fbi-attack/",
+    "category": "Cybercrime",
+    "date": "2026-09-22",
+    "timestamp": "2026-09-22T23:47:43+00:00",
+    "coverage": 1
+  },
+  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Rogue external MFA providers can steal passwords during logins",
@@ -1372,17 +1383,6 @@
     "category": "Security",
     "date": "2026-09-18",
     "timestamp": "2026-09-18T13:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Cisco alerts customers to second actively exploited zero-day in as many days",
-    "summary": "The latest zero-day has a maximum-severity rating and affects Cisco Identity Services Engine, a product hit with three actively exploited vulnerabilities since June 2025. The post Cisco alerts customers to second…",
-    "url": "https://cyberscoop.com/cisco-ise-zero-day-cve-2026-76460/",
-    "category": "Cybersecurity",
-    "date": "2026-09-17",
-    "timestamp": "2026-09-17T21:03:42+00:00",
     "coverage": 1
   },
   {
