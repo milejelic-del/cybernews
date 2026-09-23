@@ -1,5 +1,71 @@
 [
   {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Prismor: Open-source runtime control plane for AI agents",
+    "summary": "Prismor is a free, open-source security layer for AI coding agents. It sits between an agent such as Claude Code, Codex, or Cursor and the actions that agent wants to take, and it checks each tool call against a policy…",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/prismor-open-source-ai-agent-security/",
+    "category": "Don't miss",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T05:30:31+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Product showcase: Scamwise checks the red flags before you take the bait",
+    "summary": "Scamwise is a free scam-checking service from Savi that examines suspicious messages, emails, websites, phone numbers, images, and real-world situations for signs of fraud. The service works in any web browser on…",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/product-showcase-savi-scamwise/",
+    "category": "Don't miss",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T05:00:48+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Nearly two-thirds of tested websites fail every bot test",
+    "summary": "Malicious bot activity increased 124% between July 2025 and June 2026, compared with 13.2% growth in human traffic. Traffic from AI agents and large language model crawlers rose 82.3% during the same period, according…",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/datadome-growing-bad-bot-traffic-report/",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T04:30:37+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Rabbit’s new OS lives in the cloud and borrows your laptop to get things done",
+    "summary": "Rabbit, the Santa Monica company that makes the r1 handheld, released OS3, an agentic operating system. It runs in Rabbit’s cloud and operates a user’s computers through a local agent that installs with one command. The…",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/rabbit-os3-ai-agent-now-available/",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T03:38:05+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "NetBSD 10.2 security fixes close a remote kernel bug in ipfilter",
+    "summary": "A NetBSD box at the edge of a network, filtering traffic with ipfilter, has been carrying a kernel flaw that someone outside the machine can set off. The bug is a remotely triggerable null pointer dereference in…",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/netbsd-10-2-security-fixes-released/",
+    "category": "News",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T03:16:17+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "CSO Online",
+    "rank": 12,
+    "title": "AI malware just removed the human from the attack loop",
+    "summary": "Attackers using AI have greatly benefited when it comes to speed and scale, and now, says Cisco Talos, the technology has evolved to execute large portions of the attack chain entirely without human involvement.…",
+    "url": "https://www.csoonline.com/article/4225264/ai-malware-just-removed-the-human-from-the-attack-loop.html",
+    "category": "Artificial Intelligence, Cybercrime, Malware, Security",
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T00:39:51+00:00",
+    "coverage": 1
+  },
+  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "ShinyHunters claims attack on FBI exposes almost all agents",
@@ -616,17 +682,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Somewhere in your traffic logs, a bot is doing more than looking",
-    "summary": "Akamai has watched verified AI crawlers, ChatGPT among them, move from reading web pages to sending high-frequency POST requests. In a 30-day analysis of its global customers, ecommerce accounted for 44.8% of those AI…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/ai-crawler-traffic-online-stores/",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T10:30:31+00:00",
-    "coverage": 1
-  },
-  {
     "source": "Infosecurity Magazine",
     "rank": 9,
     "title": "AI Drives Surge in Bot and API Threats",
@@ -748,17 +803,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Scammers use genuine Google sign-ins to sell costly, unverified AI subscriptions",
-    "summary": "Scammers are using a $249 website toolkit to sell unverified AI subscriptions worth up to $2,000 a year, and a genuine Google sign-in screen is what makes the sites convincing. Malwarebytes found more than 100 websites…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/fake-ai-subscription-sites-google-sign-in/",
-    "category": "Don't miss",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T08:54:30+00:00",
-    "coverage": 1
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
@@ -800,39 +844,6 @@
     "category": "Uncategorized",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T06:44:46+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "A cheap fake base station can still track 5G subscribers",
-    "summary": "Researchers from the i2CAT Foundation, the University of Murcia, and NEC Laboratories Europe built a low-cost tool called 5G-Shark that lures a target phone onto a fake base station and questions it, then used it to…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/5g-subscriber-tracking-research/",
-    "category": "Don't miss",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T06:30:21+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Passwork NIS2 efficiency guide: Save your team hours before the 2026 audit",
-    "summary": "By the second half of 2026, national competent authorities across the EU are actively reviewing NIS2 compliance documentation. Under Article 20(1) of the directive, senior management at essential and important entities…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/passwork-nis2-compliance-guide/",
-    "category": "Don't miss",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T05:00:49+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "European AI spending is on track to reach nearly $470 billion by 2030",
-    "summary": "European organizations will spend nearly $470 billion on AI in 2030, IDC forecasts, with spending growing at a compound annual rate of 35% from 2025. At that rate, the market more than quadruples in five years.…",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/idc-european-ai-spending/",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T04:30:28+00:00",
     "coverage": 1
   },
   {
@@ -1295,17 +1306,6 @@
     "category": "AI",
     "date": "2026-09-18",
     "timestamp": "2026-09-18T17:19:49+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CSO Online",
-    "rank": 12,
-    "title": "CISA is ending its monthly vulnerability bulletin",
-    "summary": "The rise in AI-generated security threats may just have generated one casualty: the death of the weekly bulletin of security threats from the US Cybersecurity Infrastructure and Security Agency (CISA). The agency will…",
-    "url": "https://www.csoonline.com/article/4223933/cisa-is-ending-its-monthly-vulnerability-bulletin.html",
-    "category": "Government, Industry, Markets, Security, Vulnerabilities",
-    "date": "2026-09-18",
-    "timestamp": "2026-09-18T16:52:04+00:00",
     "coverage": 1
   },
   {
