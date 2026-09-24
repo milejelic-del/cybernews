@@ -1,5 +1,16 @@
 [
   {
+    "source": "CyberScoop",
+    "rank": 8,
+    "title": "CISA outlines improvement plan for CVE program",
+    "summary": "The white paper is the latest step in trying to create a “Quality Era” for the Common Vulnerabilities and Exposures (CVE) program as the number of CVEs surges. The post CISA outlines improvement plan for CVE program…",
+    "url": "https://cyberscoop.com/cisa-cve-data-quality-white-paper-expert-reaction/",
+    "category": "Government",
+    "date": "2026-09-24",
+    "timestamp": "2026-09-24T00:31:36+00:00",
+    "coverage": 1
+  },
+  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
@@ -1009,17 +1020,6 @@
     "category": "AI",
     "date": "2026-09-22",
     "timestamp": "2026-09-22T15:16:35+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "CyberScoop",
-    "rank": 8,
-    "title": "Microsoft and partners disrupt EvilTokens, a comprehensive cybercrime service for financial fraud",
-    "summary": "The popular phishing-as-a-service platform used AI throughout the attack chain, allowing cybercriminals to steal tokens for account takeover and business email compromise. The post Microsoft and partners disrupt…",
-    "url": "https://cyberscoop.com/microsoft-eviltokens-cybercrime-service-takedown/",
-    "category": "Cybercrime",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T15:00:00+00:00",
     "coverage": 1
   },
   {
