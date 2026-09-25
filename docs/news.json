@@ -1,5 +1,104 @@
 [
   {
+    "source": "Dark Reading",
+    "rank": 4,
+    "title": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
+    "summary": "A storm is raging in the form of cyber sabotage, disinformation, and drone attacks on European nations, particularly those that provide material support to Ukraine.",
+    "url": "https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe",
+    "category": "News",
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T07:00:00+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "SecurityWeek",
+    "rank": 3,
+    "title": "Roundcube Webmail Vulnerability in Attackers’ Crosshairs",
+    "summary": "Tracked as CVE-2026-48842, the exploited bug is an SQL injection that can be exploited without authentication. The post Roundcube Webmail Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek .",
+    "url": "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
+    "category": "Email Security",
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T06:57:40+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Stop watching what AI agents say and start watching what they do",
+    "summary": "In this interview with Help Net Security, Ariel Assaraf, CEO of Coralogix, explains why a system prompt can describe a boundary for an AI agent but cannot enforce one. Assaraf covers how his team builds AI agent…",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/ariel-assaraf-coralogix-ai-agent-guardrails/",
+    "category": "Don't miss",
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T05:30:02+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Half of threat hunters say bad data is their biggest problem",
+    "summary": "Half of security professionals name data quality or quantity as their biggest barrier to effective threat hunting, according to the SANS 2026 Threat Hunting Survey. Teams with working playbooks describe the logs as…",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/sans-threat-hunting-data-quality/",
+    "category": "Don't miss",
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T05:00:56+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+    "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday. The data came from disk…",
+    "url": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+    "category": "News",
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T04:49:22+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "The Hacker News",
+    "rank": 6,
+    "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based…",
+    "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+    "category": "News",
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T04:46:34+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "Your incident count is missing a few incidents",
+    "summary": "If you run security for a brand with hundreds or thousands of locations, the tools you’ve bought may have little to do with whether an attack stays at one store. A new VikingCloud survey asked 200 security and IT…",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/eu-usa-retail-chain-cyberattacks/",
+    "category": "News",
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T04:30:26+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Risky Business News",
+    "rank": 11,
+    "title": "Risky Bulletin: Major vulnerability found in ancient TACACS+ networking protocol",
+    "summary": "A major vulnerability has been found in the ancient TACACS+ networking protocol, Australia’s Prime Minister claims an OpenAI agent hacked the country’s Medicare website, OpenAI gives Ukraine access to its Daybreak…",
+    "url": "https://risky.biz/RBNEWS615/",
+    "category": "News",
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T04:17:47+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Help Net Security",
+    "rank": 7,
+    "title": "New infosec products of the month: September 2026",
+    "summary": "Here’s a look at the most interesting products from the past week, featuring releases from Akeyless, Akuity, Bitsight, BugBase, Cloud Range, Cohesity, Dataminr, Gurucul, Nozomi Networks, Orchid Security, Ping Identity,…",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/new-infosec-products-of-the-month-september-2026/",
+    "category": "News",
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T04:00:28+00:00",
+    "coverage": 1
+  },
+  {
     "source": "CyberScoop",
     "rank": 8,
     "title": "House and Senate members propose legislation for CISA to step up cyber defenses for biotech",
@@ -162,7 +261,7 @@
     "category": "Security",
     "date": "2026-09-24",
     "timestamp": "2026-09-24T17:47:44+00:00",
-    "coverage": 2
+    "coverage": 1
   },
   {
     "source": "CyberScoop",
@@ -484,17 +583,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "LatticeFlow AI offers managed risk assessments for enterprise AI systems",
-    "summary": "LatticeFlow AI has announced the LatticeFlow AI Risk Center, an AI governance managed service that continuously assesses and controls AI risk, giving enterprises the technology, evidence, and expertise to scale AI with…",
-    "url": "https://www.helpnetsecurity.com/2026/09/24/latticeflow-ai-risk-center/",
-    "category": "Industry news",
-    "date": "2026-09-24",
-    "timestamp": "2026-09-24T11:47:54+00:00",
-    "coverage": 1
-  },
-  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "Island Raises $400 Million at $6.4 Billion Valuation",
@@ -503,28 +591,6 @@
     "category": "Cybersecurity Funding",
     "date": "2026-09-24",
     "timestamp": "2026-09-24T11:39:09+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "Meta locks itself out of user data on its AI glasses",
-    "summary": "Meta is expanding Private Processing to its AI glasses, extending their security protections into cloud data centers. The system runs AI models inside confidential virtual machines (CVMs) designed to prevent Meta from…",
-    "url": "https://www.helpnetsecurity.com/2026/09/24/meta-private-processing-for-ai-glasses/",
-    "category": "News",
-    "date": "2026-09-24",
-    "timestamp": "2026-09-24T11:35:04+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "UK gears up for fight against Russia’s disinformation machine",
-    "summary": "The UK government will create a new body to track and disrupt disinformation campaigns run by hostile states, Prime Minister Andy Burnham announced at the United Nations General Assembly in New York. In his first…",
-    "url": "https://www.helpnetsecurity.com/2026/09/24/uk-national-centre-for-information-defence-disinformation-detection/",
-    "category": "News",
-    "date": "2026-09-24",
-    "timestamp": "2026-09-24T11:25:36+00:00",
     "coverage": 1
   },
   {
@@ -649,17 +715,6 @@
     "coverage": 1
   },
   {
-    "source": "Help Net Security",
-    "rank": 7,
-    "title": "New Android malware RemControl steals banking PINs and blocks removal attempts",
-    "summary": "A new Android banking trojan called RemControl tricks victims into installing a fake TV app, then takes control of their phones to steal banking PINs, Group-IB has found. Researchers confirmed that the malware targets…",
-    "url": "https://www.helpnetsecurity.com/2026/09/24/remcontrol-android-banking-trojan-fake-tv-app/",
-    "category": "Don't miss",
-    "date": "2026-09-24",
-    "timestamp": "2026-09-24T09:40:43+00:00",
-    "coverage": 1
-  },
-  {
     "source": "BleepingComputer",
     "rank": 1,
     "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
@@ -701,17 +756,6 @@
     "category": "Artificial Intelligence, Network Security, Security, Security Software, Threat and Vulnerability Management",
     "date": "2026-09-24",
     "timestamp": "2026-09-24T09:00:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "SecurityWeek",
-    "rank": 3,
-    "title": "US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks",
-    "summary": "Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims. The post US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks appeared first on SecurityWeek .",
-    "url": "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/",
-    "category": "Cybercrime",
-    "date": "2026-09-24",
-    "timestamp": "2026-09-24T08:38:29+00:00",
     "coverage": 1
   },
   {
@@ -957,17 +1001,6 @@
     "coverage": 1
   },
   {
-    "source": "The Hacker News",
-    "rank": 6,
-    "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
-    "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a…",
-    "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
-    "category": "News",
-    "date": "2026-09-23",
-    "timestamp": "2026-09-23T18:06:30+00:00",
-    "coverage": 1
-  },
-  {
     "source": "TechCrunch Security",
     "rank": 17,
     "title": "What’s next for cybersecurity, according to Index Ventures’ Shardul Shah",
@@ -1196,17 +1229,6 @@
     "category": "Artificial Intelligence, Cybercrime, Malware, Security",
     "date": "2026-09-23",
     "timestamp": "2026-09-23T00:39:51+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Dark Reading",
-    "rank": 4,
-    "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
-    "summary": "More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
-    "url": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
-    "category": "News",
-    "date": "2026-09-22",
-    "timestamp": "2026-09-22T21:12:37+00:00",
     "coverage": 1
   },
   {
@@ -1625,28 +1647,6 @@
     "category": "News",
     "date": "2026-09-11",
     "timestamp": "2026-09-11T02:32:11+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Risky Business News",
-    "rank": 11,
-    "title": "Srsly Risky Biz: America's drivers licence breach is a national security disaster",
-    "summary": "Tom Uren and James Wilson talk about how Chinese intelligence services will take advantage of a massive breach of 150 million American drivers licences. They also discuss the steps the US military is taking to counter…",
-    "url": "https://risky.biz/SRB183/",
-    "category": "News",
-    "date": "2026-09-10",
-    "timestamp": "2026-09-10T03:18:00+00:00",
-    "coverage": 1
-  },
-  {
-    "source": "Ars Technica Security",
-    "rank": 19,
-    "title": "Four groups caught using the same Chrome and Windows exploit kit",
-    "summary": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
-    "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-    "category": "Biz & IT",
-    "date": "2026-09-09",
-    "timestamp": "2026-09-09T20:55:02+00:00",
     "coverage": 1
   }
 ]
