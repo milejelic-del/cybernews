@@ -407,17 +407,6 @@
     "coverage": 1
   },
   {
-    "source": "Cybersecurity Dive",
-    "rank": 14,
-    "title": "Threat groups ramp up social-engineering attacks against healthcare sector",
-    "summary": "Hackers linked to high-profile cybercrime groups have used voice-phishing tactics to trick workers into giving up credentials in recent attacks.",
-    "url": "https://www.cybersecuritydive.com/news/threat-groups-social-engineering-attacks-healthcare/831383/",
-    "category": "News",
-    "date": "2026-09-25",
-    "timestamp": "2026-09-25T15:10:11+00:00",
-    "coverage": 1
-  },
-  {
     "source": "SecurityWeek",
     "rank": 3,
     "title": "In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure",
@@ -1449,6 +1438,17 @@
     "category": "News",
     "date": "2026-09-21",
     "timestamp": "2026-09-21T15:19:50+00:00",
+    "coverage": 1
+  },
+  {
+    "source": "Cybersecurity Dive",
+    "rank": 14,
+    "title": "Google AI models broke out of sandbox, hacked three companies",
+    "summary": "The incidents stemmed from the same testing environment defects that tripped up OpenAI, Anthropic and Meta.",
+    "url": "https://www.cybersecuritydive.com/news/google-ai-gemini-autonomous-hacks/830884/",
+    "category": "News",
+    "date": "2026-09-21",
+    "timestamp": "2026-09-21T14:21:29+00:00",
     "coverage": 1
   },
   {
