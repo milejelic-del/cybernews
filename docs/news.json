@@ -7,6 +7,72 @@
     "tagline": "A digest of the latest news from 20 leading cybersecurity portals",
     "news": [
       {
+        "source": "BleepingComputer",
+        "rank": 1,
+        "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+        "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the…",
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+        "category": "Security",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:02:37+00:00",
+        "coverage": 2
+      },
+      {
+        "source": "Security Affairs",
+        "rank": 13,
+        "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 1",
+        "summary": "Security Affairs AI-CYBERSECURITY newsletter includes a collection of the best articles and research on AI in the international landscape Artificial intelligence is rapidly changing cybersecurity, reshaping both the…",
+        "url": "https://securityaffairs.com/199862/ai/security-affairs-ai-cybersecurity-newsletter-round-1.html",
+        "category": "Artificial Intelligence",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:26:18+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Security Affairs",
+        "rank": 13,
+        "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 116",
+        "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Threat Intel | One Kit, Forty Companies: How a…",
+        "url": "https://securityaffairs.com/199850/malware/security-affairs-malware-newsletter-round-116.html",
+        "category": "Breaking News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:05:39+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "BleepingComputer",
+        "rank": 1,
+        "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+        "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
+        "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+        "category": "Security",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T14:13:31+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Security Affairs",
+        "rank": 13,
+        "title": "Security Affairs newsletter Round 597 by Pierluigi Paganini – INTERNATIONAL EDITION",
+        "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter,…",
+        "url": "https://securityaffairs.com/199841/breaking-news/security-affairs-newsletter-round-597-by-pierluigi-paganini-international-edition.html",
+        "category": "Breaking News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T13:40:23+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "BleepingComputer",
+        "rank": 1,
+        "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+        "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+        "category": "Artificial Intelligence",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T13:38:40+00:00",
+        "coverage": 1
+      },
+      {
         "source": "Security Affairs",
         "rank": 13,
         "title": "Rydox Admin Faces 20 Years After Selling Stolen Data and Fraud Tools",
@@ -37,17 +103,6 @@
         "category": "News",
         "date": "2026-09-27",
         "timestamp": "2026-09-27T08:00:49+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "The Hacker News",
-        "rank": 6,
-        "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-        "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September…",
-        "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-        "category": "News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T07:47:57+00:00",
         "coverage": 1
       },
       {
@@ -400,7 +455,7 @@
         "category": "Security",
         "date": "2026-09-25",
         "timestamp": "2026-09-25T17:24:20+00:00",
-        "coverage": 2
+        "coverage": 1
       },
       {
         "source": "CSO Online",
@@ -411,17 +466,6 @@
         "category": "Cybercrime, Malware, Security",
         "date": "2026-09-25",
         "timestamp": "2026-09-25T16:42:48+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BleepingComputer",
-        "rank": 1,
-        "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
-        "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
-        "category": "Artificial Intelligence",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T16:00:00+00:00",
         "coverage": 1
       },
       {
@@ -488,28 +532,6 @@
         "category": "News",
         "date": "2026-09-25",
         "timestamp": "2026-09-25T15:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BleepingComputer",
-        "rank": 1,
-        "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
-        "summary": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
-        "category": "Artificial Intelligence",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T14:54:33+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BleepingComputer",
-        "rank": 1,
-        "title": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
-        "summary": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the security gaps…",
-        "url": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
-        "category": "Security",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T14:51:10+00:00",
         "coverage": 1
       },
       {
@@ -689,17 +711,6 @@
         "coverage": 1
       },
       {
-        "source": "Security Affairs",
-        "rank": 13,
-        "title": "AI-Powered CARBONATO Botnet Steals Credentials to Fund Its Own LLM Gateway",
-        "summary": "CARBONATO exploits exposed Docker daemons, installs an AI agent, steals API keys and spreads across networks with autonomous command execution. CARBONATO is a Docker-based botnet that has been active since at least…",
-        "url": "https://securityaffairs.com/199716/malware/ai-powered-carbonato-botnet-steals-credentials-to-fund-its-own-llm-gateway.html",
-        "category": "Artificial Intelligence",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T09:55:57+00:00",
-        "coverage": 1
-      },
-      {
         "source": "Infosecurity Magazine",
         "rank": 9,
         "title": "RemControl Banking Trojan Gives Attackers Remote Control of Android Devices",
@@ -873,17 +884,6 @@
         "category": "News",
         "date": "2026-09-24",
         "timestamp": "2026-09-24T21:04:03+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Security Affairs",
-        "rank": 13,
-        "title": "Ryuk Member Karen Vardanyan Sentenced to Two Years in U.S. Prison",
-        "summary": "Ryuk member Karen Vardanyan was sentenced to 24 months in U.S. prison after extradition from Ukraine and ordered to pay $1.2M in restitution. Karen Vardanyan, a 35-year-old Armenian citizen who went by “Maneeken” and,…",
-        "url": "https://securityaffairs.com/199692/cyber-crime/ryuk-member-karen-vardanyan-sentenced-to-two-years-in-u-s-prison.html",
-        "category": "Breaking News",
-        "date": "2026-09-24",
-        "timestamp": "2026-09-24T20:50:17+00:00",
         "coverage": 1
       },
       {
@@ -1788,25 +1788,619 @@
     "tagline": "A digest of the latest news from 20 leading music & film portals",
     "news": [
       {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "Studio Ghibli Meets The Legend Of Zelda In New Adventure Game",
+        "summary": "Studio Ghibli meets Zelda in Mononoke No Kuni, a haunting action adventure where you purify yokai and rebuild a world broken by tragedy.",
+        "url": "https://screenrant.com/studio-ghibli-meets-zelda-new-adventure-game/",
+        "category": "Gaming",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T18:00:16+00:00",
+        "coverage": 1
+      },
+      {
         "source": "Collider",
         "rank": 14,
-        "title": "The 6 Most Fun Movies Released Since 2020, Ranked",
-        "summary": "Hit Man, Splitsville, and Licorice Pizza are among the best, most purely fun movies released since the year 2020.",
-        "url": "https://collider.com/most-fun-movies-since-2020-ranked/",
-        "category": "Movie",
+        "title": "Bruce Willis’ 126-Minute Sci-Fi Classic Is Officially a Netflix Hit",
+        "summary": "Bruce Willis’ $264 million sci-fi classic The Fifth Element is streaming on Netflix nearly 30 years after its theatrical release.",
+        "url": "https://collider.com/bruce-willis-sci-fi-the-fifth-element-netflix-streaming-september-2026/",
+        "category": "Movie News",
         "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:31:11+00:00",
+        "timestamp": "2026-09-27T18:00:12+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "/Film (SlashFilm)",
+        "rank": 18,
+        "title": "Leif Erickson Was In This Forgotten '50s Western Starring A Rarely Discussed Silver Screen Legend",
+        "summary": "One of actor Leif Erickson's many credits included this forgotten 1950s Western that starred long-time box office draw Glenn Ford.",
+        "url": "https://www.slashfilm.com/2268652/leif-erickson-50s-western-glenn-ford-the-fastest-gun-alive/",
+        "category": "Drama Movies",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T18:00:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Collider",
+        "rank": 14,
+        "title": "Matthew Rhys' 8-Part Netflix Psychological Thriller Is Aging Like Fine Wine",
+        "summary": "Matthew Rhys' The Beast in Me is a captivating Netflix thriller worth binge-watching more than once.",
+        "url": "https://collider.com/the-beast-in-me-netflix-matthew-rhys-psychological-thriller/",
+        "category": "TV Features",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:58:11+00:00",
         "coverage": 1
       },
       {
         "source": "Screen Rant",
         "rank": 16,
-        "title": "HBO's Harry Potter Asks A Question About Magic Even The Books Don’t Answer",
-        "summary": "HBO’s upcoming Harry Potter TV series will have a chance to go even deeper into magic and wand lore and answer questions even book readers have.",
-        "url": "https://screenrant.com/hbo-harry-potter-spellcasting-book-lore-mystery/",
+        "title": "Scarlett Johansson’s New A24 Movie Adds Major Fallout & Pluribus Stars",
+        "summary": "After casting Scarlett Johansson, the mysterious new A24 movie directed and written by Ari Aster has added major Fallout and Pluribus stars.",
+        "url": "https://screenrant.com/scapegoat-a24-ari-aster-movie-ella-purnell-samba-schutte-cast/",
+        "category": "Movies",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:54:33+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "All 4 Actors To Play Robert Langdon",
+        "summary": "Dan Brown's Robert Langdon remains one of the most popular characters in contemporary fiction. So far, four actors have taken on the adventurous role.",
+        "url": "https://screenrant.com/robert-langdon-actors-explained/",
         "category": "Streaming TV",
         "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:30:16+00:00",
+        "timestamp": "2026-09-27T17:45:09+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "NME",
+        "rank": 6,
+        "title": "Paul McCartney’s ex-fiancée Jane Asher gives verdict on Beatles biopics: “I won’t watch”",
+        "summary": "“Of course, Lucy is beautiful. But I won’t watch the films, otherwise everyone will ask me what I thought” The post Paul McCartney’s ex-fiancée Jane Asher gives verdict on Beatles biopics: “I won’t watch” appeared first…",
+        "url": "https://www.nme.com/news/music/paul-mccartney-ex-fiancee-jane-asher-verdict-beatles-biopics-i-wont-watch-3970944?utm_source=rss&utm_medium=rss&utm_campaign=paul-mccartney-ex-fiancee-jane-asher-verdict-beatles-biopics-i-wont-watch",
+        "category": "Music News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:44:23+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "Godzilla's Next God-Tier Battle Is Only 1 Week Away",
+        "summary": "Godzilla fights one of his most powerful opponents to date this week in a prehistoric battle that predates the King of the Monsters' modern stories.",
+        "url": "https://screenrant.com/godzilla-next-battle-odin-god-tier/",
+        "category": "Marvel Comics",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:40:35+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "10 Thriller Series With Better Twists Than Any Movie",
+        "summary": "Television has delivered many unexpected plot twists that blew viewers' minds away, proving why it's the best platform for thriller stories.",
+        "url": "https://screenrant.com/thriller-tv-series-twists-better-than-movies/",
+        "category": "Classic TV",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:30:15+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Collider",
+        "rank": 14,
+        "title": "Ryan Gosling’s Best Action Movie Since ‘The Nice Guys’ Is Officially Crushing Prime Video",
+        "summary": "Ryan Gosling's $130 million action thriller with shades of John Wick and The Nice Guys has become a must-watch sleeper hit on streaming.",
+        "url": "https://collider.com/ryan-gosling-the-fall-guy-streaming-success-prime-video-september-2026/",
+        "category": "Movie News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:30:11+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "Avengers: Endgame Now Less Than $50M Away From Breaking Avatar's All-Time Box Office Record",
+        "summary": "Thanks to the global opening weekend of its re-release, the MCU hit Avengers: Endgame is close to beating Avatar as the highest-grossing movie ever.",
+        "url": "https://screenrant.com/avengers-endgame-encore-box-office-opening-weekend-global-result/",
+        "category": "Movies",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:26:17+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Deadline",
+        "rank": 12,
+        "title": "How To Watch & Stream The 2026 MTV Video Music Awards",
+        "summary": "The MTV Video Music Awards are back tonight for the 42nd awards show, celebrating the best music videos of the year. Hosted by 3x VMA winner Snoop Dogg, the ceremony broadcasts live on Sunday night from the Peacock…",
+        "url": "https://deadline.com/2026/09/how-to-watch-stream-2026-mtv-video-music-awards-1237114735/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:19:53+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "Marvel Announces Official Setting For New Fantastic Four Appearance",
+        "summary": "Marvel Comics is whisking the Fantastic Four away to universes that have plenty of horror in store, and with discovery will come new terrors.",
+        "url": "https://screenrant.com/fantastic-four-new-setting-hidden-world/",
+        "category": "Marvel Comics",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:16:17+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Stereogum",
+        "rank": 8,
+        "title": "Feist Inducted Into Canadian Songwriters Hall Of Fame, Gets Covered By Jeff Tweedy, Finneas, & Charlotte Cornfield",
+        "summary": "Last night, Leslie Feist, who has built a fantastic legacy as part of Broken Social Scene and with her solo music as Feist, was inducted into the Canadian Songwriters Hall Of Fame at Massey Hall in Toronto, ON, Canada.…",
+        "url": "https://stereogum.com/2512782/feist-inducted-into-canadian-songwriters-hall-of-fame-gets-covered-by-jeff-tweedy-finneas-charlotte-cornfield/news/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:10:21+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "Sam Raimi’s Home Invasion Horror Franchise Officially Returning With Original Stars",
+        "summary": "Sam Raimi's intense horror is returning once again with its original stars, as an exciting update was revealed during Beyond Fest by the director.",
+        "url": "https://screenrant.com/sam-raimi-dont-breathe-3-fede-alvarez-return/",
+        "category": "Horror",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:08:02+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "Tomb Raider Is Officially Switching Genres In The Crypt Of Chronos",
+        "summary": "Tomb Raider's Lara Croft is headed to The Crypt of Chronos on the isle of Kairos, taking the franchise in a completely new direction.",
+        "url": "https://screenrant.com/tomb-raider-crypt-chronos-switching-genres/",
+        "category": "Gaming",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:00:16+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "10 Best TV Episodes Written By Vince Gilligan",
+        "summary": "Vince Gilligan should've won an Emmy for writing television much, much sooner, because he's penned some of the greatest TV episodes ever made.",
+        "url": "https://screenrant.com/best-tv-episodes-written-by-vince-gilligan/",
+        "category": "Classic TV",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:00:16+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "/Film (SlashFilm)",
+        "rank": 18,
+        "title": "5 Forgotten Pirate Movies That Still Hold Up Today",
+        "summary": "Avast! Here be five forgotten pirate movies that still hold up in 2026, involving everything from space pirates to scallywags who sail the seven seas.",
+        "url": "https://www.slashfilm.com/2265265/forgotten-pirate-movies-still-hold-up-today/",
+        "category": "Action & Adventure Movies",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T17:00:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Deadline",
+        "rank": 12,
+        "title": "Kevin Mayer Shares Thoughts On Paramount-Warner Bros Merger – Zurich Summit",
+        "summary": "Former Disney exec Kevin Mayer, who oversaw his former employer’s 2019 acquisition of 20th Century Fox, has shared his thoughts on the Paramount-Warner Bros merger. The pragmatic exec, who has been co-CEO of…",
+        "url": "https://deadline.com/2026/09/kevin-mayer-paramount-warner-bros-merger-zurich-summit-1237114740/",
+        "category": "Festivals",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:57:47+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Deadline",
+        "rank": 12,
+        "title": "‘Avengers Endgame: Encore’ Powers $86M WW Re-Release Opening Ahead Of ‘Doomsday’ Global Domination",
+        "summary": "What was old at the global box office this weekend was new as Disney/Marvel Studio’s Avengers Endgame: Encore led in an exceptional take for a re-release of $86M WW. Beamed Andrew Cripps, Disney’s Global Boss of…",
+        "url": "https://deadline.com/2026/09/box-office-global-avengers-endgame-heart-of-beast-1237114692/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:57:12+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Variety",
+        "rank": 2,
+        "title": "Chris Rock Says Infidelity and Struggling to ‘Make It’ Aren’t Just Hollywood Problems: ‘If You Got No Love, You’re Broke as F—k’",
+        "summary": "Chris Rock’s new movie “Misty Green” centers on a fictional actress (Rosalind Eleazar) mounting a Hollywood comeback after years in the throes of a fading career. Misty’s journey pokes fun at some of the trappings of…",
+        "url": "https://variety.com/2026/film/news/chris-rock-infidelity-hollywood-misty-green-nyff-1236876867/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:52:25+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "NME",
+        "rank": 6,
+        "title": "Massive Attack’s Robert Del Naja arrested again at pro-Palestine protest: “I don’t recognise the offence”",
+        "summary": "The musician was detained outside Labour Party Conference in Liverpool after holding a sign reading “I oppose genocide – I support Palestine Action” The post Massive Attack’s Robert Del Naja arrested again at…",
+        "url": "https://www.nme.com/news/music/massive-attack-robert-del-naja-arrested-again-pro-palestine-protest-3970940?utm_source=rss&utm_medium=rss&utm_campaign=massive-attack-robert-del-naja-arrested-again-pro-palestine-protest",
+        "category": "Music News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:51:01+00:00",
+        "coverage": 3
+      },
+      {
+        "source": "Collider",
+        "rank": 14,
+        "title": "10 Near-Perfect Dracula Vampire Movies, Ranked",
+        "summary": "Bram Stoker's Dracula, Horror of Dracula, and Renfield are among the best movies about the world's most famous vampire.",
+        "url": "https://collider.com/dracula-movies-near-perfect/",
+        "category": "Movie",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:41:11+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "The Hollywood Reporter",
+        "rank": 3,
+        "title": "Naomi Watts Praises Husband Billy Crudup for Backing Her Menopause Activism: “So Sweet — and Sexy”",
+        "summary": "Zurich's Golden Eye recipient also charted her 10 years of unsuccessful auditions before getting her big break in 'Mulholland Drive': \"My agent told me, 'Honey, you're too intense. You're freaking people out.'\"",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/naomi-watts-billy-crudup-menopause-zurich-housewife-film-1236712830/",
+        "category": "Movie News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:38:02+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "The Hollywood Reporter",
+        "rank": 3,
+        "title": "‘Avengers: Endgame’ Powers $26M Return at Crowded Box Office",
+        "summary": "Newcomers 'Heart of the Beast,' 'Primetime' and 'Forgotten Island' entered the fray as returnee 'Resident Evil' snagged second place.",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/avengers-endgame-encore-box-office-primetime-heart-beast-1236712502/",
+        "category": "Movie News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:33:17+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Collider",
+        "rank": 14,
+        "title": "HBO's New Sci-Fi Masterpiece Is Officially a Global Streaming Hit",
+        "summary": "HBO's top-rated sci-fi series is dominating global streaming charts. Get all the details here.",
+        "url": "https://collider.com/lanterns-hbo-max-streaming-success-september-2026/",
+        "category": "TV News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:31:11+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Variety",
+        "rank": 2,
+        "title": "Adam Brody Calls for a ‘Free Palestine,’ Says He’s Never ‘Ducked’ Politics: ‘I Just Answer the Questions I’m Asked’",
+        "summary": "Adam Brody is calling for a “free Palestine” and explaining why his political activism doesn’t come up more often during his red-carpet and press appearances. “I just answer the questions I’m asked,” the actor told GQ.…",
+        "url": "https://variety.com/2026/tv/news/adam-brody-calls-for-free-palestine-political-question-1236876872/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:28:22+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Stereogum",
+        "rank": 8,
+        "title": "Rachel Chinouriri Performs And Oasis Are Revealed As Russian Psyop On SNL UK",
+        "summary": "Last night, Sept. 27, Amelia Dimoldenberg hosted SNL UK and Rachel Chinouriri was the musical guest. Dimoldenberg, who recently announced that she was ending her show Chicken Shop Date , had some good laughs during her…",
+        "url": "https://stereogum.com/2512776/rachel-chinouriri-performs-and-oasis-are-revealed-as-russian-psyop-on-snl-uk/news/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:26:51+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "The Hollywood Reporter",
+        "rank": 3,
+        "title": "Israeli Americans Protest Outside ‘NAZA’ New York Premiere by Screening Oct. 7 Attacks Footage",
+        "summary": "Israeli-American Council (IAC) co-chair Tal Shuster said of the Israel–Gaza war documentary, \"We're not saying, don't show the film. We're saying: show all the facts.\"",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/israeli-americans-protest-naza-doc-new-york-premiere-1236712821/",
+        "category": "Movie News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:23:33+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Consequence",
+        "rank": 7,
+        "title": "Jason Newsted Remembers Cliff Burton 40 Years After Legendary Metallica Bassist’s Passing",
+        "summary": "Jason Newsted speaks of Cliff Burton's brilliance in this interview with Heavy Consequence. Jason Newsted Remembers Cliff Burton 40 Years After Legendary Metallica Bassist’s Passing Spencer Kaufman",
+        "url": "https://consequence.net/2026/09/jason-newsted-remembers-cliff-burton/",
+        "category": "Heavy Music News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:19:58+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Variety",
+        "rank": 2,
+        "title": "‘Avengers: Endgame Encore’ Scores Massive $86 Million Globally, Brad Pitt’s ‘Heart of the Beast’ Launches to $50 Million Worldwide",
+        "summary": "“Avengers: Endgame” returned to theaters and assembled a massive $86 million globally, including $26 million in North America and $60 million overseas. Disney and Marvel’s 2019 blockbuster was already the…",
+        "url": "https://variety.com/2026/film/box-office/avengers-endgame-encore-box-office-rerelease-huge-86-million-globally-1236876861/",
+        "category": "Box Office",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:16:45+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Collider",
+        "rank": 14,
+        "title": "6 Hard Sci-Fi Movies Nobody Wants to See a Remake Of",
+        "summary": "From 2001: A Space Odyssey to Primer, these hard sci-fi films should be hands off.",
+        "url": "https://collider.com/hard-sci-fi-movies-nobody-wants-a-remake-of/",
+        "category": "Movie",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:11:12+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Collider",
+        "rank": 14,
+        "title": "Forget 'Mindhunter,' Hulu's 10/10 Crime Thriller Is Officially One of the Best of the Year",
+        "summary": "Hulu's 99%-rated crime thriller Furious reaches a major milestone with a 60-day streak on the streaming charts.",
+        "url": "https://collider.com/furious-hulu-streaming-60-days-milestone/",
+        "category": "TV News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:10:11+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Collider",
+        "rank": 14,
+        "title": "The 10 Best True Crime Books of All Time, Ranked",
+        "summary": "The best true crime books of all time include untouchable classics like In Cold Blood and Wiseguy alongside newer releases like Empire of Pain.",
+        "url": "https://collider.com/best-true-crime-books-all-time-ranked/",
+        "category": "Books and Comics",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:06:11+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "NME",
+        "rank": 6,
+        "title": "Watch KATSEYE perform ‘Animal’ and ‘Hootie Frutti’ on ‘SNL’",
+        "summary": "The global girl group made their debut on the show for the season 52 premiere The post Watch KATSEYE perform ‘Animal’ and ‘Hootie Frutti’ on ‘SNL’ appeared first on NME .",
+        "url": "https://www.nme.com/news/music/watch-katseye-perform-animal-and-hootie-frutti-on-snl-3970936?utm_source=rss&utm_medium=rss&utm_campaign=watch-katseye-perform-animal-and-hootie-frutti-on-snl",
+        "category": "Music News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:04:19+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Deadline",
+        "rank": 12,
+        "title": "Zoe Saldaña “Can’t Imagine” Taking On Another Taylor Sheridan Show: “‘Lioness’ Is All I Can Handle”",
+        "summary": "Although Zoe Saldaña speaks highly of collaborating with Taylor Sheridan, don’t expect her to make a trip to Dutton Ranch anytime soon. The Lioness star recently explained why starring as Joe McNamara “is all that I can…",
+        "url": "https://deadline.com/2026/09/zoe-saldana-cant-imagine-another-taylor-sheridan-show-1237114728/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:03:45+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Variety",
+        "rank": 2,
+        "title": "How to Stream the VMAs Live Online",
+        "summary": "The MTV Video Music Awards return Sunday night with one of the show’s biggest lineups in years, including Madonna’s first VMA performance in more than two decades, a Dolly Parton tribute from Kacey Musgraves and the…",
+        "url": "https://variety.com/2026/shopping/news/how-to-stream-vmas-live-online-free-1236876095/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:00:00+00:00",
+        "coverage": 2
+      },
+      {
+        "source": "/Film (SlashFilm)",
+        "rank": 18,
+        "title": "Stephen King Has A Glowing Review For This 2026 Underseen Apple TV Thriller Miniseries",
+        "summary": "Stephen King, who seems to watch literally everything and then talk about it on social media, recommends this underseen Apple TV series.",
+        "url": "https://www.slashfilm.com/2268601/stephen-king-review-2026-apple-tv-thriller-miniseries-last-seen/",
+        "category": "Thriller Shows",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:00:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Stereogum",
+        "rank": 8,
+        "title": "KATSEYE Perform On SNL Season Premiere, Appear In Dream Academy Parody",
+        "summary": "Last night, Sept. 26, was the 52nd season premiere of SNL . King of New York Jalen Brunson hosted and KATSEYE was the musical guest, performing their songs \"Hootie Frutti\" and \"Animal.\" For the cold open, Ramy Youssef…",
+        "url": "https://stereogum.com/2512767/katseye-perform-on-snl-season-premiere-appear-in-dream-academy-parody/news/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:51:49+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Deadline",
+        "rank": 12,
+        "title": "‘Musk’ Producer, Atwater-Magnific Exec & ‘Gods Don’t Give Gifts’ Director Talk AI: “It’s Important To Get In The Driver’s Seat” – Zurich Summit",
+        "summary": "Musk producer Nick Shumaker, Hollywood film financier Vania Schlogel, directors Zack London (Gods Don’t Give Gifts) and Nick Holt (AI: Probably Nothing to Worry About) took to the stage at the Zurich Summit this weekend…",
+        "url": "https://deadline.com/2026/09/musk-producer-atwater-magnific-ai-zurich-summit-1237114419/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:48:01+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Collider",
+        "rank": 14,
+        "title": "Guy Ritchie's Fantasy Epic That Bombed at the Box Office Officially Finds Retribution on Free Streaming",
+        "summary": "Guy Ritchie's King Arthur: Legend of the Sword lost roughly $150 million and is now headed to free streaming.",
+        "url": "https://collider.com/king-arthur-legend-of-the-sword-free-streaming-guy-ritchie-tubi-october/",
+        "category": "Movie News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:40:11+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Pitchfork",
+        "rank": 5,
+        "title": "Sabrina Carpenter to Play Ginger Rogers in Fred Astaire Biopic",
+        "summary": "She’ll star opposite Tom Holland and Margaret Qualley in the still-untitled Paul King film",
+        "url": "https://pitchfork.com/story/sabrina-carpenter-to-play-ginger-rogers-in-fred-astaire-biopic/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:37:52+00:00",
+        "coverage": 4
+      },
+      {
+        "source": "Variety",
+        "rank": 2,
+        "title": "Box Office: ‘Avengers: Endgame Encore’ Returns to No. 1 With $26 Million, ‘Primetime’ Scores Impressive $19 Million Debut",
+        "summary": "“Avengers: Endgame Encore,” a re-release of Disney and Marvel’s 2019 blockbuster (with extra footage!), emerged victorious at the domestic box office over several new releases. “Avengers: Endgame Encore” generated $26…",
+        "url": "https://variety.com/2026/film/box-office/avengers-endgame-encore-box-office-win-primetime-scores-big-opening-weekend-1236876819/",
+        "category": "Box Office",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:35:35+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "NME",
+        "rank": 6,
+        "title": "Watch Rachel Chinouriri perform ‘Never Need Me’ on ‘SNL UK’",
+        "summary": "The former NME Cover star also played 'One Song Away From Crying' from her upcoming second album on the show The post Watch Rachel Chinouriri perform ‘Never Need Me’ on ‘SNL UK’ appeared first on NME .",
+        "url": "https://www.nme.com/news/music/watch-rachel-chinouriri-perform-never-need-me-on-snl-uk-3970932?utm_source=rss&utm_medium=rss&utm_campaign=watch-rachel-chinouriri-perform-never-need-me-on-snl-uk",
+        "category": "Music News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:33:09+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Deadline",
+        "rank": 12,
+        "title": "‘Avengers Endgame: Encore’ Assembles $26M At No. 1 In Second-Best Late September Weekend Ever For Marketplace – Box Office Update",
+        "summary": "SUNDAY AM WRITETHRU: after Saturday update. .A Nor-easter wasn’t enough to make a dent in the North American box office, which remained in high gear with an unprecedented late September frame, all movies counting an…",
+        "url": "https://deadline.com/2026/09/box-office-avengers-endgame-primetime-heart-of-the-beast-1237111302/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:25:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Collider",
+        "rank": 14,
+        "title": "5 ’80s and ’90s Sitcoms Too Strange to Last, Ranked",
+        "summary": "On the Air, The Charmings, and Woops! are notable sitcoms from the 1980s and 1990s that were simply too bizarre to last very long.",
+        "url": "https://collider.com/sitcoms-80s-90s-too-strange-to-last/",
+        "category": "TV",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:21:11+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Variety",
+        "rank": 2,
+        "title": "‘Godzilla Minus Zero’ Sets Sights on Best Picture Oscar Nomination: ‘If the Possibility Is Not Zero, It’s Hard Not to Have a Little Bit of Hope’",
+        "summary": "“Godzilla Minus One” made franchise history in 2024 when it won Best Visual Effects at the 96th Academy Awards, becoming the first Godzilla film to win an Oscar. Now, after Takashi Yamazaki’s highly anticipated sequel,…",
+        "url": "https://variety.com/2026/film/news/godzilla-minus-zero-best-picture-nomination-oscars-nyff-1236876769/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:12:34+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Variety",
+        "rank": 2,
+        "title": "Anna Kendrick ‘Over the Moon’ About Directing ‘The Seven Husbands of Evelyn Hugo,’ Compares ‘Pitch Perfect’ Friendships to the Avengers",
+        "summary": "Anna Kendrick, who is at the Zurich Film Festival for the European premiere of Lauren Miller Rogen’s “Babies,” spoke briefly about her next directorial project, “The Seven Husbands of Evelyn Hugo.” Back in June, it was…",
+        "url": "https://variety.com/2026/film/global/anna-kendrick-seven-husbands-of-evelyn-hugo-pitch-perfect-1236876812/",
+        "category": "Global",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:12:33+00:00",
+        "coverage": 2
+      },
+      {
+        "source": "/Film (SlashFilm)",
+        "rank": 18,
+        "title": "10 Best TV Shows From Streaming Services In 2026 (So Far)",
+        "summary": "Streaming shows are still dominating television these days, but if you're having trouble figuring out what to watch, these are the best streaming shows of 2026.",
+        "url": "https://www.slashfilm.com/2267718/best-tv-shows-streaming-services-2026/",
+        "category": "Comedy Shows",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T15:10:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Consequence",
+        "rank": 7,
+        "title": "Ween Announce Live Boxset, Boognish Provides, From 1990s “Chocolate and Cheese” Tour",
+        "summary": "The collection will feature entire sets of seven concerts on a 14xCD edition and selections from the shows on a 2xLP edition. Ween Announce Live Boxset, Boognish Provides, From 1990s “Chocolate and Cheese” Tour Travis…",
+        "url": "https://consequence.net/2026/09/ween-announce-boxset-boognish-provides/",
+        "category": "New Music Releases",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T14:55:16+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Pitchfork",
+        "rank": 5,
+        "title": "Here’s What Went Down at Olivia Rodrigo’s Unraveled Tour Opener",
+        "summary": "A melting dress, a field of pink flowers, and some Sour throwbacks came together at the Hartford, Connecticut show",
+        "url": "https://pitchfork.com/story/heres-what-went-down-at-olivia-rodrigos-unraveled-tour-opener/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T14:54:35+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "The Film Stage",
+        "rank": 20,
+        "title": "Olivier Assayas and Kristen Stewart Reunite for Spiritual World; Vicky Krieps, Niels Schneider, Riley Keough, Wagner Moura, and Barbara Sukowa Join Cast",
+        "summary": "When, earlier this year, Olivier Assayas told me that his next project would be “in the vein” of Personal Shopper, it didn’t take much to parse that this meant the long-rumored reunion with Kristen Stewart—their first…",
+        "url": "https://thefilmstage.com/olivier-assayas-and-kristen-stewart-will-reunite-for-spiritual-world-vicky-krieps-niels-schneider-riley-keough-wagner-moura-and-barbara-sukowa-join-cast/",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T14:38:41+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "IndieWire",
+        "rank": 11,
+        "title": "A24’s ‘Primetime’ Opens to Impressive $19.2 Million, Proving Robert Pattinson’s Box Office Drawing Power",
+        "summary": "Pattinson's road to commercial viability has been bumpy at times, but with \"The Drama\" and \"The Odyssey,” he's having one hell of a 2026.",
+        "url": "https://www.indiewire.com/news/box-office/a24-primetime-box-office-opening-robert-pattinson-star-power-1235218868/",
+        "category": "Box Office",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T14:27:27+00:00",
+        "coverage": 2
+      },
+      {
+        "source": "The Hollywood Reporter",
+        "rank": 3,
+        "title": "WNBA Playoffs 2026: Where to Watch Post-Season Women’s Basketball Games Live Online",
+        "summary": "Women's basketball fans have plenty of options to catch games during the playoffs — here's how.",
+        "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-stream-wnba-playoffs-2026-basketball-live-online-free-1236710073/",
+        "category": "TV",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T14:00:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "/Film (SlashFilm)",
+        "rank": 18,
+        "title": "Leonard Nimoy Worked On A '90s Sci-Fi Series That's Never Mentioned",
+        "summary": "Despite having a creative premise, big-name guest stars, and a pilot episode directed by Leonard Nimoy, this '90s sci-fi series was short-lived.",
+        "url": "https://www.slashfilm.com/2267712/leonard-nimoy-90s-sci-fi-series-deadly-games/",
+        "category": "Science Fiction Shows",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T14:00:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Deadline",
+        "rank": 12,
+        "title": "FilmNation CEO Glen Basner Talks Art Of Film Sales & Financing: “It’s Really Just About Sitting & Listening To The Filmmaking Team” – Zurich Summit",
+        "summary": "FilmNation Entertainment Founder and CEO Glen Basner will receive the Game Changer Award this evening at the Zurich Summit, the annual industry event aimed at fostering transatlantic connections taking place within the…",
+        "url": "https://deadline.com/2026/09/filmnation-ceo-glen-basner-sales-honor-talk-zurich-summit-1237114682/",
+        "category": "Festivals",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T13:59:44+00:00",
         "coverage": 1
       },
       {
@@ -1821,53 +2415,9 @@
         "coverage": 1
       },
       {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "8 Best Action Movies Of 2026, Ranked",
-        "summary": "From The Odyssey to Spider-Man and Resident Evil, these 8 action movies rank among the best releases of 2026 so far.",
-        "url": "https://screenrant.com/action-movies-2026-ranked/",
-        "category": "Movies",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:26:15+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "5 Crime Novel Series With No Bad Books",
-        "summary": "Flawless must-read serial crime sagas..",
-        "url": "https://screenrant.com/crime-novel-series-no-bad-books/",
-        "category": "Books",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:21:53+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "7 Characters You Didn't Know Were Played By Doug Jones",
-        "summary": "Doug Jones has played countless monsters and creatures, but these seven roles are among his most surprising and easily overlooked performances.",
-        "url": "https://screenrant.com/doug-jones-characters-you-didnt-know-played/",
-        "category": "Movies",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:15:15+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Collider",
-        "rank": 14,
-        "title": "Jon Hamm’s New True Crime Series Officially Defeats Titus Welliver's ‘Bosch’ Replacement",
-        "summary": "Jon Hamm's American Hostage overtakes Titus Welliver's The Westies, claiming the streaming crown on MGM+",
-        "url": "https://collider.com/american-hostage-the-westies-streaming-charts-jon-hamm-titus-welliver/",
-        "category": "Movie News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:15:11+00:00",
-        "coverage": 1
-      },
-      {
         "source": "Variety",
         "rank": 2,
-        "title": "Naomi Watts Talks Menopause – ‘I Was Crying in the Bathroom, Trying to Scratch Off My Estrogen Patch’ – Recalls Being Told She ‘Freaked People Out’ Early in Her Career: ‘Yeah, No Shit. I Was Desperate, Behind on My Rent and Getting Evicted’",
+        "title": "Naomi Watts Recalls Being Told She ‘Freaked People Out’ Early in Her Career: ‘Yeah, No S—. I Was Desperate, Behind on My Rent and Getting Evicted’",
         "summary": "Naomi Watts waited a long time to become a star. “It was a grind. That 10 years before I met David, I became so locked up and I felt worthless. My agent pulled me aside and she said: ‘We need to have a heart to heart.…",
         "url": "https://variety.com/2026/film/awards/naomi-watts-mullholland-drive-early-career-menopause-1236876797/",
         "category": "Awards",
@@ -1887,61 +2437,6 @@
         "coverage": 1
       },
       {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "Dungeon Crawler Carl: Everything We Know About The Next Book Release",
-        "summary": "Matt Dinniman's sprawling Dungeon Crawler Carl series is finally set to come to an end in a massive two-volume conclusion.",
-        "url": "https://screenrant.com/dungeon-crawler-carl-book-nine-title-release-date-details/",
-        "category": "Books",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:13:39+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "Wes Craven’s Horror Movie With One Of The Best Casts Refuses To Be Stopped On Streaming",
-        "summary": "Prior to his 2015 death, Wes Craven was the creator of some of the most iconic horror films of all time, one of which is now dominating streaming.",
-        "url": "https://screenrant.com/wes-craven-wishmaster-best-horror-cast-lionsgate-plus-global-streaming-success-september-2026/",
-        "category": "Movies",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:08:14+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "What To Watch This Week (September 27th): Every New Network TV Release",
-        "summary": "The top network TV premieres this week, including The Simpsons and Scrubs, leading up to the height of the fall schedule.",
-        "url": "https://screenrant.com/what-to-watch-network-tv-release-schedule-week-of-september-27-2026/",
-        "category": "Network TV",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:00:16+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "Forget Fallout, Walton Goggins' Sci-Fi Thriller That Marries Two Genres Hits Netflix Soon",
-        "summary": "Fallout is one of Prime Video's best and most popular shows, but while it does not return, this Walton Goggins sci-fi thriller is coming to Netflix.",
-        "url": "https://screenrant.com/walton-goggins-cowboys-and-aliens-netflix-streaming-release-date-october-2026/",
-        "category": "Movies",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:00:16+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "6 Most Iconic Cats Across All Superhero Media",
-        "summary": "While feline-themed heroes and villains abound in the superhero genre, a few literal cats also steal the show with their own unique skills.",
-        "url": "https://screenrant.com/superhero-cats-feline-pets/",
-        "category": "Marvel Comics",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:00:16+00:00",
-        "coverage": 1
-      },
-      {
         "source": "/Film (SlashFilm)",
         "rank": 18,
         "title": "Robert Pattinson's Primetime Oscar Buzz Overlooks A Crucial Co-Star",
@@ -1953,83 +2448,6 @@
         "coverage": 1
       },
       {
-        "source": "Collider",
-        "rank": 14,
-        "title": "Kevin Costner’s Forgotten ‘Taken’ Dupe Is Officially Leaving Streaming",
-        "summary": "Kevin Costner's Taken-coded action thriller 3 Days to Kill is about to be removed from Starz. Find out how long you have left to watch it.",
-        "url": "https://collider.com/kevin-costner-3-days-to-kill-leaving-starz-october-2026/",
-        "category": "Movie News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T12:45:11+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Collider",
-        "rank": 14,
-        "title": "Reacher Creator Officially Reveals Why Tom Cruise Finally Took the Role After 7 Years [Exclusive]",
-        "summary": "Lee Child reveals Tom Cruise began as a Jack Reacher investor before Christopher McQuarrie's script convinced him to star.",
-        "url": "https://collider.com/tom-cruise-jack-reacher-casting-real-reason-lee-child/",
-        "category": "Exclusives",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T12:45:11+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Collider",
-        "rank": 14,
-        "title": "The 8 Most Fun FPS Games of All Time, Ranked",
-        "summary": "GoldenEye 007 and Half-Life 2 prove that the ultimate shooters win your heart with pure, unadulterated gameplay chaos.",
-        "url": "https://collider.com/the-8-most-fun-fps-games-of-all-time-ranked/",
-        "category": "Gaming",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T12:35:11+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Collider",
-        "rank": 14,
-        "title": "Syfy's Forgotten 39-Episode Sci-Fi Series Deserves to Be as Big as 'The Expanse'",
-        "summary": "Syfy might have put The Expanse on the map, but it already touched on a similar story with the underrated cult classic Defiance.",
-        "url": "https://collider.com/the-expanse-defiance-39-episode-sci-fi-cult-classic/",
-        "category": "TV Features",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T12:31:12+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Collider",
-        "rank": 14,
-        "title": "‘Hellraiser’ Officially Releases Its Newest R-Rated Installment for Free",
-        "summary": "Clive Barker’s Hellraiser: Revival has a free Steam demo available now ahead of the horror game’s October 8, 2026 release.",
-        "url": "https://collider.com/hellraiser-revival-free-demo-steam-october-release/",
-        "category": "Gaming News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T12:30:11+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Collider",
-        "rank": 14,
-        "title": "10 Crime Shows That Break Every Formula and Do It Brilliantly",
-        "summary": "Discover groundbreaking crime series that defy genre norms and deliver thrilling storytelling, from The Sopranos to True Detective.",
-        "url": "https://collider.com/crime-shows-break-formulas-innovative/",
-        "category": "TV",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T12:21:11+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Collider",
-        "rank": 14,
-        "title": "The Greatest Sci-Fi Trilogy of the 2020's Is Officially Switching Main Characters",
-        "summary": "With each passing Dune saga film, the Fremen Chani has slowly started to replace Paul Atreides as the protagonist to root for.",
-        "url": "https://collider.com/chani-zendaya-main-character-denis-villeneuve-dune-saga/",
-        "category": "Movie Features",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T12:18:11+00:00",
-        "coverage": 1
-      },
-      {
         "source": "/Film (SlashFilm)",
         "rank": 18,
         "title": "Star Trek: Strange New Worlds Season 4 Finale Gives The Silliest Redshirt Death New Meaning",
@@ -2038,17 +2456,6 @@
         "category": "TV News",
         "date": "2026-09-27",
         "timestamp": "2026-09-27T12:01:51+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Collider",
-        "rank": 14,
-        "title": "'MobLand' Star Reveals the Reason for Seraphina's Twist in Season 2 Episode 2",
-        "summary": "MobLand Season 2 Episode 2 dropped some surprising new twists, and Collider talks to Mandeep Dhillon, Anson Boon, and Teddie Allen about the episode.",
-        "url": "https://collider.com/mobland-season-2-anson-boon-mandeep-dhillon-teddie-allen/",
-        "category": "TV",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T12:00:11+00:00",
         "coverage": 1
       },
       {
@@ -2129,28 +2536,6 @@
         "coverage": 1
       },
       {
-        "source": "Variety",
-        "rank": 2,
-        "title": "Jia Zhangke Readies Zhao Tao Road Movie ‘Mamma Dunhuang,’ Rules Out AI in Production (EXCLUSIVE)",
-        "summary": "Jia Zhangke will turn his attention to location scouting and production design for his next film, road movie “Mamma Dunhuang,” once the 10th Pingyao Crouching Tiger Hidden Dragon International Film Festival wraps on…",
-        "url": "https://variety.com/2026/film/festivals/jia-zhangke-mamma-dunhuang-ai-production-1236876776/",
-        "category": "Asia",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T09:19:02+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "NME",
-        "rank": 6,
-        "title": "Sabrina Carpenter to play Ginger Rogers opposite Tom Holland in Fred Astaire biopic",
-        "summary": "Margaret Qualley will portray Astaire’s sister and original dance partner Adele in the Paul King-directed film The post Sabrina Carpenter to play Ginger Rogers opposite Tom Holland in Fred Astaire biopic appeared first…",
-        "url": "https://www.nme.com/news/music/sabrina-carpenter-to-play-ginger-rogers-opposite-tom-holland-in-fred-astaire-biopic-3970920?utm_source=rss&utm_medium=rss&utm_campaign=sabrina-carpenter-to-play-ginger-rogers-opposite-tom-holland-in-fred-astaire-biopic",
-        "category": "Film News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T08:36:11+00:00",
-        "coverage": 3
-      },
-      {
         "source": "/Film (SlashFilm)",
         "rank": 18,
         "title": "Welcome To Space College: How Do You Join Starfleet Academy On Star Trek?",
@@ -2181,7 +2566,7 @@
         "category": "Music News",
         "date": "2026-09-27",
         "timestamp": "2026-09-27T07:35:07+00:00",
-        "coverage": 2
+        "coverage": 3
       },
       {
         "source": "Consequence",
@@ -2189,7 +2574,7 @@
         "title": "There Weren’t Many, But Here Were the Best Moments of SNL’s Season 52 Premiere",
         "summary": "Jalen Brunson hosted a mostly forgettable episode featuring a very pedestrian KATSEYE. There Weren’t Many, But Here Were the Best Moments of SNL’s Season 52 Premiere Alex Young",
         "url": "https://consequence.net/2026/09/snl-season-52-premiere-best-moments/",
-        "category": "TV & Movies",
+        "category": "TV Reviews",
         "date": "2026-09-27",
         "timestamp": "2026-09-27T06:02:10+00:00",
         "coverage": 1
@@ -2217,17 +2602,6 @@
         "coverage": 1
       },
       {
-        "source": "Variety",
-        "rank": 2,
-        "title": "Tucker Carlson Returns to ‘SNL’ to Review ‘The Odyssey,’ Gender-Neutral ‘Spider-Man’ and Left-Wing ‘Obsession’",
-        "summary": "On the first “Weekend Update” of “Saturday Night Live” Season 52, Jeremy Culhane revived his fan-favorite impression of Tucker Carlson to offer his thoughts on some of the summer’s biggest blockbusters. On “The…",
-        "url": "https://variety.com/2026/tv/news/snl-tucker-carlson-weekend-update-summer-movies-1236876744/",
-        "category": "News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T04:58:53+00:00",
-        "coverage": 1
-      },
-      {
         "source": "Deadline",
         "rank": 12,
         "title": "‘SNL’s Weekend Update Mocks Paramount+, ‘Spider-Man’, ‘The Odyssey’ & ‘Obsession’",
@@ -2236,17 +2610,6 @@
         "category": "Late Night TV",
         "date": "2026-09-27",
         "timestamp": "2026-09-27T04:55:09+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Variety",
-        "rank": 2,
-        "title": "Here’s Where to Livestream Takuma Inoue vs. Tenshin Nasukawa 2 Boxing Online",
-        "summary": "Teiken Promotions has an epic title bout featuring two prime Japanese boxers this weekend. Champion Takuma Inoue defends his WBC bantamweight title belt against former-kickboxer and -mixed martial artist Tenshin…",
-        "url": "https://variety.com/2026/shopping/news/how-to-watch-takuma-inoue-vs-tenshin-nasukawa-2-boxing-live-sept-2026-online-1236873487/",
-        "category": "News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T04:30:00+00:00",
         "coverage": 1
       },
       {
@@ -2261,50 +2624,6 @@
         "coverage": 1
       },
       {
-        "source": "Deadline",
-        "rank": 12,
-        "title": "‘Saturday Night Live’: Jalen Brunson’s Knicks Teammates Join Him During Opening Monologue",
-        "summary": "Saturday Night Live kicked off its 52nd season with a victory lap for Knicks fans, as host Jalen Brunson was joined onstage by his teammates. The 2026 MVP swapped some quips with teammates Karl-Anthony Towns, Mikal…",
-        "url": "https://deadline.com/2026/09/saturday-night-live-jalen-brunson-knicks-teammates-monologue-1237114598/",
-        "category": "Late Night TV",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T04:01:03+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Variety",
-        "rank": 2,
-        "title": "‘SNL’ Opens Season With Mamdani Hanging Out With BFF Trump, Natalie Harp Going ‘Obsession’ Over President",
-        "summary": "Season 52 of “Saturday Night Live” kicked off with its usual cold open, and it involved two unlikely political BFFs. Ramy Youssef stopped by to play New York City Mayor Zohran Mamdani, whose office was visited by James…",
-        "url": "https://variety.com/2026/tv/news/snl-mamdani-trump-natalie-harp-obsession-1236876725/",
-        "category": "News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T03:59:57+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Deadline",
-        "rank": 12,
-        "title": "‘Saturday Night Live’ Opens Season With Riff On Donald Trump’s Need For More Time With Zohran Mamdani: “Please Let Me Stay Here With You”",
-        "summary": "The cold open of the new season of Saturday Night Live featured Ramy Youssef as New York Mayor Zohran Mamdani, getting another visit from President Donald Trump (James Austin Johnson). It was a riff on their latest…",
-        "url": "https://deadline.com/2026/09/saturday-night-live-trump-mamdani-1237114593/",
-        "category": "Late Night TV",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T03:58:55+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Variety",
-        "rank": 2,
-        "title": "Jalen Brunson’s ‘SNL’ Monologue Sees Knicks Starting 5 Roasting Each Other",
-        "summary": "Jalen Brunson’s “Saturday Night Live” monologue featured some familiar faces, as the remaining members of the Knicks starting five visited Studio 8H to roast their team captain. But before Karl-Anthony Towns, Josh Hart,…",
-        "url": "https://variety.com/2026/tv/news/jalen-brunson-snl-monologue-knicks-starting-5-1236876727/",
-        "category": "News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T03:58:54+00:00",
-        "coverage": 1
-      },
-      {
         "source": "The Hollywood Reporter",
         "rank": 3,
         "title": "Jalen Brunson Brings the New York Knicks to the ‘Saturday Night Live’ Season 52 Premiere",
@@ -2316,50 +2635,6 @@
         "coverage": 2
       },
       {
-        "source": "Deadline",
-        "rank": 12,
-        "title": "‘Star Wars’ Is Continuing Skywalker Saga With ‘Spider-Man’ Director Jon Watts",
-        "summary": "After eight years and countless entries in the expanding onscreen universe, Star Wars is revisiting the Skywalker family with its next project. Deadline can confirm that Lucasfilm has tapped Skeleton Crew co-creator Jon…",
-        "url": "https://deadline.com/2026/09/star-wars-continuing-skywalker-saga-director-jon-watts-1237114584/",
-        "category": "News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T03:07:27+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Variety",
-        "rank": 2,
-        "title": "Jon Watts to Direct Next ‘Star Wars’ Movie",
-        "summary": "A new “Star Wars” movie is currently in development with director Jon Watts attached. Watts is best known for directing the popular “Spider-Man” trilogy starring Tom Holland, which includes 2017’s Spider-Man:…",
-        "url": "https://variety.com/2026/film/news/jon-watts-to-direct-star-wars-1236876714/",
-        "category": "News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T02:04:00+00:00",
-        "coverage": 2
-      },
-      {
-        "source": "Variety",
-        "rank": 2,
-        "title": "‘Godzilla Minus Zero’ Director Champions Franchise’s First R Rating as Sequel Rocks NYFF at World Premiere: ‘Censoring’ the Action ‘Was Not an Option’",
-        "summary": "“Godzilla Minus Zero” blew the roof off Alice Tully Hall during its rapturous world premiere screening at the New York Film Festival. The long-awaited sequel to 2023’s “Godzilla Minus One” earned rave first reactions…",
-        "url": "https://variety.com/2026/film/news/godzilla-minus-zero-r-rated-takashi-yamazaki-nyff-1236876643/",
-        "category": "News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T01:08:45+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Deadline",
-        "rank": 12,
-        "title": "Ina Garten Explains Why She’s “Always Said No” To A Biopic: “It’s My Story”",
-        "summary": "After sharing her story in her 2024 memoir Be Ready When The Luck Happens, Ina Garten is reluctant to trust a filmmaker with the adaptation. The Barefoot Contessa celebrity chef recently explained why she’s “never been…",
-        "url": "https://deadline.com/2026/09/ina-garten-always-said-no-biopic-1237114577/",
-        "category": "Books",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T01:00:08+00:00",
-        "coverage": 1
-      },
-      {
         "source": "/Film (SlashFilm)",
         "rank": 18,
         "title": "5 Sci-Fi Movie Adaptations That Never Lived Up To Their Potential",
@@ -2368,17 +2643,6 @@
         "category": "Action & Adventure Movies",
         "date": "2026-09-27",
         "timestamp": "2026-09-27T00:45:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "The Hollywood Reporter",
-        "rank": 3,
-        "title": "‘Godzilla Minus Zero’ Review: Monster Movie Genius Takashi Yamazaki Returns With a Crackling Kaiju Epic Every Bit as Exciting as Its Predecessor",
-        "summary": "This direct sequel to the 2023 global sensation picks up in 1949, as a makeshift family finds its domestic harmony again threatened by a rampaging creature’s path of destruction.",
-        "url": "https://www.hollywoodreporter.com/movies/movie-reviews/godzilla-minus-zero-review-takashi-yamazaki-1236712678/",
-        "category": "Movie Reviews",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T00:30:00+00:00",
         "coverage": 1
       },
       {
@@ -2393,17 +2657,6 @@
         "coverage": 1
       },
       {
-        "source": "Deadline",
-        "rank": 12,
-        "title": "Robert Eggers Wants To Do ‘Romeo & Juliet’ Because Things Got “So Dark” After ‘Werwulf’, Joking: “So, I’ll Do Something About Two Teenagers Killing Themselves”",
-        "summary": "SPOILER ALERT for anyone who skipped freshman English! Robert Eggers is teasing his take on William Shakespeare’s Romeo & Juliet. During a post-screening Q&A for his latest macabre title Werwulf, premiering Christmas…",
-        "url": "https://deadline.com/2026/09/robert-eggers-making-romeo-juliet-after-so-dark-werwulf-1237114572/",
-        "category": "News",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T23:34:30+00:00",
-        "coverage": 1
-      },
-      {
         "source": "NME",
         "rank": 6,
         "title": "Today’s Wordle answer and hints for #1916 on September 27",
@@ -2412,18 +2665,7 @@
         "category": "Gaming Guides",
         "date": "2026-09-26",
         "timestamp": "2026-09-26T23:01:34+00:00",
-        "coverage": 4
-      },
-      {
-        "source": "NME",
-        "rank": 6,
-        "title": "Framed answer today – here’s the solution for September 27",
-        "summary": "You’ve been framed The post Framed answer today – here’s the solution for September 27 appeared first on NME .",
-        "url": "https://www.nme.com/guides/gaming-guides/framed-answer-today-3192186?utm_source=rss&utm_medium=rss&utm_campaign=framed-answer-today",
-        "category": "Gaming Guides",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T23:00:09+00:00",
-        "coverage": 1
+        "coverage": 2
       },
       {
         "source": "/Film (SlashFilm)",
@@ -2434,127 +2676,6 @@
         "category": "Thriller Shows",
         "date": "2026-09-26",
         "timestamp": "2026-09-26T23:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "The Hollywood Reporter",
-        "rank": 3,
-        "title": "James Gray on Broader Takeaways From Personal Film ‘Paper Tiger’: “What Connects Us Is What Matters”",
-        "summary": "As the crime thriller had its North American premiere at the New York Film Festival, the director spoke about how he hoped the domestic drama's open-ended resolution allows the story to continue for the audience after…",
-        "url": "https://www.hollywoodreporter.com/movies/movie-news/paper-tiger-james-gray-takeaways-ending-1236712649/",
-        "category": "Movie News",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T22:17:07+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "NME",
-        "rank": 6,
-        "title": "What songs are on the new ‘Sense & Sensibility’ soundtrack?",
-        "summary": "Georgia Oakley’s Jane Austen adaptation uses specially recorded 18th-century English folk music The post What songs are on the new ‘Sense & Sensibility’ soundtrack? appeared first on NME .",
-        "url": "https://www.nme.com/news/film/what-songs-are-on-the-new-sense-sensibility-soundtrack-3970907?utm_source=rss&utm_medium=rss&utm_campaign=what-songs-are-on-the-new-sense-sensibility-soundtrack",
-        "category": "Film News",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T22:16:53+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Deadline",
-        "rank": 12,
-        "title": "Sylvester Stallone Thought His Dad Would “Be Proud” To Make ‘Rocky’ Cameo: “It Got Really Nasty”",
-        "summary": "As Sylvester Stallone made his breakout performance in Rocky, there was one person he couldn’t quite turn into a fan. While discussing his memoir The Steps, releasing Oct. 23, the 3x Oscar nominee recalled things on set…",
-        "url": "https://deadline.com/2026/09/sylvester-stallone-dad-rocky-cameo-really-nasty-1237114559/",
-        "category": "News",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T22:10:21+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "NME",
-        "rank": 6,
-        "title": "What’s new in ‘Avengers: Endgame Encore’? All the added scenes explained",
-        "summary": "Marvel’s 2019 blockbuster is back in cinemas with fresh footage that leads directly into ‘Avengers: Doomsday’ The post What’s new in ‘Avengers: Endgame Encore’? All the added scenes explained appeared first on NME .",
-        "url": "https://www.nme.com/news/film/whats-new-in-avengers-endgame-encore-all-the-added-scenes-explained-3970905?utm_source=rss&utm_medium=rss&utm_campaign=whats-new-in-avengers-endgame-encore-all-the-added-scenes-explained",
-        "category": "Film News",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T22:05:11+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "/Film (SlashFilm)",
-        "rank": 18,
-        "title": "This 2010s Revenge Thriller With A Near-Perfect Rotten Tomatoes Score Is A Masterpiece On Prime Video",
-        "summary": "Critics rightly championed this unconventional 2010s revenge thriller that's currently available to watch on Prime Video.",
-        "url": "https://www.slashfilm.com/2267551/blue-ruin-2010s-revenge-thriller-streaming-prime-video/",
-        "category": "Thriller Movies",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T22:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "The Hollywood Reporter",
-        "rank": 3,
-        "title": "Viral Lesbian Bar Article From Boston Globe Is Piquing Hollywood’s Interest",
-        "summary": "The article has spurred thousands of subscriptions to the paper. Now UTA, which reps the Globe, is fielding inquiries about adaptations.",
-        "url": "https://www.hollywoodreporter.com/business/business-news/viral-lesbian-bar-article-from-boston-globe-1236710331/",
-        "category": "Business",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T21:54:37+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "The Hollywood Reporter",
-        "rank": 3,
-        "title": "Sylvester Stallone Says He Became Bulimic While Filming ‘Rocky’ Movies, Used Steroids",
-        "summary": "The 80-year-old actor recalls the period of his life where his physique became an \"obsession.\"",
-        "url": "https://www.hollywoodreporter.com/movies/movie-news/sylvester-stallone-bulimic-steroids-filming-rocky-movies-1236712570/",
-        "category": "Movie News",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T21:48:36+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "/Film (SlashFilm)",
-        "rank": 18,
-        "title": "Robert Vaughn Played A Small Part In One Of The Worst Superhero Movies Ever Made",
-        "summary": "While his role on The Man from U.N.C.L.E. brought Robert Vaughn great success, the same cannot be said for his turn in this superhero movie misfire.",
-        "url": "https://www.slashfilm.com/2267484/robert-vaughn-superman-3-role-worst-superhero-movie/",
-        "category": "Superhero Movies",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T21:45:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Deadline",
-        "rank": 12,
-        "title": "UK Prime Minister Andy Burnham Nearly Joins Oasis, But There’s Something A Bit Off About The Gallagher Brothers In ‘SNL UK’ Cold Open",
-        "summary": "There was something a bit off about Oasis’ sometimes feuding-yet-touring brothers in the Saturday Night Live UK cold open this week. SNL UK kicked off its Season 2 Episode 3 with new UK Prime Minister Andy Burnham,…",
-        "url": "https://deadline.com/2026/09/snl-uk-andy-burnham-joins-oasis-russian-spies-1237114551/",
-        "category": "News",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T21:21:13+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "/Film (SlashFilm)",
-        "rank": 18,
-        "title": "Is SNL New Tonight (September 26, 2026)? Musical Guest, Host, Start Time",
-        "summary": "Is Saturday Night Live new tonight? Here's everything to know about this week's SNL host, musical guest, air time, and what's coming next in Season 52.",
-        "url": "https://www.slashfilm.com/2268894/is-snl-new-tonight-september-26-2026-host-musical-guest-start-time/",
-        "category": "Comedy Shows",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T21:10:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "The Hollywood Reporter",
-        "rank": 3,
-        "title": "Mike Leigh’s ‘Tender Loving Care’ Sweeps San Sebastian Awards as ‘La Bola Negra,’ ‘NAZA’ Earn Audience Nods",
-        "summary": "Amanda Kernell's 'Brace Your Heart' won the Swedish-Sami filmmaker the Silver Shell for best director as the Spanish film fest wrapped up its 74th edition, the last for outgoing director Jose Luis Rebordinos.",
-        "url": "https://www.hollywoodreporter.com/movies/movie-news/mike-leigh-tender-loving-care-san-sebastian-awards-festival-1236712566/",
-        "category": "Movie News",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T20:49:13+00:00",
         "coverage": 1
       },
       {
@@ -2577,28 +2698,6 @@
         "category": "Music News",
         "date": "2026-09-26",
         "timestamp": "2026-09-26T20:00:23+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "/Film (SlashFilm)",
-        "rank": 18,
-        "title": "Quentin Tarantino Fans Will Love This Brilliant, Criminally Underseen Thriller",
-        "summary": "If you enjoy the films of Quentin Tarantino and are looking for something with a similar flavor, check out this excellent underseen thriller.",
-        "url": "https://www.slashfilm.com/2266817/quentin-tarantino-fans-love-underseen-thriller-the-standoff-at-sparrow-creek/",
-        "category": "Drama Movies",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T20:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "/Film (SlashFilm)",
-        "rank": 18,
-        "title": "Strange New Worlds Season 4 Finale Does Time Travel Like No Star Trek Story Before",
-        "summary": "Here's how the Season 4 finale of Star Trek: Strange New Worlds added a new twist to the franchise's oftentimes revisited subject of time travel.",
-        "url": "https://www.slashfilm.com/2269733/star-trek-strange-new-worlds-season-4-finale-time-travel-story-explained/",
-        "category": "TV News",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T20:00:00+00:00",
         "coverage": 1
       },
       {
@@ -2833,28 +2932,6 @@
         "coverage": 1
       },
       {
-        "source": "Consequence",
-        "rank": 7,
-        "title": "Clutch Announce New Album Wasted Lands, Unveil Title Track: Stream",
-        "summary": "Clutch's 14th studio album will be out January 22nd via Weathermaker Music. Clutch Announce New Album Wasted Lands, Unveil Title Track: Stream Langdon Hickman",
-        "url": "https://consequence.net/2026/09/clutch-wasted-lands-album-single/",
-        "category": "Heavy Music News",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T20:36:11+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Consequence",
-        "rank": 7,
-        "title": "Jimmy Kimmel’s 2026 Brooklyn Takeover Features His Biggest Guestlist Yet",
-        "summary": "Paul McCartney, Bruce Springsteen, Zohran Mamdani, Howard Stern, and more will appear during Kimmel's weeklong run in Brooklyn. Jimmy Kimmel’s 2026 Brooklyn Takeover Features His Biggest Guestlist Yet Alex Young",
-        "url": "https://consequence.net/2026/09/jimmy-kimmels-2026-brooklyn-episodes-lineup/",
-        "category": "News Bites",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T20:25:33+00:00",
-        "coverage": 1
-      },
-      {
         "source": "Stereogum",
         "rank": 8,
         "title": "Brain Tourniquet Unleash Fearsome New Concept Album Sinking Deeper Into Madness",
@@ -2863,17 +2940,6 @@
         "category": "New Music",
         "date": "2026-09-25",
         "timestamp": "2026-09-25T20:17:53+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Consequence",
-        "rank": 7,
-        "title": "Chris Hansen, Shockingly Enough, Didn’t Love Primetime",
-        "summary": "\"I’m not sure what the point of it was,” was the To Catch a Predator host's first reaction. Chris Hansen, Shockingly Enough, Didn’t Love Primetime Liz Shannon Miller",
-        "url": "https://consequence.net/2026/09/primetime-chris-hansen-reaction/",
-        "category": "TV & Movie News",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T20:13:47+00:00",
         "coverage": 1
       },
       {
@@ -2899,39 +2965,6 @@
         "coverage": 1
       },
       {
-        "source": "Stereogum",
-        "rank": 8,
-        "title": "The 5 Best Songs Of The Week",
-        "summary": "Every week the Stereogum staff chooses the five best new songs of the week. The eligibility period begins and ends Thursdays right before midnight. You can hear this week’s picks below and on Stereogum’s Favorite New…",
-        "url": "https://stereogum.com/2512489/the-5-best-songs-of-the-week-645/lists/the-5-best-songs-of-the-week/",
-        "category": "Lists",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T19:22:31+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Stereogum",
-        "rank": 8,
-        "title": "With No Rest For The Wicked, AZ Chike Wants A Classic Album. Does He Get It?",
-        "summary": "For as long as it’s existed, prestige rap has been the most deceptive trapdoor in hip-hop. Rappers old enough to remember “Slow Jamz” and “Jesus Walks” decide they need a party anthem and a conscious rap song. People…",
-        "url": "https://stereogum.com/2512602/with-no-rest-for-the-wicked-az-chike-wants-a-classic-album-does-he-get-it/columns/say-whats-real-the-month-in-rap/",
-        "category": "Columns",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T19:12:13+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Stereogum",
-        "rank": 8,
-        "title": "Ween Announce Boognish Provides, 14-CD Box Set Of Previously Unreleased Chocolate And Cheese Tour Shows",
-        "summary": "Ween are opening the vaults with Boognish Provides , a new collection of seven previously unreleased concerts from their 1994-95 Chocolate And Cheese tour. Arriving next month via Rhino, the 14-CD box set and condensed…",
-        "url": "https://stereogum.com/2512596/ween-announce-boognish-provides-14-cd-box-set-of-previously-unreleased-chocolate-and-cheese-tour-shows/news/",
-        "category": "News",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T19:09:36+00:00",
-        "coverage": 1
-      },
-      {
         "source": "IndieWire",
         "rank": 11,
         "title": "‘The Scout’ Review: A Meditative Look at Life as an Oft-Ignored Movie Location Scout",
@@ -2951,17 +2984,6 @@
         "category": "News",
         "date": "2026-09-25",
         "timestamp": "2026-09-25T18:52:43+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Stereogum",
-        "rank": 8,
-        "title": "Remi Wolf – “I Won’t Cry”",
-        "summary": "Palo Alto singer Remi Wolf started off as a kind of alt-pop artist, but she seems to be inching ever-closer to actual pop music. Wolf's new album Mud comes out next month, and we've already posted the singles \" Twiggy \"…",
-        "url": "https://stereogum.com/2512648/remi-wolf-i-wont-cry/music/",
-        "category": "New Music",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T18:42:45+00:00",
         "coverage": 1
       },
       {
@@ -3022,17 +3044,6 @@
       {
         "source": "IndieWire",
         "rank": 11,
-        "title": "A24’s ‘Primetime’ Earns $2.7 Million in Previews as Robert Pattinson’s Creepy Chris Hansen Scores at the Box Office",
-        "summary": "\"Avengers: Endgame Encore\" earns a mighty $3.8 million as it returns to theaters.",
-        "url": "https://www.indiewire.com/news/box-office/a24-primetime-box-office-previews-robert-pattinson-chris-hansen-1235218692/",
-        "category": "Box Office",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T15:27:13+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "IndieWire",
-        "rank": 11,
         "title": "Brad Pitt and David Ayer Had None of Your Typical Film Set Comforts on the Survival Thriller ‘Heart of the Beast’",
         "summary": "Ayer tells IndieWire's Filmmaker Toolkit podcast about the challenges of telling an adventure story about a man and his dog, where the project's stripped-down nature makes every decision exponentially more important.",
         "url": "https://www.indiewire.com/features/podcast/heart-of-the-beast-director-david-ayer-interview-brad-pitt-1235218183/",
@@ -3072,17 +3083,6 @@
         "category": "News",
         "date": "2026-09-25",
         "timestamp": "2026-09-25T14:09:29+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "IndieWire",
-        "rank": 11,
-        "title": "‘The Gilded Age’ Musical Is Finally Happening — as a Christmas Album",
-        "summary": "\"Voices of The Gilded Age: The Christmas Album\" puts the HBO series' cast of Broadway stars to proper use, with Audra McDonald, Carrie Coon, Christine Baranski, Kelli O'Hara, Morgan Spector, and more performing a slew…",
-        "url": "https://www.indiewire.com/news/breaking-news/gilded-age-christmas-album-cast-musical-episode-hbo-1235218372/",
-        "category": "Breaking News",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T14:00:00+00:00",
         "coverage": 1
       },
       {
@@ -3149,7 +3149,7 @@
         "category": "News",
         "date": "2026-09-25",
         "timestamp": "2026-09-25T04:09:19+00:00",
-        "coverage": 2
+        "coverage": 1
       },
       {
         "source": "Pitchfork",
@@ -3226,28 +3226,6 @@
         "category": "News",
         "date": "2026-09-24",
         "timestamp": "2026-09-24T20:02:06+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Pitchfork",
-        "rank": 5,
-        "title": "Sugababes Announce First Album as Original Trio in 26 Years",
-        "summary": "After various lineup changes, the OG girl group have reunited for a self-titled record due out next year",
-        "url": "https://pitchfork.com/story/sugababes-announces-first-album-as-original-trio-in-26-years/",
-        "category": "News",
-        "date": "2026-09-24",
-        "timestamp": "2026-09-24T18:03:13+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Pitchfork",
-        "rank": 5,
-        "title": "Morphine Unveil Lost Album Cocoon",
-        "summary": "The album, led by the title track, was completed from recordings shelved soon before the death of frontman Mark Sandman",
-        "url": "https://pitchfork.com/story/morphine-unveil-lost-album-cocoon/",
-        "category": "News",
-        "date": "2026-09-24",
-        "timestamp": "2026-09-24T17:54:08+00:00",
         "coverage": 1
       },
       {
@@ -3427,14 +3405,36 @@
         "coverage": 1
       },
       {
-        "source": "The Film Stage",
-        "rank": 20,
-        "title": "Closure Trailer: Michal Marczak’s Sundance and Thessaloniki Winner Arrives In October",
-        "summary": "After first landing on my radar with the wondrous All These Sleepless Nights, Michal Marczak returned this year with another film blending the realms of fact and fiction. Closure, a documentary that is better shot than…",
-        "url": "https://thefilmstage.com/closure-trailer-michal-marczaks-sundance-and-thessaloniki-winner-arrives-in-october/",
-        "category": "Trailers",
+        "source": "RogerEbert.com",
+        "rank": 17,
+        "title": "TIFF 2026: A Canadian Critic Looks At This Year’s Fest",
+        "summary": "Our Canadian correspondent on his country's biggest film event.",
+        "url": "https://www.rogerebert.com/festivals/tiff-2026-a-canadian-critics-looks-at-this-years-fest",
+        "category": "Festivals & Awards",
         "date": "2026-09-23",
-        "timestamp": "2026-09-23T15:00:00+00:00",
+        "timestamp": "2026-09-23T14:33:12+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "RogerEbert.com",
+        "rank": 17,
+        "title": "TIFF 2026: The Assassin(s), Diary of a Mad Old Man, It’s My Time",
+        "summary": "On three Gala Presentations from TIFF this year.",
+        "url": "https://www.rogerebert.com/festivals/tiff-2026-the-assassins-diary-of-an-old-man-its-my-time",
+        "category": "Festivals & Awards",
+        "date": "2026-09-23",
+        "timestamp": "2026-09-23T14:15:34+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "PopMatters",
+        "rank": 4,
+        "title": "Edie Brickell and Matt Chamberlain Look Forward to World Famous Pets",
+        "summary": "Many decades after their commercial peak, Edie Brickell and Matt Chamberlain circle around new creative realms while looking back on their ascent.",
+        "url": "https://www.popmatters.com/edie-brickell-interview-2026",
+        "category": "Music",
+        "date": "2026-09-23",
+        "timestamp": "2026-09-23T14:00:53+00:00",
         "coverage": 1
       }
     ],
@@ -3571,12 +3571,56 @@
       {
         "source": "TechCrunch AI",
         "rank": 2,
+        "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+        "summary": "\"AI is the devil and I its maker.\"",
+        "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+        "category": "Media & Entertainment",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T16:30:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "MarkTechPost",
+        "rank": 19,
+        "title": "AI Coding Agents for Enterprise: IP Indemnity, Data Residency and 500-Seat Cost Compared",
+        "summary": "We read the contracts behind GitHub Copilot, AWS Kiro, Cursor, Devin and Windsurf. Copilot and Kiro offer uncapped indemnity on generated code. Cognition's standard terms exclude outputs entirely. Here is how 500 seats…",
+        "url": "https://www.marktechpost.com/2026/09/26/ai-coding-agents-for-enterprise-ip-indemnity-data-residency-and-500-seat-cost-compared/",
+        "category": "Agentic AI",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T05:57:51+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "MarkTechPost",
+        "rank": 19,
+        "title": "A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation",
+        "summary": "A comprehensive coding tutorial on Google Research's Massive Sound Embedding Benchmark (MSEB), demonstrating how to implement custom sound encoders, drive classification, clustering, retrieval, and segmentation…",
+        "url": "https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/",
+        "category": "AI Infrastructure",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T05:42:35+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "TechCrunch AI",
+        "rank": 2,
         "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
         "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
         "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
         "category": "AI",
         "date": "2026-09-27",
         "timestamp": "2026-09-27T01:30:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "MarkTechPost",
+        "rank": 19,
+        "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
+        "summary": "Sarvam AI's Saaras V4 is a speech-to-text model covering all 22 Indian languages plus global English. It pairs an audio encoder with a 3B hybrid state-space decoder. It adds keyterm prompting for up to 50 terms, 5…",
+        "url": "https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/",
+        "category": "Agentic AI",
+        "date": "2026-09-26",
+        "timestamp": "2026-09-26T21:56:23+00:00",
         "coverage": 1
       },
       {
@@ -3591,6 +3635,17 @@
         "coverage": 1
       },
       {
+        "source": "MarkTechPost",
+        "rank": 19,
+        "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
+        "summary": "Supersonic Labs has released Julia 1, a 144.3M-parameter decision model built on mmBERT-small. It takes context, a question, and 2 to 20 options, then returns one choice with probabilities. The model runs on a CPU and…",
+        "url": "https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/",
+        "category": "Agentic AI",
+        "date": "2026-09-26",
+        "timestamp": "2026-09-26T19:50:57+00:00",
+        "coverage": 1
+      },
+      {
         "source": "TechCrunch AI",
         "rank": 2,
         "title": "I created an interactive digital avatar of myself — and you can talk to it",
@@ -3599,6 +3654,28 @@
         "category": "Startups",
         "date": "2026-09-26",
         "timestamp": "2026-09-26T14:00:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "MarkTechPost",
+        "rank": 19,
+        "title": "Exa Launches Agent Ultra: A Subagent Swarm Deep Research API Built for Exhaustive List Building",
+        "summary": "Exa has released Agent Ultra, the highest effort mode of its Exa Agent API. It coordinates subagents across thousands of sources for list building and entity enrichment. Exa reports it beats Opus 5.5, GPT-6 Astra, and…",
+        "url": "https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/",
+        "category": "Agentic AI",
+        "date": "2026-09-26",
+        "timestamp": "2026-09-26T08:04:08+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "MarkTechPost",
+        "rank": 19,
+        "title": "End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch",
+        "summary": "Discover how to build a comprehensive multimodal augmentation and adversarial robustness workflow using AugLy for images, text, audio, and PyTorch datasets. The post End-to-End Multimodal Data Augmentation and…",
+        "url": "https://www.marktechpost.com/2026/09/26/end-to-end-multimodal-data-augmentation-and-adversarial-robustness-benchmark-with-augly-for-images-text-audio-and-pytorch/",
+        "category": "Agentic AI",
+        "date": "2026-09-26",
+        "timestamp": "2026-09-26T07:22:46+00:00",
         "coverage": 1
       },
       {
@@ -3745,17 +3822,6 @@
         "coverage": 1
       },
       {
-        "source": "TechCrunch AI",
-        "rank": 2,
-        "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
-        "summary": "The findings highlight how AI-generated and vibe-coded apps can spill and expose users' data when not configured or secured properly.",
-        "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
-        "category": "AI",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T17:29:46+00:00",
-        "coverage": 1
-      },
-      {
         "source": "AI Business",
         "rank": 16,
         "title": "Prompt: AI agents can act. It’s unclear if enterprises can stop them.",
@@ -3764,6 +3830,28 @@
         "category": "News",
         "date": "2026-09-25",
         "timestamp": "2026-09-25T15:29:24+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "MarkTechPost",
+        "rank": 19,
+        "title": "Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB",
+        "summary": "Aikido Security has released Altar-1, its first open-weight security model. It is a compressed version of Z.AI’s GLM-5.3, built to run inside infrastructure the customer controls. Altar-1 powers Aikido Machine, the…",
+        "url": "https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/",
+        "category": "AI Infrastructure",
+        "date": "2026-09-25",
+        "timestamp": "2026-09-25T15:14:45+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "MarkTechPost",
+        "rank": 19,
+        "title": "Perplexity Trains Its Computer Agent on Real Mistakes With Hint-Guided Self-Distillation",
+        "summary": "Perplexity Research published a new post-training study. It trains a model inside Perplexity Computer on real user sessions, including failed ones. The method pairs rejection sampling fine-tuning with hint-guided…",
+        "url": "https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/",
+        "category": "Agentic AI",
+        "date": "2026-09-25",
+        "timestamp": "2026-09-25T14:30:26+00:00",
         "coverage": 1
       },
       {
@@ -3819,6 +3907,17 @@
         "category": "ai",
         "date": "2026-09-25",
         "timestamp": "2026-09-25T10:00:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "MarkTechPost",
+        "rank": 19,
+        "title": "Fastino Releases GLiNER2.5-Decide: A 340M Open-Weight Decision Model That Runs on CPU",
+        "summary": "Fastino Labs has released GLiNER2.5-Decide, a 340M-parameter open-weight decision model. It takes text and a schema of typed questions and returns structured answers. Each answer comes with a probability distribution, a…",
+        "url": "https://www.marktechpost.com/2026/09/24/fastino-releases-gliner2-5-decide-a-340m-open-weight-decision-model-that-runs-on-cpu/",
+        "category": "Agentic AI",
+        "date": "2026-09-25",
+        "timestamp": "2026-09-25T04:46:38+00:00",
         "coverage": 1
       },
       {
@@ -3907,7 +4006,7 @@
         "category": "News",
         "date": "2026-09-24",
         "timestamp": "2026-09-24T14:08:57+00:00",
-        "coverage": 1
+        "coverage": 2
       },
       {
         "source": "Ars Technica AI",
@@ -5117,105 +5216,6 @@
         "category": "News",
         "date": "2026-08-07",
         "timestamp": "2026-08-07T00:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BAIR Blog",
-        "rank": 1,
-        "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
-        "summary": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing.…",
-        "url": "http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search/",
-        "category": "News",
-        "date": "2026-07-29",
-        "timestamp": "2026-07-29T09:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BAIR Blog",
-        "rank": 1,
-        "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
-        "summary": "Overview of ABBEL compared to traditional recursive summarization. Beliefs replace the full interaction history as the agent’s working context, and belief grading improves performance by supervising the contents of each…",
-        "url": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
-        "category": "News",
-        "date": "2026-07-26",
-        "timestamp": "2026-07-26T09:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BAIR Blog",
-        "rank": 1,
-        "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
-        "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early…",
-        "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
-        "category": "News",
-        "date": "2026-07-07",
-        "timestamp": "2026-07-07T09:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BAIR Blog",
-        "rank": 1,
-        "title": "2026 BAIR Graduate Showcase",
-        "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed…",
-        "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
-        "category": "News",
-        "date": "2026-07-01",
-        "timestamp": "2026-07-01T09:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BAIR Blog",
-        "rank": 1,
-        "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
-        "summary": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based…",
-        "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
-        "category": "News",
-        "date": "2026-05-08",
-        "timestamp": "2026-05-08T09:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BAIR Blog",
-        "rank": 1,
-        "title": "Gradient-based Planning for World Models at Longer Horizons",
-        "summary": "GRASP is a new gradient-based planner for learned dynamics (a “world model”) that makes long-horizon planning practical by (1) lifting the trajectory into virtual states so optimization is parallel across time, (2)…",
-        "url": "http://bair.berkeley.edu/blog/2026/04/20/grasp/",
-        "category": "News",
-        "date": "2026-04-20",
-        "timestamp": "2026-04-20T09:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BAIR Blog",
-        "rank": 1,
-        "title": "Identifying Interactions at Scale for LLMs",
-        "summary": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the…",
-        "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
-        "category": "News",
-        "date": "2026-03-13",
-        "timestamp": "2026-03-13T09:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BAIR Blog",
-        "rank": 1,
-        "title": "Information-Driven Design of Imaging Systems",
-        "summary": "An encoder (optical system) maps objects to noiseless images, which noise corrupts into measurements. Our information estimator uses only these noisy measurements and a noise model to quantify how well measurements…",
-        "url": "http://bair.berkeley.edu/blog/2026/01/10/information-driven-imaging/",
-        "category": "News",
-        "date": "2026-01-10",
-        "timestamp": "2026-01-10T09:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "BAIR Blog",
-        "rank": 1,
-        "title": "RL without TD learning",
-        "summary": "In this post, I’ll introduce a reinforcement learning (RL) algorithm based on an “alternative” paradigm: divide and conquer . Unlike traditional methods, this algorithm is not based on temporal difference (TD) learning…",
-        "url": "http://bair.berkeley.edu/blog/2025/11/01/rl-without-td-learning/",
-        "category": "News",
-        "date": "2025-11-01",
-        "timestamp": "2025-11-01T09:00:00+00:00",
         "coverage": 1
       }
     ],
