@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SIGNAL/20 — Cybersecurity News Digest</title>
+<title>SIGNAL/20 — News Digest</title>
 
 <!-- PWA: govori telefonu da ovo može da se instalira kao aplikacija -->
 <link rel="manifest" href="manifest.json">
@@ -29,6 +29,12 @@
   a{color:inherit;text-decoration:none;}
 
   header.top{position:sticky;top:0;z-index:20;background:rgba(10,12,17,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);}
+
+  .tab-bar{max-width:1180px;margin:0 auto;padding:16px 24px 0;display:flex;gap:10px;}
+  .tab-btn{font-family:'IBM Plex Mono',monospace;font-size:13.5px;font-weight:600;padding:9px 20px;border-radius:8px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-dim);cursor:pointer;transition:.15s;letter-spacing:.02em;}
+  .tab-btn:hover{border-color:var(--text-faint);color:var(--text);}
+  .tab-btn.active{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);}
+
   .top-inner{max-width:1180px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;}
   .brand{display:flex;align-items:baseline;gap:12px;}
   .brand .mark{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--accent-soft);animation:pulse 2.4s ease-in-out infinite;position:relative;top:-2px;}
@@ -130,6 +136,9 @@
 
   /* ---------- mobilni telefoni ---------- */
   @media (max-width:640px){
+    .tab-bar{overflow-x:auto;flex-wrap:nowrap;padding:12px 16px 0;scrollbar-width:none;}
+    .tab-bar::-webkit-scrollbar{display:none;}
+    .tab-btn{font-size:12.5px;padding:8px 16px;}
     .top-inner{padding:14px 16px;gap:10px;}
     .brand h1{font-size:17px;}
     .tagline{font-size:12px;}
@@ -148,12 +157,13 @@
 <body>
 
 <header class="top">
+  <div class="tab-bar" id="tabBar"></div>
   <div class="top-inner">
     <div class="meta-line">
       <div class="brand"><span class="mark"></span><h1>SIGNAL/20</h1></div>
       <div class="credit">made by Mile Jelic</div>
       <div class="streak-badge" id="streakBadge"></div>
-      <div class="tagline">A digest of the latest news from 20 leading cybersecurity portals</div>
+      <div class="tagline" id="taglineText"></div>
       <div class="updated" id="updatedText"></div>
     </div>
     <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
@@ -165,7 +175,7 @@
       <button class="saved-toggle" id="followingToggle">♥ Following</button>
     </div>
   </div>
-  <div class="filters">
+  <div class="filters" id="regFiltersRow">
     <div class="cat-label">EU REGULATIONS</div>
     <div class="pill-row" id="regRow"></div>
   </div>
@@ -191,7 +201,7 @@
     <div id="feed"></div>
   </main>
   <aside class="sources">
-    <h2>20 TRACKED PORTALS</h2>
+    <h2 id="sourcesHeading">20 TRACKED PORTALS</h2>
     <ul class="source-list" id="sourceList"></ul>
   </aside>
 </div>
@@ -201,9 +211,9 @@
 </footer>
 
 <script>
-const SOURCES = __SOURCES_JSON__;
-const NEWS = __NEWS_JSON__;
+const DATA = __DATA_JSON__;
 const GENERATED_AT_ISO = "__GENERATED_AT_ISO__";
+const TAB_ORDER = ["cyber", "entertainment", "ai"];
 
 // ---------- prikaz vremena azuriranja u lokalnoj vremenskoj zoni uredjaja ----------
 function formatLocalDateTime(iso){
@@ -215,7 +225,6 @@ function formatLocalDateTime(iso){
   });
 }
 const generatedAtLocal = formatLocalDateTime(GENERATED_AT_ISO);
-document.getElementById("updatedText").textContent = "Automatically updated: " + generatedAtLocal;
 document.getElementById("footerUpdated").textContent = generatedAtLocal;
 
 const PALETTE = ["#e8a33d","#ef6a5a","#5aa9e6","#a682e8","#5ac8a8","#e6c15a","#e68ac8","#e88a5a","#6ad1e0","#c6c98f","#9fe85a","#8991a1"];
@@ -225,26 +234,34 @@ function colorFor(cat){
   return PALETTE[h % PALETTE.length];
 }
 
-NEWS.sort((a,b)=> new Date(b.timestamp) - new Date(a.timestamp));
-
 const monthsEN = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 function fmtDate(iso){
   const d = new Date(iso+"T00:00:00");
   return `${monthsEN[d.getMonth()]} ${String(d.getDate()).padStart(2,"0")}, ${d.getFullYear()}`;
 }
 
+// ---------- active tab state ----------
+function readActiveTab(){
+  const saved = localStorage.getItem("signal20-active-tab");
+  return TAB_ORDER.includes(saved) ? saved : "cyber";
+}
+let activeTab = readActiveTab();
+let NEWS = [];
+let SOURCES = [];
+let TAB_META = {};
+
 let activeSource = "All";
 let query = "";
 let showSavedOnly = false;
 let showFollowingOnly = false;
 
-// ---------- saved articles (kept in this browser only) ----------
-const SAVED_KEY = "signal20-saved";
+// ---------- saved articles (kept in this browser only, per tab) ----------
+function savedKey(){ return `signal20-saved-${activeTab}`; }
 function getSaved(){
-  try { return JSON.parse(localStorage.getItem(SAVED_KEY) || "[]"); } catch(e){ return []; }
+  try { return JSON.parse(localStorage.getItem(savedKey()) || "[]"); } catch(e){ return []; }
 }
 function setSaved(arr){
-  try { localStorage.setItem(SAVED_KEY, JSON.stringify(arr)); } catch(e){}
+  try { localStorage.setItem(savedKey(), JSON.stringify(arr)); } catch(e){}
 }
 function isSaved(url){ return getSaved().includes(url); }
 function toggleSaved(url){
@@ -254,13 +271,13 @@ function toggleSaved(url){
   setSaved(arr);
 }
 
-// ---------- followed sources ----------
-const FOLLOWED_KEY = "signal20-followed";
+// ---------- followed sources (per tab) ----------
+function followedKey(){ return `signal20-followed-${activeTab}`; }
 function getFollowed(){
-  try { return JSON.parse(localStorage.getItem(FOLLOWED_KEY) || "[]"); } catch(e){ return []; }
+  try { return JSON.parse(localStorage.getItem(followedKey()) || "[]"); } catch(e){ return []; }
 }
 function setFollowed(arr){
-  try { localStorage.setItem(FOLLOWED_KEY, JSON.stringify(arr)); } catch(e){}
+  try { localStorage.setItem(followedKey(), JSON.stringify(arr)); } catch(e){}
 }
 function isFollowed(name){ return getFollowed().includes(name); }
 function toggleFollowed(name){
@@ -270,21 +287,14 @@ function toggleFollowed(name){
   setFollowed(arr);
 }
 
-// ---------- last visit / new-since-last-time ----------
-const LAST_VISIT_KEY = "signal20-last-visit";
-function readLastVisit(){
-  const v = localStorage.getItem(LAST_VISIT_KEY);
-  return v ? new Date(v) : null;
-}
-function writeLastVisitNow(){
-  try { localStorage.setItem(LAST_VISIT_KEY, new Date().toISOString()); } catch(e){}
-}
-const lastVisit = readLastVisit();
+// ---------- last visit / new-since-last-time (per tab) ----------
+function lastVisitKey(){ return `signal20-last-visit-${activeTab}`; }
+let lastVisit = null;
 function isNewArticle(n){
   return !!lastVisit && new Date(n.timestamp) > lastVisit;
 }
 
-// ---------- visit streak ----------
+// ---------- visit streak (global, not per tab) ----------
 const STREAK_KEY = "signal20-streak";
 function updateStreak(){
   const todayStr = new Date().toISOString().slice(0,10);
@@ -303,7 +313,7 @@ function updateStreak(){
   return data.count;
 }
 
-// ---------- severity detection from title keywords ----------
+// ---------- severity detection from title keywords (cyber tab only) ----------
 function severityFor(title){
   const t = title.toLowerCase();
   if(/actively exploited|exploited in the wild|zero-day/.test(t)) return {label:"Actively Exploited", cls:"sev-exploited"};
@@ -364,7 +374,120 @@ function countsBySource(){
   return c;
 }
 
-// ---------- EU regulations reference panel ----------
+function renderStats(){
+  const bar = document.getElementById("statsBar");
+  const counts = countsBySource();
+  let topSource = "\u2014", topCount = 0;
+  Object.entries(counts).forEach(([name,c])=>{ if(c>topCount){ topCount=c; topSource=name; } });
+  let extra = "";
+  if(TAB_META.hasSeverity){
+    const flagged = NEWS.filter(n=>severityFor(n.title)).length;
+    extra = `<span><strong>${flagged}</strong> flagged critical / actively exploited</span>`;
+  }
+  bar.innerHTML = `
+    <span><strong>${NEWS.length}</strong> articles tracked</span>
+    <span><strong>${topSource}</strong> most active (${topCount})</span>
+    ${extra}
+  `;
+}
+
+function renderPills(){
+  const counts = countsBySource();
+  const row = document.getElementById("pillRow");
+  const names = ["All", ...SOURCES.map(s=>s.name)];
+  row.innerHTML = names.map(name=>{
+    const cnt = name==="All" ? NEWS.length : (counts[name]||0);
+    if(name!=="All" && !cnt) return "";
+    const activeCls = (name===activeSource) ? "active" : "";
+    return `<span class="pill ${activeCls}" data-name="${name}">${name}<span class="count">${cnt}</span></span>`;
+  }).join("");
+  row.querySelectorAll(".pill").forEach(p=>{
+    p.addEventListener("click", ()=>{
+      activeSource = p.dataset.name;
+      renderPills();
+      renderFeed();
+    });
+  });
+}
+
+function renderSidebar(){
+  document.getElementById("sourcesHeading").textContent = `${SOURCES.length} TRACKED PORTALS`;
+  const list = document.getElementById("sourceList");
+  list.innerHTML = SOURCES.map(s=>`
+    <li>
+      <span class="rank">${String(s.rank).padStart(2,"0")}</span>
+      <a class="sname" href="${s.url}" target="_blank" rel="noopener">${s.name}</a>
+      <button class="follow-btn ${isFollowed(s.name)?"following":""}" data-name="${s.name}">${isFollowed(s.name)?"\u2713 Following":"+ Follow"}</button>
+      <span class="stag">${s.tag}</span>
+    </li>
+  `).join("");
+  list.querySelectorAll(".follow-btn").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      toggleFollowed(btn.dataset.name);
+      renderSidebar();
+      renderFeed();
+    });
+  });
+}
+
+function renderFeed(){
+  const feed = document.getElementById("feed");
+  const q = query.trim().toLowerCase();
+  const filtered = NEWS.filter(n=>{
+    const sourceOk = activeSource==="All" || n.source===activeSource;
+    const qOk = !q || (n.title+" "+n.summary+" "+n.source).toLowerCase().includes(q);
+    const savedOk = !showSavedOnly || isSaved(n.url);
+    const followingOk = !showFollowingOnly || isFollowed(n.source);
+    return sourceOk && qOk && savedOk && followingOk;
+  });
+
+  document.getElementById("feedCount").textContent =
+    `${filtered.length} ${filtered.length===1?"article":"articles"} \u00b7 sorted newest to oldest`;
+
+  if(!filtered.length){
+    let msg = "No articles match your search.";
+    if(showSavedOnly) msg = "You haven't saved any articles yet.";
+    else if(showFollowingOnly) msg = "You're not following any sources with articles yet.";
+    feed.innerHTML = `<div class="empty-state">${msg}</div>`;
+    return;
+  }
+
+  feed.innerHTML = filtered.map(n=>{
+    const sev = TAB_META.hasSeverity ? severityFor(n.title) : null;
+    const saved = isSaved(n.url);
+    const isNew = isNewArticle(n);
+    return `
+    <article class="item">
+      <span class="bar" style="background:${colorFor(n.category)}"></span>
+      <div class="item-body">
+        <div class="item-meta">
+          <span class="src">${n.source}</span>
+          <span>${fmtDate(n.date)}</span>
+          ${isNew ? `<span class="new-tag">NEW</span>` : ""}
+          <button class="save-btn ${saved?"saved":""}" data-url="${n.url}" aria-label="Save article" title="Save for later">${saved?"\u2605":"\u2606"}</button>
+        </div>
+        <h3 class="item-title"><a href="${n.url}" target="_blank" rel="noopener">${n.title}</a></h3>
+        <p class="item-summary">${n.summary}</p>
+        <div class="item-tags">
+          <span class="item-cat">${n.category}</span>
+          ${sev ? `<span class="severity-badge ${sev.cls}">${sev.label}</span>` : ""}
+          ${(n.coverage||1) > 1 ? `<span class="coverage-badge">${n.coverage} sources</span>` : ""}
+        </div>
+      </div>
+    </article>
+  `;
+  }).join("");
+
+  feed.querySelectorAll(".save-btn").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      toggleSaved(btn.dataset.url);
+      renderPills();
+      renderFeed();
+    });
+  });
+}
+
+// ---------- EU regulations reference panel (cyber tab only) ----------
 const REGULATIONS = [
   {
     key: "nis2",
@@ -493,112 +616,67 @@ function hideRegulation(){
 
 document.getElementById("regBackBtn").addEventListener("click", hideRegulation);
 
-function renderStats(){
-  const bar = document.getElementById("statsBar");
-  const counts = countsBySource();
-  let topSource = "\u2014", topCount = 0;
-  Object.entries(counts).forEach(([name,c])=>{ if(c>topCount){ topCount=c; topSource=name; } });
-  const flagged = NEWS.filter(n=>severityFor(n.title)).length;
-  bar.innerHTML = `
-    <span><strong>${NEWS.length}</strong> articles tracked</span>
-    <span><strong>${topSource}</strong> most active (${topCount})</span>
-    <span><strong>${flagged}</strong> flagged critical / actively exploited</span>
-  `;
-}
-
-function renderPills(){
-  const counts = countsBySource();
-  const row = document.getElementById("pillRow");
-  const names = ["All", ...SOURCES.map(s=>s.name)];
-  row.innerHTML = names.map(name=>{
-    const cnt = name==="All" ? NEWS.length : (counts[name]||0);
-    if(name!=="All" && !cnt) return "";
-    const activeCls = (name===activeSource) ? "active" : "";
-    return `<span class="pill ${activeCls}" data-name="${name}">${name}<span class="count">${cnt}</span></span>`;
+// ---------- tab bar ----------
+function renderTabBar(){
+  const bar = document.getElementById("tabBar");
+  bar.innerHTML = TAB_ORDER.map(id => {
+    const meta = DATA[id];
+    return `<button class="tab-btn ${id===activeTab?"active":""}" data-tab="${id}">${meta.label}</button>`;
   }).join("");
-  row.querySelectorAll(".pill").forEach(p=>{
-    p.addEventListener("click", ()=>{
-      activeSource = p.dataset.name;
-      renderPills();
-      renderFeed();
-    });
+  bar.querySelectorAll(".tab-btn").forEach(btn=>{
+    btn.addEventListener("click", ()=> switchTab(btn.dataset.tab));
   });
 }
 
-function renderSidebar(){
-  const list = document.getElementById("sourceList");
-  list.innerHTML = SOURCES.map(s=>`
-    <li>
-      <span class="rank">${String(s.rank).padStart(2,"0")}</span>
-      <a class="sname" href="${s.url}" target="_blank" rel="noopener">${s.name}</a>
-      <button class="follow-btn ${isFollowed(s.name)?"following":""}" data-name="${s.name}">${isFollowed(s.name)?"\u2713 Following":"+ Follow"}</button>
-      <span class="stag">${s.tag}</span>
-    </li>
-  `).join("");
-  list.querySelectorAll(".follow-btn").forEach(btn=>{
-    btn.addEventListener("click", ()=>{
-      toggleFollowed(btn.dataset.name);
-      renderSidebar();
-      renderFeed();
-    });
-  });
+function loadTab(tabId){
+  activeTab = tabId;
+  try { localStorage.setItem("signal20-active-tab", activeTab); } catch(e){}
+
+  const tabData = DATA[activeTab];
+  TAB_META = {
+    hasRegulations: !!tabData.hasRegulations,
+    hasSeverity: !!tabData.hasSeverity,
+  };
+  NEWS = (tabData.news || []).slice();
+  NEWS.sort((a,b)=> new Date(b.timestamp) - new Date(a.timestamp));
+  SOURCES = tabData.sources || [];
+
+  // reset filter/search state on tab switch
+  activeSource = "All";
+  query = "";
+  showSavedOnly = false;
+  showFollowingOnly = false;
+  document.getElementById("searchInput").value = "";
+  document.getElementById("savedToggle").classList.remove("active");
+  document.getElementById("followingToggle").classList.remove("active");
+
+  document.getElementById("taglineText").textContent = tabData.tagline || "";
+  document.getElementById("updatedText").textContent = "Automatically updated: " + generatedAtLocal;
+
+  // last-visit tracking is per tab
+  const v = localStorage.getItem(lastVisitKey());
+  lastVisit = v ? new Date(v) : null;
+  try { localStorage.setItem(lastVisitKey(), new Date().toISOString()); } catch(e){}
+
+  document.getElementById("regFiltersRow").style.display = TAB_META.hasRegulations ? "" : "none";
 }
 
-function renderFeed(){
-  const feed = document.getElementById("feed");
-  const q = query.trim().toLowerCase();
-  const filtered = NEWS.filter(n=>{
-    const sourceOk = activeSource==="All" || n.source===activeSource;
-    const qOk = !q || (n.title+" "+n.summary+" "+n.source).toLowerCase().includes(q);
-    const savedOk = !showSavedOnly || isSaved(n.url);
-    const followingOk = !showFollowingOnly || isFollowed(n.source);
-    return sourceOk && qOk && savedOk && followingOk;
-  });
+function switchTab(tabId){
+  if(tabId === activeTab){ return; }
+  hideRegulation();
+  loadTab(tabId);
+  renderEverything();
+}
 
-  document.getElementById("feedCount").textContent =
-    `${filtered.length} ${filtered.length===1?"article":"articles"} · sorted newest to oldest`;
-
-  if(!filtered.length){
-    let msg = "No articles match your search.";
-    if(showSavedOnly) msg = "You haven't saved any articles yet.";
-    else if(showFollowingOnly) msg = "You're not following any sources with articles yet.";
-    feed.innerHTML = `<div class="empty-state">${msg}</div>`;
-    return;
-  }
-
-  feed.innerHTML = filtered.map(n=>{
-    const sev = severityFor(n.title);
-    const saved = isSaved(n.url);
-    const isNew = isNewArticle(n);
-    return `
-    <article class="item">
-      <span class="bar" style="background:${colorFor(n.category)}"></span>
-      <div class="item-body">
-        <div class="item-meta">
-          <span class="src">${n.source}</span>
-          <span>${fmtDate(n.date)}</span>
-          ${isNew ? `<span class="new-tag">NEW</span>` : ""}
-          <button class="save-btn ${saved?"saved":""}" data-url="${n.url}" aria-label="Save article" title="Save for later">${saved?"\u2605":"\u2606"}</button>
-        </div>
-        <h3 class="item-title"><a href="${n.url}" target="_blank" rel="noopener">${n.title}</a></h3>
-        <p class="item-summary">${n.summary}</p>
-        <div class="item-tags">
-          <span class="item-cat">${n.category}</span>
-          ${sev ? `<span class="severity-badge ${sev.cls}">${sev.label}</span>` : ""}
-          ${(n.coverage||1) > 1 ? `<span class="coverage-badge">${n.coverage} sources</span>` : ""}
-        </div>
-      </div>
-    </article>
-  `;
-  }).join("");
-
-  feed.querySelectorAll(".save-btn").forEach(btn=>{
-    btn.addEventListener("click", ()=>{
-      toggleSaved(btn.dataset.url);
-      renderPills();
-      renderFeed();
-    });
-  });
+function renderEverything(){
+  renderTabBar();
+  renderPills();
+  renderSidebar();
+  renderStats();
+  renderNewBanner();
+  renderRecap();
+  renderFeed();
+  if(TAB_META.hasRegulations) renderRegPills();
 }
 
 document.getElementById("searchInput").addEventListener("input", (e)=>{
@@ -618,15 +696,10 @@ document.getElementById("followingToggle").addEventListener("click", ()=>{
   renderFeed();
 });
 
-renderPills();
-renderSidebar();
-renderStats();
+// ---------- init ----------
+loadTab(activeTab);
 renderStreak();
-renderNewBanner();
-renderRecap();
-renderFeed();
-renderRegPills();
-writeLastVisitNow();
+renderEverything();
 
 // PWA: registruj service worker da bi telefon mogao da instalira sajt
 // kao aplikaciju i da poslednje učitane vesti ostanu vidljive offline
