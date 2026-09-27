@@ -1788,6 +1788,61 @@
     "tagline": "A digest of the latest news from 20 leading music & film portals",
     "news": [
       {
+        "source": "Collider",
+        "rank": 14,
+        "title": "The 6 Most Fun Movies Released Since 2020, Ranked",
+        "summary": "Hit Man, Splitsville, and Licorice Pizza are among the best, most purely fun movies released since the year 2020.",
+        "url": "https://collider.com/most-fun-movies-since-2020-ranked/",
+        "category": "Movie",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T13:31:11+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "HBO's Harry Potter Asks A Question About Magic Even The Books Don’t Answer",
+        "summary": "HBO’s upcoming Harry Potter TV series will have a chance to go even deeper into magic and wand lore and answer questions even book readers have.",
+        "url": "https://screenrant.com/hbo-harry-potter-spellcasting-book-lore-mystery/",
+        "category": "Streaming TV",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T13:30:16+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "The Hollywood Reporter",
+        "rank": 3,
+        "title": "Where to Watch the Chargers vs. Bills Game Live Online",
+        "summary": "The NFL Week 3 game is set for Sunday, Sept. 27 at the Buffalo Bills' new $2.1 billion Highmark Stadium.",
+        "url": "https://www.hollywoodreporter.com/tv/tv-news/where-to-watch-chargers-vs-bills-game-live-nfl-streams-2026-1236712793/",
+        "category": "TV",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T13:30:00+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "8 Best Action Movies Of 2026, Ranked",
+        "summary": "From The Odyssey to Spider-Man and Resident Evil, these 8 action movies rank among the best releases of 2026 so far.",
+        "url": "https://screenrant.com/action-movies-2026-ranked/",
+        "category": "Movies",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T13:26:15+00:00",
+        "coverage": 1
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "5 Crime Novel Series With No Bad Books",
+        "summary": "Flawless must-read serial crime sagas..",
+        "url": "https://screenrant.com/crime-novel-series-no-bad-books/",
+        "category": "Books",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T13:21:53+00:00",
+        "coverage": 1
+      },
+      {
         "source": "Screen Rant",
         "rank": 16,
         "title": "7 Characters You Didn't Know Were Played By Doug Jones",
@@ -1887,17 +1942,6 @@
         "coverage": 1
       },
       {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "Brie Larson’s Favorite Video Game Of All-Time Is A 10/10 Open-World Masterpiece",
-        "summary": "Discover Brie Larson's favorite video game and why it stands out in the open-world genre.",
-        "url": "https://screenrant.com/brie-larson-favorite-video-game-all-time/",
-        "category": "Gaming",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:00:16+00:00",
-        "coverage": 1
-      },
-      {
         "source": "/Film (SlashFilm)",
         "rank": 18,
         "title": "Robert Pattinson's Primetime Oscar Buzz Overlooks A Crucial Co-Star",
@@ -1906,28 +1950,6 @@
         "category": "Movie News",
         "date": "2026-09-27",
         "timestamp": "2026-09-27T13:00:00+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "Why Skye Drinks So Many Voss Water Bottles In Smile 2",
-        "summary": "Smile 2 gives a lot of detail about Skye Riley's backstory, with this one strange detail leaving many viewers scratching their heads at the beginning.",
-        "url": "https://screenrant.com/smile-2-skye-voss-water-drink-why/",
-        "category": "Movies",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T12:55:16+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "After 37 Years, Star Trek Confirms A Fan-Favorite Movie Romance (But There's A Catch)",
-        "summary": "Star Trek: Strange New Worlds season 4's finale romantically pairs up Scotty and Uhura, retroactively paying off Star Trek V: The Final Frontier.",
-        "url": "https://screenrant.com/star-trek-strange-new-worlds-uhura-scotty-romance-confirmed/",
-        "category": "TV",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T12:45:16+00:00",
         "coverage": 1
       },
       {
@@ -2025,17 +2047,6 @@
         "summary": "MobLand Season 2 Episode 2 dropped some surprising new twists, and Collider talks to Mandeep Dhillon, Anson Boon, and Teddie Allen about the episode.",
         "url": "https://collider.com/mobland-season-2-anson-boon-mandeep-dhillon-teddie-allen/",
         "category": "TV",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T12:00:11+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "Collider",
-        "rank": 14,
-        "title": "Forget ‘Yellowstone,’ Taylor Sheridan’s Brutal Neo-Western Is Officially on HBO Max",
-        "summary": "Taylor Sheridan's $12 million neo-Western with shades of Yellowstone and No Country for Old Men is officially streaming on HBO Max.",
-        "url": "https://collider.com/taylor-sheridan-hell-or-high-water-streaming-hbo-max-september-2026/",
-        "category": "Movie News",
         "date": "2026-09-27",
         "timestamp": "2026-09-27T12:00:11+00:00",
         "coverage": 1
@@ -2544,17 +2555,6 @@
         "category": "Movie News",
         "date": "2026-09-26",
         "timestamp": "2026-09-26T20:49:13+00:00",
-        "coverage": 1
-      },
-      {
-        "source": "The Hollywood Reporter",
-        "rank": 3,
-        "title": "Jalen Brunson and KATSEYE Kick Off ‘SNL’ Season 52: Where to Watch the Premiere Online",
-        "summary": "Both the Knicks star and girl group are set for their 'Saturday Night Live' debuts, the former as host and the latter as premiere week's musical guest.",
-        "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-jalen-brunson-host-snl-season-52-premiere-free-katseye-1236712478/",
-        "category": "TV",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T20:43:16+00:00",
         "coverage": 1
       },
       {
