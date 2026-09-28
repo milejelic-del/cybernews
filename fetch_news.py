@@ -18,6 +18,12 @@ import html
 import difflib
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.error import HTTPError
+from urllib.parse import urljoin
+from urllib.request import Request, urlopen
+from html.parser import HTMLParser
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
 
 import feedparser
 
@@ -228,6 +234,186 @@ def entry_category(entry) -> str:
     return "News"
 
 
+# ---------------------------------------------------------------------------
+# Slike uz vesti: prvo iz samog RSS-a (media:thumbnail, media:content,
+# enclosure, <img> u sadrzaju); ako ih nema, og:image sa stranice clanka.
+# ---------------------------------------------------------------------------
+OG_TIMEOUT_SEC = 8
+OG_MAX_BYTES = 300_000
+OG_TOTAL_BUDGET_SEC = 150
+OG_WORKERS = 12
+OG_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36 SIGNAL20-NewsDigest"
+)
+
+IMG_TAG_RE = re.compile(r"<img\b[^>]*>", re.I)
+ATTR_RE = re.compile(r"([a-zA-Z_:][-a-zA-Z0-9_:.]*)\s*=\s*(?:\"([^\"]*)\"|'([^']*)')")
+IMG_EXT_RE = re.compile(r"\.(?:jpe?g|png|webp|avif|gif)(?:\?|$)", re.I)
+BAD_IMG_HINTS = ("pixel", "tracking", "1x1", "spacer", "blank.gif", "feedburner",
+                 "doubleclick", "/emoji/", "gravatar.com", "avatar")
+OG_KEYS = ("og:image", "og:image:secure_url", "og:image:url", "twitter:image", "twitter:image:src")
+
+
+def normalize_image_url(raw, base=None):
+    """Vrati upotrebljiv https URL slike ili None (data: URI, pikseli, avatari...)."""
+    if not raw:
+        return None
+    u = html.unescape(str(raw)).strip()
+    if not u or u.startswith("data:"):
+        return None
+    if u.startswith("//"):
+        u = "https:" + u
+    elif base and not re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*:", u):
+        u = urljoin(base, u)
+    if not u.lower().startswith(("http://", "https://")):
+        return None
+    if u.lower().startswith("http://"):
+        u = "https://" + u[7:]
+    low = u.lower()
+    if any(h in low for h in BAD_IMG_HINTS):
+        return None
+    return u
+
+
+def first_img_from_html(markup):
+    if not markup:
+        return None
+    for tag in IMG_TAG_RE.findall(markup):
+        attrs = {}
+        for m in ATTR_RE.finditer(tag):
+            attrs[m.group(1).lower()] = m.group(2) if m.group(2) is not None else m.group(3)
+        if attrs.get("width", "").strip() in ("0", "1") or attrs.get("height", "").strip() in ("0", "1"):
+            continue
+        for key in ("src", "data-src", "data-lazy-src", "data-original"):
+            u = normalize_image_url(attrs.get(key))
+            if u:
+                return u
+    return None
+
+
+def entry_image(entry):
+    for t in entry.get("media_thumbnail") or []:
+        u = normalize_image_url(t.get("url"))
+        if u:
+            return u
+    for m in entry.get("media_content") or []:
+        typ = (m.get("type") or "").lower()
+        medium = (m.get("medium") or "").lower()
+        url = m.get("url") or ""
+        if typ.startswith("image") or medium == "image" or (not typ and not medium and IMG_EXT_RE.search(url)):
+            u = normalize_image_url(url)
+            if u:
+                return u
+    for e in entry.get("enclosures") or []:
+        if (e.get("type") or "").lower().startswith("image"):
+            u = normalize_image_url(e.get("href") or e.get("url"))
+            if u:
+                return u
+    for l in entry.get("links") or []:
+        if l.get("rel") == "enclosure" and (l.get("type") or "").lower().startswith("image"):
+            u = normalize_image_url(l.get("href"))
+            if u:
+                return u
+    for c in entry.get("content") or []:
+        u = first_img_from_html(c.get("value"))
+        if u:
+            return u
+    return first_img_from_html(entry.get("summary") or entry.get("description"))
+
+
+class MetaParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.found = {}
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "meta":
+            d = {k.lower(): v for k, v in attrs if k}
+            key = (d.get("property") or d.get("name") or "").lower()
+            if key in OG_KEYS and d.get("content"):
+                self.found.setdefault(key, d["content"])
+
+
+def fetch_og_image(page_url):
+    """URL slike sa stranice clanka; "" ako je stranica ucitana ali nema slike;
+    None ako je doslo do privremene greske (pokusace se ponovo pri sledecem pokretanju)."""
+    try:
+        req = Request(page_url, headers={"User-Agent": OG_USER_AGENT,
+                                         "Accept": "text/html,application/xhtml+xml"})
+        with urlopen(req, timeout=OG_TIMEOUT_SEC) as resp:
+            final_url = resp.geturl()
+            raw = resp.read(OG_MAX_BYTES)
+            charset = resp.headers.get_content_charset() or "utf-8"
+        parser = MetaParser()
+        try:
+            parser.feed(raw.decode(charset, errors="replace"))
+        except Exception:
+            pass
+        for key in OG_KEYS:
+            if key in parser.found:
+                u = normalize_image_url(parser.found[key], base=final_url)
+                if u:
+                    return u
+        return ""
+    except HTTPError as exc:
+        return "" if exc.code in (401, 403, 404, 410, 451) else None
+    except Exception:
+        return None
+
+
+IMAGE_STATE = {"cache": {}, "deadline": 0.0}
+
+
+def load_image_cache():
+    """Slike pronadjene u prethodnom pokretanju (docs/news.json) ne traze se ponovo."""
+    IMAGE_STATE["deadline"] = time.time() + OG_TOTAL_BUDGET_SEC
+    path = Path(__file__).parent / "docs" / "news.json"
+    try:
+        old = json.loads(path.read_text(encoding="utf-8"))
+        for tab in old.values():
+            for n in tab.get("news", []):
+                if n.get("url") and isinstance(n.get("image"), str):
+                    IMAGE_STATE["cache"][n["url"]] = n["image"]
+    except Exception:
+        pass
+    print(f"Ke\u0161 slika iz prethodnog pokretanja: {len(IMAGE_STATE['cache'])} stavki")
+
+
+def fill_missing_images(items):
+    cache = IMAGE_STATE["cache"]
+    todo = []
+    for n in items:
+        if n.get("image"):
+            continue
+        if n["url"] in cache:
+            n["image"] = cache[n["url"]]
+        else:
+            todo.append(n)
+    if not todo:
+        return
+    print(f"  Tra\u017eim og:image za {len(todo)} vesti bez slike...")
+    ex = ThreadPoolExecutor(max_workers=OG_WORKERS)
+    futures = {ex.submit(fetch_og_image, n["url"]): n for n in todo}
+    found = 0
+    try:
+        remaining = max(1.0, IMAGE_STATE["deadline"] - time.time())
+        for fut in as_completed(futures, timeout=remaining):
+            n = futures[fut]
+            res = fut.result()
+            if res is None:
+                continue
+            n["image"] = res
+            cache[n["url"]] = res
+            if res:
+                found += 1
+    except Exception:
+        print("  [!] Isteklo ukupno vreme za pretragu slika, preostale se presko\u010de.")
+    finally:
+        ex.shutdown(wait=False, cancel_futures=True)
+    print(f"  Na\u0111eno slika: {found}")
+
+
 def fetch_source(source: dict) -> list:
     items = []
     for feed_url in source["feeds"]:
@@ -260,6 +446,7 @@ def fetch_source(source: dict) -> list:
                 "date": dt.strftime("%Y-%m-%d"),
                 "timestamp": dt.isoformat(),
                 "coverage": 1,
+                "image": entry_image(entry),
             })
         if items:
             break  # ovaj kandidat je uspeo, ne probaj ostale adrese za ovaj izvor
@@ -286,6 +473,8 @@ def dedupe(items: list) -> list:
                 continue
             if titles_are_duplicates(item["title"], existing["title"]):
                 existing["coverage"] = existing.get("coverage", 1) + 1
+                if not existing.get("image") and item.get("image"):
+                    existing["image"] = item["image"]
                 is_dup = True
                 break
         if not is_dup:
@@ -308,6 +497,7 @@ def fetch_category(category: dict) -> dict:
 
     deduped.sort(key=lambda x: x["timestamp"], reverse=True)
     deduped = deduped[:MAX_TOTAL]
+    fill_missing_images(deduped)
 
     return {
         "id": category["id"],
@@ -336,6 +526,7 @@ def build_html(data_by_tab: dict) -> str:
 
 
 def main():
+    load_image_cache()
     data_by_tab = {}
     for category in CATEGORIES:
         print(f"\n=== {category['label']} ({len(category['sources'])} portala) ===")
