@@ -598,7 +598,8 @@ def fetch_source(source: dict):
 
     declared = list(source["feeds"])
     prior = PRIOR_STATUS.get(source["name"], {}).get("used_url")
-    order = ([(prior, "previous")] if prior and prior not in declared else []) + [(u, "declared") for u in declared]
+    # Google News adrese se uvek navode eksplicitno u "feeds", pa se ne pamte kao "prethodna"
+    order = ([(prior, "previous")] if prior and prior not in declared and "news.google.com" not in prior else []) + [(u, "declared") for u in declared]
     for url, via in order:
         if attempt(url, via):
             break
