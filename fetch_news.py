@@ -19,7 +19,7 @@ import difflib
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.error import HTTPError
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 from html.parser import HTMLParser
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -80,7 +80,7 @@ CATEGORIES = [
             {"rank": 6,  "name": "NME",               "feeds": ["https://www.nme.com/feed"], "site": "https://www.nme.com/", "tag": "Music news, reviews, and pop culture"},
             {"rank": 7,  "name": "Consequence",       "feeds": ["https://consequence.net/feed/"], "site": "https://consequence.net/", "tag": "Music, film, and TV news and reviews"},
             {"rank": 8,  "name": "Stereogum",         "feeds": ["https://www.stereogum.com/feed/"], "site": "https://www.stereogum.com/", "tag": "Indie and alternative music news"},
-            {"rank": 9,  "name": "AllMusic",          "feeds": ["https://www.allmusic.com/newfeatures.xml", "https://www.allmusic.com/rss-feeds"], "site": "https://www.allmusic.com/", "tag": "Music database, reviews, and new releases"},
+            {"rank": 9,  "name": "AllMusic",          "feeds": ["https://www.allmusic.com/newfeatures.xml"], "discover": ["https://www.allmusic.com/rss-feeds"], "site": "https://www.allmusic.com/", "tag": "Music database, reviews, and new releases"},
             {"rank": 10, "name": "Resident Advisor",  "feeds": ["https://ra.co/xml/rss.xml"], "site": "https://ra.co/", "tag": "Electronic music news, reviews, and events"},
             {"rank": 11, "name": "IndieWire",         "feeds": ["https://www.indiewire.com/feed/"], "site": "https://www.indiewire.com/", "tag": "Independent film and TV news and criticism"},
             {"rank": 12, "name": "Deadline",          "feeds": ["https://deadline.com/feed/"], "site": "https://deadline.com/", "tag": "Breaking entertainment industry and Hollywood news"},
@@ -103,7 +103,7 @@ CATEGORIES = [
         "sources": [
             {"rank": 1,  "name": "BAIR Blog",           "feeds": ["https://bair.berkeley.edu/blog/feed.xml"], "site": "https://bair.berkeley.edu/blog/", "tag": "Berkeley AI research papers and announcements"},
             {"rank": 2,  "name": "TechCrunch AI",       "feeds": ["https://techcrunch.com/category/artificial-intelligence/feed/"], "site": "https://techcrunch.com/category/artificial-intelligence/", "tag": "AI industry news, funding, and product launches"},
-            {"rank": 3,  "name": "The Verge AI",        "feeds": ["https://www.theverge.com/ai-artificial-intelligence/rss/index.xml"], "site": "https://www.theverge.com/ai-artificial-intelligence", "tag": "AI product news and industry analysis"},
+            {"rank": 3,  "name": "The Verge AI",        "feeds": ["https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"], "site": "https://www.theverge.com/ai-artificial-intelligence", "tag": "AI product news and industry analysis"},
             {"rank": 4,  "name": "Ars Technica AI",     "feeds": ["https://arstechnica.com/ai/feed/"], "site": "https://arstechnica.com/ai/", "tag": "Technical AI news and analysis"},
             {"rank": 5,  "name": "VentureBeat AI",      "feeds": ["https://venturebeat.com/category/ai/feed/"], "site": "https://venturebeat.com/ai/", "tag": "Enterprise AI news and industry trends"},
             {"rank": 6,  "name": "OpenAI News",         "feeds": ["https://openai.com/news/rss.xml"], "site": "https://openai.com/news/", "tag": "Official OpenAI product and research announcements"},
@@ -115,7 +115,7 @@ CATEGORIES = [
             {"rank": 12, "name": "KDnuggets",           "feeds": ["https://www.kdnuggets.com/feed"], "site": "https://www.kdnuggets.com/", "tag": "Data science, machine learning, and AI news"},
             {"rank": 13, "name": "The Rundown AI",      "feeds": ["https://www.therundown.ai/feed"], "site": "https://www.therundown.ai/", "tag": "Daily AI news roundup"},
             {"rank": 14, "name": "TLDR AI",             "feeds": ["https://tldr.tech/api/rss/ai"], "site": "https://tldr.tech/ai", "tag": "Daily AI news digest for practitioners"},
-            {"rank": 15, "name": "Stanford HAI News",   "feeds": ["https://hai.stanford.edu/news/feed", "https://hai.stanford.edu/rss.xml"], "site": "https://hai.stanford.edu/news", "tag": "Academic AI research and policy analysis"},
+            {"rank": 15, "name": "Stanford HAI News",   "feeds": ["https://hai.stanford.edu/news/feed", "https://hai.stanford.edu/news/rss.xml", "https://hai.stanford.edu/rss.xml"], "site": "https://hai.stanford.edu/news", "tag": "Academic AI research and policy analysis"},
             {"rank": 16, "name": "AI Business",         "feeds": ["https://aibusiness.com/rss.xml", "https://aibusiness.com/rss"], "site": "https://aibusiness.com/", "tag": "Enterprise AI adoption and industry news"},
             {"rank": 17, "name": "Artificial Intelligence News", "feeds": ["https://www.artificialintelligence-news.com/feed/"], "site": "https://www.artificialintelligence-news.com/", "tag": "AI industry news and analysis"},
             {"rank": 18, "name": "Unite.AI",            "feeds": ["https://www.unite.ai/feed/"], "site": "https://www.unite.ai/", "tag": "AI news, tools, and industry coverage"},
@@ -414,45 +414,174 @@ def fill_missing_images(items):
     print(f"  Na\u0111eno slika: {found}")
 
 
-def fetch_source(source: dict) -> list:
+# ---------------------------------------------------------------------------
+# Povlacenje feed-ova: browser-like zaglavlja + timeout, automatsko trazenje
+# feed-a na sajtu (<link rel="alternate">) i dijagnostika u docs/feed_status.json
+# ---------------------------------------------------------------------------
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+FEED_TIMEOUT_SEC = 25
+FEED_ACCEPT = ("application/rss+xml, application/atom+xml, application/xml;q=0.9, "
+               "text/xml;q=0.8, text/html;q=0.5, */*;q=0.3")
+GENERIC_FEED_PATHS = ["/feed/", "/feed", "/rss.xml", "/rss/", "/rss", "/atom.xml", "/index.xml", "/feed.xml"]
+FEED_LINK_RE = re.compile(r"<link\b[^>]*>", re.I)
+ANCHOR_RE = re.compile(r"<a\b[^>]*?href=[\"']([^\"']+)[\"']", re.I)
+FEED_WORKERS = 8
+
+STATUS_LOG = []
+PRIOR_STATUS = {}
+
+
+def http_get(url, timeout=FEED_TIMEOUT_SEC):
+    req = Request(url, headers={"User-Agent": BROWSER_UA, "Accept": FEED_ACCEPT,
+                                "Accept-Language": "en-US,en;q=0.9"})
+    with urlopen(req, timeout=timeout) as resp:
+        return resp.read(5_000_000), resp.geturl()
+
+
+def describe_error(exc):
+    if isinstance(exc, HTTPError):
+        return f"HTTP {exc.code}"
+    return f"{type(exc).__name__}: {str(exc)[:80]}"
+
+
+def try_feed(url):
+    """Vrati (parsed ili None, opis rezultata)."""
+    try:
+        raw, _final = http_get(url)
+    except Exception as exc:
+        return None, describe_error(exc)
+    parsed = feedparser.parse(raw)
+    if parsed.entries:
+        return parsed, f"OK {len(parsed.entries)} stavki"
+    head = raw[:300].lstrip().lower()
+    if head.startswith((b"<!doctype html", b"<html")):
+        return None, "odgovor je HTML, nije feed"
+    return None, "feed je prazan ili neprepoznat"
+
+
+def discover_feed_urls(page_url, scan_anchors=False):
+    """Nadji adrese feed-ova na stranici: <link rel=alternate type=rss/atom>,
+    a za 'discover' stranice i linkove koji lice na feed."""
+    raw, final = http_get(page_url)
+    text = raw.decode("utf-8", errors="replace")
+    found = []
+    for tag in FEED_LINK_RE.findall(text):
+        attrs = {}
+        for m in ATTR_RE.finditer(tag):
+            attrs[m.group(1).lower()] = m.group(2) if m.group(2) is not None else m.group(3)
+        rel = (attrs.get("rel") or "").lower()
+        typ = (attrs.get("type") or "").lower()
+        if "alternate" in rel and ("rss" in typ or "atom" in typ) and attrs.get("href"):
+            found.append(urljoin(final, html.unescape(attrs["href"])))
+    if scan_anchors:
+        for m in ANCHOR_RE.finditer(text):
+            href = html.unescape(m.group(1))
+            low = href.lower()
+            if low.endswith((".xml", ".rss")) or "/rss" in low or "/feed" in low:
+                found.append(urljoin(final, href))
+    out = []
+    for u in found:
+        if "comments" in u.lower() or u in out:
+            continue
+        out.append(u)
+    return out[:8]
+
+
+def load_prior_status():
+    path = Path(__file__).parent / "docs" / "feed_status.json"
+    try:
+        old = json.loads(path.read_text(encoding="utf-8"))
+        for s in old.get("sources", []):
+            if s.get("ok") and s.get("used_url"):
+                PRIOR_STATUS[s["name"]] = s
+    except Exception:
+        pass
+
+
+def entries_to_items(source, parsed):
     items = []
-    for feed_url in source["feeds"]:
-        try:
-            parsed = feedparser.parse(feed_url)
-        except Exception as exc:
-            print(f"  [!] {source['name']}: greška pri parsiranju {feed_url}: {exc}")
+    for entry in parsed.entries[:MAX_PER_SOURCE]:
+        title = clean_text(entry.get("title", "")).strip()
+        link = entry.get("link", "").strip()
+        if not title or not link:
             continue
-
-        if not parsed.entries:
-            print(f"  [!] {source['name']}: feed {feed_url} nije dao rezultate, probam sledeći...")
-            continue
-
-        for entry in parsed.entries[:MAX_PER_SOURCE]:
-            title = clean_text(entry.get("title", "")).strip()
-            link = entry.get("link", "").strip()
-            if not title or not link:
-                continue
-            summary = clean_text(entry.get("summary", entry.get("description", "")))
-            if len(summary) > SUMMARY_MAX_LEN:
-                summary = summary[:SUMMARY_MAX_LEN].rsplit(" ", 1)[0] + "…"
-            dt = entry_datetime(entry)
-            items.append({
-                "source": source["name"],
-                "rank": source["rank"],
-                "title": title,
-                "summary": summary,
-                "url": link,
-                "category": entry_category(entry),
-                "date": dt.strftime("%Y-%m-%d"),
-                "timestamp": dt.isoformat(),
-                "coverage": 1,
-                "image": entry_image(entry),
-            })
-        if items:
-            break  # ovaj kandidat je uspeo, ne probaj ostale adrese za ovaj izvor
-    if not items:
-        print(f"  [!] {source['name']}: nijedan RSS izvor nije dao rezultate.")
+        summary = clean_text(entry.get("summary", entry.get("description", "")))
+        if len(summary) > SUMMARY_MAX_LEN:
+            summary = summary[:SUMMARY_MAX_LEN].rsplit(" ", 1)[0] + "\u2026"
+        dt = entry_datetime(entry)
+        items.append({
+            "source": source["name"],
+            "rank": source["rank"],
+            "title": title,
+            "summary": summary,
+            "url": link,
+            "category": entry_category(entry),
+            "date": dt.strftime("%Y-%m-%d"),
+            "timestamp": dt.isoformat(),
+            "coverage": 1,
+            "image": entry_image(entry),
+        })
     return items
+
+
+def fetch_source(source: dict):
+    """Vrati (items, status). Redom: prethodno uspesna adresa, zadate adrese,
+    adrese pronadjene na sajtu, i (samo za sajtove sa korena) uobicajene putanje."""
+    attempts, tried = [], set()
+    state = {"parsed": None, "used": None, "via": None}
+
+    def attempt(url, via):
+        if url in tried:
+            return False
+        tried.add(url)
+        parsed, result = try_feed(url)
+        attempts.append({"url": url, "result": result})
+        if parsed:
+            state.update(parsed=parsed, used=url, via=via)
+            return True
+        return False
+
+    declared = list(source["feeds"])
+    prior = PRIOR_STATUS.get(source["name"], {}).get("used_url")
+    order = ([(prior, "previous")] if prior and prior not in declared else []) + [(u, "declared") for u in declared]
+    for url, via in order:
+        if attempt(url, via):
+            break
+
+    if not state["parsed"]:
+        pages = [(p, True) for p in source.get("discover", [])] + [(source["site"], False)]
+        for page, scan in pages:
+            if state["parsed"]:
+                break
+            try:
+                found = discover_feed_urls(page, scan_anchors=scan)
+            except Exception as exc:
+                attempts.append({"url": page, "result": "trazenje feed-a: " + describe_error(exc)})
+                continue
+            if not found:
+                attempts.append({"url": page, "result": "trazenje feed-a: nista pronadjeno"})
+            for url in found:
+                if attempt(url, "discovered"):
+                    break
+
+    blocked = any(a["result"] in ("HTTP 403", "HTTP 429") for a in attempts)
+    if not state["parsed"] and not blocked and urlparse(source["site"]).path in ("", "/"):
+        base_url = "{u.scheme}://{u.netloc}".format(u=urlparse(source["site"]))
+        for path in GENERIC_FEED_PATHS:
+            if attempt(base_url + path, "generic"):
+                break
+
+    items = entries_to_items(source, state["parsed"]) if state["parsed"] else []
+    status = {
+        "name": source["name"],
+        "ok": bool(items),
+        "items": len(items),
+        "used_url": state["used"],
+        "via": state["via"],
+        "attempts": attempts,
+    }
+    return items, status
 
 
 def dedupe(items: list) -> list:
@@ -484,11 +613,24 @@ def dedupe(items: list) -> list:
 
 def fetch_category(category: dict) -> dict:
     """Povuci, dedupliciraj i pripremi podatke za jednu kategoriju (tab)."""
+    results = {}
+    with ThreadPoolExecutor(max_workers=FEED_WORKERS) as ex:
+        futs = {ex.submit(fetch_source, s): s for s in category["sources"]}
+        for fut in as_completed(futs):
+            results[futs[fut]["name"]] = fut.result()
+
     all_items = []
     for source in category["sources"]:
-        print(f"- {source['name']}")
-        items = fetch_source(source)
-        print(f"    -> {len(items)} stavki")
+        items, status = results[source["name"]]
+        status["tab"] = category["id"]
+        STATUS_LOG.append(status)
+        if status["ok"]:
+            extra = "" if status["via"] == "declared" else f" [{status['via']}: {status['used_url']}]"
+            print(f"- {source['name']}: {len(items)} stavki{extra}")
+        else:
+            print(f"- {source['name']}: BEZ VESTI")
+            for a in status["attempts"]:
+                print(f"    [x] {a['url']} -> {a['result']}")
         all_items.extend(items)
 
     print(f"  Ukupno pre deduplikacije: {len(all_items)}")
@@ -527,6 +669,7 @@ def build_html(data_by_tab: dict) -> str:
 
 def main():
     load_image_cache()
+    load_prior_status()
     data_by_tab = {}
     for category in CATEGORIES:
         print(f"\n=== {category['label']} ({len(category['sources'])} portala) ===")
@@ -539,6 +682,9 @@ def main():
     (out_dir / "news.json").write_text(
         json.dumps(data_by_tab, ensure_ascii=False, indent=2), encoding="utf-8"
     )
+    (out_dir / "feed_status.json").write_text(
+        json.dumps({"generated_at": datetime.now(timezone.utc).isoformat(), "sources": STATUS_LOG},
+                   ensure_ascii=False, indent=1), encoding="utf-8")
     totals = {cid: len(d["news"]) for cid, d in data_by_tab.items()}
     print(f"\nGenerisano: {out_dir / 'index.html'} — {totals}")
 
