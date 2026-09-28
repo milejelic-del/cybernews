@@ -1,0 +1,953 @@
+{
+ "generated_at": "2026-09-28T08:41:37.848309+00:00",
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://www.bleepingcomputer.com/feed/",
+     "result": "HTTP 403"
+    },
+    {
+     "url": "https://www.bleepingcomputer.com/news/security/",
+     "result": "trazenje feed-a: HTTP 403"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5,
+   "used_url": "https://therecord.media/feed",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://therecord.media/feed",
+     "result": "OK 5 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.securityweek.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.securityweek.com/feed/",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.darkreading.com/rss.xml",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.darkreading.com/rss.xml",
+     "result": "OK 50 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://krebsonsecurity.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://krebsonsecurity.com/feed/",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://feeds.feedburner.com/TheHackersNews",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://feeds.feedburner.com/TheHackersNews",
+     "result": "OK 50 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.helpnetsecurity.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.helpnetsecurity.com/feed/",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://cyberscoop.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://cyberscoop.com/feed/",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "Infosecurity Magazine",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.infosecurity-magazine.com/rss/news/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.infosecurity-magazine.com/rss/news/",
+     "result": "OK 250 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "SC Media",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://www.scworld.com/feed",
+     "result": "odgovor je HTML, nije feed"
+    },
+    {
+     "url": "https://www.scworld.com/rss.xml",
+     "result": "HTTP 403"
+    },
+    {
+     "url": "https://www.scworld.com/",
+     "result": "trazenje feed-a: nista pronadjeno"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "Risky Business News",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://risky.biz/feeds/risky-business-news/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://risky.biz/feeds/risky-business-news/",
+     "result": "OK 100 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "CSO Online",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.csoonline.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.csoonline.com/feed/",
+     "result": "OK 20 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "Security Affairs",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://securityaffairs.com/feed",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://securityaffairs.com/feed",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "Cybersecurity Dive",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.cybersecuritydive.com/feeds/news/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.cybersecuritydive.com/feeds/news/",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "BankInfoSecurity",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://www.bankinfosecurity.com/rssFeeds.php?type=main",
+     "result": "HTTP 403"
+    },
+    {
+     "url": "https://www.bankinfosecurity.com/",
+     "result": "trazenje feed-a: HTTP 403"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "Cybernews",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://cybernews.com/feed/",
+     "result": "HTTP 403"
+    },
+    {
+     "url": "https://cybernews.com/security/feed/",
+     "result": "HTTP 403"
+    },
+    {
+     "url": "https://cybernews.com/security/",
+     "result": "trazenje feed-a: HTTP 403"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "TechCrunch Security",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://techcrunch.com/category/security/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://techcrunch.com/category/security/feed/",
+     "result": "OK 20 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "WIRED Security",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.wired.com/feed/category/security/latest/rss",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.wired.com/feed/category/security/latest/rss",
+     "result": "OK 20 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "Ars Technica Security",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://arstechnica.com/security/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://arstechnica.com/security/feed/",
+     "result": "OK 20 stavki"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "CISA",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+     "result": "HTTP 403"
+    },
+    {
+     "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+     "result": "trazenje feed-a: HTTP 403"
+    }
+   ],
+   "tab": "cyber"
+  },
+  {
+   "name": "BrooklynVegan",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.brooklynvegan.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.brooklynvegan.com/feed/",
+     "result": "OK 15 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Variety",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://variety.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://variety.com/feed/",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "The Hollywood Reporter",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.hollywoodreporter.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.hollywoodreporter.com/feed/",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "PopMatters",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.popmatters.com/feed",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.popmatters.com/feed",
+     "result": "OK 200 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Pitchfork",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://pitchfork.com/feed/feed-news/rss",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://pitchfork.com/feed/feed-news/rss",
+     "result": "OK 29 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "NME",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.nme.com/feed",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.nme.com/feed",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Consequence",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://consequence.net/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://consequence.net/feed/",
+     "result": "OK 15 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Stereogum",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.stereogum.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.stereogum.com/feed/",
+     "result": "OK 40 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "AllMusic",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://www.allmusic.com/newfeatures.xml",
+     "result": "HTTP 403"
+    },
+    {
+     "url": "https://www.allmusic.com/rss-feeds",
+     "result": "trazenje feed-a: HTTP 403"
+    },
+    {
+     "url": "https://www.allmusic.com/",
+     "result": "trazenje feed-a: HTTP 403"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Resident Advisor",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://ra.co/xml/rss.xml",
+     "result": "HTTP 404"
+    },
+    {
+     "url": "https://ra.co/",
+     "result": "trazenje feed-a: HTTP 403"
+    },
+    {
+     "url": "https://ra.co/feed/",
+     "result": "odgovor je HTML, nije feed"
+    },
+    {
+     "url": "https://ra.co/feed",
+     "result": "odgovor je HTML, nije feed"
+    },
+    {
+     "url": "https://ra.co/rss.xml",
+     "result": "HTTP 404"
+    },
+    {
+     "url": "https://ra.co/rss/",
+     "result": "HTTP 404"
+    },
+    {
+     "url": "https://ra.co/rss",
+     "result": "HTTP 404"
+    },
+    {
+     "url": "https://ra.co/atom.xml",
+     "result": "HTTP 404"
+    },
+    {
+     "url": "https://ra.co/index.xml",
+     "result": "HTTP 404"
+    },
+    {
+     "url": "https://ra.co/feed.xml",
+     "result": "odgovor je HTML, nije feed"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "IndieWire",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.indiewire.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.indiewire.com/feed/",
+     "result": "OK 12 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Deadline",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://deadline.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://deadline.com/feed/",
+     "result": "OK 12 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Empire",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
+   "via": "discovered",
+   "attempts": [
+    {
+     "url": "https://www.empireonline.com/feed/",
+     "result": "HTTP 404"
+    },
+    {
+     "url": "https://www.empireonline.com/rss/",
+     "result": "HTTP 404"
+    },
+    {
+     "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
+     "result": "OK 122 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Collider",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://collider.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://collider.com/feed/",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "The A.V. Club",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.avclub.com/rss",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.avclub.com/rss",
+     "result": "OK 51 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Screen Rant",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://screenrant.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://screenrant.com/feed/",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "RogerEbert.com",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.rogerebert.com/feed",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.rogerebert.com/feed",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "/Film (SlashFilm)",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.slashfilm.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.slashfilm.com/feed/",
+     "result": "OK 20 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Little White Lies",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://lwlies.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://lwlies.com/feed/",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "The Film Stage",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://thefilmstage.com/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://thefilmstage.com/feed/",
+     "result": "OK 12 stavki"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "BAIR Blog",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://bair.berkeley.edu/blog/feed.xml",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://bair.berkeley.edu/blog/feed.xml",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "TechCrunch AI",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+     "result": "OK 20 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "The Verge AI",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "Ars Technica AI",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://arstechnica.com/ai/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://arstechnica.com/ai/feed/",
+     "result": "OK 20 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "VentureBeat AI",
+   "ok": true,
+   "items": 7,
+   "used_url": "https://venturebeat.com/category/ai/feed/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://venturebeat.com/category/ai/feed/",
+     "result": "OK 7 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://openai.com/news/rss.xml",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://openai.com/news/rss.xml",
+     "result": "OK 1230 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "Anthropic News",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml",
+     "result": "OK 14 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "Google DeepMind Blog",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://deepmind.google/blog/rss.xml",
+     "result": "OK 100 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "Hugging Face Blog",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://huggingface.co/blog/feed.xml",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://huggingface.co/blog/feed.xml",
+     "result": "OK 868 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "The Batch",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://www.deeplearning.ai/the-batch/feed/",
+     "result": "HTTP 403"
+    },
+    {
+     "url": "https://www.deeplearning.ai/feed/",
+     "result": "HTTP 403"
+    },
+    {
+     "url": "https://www.deeplearning.ai/the-batch/",
+     "result": "trazenje feed-a: HTTP 403"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "Google AI",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://blog.google/technology/ai/rss/",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://blog.google/technology/ai/rss/",
+     "result": "OK 20 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "KDnuggets",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.kdnuggets.com/feed",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.kdnuggets.com/feed",
+     "result": "OK 10 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "The Rundown AI",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.therundown.ai/feed",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://www.therundown.ai/feed",
+     "result": "OK 50 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "TLDR AI",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://tldr.tech/api/rss/ai",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://tldr.tech/api/rss/ai",
+     "result": "OK 20 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "Stanford HAI News",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://hai.stanford.edu/news/feed",
+     "result": "odgovor je HTML, nije feed"
+    },
+    {
+     "url": "https://hai.stanford.edu/news/rss.xml",
+     "result": "odgovor je HTML, nije feed"
+    },
+    {
+     "url": "https://hai.stanford.edu/rss.xml",
+     "result": "odgovor je HTML, nije feed"
+    },
+    {
+     "url": "https://hai.stanford.edu/news",
+     "result": "trazenje feed-a: nista pronadjeno"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "AI Business",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://aibusiness.com/rss.xml",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://aibusiness.com/rss.xml",
+     "result": "OK 50 stavki"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "Artificial Intelligence News",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://www.artificialintelligence-news.com/feed/",
+     "result": "HTTP 403"
+    },
+    {
+     "url": "https://www.artificialintelligence-news.com/",
+     "result": "trazenje feed-a: HTTP 403"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "Unite.AI",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://www.unite.ai/feed/",
+     "result": "HTTP 403"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "MarkTechPost",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "attempts": [
+    {
+     "url": "https://www.marktechpost.com/feed/",
+     "result": "HTTP 403"
+    },
+    {
+     "url": "https://www.marktechpost.com/",
+     "result": "trazenje feed-a: HTTP 403"
+    }
+   ],
+   "tab": "ai"
+  },
+  {
+   "name": "IEEE Spectrum AI",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",
+   "via": "declared",
+   "attempts": [
+    {
+     "url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",
+     "result": "OK 30 stavki"
+    }
+   ],
+   "tab": "ai"
+  }
+ ]
+}
