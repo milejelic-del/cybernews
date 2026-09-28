@@ -27,6 +27,13 @@ import time
 
 import feedparser
 
+def gnews(site):
+    """Rezervni izvor za sajtove koji blokiraju servere (HTTP 403/503): Google News RSS
+    za taj sajt. Daje naslov i link (bez opisa i slike); koristi se tek kad ne uspe nijedna
+    druga adresa iz liste "feeds"."""
+    return f"https://news.google.com/rss/search?q=site:{site}+when:14d&hl=en-US&gl=US&ceid=US:en"
+
+
 # ---------------------------------------------------------------------------
 # CATEGORIES: svaka kategorija (tab na sajtu) ima svojih 20 portala.
 # rang (1 = najkvalitetniji -> koristi se prilikom dupliranja unutar iste
@@ -52,17 +59,17 @@ CATEGORIES = [
             {"rank": 7,  "name": "Help Net Security",    "feeds": ["https://www.helpnetsecurity.com/feed/"], "site": "https://www.helpnetsecurity.com/", "tag": "Enterprise trends, regulation, and research"},
             {"rank": 8,  "name": "CyberScoop",           "feeds": ["https://cyberscoop.com/feed/"], "site": "https://cyberscoop.com/", "tag": "National security, policy, and international cyber events"},
             {"rank": 9,  "name": "Infosecurity Magazine","feeds": ["https://www.infosecurity-magazine.com/rss/news/"], "site": "https://www.infosecurity-magazine.com/", "tag": "News, analysis, interviews, and research"},
-            {"rank": 10, "name": "SC Media",             "feeds": ["https://www.scworld.com/feed", "https://www.scworld.com/rss.xml"], "site": "https://www.scworld.com/", "tag": "CISO topics, compliance, cloud, and risk management"},
+            {"rank": 10, "name": "SC Media",             "feeds": ["https://www.scworld.com/feed", "https://www.scworld.com/feed/topic/threat-management", "https://www.scworld.com/rss.xml", gnews("scworld.com")], "site": "https://www.scworld.com/", "tag": "CISO topics, compliance, cloud, and risk management"},
             {"rank": 11, "name": "Risky Business News",  "feeds": ["https://risky.biz/feeds/risky-business-news/"], "site": "https://news.risky.biz/", "tag": "Daily roundup of cyber events and research"},
             {"rank": 12, "name": "CSO Online",           "feeds": ["https://www.csoonline.com/feed/"], "site": "https://www.csoonline.com/", "tag": "Strategy, leadership, budgets, and regulation"},
             {"rank": 13, "name": "Security Affairs",     "feeds": ["https://securityaffairs.com/feed"], "site": "https://securityaffairs.com/", "tag": "APT groups, malware, vulnerabilities, and incidents"},
             {"rank": 14, "name": "Cybersecurity Dive",   "feeds": ["https://www.cybersecuritydive.com/feeds/news/"], "site": "https://www.cybersecuritydive.com/", "tag": "Business impact of incidents, regulation, and strategy"},
             {"rank": 15, "name": "BankInfoSecurity",     "feeds": ["https://www.bankinfosecurity.com/rssFeeds.php?type=main"], "site": "https://www.bankinfosecurity.com/", "tag": "Financial sector, fraud, identity, and data protection"},
-            {"rank": 16, "name": "Cybernews",            "feeds": ["https://cybernews.com/feed/", "https://cybernews.com/security/feed/"], "site": "https://cybernews.com/security/", "tag": "Data breach events, privacy, and cybercrime"},
+            {"rank": 16, "name": "Cybernews",            "feeds": ["https://cybernews.com/feed/", "https://cybernews.com/security/feed/", gnews("cybernews.com")], "site": "https://cybernews.com/security/", "tag": "Data breach events, privacy, and cybercrime"},
             {"rank": 17, "name": "TechCrunch Security",  "feeds": ["https://techcrunch.com/category/security/feed/"], "site": "https://techcrunch.com/category/security/", "tag": "Tech companies, cloud, and startup incidents"},
             {"rank": 18, "name": "WIRED Security",       "feeds": ["https://www.wired.com/feed/category/security/latest/rss"], "site": "https://www.wired.com/category/security/", "tag": "Privacy, surveillance, and major incidents"},
             {"rank": 19, "name": "Ars Technica Security","feeds": ["https://arstechnica.com/security/feed/"], "site": "https://arstechnica.com/security/", "tag": "Technical analysis of vulnerabilities, attacks, and platforms"},
-            {"rank": 20, "name": "CISA",                 "feeds": ["https://www.cisa.gov/cybersecurity-advisories/all.xml"], "site": "https://www.cisa.gov/news-events/cybersecurity-advisories", "tag": "Authoritative alerts and recommended actions"},
+            {"rank": 20, "name": "CISA",                 "feeds": ["https://www.cisa.gov/cybersecurity-advisories/all.xml", gnews("cisa.gov")], "site": "https://www.cisa.gov/news-events/cybersecurity-advisories", "tag": "Authoritative alerts and recommended actions"},
         ],
     },
     {
@@ -80,8 +87,8 @@ CATEGORIES = [
             {"rank": 6,  "name": "NME",               "feeds": ["https://www.nme.com/feed"], "site": "https://www.nme.com/", "tag": "Music news, reviews, and pop culture"},
             {"rank": 7,  "name": "Consequence",       "feeds": ["https://consequence.net/feed/"], "site": "https://consequence.net/", "tag": "Music, film, and TV news and reviews"},
             {"rank": 8,  "name": "Stereogum",         "feeds": ["https://www.stereogum.com/feed/"], "site": "https://www.stereogum.com/", "tag": "Indie and alternative music news"},
-            {"rank": 9,  "name": "AllMusic",          "feeds": ["https://www.allmusic.com/newfeatures.xml"], "discover": ["https://www.allmusic.com/rss-feeds"], "site": "https://www.allmusic.com/", "tag": "Music database, reviews, and new releases"},
-            {"rank": 10, "name": "Resident Advisor",  "feeds": ["https://ra.co/xml/rss.xml"], "site": "https://ra.co/", "tag": "Electronic music news, reviews, and events"},
+            {"rank": 9,  "name": "AllMusic",          "feeds": ["https://www.allmusic.com/newfeatures.xml", gnews("allmusic.com")], "discover": ["https://www.allmusic.com/rss-feeds"], "site": "https://www.allmusic.com/", "tag": "Music database, reviews, and new releases"},
+            {"rank": 10, "name": "Resident Advisor",  "feeds": ["https://ra.co/xml/rss.xml", "https://ra.co/xml/news.xml", gnews("ra.co")], "site": "https://ra.co/", "tag": "Electronic music news, reviews, and events"},
             {"rank": 11, "name": "IndieWire",         "feeds": ["https://www.indiewire.com/feed/"], "site": "https://www.indiewire.com/", "tag": "Independent film and TV news and criticism"},
             {"rank": 12, "name": "Deadline",          "feeds": ["https://deadline.com/feed/"], "site": "https://deadline.com/", "tag": "Breaking entertainment industry and Hollywood news"},
             {"rank": 13, "name": "Empire",            "feeds": ["https://www.empireonline.com/feed/", "https://www.empireonline.com/rss/"], "site": "https://www.empireonline.com/", "tag": "Film news, reviews, and features"},
@@ -110,15 +117,15 @@ CATEGORIES = [
             {"rank": 7,  "name": "Anthropic News",      "feeds": ["https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml"], "site": "https://www.anthropic.com/news", "tag": "Official Anthropic product and research announcements"},
             {"rank": 8,  "name": "Google DeepMind Blog","feeds": ["https://deepmind.google/blog/rss.xml"], "site": "https://deepmind.google/discover/blog/", "tag": "DeepMind research and model announcements"},
             {"rank": 9,  "name": "Hugging Face Blog",   "feeds": ["https://huggingface.co/blog/feed.xml"], "site": "https://huggingface.co/blog", "tag": "Open-source AI models and tooling updates"},
-            {"rank": 10, "name": "The Batch",           "feeds": ["https://www.deeplearning.ai/the-batch/feed/", "https://www.deeplearning.ai/feed/"], "site": "https://www.deeplearning.ai/the-batch/", "tag": "Weekly AI research and industry roundup"},
+            {"rank": 10, "name": "The Batch",           "feeds": ["https://www.deeplearning.ai/the-batch/feed/", "https://www.deeplearning.ai/feed/", gnews("deeplearning.ai/the-batch"), gnews("deeplearning.ai")], "site": "https://www.deeplearning.ai/the-batch/", "tag": "Weekly AI research and industry roundup"},
             {"rank": 11, "name": "Google AI",           "feeds": ["https://blog.google/technology/ai/rss/"], "site": "https://blog.google/technology/ai/", "tag": "Google's AI research and product announcements"},
             {"rank": 12, "name": "KDnuggets",           "feeds": ["https://www.kdnuggets.com/feed"], "site": "https://www.kdnuggets.com/", "tag": "Data science, machine learning, and AI news"},
             {"rank": 13, "name": "The Rundown AI",      "feeds": ["https://www.therundown.ai/feed"], "site": "https://www.therundown.ai/", "tag": "Daily AI news roundup"},
             {"rank": 14, "name": "TLDR AI",             "feeds": ["https://tldr.tech/api/rss/ai"], "site": "https://tldr.tech/ai", "tag": "Daily AI news digest for practitioners"},
-            {"rank": 15, "name": "Stanford HAI News",   "feeds": ["https://hai.stanford.edu/news/feed", "https://hai.stanford.edu/news/rss.xml", "https://hai.stanford.edu/rss.xml"], "site": "https://hai.stanford.edu/news", "tag": "Academic AI research and policy analysis"},
+            {"rank": 15, "name": "Stanford HAI News",   "feeds": ["https://hai.stanford.edu/news/feed", "https://hai.stanford.edu/news/rss.xml", "https://hai.stanford.edu/rss.xml", "https://hai.stanford.edu/news/all/rss", gnews("hai.stanford.edu")], "site": "https://hai.stanford.edu/news", "tag": "Academic AI research and policy analysis"},
             {"rank": 16, "name": "AI Business",         "feeds": ["https://aibusiness.com/rss.xml", "https://aibusiness.com/rss"], "site": "https://aibusiness.com/", "tag": "Enterprise AI adoption and industry news"},
-            {"rank": 17, "name": "Artificial Intelligence News", "feeds": ["https://www.artificialintelligence-news.com/feed/"], "site": "https://www.artificialintelligence-news.com/", "tag": "AI industry news and analysis"},
-            {"rank": 18, "name": "Unite.AI",            "feeds": ["https://www.unite.ai/feed/"], "site": "https://www.unite.ai/", "tag": "AI news, tools, and industry coverage"},
+            {"rank": 17, "name": "Artificial Intelligence News", "feeds": ["https://www.artificialintelligence-news.com/feed/", gnews("artificialintelligence-news.com")], "site": "https://www.artificialintelligence-news.com/", "tag": "AI industry news and analysis"},
+            {"rank": 18, "name": "Unite.AI",            "feeds": ["https://www.unite.ai/feed/", gnews("unite.ai")], "site": "https://www.unite.ai/", "tag": "AI news, tools, and industry coverage"},
             {"rank": 19, "name": "MarkTechPost",        "feeds": ["https://www.marktechpost.com/feed/"], "site": "https://www.marktechpost.com/", "tag": "AI research paper summaries and news"},
             {"rank": 20, "name": "IEEE Spectrum AI",    "feeds": ["https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"], "site": "https://spectrum.ieee.org/artificial-intelligence", "tag": "Technical AI and robotics engineering news"},
         ],
@@ -386,6 +393,9 @@ def fill_missing_images(items):
     for n in items:
         if n.get("image"):
             continue
+        if n["url"].startswith("https://news.google.com/"):
+            n["image"] = ""  # Google News link vodi na preusmerenje, ne na stranicu clanka
+            continue
         if n["url"] in cache:
             n["image"] = cache[n["url"]]
         else:
@@ -533,12 +543,24 @@ def load_prior_status():
 
 def entries_to_items(source, parsed):
     items = []
-    for entry in parsed.entries[:MAX_PER_SOURCE]:
+    entries = list(parsed.entries)
+    if entries and entries[0].get("link", "").startswith("https://news.google.com/"):
+        entries.sort(key=lambda e: e.get("published_parsed") or (0,), reverse=True)
+    for entry in entries[:MAX_PER_SOURCE]:
         title = clean_text(entry.get("title", "")).strip()
         link = entry.get("link", "").strip()
         if not title or not link:
             continue
-        summary = clean_text(entry.get("summary", entry.get("description", "")))
+        if link.startswith("https://news.google.com/"):
+            # Google News: naslov ima sufiks " - Naziv sajta", a opis samo ponavlja naslov
+            src_title = ((entry.get("source") or {}).get("title") or "").strip()
+            for sep in (" - ", " \u2013 ", " \u2014 "):
+                if src_title and title.endswith(sep + src_title):
+                    title = title[: -len(sep + src_title)].strip()
+                    break
+            summary = ""
+        else:
+            summary = clean_text(entry.get("summary", entry.get("description", "")))
         if len(summary) > SUMMARY_MAX_LEN:
             summary = summary[:SUMMARY_MAX_LEN].rsplit(" ", 1)[0] + "\u2026"
         dt = entry_datetime(entry)
