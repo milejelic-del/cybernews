@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T09:34:04.054031+00:00",
+ "generated_at": "2026-09-28T09:38:53.899897+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -303,16 +303,12 @@
    "ok": true,
    "items": 12,
    "used_url": "https://news.google.com/rss/search?q=site:cisa.gov+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "declared",
+   "via": "previous",
    "ua": "feedparser",
    "attempts": [
     {
-     "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
-    },
-    {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 88 stavki (UA: feedparser)"
+     "result": "OK 91 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -442,13 +438,9 @@
    "ok": true,
    "items": 12,
    "used_url": "https://news.google.com/rss/search?q=site:allmusic.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "declared",
+   "via": "previous",
    "ua": "feedparser",
    "attempts": [
-    {
-     "url": "https://www.allmusic.com/newfeatures.xml",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
-    },
     {
      "url": "https://news.google.com/rss/search?q=site:allmusic.com+when:14d&hl=en-US&gl=US&ceid=US:en",
      "result": "OK 100 stavki (UA: feedparser)"
@@ -461,17 +453,9 @@
    "ok": true,
    "items": 12,
    "used_url": "https://news.google.com/rss/search?q=site:ra.co+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "declared",
+   "via": "previous",
    "ua": "feedparser",
    "attempts": [
-    {
-     "url": "https://ra.co/xml/rss.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://ra.co/xml/news.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
     {
      "url": "https://news.google.com/rss/search?q=site:ra.co+when:14d&hl=en-US&gl=US&ceid=US:en",
      "result": "OK 100 stavki (UA: feedparser)"
@@ -549,7 +533,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 51 stavki (UA: feedparser)"
+     "result": "OK 49 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -736,19 +720,15 @@
   },
   {
    "name": "Google DeepMind Blog",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://deepmind.google/discover/blog/",
-     "result": "trazenje feed-a: nista pronadjeno"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -856,28 +836,12 @@
    "ok": true,
    "items": 12,
    "used_url": "https://news.google.com/rss/search?q=site:hai.stanford.edu+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "declared",
+   "via": "previous",
    "ua": "feedparser",
    "attempts": [
     {
-     "url": "https://hai.stanford.edu/news/feed",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://hai.stanford.edu/news/rss.xml",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://hai.stanford.edu/rss.xml",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://hai.stanford.edu/news/all/rss",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 63 stavki (UA: feedparser)"
+     "result": "OK 60 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
