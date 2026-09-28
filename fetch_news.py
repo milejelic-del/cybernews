@@ -432,8 +432,15 @@ STATUS_LOG = []
 PRIOR_STATUS = {}
 
 
-def http_get(url, timeout=FEED_TIMEOUT_SEC):
-    req = Request(url, headers={"User-Agent": BROWSER_UA, "Accept": FEED_ACCEPT,
+OWN_UA = "SIGNAL20-NewsDigest/1.0 (+https://milejelic-del.github.io/cybernews/)"
+# Redosled: UA biblioteke za feed-ove (neki sajtovi ga dozvoljavaju, a browser UA blokiraju),
+# zatim identifikovani UA ovog sajta, pa generican browser UA.
+UA_CANDIDATES = [("feedparser", feedparser.USER_AGENT), ("identified", OWN_UA), ("browser", BROWSER_UA)]
+BLOCK_CODES = (401, 403, 406, 429)
+
+
+def http_get(url, ua, timeout=FEED_TIMEOUT_SEC):
+    req = Request(url, headers={"User-Agent": ua, "Accept": FEED_ACCEPT,
                                 "Accept-Language": "en-US,en;q=0.9"})
     with urlopen(req, timeout=timeout) as resp:
         return resp.read(5_000_000), resp.geturl()
@@ -445,25 +452,50 @@ def describe_error(exc):
     return f"{type(exc).__name__}: {str(exc)[:80]}"
 
 
+def get_with_rotation(url):
+    """Isti URL sa razlicitim User-Agent-ima dok neki ne prodje (samo kod blokada)."""
+    last = None
+    for label, ua in UA_CANDIDATES:
+        try:
+            raw, final = http_get(url, ua)
+            return raw, final, label
+        except HTTPError as exc:
+            last = exc
+            if exc.code not in BLOCK_CODES:
+                raise
+    raise last
+
+
 def try_feed(url):
-    """Vrati (parsed ili None, opis rezultata)."""
-    try:
-        raw, _final = http_get(url)
-    except Exception as exc:
-        return None, describe_error(exc)
-    parsed = feedparser.parse(raw)
-    if parsed.entries:
-        return parsed, f"OK {len(parsed.entries)} stavki"
-    head = raw[:300].lstrip().lower()
-    if head.startswith((b"<!doctype html", b"<html")):
-        return None, "odgovor je HTML, nije feed"
-    return None, "feed je prazan ili neprepoznat"
+    """Vrati (parsed ili None, opis rezultata, koji UA je prosao)."""
+    notes = []
+    for label, ua in UA_CANDIDATES:
+        try:
+            raw, _final = http_get(url, ua)
+        except HTTPError as exc:
+            notes.append(f"HTTP {exc.code} ({label})")
+            if exc.code in BLOCK_CODES:
+                continue
+            break
+        except Exception as exc:
+            notes.append(f"{describe_error(exc)} ({label})")
+            break
+        parsed = feedparser.parse(raw)
+        if parsed.entries:
+            extra = (" [pre toga: " + "; ".join(notes) + "]") if notes else ""
+            return parsed, f"OK {len(parsed.entries)} stavki (UA: {label})" + extra, label
+        is_html = raw[:300].lstrip().lower().startswith((b"<!doctype html", b"<html"))
+        notes.append(("odgovor je HTML, nije feed" if is_html else "feed je prazan ili neprepoznat") + f" ({label})")
+        if is_html:
+            continue
+        break
+    return None, "; ".join(notes), None
 
 
 def discover_feed_urls(page_url, scan_anchors=False):
     """Nadji adrese feed-ova na stranici: <link rel=alternate type=rss/atom>,
     a za 'discover' stranice i linkove koji lice na feed."""
-    raw, final = http_get(page_url)
+    raw, final, _ua = get_with_rotation(page_url)
     text = raw.decode("utf-8", errors="replace")
     found = []
     for tag in FEED_LINK_RE.findall(text):
@@ -529,16 +561,16 @@ def fetch_source(source: dict):
     """Vrati (items, status). Redom: prethodno uspesna adresa, zadate adrese,
     adrese pronadjene na sajtu, i (samo za sajtove sa korena) uobicajene putanje."""
     attempts, tried = [], set()
-    state = {"parsed": None, "used": None, "via": None}
+    state = {"parsed": None, "used": None, "via": None, "ua": None}
 
     def attempt(url, via):
         if url in tried:
             return False
         tried.add(url)
-        parsed, result = try_feed(url)
+        parsed, result, ua = try_feed(url)
         attempts.append({"url": url, "result": result})
         if parsed:
-            state.update(parsed=parsed, used=url, via=via)
+            state.update(parsed=parsed, used=url, via=via, ua=ua)
             return True
         return False
 
@@ -565,7 +597,7 @@ def fetch_source(source: dict):
                 if attempt(url, "discovered"):
                     break
 
-    blocked = any(a["result"] in ("HTTP 403", "HTTP 429") for a in attempts)
+    blocked = any(("HTTP 403" in a["result"] or "HTTP 429" in a["result"]) for a in attempts)
     if not state["parsed"] and not blocked and urlparse(source["site"]).path in ("", "/"):
         base_url = "{u.scheme}://{u.netloc}".format(u=urlparse(source["site"]))
         for path in GENERIC_FEED_PATHS:
@@ -579,6 +611,7 @@ def fetch_source(source: dict):
         "items": len(items),
         "used_url": state["used"],
         "via": state["via"],
+        "ua": state["ua"],
         "attempts": attempts,
     }
     return items, status
