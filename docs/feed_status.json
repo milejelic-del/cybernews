@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T08:45:45.082313+00:00",
+ "generated_at": "2026-09-28T09:34:04.054031+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -138,23 +138,19 @@
   },
   {
    "name": "SC Media",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.scworld.com/feed/topic/threat-management",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.scworld.com/feed",
      "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     },
     {
-     "url": "https://www.scworld.com/rss.xml",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
-    },
-    {
-     "url": "https://www.scworld.com/",
-     "result": "trazenje feed-a: nista pronadjeno"
+     "url": "https://www.scworld.com/feed/topic/threat-management",
+     "result": "OK 12 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -236,11 +232,11 @@
   },
   {
    "name": "Cybernews",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:cybernews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://cybernews.com/feed/",
@@ -251,8 +247,8 @@
      "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
     },
     {
-     "url": "https://cybernews.com/security/",
-     "result": "trazenje feed-a: HTTP 403"
+     "url": "https://news.google.com/rss/search?q=site:cybernews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -304,19 +300,19 @@
   },
   {
    "name": "CISA",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:cisa.gov+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
      "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
     },
     {
-     "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
-     "result": "trazenje feed-a: HTTP 403"
+     "url": "https://news.google.com/rss/search?q=site:cisa.gov+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 88 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -443,42 +439,42 @@
   },
   {
    "name": "AllMusic",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:allmusic.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.allmusic.com/newfeatures.xml",
      "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
     },
     {
-     "url": "https://www.allmusic.com/rss-feeds",
-     "result": "trazenje feed-a: HTTP 403"
-    },
-    {
-     "url": "https://www.allmusic.com/",
-     "result": "trazenje feed-a: HTTP 403"
+     "url": "https://news.google.com/rss/search?q=site:allmusic.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
   },
   {
    "name": "Resident Advisor",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:ra.co+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://ra.co/xml/rss.xml",
      "result": "HTTP 404 (feedparser)"
     },
     {
-     "url": "https://ra.co/",
-     "result": "trazenje feed-a: HTTP 403"
+     "url": "https://ra.co/xml/news.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:ra.co+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -740,15 +736,19 @@
   },
   {
    "name": "Google DeepMind Blog",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://deepmind.google/discover/blog/",
+     "result": "trazenje feed-a: nista pronadjeno"
     }
    ],
    "tab": "ai"
@@ -770,11 +770,11 @@
   },
   {
    "name": "The Batch",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 7,
+   "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.deeplearning.ai/the-batch/feed/",
@@ -785,8 +785,8 @@
      "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
     },
     {
-     "url": "https://www.deeplearning.ai/the-batch/",
-     "result": "trazenje feed-a: HTTP 403"
+     "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 7 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -853,11 +853,11 @@
   },
   {
    "name": "Stanford HAI News",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:hai.stanford.edu+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://hai.stanford.edu/news/feed",
@@ -872,8 +872,12 @@
      "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     },
     {
-     "url": "https://hai.stanford.edu/news",
-     "result": "trazenje feed-a: nista pronadjeno"
+     "url": "https://hai.stanford.edu/news/all/rss",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 63 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -895,90 +899,38 @@
   },
   {
    "name": "Artificial Intelligence News",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); HTTP 403 (browser)"
     },
     {
-     "url": "https://www.artificialintelligence-news.com/",
-     "result": "trazenje feed-a: nista pronadjeno"
-    },
-    {
-     "url": "https://www.artificialintelligence-news.com/feed",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://www.artificialintelligence-news.com/rss.xml",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://www.artificialintelligence-news.com/rss/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://www.artificialintelligence-news.com/rss",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://www.artificialintelligence-news.com/atom.xml",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://www.artificialintelligence-news.com/index.xml",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://www.artificialintelligence-news.com/feed.xml",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+     "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 16 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
   },
   {
    "name": "Unite.AI",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:unite.ai+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.unite.ai/feed/",
      "result": "HTTP 503 (feedparser)"
     },
     {
-     "url": "https://www.unite.ai/feed",
-     "result": "HTTP 503 (feedparser)"
-    },
-    {
-     "url": "https://www.unite.ai/rss.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.unite.ai/rss/",
-     "result": "HTTP 503 (feedparser)"
-    },
-    {
-     "url": "https://www.unite.ai/rss",
-     "result": "HTTP 503 (feedparser)"
-    },
-    {
-     "url": "https://www.unite.ai/atom.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.unite.ai/index.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.unite.ai/feed.xml",
-     "result": "HTTP 404 (feedparser)"
+     "url": "https://news.google.com/rss/search?q=site:unite.ai+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
