@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T09:44:18.489249+00:00",
+ "generated_at": "2026-09-28T15:01:48.932373+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -312,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 28 stavki (UA: feedparser)"
+     "result": "OK 26 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -451,7 +451,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:allmusic.com/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 26 stavki (UA: feedparser)"
+     "result": "OK 24 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -519,7 +519,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 122 stavki (UA: feedparser)"
+     "result": "OK 125 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
