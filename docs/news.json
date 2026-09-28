@@ -14,7 +14,7 @@
         "url": "https://www.bankinfosecurity.com/webinars/live-webinar-securing-industrial-edge-navigating-mastering-ot-w-7385",
         "category": "News",
         "date": "2026-09-28",
-        "timestamp": "2026-09-28T09:38:35.242741+00:00",
+        "timestamp": "2026-09-28T09:44:00.237164+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -26,7 +26,7 @@
         "url": "https://www.bankinfosecurity.com/webinars/live-webinar-beating-zero-day-by-changing-financial-math-breach-w-7389",
         "category": "News",
         "date": "2026-09-28",
-        "timestamp": "2026-09-28T09:38:35.242719+00:00",
+        "timestamp": "2026-09-28T09:44:00.237144+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -38,7 +38,7 @@
         "url": "https://www.bankinfosecurity.com/webinars/who-owns-ot-vulnerabilities-defining-security-accountability-across-w-7397",
         "category": "News",
         "date": "2026-09-28",
-        "timestamp": "2026-09-28T09:38:35.242677+00:00",
+        "timestamp": "2026-09-28T09:44:00.237104+00:00",
         "coverage": 2,
         "image": ""
       },
@@ -50,7 +50,7 @@
         "url": "https://www.bankinfosecurity.com/agency-releases/fdic-supervisory-approach-to-payment-processing-relationships-r-2802",
         "category": "News",
         "date": "2026-09-28",
-        "timestamp": "2026-09-28T09:38:35.242657+00:00",
+        "timestamp": "2026-09-28T09:44:00.237085+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -62,7 +62,7 @@
         "url": "https://www.bankinfosecurity.com/agency-releases/ffiec-statement-on-end-microsoft-support-for-windows-xp-r-2803",
         "category": "News",
         "date": "2026-09-28",
-        "timestamp": "2026-09-28T09:38:35.242629+00:00",
+        "timestamp": "2026-09-28T09:44:00.237058+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -74,7 +74,7 @@
         "url": "https://www.bankinfosecurity.com/agency-releases/fdic-institutions-encouraged-to-work-borrowers-impacted-by-r-2804",
         "category": "News",
         "date": "2026-09-28",
-        "timestamp": "2026-09-28T09:38:35.242601+00:00",
+        "timestamp": "2026-09-28T09:44:00.237032+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -86,7 +86,7 @@
         "url": "https://www.bankinfosecurity.com/agency-releases/fdic-issues-guidance-to-areas-in-illinois-impacted-by-severe-r-2805",
         "category": "News",
         "date": "2026-09-28",
-        "timestamp": "2026-09-28T09:38:35.242572+00:00",
+        "timestamp": "2026-09-28T09:44:00.237005+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -98,7 +98,7 @@
         "url": "https://www.bankinfosecurity.com/7-year-116b-anthropic-deal-drives-akamai-cloud-buildout-a-32940",
         "category": "News",
         "date": "2026-09-28",
-        "timestamp": "2026-09-28T09:38:35.242479+00:00",
+        "timestamp": "2026-09-28T09:44:00.236919+00:00",
         "coverage": 1,
         "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/7-year-116b-anthropic-deal-drives-akamai-cloud-buildout-image_small-3-a-32940.jpg"
       },
@@ -110,7 +110,7 @@
         "url": "https://www.bankinfosecurity.com/us-appeals-court-backs-pentagon-blacklisting-anthropic-a-32941",
         "category": "News",
         "date": "2026-09-28",
-        "timestamp": "2026-09-28T09:38:35.242423+00:00",
+        "timestamp": "2026-09-28T09:44:00.236841+00:00",
         "coverage": 1,
         "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/appeals-court-backs-pentagon-blacklisting-anthropic-image_small-9-a-32941.jpg"
       },
@@ -122,7 +122,7 @@
         "url": "https://www.bankinfosecurity.com/cisa-fbi-warn-ot-operators-about-third-party-hacking-a-32942",
         "category": "News",
         "date": "2026-09-28",
-        "timestamp": "2026-09-28T09:38:35.242343+00:00",
+        "timestamp": "2026-09-28T09:44:00.236754+00:00",
         "coverage": 1,
         "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/cisa-fbi-warn-ot-operators-about-third-party-hacking-image_small-2-a-32942.jpg"
       },
@@ -185,6 +185,18 @@
         "timestamp": "2026-09-28T09:00:00+00:00",
         "coverage": 1,
         "image": ""
+      },
+      {
+        "source": "Security Affairs",
+        "rank": 13,
+        "title": "U.S. CISA adds Citrix NetScaler flaws to its Known Exploited Vulnerabilities catalog",
+        "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Citrix NetScaler flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added the…",
+        "url": "https://securityaffairs.com/199891/hacking/u-s-cisa-adds-citrix-netscaler-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+        "category": "Breaking News",
+        "date": "2026-09-28",
+        "timestamp": "2026-09-28T08:55:22+00:00",
+        "coverage": 4,
+        "image": "https://securityaffairs.com/wp-content/uploads/2020/07/CISA.jpeg"
       },
       {
         "source": "Help Net Security",
@@ -343,18 +355,6 @@
         "image": "https://risky.biz/static/img/RB-OG-Social.jpg"
       },
       {
-        "source": "CISA",
-        "rank": 20,
-        "title": "News",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdG1lRV90amxxRnJ4N29JUXpKRzVCeXpDTHB0eERrd1Fyd3FETFdjRF9uWTZPRWF4VGJTNThsS1lldU5TWkZTQ0tDd25mRnNjWnlIeUtnd0JJSnN1OHREeG5yNHlvS3BXWldvZDlYY2pOZ1k1N2hDeEFNOHItem8zazVwcFFRVU1qR3NXcEo2Z05yV1VFWmVPaXFMdWhqTkM2aWc3NmF2VQ?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T00:39:18+00:00",
-        "coverage": 3,
-        "image": ""
-      },
-      {
         "source": "BleepingComputer",
         "rank": 1,
         "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
@@ -425,6 +425,18 @@
         "timestamp": "2026-09-27T15:05:39+00:00",
         "coverage": 1,
         "image": "https://securityaffairs.com/wp-content/uploads/2026/09/securityaffairs-malware-newsletter.jpg"
+      },
+      {
+        "source": "CISA",
+        "rank": 20,
+        "title": "News",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcnJiOHlsb3ByWjA3a3lVYVhaLUtRUjBBZDFGVGF1ZHNXWDFSR1lNSjRyYV9YVzhnQ1JzYW1ScW12NEM1dWM1OWVfYm9Cc1lLdU91cUtXOGFWcTBDd3Fqa0FGZEpCeDdpM1JxYmZMSkx6ZzdLWFVzZmZiTU5pWTNHZDJ2eTg5TXBVOUl0NjBMYTNJTlBQNkN0NE5mQi1WUWpXUGpVMkU3ZFE?oc=5",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T14:48:13+00:00",
+        "coverage": 1,
+        "image": ""
       },
       {
         "source": "BleepingComputer",
@@ -763,18 +775,6 @@
         "image": ""
       },
       {
-        "source": "Security Affairs",
-        "rank": 13,
-        "title": "U.S. CISA adds WordPress flaw to its Known Exploited Vulnerabilities catalog",
-        "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds WordPress flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a WordPress Core…",
-        "url": "https://securityaffairs.com/199790/security/u-s-cisa-adds-wordpress-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
-        "category": "Breaking News",
-        "date": "2026-09-26",
-        "timestamp": "2026-09-26T07:42:26+00:00",
-        "coverage": 4,
-        "image": "https://securityaffairs.com/wp-content/uploads/2020/07/CISA.jpeg"
-      },
-      {
         "source": "Cybernews",
         "rank": 16,
         "title": "16,000 Supabase databases exposed as vibe-coded apps leak sensitive user data",
@@ -1001,18 +1001,6 @@
         "timestamp": "2026-09-25T15:15:00+00:00",
         "coverage": 1,
         "image": "https://cms.therecord.media/uploads/bitget_a9e04e8746.jpg"
-      },
-      {
-        "source": "CISA",
-        "rank": 20,
-        "title": "Education & Training Catalog",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yMWdpVDllMUszYmtvZVhTcHFVN19qR2k3VG5SSUdJaXJJanNLREhXTzl6R2dCSmJ2QWFhekEyRnBROWFVN3FNd2lIcmx6d1lr?oc=5",
-        "category": "News",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T15:14:07+00:00",
-        "coverage": 1,
-        "image": ""
       },
       {
         "source": "Cybersecurity Dive",
@@ -1327,18 +1315,6 @@
         "image": "https://risky.biz/static/img/RB-OG-Social.jpg"
       },
       {
-        "source": "CISA",
-        "rank": 20,
-        "title": "Resources",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNTVycGhybVpPcjN1UUtxcVFScks3VjZIdDJFTEdOM0tPUC11VE9XYmg5WlJDVXlVSUpLSkl3d2EtcGJsQzBfQWh4YTgzUy1yRnhBNEpRdmNnSTZKVUthWHZTUmNzaDFLdW1tV1JsVXM0Y2ozMS1ZMnZjMFA4aVZZbkxFQ0NHRGJOY0d1dmRZeGJPVHpyQnVkR3Jnakt5a2NldE5ualR2OWpfZmlsNVVpR1hVMXI?oc=5",
-        "category": "News",
-        "date": "2026-09-25",
-        "timestamp": "2026-09-25T04:08:39+00:00",
-        "coverage": 5,
-        "image": ""
-      },
-      {
         "source": "CyberScoop",
         "rank": 8,
         "title": "House and Senate members propose legislation for CISA to step up cyber defenses for biotech",
@@ -1575,8 +1551,44 @@
         "category": "News",
         "date": "2026-09-24",
         "timestamp": "2026-09-24T12:50:00+00:00",
-        "coverage": 1,
+        "coverage": 2,
         "image": "https://assets.infosecurity-magazine.com/webpage/og/683b5baf-db55-48a9-a4e8-b854fd464d8e.png"
+      },
+      {
+        "source": "CISA",
+        "rank": 20,
+        "title": "Eufy Omni C20, Omni X10 Pro",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBuZlBpVy1HR2pfRjVYcjVGR08wR0ZfUDcycXA5MDB6TTRjeWpFSlB1QVNmUFNYZXV4cXJNdkhHX1dMdnVrRm1UcWhCb1ZBWWZEWjRtdGF6Zm9fOW9BQzBRRThLTG9jNnI2MVpqMk83WQ?oc=5",
+        "category": "News",
+        "date": "2026-09-24",
+        "timestamp": "2026-09-24T12:00:00+00:00",
+        "coverage": 1,
+        "image": ""
+      },
+      {
+        "source": "CISA",
+        "rank": 20,
+        "title": "Botslab G980H Dashcams",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wakNEQWU3bmZMbkhwLUJtSTBTWkNaSUpQUmlWU1ZvdXlLUWVBc3Y5S0E0SXIxNzFTN2xSeFcxS3NFR2hjSEVXNDVzRDIydnd0RmVReVBiNTZlMElBZGlQRE5USjZON0JhVGNqcGNlSQ?oc=5",
+        "category": "News",
+        "date": "2026-09-24",
+        "timestamp": "2026-09-24T12:00:00+00:00",
+        "coverage": 1,
+        "image": ""
+      },
+      {
+        "source": "CISA",
+        "rank": 20,
+        "title": "From Awareness to Action: Insider Threat Mitigation in an Evolving Security Environment",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaVFPQjZ0ZWVsUTNWZHVjXzk1RDY3UEFwVDVKeEpEMVFpZ3k2NVR5MlhQOFlDQXQ2Q0JrSHRLRElVSTMwQkI0XzBRaUxvUnN4U0lQRFF5XzJ5bGNZTzA3MXFVQXNuckxBdm1zTDk2cGpBN3NoQl81SHhQMzVJRXJlVUpLV0dlazJFbkVNNDJRb3JtS3lqYzREMVJPLXg5UWQ1Z3VuMUhRRnRCajd6QnNwcnBB?oc=5",
+        "category": "News",
+        "date": "2026-09-24",
+        "timestamp": "2026-09-24T12:00:00+00:00",
+        "coverage": 1,
+        "image": ""
       },
       {
         "source": "Ars Technica Security",
@@ -1793,18 +1805,6 @@
         "timestamp": "2026-09-23T18:10:42+00:00",
         "coverage": 1,
         "image": "https://cyberscoop.com/wp-content/uploads/sites/3/2026/09/Katie_Sutton.jpg"
-      },
-      {
-        "source": "TechCrunch Security",
-        "rank": 17,
-        "title": "What’s next for cybersecurity, according to Index Ventures’ Shardul Shah",
-        "summary": "As concern over AI safety and rogue agents continue to make headlines, it’s no surprise that cybersecurity stocks are rising, or that investors are pouring massive amounts of capital into startups trying to build the…",
-        "url": "https://techcrunch.com/podcast/whats-next-for-cybersecurity-according-to-index-ventures-shardul-shah/",
-        "category": "Security",
-        "date": "2026-09-23",
-        "timestamp": "2026-09-23T17:40:50+00:00",
-        "coverage": 1,
-        "image": "https://techcrunch.com/wp-content/uploads/2022/05/15.jpg?w=1024"
       }
     ],
     "sources": [
@@ -1937,6 +1937,30 @@
     "hasSeverity": false,
     "tagline": "A digest of the latest news from 20 leading music & film portals",
     "news": [
+      {
+        "source": "Screen Rant",
+        "rank": 16,
+        "title": "The Legend Of Zelda: Trails Of Time Officially Unveiled",
+        "summary": "The Ocarina of Time Remake is on the way very soon, and we're finally starting to learn a lot more about it.",
+        "url": "https://screenrant.com/legend-of-zelda-trails-of-time-ocarina-remake-feature/",
+        "category": "Gaming",
+        "date": "2026-09-28",
+        "timestamp": "2026-09-28T09:42:50+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/link-playing-ocarina-ocarina-of-time-remake.jpg"
+      },
+      {
+        "source": "NME",
+        "rank": 6,
+        "title": "Watch Nirvana accept Video Vanguard Award at MTV VMAs: “The ideas for those videos all grew out of the vision of one of the greatest artists of all time – Kurt Cobain”",
+        "summary": "“Nirvana continues to resonate so deeply because people are still hungry for authenticity or something real, something uncompromising,” Krist Novoselic said on stage The post Watch Nirvana accept Video Vanguard Award at…",
+        "url": "https://www.nme.com/news/music/watch-nirvana-accept-video-vanguard-award-at-mtv-vmas-3971036?utm_source=rss&utm_medium=rss&utm_campaign=watch-nirvana-accept-video-vanguard-award-at-mtv-vmas",
+        "category": "Music News",
+        "date": "2026-09-28",
+        "timestamp": "2026-09-28T09:38:35+00:00",
+        "coverage": 1,
+        "image": "https://www.nme.com/wp-content/uploads/2026/09/nirvana@2000x1270.jpg"
+      },
       {
         "source": "NME",
         "rank": 6,
@@ -2178,18 +2202,6 @@
         "image": "https://www.nme.com/wp-content/uploads/2026/09/NME-HERO-AFTER-CREDIT-DAVID-MILAN-KELLY@2560x1707.jpg"
       },
       {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "GoaUltrabeat - Hotel Butterfly at Hotel Butterfly, ローマ ⟋ RA",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5vZDhjRDRwUlJGVTJ2d3MxYXlVbmNfNVZGRDcwaTlYc0N2czFfU3ZLZml2a1ZVcDNtd0lFbnVXcGw3Z2N6aFE?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T07:33:18+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "Screen Rant",
         "rank": 16,
         "title": "Kill Jackie Review: Catherine Zeta-Jones Stuns In AMC+'s Cinematic Revenge Thriller",
@@ -2250,18 +2262,6 @@
         "image": ""
       },
       {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "DUB CLUB: FIRMLY ROOTED SOUND (BRISTOL) & Hometown Sound at The Art School, Glasgow · チケット",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE55MUM0M1lCaklYNWRYaWNOS3ZtdmhvdGxmMzl5UGVHMG9wcUZ6Nkd3TzBKdkVnYUd0ZkZTckgyMUJGQlFycnc?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T05:13:31+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "Screen Rant",
         "rank": 16,
         "title": "Fallout 5 Can Wait, Fallout: Wasteland Warfare Is Officially Changing Genres",
@@ -2286,54 +2286,6 @@
         "image": ""
       },
       {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "MUV — Live Music, Jam & Afterparty at Marula Cafe, バルセロナ",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5vUEtZc05GeVlZWms0QklOdVkwZVVzcUpsR0FNV1E0Q21iM04zNE1EX3FnY3FVTlVySmxEOTVyajZ5cnNRNVE?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T04:42:55+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "LET'S CRUSH: Ray Keith, BAILEY, Aphrodite, Kuba Sojka & JUREK PRZEŹDZIECKI LIVE at TBA - DOKI 1, Gdansk",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1KQ3k0V0E5anhCQk1pVmczdFh4ZE5Ld0Y3d2pIMU03WWJObUw4YzZxZ2lHTk9nN1VFRF9Pa0xsbUxwWkhLaFE?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T04:34:59+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "AFTERNOON pres. Isaac Carter x Nowosad x Bald x Efelpe at MONKEY LOVE, Warsaw",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5kVUpGRDd0VURmR2dkM1MxUzEydzdkZU5sWGQ2cVd3cHNHYmRyZXdpTUFUbU9HWGpLZkF6SHRkWjNSUy11Y1E?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T04:34:59+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "Arkady Kubickiego - Zamek Królewski w Warszawie, Warsaw · これから開催されるイベントとチケット",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFB5ZFJIU2MyMGpNT2pGUFk3eUpnQmItVGZlSkQ1TlRRWlR4X0ZpMG5fVWlsb0NzWFZYVHhHdG9Tc0NUWEk?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T04:34:58+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "Screen Rant",
         "rank": 16,
         "title": "Game Of Thrones: Veilflame Officially Announced",
@@ -2344,18 +2296,6 @@
         "timestamp": "2026-09-28T04:30:16+00:00",
         "coverage": 1,
         "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/i1790178250377615.jpeg"
-      },
-      {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "Spiritual Sauna with umru, Proc Fiskal at Q Club, ミラノ",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB2Wll1ZEhva1BrcUJrck5MZXJBUjE0bWVyV1JMLS1JbjdWWWlLT3lGWHEwTXRDVVZQWFdoekhKZGl5bXVTYUE?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T04:06:11+00:00",
-        "coverage": 1,
-        "image": ""
       },
       {
         "source": "Screen Rant",
@@ -2416,18 +2356,6 @@
         "timestamp": "2026-09-28T03:40:51+00:00",
         "coverage": 1,
         "image": ""
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 16,
-        "title": "Teenage Mutant Ninja Turtles Reveals Dark New Shredder Redesign, And He's Now Unstoppable",
-        "summary": "Shredder just became one of the most powerful people in the Teenage Mutant Ninja Turtles universe, but will his reign last forever?",
-        "url": "https://screenrant.com/teenage-mutant-ninja-turtles-shredder-dark-redesign-unstoppable/",
-        "category": "Comics",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T03:35:57+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/teenage-mutant-ninja-turtles-shredder.jpg"
       },
       {
         "source": "Deadline",
@@ -2730,42 +2658,6 @@
         "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/09/GettyImages-2297466713.jpg?w=564"
       },
       {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "Into The Woods presents Objekt and gyrofield at TBA, Los Angeles · チケット",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBMUzlsaGhPLVlHdU1Ja1BjOWx0MkNjM0pKNkRuWDdubzZNLUlZeHFUQnNhZm4tUW5fVXBrVEEtZmpPaUhWdGc?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T01:00:20+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "DJ Godfather, BAE BAE, SYMØNNE at TBA - Downtown LA, Los Angeles · チケット",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5WNmYzWTRLR2tYMm1kNW0tLURzZTRyOHNWT05saC1hSzVIOHNRNmQyWGRZbHRjQXoxUmFveVktRjZXT2VYMGc?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T01:00:19+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "Starstruck All Stars: Nugget, EEVEE, Helloniyx, and v64 at Happyfun Hideaway, New York City ⟋ RA",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1TNHF6cUUzUk9XTklFeUtpcE05OXVacXNWR2hWNy1ueWlsU1JpWmJfZzMzc1pZYUwzQzlYMWJ6RmtUdw?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T00:57:24+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "/Film (SlashFilm)",
         "rank": 18,
         "title": "5 Star Trek: Deep Space Nine Episodes With Great Space Battles",
@@ -2776,30 +2668,6 @@
         "timestamp": "2026-09-28T00:45:00+00:00",
         "coverage": 1,
         "image": "https://www.slashfilm.com/img/gallery/5-star-trek-deep-space-nine-episodes-with-great-space-battles/l-intro-1790175467.jpg"
-      },
-      {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "Sombras at Tangent Gallery, Detroit ⟋ RA チケット",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0xZl9hUUZDUHJLQ0MxYjNLcE9yMDdjcC00bGF4MFJnUFl5eWlyV0VDVmFfa3R2S1g0Ulhpd1VmSXFqa1lva0E?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T00:41:24+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Resident Advisor",
-        "rank": 10,
-        "title": "Puro Putis with Chata, Grungemum, Henry R, Tok.io[Hosted by Tani] at Bossa Nova Civic Club, New York City",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5JR1FoY3JZV1lSZ1dmUXMxODhrdFR1U0hoZDY4OXd3SU9VbUgyNDRsY1A1dkRBVDJoMGx0aUkyZHlaQXp2X0E?oc=5",
-        "category": "News",
-        "date": "2026-09-28",
-        "timestamp": "2026-09-28T00:39:17+00:00",
-        "coverage": 1,
-        "image": ""
       },
       {
         "source": "Variety",
@@ -2944,18 +2812,6 @@
         "timestamp": "2026-09-27T23:26:01+00:00",
         "coverage": 1,
         "image": "https://variety.com/wp-content/uploads/2025/08/Survivor.1.jpg"
-      },
-      {
-        "source": "NME",
-        "rank": 6,
-        "title": "Today’s Wordle answer and hints for #1917 on September 28",
-        "summary": "There's no need to lose your streak - here's the 'Wordle' answer for today The post Today’s Wordle answer and hints for #1917 on September 28 appeared first on NME .",
-        "url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
-        "category": "Gaming Guides",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T23:01:34+00:00",
-        "coverage": 1,
-        "image": "https://www.nme.com/wp-content/uploads/2023/10/Wordle-credit-Jakub-PorzyckiNurPhoto-via-Getty@2000x1270.jpg"
       },
       {
         "source": "/Film (SlashFilm)",
@@ -3318,18 +3174,6 @@
         "image": "https://images.bauerhosting.com/empire/2026/09/jon-watts-star-wars-skeleton-crew.jpg?q=80"
       },
       {
-        "source": "AllMusic",
-        "rank": 9,
-        "title": "C4 Trio — Biography, Discography, Albums & Expert Reviews",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wNTNWUGdPYjVkcUdpeGNUSWVBRktCN0VJbjl2anZtcW1QNTZINVpRUXBlZGwwZ3Q3WmRUMllPa0NmVzg0ckpGMmRkSVhHcmNsUnVHTHRraEZxRmxtVGpXSXlB?oc=5",
-        "category": "News",
-        "date": "2026-09-27",
-        "timestamp": "2026-09-27T13:51:56+00:00",
-        "coverage": 10,
-        "image": ""
-      },
-      {
         "source": "The A.V. Club",
         "rank": 15,
         "title": "What's on TV this week—East Of Eden and War premiere",
@@ -3366,6 +3210,18 @@
         "image": "https://www.avclub.com/wp-content/uploads/2026/09/27/snl-feature.jpg"
       },
       {
+        "source": "Resident Advisor",
+        "rank": 10,
+        "title": "Cult krautrock score to a 1974 Werner Herzog film gets official release · News ⟋ RA",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1TOTZLRjkxUnR3RGZncDQ4WDRQQlBZeFAxUkE4a01oSmdPVVVPTUJMempUNlNOMFRPMEVDag?oc=5",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T08:05:54+00:00",
+        "coverage": 1,
+        "image": ""
+      },
+      {
         "source": "The A.V. Club",
         "rank": 15,
         "title": "Jalen Brunson takes a laid-back and belated victory lap on the season premiere of Saturday Night Live",
@@ -3388,6 +3244,18 @@
         "timestamp": "2026-09-27T06:02:10+00:00",
         "coverage": 1,
         "image": "https://consequence.net/wp-content/uploads/2026/09/Jalen-Brunson-SNL.jpeg?quality=80"
+      },
+      {
+        "source": "Resident Advisor",
+        "rank": 10,
+        "title": "Mix Of The Day: Montero · News ⟋ RA",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1pUDI1STdvTlJWQU9hS2wxXzBnT0VuU0FBeTFVeHNGcmJBNUx2LW1DYU5OT2JxZnFZU2FoMw?oc=5",
+        "category": "News",
+        "date": "2026-09-27",
+        "timestamp": "2026-09-27T05:05:23+00:00",
+        "coverage": 3,
+        "image": ""
       },
       {
         "source": "IndieWire",
@@ -3484,6 +3352,30 @@
         "timestamp": "2026-09-26T14:18:50+00:00",
         "coverage": 1,
         "image": "https://www.indiewire.com/wp-content/uploads/2026/09/GettyImages-2296578221.jpg?w=650"
+      },
+      {
+        "source": "Resident Advisor",
+        "rank": 10,
+        "title": "Apple Music to release new Jeff Mills mix · News ⟋ RA",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE9TRDRhYUpEWW1aVnBnLUdaR0FJV0w1NUdWS0g4UFFqNUczMjNPdEF1MjJRcUlCLUYwT0lQLQ?oc=5",
+        "category": "News",
+        "date": "2026-09-26",
+        "timestamp": "2026-09-26T08:05:07+00:00",
+        "coverage": 1,
+        "image": ""
+      },
+      {
+        "source": "Resident Advisor",
+        "rank": 10,
+        "title": "The latest in electronic dance music · News ⟋ RA",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nR2FGWXVPc3hsSkN0Q2dBS0tDanhOUlRCaHVmMEVvUUFOMldiZkp0bGpIVGotWGN4dEtGOEZxdDYyVEhpS0ZqQVpiN09USlJRMVNyMEFn?oc=5",
+        "category": "News",
+        "date": "2026-09-26",
+        "timestamp": "2026-09-26T06:33:14+00:00",
+        "coverage": 1,
+        "image": ""
       },
       {
         "source": "IndieWire",
@@ -3604,6 +3496,18 @@
         "timestamp": "2026-09-25T16:02:35+00:00",
         "coverage": 1,
         "image": "https://thefilmstage.com/wp-content/uploads/2026/09/once-upon-a-time-in-china-750x313.jpg"
+      },
+      {
+        "source": "Resident Advisor",
+        "rank": 10,
+        "title": "This week's new music: Bicep, Jane Remover, DJ MC · News ⟋ RA",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE9QQVg0Q0dUV1dXSjRjX0VZS2Z6N0M2cnZ0b0J3dXhfLWxrZ3pHNFpYTHB6aW44cnJJSXBlRw?oc=5",
+        "category": "News",
+        "date": "2026-09-25",
+        "timestamp": "2026-09-25T15:40:28+00:00",
+        "coverage": 1,
+        "image": ""
       },
       {
         "source": "Empire",
@@ -3736,6 +3640,102 @@
         "timestamp": "2026-09-25T13:00:00+00:00",
         "coverage": 1,
         "image": "https://thefilmstage.com/wp-content/uploads/2026/09/Oasis-Dont-Look-Back-in-Anger-750x422.jpg"
+      },
+      {
+        "source": "Empire",
+        "rank": 13,
+        "title": "Three Wild Robert Pattinson Movies You Probably Haven’t Seen — And Where To Watch Them",
+        "summary": "The moment his Twilight years ended, Robert Pattinson decided to get weird....",
+        "url": "https://www.empireonline.com/movies/features/three-wild-robert-pattinson-movies-you-probably-havent-seen-and-where-to-watch-them/",
+        "category": "Movies",
+        "date": "2026-09-25",
+        "timestamp": "2026-09-25T12:19:24+00:00",
+        "coverage": 1,
+        "image": "https://images.bauerhosting.com/empire/2026/09/Robert-Pattinson-Weird-Movies.jpg?q=80"
+      },
+      {
+        "source": "Empire",
+        "rank": 13,
+        "title": "Avengers: Endgame Encore: What’s New, And How It Sets Up Doomsday",
+        "summary": "WARNING: Contains spoilers for the Encore re-release of Avengers: Endgame...",
+        "url": "https://www.empireonline.com/movies/features/avengers-endgame-encore-whats-new-and-how-it-sets-up-doomsday/",
+        "category": "Movies",
+        "date": "2026-09-25",
+        "timestamp": "2026-09-25T10:36:09+00:00",
+        "coverage": 1,
+        "image": "https://images.bauerhosting.com/empire/2026/09/Doomsday.jpg?q=80"
+      },
+      {
+        "source": "Resident Advisor",
+        "rank": 10,
+        "title": "This week's top stories: Erol Alkan Trash book, Soul Clap departure, Marcel Dettmann album · News ⟋ RA",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE9ZaDhEdU92QWxVMk92ZjBDTjg1S0hjblNZek5mRlZXWUk1aVJpeF9wX3pCODI0aThaX19XSA?oc=5",
+        "category": "News",
+        "date": "2026-09-25",
+        "timestamp": "2026-09-25T08:03:34+00:00",
+        "coverage": 1,
+        "image": ""
+      },
+      {
+        "source": "Pitchfork",
+        "rank": 5,
+        "title": "Brakence Returns With New Song “Ready or Not”",
+        "summary": "It’s his first solo release since his 2022 album Hypochondriac",
+        "url": "https://pitchfork.com/story/brakence-returns-with-new-song-ready-or-not/",
+        "category": "News",
+        "date": "2026-09-25",
+        "timestamp": "2026-09-25T04:09:19+00:00",
+        "coverage": 1,
+        "image": "https://media.pitchfork.com/photos/6ab5bb023e0766e51cb65a87/master/pass/GettyImages-1591466731.jpg"
+      },
+      {
+        "source": "Pitchfork",
+        "rank": 5,
+        "title": "Taylor Swift Releases Four New Songs",
+        "summary": "The Life of a Showgirl: The Encore is here",
+        "url": "https://pitchfork.com/story/taylor-swift-releases-four-new-songs/",
+        "category": "News",
+        "date": "2026-09-25",
+        "timestamp": "2026-09-25T04:06:42+00:00",
+        "coverage": 1,
+        "image": "https://media.pitchfork.com/photos/6ab40ba6460d9566ff76ef22/master/pass/taylor-swift-new-song-video-patient-zero.jpg"
+      },
+      {
+        "source": "The Film Stage",
+        "rank": 20,
+        "title": "The Best Movies Now Playing in Theaters",
+        "summary": "Looking for what to see in theaters? Our feature, updated weekly, highlights our top recommendations for films currently in theaters, from new releases to restorations receiving a proper theatrical run. While we already…",
+        "url": "https://thefilmstage.com/the-best-movies-now-playing-in-theaters/",
+        "category": "Features",
+        "date": "2026-09-25",
+        "timestamp": "2026-09-25T01:23:32+00:00",
+        "coverage": 1,
+        "image": "https://thefilmstage.com/wp-content/uploads/2026/05/Primetime-1-750x422.jpg"
+      },
+      {
+        "source": "The Film Stage",
+        "rank": 20,
+        "title": "Your Mother Your Mother Your Mother Review: A Hitman Story With Humor",
+        "summary": "Note: This review was originally published as part of our 2026 TIFF coverage. The film opens in theaters on September 25. Latif (Mahershala Ali) is a righteous man. A religious man. He sees himself in a holy war to…",
+        "url": "https://thefilmstage.com/tiff-review-your-mother-your-mother-your-mother-is-a-hitman-story-with-humor/",
+        "category": "Reviews",
+        "date": "2026-09-25",
+        "timestamp": "2026-09-25T01:21:50+00:00",
+        "coverage": 1,
+        "image": "https://thefilmstage.com/wp-content/uploads/2026/09/Your-Mother-Your-Mother-Your-Mother-1-750x422.webp"
+      },
+      {
+        "source": "Resident Advisor",
+        "rank": 10,
+        "title": "New Boys Noize album, 7LLVSION, features Brutalismus 3000, ABRA · News ⟋ RA",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE9GZHBuYjVCTE1LcWxyYTFwNWZjTFl0TU4tZEVybE80WV9Dc3VKc3Jsb2hlX1Aza01YUHRXMA?oc=5",
+        "category": "News",
+        "date": "2026-09-24",
+        "timestamp": "2026-09-24T20:42:39+00:00",
+        "coverage": 1,
+        "image": ""
       }
     ],
     "sources": [
@@ -3869,6 +3869,18 @@
     "tagline": "A digest of the latest news from 20 leading AI portals",
     "news": [
       {
+        "source": "Hugging Face Blog",
+        "rank": 9,
+        "title": "Holo4: powering generalist computer-use agents",
+        "summary": "",
+        "url": "https://huggingface.co/blog/Hcompany/holo4",
+        "category": "News",
+        "date": "2026-09-28",
+        "timestamp": "2026-09-28T09:44:05+00:00",
+        "coverage": 1,
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/69fc7e49052f11ab9931b672/yzjxvlmlZKtjASwAYu6bN.jpeg"
+      },
+      {
         "source": "Unite.AI",
         "rank": 18,
         "title": "NVIDIA Unveils Open Agent Safety Platform Spanning Software to Silicon",
@@ -3937,7 +3949,7 @@
         "category": "News",
         "date": "2026-09-27",
         "timestamp": "2026-09-27T22:56:31+00:00",
-        "coverage": 10,
+        "coverage": 11,
         "image": ""
       },
       {
@@ -4627,6 +4639,18 @@
       {
         "source": "AI Business",
         "rank": 16,
+        "title": "Gemini 3.8 text-to-speech refines voice AI capabilities",
+        "summary": "The features Google introduced build on existing technology and provide enterprises with a hub for all their AI model capabilities.",
+        "url": "https://aibusiness.com/generative-ai/gemini-3-8-text-speech-refines-voice-ai-capabilities",
+        "category": "News",
+        "date": "2026-09-24",
+        "timestamp": "2026-09-24T20:43:48+00:00",
+        "coverage": 1,
+        "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt437ce87350c4d4cc/6ab58bf99aed71cadd6d5629/Google.jpg?width=720&quality=80&disable=upscale"
+      },
+      {
+        "source": "AI Business",
+        "rank": 16,
         "title": "Anthropic, OpenAI launches show shift toward multi-model enterprise AI",
         "summary": "Anthropic and OpenAI released new models this week, expanding the range of models enterprises can use for different workloads and raising new considerations for multi-model management.",
         "url": "https://aibusiness.com/generative-ai/anthropic-openai-launches-shift-multi-model-enterprise-ai",
@@ -4645,7 +4669,7 @@
         "category": "AI",
         "date": "2026-09-24",
         "timestamp": "2026-09-24T19:59:26+00:00",
-        "coverage": 2,
+        "coverage": 1,
         "image": ""
       },
       {
@@ -4880,13 +4904,13 @@
         "source": "Google DeepMind Blog",
         "rank": 8,
         "title": "Advancing Private AI Compute with secure, server-side memory",
-        "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-        "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEdFYzJoT3FDNm8zeG91UWJCQnBxa1pJR1dYVEpUTXpWc3MxaUwwM0UxZXNISTR2MXpGeGQzWFQ5VjBMMDMxX1Zzd2oyOGVSRW9Da3lJcTk1WlFKUTBYOTJEU2Q5Z0Z3UzM3UUtxQWFNX29mNUJoNnE1bnp5dzFlMWpudnAwdkpxTEJRT2I4OFc1VTQ?oc=5",
         "category": "News",
         "date": "2026-09-23",
-        "timestamp": "2026-09-23T16:00:57+00:00",
+        "timestamp": "2026-09-23T16:03:03+00:00",
         "coverage": 1,
-        "image": "https://lh3.googleusercontent.com/CsJavGl89SJwjdXVDdaKtAEpLbqHa_nzOW89VTThwA8rgYr9Gf3CSiUWk18i5thA57k8zhwdwmvf3F2yagtJ-P1ag-9ppxsPXcUe99DRY9asIRP2yA=w528-h297-n-nu-rw-lo"
+        "image": ""
       },
       {
         "source": "OpenAI News",
@@ -4899,18 +4923,6 @@
         "timestamp": "2026-09-23T16:00:00+00:00",
         "coverage": 1,
         "image": ""
-      },
-      {
-        "source": "Google DeepMind Blog",
-        "rank": 8,
-        "title": "Gemini 3.8 text-to-speech says hello",
-        "summary": "",
-        "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-        "category": "News",
-        "date": "2026-09-23",
-        "timestamp": "2026-09-23T15:25:14+00:00",
-        "coverage": 2,
-        "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt437ce87350c4d4cc/6ab58bf99aed71cadd6d5629/Google.jpg?width=720&quality=80&disable=upscale"
       },
       {
         "source": "KDnuggets",
@@ -5055,18 +5067,6 @@
         "timestamp": "2026-09-23T09:00:00+00:00",
         "coverage": 1,
         "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/822e652d-c832-4607-a65e-8833a7c4d992/duel.png?t=1790104287"
-      },
-      {
-        "source": "Stanford HAI News",
-        "rank": 15,
-        "title": "Alexandr Lenk & Arvind Karunakaran | Industry Conversation with Instacart",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWGdwVzdDSXBLRHRMYzRiVTJyOGJ0ZUhJdHM0ZTREY0hFb01KOTJMMU0wd3JnU3VtYlg1X2ZHXzRfM1ZGb2N4dW5nTXZHNFY0eGlLZFhPQnl5NDNpMnBvQUhCOTVNR1VJbXBka1J0NGpqczgybmxqZUQ0Z2VvZEliaENBNHEtYUk1SWN6eXdnUmdwVk9zQUdBRmRfeUtNYW4xeFhN?oc=5",
-        "category": "News",
-        "date": "2026-09-23",
-        "timestamp": "2026-09-23T07:00:00+00:00",
-        "coverage": 1,
-        "image": ""
       },
       {
         "source": "OpenAI News",
@@ -5645,18 +5645,6 @@
         "image": ""
       },
       {
-        "source": "Google DeepMind Blog",
-        "rank": 8,
-        "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-        "summary": "",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-        "category": "News",
-        "date": "2026-09-15",
-        "timestamp": "2026-09-15T17:05:57+00:00",
-        "coverage": 1,
-        "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-8_live___keyword__blog-social.width-1300.png"
-      },
-      {
         "source": "Hugging Face Blog",
         "rank": 9,
         "title": "Your Agent Aced the Task. Will It Do It Again?",
@@ -5667,6 +5655,18 @@
         "timestamp": "2026-09-15T16:00:44+00:00",
         "coverage": 1,
         "image": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/dI5J2sSc3TSprk9VB4EVJ.jpeg"
+      },
+      {
+        "source": "Google AI",
+        "rank": 11,
+        "title": "AI for Societal Impact",
+        "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+        "category": "AI",
+        "date": "2026-09-15",
+        "timestamp": "2026-09-15T16:00:00+00:00",
+        "coverage": 1,
+        "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Health_Header.gif"
       }
     ],
     "sources": [

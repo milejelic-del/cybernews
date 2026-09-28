@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T09:38:53.899897+00:00",
+ "generated_at": "2026-09-28T09:44:18.489249+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -302,13 +302,17 @@
    "name": "CISA",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:cisa.gov+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "previous",
+   "used_url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
-     "url": "https://news.google.com/rss/search?q=site:cisa.gov+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 91 stavki (UA: feedparser)"
+     "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 28 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -437,13 +441,17 @@
    "name": "AllMusic",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:allmusic.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "previous",
+   "used_url": "https://news.google.com/rss/search?q=site:allmusic.com/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
-     "url": "https://news.google.com/rss/search?q=site:allmusic.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "url": "https://www.allmusic.com/newfeatures.xml",
+     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:allmusic.com/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 26 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -452,13 +460,21 @@
    "name": "Resident Advisor",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:ra.co+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "previous",
+   "used_url": "https://news.google.com/rss/search?q=site:ra.co/news+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
-     "url": "https://news.google.com/rss/search?q=site:ra.co+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "url": "https://ra.co/xml/rss.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://ra.co/xml/news.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:ra.co/news+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 68 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -721,14 +737,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 1,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 1 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -743,7 +763,7 @@
    "attempts": [
     {
      "url": "https://huggingface.co/blog/feed.xml",
-     "result": "OK 868 stavki (UA: feedparser)"
+     "result": "OK 869 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -835,13 +855,29 @@
    "name": "Stanford HAI News",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:hai.stanford.edu+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "previous",
+   "used_url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
-     "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 60 stavki (UA: feedparser)"
+     "url": "https://hai.stanford.edu/news/feed",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://hai.stanford.edu/news/rss.xml",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://hai.stanford.edu/rss.xml",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://hai.stanford.edu/news/all/rss",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 28 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
