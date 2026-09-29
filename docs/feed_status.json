@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T19:50:05.603080+00:00",
+ "generated_at": "2026-09-29T23:30:38.699607+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -474,7 +474,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:ra.co/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 70 stavki (UA: feedparser)"
+     "result": "OK 73 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -519,7 +519,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 134 stavki (UA: feedparser)"
+     "result": "OK 136 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -549,7 +549,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 46 stavki (UA: feedparser)"
+     "result": "OK 57 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -873,7 +873,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 32 stavki (UA: feedparser)"
+     "result": "OK 33 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
