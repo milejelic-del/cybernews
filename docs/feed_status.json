@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T21:38:08.013852+00:00",
+ "generated_at": "2026-09-29T01:32:20.515600+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -139,7 +139,7 @@
   {
    "name": "SC Media",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "used_url": "https://www.scworld.com/feed/topic/threat-management",
    "via": "declared",
    "ua": "feedparser",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 11 stavki (UA: feedparser)"
+     "result": "OK 12 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -451,7 +451,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:allmusic.com/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 25 stavki (UA: feedparser)"
+     "result": "OK 24 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -474,7 +474,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:ra.co/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 73 stavki (UA: feedparser)"
+     "result": "OK 74 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -519,7 +519,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 128 stavki (UA: feedparser)"
+     "result": "OK 129 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -729,7 +729,7 @@
    "attempts": [
     {
      "url": "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml",
-     "result": "OK 14 stavki (UA: feedparser)"
+     "result": "OK 15 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -907,7 +907,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 18 stavki (UA: feedparser)"
+     "result": "OK 17 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
