@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T01:32:20.515600+00:00",
+ "generated_at": "2026-09-29T07:59:30.552871+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -312,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 26 stavki (UA: feedparser)"
+     "result": "OK 24 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -451,7 +451,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:allmusic.com/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 23 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -474,7 +474,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:ra.co/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 74 stavki (UA: feedparser)"
+     "result": "OK 66 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -714,7 +714,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1233 stavki (UA: feedparser)"
+     "result": "OK 1235 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -737,14 +737,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 1,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 1 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -767,7 +771,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 7,
+   "items": 8,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -782,7 +786,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 7 stavki (UA: feedparser)"
+     "result": "OK 8 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -907,7 +911,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 17 stavki (UA: feedparser)"
+     "result": "OK 15 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
