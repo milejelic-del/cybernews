@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T14:48:36.105959+00:00",
+ "generated_at": "2026-09-29T19:50:05.603080+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -312,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 32 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -451,7 +451,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:allmusic.com/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -474,7 +474,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:ra.co/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 69 stavki (UA: feedparser)"
+     "result": "OK 70 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -519,7 +519,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 130 stavki (UA: feedparser)"
+     "result": "OK 134 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -714,7 +714,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1235 stavki (UA: feedparser)"
+     "result": "OK 1238 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -767,7 +767,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 7,
+   "items": 8,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -782,7 +782,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 7 stavki (UA: feedparser)"
+     "result": "OK 8 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -873,7 +873,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 30 stavki (UA: feedparser)"
+     "result": "OK 32 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -907,7 +907,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 19 stavki (UA: feedparser)"
+     "result": "OK 18 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
