@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T01:07:43.730325+00:00",
+ "generated_at": "2026-10-01T08:27:10.256007+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -312,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 31 stavki (UA: feedparser)"
+     "result": "OK 29 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -451,7 +451,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:allmusic.com/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 20 stavki (UA: feedparser)"
+     "result": "OK 18 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -474,7 +474,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:ra.co/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 71 stavki (UA: feedparser)"
+     "result": "OK 64 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -873,7 +873,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 34 stavki (UA: feedparser)"
+     "result": "OK 38 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -903,11 +903,11 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); HTTP 403 (browser)"
+     "result": "HTTP 502 (feedparser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 20 stavki (UA: feedparser)"
+     "result": "OK 21 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
