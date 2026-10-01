@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T21:16:44.313473+00:00",
+ "generated_at": "2026-10-01T01:07:43.730325+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -217,19 +217,15 @@
   },
   {
    "name": "BankInfoSecurity",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.bankinfosecurity.com/rssFeeds.php?type=main",
+   "via": "declared",
+   "ua": "identified",
    "attempts": [
     {
      "url": "https://www.bankinfosecurity.com/rssFeeds.php?type=main",
-     "result": "HTTP 429 (feedparser); HTTP 429 (identified); HTTP 403 (browser)"
-    },
-    {
-     "url": "https://www.bankinfosecurity.com/",
-     "result": "trazenje feed-a: HTTP 403"
+     "result": "OK 20 stavki (UA: identified) [pre toga: HTTP 429 (feedparser)]"
     }
    ],
    "tab": "cyber"
@@ -316,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 28 stavki (UA: feedparser)"
+     "result": "OK 31 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -455,7 +451,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:allmusic.com/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 19 stavki (UA: feedparser)"
+     "result": "OK 20 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -553,7 +549,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 57 stavki (UA: feedparser)"
+     "result": "OK 69 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -658,7 +654,7 @@
    "attempts": [
     {
      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-     "result": "OK 20 stavki (UA: feedparser)"
+     "result": "OK 19 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
