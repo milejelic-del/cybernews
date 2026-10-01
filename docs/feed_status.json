@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T16:04:29.533657+00:00",
+ "generated_at": "2026-10-01T21:36:48.134585+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -93,43 +93,15 @@
   },
   {
    "name": "Help Net Security",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.helpnetsecurity.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.helpnetsecurity.com/feed/",
-     "result": "HTTP 301 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/feed",
-     "result": "HTTP 301 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/rss.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/rss/",
-     "result": "HTTP 301 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/rss",
-     "result": "HTTP 301 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/atom.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/index.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/feed.xml",
-     "result": "HTTP 404 (feedparser)"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -340,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 28 stavki (UA: feedparser)"
+     "result": "OK 36 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -479,7 +451,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:allmusic.com/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 21 stavki (UA: feedparser)"
+     "result": "OK 20 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -502,7 +474,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:ra.co/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 69 stavki (UA: feedparser)"
+     "result": "OK 71 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -547,7 +519,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 139 stavki (UA: feedparser)"
+     "result": "OK 142 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -577,7 +549,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 71 stavki (UA: feedparser)"
+     "result": "OK 70 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -742,7 +714,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1240 stavki (UA: feedparser)"
+     "result": "OK 1243 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -765,18 +737,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 2,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 2 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -799,7 +767,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 8,
+   "items": 7,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -814,7 +782,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 8 stavki (UA: feedparser)"
+     "result": "OK 7 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -905,7 +873,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 40 stavki (UA: feedparser)"
+     "result": "OK 41 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -939,7 +907,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 22 stavki (UA: feedparser)"
+     "result": "OK 21 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -948,17 +916,13 @@
    "name": "Unite.AI",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:unite.ai+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "used_url": "https://www.unite.ai/feed/",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.unite.ai/feed/",
-     "result": "HTTP 503 (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:unite.ai+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
