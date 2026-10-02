@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T15:28:07.325349+00:00",
+ "generated_at": "2026-10-02T20:24:58.913243+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 14 stavki (UA: feedparser)"
+     "result": "OK 13 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -519,7 +519,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 146 stavki (UA: feedparser)"
+     "result": "OK 145 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -654,7 +654,7 @@
    "attempts": [
     {
      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-     "result": "OK 19 stavki (UA: feedparser)"
+     "result": "OK 20 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -714,7 +714,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1243 stavki (UA: feedparser)"
+     "result": "OK 1245 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -767,7 +767,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 8,
+   "items": 12,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -782,7 +782,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 8 stavki (UA: feedparser)"
+     "result": "OK 12 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -873,7 +873,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 47 stavki (UA: feedparser)"
+     "result": "OK 52 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -903,11 +903,11 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); HTTP 403 (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 21 stavki (UA: feedparser)"
+     "result": "OK 20 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
