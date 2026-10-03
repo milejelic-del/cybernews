@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T20:24:58.913243+00:00",
+ "generated_at": "2026-10-03T00:12:41.251311+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 13 stavki (UA: feedparser)"
+     "result": "OK 14 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -549,7 +549,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 72 stavki (UA: feedparser)"
+     "result": "OK 68 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -737,14 +737,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 2,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 2 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -873,7 +877,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 52 stavki (UA: feedparser)"
+     "result": "OK 54 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -929,15 +933,47 @@
   },
   {
    "name": "MarkTechPost",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://www.marktechpost.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://www.marktechpost.com/feed/",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.marktechpost.com/",
+     "result": "trazenje feed-a: nista pronadjeno"
+    },
+    {
+     "url": "https://www.marktechpost.com/feed",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.marktechpost.com/rss.xml",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.marktechpost.com/rss/",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.marktechpost.com/rss",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.marktechpost.com/atom.xml",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.marktechpost.com/index.xml",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.marktechpost.com/feed.xml",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     }
    ],
    "tab": "ai"
