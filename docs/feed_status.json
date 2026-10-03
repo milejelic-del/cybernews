@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T12:17:11.212520+00:00",
+ "generated_at": "2026-10-03T17:01:44.135257+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 14 stavki (UA: feedparser)"
+     "result": "OK 15 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -786,7 +786,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 13 stavki (UA: feedparser)"
+     "result": "OK 12 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -808,19 +808,15 @@
   },
   {
    "name": "KDnuggets",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.kdnuggets.com/feed",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.kdnuggets.com/feed",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
-    },
-    {
-     "url": "https://www.kdnuggets.com/",
-     "result": "trazenje feed-a: HTTP 403"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -915,7 +911,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 19 stavki (UA: feedparser)"
+     "result": "OK 18 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
