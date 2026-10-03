@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T17:01:44.135257+00:00",
+ "generated_at": "2026-10-03T20:42:24.829065+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -519,7 +519,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 143 stavki (UA: feedparser)"
+     "result": "OK 140 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -737,18 +737,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 2,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 2 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -786,7 +782,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 12 stavki (UA: feedparser)"
+     "result": "OK 13 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -877,7 +873,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 53 stavki (UA: feedparser)"
+     "result": "OK 52 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
