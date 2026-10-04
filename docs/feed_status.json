@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T15:45:09.648858+00:00",
+ "generated_at": "2026-10-04T19:16:53.821234+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 13 stavki (UA: feedparser)"
+     "result": "OK 12 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 31 stavki (UA: feedparser)"
+     "result": "OK 30 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -737,14 +737,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 2,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 2 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -873,7 +877,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 53 stavki (UA: feedparser)"
+     "result": "OK 52 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -907,7 +911,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 18 stavki (UA: feedparser)"
+     "result": "OK 17 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
