@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T22:50:25.759532+00:00",
+ "generated_at": "2026-10-05T01:41:44.849253+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -312,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 29 stavki (UA: feedparser)"
+     "result": "OK 28 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -387,7 +387,7 @@
    "attempts": [
     {
      "url": "https://pitchfork.com/feed/feed-news/rss",
-     "result": "OK 29 stavki (UA: feedparser)"
+     "result": "OK 30 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -474,7 +474,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:ra.co/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 77 stavki (UA: feedparser)"
+     "result": "OK 78 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -873,7 +873,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 50 stavki (UA: feedparser)"
+     "result": "OK 51 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
