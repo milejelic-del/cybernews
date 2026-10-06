@@ -216,7 +216,7 @@
 <script>
 const DATA = __DATA_JSON__;
 const GENERATED_AT_ISO = "__GENERATED_AT_ISO__";
-const TAB_ORDER = ["cyber", "entertainment", "ai"];
+const TAB_ORDER = ["cyber", "entertainment", "ai", "music"].filter(id => DATA[id]);
 
 // ---------- prikaz vremena azuriranja u lokalnoj vremenskoj zoni uredjaja ----------
 function formatLocalDateTime(iso){
