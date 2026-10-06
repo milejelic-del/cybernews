@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T06:13:02.777418+00:00",
+ "generated_at": "2026-10-06T06:50:07.901718+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -318,24 +318,9 @@
    "tab": "cyber"
   },
   {
-   "name": "BrooklynVegan",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://www.brooklynvegan.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
-   "attempts": [
-    {
-     "url": "https://www.brooklynvegan.com/feed/",
-     "result": "OK 15 stavki (UA: feedparser)"
-    }
-   ],
-   "tab": "entertainment"
-  },
-  {
    "name": "Variety",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -350,7 +335,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 10,
+   "items": 8,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -358,138 +343,6 @@
     {
      "url": "https://www.hollywoodreporter.com/feed/",
      "result": "OK 10 stavki (UA: feedparser)"
-    }
-   ],
-   "tab": "entertainment"
-  },
-  {
-   "name": "PopMatters",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://www.popmatters.com/feed",
-   "via": "declared",
-   "ua": "feedparser",
-   "attempts": [
-    {
-     "url": "https://www.popmatters.com/feed",
-     "result": "OK 200 stavki (UA: feedparser)"
-    }
-   ],
-   "tab": "entertainment"
-  },
-  {
-   "name": "Pitchfork",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://pitchfork.com/feed/feed-news/rss",
-   "via": "declared",
-   "ua": "feedparser",
-   "attempts": [
-    {
-     "url": "https://pitchfork.com/feed/feed-news/rss",
-     "result": "OK 29 stavki (UA: feedparser)"
-    }
-   ],
-   "tab": "entertainment"
-  },
-  {
-   "name": "NME",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://www.nme.com/feed",
-   "via": "declared",
-   "ua": "feedparser",
-   "attempts": [
-    {
-     "url": "https://www.nme.com/feed",
-     "result": "OK 10 stavki (UA: feedparser)"
-    }
-   ],
-   "tab": "entertainment"
-  },
-  {
-   "name": "Consequence",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://consequence.net/feed/",
-   "via": "declared",
-   "ua": "feedparser",
-   "attempts": [
-    {
-     "url": "https://consequence.net/feed/",
-     "result": "OK 15 stavki (UA: feedparser)"
-    }
-   ],
-   "tab": "entertainment"
-  },
-  {
-   "name": "Stereogum",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://www.stereogum.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
-   "attempts": [
-    {
-     "url": "https://www.stereogum.com/feed/",
-     "result": "OK 40 stavki (UA: feedparser)"
-    }
-   ],
-   "tab": "entertainment"
-  },
-  {
-   "name": "AllMusic",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:allmusic.com/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "declared",
-   "ua": "feedparser",
-   "attempts": [
-    {
-     "url": "https://www.allmusic.com/newfeatures.xml",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:allmusic.com/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 22 stavki (UA: feedparser)"
-    }
-   ],
-   "tab": "entertainment"
-  },
-  {
-   "name": "Resident Advisor",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:ra.co/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "declared",
-   "ua": "feedparser",
-   "attempts": [
-    {
-     "url": "https://ra.co/xml/rss.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://ra.co/xml/news.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:ra.co/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 77 stavki (UA: feedparser)"
-    }
-   ],
-   "tab": "entertainment"
-  },
-  {
-   "name": "IndieWire",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://www.indiewire.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
-   "attempts": [
-    {
-     "url": "https://www.indiewire.com/feed/",
-     "result": "OK 12 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -510,16 +363,31 @@
    "tab": "entertainment"
   },
   {
-   "name": "Empire",
+   "name": "IndieWire",
    "ok": true,
    "items": 12,
-   "used_url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-   "via": "previous",
+   "used_url": "https://www.indiewire.com/feed/",
+   "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
-     "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 134 stavki (UA: feedparser)"
+     "url": "https://www.indiewire.com/feed/",
+     "result": "OK 12 stavki (UA: feedparser)"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "TheWrap",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.thewrap.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
+   "attempts": [
+    {
+     "url": "https://www.thewrap.com/feed/",
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -540,46 +408,16 @@
    "tab": "entertainment"
   },
   {
-   "name": "The A.V. Club",
+   "name": "Empire",
    "ok": true,
    "items": 12,
-   "used_url": "https://www.avclub.com/rss",
-   "via": "declared",
+   "used_url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
+   "via": "previous",
    "ua": "feedparser",
    "attempts": [
     {
-     "url": "https://www.avclub.com/rss",
-     "result": "OK 44 stavki (UA: feedparser)"
-    }
-   ],
-   "tab": "entertainment"
-  },
-  {
-   "name": "Screen Rant",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://screenrant.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
-   "attempts": [
-    {
-     "url": "https://screenrant.com/feed/",
-     "result": "OK 10 stavki (UA: feedparser)"
-    }
-   ],
-   "tab": "entertainment"
-  },
-  {
-   "name": "RogerEbert.com",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://www.rogerebert.com/feed",
-   "via": "declared",
-   "ua": "feedparser",
-   "attempts": [
-    {
-     "url": "https://www.rogerebert.com/feed",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
+     "result": "OK 134 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -600,15 +438,158 @@
    "tab": "entertainment"
   },
   {
-   "name": "Little White Lies",
+   "name": "TVLine",
    "ok": true,
-   "items": 10,
-   "used_url": "https://lwlies.com/feed/",
+   "items": 12,
+   "used_url": "https://tvline.com/feed/",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
-     "url": "https://lwlies.com/feed/",
+     "url": "https://tvline.com/feed/",
+     "result": "OK 20 stavki (UA: feedparser)"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Screen Rant",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://screenrant.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
+   "attempts": [
+    {
+     "url": "https://screenrant.com/feed/",
+     "result": "OK 10 stavki (UA: feedparser)"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Den of Geek",
+   "ok": true,
+   "items": 4,
+   "used_url": "https://www.denofgeek.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
+   "attempts": [
+    {
+     "url": "https://www.denofgeek.com/feed/",
+     "result": "OK 10 stavki (UA: feedparser)"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Decider",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://decider.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
+   "attempts": [
+    {
+     "url": "https://decider.com/feed/",
+     "result": "OK 10 stavki (UA: feedparser)"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "ScreenCrush",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://screencrush.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
+   "attempts": [
+    {
+     "url": "https://screencrush.com/feed/",
+     "result": "OK 35 stavki (UA: feedparser)"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "MovieWeb",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://movieweb.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
+   "attempts": [
+    {
+     "url": "https://movieweb.com/feed/",
+     "result": "OK 10 stavki (UA: feedparser)"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "TV Insider",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.tvinsider.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
+   "attempts": [
+    {
+     "url": "https://www.tvinsider.com/feed/",
+     "result": "OK 30 stavki (UA: feedparser)"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Digital Spy",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:digitalspy.com/tv+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
+   "attempts": [
+    {
+     "url": "https://www.digitalspy.com/rss/index.xml",
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://www.digitalspy.com/rss/",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:digitalspy.com/tv+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 100 stavki (UA: feedparser)"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "The A.V. Club",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.avclub.com/rss",
+   "via": "declared",
+   "ua": "feedparser",
+   "attempts": [
+    {
+     "url": "https://www.avclub.com/rss",
+     "result": "OK 44 stavki (UA: feedparser)"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "RogerEbert.com",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.rogerebert.com/feed",
+   "via": "declared",
+   "ua": "feedparser",
+   "attempts": [
+    {
+     "url": "https://www.rogerebert.com/feed",
      "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
@@ -625,6 +606,21 @@
     {
      "url": "https://thefilmstage.com/feed/",
      "result": "OK 12 stavki (UA: feedparser)"
+    }
+   ],
+   "tab": "entertainment"
+  },
+  {
+   "name": "Little White Lies",
+   "ok": true,
+   "items": 10,
+   "used_url": "https://lwlies.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
+   "attempts": [
+    {
+     "url": "https://lwlies.com/feed/",
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -737,14 +733,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 2,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 2 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -759,7 +759,7 @@
    "attempts": [
     {
      "url": "https://huggingface.co/blog/feed.xml",
-     "result": "OK 874 stavki (UA: feedparser)"
+     "result": "OK 875 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -903,7 +903,7 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); HTTP 403 (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
@@ -1216,12 +1216,16 @@
    "name": "Digital Music News",
    "ok": true,
    "items": 12,
-   "used_url": "https://www.digitalmusicnews.com/feed/",
+   "used_url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.digitalmusicnews.com/feed/",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
      "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
