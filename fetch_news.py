@@ -156,7 +156,7 @@ CATEGORIES = [
             {"rank": 17, "name": "Music Business Worldwide", "feeds": ["https://www.musicbusinessworldwide.com/feed/", gnews("musicbusinessworldwide.com")], "site": "https://www.musicbusinessworldwide.com/", "tag": "Music industry deals, labels, and streaming"},
             {"rank": 18, "name": "Digital Music News", "feeds": ["https://www.digitalmusicnews.com/feed/", gnews("digitalmusicnews.com")], "site": "https://www.digitalmusicnews.com/", "tag": "Music technology, streaming, and industry trends"},
             {"rank": 19, "name": "American Songwriter", "feeds": ["https://americansongwriter.com/feed/"], "site": "https://americansongwriter.com/", "tag": "Songwriting, artist interviews, and song stories"},
-            {"rank": 20, "name": "Popjustice", "feeds": ["https://www.popjustice.com/feed/", gnews("popjustice.com")], "site": "https://www.popjustice.com/", "tag": "Pop music news, singles, and charts"},
+            {"rank": 20, "name": "Clash", "feeds": ["https://www.clashmusic.com/feed", "https://www.clashmusic.com/feed/", gnews("clashmusic.com")], "site": "https://www.clashmusic.com/", "tag": "Music news, reviews, and features from the UK and beyond"},
         ],
     },
 ]
