@@ -130,6 +130,35 @@ CATEGORIES = [
             {"rank": 20, "name": "IEEE Spectrum AI",    "feeds": ["https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"], "site": "https://spectrum.ieee.org/artificial-intelligence", "tag": "Technical AI and robotics engineering news"},
         ],
     },
+    {
+        "id": "music",
+        "label": "Music",
+        "has_regulations": False,
+        "has_severity": False,
+        "tagline": "A digest of the latest news from 20 leading music portals",
+        "sources": [
+            {"rank": 1, "name": "Rolling Stone", "feeds": ["https://www.rollingstone.com/music/feed/"], "site": "https://www.rollingstone.com/music/", "tag": "Music news, album reviews, interviews, and charts"},
+            {"rank": 2, "name": "Billboard", "feeds": ["https://www.billboard.com/c/music/feed/", "https://www.billboard.com/feed/"], "site": "https://www.billboard.com/c/music/", "tag": "Charts, music industry news, and artist coverage"},
+            {"rank": 3, "name": "Pitchfork", "feeds": ["https://pitchfork.com/feed/feed-news/rss", "https://pitchfork.com/rss/news/"], "site": "https://pitchfork.com/", "tag": "Music reviews, news, and features"},
+            {"rank": 4, "name": "NME", "feeds": ["https://www.nme.com/feed", "https://www.nme.com/news/music/feed"], "site": "https://www.nme.com/news/music", "tag": "Music news, reviews, and interviews (music stories only)", "only_tags": ["music"]},
+            {"rank": 5, "name": "Stereogum", "feeds": ["https://www.stereogum.com/feed/"], "site": "https://www.stereogum.com/", "tag": "Indie and alternative music news"},
+            {"rank": 6, "name": "Consequence", "feeds": ["https://consequence.net/feed/"], "site": "https://consequence.net/", "tag": "Music news, reviews, and tours (music stories only)", "only_tags": ["music"]},
+            {"rank": 7, "name": "SPIN", "feeds": ["https://www.spin.com/feed/", "https://www.spin.com/new-music/feed/"], "site": "https://www.spin.com/", "tag": "Music news, new releases, and culture"},
+            {"rank": 8, "name": "The FADER", "feeds": ["https://www.thefader.com/feed.rss", "https://feeds.feedburner.com/TheFaderMagazine"], "site": "https://www.thefader.com/music", "tag": "Emerging artists, new music, and interviews"},
+            {"rank": 9, "name": "Mixmag", "feeds": ["https://mixmag.net/rss.xml", "https://mixmag.net/rss-category/news"], "site": "https://mixmag.net/", "tag": "Dance and electronic music news and clubbing"},
+            {"rank": 10, "name": "DJ Mag", "feeds": ["https://djmag.com/feed", "https://djmag.com/rss.xml", gnews("djmag.com/news")], "site": "https://djmag.com/", "tag": "DJ culture, dance music news, and Top 100 DJs"},
+            {"rank": 11, "name": "Loudwire", "feeds": ["https://loudwire.com/feed/"], "site": "https://loudwire.com/", "tag": "Rock and metal news, videos, and interviews"},
+            {"rank": 12, "name": "Ultimate Classic Rock", "feeds": ["https://ultimateclassicrock.com/feed/"], "site": "https://ultimateclassicrock.com/", "tag": "Classic rock news, features, and anniversaries"},
+            {"rank": 13, "name": "XXL", "feeds": ["https://www.xxlmag.com/feed/", gnews("xxlmag.com")], "site": "https://www.xxlmag.com/", "tag": "Hip-hop news, new music, and interviews"},
+            {"rank": 14, "name": "Dancing Astronaut", "feeds": ["https://dancingastronaut.com/feed/"], "site": "https://dancingastronaut.com/", "tag": "Electronic and dance music news and festivals"},
+            {"rank": 15, "name": "Metal Injection", "feeds": ["https://metalinjection.net/feed"], "site": "https://metalinjection.net/", "tag": "Heavy metal news, new releases, and tours"},
+            {"rank": 16, "name": "Alternative Press", "feeds": ["https://www.altpress.com/feed/", gnews("altpress.com")], "site": "https://www.altpress.com/", "tag": "Alternative, punk, and emo music news"},
+            {"rank": 17, "name": "Music Business Worldwide", "feeds": ["https://www.musicbusinessworldwide.com/feed/", gnews("musicbusinessworldwide.com")], "site": "https://www.musicbusinessworldwide.com/", "tag": "Music industry deals, labels, and streaming"},
+            {"rank": 18, "name": "Digital Music News", "feeds": ["https://www.digitalmusicnews.com/feed/", gnews("digitalmusicnews.com")], "site": "https://www.digitalmusicnews.com/", "tag": "Music technology, streaming, and industry trends"},
+            {"rank": 19, "name": "American Songwriter", "feeds": ["https://americansongwriter.com/feed/"], "site": "https://americansongwriter.com/", "tag": "Songwriting, artist interviews, and song stories"},
+            {"rank": 20, "name": "Popjustice", "feeds": ["https://www.popjustice.com/feed/", gnews("popjustice.com")], "site": "https://www.popjustice.com/", "tag": "Pop music news, singles, and charts"},
+        ],
+    },
 ]
 
 MAX_PER_SOURCE = 12           # koliko najnovijih stavki uzimamo po portalu
@@ -546,6 +575,15 @@ def entries_to_items(source, parsed):
     entries = list(parsed.entries)
     if entries and entries[0].get("link", "").startswith("https://news.google.com/"):
         entries.sort(key=lambda e: e.get("published_parsed") or (0,), reverse=True)
+    elif source.get("only_tags"):
+        # Portali koji mesaju teme (npr. muzika + film/TV): zadrzi samo clanke ciji tag
+        # (ili putanja linka) sadrzi trazenu rec, pa se uzima MAX_PER_SOURCE takvih clanaka
+        keys = [k.lower() for k in source["only_tags"]]
+        def _on_topic(e):
+            terms = [(t.get("term") or "").lower() for t in (e.get("tags") or [])]
+            link = (e.get("link") or "").lower()
+            return any(k in t for t in terms for k in keys) or any("/%s/" % k in link for k in keys)
+        entries = [e for e in entries if _on_topic(e)]
     for entry in entries[:MAX_PER_SOURCE]:
         title = clean_text(entry.get("title", "")).strip()
         link = entry.get("link", "").strip()
