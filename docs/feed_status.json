@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T14:16:57.197248+00:00",
+ "generated_at": "2026-10-07T20:26:59.715963+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 15 stavki (UA: feedparser)"
+     "result": "OK 20 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 20 stavki (UA: feedparser)"
+     "result": "OK 21 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -417,7 +417,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 138 stavki (UA: feedparser)"
+     "result": "OK 139 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -470,7 +470,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 2,
+   "items": 4,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -650,7 +650,7 @@
    "attempts": [
     {
      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-     "result": "OK 19 stavki (UA: feedparser)"
+     "result": "OK 20 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -710,7 +710,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1251 stavki (UA: feedparser)"
+     "result": "OK 1254 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -763,7 +763,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -778,7 +778,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "OK 9 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -869,7 +869,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 37 stavki (UA: feedparser)"
+     "result": "OK 39 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -899,7 +899,7 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); HTTP 403 (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
@@ -1031,7 +1031,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 10,
+   "items": 8,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -1212,17 +1212,13 @@
    "name": "Digital Music News",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "used_url": "https://www.digitalmusicnews.com/feed/",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.digitalmusicnews.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 98 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
