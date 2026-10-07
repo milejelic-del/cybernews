@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T20:01:20.725254+00:00",
+ "generated_at": "2026-10-07T00:28:23.170142+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -217,19 +217,15 @@
   },
   {
    "name": "BankInfoSecurity",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.bankinfosecurity.com/rssFeeds.php?type=main",
+   "via": "declared",
+   "ua": "identified",
    "attempts": [
     {
      "url": "https://www.bankinfosecurity.com/rssFeeds.php?type=main",
-     "result": "HTTP 429 (feedparser); HTTP 429 (identified); HTTP 403 (browser)"
-    },
-    {
-     "url": "https://www.bankinfosecurity.com/",
-     "result": "trazenje feed-a: HTTP 403"
+     "result": "OK 20 stavki (UA: identified) [pre toga: HTTP 429 (feedparser)]"
     }
    ],
    "tab": "cyber"
@@ -316,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 26 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -324,7 +320,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 8,
+   "items": 7,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -421,7 +417,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 138 stavki (UA: feedparser)"
+     "result": "OK 137 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -579,7 +575,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 44 stavki (UA: feedparser)"
+     "result": "OK 57 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -714,7 +710,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1250 stavki (UA: feedparser)"
+     "result": "OK 1251 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -907,7 +903,7 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); HTTP 403 (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
@@ -1039,7 +1035,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 10,
+   "items": 11,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -1158,15 +1154,43 @@
   },
   {
    "name": "Dancing Astronaut",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://dancingastronaut.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://dancingastronaut.com/feed/",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/feed",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss/",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/atom.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/index.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/feed.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     }
    ],
    "tab": "music"
@@ -1220,16 +1244,12 @@
    "name": "Digital Music News",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "used_url": "https://www.digitalmusicnews.com/feed/",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.digitalmusicnews.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
      "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
