@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T15:17:59.849330+00:00",
+ "generated_at": "2026-10-08T21:05:24.391811+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 20 stavki (UA: feedparser)"
+     "result": "OK 22 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 29 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -417,7 +417,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 137 stavki (UA: feedparser)"
+     "result": "OK 138 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -470,7 +470,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 2,
+   "items": 4,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -710,7 +710,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1255 stavki (UA: feedparser)"
+     "result": "OK 1257 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -763,7 +763,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -778,7 +778,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "OK 9 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -800,19 +800,15 @@
   },
   {
    "name": "KDnuggets",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.kdnuggets.com/feed",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.kdnuggets.com/feed",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
-    },
-    {
-     "url": "https://www.kdnuggets.com/",
-     "result": "trazenje feed-a: HTTP 403"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -873,7 +869,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 44 stavki (UA: feedparser)"
+     "result": "OK 46 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -907,7 +903,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 23 stavki (UA: feedparser)"
+     "result": "OK 22 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1035,7 +1031,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 10,
+   "items": 12,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
