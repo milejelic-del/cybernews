@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T00:46:18.693871+00:00",
+ "generated_at": "2026-10-08T07:03:21.998261+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -312,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 26 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -320,7 +320,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 5,
+   "items": 9,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -335,7 +335,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 8,
+   "items": 7,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -710,7 +710,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1254 stavki (UA: feedparser)"
+     "result": "OK 1255 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -733,14 +733,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 1,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 1 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -869,7 +873,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 39 stavki (UA: feedparser)"
+     "result": "OK 43 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1001,7 +1005,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1150,47 +1154,15 @@
   },
   {
    "name": "Dancing Astronaut",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 10,
+   "used_url": "https://dancingastronaut.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://dancingastronaut.com/feed/",
-     "result": "HTTP 415 (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/",
-     "result": "trazenje feed-a: HTTP 415"
-    },
-    {
-     "url": "https://dancingastronaut.com/feed",
-     "result": "HTTP 415 (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/rss.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/rss/",
-     "result": "HTTP 415 (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/rss",
-     "result": "HTTP 415 (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/atom.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/index.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/feed.xml",
-     "result": "HTTP 404 (feedparser)"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
