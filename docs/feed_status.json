@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T20:26:59.715963+00:00",
+ "generated_at": "2026-10-08T00:46:18.693871+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -312,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 21 stavki (UA: feedparser)"
+     "result": "OK 26 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -320,7 +320,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 7,
+   "items": 5,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -335,7 +335,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 6,
+   "items": 8,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -575,7 +575,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 55 stavki (UA: feedparser)"
+     "result": "OK 71 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -1031,7 +1031,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 8,
+   "items": 6,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -1150,15 +1150,47 @@
   },
   {
    "name": "Dancing Astronaut",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://dancingastronaut.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://dancingastronaut.com/feed/",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "HTTP 415 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/",
+     "result": "trazenje feed-a: HTTP 415"
+    },
+    {
+     "url": "https://dancingastronaut.com/feed",
+     "result": "HTTP 415 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss/",
+     "result": "HTTP 415 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss",
+     "result": "HTTP 415 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/atom.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/index.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/feed.xml",
+     "result": "HTTP 404 (feedparser)"
     }
    ],
    "tab": "music"
