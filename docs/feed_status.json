@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T21:05:24.391811+00:00",
+ "generated_at": "2026-10-09T01:47:01.780116+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 22 stavki (UA: feedparser)"
+     "result": "OK 21 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -320,7 +320,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 8,
+   "items": 9,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -335,7 +335,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 9,
+   "items": 7,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -575,7 +575,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 71 stavki (UA: feedparser)"
+     "result": "OK 75 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -710,7 +710,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1257 stavki (UA: feedparser)"
+     "result": "OK 1258 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -755,7 +755,7 @@
    "attempts": [
     {
      "url": "https://huggingface.co/blog/feed.xml",
-     "result": "OK 875 stavki (UA: feedparser)"
+     "result": "OK 876 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1001,7 +1001,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 10,
+   "items": 6,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1031,7 +1031,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 12,
+   "items": 9,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
