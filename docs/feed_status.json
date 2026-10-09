@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T08:35:00.800910+00:00",
+ "generated_at": "2026-10-09T15:52:56.456424+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 21 stavki (UA: feedparser)"
+     "result": "OK 22 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -320,7 +320,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 9,
+   "items": 6,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -335,7 +335,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 9,
+   "items": 7,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -417,7 +417,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 138 stavki (UA: feedparser)"
+     "result": "OK 136 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -470,7 +470,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 4,
+   "items": 2,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -575,7 +575,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 75 stavki (UA: feedparser)"
+     "result": "OK 83 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -710,7 +710,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1258 stavki (UA: feedparser)"
+     "result": "OK 1259 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -733,14 +733,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 1,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 1 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -763,7 +767,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -778,7 +782,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 4 stavki (UA: feedparser)"
+     "result": "OK 5 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -869,7 +873,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 46 stavki (UA: feedparser)"
+     "result": "OK 51 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -899,7 +903,7 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); HTTP 403 (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
@@ -1001,7 +1005,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 3,
+   "items": 8,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1031,7 +1035,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -1212,12 +1216,16 @@
    "name": "Digital Music News",
    "ok": true,
    "items": 12,
-   "used_url": "https://www.digitalmusicnews.com/feed/",
+   "used_url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.digitalmusicnews.com/feed/",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
      "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
