@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T01:47:01.780116+00:00",
+ "generated_at": "2026-10-09T08:35:00.800910+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -335,7 +335,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 7,
+   "items": 9,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -763,7 +763,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 9,
+   "items": 4,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -778,7 +778,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 9 stavki (UA: feedparser)"
+     "result": "OK 4 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -903,7 +903,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 22 stavki (UA: feedparser)"
+     "result": "OK 21 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -993,7 +993,7 @@
    "attempts": [
     {
      "url": "https://pitchfork.com/feed/feed-news/rss",
-     "result": "OK 29 stavki (UA: feedparser)"
+     "result": "OK 30 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
@@ -1001,7 +1001,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 6,
+   "items": 3,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1031,7 +1031,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 9,
+   "items": 11,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
