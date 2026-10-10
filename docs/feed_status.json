@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T06:45:02.822571+00:00",
+ "generated_at": "2026-10-10T13:20:35.035534+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -312,7 +312,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 29 stavki (UA: feedparser)"
+     "result": "OK 30 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -320,7 +320,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -417,7 +417,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 138 stavki (UA: feedparser)"
+     "result": "OK 136 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -575,7 +575,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 84 stavki (UA: feedparser)"
+     "result": "OK 86 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -767,7 +767,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -782,7 +782,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 11 stavki (UA: feedparser)"
+     "result": "OK 13 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -873,7 +873,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 53 stavki (UA: feedparser)"
+     "result": "OK 57 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
