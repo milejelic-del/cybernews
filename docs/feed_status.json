@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T00:31:46.880803+00:00",
+ "generated_at": "2026-10-10T06:45:02.822571+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -320,7 +320,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -335,7 +335,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 7,
+   "items": 9,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -733,14 +733,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 1,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 1 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -869,7 +873,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 55 stavki (UA: feedparser)"
+     "result": "OK 53 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1001,7 +1005,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 9,
+   "items": 6,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
