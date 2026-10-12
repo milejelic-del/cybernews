@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T23:34:51.793727+00:00",
+ "generated_at": "2026-10-12T04:48:51.138019+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 33 stavki (UA: feedparser)"
+     "result": "OK 34 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -320,7 +320,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 6,
+   "items": 10,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -335,7 +335,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 8,
+   "items": 7,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -869,7 +869,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 58 stavki (UA: feedparser)"
+     "result": "OK 59 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
