@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T21:36:43.122334+00:00",
+ "generated_at": "2026-10-13T02:53:16.518419+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 35 stavki (UA: feedparser)"
+     "result": "OK 34 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -304,7 +304,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 27 stavki (UA: feedparser)"
+     "result": "OK 28 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +312,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 8,
+   "items": 9,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -327,7 +327,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 8,
+   "items": 6,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -409,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 130 stavki (UA: feedparser)"
+     "result": "OK 131 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -461,8 +461,8 @@
   },
   {
    "name": "Den of Geek",
-   "ok": false,
-   "items": 0,
+   "ok": true,
+   "items": 1,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -725,18 +725,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 1,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 1 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -997,7 +993,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 5,
+   "items": 3,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1027,7 +1023,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 9,
+   "items": 8,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
