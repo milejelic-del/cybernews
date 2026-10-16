@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T21:59:36.247639+00:00",
+ "generated_at": "2026-10-16T00:16:31.830004+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 54 stavki (UA: feedparser)"
+     "result": "OK 50 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +312,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -327,7 +327,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 7,
+   "items": 6,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -409,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 136 stavki (UA: feedparser)"
+     "result": "OK 137 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -751,7 +751,7 @@
    "attempts": [
     {
      "url": "https://huggingface.co/blog/feed.xml",
-     "result": "OK 880 stavki (UA: feedparser)"
+     "result": "OK 879 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -759,7 +759,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 4,
+   "items": 6,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -774,7 +774,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 4 stavki (UA: feedparser)"
+     "result": "OK 6 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -865,7 +865,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 65 stavki (UA: feedparser)"
+     "result": "OK 66 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -899,7 +899,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 20 stavki (UA: feedparser)"
+     "result": "OK 19 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
