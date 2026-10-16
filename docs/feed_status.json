@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T10:54:47.813930+00:00",
+ "generated_at": "2026-10-16T15:17:04.212296+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 50 stavki (UA: feedparser)"
+     "result": "OK 49 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +312,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 8,
+   "items": 6,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -462,7 +462,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 5,
+   "items": 2,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -725,14 +725,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 2,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 2 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -747,7 +751,7 @@
    "attempts": [
     {
      "url": "https://huggingface.co/blog/feed.xml",
-     "result": "OK 879 stavki (UA: feedparser)"
+     "result": "OK 880 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -755,7 +759,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -770,7 +774,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 5 stavki (UA: feedparser)"
+     "result": "OK 4 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -891,11 +895,11 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 19 stavki (UA: feedparser)"
+     "result": "OK 17 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -993,7 +997,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 4,
+   "items": 9,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1204,17 +1208,13 @@
    "name": "Digital Music News",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "used_url": "https://www.digitalmusicnews.com/feed/",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.digitalmusicnews.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 93 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
