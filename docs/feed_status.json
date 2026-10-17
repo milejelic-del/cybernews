@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T06:41:09.119347+00:00",
+ "generated_at": "2026-10-17T11:27:16.037870+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -409,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 141 stavki (UA: feedparser)"
+     "result": "OK 139 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -567,7 +567,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 72 stavki (UA: feedparser)"
+     "result": "OK 74 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -895,7 +895,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 22 stavki (UA: feedparser)"
+     "result": "OK 21 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -993,7 +993,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 5,
+   "items": 6,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
