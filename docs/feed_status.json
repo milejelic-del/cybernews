@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T01:08:49.126266+00:00",
+ "generated_at": "2026-10-17T06:41:09.119347+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -304,7 +304,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 23 stavki (UA: feedparser)"
+     "result": "OK 24 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -327,7 +327,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -702,7 +702,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1298 stavki (UA: feedparser)"
+     "result": "OK 1299 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -861,7 +861,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 62 stavki (UA: feedparser)"
+     "result": "OK 60 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -895,7 +895,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 21 stavki (UA: feedparser)"
+     "result": "OK 22 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1023,7 +1023,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 9,
+   "items": 8,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
