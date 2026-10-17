@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T22:38:11.085466+00:00",
+ "generated_at": "2026-10-17T01:08:49.126266+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -327,7 +327,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 7,
+   "items": 5,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -702,7 +702,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1297 stavki (UA: feedparser)"
+     "result": "OK 1298 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -895,7 +895,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 19 stavki (UA: feedparser)"
+     "result": "OK 21 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -993,7 +993,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 9,
+   "items": 5,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
