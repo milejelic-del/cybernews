@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T03:30:03.591824+00:00",
+ "generated_at": "2026-10-18T08:39:06.889515+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -304,7 +304,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +312,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 7,
+   "items": 6,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -409,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 132 stavki (UA: feedparser)"
+     "result": "OK 131 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -717,18 +717,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 2,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 2 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -751,7 +747,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -766,7 +762,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 12 stavki (UA: feedparser)"
+     "result": "OK 11 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -857,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 60 stavki (UA: feedparser)"
+     "result": "OK 61 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1080,21 +1076,13 @@
    "name": "DJ Mag",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:djmag.com/news+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "used_url": "https://djmag.com/feed",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://djmag.com/feed",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://djmag.com/rss.xml",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:djmag.com/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "OK 30 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
