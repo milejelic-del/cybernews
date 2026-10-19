@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T22:50:52.565811+00:00",
+ "generated_at": "2026-10-19T00:54:08.473295+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -312,7 +312,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 9,
+   "items": 8,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -853,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 53 stavki (UA: feedparser)"
+     "result": "OK 51 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
