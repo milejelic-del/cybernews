@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T07:11:42.404451+00:00",
+ "generated_at": "2026-10-21T13:32:40.366534+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -304,7 +304,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 28 stavki (UA: feedparser)"
+     "result": "OK 29 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +312,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 7,
+   "items": 8,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -327,7 +327,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 8,
+   "items": 4,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -409,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 139 stavki (UA: feedparser)"
+     "result": "OK 137 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -462,7 +462,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 5,
+   "items": 1,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -598,12 +598,16 @@
    "name": "Little White Lies",
    "ok": true,
    "items": 10,
-   "used_url": "https://lwlies.com/feed/",
-   "via": "declared",
+   "used_url": "https://www.lwlies.com/feed.rss",
+   "via": "discovered",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://lwlies.com/feed/",
+     "result": "HTTP 503 (feedparser)"
+    },
+    {
+     "url": "https://www.lwlies.com/feed.rss",
      "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
@@ -694,7 +698,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1303 stavki (UA: feedparser)"
+     "result": "OK 1304 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -717,14 +721,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 2,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 2 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -853,7 +861,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 58 stavki (UA: feedparser)"
+     "result": "OK 55 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -883,11 +891,11 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
+     "result": "HTTP 502 (feedparser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 26 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -985,7 +993,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1015,7 +1023,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
