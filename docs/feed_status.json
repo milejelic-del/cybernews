@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T18:22:44.378067+00:00",
+ "generated_at": "2026-10-22T22:12:06.869133+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -304,7 +304,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 43 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -327,7 +327,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -409,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 137 stavki (UA: feedparser)"
+     "result": "OK 135 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -462,7 +462,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -551,15 +551,19 @@
   },
   {
    "name": "The A.V. Club",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://www.avclub.com/rss",
+   "ok": false,
+   "items": 0,
+   "used_url": "https://www.avclub.com/feed/rss",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 71 stavki (UA: feedparser)"
+     "result": "HTTP 525 (feedparser)"
+    },
+    {
+     "url": "https://www.avclub.com/feed/rss",
+     "result": "OK 1 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -694,7 +698,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1314 stavki (UA: feedparser)"
+     "result": "OK 1315 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -747,7 +751,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 7,
+   "items": 8,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -762,7 +766,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 7 stavki (UA: feedparser)"
+     "result": "OK 8 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -853,7 +857,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 59 stavki (UA: feedparser)"
+     "result": "OK 66 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1134,15 +1138,47 @@
   },
   {
    "name": "Dancing Astronaut",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://dancingastronaut.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://dancingastronaut.com/feed/",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "HTTP 415 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/",
+     "result": "trazenje feed-a: HTTP 415"
+    },
+    {
+     "url": "https://dancingastronaut.com/feed",
+     "result": "HTTP 415 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss/",
+     "result": "HTTP 415 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss",
+     "result": "HTTP 415 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/atom.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/index.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/feed.xml",
+     "result": "HTTP 404 (feedparser)"
     }
    ],
    "tab": "music"
