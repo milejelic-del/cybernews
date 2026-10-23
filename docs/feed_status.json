@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T22:12:06.869133+00:00",
+ "generated_at": "2026-10-23T01:21:14.420383+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 56 stavki (UA: feedparser)"
+     "result": "OK 58 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -327,7 +327,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 7,
+   "items": 8,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -409,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 135 stavki (UA: feedparser)"
+     "result": "OK 136 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -551,19 +551,15 @@
   },
   {
    "name": "The A.V. Club",
-   "ok": false,
-   "items": 0,
-   "used_url": "https://www.avclub.com/feed/rss",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.avclub.com/rss",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "HTTP 525 (feedparser)"
-    },
-    {
-     "url": "https://www.avclub.com/feed/rss",
-     "result": "OK 1 stavki (UA: feedparser)"
+     "result": "OK 74 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -743,7 +739,7 @@
    "attempts": [
     {
      "url": "https://huggingface.co/blog/feed.xml",
-     "result": "OK 888 stavki (UA: feedparser)"
+     "result": "OK 889 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -788,15 +784,19 @@
   },
   {
    "name": "KDnuggets",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://www.kdnuggets.com/feed",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://www.kdnuggets.com/feed",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+    },
+    {
+     "url": "https://www.kdnuggets.com/",
+     "result": "trazenje feed-a: HTTP 403"
     }
    ],
    "tab": "ai"
@@ -857,7 +857,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 66 stavki (UA: feedparser)"
+     "result": "OK 60 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -891,7 +891,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 20 stavki (UA: feedparser)"
+     "result": "OK 18 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1146,39 +1146,35 @@
    "attempts": [
     {
      "url": "https://dancingastronaut.com/feed/",
-     "result": "HTTP 415 (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/",
-     "result": "trazenje feed-a: HTTP 415"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     },
     {
      "url": "https://dancingastronaut.com/feed",
-     "result": "HTTP 415 (feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     },
     {
      "url": "https://dancingastronaut.com/rss.xml",
-     "result": "HTTP 404 (feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     },
     {
      "url": "https://dancingastronaut.com/rss/",
-     "result": "HTTP 415 (feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     },
     {
      "url": "https://dancingastronaut.com/rss",
-     "result": "HTTP 415 (feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     },
     {
      "url": "https://dancingastronaut.com/atom.xml",
-     "result": "HTTP 404 (feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     },
     {
      "url": "https://dancingastronaut.com/index.xml",
-     "result": "HTTP 404 (feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     },
     {
      "url": "https://dancingastronaut.com/feed.xml",
-     "result": "HTTP 404 (feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     }
    ],
    "tab": "music"
