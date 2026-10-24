@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T20:24:05.059075+00:00",
+ "generated_at": "2026-10-24T22:57:46.851768+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 58 stavki (UA: feedparser)"
+     "result": "OK 46 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +312,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 6,
+   "items": 8,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -551,19 +551,15 @@
   },
   {
    "name": "The A.V. Club",
-   "ok": false,
-   "items": 0,
-   "used_url": "https://www.avclub.com/feed/rss",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://www.avclub.com/rss",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "HTTP 525 (feedparser)"
-    },
-    {
-     "url": "https://www.avclub.com/feed/rss",
-     "result": "OK 1 stavki (UA: feedparser)"
+     "result": "OK 63 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -857,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 86 stavki (UA: feedparser)"
+     "result": "OK 87 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -887,11 +883,11 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 26 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
