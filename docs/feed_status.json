@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T17:55:23.759752+00:00",
+ "generated_at": "2026-10-24T20:24:05.059075+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 59 stavki (UA: feedparser)"
+     "result": "OK 58 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -304,7 +304,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 40 stavki (UA: feedparser)"
+     "result": "OK 39 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +312,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 8,
+   "items": 6,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -409,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 129 stavki (UA: feedparser)"
+     "result": "OK 127 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -551,15 +551,19 @@
   },
   {
    "name": "The A.V. Club",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://www.avclub.com/rss",
+   "ok": false,
+   "items": 0,
+   "used_url": "https://www.avclub.com/feed/rss",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 72 stavki (UA: feedparser)"
+     "result": "HTTP 525 (feedparser)"
+    },
+    {
+     "url": "https://www.avclub.com/feed/rss",
+     "result": "OK 1 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
