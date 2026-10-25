@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T22:57:46.851768+00:00",
+ "generated_at": "2026-10-25T00:56:22.173007+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -304,7 +304,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 39 stavki (UA: feedparser)"
+     "result": "OK 40 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -853,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 87 stavki (UA: feedparser)"
+     "result": "OK 86 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -883,11 +883,11 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 25 stavki (UA: feedparser)"
+     "result": "OK 26 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
