@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T14:53:02.346477+00:00",
+ "generated_at": "2026-10-25T18:13:16.945767+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -304,7 +304,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 39 stavki (UA: feedparser)"
+     "result": "OK 42 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -327,7 +327,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -409,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 123 stavki (UA: feedparser)"
+     "result": "OK 122 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -853,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 84 stavki (UA: feedparser)"
+     "result": "OK 87 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
