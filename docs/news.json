@@ -14,7 +14,7 @@
         "url": "https://www.bankinfosecurity.com/webinars/higher-education-how-universities-turn-security-awareness-into-action-w-7449",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:48:23.540681+00:00",
+        "timestamp": "2026-10-25T10:54:43.474791+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -26,7 +26,7 @@
         "url": "https://www.bankinfosecurity.com/webinars/live-webinar-hurtling-toward-cybersecurity-crisis-hidden-ai-risks-w-7467",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:48:23.540671+00:00",
+        "timestamp": "2026-10-25T10:54:43.474776+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -38,7 +38,7 @@
         "url": "https://www.bankinfosecurity.com/webinars/webinar-how-attackers-exploit-identity-blind-spots-what-to-remediate-w-7469",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:48:23.540658+00:00",
+        "timestamp": "2026-10-25T10:54:43.474759+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -50,7 +50,7 @@
         "url": "https://www.bankinfosecurity.com/webinars/live-webinar-who-controls-ai-agents-once-theyre-running-inside-your-w-7470",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:48:23.540647+00:00",
+        "timestamp": "2026-10-25T10:54:43.474743+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -62,7 +62,7 @@
         "url": "https://www.bankinfosecurity.com/agency-releases/fdic-supervisory-approach-to-payment-processing-relationships-r-2802",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:48:23.540636+00:00",
+        "timestamp": "2026-10-25T10:54:43.474728+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -74,7 +74,7 @@
         "url": "https://www.bankinfosecurity.com/agency-releases/fdic-institutions-encouraged-to-work-borrowers-impacted-by-r-2804",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:48:23.540605+00:00",
+        "timestamp": "2026-10-25T10:54:43.474686+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -86,7 +86,7 @@
         "url": "https://www.bankinfosecurity.com/agency-releases/fdic-issues-guidance-to-areas-in-illinois-impacted-by-severe-r-2805",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:48:23.540590+00:00",
+        "timestamp": "2026-10-25T10:54:43.474666+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -98,7 +98,7 @@
         "url": "https://www.bankinfosecurity.com/ismg-editors-stolen-vendor-api-secret-exposes-microsoft-365-a-33195",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:48:23.540569+00:00",
+        "timestamp": "2026-10-25T10:54:43.474638+00:00",
         "coverage": 1,
         "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/ismg-editors-stolen-vendor-api-secret-exposes-microsoft-365-image_small-8-a-33195.jpg"
       },
@@ -110,7 +110,7 @@
         "url": "https://www.bankinfosecurity.com/hr-belongs-at-center-ai-change-a-33196",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:48:23.540544+00:00",
+        "timestamp": "2026-10-25T10:54:43.474603+00:00",
         "coverage": 1,
         "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/hr-belongs-at-center-ai-change-image_small-7-a-33196.jpg"
       },
@@ -122,7 +122,7 @@
         "url": "https://www.bankinfosecurity.com/openai-agents-disable-their-own-safety-monitoring-a-33197",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:48:23.540515+00:00",
+        "timestamp": "2026-10-25T10:54:43.474560+00:00",
         "coverage": 1,
         "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/openai-agents-disable-their-own-safety-monitoring-image_small-2-a-33197.jpg"
       },
@@ -134,9 +134,45 @@
         "url": "https://www.bankinfosecurity.com/analysts-urge-us-to-follow-uks-lead-on-undersea-cable-law-a-33198",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:48:23.540447+00:00",
+        "timestamp": "2026-10-25T10:54:43.474490+00:00",
         "coverage": 1,
         "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/analysts-urge-us-to-follow-uks-lead-on-undersea-cable-law-image_small-2-a-33198.jpg"
+      },
+      {
+        "source": "Security Affairs",
+        "rank": 13,
+        "title": "OpenAI Paused Frontier AI Training After a Security Incident",
+        "summary": "OpenAI paused frontier model training for 11 days after AI agents exposed security weaknesses, VM escapes and covert communication channels. OpenAI published a detailed report this week explaining how it improved…",
+        "url": "https://securityaffairs.com/201673/ai/openai-paused-frontier-ai-training-after-a-security-incident.html",
+        "category": "Artificial Intelligence",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:56:32+00:00",
+        "coverage": 1,
+        "image": "https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/10/image-57.png?resize=1024%2C527&ssl=1"
+      },
+      {
+        "source": "Help Net Security",
+        "rank": 7,
+        "title": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
+        "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A critical PHP security release is coming today, so get ready to update! The PHP security team has announced an urgent…",
+        "url": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
+        "category": "News",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:00:56+00:00",
+        "coverage": 1,
+        "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/03/25124832/cybersecurity-week-review-2-1500.webp"
+      },
+      {
+        "source": "The Hacker News",
+        "rank": 6,
+        "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+        "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current…",
+        "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+        "category": "News",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T06:54:29+00:00",
+        "coverage": 1,
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSwuCxStjU_WIIOJ5dEqVxFVQeLfJevQdmLoYLBiXsduAvosK7VfzyduIRRmiOcpl2lQlSdEoInwRkfOnR4devMGT6oI_Limrjcx8yLFsTRau7CBK76cGIMXxC916OKHtwALlELG-nPljBDVIPl2aPDOZTYqkTr6AyZMyFQ6hwUFdfx5Tr2cz8KpDSlb9j/s1600/ai-agents.jpg"
       },
       {
         "source": "TechCrunch Security",
@@ -171,7 +207,7 @@
         "category": "Breaking News",
         "date": "2026-10-24",
         "timestamp": "2026-10-24T16:53:59+00:00",
-        "coverage": 4,
+        "coverage": 2,
         "image": "https://securityaffairs.com/wp-content/uploads/2020/07/CISA.jpeg"
       },
       {
@@ -751,18 +787,6 @@
         "image": "https://www.securityweek.com/wp-content/uploads/2024/06/PHP.jpeg"
       },
       {
-        "source": "CISA",
-        "rank": 20,
-        "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T12:00:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "Help Net Security",
         "rank": 7,
         "title": "Microsoft 365 accounts compromised at 79 organizations, no passwords needed",
@@ -965,18 +989,6 @@
         "timestamp": "2026-10-23T09:57:42+00:00",
         "coverage": 1,
         "image": "https://media.cybernews.com/2024/12/hinton-ai-godfather.jpg"
-      },
-      {
-        "source": "The Hacker News",
-        "rank": 6,
-        "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-        "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow…",
-        "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T09:36:00+00:00",
-        "coverage": 1,
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGp9s38cCmrESabSZezAPkJaYoavpBM8Ehckei0ZrhKfBSoSXMyrWkzooakGExz1GBYVgi0izvW8wyKH2CEX7vpzLExRkK7uNW8wDdMzJ_k7NR8u6q-WA9e8Aoc19LNfJbFKgB6GkbAKbXW69_lOdM4sz4t5fmpKsLxHWKJPOugq5g_45Q5_WmCm_vA6U/s1600/python-image.jpg"
       },
       {
         "source": "Cybernews",
@@ -1217,18 +1229,6 @@
         "timestamp": "2026-10-22T20:52:00+00:00",
         "coverage": 1,
         "image": "https://cms.therecord.media/uploads/Toronto_Police_PP_13cea6d12f.jpg"
-      },
-      {
-        "source": "Security Affairs",
-        "rank": 13,
-        "title": "Microsoft Links ConnectWise Breach to China-Linked Group Using AI Pentesting Tool ARTEX",
-        "summary": "China-linked Storm-0940 used AI tool ARTEX to target 2,250 Microsoft 365 tenants, exploiting stolen ConnectWise credentials at machine speed. Microsoft published a detailed technical report naming Storm-0940, a China…",
-        "url": "https://securityaffairs.com/201501/apt/microsoft-links-connectwise-breach-to-china-linked-group-using-ai-pentesting-tool-artex.html",
-        "category": "APT",
-        "date": "2026-10-22",
-        "timestamp": "2026-10-22T20:47:34+00:00",
-        "coverage": 1,
-        "image": "https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/10/image-54.png?resize=975%2C645&ssl=1"
       },
       {
         "source": "Dark Reading",
@@ -1519,102 +1519,6 @@
         "image": "https://assets.infosecurity-magazine.com/webpage/og/b92850ba-e579-49e6-8508-1e699a555609.jpg"
       },
       {
-        "source": "Help Net Security",
-        "rank": 7,
-        "title": "OpenAI’s coding agents talked themselves out of being monitored",
-        "summary": "Two AI coding agents running inside OpenAI silently weakened the systems built to catch AI misbehavior, and one of them then told its human operator it had done no such thing. OpenAI disclosed both episodes in a…",
-        "url": "https://www.helpnetsecurity.com/2026/10/22/openai-agents-disabled-safety-monitoring/",
-        "category": "Don't miss",
-        "date": "2026-10-22",
-        "timestamp": "2026-10-22T12:47:42+00:00",
-        "coverage": 1,
-        "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/19090245/ai-bot-login-human-1500.webp"
-      },
-      {
-        "source": "CISA",
-        "rank": 20,
-        "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92Y2oxUlF2TUh6Q05oZF9fay1YSEttSmRacXVodmRPSm5OQ0J2Tk0wM0I5Nm8zTU9qUXZfTmNiaTh5RE9OalZYNUpHQkt2Tm0yMGs1YUNXM2RIMENnYTBaM3VtYnRkZDJFYll3bzR4SQ?oc=5",
-        "category": "News",
-        "date": "2026-10-22",
-        "timestamp": "2026-10-22T12:00:00+00:00",
-        "coverage": 2,
-        "image": ""
-      },
-      {
-        "source": "CISA",
-        "rank": 20,
-        "title": "Siemens WinCC",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1FOHhsWlFKZEdVS1gxTjNXdzRaeVR0YWpCZmppYnZONm9IUzhndnVNWVlNelNCaDMyZlhMY3g4YzVFcDk2ZHo0Nm9rNnREX2V2dVFwTHZVYzk2V2FsdF96WGFlUHJHb1FPeGZMelAxRQ?oc=5",
-        "category": "News",
-        "date": "2026-10-22",
-        "timestamp": "2026-10-22T12:00:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "CISA",
-        "rank": 20,
-        "title": "Siemens SIMATIC S7 Webserver API",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XQW5YQ01RaE9lZ05uMGMzYVN2cG5uYWRIOXRwODVTaXNmRUxsOF9wZjczajhrcFBTekZXZFVkbENWYnNWWmtqNGNPcFRmRzlHUjJoSzdFVTktTFZpQkJzMjctME1PeDNwSTM4T09ENA?oc=5",
-        "category": "News",
-        "date": "2026-10-22",
-        "timestamp": "2026-10-22T12:00:00+00:00",
-        "coverage": 2,
-        "image": ""
-      },
-      {
-        "source": "CISA",
-        "rank": 20,
-        "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11cWN4SHdrM1lqRlJVcmtQampnaGdTcXRwRnFjdTBvOGRZOG9FZlkwX09YU18ta3FvczNzNktVQjBfcEYtN1pZV004aF8tNTRNVmJNRGdJamdNTTk3eG5vanNaTFlNNk9qR1JUUzhXQQ?oc=5",
-        "category": "News",
-        "date": "2026-10-22",
-        "timestamp": "2026-10-22T12:00:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "CISA",
-        "rank": 20,
-        "title": "InterSystems Corporation InterSystems IRIS for Health",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNb2RsdWxibkNYeWtOOXc5ckFmSHdvbGFjZ0UyeGNlV1BEZ3dSRmh3ZThNeEZHR2xVcHg5V0NLTVB6akV1VDh5RFJXZDh5TEc0V3ZOSURMYU1aV3E1eUJWb29xZHNyRnplTV9yMzJfM2t4WWt0blhGSkdtVE45ZG8zTQ?oc=5",
-        "category": "News",
-        "date": "2026-10-22",
-        "timestamp": "2026-10-22T12:00:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "CISA",
-        "rank": 20,
-        "title": "Siemens Software Center",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1uLUtzT3NVODJVTTFkTDFDSmtuSFJRa3JUaVlQakhWTFpoa3AyMnM4eWlWbE9NMVUxb1c4RjVoeTVwNzduaWw5cDlWODV4UTU0RVk3R2NHMjBWRG5POS1YVWd2Vl9ybmc2LXhIaURKdw?oc=5",
-        "category": "News",
-        "date": "2026-10-22",
-        "timestamp": "2026-10-22T12:00:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "CISA",
-        "rank": 20,
-        "title": "Siemens Industrial Edge App Publisher",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QeDdWNFNvR04yc2RSQVlDeThmaHkyOEtJWGRGS1ZOUjBZUVV6Z29tVWZrRzhKaEt4emYwWHBVV2gyYWQ0WC1IYlRfMmZFcV9udEVrTS1PWHQ5TVFyamdjUmkxSi1vOVoxTGpWMHdGTQ?oc=5",
-        "category": "News",
-        "date": "2026-10-22",
-        "timestamp": "2026-10-22T12:00:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "CSO Online",
         "rank": 12,
         "title": "China-linked hackers used agentic AI in attack on 2,250 Microsoft 365 tenants",
@@ -1805,6 +1709,102 @@
         "timestamp": "2026-10-21T15:00:00+00:00",
         "coverage": 1,
         "image": "https://assets.infosecurity-magazine.com/webpage/og/0b81a1c4-5d4b-470a-9ad8-aac04313a2a1.jpg"
+      },
+      {
+        "source": "WIRED Security",
+        "rank": 18,
+        "title": "‘This Is Not a Drill’: Critical PHP Vulnerabilities Are Setting the Internet on Fire",
+        "summary": "The PHP Foundation has revealed two serious vulnerabilities that could impact millions of websites. Security experts warn that failure to quickly patch the flaws could have dire consequences.",
+        "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
+        "category": "Security",
+        "date": "2026-10-21",
+        "timestamp": "2026-10-21T14:26:19+00:00",
+        "coverage": 1,
+        "image": "https://media.wired.com/photos/6ad8c3e67fa1a6118ccee121/master/pass/102126-PHP.jpg"
+      },
+      {
+        "source": "Cybersecurity Dive",
+        "rank": 14,
+        "title": "Critical PHP vulnerabilities expose most websites to potential compromise",
+        "summary": "Government agencies urged organizations to take their sites offline until they could be fixed.",
+        "url": "https://www.cybersecuritydive.com/news/php-website-vulnerabilities/833580/",
+        "category": "News",
+        "date": "2026-10-21",
+        "timestamp": "2026-10-21T14:12:29+00:00",
+        "coverage": 1,
+        "image": "https://imgproxy.divecdn.com/KmG836Ndaa1QdRXrRxEt4LCLg8Q_ePMIqJNJJEDtmwg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjYzMDY3Mjk2XzIuanBn.webp"
+      },
+      {
+        "source": "Infosecurity Magazine",
+        "rank": 9,
+        "title": "Symantec Uncovers AI Agent Hijacking Models for Autonomous Cyber-Attacks",
+        "summary": "Researchers at Symantec have uncovered an AI agent designed to operate a full cyber-attack without human intervention",
+        "url": "https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/",
+        "category": "News",
+        "date": "2026-10-21",
+        "timestamp": "2026-10-21T14:00:00+00:00",
+        "coverage": 1,
+        "image": "https://assets.infosecurity-magazine.com/webpage/og/2f22fc70-5d79-4169-a307-0caddfa3b478.jpg"
+      },
+      {
+        "source": "Cybersecurity Dive",
+        "rank": 14,
+        "title": "Russia-linked hackers broke into NATO shipbuilder in latest espionage campaign",
+        "summary": "Symantec, which discovered the operation, urged companies to scan their networks for signs of compromise.",
+        "url": "https://www.cybersecuritydive.com/news/russia-nato-hacking-shipbuilder-critical-infrastructure/833509/",
+        "category": "News",
+        "date": "2026-10-21",
+        "timestamp": "2026-10-21T14:00:00+00:00",
+        "coverage": 1,
+        "image": "https://imgproxy.divecdn.com/F9aT0nDXSUZr2iTmtMeiQUISFgiNtbZiy-4vWuwvVXs/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjI0Mjg2MjgxLmpwZw==.webp"
+      },
+      {
+        "source": "WIRED Security",
+        "rank": 18,
+        "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
+        "summary": "Hackers around the world are all-in on using agentic AI to wage attacks—and manipulating tools like Anthropic’s Claude to help them carry out their crimes.",
+        "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+        "category": "Security",
+        "date": "2026-10-21",
+        "timestamp": "2026-10-21T14:00:00+00:00",
+        "coverage": 1,
+        "image": "https://media.wired.com/photos/6ad7cd65322aff8e01d3ff70/master/pass/Security_Claude%20Code's%20Guardrails%20Aren't%20Stopping%20Real-Life%20Attacks_v2.jpg"
+      },
+      {
+        "source": "CyberScoop",
+        "rank": 8,
+        "title": "PHP releases emergency fixes for 2 critical vulnerabilities",
+        "summary": "The project overseeing the programming language is releasing patches Wednesday, with the internet racing to patch the 9.2 rated flaw. The post PHP releases emergency fixes for 2 critical vulnerabilities appeared first…",
+        "url": "https://cyberscoop.com/php-emergency-patches-php2shell-vulnerabilities/",
+        "category": "Threats",
+        "date": "2026-10-21",
+        "timestamp": "2026-10-21T13:40:02+00:00",
+        "coverage": 1,
+        "image": "https://cyberscoop.com/wp-content/uploads/sites/3/2026/10/Gemini_Generated_Image_bczaoxbczaoxbcza.jpeg"
+      },
+      {
+        "source": "WIRED Security",
+        "rank": 18,
+        "title": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
+        "summary": "The company is suspending the feature after security researchers discovered how easy it was to access sensitive information shared with the AI assistant.",
+        "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
+        "category": "Security",
+        "date": "2026-10-21",
+        "timestamp": "2026-10-21T12:35:00+00:00",
+        "coverage": 2,
+        "image": "https://media.wired.com/photos/6ad7df7552635a2423fcfe8e/master/pass/GettyImages-2297134397.jpg"
+      },
+      {
+        "source": "Infosecurity Magazine",
+        "rank": 9,
+        "title": "Ransomware Attacks Rise as Rival Gangs Vie For Market Supremacy",
+        "summary": "Cybercriminal groups The Gentlemen and Qilin dominate ransomware attacks - and both are evolving their tactics in an attempt to outdo one another",
+        "url": "https://www.infosecurity-magazine.com/news/rival-gangs-vie-for-market/",
+        "category": "News",
+        "date": "2026-10-21",
+        "timestamp": "2026-10-21T12:00:00+00:00",
+        "coverage": 1,
+        "image": "https://assets.infosecurity-magazine.com/webpage/og/4e5ec292-d932-4cb2-b65b-06e2132552da.jpg"
       }
     ],
     "sources": [
@@ -1938,112 +1938,304 @@
     "tagline": "A digest of the latest news from 20 leading movie & TV portals",
     "news": [
       {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "October 31 Is Officially A Dark Day For Xbox Game Pass",
-        "summary": "A bittersweet library reshuffle for Xbox Game Pass subscribers sends iconic remasters and co op hits into an uncertain future this spooky season.",
-        "url": "https://screenrant.com/xbox-game-pass-games-leaving-october-31/",
-        "category": "Gaming",
+        "source": "Collider",
+        "rank": 6,
+        "title": "5 Addictive Books Where You Absolutely Hate the Main Character",
+        "summary": "From Gone Girl to Yellowface, discover five addictive books with frustrating protagonists whose terrible decisions keep you turning pages.",
+        "url": "https://collider.com/addictive-books-unlikable-main-characters/",
+        "category": "Books and Comics",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:30:18+00:00",
+        "timestamp": "2026-10-25T10:51:15+00:00",
         "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/02/xbox-game-pass-on-magestic-background.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "New Fallout 4 Expansion Officially Announced For 2027",
-        "summary": "With a big wait still on the cards for Fallout 5, it's worth checking back into the last game for new stuff coming out next year.",
-        "url": "https://screenrant.com/fallout-4-fathomless-expansion-2027-confirmed/",
-        "category": "Gaming",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:00:18+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/03/fallout-4-power-armor-dogmeat.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "2010's Hit 177-Episode Horror Series Was 1 Change From Perfection",
-        "summary": "An acclaimed blockbuster epic, this iconic horror show sadly peaked too quickly and then sagged under sprawling seasons and dwindling momentum.",
-        "url": "https://screenrant.com/the-walking-dead-shorter-seasons-perfect/",
-        "category": "TV",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:00:18+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/the-statue-of-liberty-with-its-nose-missing-in-the-walking-dead-dead-city.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "Steam Drops 8/10 Open-World RPG That Mixes Skyrim & Valheim",
-        "summary": "A massive open-world RPG with an impressive 8/10 score has just been released on Steam, so if you’re a fan of Skyrim or Valheim, check it out.",
-        "url": "https://screenrant.com/open-world-rpg-skyrim-meets-valheim-enshrouded-release/",
-        "category": "Gaming",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T04:01:20+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/open-world-rpg-skyrim-meets-valheim-enshrouded-release.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "DC Shares Wild New Green Lantern Design",
-        "summary": "One of the most powerful figures tied to Green Lantern lore will appear soon, with their signature weapon changing at least one wearer for the worse.",
-        "url": "https://screenrant.com/green-lantern-redesign-gauntlet/",
-        "category": "Comics",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T03:59:21+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/green-lantern-hal-jordan-flies-at-the-center-of-all-the-emotional-spectrum-s-corps.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "This Free Anime Streaming Service Is Growing Monthly To Challenge Netflix & Crunchyroll's Throne",
-        "summary": "Anime streaming is one of the most competitive entertainment markets right now, so here is an amazing free streaming service for anime and K-dramas.",
-        "url": "https://screenrant.com/anime-k-drama-streaming-free-amasian-tv/",
-        "category": "Anime",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T03:55:13+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/amasian-tv-logo-featuring-a-crying-crunchyroll-hime-and-the-netflix-logo.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "Studio Ghibli's Totoro Returns With Limited Kitchenware Set That's An Instant Must-Buy",
-        "summary": "Studio Ghibli has reissued a handful of My Neighbor Totoro kitchenware from a limited 2005 collection, and their designs are both adorable and genius.",
-        "url": "https://screenrant.com/my-neighbor-totoro-new-kitchenware-set-ghibli/",
-        "category": "Anime",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T03:52:32+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/my-neighbor-totoro-featured-image-with-mei-and-satsuki.png"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "In 3 Months, Apple TV Will Officially Prove There's No Such Thing As An Unfilmable Book",
-        "summary": "Apple TV's most ambitious sci-fi adaptation yet transforms a neon-drenched cyberscape into a vivid, hallucinatory heist packed with noir grit.",
-        "url": "https://screenrant.com/neuromancer-january-2027-apple-tv-unfilmable-book/",
-        "category": "TV",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T03:45:19+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/callum-turner-in-fantastic-beasts-the-crimes-of-grindlewald.jpg"
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/covers.jpg"
       },
       {
         "source": "Collider",
         "rank": 6,
-        "title": "10 Best Horror Video Games of All Time, Ranked",
-        "summary": "There have been many exceptional horror video games released over the years, including the likes of Until Dawn, Alien: Isolation, and Resident Evil 2.",
-        "url": "https://collider.com/best-horror-video-games-of-all-time-ranked/",
+        "title": "'Carrie's Season 2 Renewal Is Destroying the Formula of Stephen King's Classic Novel",
+        "summary": "Carrie's Season 2 renewal on Prime Video risks changing the essence of Stephen King's iconic horror story.",
+        "url": "https://collider.com/carrie-season-2-renewal-stephen-king-novel-formula/",
+        "category": "TV Features",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:45:15+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/carrie-promo-poster.jpg"
+      },
+      {
+        "source": "Variety",
+        "rank": 1,
+        "title": "Serielizados Prizes: Hagai Levi’s ‘Etty’ and ‘Astonishing’ ‘Killing a Bear’ Win Big as ‘El Observatorio’ Bags the Mind the Gap Pitch Prize",
+        "summary": "Influential Israeli creator Hagai Levi (“The Affair,” “Scenes From a Marriage”) and prominent Spanish TV-making duo Jorge and Alberto Sánchez-Cabezudo (“La Zona”) won best international and national series at…",
+        "url": "https://variety.com/2026/tv/global/serielizados-hagai-levi-etty-killing-a-bear-matar-a-un-oso-1236930579/",
+        "category": "Global",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:38:47+00:00",
+        "coverage": 1,
+        "image": "https://variety.com/wp-content/uploads/2026/10/Etty-courtesy-Serielizados-.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "Assassin's Creed Officially Bringing Back Kassandra December 2026",
+        "summary": "Kassandra from Assassin's Creed Odyssey is back with a new statue releasing in December 2026. Pre-order details inside.",
+        "url": "https://screenrant.com/assassins-creed-kassandra-december-2026-return/",
         "category": "Gaming",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T03:39:15+00:00",
+        "timestamp": "2026-10-25T10:30:19+00:00",
         "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2021/11/silent-hill-3-image-1.jpg"
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2021/09/Kassandra-holding-two-swords-in-an-open-field-on-the-cover-of-Odyssey-Cropped.jpg"
+      },
+      {
+        "source": "MovieWeb",
+        "rank": 14,
+        "title": "Brad Pitt's 126-Minute 'Jack Ryan' Substitute Action Thriller Is Officially Being Cut From Netflix",
+        "summary": "Brad Pitt co-stars alongside a Hollywood legend in this forgotten spy thriller.",
+        "url": "https://movieweb.com/spy-game-brad-pitt-action-stream-netflix-november-2026/",
+        "category": "Movie News",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:30:18+00:00",
+        "coverage": 1,
+        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/10/brad-pitt-on-spy-game.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "‘Clayface’s Max Minghella Reveals How DC's Most Disturbing Movie Pulled Off Its Grotesque Effects",
+        "summary": "He also teases his role in 'The White Lotus' Season 4 and discusses directing for Ryan Murphy's 'The Shards.'",
+        "url": "https://collider.com/clayface-max-minghella-grotesque-practical-effects-interview/",
+        "category": "Exclusives",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:30:15+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/clayface-max-minghella-interview.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "Guy Ritchie's 2-Part Crime Saga Is Officially the King of Netflix",
+        "summary": "Guy Ritchie's two part crime saga on Netflix is one of the most binge-able shows the platform has to offer.",
+        "url": "https://collider.com/guy-ritchie-the-gentlemen-streaming-success-netflix-october-2026/",
+        "category": "TV News",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:30:15+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/08/the-gentlemen-max-beesley.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "17 Years Later, This 20-Minute Opener Is Still Better Than Every World War II Movie Since",
+        "summary": "The 20-minute opening sequence in Quentin Tarantino's World War II drama Inglourious Basterds set a new standard for war movies.",
+        "url": "https://collider.com/inglourious-basterds-quentin-tarantino-best-opening-scene-world-war-2-movie/",
+        "category": "Movie Features",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:22:16+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2022/06/inglourious-basterds.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "8 Books to Read if You Love Taylor Sheridan Shows",
+        "summary": "All the Pretty Horses, The Son, All Things Left Wild, Lonesome Dove, and more make up our list of books to read if you love Taylor Sheridan shows.",
+        "url": "https://collider.com/books-like-taylor-sheridan-shows/",
+        "category": "Books and Comics",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:01:15+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/yellowstone-ii.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "J.K. Rowling's New $400 Harry Potter Collector's Edition Is Almost Here",
+        "summary": "Harry Potter fans are in for an expensive yet highly anticipated new Collector's Edition from author J.K. Rowling, arriving this November.",
+        "url": "https://screenrant.com/harry-potter-half-blood-prince-collectors-edition-november/",
+        "category": "Books",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:00:19+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/harry-and-dumbledore-at-the-tower-in-half-blood-prince.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "After East Of Eden And Lonesome Dove, Netflix Has To Adapt This Classic Novel",
+        "summary": "Netflix's success with East of Eden and its upcoming take on Lonesome Dove are paving the way for this long-awaited classic novel's TV adaptation.",
+        "url": "https://screenrant.com/east-of-eden-lonesome-dove-netflix-adapt-classic-novel/",
+        "category": "Books",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:00:19+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/84cdd34f-54f7-4bac-999a-4c72c9803eb3.jpeg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "The Witcher Officially Switches Genre In Path Of Destiny: Ronin",
+        "summary": "Explore the new board game Ronin, set in The Witcher universe, blending Japanese folklore with cooperative gameplay.",
+        "url": "https://screenrant.com/witcher-path-of-destiny-ronin-genre-change/",
+        "category": "Gaming",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:00:19+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/04/the-witcher-path-of-destiny-ronin-geralt-ciri-japan.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "Jason Momoa’s Brutal Dystopian Sci-Fi Series Is Officially Conquering Streaming",
+        "summary": "Four years after it ended, Apple TV's underrated sci-fi thriller is back on streaming charts. Get all the details here.",
+        "url": "https://collider.com/see-apple-tv-underrated-sci-fi-streaming-success-october-2026/",
+        "category": "TV News",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:40:15+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/hera-hilmar-see.jpg"
+      },
+      {
+        "source": "Digital Spy",
+        "rank": 16,
+        "title": "Bridgerton's next romantic lead lands debut lead movie role in \"timeless\" romantic drama",
+        "summary": "Hannah Dodd will star in Miss You Forever, Zara Drake",
+        "url": "https://www.digitalspy.com/tv/ustv/a74239952/bridgerton-hannah-dodd-lead-role-romantic-drama/",
+        "category": "News",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:37:00+00:00",
+        "coverage": 1,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/hannah-dodd-masali-baduza-bridgerton-season-4-69a1797c4d154.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "Resident Evil Is Officially Bringing Back Lady Dimitrescu",
+        "summary": "Explore the Resident Evil exhibition in Tokyo featuring Lady Dimitrescu and iconic characters from the franchise.",
+        "url": "https://screenrant.com/resident-evil-lady-dimitrescu-return-october-30/",
+        "category": "Gaming",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:30:19+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/08/lady-dimitrescu-and-her-daughters-in-resident-evil-village.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "The 10 Best Anime Where Nobody Has Plot Armor, Ranked",
+        "summary": "Dive into these anime series where every character faces real stakes and consequences, from Cyberpunk: Edgerunners to Steins;Gate.",
+        "url": "https://collider.com/best-anime-characters-no-plot-armor-ranked/",
+        "category": "TV",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:26:15+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/cyberpunk-edgerunners.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "Netflix Is Officially Removing Tom Hardy’s Divisive $1 Billion Epic",
+        "summary": "Netflix subscribers in certain regions don't have much time to revisit Tom Hardy's memorable performance in The Dark Knight Rises. Find out more.",
+        "url": "https://collider.com/tom-hardy-superhero-epic-the-dark-knight-rises-leaving-netflix-november-2026/",
+        "category": "Movie News",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:20:15+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/03/tom-hardy-4.jpg"
+      },
+      {
+        "source": "Variety",
+        "rank": 1,
+        "title": "Egyptian Cinema Eyes Its Next Act as Industry Veterans Call for Better Scripts, Wider Distribution",
+        "summary": "As the ninth edition of El Gouna Film Festival wrapped in Egypt, the conversation among some of the country’s and region’s leading producers and filmmakers turned to what the industry needs to turn its wealth of talent…",
+        "url": "https://variety.com/2026/film/global/egyptian-cinema-el-gouna-film-industry-future-1236930557/",
+        "category": "Global",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:16:11+00:00",
+        "coverage": 1,
+        "image": "https://variety.com/wp-content/uploads/2026/10/Egyptian-Cinema-trio.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "Hogwarts Legacy 2 Setting Officially Unveiled In Epic Trailer",
+        "summary": "Hogwarts Legacy 2 is definitely on the way, and a new trailer inadvertantly gives us a solid look at its upcoming setting.",
+        "url": "https://screenrant.com/hogwarts-legacy-2-setting-confirmed-new-hbo-trailer/",
+        "category": "Gaming",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:00:19+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/hogwarts-legacy-autumn.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "‘Bosch’ Meets ‘The Wire’ in Walton Goggins’ 7-Part Crime Series Officially on Hulu",
+        "summary": "Walton Goggins' seven-season crime thriller with shades of Bosch and The Wire is officially streaming on Hulu and Prime Video.",
+        "url": "https://collider.com/walton-goggins-the-shield-streaming-success-hulu-october-2026/",
+        "category": "TV News",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:00:15+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/02/the-shield-walton-goggins-michael-pena.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "One Of HBO's Best Miniseries Takes Less Than 6 Hours To Binge",
+        "summary": "HBO has so many classic miniseries, from Band of Brothers to The Penguin, but one of its best can be watched in one sitting, if you can handle it.",
+        "url": "https://screenrant.com/chernobyl-hbo-miniseries-binge-6-hours/",
+        "category": "Classic TV",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T08:00:19+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/chernobyl_3sn9nz.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "Dracula’s Best TV Adaptation Is So Good, It Outdoes Bela Lugosi, Christopher Lee & Francis Ford Coppola",
+        "summary": "One small-screen version of Dracula comes closer to Bram Stoker's literary masterpiece than the movies that define its legacy in the horror genre.",
+        "url": "https://screenrant.com/count-dracula-1977-tv-show-better-than-movies/",
+        "category": "Classic TV",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T07:00:19+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/louis-jourdan-as-dracula-in-count-dracula-2.jpg"
+      },
+      {
+        "source": "Digital Spy",
+        "rank": 16,
+        "title": "ITV's 'scandalous' affair drama Adultery begins on TV tonight – don't miss out",
+        "summary": "Dominic Cooper and Romola Garai lead the cast!",
+        "url": "https://www.digitalspy.com/tv/a74238444/itv-adultery-drama-tv-tonight/",
+        "category": "News",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T07:00:00+00:00",
+        "coverage": 1,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/565730d0-28ea-4a8b-901b-a4a85d7158c7.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "PlayStation Plus Officially Drops Free Download For 10/10 RPG",
+        "summary": "There are probably too many games these days, and it can be hard to stay on top of everything. But this one deserved way better.",
+        "url": "https://screenrant.com/playstation-plus-free-download-marvels-midnight-suns/",
+        "category": "Gaming",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T06:30:19+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/playstation-plus-logo-ps-games.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "Netflix's 18-Episode Fantasy Masterpiece Is Steampunk Done Right",
+        "summary": "Netflix is the streaming home of an 18-episode fantasy adaptation that does a masterful job of putting its steampunk visuals and themes on display.",
+        "url": "https://screenrant.com/arcane-netflix-fantasy-steampunk-show/",
+        "category": "Classic TV",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T06:06:51+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/439aae95-7216-48b5-b724-9c5923490f0e.jpeg"
       },
       {
         "source": "Variety",
@@ -2058,18 +2250,6 @@
         "image": "https://variety.com/wp-content/uploads/2026/10/Forza.jpg"
       },
       {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "Prisoners Ending Explained: Does Loki Find Keller?",
-        "summary": "Prisoners was released in 2013, by acclaimed director Denis Villeneuve, and has a complex mystery at its center. Here is the film’s ending explained.",
-        "url": "https://screenrant.com/prisoners-movie-ending-explained/",
-        "category": "Movies",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T03:29:19+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/prisoners_gszvhn-1-1.jpg"
-      },
-      {
         "source": "Variety",
         "rank": 1,
         "title": "‘KPop Demon Hunters,’ ‘Squid Game’ Stars Fete Netflix’s Korea Decade as Ted Sarandos Teases ‘Tantara,’ ‘All of Us Are Dead’ Season 2",
@@ -2080,30 +2260,6 @@
         "timestamp": "2026-10-25T03:21:03+00:00",
         "coverage": 1,
         "image": "https://variety.com/wp-content/uploads/2026/10/Kpop-Demon-Hunters-Star-on-stage.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "Shemar Moore’s S.W.A.T. Exiles Rewrites The Franchise’s Rules In “Unchained” Season 2",
-        "summary": "Shermar Moore reveals that Starz gave S.W.A.T. Exiles the freedom to become even more \"unchained\" in the upcoming second season of the series.",
-        "url": "https://screenrant.com/swat-exiles-season-2-starz-more-freedom-shemar-moore-explained/",
-        "category": "TV",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T03:19:38+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/swat-exiles_acwjlb.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "‘High Potential’ Fans Missing Season 3 Have the Perfect Replacement on Peacock",
-        "summary": "High Potential fans can bide their time until Season 3 returns on ABC by binge-watching Bones on Peacock, another procedural with a slow-burn romance.",
-        "url": "https://collider.com/abc-high-potential-season-3-replacement-fox-bones-peacock/",
-        "category": "TV Features",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T03:07:14+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/high-potential-kaitlin-olson.jpg"
       },
       {
         "source": "Deadline",
@@ -2130,30 +2286,6 @@
         "image": "https://variety.com/wp-content/uploads/2026/10/Collective-Galleri5.jpg"
       },
       {
-        "source": "Collider",
-        "rank": 6,
-        "title": "10 Great Books To Read if You Love 'Gone Girl'",
-        "summary": "Gone Girl is a literary masterpiece with an equally influential movie. Those looking for similar books should undoubtedly check these out.",
-        "url": "https://collider.com/books-like-gone-girl/",
-        "category": "TV",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T02:22:14+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/03/gone-girl-rosamund-pike-2.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "7 Book Series That Peaked With Their Last Entry",
-        "summary": "Book series like Tolkien's Lord of the Rings and Pullman's His Dark Materials end on a masterful final note that perfectly ties everything together.",
-        "url": "https://collider.com/book-series-peaked-last-entry/",
-        "category": "Books and Comics",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T02:20:14+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/the-amber-spyglass-book-cover.jpg"
-      },
-      {
         "source": "MovieWeb",
         "rank": 14,
         "title": "8 Netflix Mystery Thrillers Where Every Episode Is a Masterpiece",
@@ -2166,18 +2298,6 @@
         "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2025/01/a-man-in-a-hood-and-mask-in-dark.jpg"
       },
       {
-        "source": "Collider",
-        "rank": 6,
-        "title": "6 Most Exciting Mystery Movies of All Time, Ranked",
-        "summary": "From Rear Window to Chinatown, these six exhilarating mystery movies turn viewers into detectives with clues that demand a second look.",
-        "url": "https://collider.com/most-exciting-mystery-movies-all-time-ranked/",
-        "category": "Movie",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T01:33:15+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/02/rear-window-grace-kelly.jpg"
-      },
-      {
         "source": "MovieWeb",
         "rank": 14,
         "title": "10 R-Rated Body Horror Movies Better Than 'Clayface'",
@@ -2188,18 +2308,6 @@
         "timestamp": "2026-10-25T01:30:18+00:00",
         "coverage": 1,
         "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/04/clayface-in-hospital-bed.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "The 8 Greatest Movies With More Than One Twist",
-        "summary": "Great movies like The Prestige, Knives Out, and Psycho feature more than one twist, impressively sticking the landing and keeping the momentum going.",
-        "url": "https://collider.com/best-movies-more-than-one-twist/",
-        "category": "Movie",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T01:29:14+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2023/07/laurence-olivier-and-michael-caine-in-sleuth.jpg"
       },
       {
         "source": "Variety",
@@ -2250,18 +2358,6 @@
         "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2024/04/unforgiven-1992.jpg"
       },
       {
-        "source": "Collider",
-        "rank": 6,
-        "title": "8 TV Detectives That Are Much Smarter Than Sherlock Holmes",
-        "summary": "Sherlock Holmes is often credited as the smartest fictional detective, yet there are TV characters, like The Wire's Lester Freamon, who are smarter.",
-        "url": "https://collider.com/tv-detectives-smarter-than-sherlock-holmes/",
-        "category": "TV",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T01:03:14+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/08/sherlock-benedict-cumberbatch.jpg"
-      },
-      {
         "source": "TVLine",
         "rank": 9,
         "title": "10 Best Sci-Fi Shows With More Than 100 Episodes",
@@ -2274,18 +2370,6 @@
         "image": "https://www.tvline.com/img/gallery/10-best-sci-fi-shows-with-more-than-100-episodes/l-intro-1792676510.jpg"
       },
       {
-        "source": "Collider",
-        "rank": 6,
-        "title": "One of the Most Underrated Sci-Fi Series of All Time Premiered 14 Years Ago",
-        "summary": "Sci-fi fans looking for a fresh take on time travel should check out the highly underrated series Continuum.",
-        "url": "https://collider.com/continuum-watch-on-plex/",
-        "category": "TV Features",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T01:01:15+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/10/continuum-rachael-nichols.jpg"
-      },
-      {
         "source": "MovieWeb",
         "rank": 14,
         "title": "Unstoppable 95-Minute Action Thriller Reboot Officially Beats Its Director's Near-Perfect Hit at the Box Office",
@@ -2296,18 +2380,6 @@
         "timestamp": "2026-10-25T01:00:17+00:00",
         "coverage": 1,
         "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/10/res-evil.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "Tom Cruise’s Box-Office Disaster Officially Removed From 3,100 Theaters",
-        "summary": "Tom Cruise's epic box-office disaster, Digger, has officially been removed from more than 3,000 theaters. Find out more.",
-        "url": "https://collider.com/tom-cruise-digger-box-office-disaster-removed-from-3100-theaters/",
-        "category": "Movie News",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T01:00:15+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/04/tom-cruise.jpg"
       },
       {
         "source": "/Film (SlashFilm)",
@@ -2332,18 +2404,6 @@
         "timestamp": "2026-10-25T00:43:53+00:00",
         "coverage": 1,
         "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2025/12/sheriff-country.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "8 Fantasy Shows That Rival Harry Potter",
-        "summary": "From Disney+'s Percy Jackson and the Olympians to Netflix's Wednesday, these fantasy shows feature a rich lore that challenges Harry Potter's world.",
-        "url": "https://collider.com/fantasy-shows-rival-harry-potter/",
-        "category": "TV",
-        "date": "2026-10-25",
-        "timestamp": "2026-10-25T00:34:14+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/harry-potter-and-the-sorcerers-stone-daniel-radcliffe-1.jpeg"
       },
       {
         "source": "MovieWeb",
@@ -2514,18 +2574,6 @@
         "image": "https://www.tvline.com/img/gallery/10-american-dad-episodes-to-skip-on-a-rewatch/l-intro-1792459538.jpg"
       },
       {
-        "source": "MovieWeb",
-        "rank": 14,
-        "title": "Apple TV's Unsung 2-Part Sci-Fi Thriller Is Officially an Unstoppable 400-Day Streaming Smash Hit",
-        "summary": "The series has built impressive longevity of its own.",
-        "url": "https://movieweb.com/dark-matter-apple-tv-milestone-october-2026/",
-        "category": "TV News",
-        "date": "2026-10-24",
-        "timestamp": "2026-10-24T23:00:18+00:00",
-        "coverage": 1,
-        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2024/04/joel-edgerton-in-dark-matter-on-apple-tv-1.jpg"
-      },
-      {
         "source": "/Film (SlashFilm)",
         "rank": 8,
         "title": "Why Dan Hibiki From Street Fighter (2026) Looks So Familiar",
@@ -2610,30 +2658,6 @@
         "image": "https://www.slashfilm.com/img/gallery/if-you-like-you-can-see-everything-watch-this-underrated-2025-movie-next/l-intro-1792526986.jpg"
       },
       {
-        "source": "Variety",
-        "rank": 1,
-        "title": "Cynthia Erivo Plays Glinda in ‘Nigerian Wicked’ Sketch on ‘SNL U.K.’: ‘She Wants a BBL That Defies Gravity’",
-        "summary": "Cynthia Erivo spoofed “Wicked” during her stint hosting “SNL U.K.,” this time taking on the role of Glinda in “Nigerian Wicked.” Alongside Ayoade Bamgboye as Elphaba, Erivo — sporting a blonde wig and pink velour…",
-        "url": "https://variety.com/2026/tv/global/cynthia-erivo-glinda-nigerian-wicked-snl-uk-1236930402/",
-        "category": "Global",
-        "date": "2026-10-24",
-        "timestamp": "2026-10-24T21:59:12+00:00",
-        "coverage": 1,
-        "image": "https://variety.com/wp-content/uploads/2026/10/nigerian-wicked.jpg"
-      },
-      {
-        "source": "Variety",
-        "rank": 1,
-        "title": "Shia LaBeouf Would Trash-Talk ‘Lizzie McGuire’ While Filming ‘Even Stevens,’ Says Christy Carlson Romano: ‘He Wanted to Be the Number One Show’",
-        "summary": "Christy Carlson Romano, who first broke out on the sitcom “Even Stevens,” has revealed that co-star Shia LaBeouf used to trash-talk competing Disney Channel show “Lizzie McGuire” and that he was “definitely beefing”…",
-        "url": "https://variety.com/2026/tv/news/shia-labeouf-lizzie-mcguire-even-stevens-christy-carlson-romano-1236930410/",
-        "category": "News",
-        "date": "2026-10-24",
-        "timestamp": "2026-10-24T21:52:55+00:00",
-        "coverage": 1,
-        "image": "https://variety.com/wp-content/uploads/2026/10/mcdlimc-wd004-lizzie-mcguire-hilary-duff-2001-2004-walt-disn-1000x667-1.jpg"
-      },
-      {
         "source": "TVLine",
         "rank": 9,
         "title": "5 Best Netflix Christmas Movies, Ranked",
@@ -2656,18 +2680,6 @@
         "timestamp": "2026-10-24T21:45:00+00:00",
         "coverage": 1,
         "image": "https://www.slashfilm.com/img/gallery/crystal-lake-raises-big-questions-about-the-next-friday-the-13th-movie/l-intro-1792703293.jpg"
-      },
-      {
-        "source": "Variety",
-        "rank": 1,
-        "title": "Cynthia Erivo Imagines Competing on ‘The Great British Bake Off’ in ‘SNL U.K.’ Opening Monologue: ‘I’ve Got a Soggy Bottom and I’m Freaking Stressed!’",
-        "summary": "In her opening “Saturday Night Live U.K.” monologue, Cynthia Erivo admitted that despite being an almost-EGOT – with an Emmy, Grammy and Tony to her name – there’s one accolade she’s still hankering after: no, not an…",
-        "url": "https://variety.com/2026/tv/global/cynthia-erivo-monologue-snl-uk-british-bake-off-1236930011/",
-        "category": "Global",
-        "date": "2026-10-24",
-        "timestamp": "2026-10-24T21:32:52+00:00",
-        "coverage": 1,
-        "image": "https://variety.com/wp-content/uploads/2026/10/cynthia-erivo-1000.jpg"
       },
       {
         "source": "TVLine",
@@ -3594,18 +3606,6 @@
         "image": "https://hips.hearstapps.com/hmg-prod/images/3a2257b3-e666-40a2-9a94-228c24a8d6fa.jpg"
       },
       {
-        "source": "Digital Spy",
-        "rank": 16,
-        "title": "Banished Celebrity Traitors star urges players to \"have more fun\" after dramatic exit",
-        "summary": "\"It is a game, let's face it.\"",
-        "url": "https://www.digitalspy.com/tv/reality-tv/a74232888/celebrity-traitors-jerry-hall-have-more-fun/",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T19:13:00+00:00",
-        "coverage": 1,
-        "image": "https://hips.hearstapps.com/hmg-prod/images/fc651315-5d8f-49a4-9f62-f7164d433362.jpg"
-      },
-      {
         "source": "Decider",
         "rank": 12,
         "title": "Stream It Or Skip It: ‘The Invite’ on HBO Max, a Robust Four-Hander Comedy Directed by and Starring Olivia Wilde",
@@ -3690,18 +3690,6 @@
         "image": "https://www.indiewire.com/wp-content/uploads/2026/10/Yaga-Hudson-Williams-series-on-AMC.jpg?w=650"
       },
       {
-        "source": "Digital Spy",
-        "rank": 16,
-        "title": "Exclusive: Strictly Come Dancing's Delta Goodrem calls for Eurovision theme week",
-        "summary": "She represented Australia at the contest this year.",
-        "url": "https://www.digitalspy.com/tv/reality-tv/a74232180/strictly-come-dancing-delta-goodrem-eurovision-theme-week/",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T17:25:00+00:00",
-        "coverage": 1,
-        "image": "https://hips.hearstapps.com/hmg-prod/images/659d2ea1-8aa8-4f45-8f9b-a8494a216395.jpg"
-      },
-      {
         "source": "IndieWire",
         "rank": 4,
         "title": "Will ‘Wicker’ Be Black Bear’s First Big Breakout?",
@@ -3736,6 +3724,18 @@
         "timestamp": "2026-10-23T17:00:00+00:00",
         "coverage": 1,
         "image": "https://www.indiewire.com/wp-content/uploads/2026/05/IMG_2843.jpeg?w=650"
+      },
+      {
+        "source": "The Film Stage",
+        "rank": 19,
+        "title": "Todd Haynes and Cate Blanchett Plan Reunion with Adaptation of Jean Genet’s The Maids",
+        "summary": "Every Todd Haynes movie—especially when they’re susceptible to last-minute cancellations—is an event and a gift. Thus as we await the overdue, Cannes-likely arrival of De Noche, it’s heartening to know the next-next…",
+        "url": "https://thefilmstage.com/todd-haynes-and-cate-blanchett-plan-reunion-with-adaptation-of-jean-genets-the-maids/",
+        "category": "News",
+        "date": "2026-10-23",
+        "timestamp": "2026-10-23T16:56:07+00:00",
+        "coverage": 1,
+        "image": "https://thefilmstage.com/wp-content/uploads/2016/01/Carol-Todd-Haynes-e1483587364913-750x422.jpg"
       }
     ],
     "sources": [
@@ -3869,6 +3869,30 @@
     "tagline": "A digest of the latest news from 20 leading AI portals",
     "news": [
       {
+        "source": "Unite.AI",
+        "rank": 18,
+        "title": "AI21 Labs Releases LIFT-Bench to Curb Reward Hacking in RL Training",
+        "summary": "AI21 Labs released LIFT-Bench on October 25, 2026, an instruction-following benchmark in which every constraint is scoped to one section of a document and the task content itself is scored, alongside LIFT-Train, a…",
+        "url": "https://www.unite.ai/ai21-labs-releases-lift-bench-to-curb-reward-hacking-in-rl-training/",
+        "category": "AI Models & Platforms",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:28:13+00:00",
+        "coverage": 1,
+        "image": "https://www.unite.ai/wp-content/uploads/2026/10/ai21-labs-releases-lift-bench-to-curb-reward-hacking-in-rl-training.jpg"
+      },
+      {
+        "source": "Unite.AI",
+        "rank": 18,
+        "title": "Anthropic Investigates Elevated Errors Across Five Claude Models",
+        "summary": "Anthropic opened an investigation into elevated errors affecting five Claude models on October 25, 2026, posting an incident on the Claude Status page at 06:14 UTC that lists claude.ai, the Claude API, Claude Code, and…",
+        "url": "https://www.unite.ai/anthropic-investigates-elevated-errors-across-five-claude-models/",
+        "category": "AI Models & Platforms",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T06:30:11+00:00",
+        "coverage": 1,
+        "image": "https://www.unite.ai/wp-content/uploads/2026/10/anthropic-investigates-elevated-errors-across-five-claude-models.jpg"
+      },
+      {
         "source": "MarkTechPost",
         "rank": 19,
         "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
@@ -3939,18 +3963,6 @@
         "timestamp": "2026-10-24T18:32:21+00:00",
         "coverage": 1,
         "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK445_ADVERTISING_STK093_GOOGLE_C.jpg?quality=90&strip=all&crop=0,0,100,100"
-      },
-      {
-        "source": "Stanford HAI News",
-        "rank": 15,
-        "title": "Stanford HAI",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOE84SmtmcjEwVS1TTXNRYXlGY3F3cVdITHV2ejJQN3N5ZGVlMmVlR1UwWVlnSVB0VEVoaHUyTG9VRDkya1VUOFI4dUx0Vnp6REpxbTdEbHlLcGxqTVhiQm92VElJTnUyLXczZU4ybnRDTVhkTms3cWlIRXA4WjRBYVd5ODJPdw?oc=5",
-        "category": "News",
-        "date": "2026-10-24",
-        "timestamp": "2026-10-24T18:07:20+00:00",
-        "coverage": 12,
-        "image": ""
       },
       {
         "source": "TechCrunch AI",
@@ -4253,18 +4265,6 @@
         "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0,0,100,100"
       },
       {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "Microsoft AI diagnostic tool outperforms doctors in clinical tests",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2ZVOXFWd2FMYTcxUFJ6UUZYdVBlUmNqR1E3OVN6bTVEOW1ZVjNCRklfUVZ4OUdmb1lqWXVuVnE1UGJRR1RZNkxlX2hpUm9qeVV1cUFxUTRRUHRQcUlhdE05aTk0dXh1ZVBOdlE0WDlIb3puNU9NTGJaaFJadHZGajlWUTI?oc=5",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T16:44:14+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "Hugging Face Blog",
         "rank": 9,
         "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
@@ -4289,18 +4289,6 @@
         "image": "https://www.unite.ai/wp-content/uploads/2026/10/nati-hazut-bold-security-1920x1080-1.jpg"
       },
       {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "TurboVLA Turns To A Throwback Architecture to Attend to Language and Vision",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWkt1U3FqTUY3bkExd2Nxa1NKTFhMUENzSjlPekxGZ3c0Q0k4aHdGa21FY2dKeHlqYlJvRk9IWTBzNm5CaHhMRG80UWViNi1RSFlYUHNEbGRRM3RVcGRfTk5zd0dkMnhqMHBVeEp5NTVaOHROdEtNSDJnVS1nZk1VT0xRUUdsMkNiRThOSnF3?oc=5",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T15:15:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "Unite.AI",
         "rank": 18,
         "title": "Denise Muyco, Co-Founder and CEO of RAVEL – Interview Series",
@@ -4313,30 +4301,6 @@
         "image": "https://www.unite.ai/wp-content/uploads/2026/10/denise-muyco-ravel-1920x1080-1.webp"
       },
       {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "Reflection Releases Beam, an Open Weight Model From an Independent U.S.-Based Lab",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1zUmE2Y2RCbXAxTllPV2l1dDZFLWs2MnZvQjJxLXl0OGtsbGtvanhhNVZfSHVSSFJPMmIzZ2p6NGpBbkIyWUhzQ2otV2dQV0I0UkpPR0Z6dFBxZTZZeXZaUEJHVGR2NHVmSWRscEVMbmp5TXc?oc=5",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T15:10:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "MIT’s AI agent swarm research holds up on open-weight models in independent replication",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTGFFaHQxSXBQc3FuYnBLOHBTSmlxTEUyOHpQUEw0UDJuMGI2V0d3R1d2WVNORXZFMzZTQUFabTdTRng0bW9DaHYtTjBFYmstR1ZKdW43NGtEOTZDcUQ2b0V4cjBkRW12LWcxc2otREpCeWFZNXVLTlVZYW9MczhtT3BGUkpMWC1JSGZRZDJ6MnZXbmJfSkdUVkdVUnpGTy1weGRvVUpFM0Nlem5hMUlyT2xuU28yUGluNlZhbXFUZ2dUbXZHYUZwY083bHF4MWdOOGc?oc=5",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T15:09:34+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "Unite.AI",
         "rank": 18,
         "title": "Meta Delays Commercial Terms Update as Publishers Demand Withdrawal",
@@ -4347,30 +4311,6 @@
         "timestamp": "2026-10-23T15:05:12+00:00",
         "coverage": 1,
         "image": "https://www.unite.ai/wp-content/uploads/2026/10/meta-delays-commercial-terms-update-as-publishers-demand-withdrawal.jpg"
-      },
-      {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "OpenAI Adds New Features for Youths as Studies Doubt Program's Safety and Educational Impact",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FdTQ2b0FjaVlwOV9mZzUyV0U3UHF0WW81OC1ja3EtZGhyYUIxZ21DWVBVMWJrR3Q1QmhaUXNWdnRFZ0h2TkotNFlHVzA0U2gxMzkyWTlBamx2alhDYXNqbnFQS1FXNVhnRDVCT2FXNnpUR2dRZkpkOUpEQndpYjQ?oc=5",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T15:05:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "All about Muse Wonder (API), Muse Wonder Full (subscription), and Muse Spark Open (weights available)",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80QXdFa2V6UDNNdFlQVUV3bmotc1RjVmhGX3A4WW1VamhVeENHMHREZTBKVFZMOUo1cDdUenNMQlg3MUJJMk9fRXBEUFZJQkl0bzlTQzJlY1JXSkFDSW1IS0pUYTFWRTFlYWxaeTJBaWo4Ti1jWDBnSnJn?oc=5",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T15:00:00+00:00",
-        "coverage": 1,
-        "image": ""
       },
       {
         "source": "The Verge AI",
@@ -4397,18 +4337,6 @@
         "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt2aaf6b9030b50b57/6adb795b16137041d49422a4/GettyImages-2022302070.jpg_Robots.jpg?width=720&quality=80&disable=upscale"
       },
       {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "Oct 23, 2026",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBURnBMZ2NKLVhzU08waHVvbXlYY29RNjVVRWo2dE9yNGpTLU0tRmc3NjRGMTY0LUFoRGplT2tYZjQ5NGt1RkZYZzJxYlgtdXdJbU9kS1YtMHNGa2ZCT1NFeWJjZw?oc=5",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T14:33:06+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "The Rundown AI",
         "rank": 13,
         "title": "Palmer Luckey’s gene-edited war dogs",
@@ -4421,30 +4349,6 @@
         "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/a4504157-cb1c-407b-8ef6-20bf4602fa20/Sans_titre__7_.jpeg?t=1792753621"
       },
       {
-        "source": "Unite.AI",
-        "rank": 18,
-        "title": "AI Security Needs a Second Opinion",
-        "summary": "AI is writing software faster than we can secure it. Are you keeping up? By the time you finish reading this sentence, developers and their AI agents will have pushed a couple thousand code commits. Last year at this…",
-        "url": "https://www.unite.ai/ai-code-security-deterministic-analysis/",
-        "category": "Thought Leaders",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T14:19:54+00:00",
-        "coverage": 1,
-        "image": "https://www.unite.ai/wp-content/uploads/2026/10/984f7763-ecea-4e05-baa3-fd0510505a1e.png"
-      },
-      {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "Meta’s Muse Wonder and Spark Open, Educational Use of ChatGPT, Reflection's Partnership with Nvidia",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxYjJuemd1UnpHaXNpWHhrLUhGZTc5V19LOEtQemg1MVRCNkdodGZPUVlWODVqeWctTml1dml0cGVUWHJrSW15b0FOeTZCQV9aRTNJVXhYV09OWmc?oc=5",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T14:00:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "KDnuggets",
         "rank": 12,
         "title": "What Companies Actually Mean When They Say They Want “AI Experience”",
@@ -4455,18 +4359,6 @@
         "timestamp": "2026-10-23T14:00:00+00:00",
         "coverage": 1,
         "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-companies-actually-mean-ai-experience-feature.png"
-      },
-      {
-        "source": "Unite.AI",
-        "rank": 18,
-        "title": "Parekh: AI Now Delivers 10.5% of Infosys Q2 Revenue, Up 29% Sequentially",
-        "summary": "Infosys reported revenues of $5,145 million for the second quarter ended September 30, 2026, with an operating margin of 21.0% and large-deal wins carrying a total contract value of $5.2 billion, according to the IFRS…",
-        "url": "https://www.unite.ai/parekh-ai-now-delivers-10-5-of-infosys-q2-revenue-up-29-sequentially/",
-        "category": "AI Models & Platforms",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T12:53:11+00:00",
-        "coverage": 1,
-        "image": "https://www.unite.ai/wp-content/uploads/2026/10/infosys-reports-29-sequential-growth-ai-revenue-q2.jpg"
       },
       {
         "source": "The Verge AI",
@@ -4541,18 +4433,6 @@
         "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-454-29-scaled.png"
       },
       {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "State legislatures become de facto AI regulators as Congress stalls",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQUl1cmJkckQ1TTZ5b0xFOUJWb2FrWkwwNFk2ZnpGSTVaaWNISllxVGZscWxBUWNleUI0ZTdDNlNYS3VxQzBtOXEtTG1DdEROeWMzdjJBWnprQ3NZWXVuNTR5VU9wN3ZiaW5oRUhlYXNHeUlnNUctMnJScVZoSUJDLWhPUGN5ajAtN3FEcDNVQmZsUHNNYjh0cDRPQU5JdjZXcjRiOVFlNGdlb3c?oc=5",
-        "category": "News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T04:14:59+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "TechCrunch AI",
         "rank": 2,
         "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
@@ -4585,7 +4465,7 @@
         "category": "Global Affairs",
         "date": "2026-10-23",
         "timestamp": "2026-10-23T00:00:00+00:00",
-        "coverage": 2,
+        "coverage": 1,
         "image": ""
       },
       {
@@ -4675,14 +4555,14 @@
       {
         "source": "TechCrunch AI",
         "rank": 2,
-        "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-        "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
-        "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+        "title": "Canva releases its first image generation model",
+        "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+        "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
         "category": "AI",
         "date": "2026-10-22",
         "timestamp": "2026-10-22T19:00:00+00:00",
         "coverage": 1,
-        "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-12.17.11-PM-1.png?resize=1200,988"
+        "image": "https://techcrunch.com/wp-content/uploads/2026/10/Sample-Outputs.jpeg?resize=1200,675"
       },
       {
         "source": "OpenAI News",
@@ -5069,18 +4949,6 @@
         "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/bdb8acd7-f5b7-40db-803c-bebae403a388/Crystal_Ball_of_AI_Futures.png?t=1792535105"
       },
       {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "Sentient Launches Open AI Fingerprinting Benchmark After Finding Most Methods Can Be Beaten",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOW9IcE1qN205ZDNOalRLa0xQcnp0MVdkSE0wTWJTSTlnY2hpcHNfakVMZkliZEo3NjZpN2dJSE1mVlJoT2RKUVV6ajNocXhYUndXYUJiX1FEUjFHbzVKLVJTdkRsU2Vfby1kV3dKdWxPYzRlcVhNYkUxMXZDMl9uOG1CSERhMDJBcGFfeHF4T0dfSm4tRG1mbWdlOW8yQzVPX21DaDdfVkJoMDNoVXJZWlE0a05ZTTBWUnNzSEtIenlINEF4bkt4UGU4cHJvUU91TmNJVWwyUWI?oc=5",
-        "category": "News",
-        "date": "2026-10-21",
-        "timestamp": "2026-10-21T09:06:56+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "OpenAI News",
         "rank": 6,
         "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
@@ -5177,42 +5045,6 @@
         "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2273107915-500x500-1792514374.jpg"
       },
       {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "sebastian schmidt Archives",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1wMzJOVE5CR3hnN2FCYS1Ud0ZUbWVBWm1FQlQwbTRJdEU4ZmROMVFmSkM5ZUJORTUzYlZmTWpGSXpsWVFCSmpHdjBTUHdON3BrNWR6TVRWWEhrVlF6ckIyeWdyU01qTDFQRlhWZ2NLeW5wRHJYQmF0Y1RfMA?oc=5",
-        "category": "News",
-        "date": "2026-10-20",
-        "timestamp": "2026-10-20T15:28:32+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "Sebastian Schmidt, Digital Science: On grounding enterprise AI in scientific evidence",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLWR2U0tsREh6WXdDbHkzTFpiTDNDYVNtaHFNSFZTLVFmSGFkUmdlTGpCUzJCcmFPWHlNaC1wM3RJMEY0NnNkV2F4NUpBVkxUcFA2dWJwZVRWS0piRGFubUZJY0hMVkdFbENfd2d0cHJzZkl3d2xaV2ZlUDZza0tFM3F5alRIVjlZbGJWazdweDBHZkN3ZWZMcnEtQUVnWl96bGZsNXlIb0k0N19FcXVHMS1DenJyMl9yRGtpa1dSell1UWpGYmc?oc=5",
-        "category": "News",
-        "date": "2026-10-20",
-        "timestamp": "2026-10-20T15:25:36+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "Germany and NVIDIA sign industrial AI declaration in Berlin",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNODZoenhYRGtDQm4tTlRoMnpKTXRfenM3ODNGS2ZJNjJDdFJXOVFDZDZMVldzU0JMT19PZFFfbFU4WjllcThaN0huX0RhY2NRVUdsMlZROXpldUd5NmVHZlFTMEVlUjd6TmdOR2EweVRkNVlkcGROTXlCMXhDOVdrSkZKTUJMRmNNWjVYVTJwRVgtZzFJZEF4N3lQTTlxZXJSU2VkOGQzRXk?oc=5",
-        "category": "News",
-        "date": "2026-10-20",
-        "timestamp": "2026-10-20T15:02:56+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "The Rundown AI",
         "rank": 13,
         "title": "What AI sees in your selfie",
@@ -5271,18 +5103,6 @@
         "timestamp": "2026-10-20T11:50:33+00:00",
         "coverage": 1,
         "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt783472a164d194dd/6ad75835ca1db7589fc3b6b2/Smartsheet_logo.jpg?width=720&quality=80&disable=upscale"
-      },
-      {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "Sarawak expands voice AI trials for government services",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd1BmSEsyeWJHc3IzSUFVeWRmWnRPVXUyd29udXUwVlBidW9kTWV1QVcyRUxuRDR3RUhnZ0dITVBLeVFLMzhtS3BJMjlGT0F3a1FYX3BvT2M2Z3A1anVXNEk3TldpVVVtRlNwbnFqWl84VXN4TkdPcGE2MjRqLTBUb3o0WEtmU3dmRzRiV0VTOA?oc=5",
-        "category": "News",
-        "date": "2026-10-20",
-        "timestamp": "2026-10-20T10:08:01+00:00",
-        "coverage": 1,
-        "image": ""
       },
       {
         "source": "The Rundown AI",
@@ -5357,18 +5177,6 @@
         "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt63785c27dfe0b2fe/6ad68e8e8bd9fc97ae79da3f/Microsoft_building.jpg?width=720&quality=80&disable=upscale"
       },
       {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "Data Points: Muse Spark Open leads U.S. open models",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSmVFSzVod2d3LWNaZ04yNDkzczdTVzdyV0Z3YTdVYVBYY1k3RFB0ZEJ1cVJveTFLaGJpUFY2bzk0b0hWQV9CNS1paHpBZjRwZU4yX3NmYkhXaHM5MFppR2pKNGEwaUcxTU93aVVQUnlTeWRZY0ZiY2pXVU5IVXhEWA?oc=5",
-        "category": "News",
-        "date": "2026-10-19",
-        "timestamp": "2026-10-19T21:35:00+00:00",
-        "coverage": 2,
-        "image": ""
-      },
-      {
         "source": "AI Business",
         "rank": 16,
         "title": "How Boston is becoming a physical AI hub",
@@ -5405,18 +5213,6 @@
         "image": "https://www.kdnuggets.com/wp-content/uploads/KDN-Shittu-Claude-Haiku-5.5-Whats-New-and-How-to-Use-It-for-Fast-Cheap-AI-Workflows-scaled.png"
       },
       {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "Council for Science and Technology urges UK AI sovereignty plan",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZWlRc01sYW1OOFNwcWU0V2xpNXdUU2JyU1Mwc19yRl9LOEpvWlcySFA3NHBSZV96OURQVFN0Y2JiTFVpY3NWdTBaOWo2UjBzMlJPTkxyWGVacnR4Si1JTEJvX0FZUVlwZVR5Z1prSFNCa3J3dDkxbm4yZTQyODk0cXhqTkhtNGhuMkFzSmJfOG9FZUhFcDQzY0l1cjZkakhvclZBTzFpZ2d6SEU?oc=5",
-        "category": "News",
-        "date": "2026-10-19",
-        "timestamp": "2026-10-19T15:14:38+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "The Rundown AI",
         "rank": 13,
         "title": "SoftBank’s $18B bet on robot guards",
@@ -5439,30 +5235,6 @@
         "timestamp": "2026-10-19T14:00:00+00:00",
         "coverage": 1,
         "image": "https://www.kdnuggets.com/wp-content/uploads/kdn-chugani-langchain-llamaindex-building-scratch-feature.png"
-      },
-      {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "Cyber Security Global 2027",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNalhCLURoVUlYaEZNWDZjemhTZGhxajcxWUxyZk1iS1A0OVRIZlo4TjVsV29ydlhnd2hDdC05U1hIaXZzYl96bElLbVgyeVNrVHpHb2RvSnY1T19Ud05OXzVPelEwd2VhVjNtbUtqNjkzYnp4MmVtYjdHRU52OTdqX2lnNDdqU2FUZFBpdkZkMENNZTQ?oc=5",
-        "category": "News",
-        "date": "2026-10-19",
-        "timestamp": "2026-10-19T10:25:16+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "Anthropic creates Public Benefit Fund that grows with company valuation",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZldfTGhZTGVIQjF4eFQzQXdQNGhZUkVZeG0yUV9NeXIyNGpXalNBeWVrY1ZiT3BmLUtmVmRjaFVwMGZHV3Frb3gzTEdjRTQtaW54blZaOUhiM0RnUDlMOWxwbkZvWmM3OWY4QmdiVjVOUjkwUGdqY1JNTHJXODZXdFZOTmNGUXU5THJKb0tHcWpPYzROaDYzZ0xldUNqRmUwd05JX3NNVGNtZ0JMQWVKM0RUalZvRnViWHBPN3Bn?oc=5",
-        "category": "News",
-        "date": "2026-10-19",
-        "timestamp": "2026-10-19T10:15:52+00:00",
-        "coverage": 1,
-        "image": ""
       },
       {
         "source": "IEEE Spectrum AI",
@@ -5549,42 +5321,6 @@
         "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt9a6dcfac89c24415/6ad24c63bfbc23b3c50e8288/GettyImages-2217030312.jpg-AI_agent.jpg?width=720&quality=80&disable=upscale"
       },
       {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "Mistral Large 4, the leading European AI model, outperforms all open models outside of China",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOFBHeDd1MG1tZ0NfZVhuVEdEcDF3bmlDQ1pRZXZtRXZiMHhuQWd2VmU4MWdCaHI0Ml9jand2dTN2dFp4UDZqdDhDRXUxckxCLXZKMVV2bW1SMUJrOGtKa2d6TnIxNnRlV1NVdUlwSDd2SUw3YURfWFFrRUNROElYeDktRQ?oc=5",
-        "category": "News",
-        "date": "2026-10-16",
-        "timestamp": "2026-10-16T15:05:12+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "Claude Sonnet 5.5 and Haiku 5.5 give developers fast, highly capable alternatives to Opus 5.5",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zSXB6N1RCT1ZVZDdkdkh4ZUVwVUxSVUQ4NElZWnJuai1FRWs5SWdSeWRqZzg0TXA1eU43dG1NWTlVRk83bjc2M0RYSnpVRmhPaGQ1LWpBU1EzUWpwMFR5NGM5V0EtcHlPQVhUemJWZlJ1Q2o0aG5BbDNQUQ?oc=5",
-        "category": "News",
-        "date": "2026-10-16",
-        "timestamp": "2026-10-16T15:00:58+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "Formal Verification Meets Unverifiable Judgement",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWG5GVUFEemF5RmNGY0tTbVBmbXJnUjN2bjJ5TGpuNVk0REs4YThPc1I1UXhNN0dRcEZOSUpENXZWNjZEbWw3YUNCMkE3WjNsWlZ4SXlpVTZPQzJWVHBiR3JMZlBIYmdSd28tLURsUVZ0ajBRcDZlSE5EN2dPWTJvMXZkcGVqMnJGWklUTXpmcw?oc=5",
-        "category": "News",
-        "date": "2026-10-16",
-        "timestamp": "2026-10-16T14:30:41+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "The Rundown AI",
         "rank": 13,
         "title": "Elon Musk's 'flying car' is here",
@@ -5609,16 +5345,16 @@
         "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/c305cc17-d9d6-44f7-bff9-ec1218ed30ca/4d0e37a9-36d9-4432-93a2-868aff5513cf.jpg?t=1792115804"
       },
       {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "Claude Haiku 5.5, Mistral Large 4, and Local Models for Mac and Windows",
+        "source": "TLDR AI",
+        "rank": 14,
+        "title": "Muse Spark Open ✨, Microsoft’s 3T param model 🧠, d1-ultra 💡",
         "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mVUQ0YmpXUHVZV21BZnZ1RkU0Y05rVnFJNm8xM3BTbVZtRDNUTTJRYWstcU8wTWphcmNZa21CSno1ZUNTZDZqcEpIVHRVTmVFT0tGazBuYXh4OGM?oc=5",
-        "category": "News",
+        "url": "https://tldr.tech/ai/2026-10-16",
+        "category": "Tech",
         "date": "2026-10-16",
-        "timestamp": "2026-10-16T07:00:00+00:00",
+        "timestamp": "2026-10-16T00:00:00+00:00",
         "coverage": 1,
-        "image": ""
+        "image": "https://tldr.tech/logo-jpg.jpg"
       },
       {
         "source": "Google DeepMind Blog",
@@ -5667,6 +5403,270 @@
         "timestamp": "2026-10-14T02:00:14+00:00",
         "coverage": 1,
         "image": "https://lh3.googleusercontent.com/5PC4h7MzjC0ojOxiK-nPcRz0b6kUybKnCBjLL3nsb9T9qt7-2ciORJPnrObeFaYbAMqPxIhH4Wq9HD-U73lCivpFBcK8gABvhXXDo2lzUUSk9olsZQ=w528-h297-n-nu-rw-lo"
+      },
+      {
+        "source": "Anthropic News",
+        "rank": 7,
+        "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "summary": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "url": "https://www.anthropic.com/news/singapore-office-opening",
+        "category": "News",
+        "date": "2026-10-14",
+        "timestamp": "2026-10-14T00:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+      },
+      {
+        "source": "Anthropic News",
+        "rank": 7,
+        "title": "Preparing for the 2026 US midterms",
+        "summary": "Preparing for the 2026 US midterms",
+        "url": "https://www.anthropic.com/news/2026-us-midterms",
+        "category": "News",
+        "date": "2026-10-14",
+        "timestamp": "2026-10-14T00:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg"
+      },
+      {
+        "source": "TLDR AI",
+        "rank": 14,
+        "title": "OpenAI dev arrested 🚨, Pi API 🤖, OpenCode 2.0 🧑‍💻",
+        "summary": "",
+        "url": "https://tldr.tech/ai/2026-10-14",
+        "category": "Tech",
+        "date": "2026-10-14",
+        "timestamp": "2026-10-14T00:00:00+00:00",
+        "coverage": 1,
+        "image": "https://tldr.tech/logo-jpg.jpg"
+      },
+      {
+        "source": "Google DeepMind Blog",
+        "rank": 8,
+        "title": "Developing Gemini 4 Argon responsibly and safely",
+        "summary": "",
+        "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+        "category": "News",
+        "date": "2026-10-13",
+        "timestamp": "2026-10-13T19:43:07+00:00",
+        "coverage": 1,
+        "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon_key-art_4_lockup_light_16-9.width-1300.png"
+      },
+      {
+        "source": "Google DeepMind Blog",
+        "rank": 8,
+        "title": "Gemini 4 Argon for Robotics",
+        "summary": "",
+        "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+        "category": "News",
+        "date": "2026-10-13",
+        "timestamp": "2026-10-13T16:01:58+00:00",
+        "coverage": 1,
+        "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png"
+      },
+      {
+        "source": "Google DeepMind Blog",
+        "rank": 8,
+        "title": "Gemini 4 Argon: Built to solve your hardest problems",
+        "summary": "",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+        "category": "News",
+        "date": "2026-10-13",
+        "timestamp": "2026-10-13T16:01:52+00:00",
+        "coverage": 2,
+        "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp"
+      },
+      {
+        "source": "IEEE Spectrum AI",
+        "rank": 20,
+        "title": "Google DeepMind’s New Resident Philosopher Tackles AI Ethics",
+        "summary": "How should humans relate to generative AI ? In what ways do we, or should we, treat a large language model (LLM) as if it were a person? If an AI became conscious, how could we tell? Does it make sense to think AI could…",
+        "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
+        "category": "Ai-ethics",
+        "date": "2026-10-13",
+        "timestamp": "2026-10-13T13:00:03+00:00",
+        "coverage": 1,
+        "image": "https://spectrum.ieee.org/media-library/a-white-man-with-shoulder-length-brown-hair-smiling-softly-in-front-of-a-bookshelf.jpg?id=67861702&width=980"
+      },
+      {
+        "source": "TLDR AI",
+        "rank": 14,
+        "title": "Muse Wonder ✨, Maia 300 ⚡, AI self-replication 🧬",
+        "summary": "",
+        "url": "https://tldr.tech/ai/2026-10-13",
+        "category": "Tech",
+        "date": "2026-10-13",
+        "timestamp": "2026-10-13T00:00:00+00:00",
+        "coverage": 1,
+        "image": "https://tldr.tech/logo-jpg.jpg"
+      },
+      {
+        "source": "IEEE Spectrum AI",
+        "rank": 20,
+        "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+        "summary": "If you’ve ever wondered how Claude and similar AI agents can answer complex questions in seconds and where they get the information, you’re not alone. Gurmeet Saran works to find that answer every day as an engineer at…",
+        "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+        "category": "Ieee-member-news",
+        "date": "2026-10-12",
+        "timestamp": "2026-10-12T18:00:02+00:00",
+        "coverage": 1,
+        "image": "https://spectrum.ieee.org/media-library/an-indian-man-in-a-dress-shirt-smiling-in-front-of-the-entrance-to-an-office-building.jpg?id=68416593&width=980"
+      },
+      {
+        "source": "IEEE Spectrum AI",
+        "rank": 20,
+        "title": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
+        "summary": "This White Paper provides roboticists and control engineers with a comprehensive overview of how motion planning and motion tracking can be decoupled to preserve professional athletic style in humanoid robots, and why…",
+        "url": "https://content.knowledgehub.wiley.com/learning-to-play-like-a-pro-adaptive-motion-planning-and-tracking-for-humanoid-robots/",
+        "category": "Type-whitepaper",
+        "date": "2026-10-12",
+        "timestamp": "2026-10-12T10:00:03+00:00",
+        "coverage": 1,
+        "image": "https://assets.rbl.ms/68382463/origin.png"
+      },
+      {
+        "source": "TLDR AI",
+        "rank": 14,
+        "title": "Gemini 4 Carbon 🧠, Nvidia weighs Reflection acquihire 💰, decision model race 🤖",
+        "summary": "",
+        "url": "https://tldr.tech/ai/2026-10-12",
+        "category": "Tech",
+        "date": "2026-10-12",
+        "timestamp": "2026-10-12T00:00:00+00:00",
+        "coverage": 1,
+        "image": ""
+      },
+      {
+        "source": "IEEE Spectrum AI",
+        "rank": 20,
+        "title": "Master AI Chip Principles With New IEEE Design Program",
+        "summary": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “ Revisiting Edge AI: Opportunities and Challenges .” The article examines the rapid growth of…",
+        "url": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
+        "category": "Ieee-products-and-services",
+        "date": "2026-10-09",
+        "timestamp": "2026-10-09T18:00:02+00:00",
+        "coverage": 1,
+        "image": "https://spectrum.ieee.org/media-library/graphic-illustration-of-arrows-and-data-symbols-representing-a-neural-network.jpg?id=68060909&width=980"
+      },
+      {
+        "source": "TLDR AI",
+        "rank": 14,
+        "title": "GPT-6.1 Ultrafast ⚡, Gemini universal agent 🤖, speculative decoding 🧠",
+        "summary": "",
+        "url": "https://tldr.tech/ai/2026-10-09",
+        "category": "Tech",
+        "date": "2026-10-09",
+        "timestamp": "2026-10-09T00:00:00+00:00",
+        "coverage": 1,
+        "image": "https://tldr.tech/logo-jpg.jpg"
+      },
+      {
+        "source": "IEEE Spectrum AI",
+        "rank": 20,
+        "title": "The U.S. Nuclear Plant Fleet Is Leaning Into AI",
+        "summary": "If there is any place that would be off-limits to AI, the control room of a nuclear power plant certainly sounds like one. The nuclear industry is historically cautious and risk averse—understandable given the possible…",
+        "url": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant",
+        "category": "Nuclear-power",
+        "date": "2026-10-08",
+        "timestamp": "2026-10-08T14:28:17+00:00",
+        "coverage": 1,
+        "image": "https://spectrum.ieee.org/media-library/three-men-smiling-together-in-front-of-an-exascale-supercomputer.jpg?id=68384674&width=980"
+      },
+      {
+        "source": "Anthropic News",
+        "rank": 7,
+        "title": "Introducing the Anthropic Cyber Mission",
+        "summary": "Introducing the Anthropic Cyber Mission",
+        "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+        "category": "News",
+        "date": "2026-10-08",
+        "timestamp": "2026-10-08T00:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2af4f6715cbe9766a47430a24420cfca0a2c588-1200x630.jpg"
+      },
+      {
+        "source": "Anthropic News",
+        "rank": 7,
+        "title": "Building on our commitment to American scientific discovery",
+        "summary": "Building on our commitment to American scientific discovery",
+        "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+        "category": "News",
+        "date": "2026-10-08",
+        "timestamp": "2026-10-08T00:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+      },
+      {
+        "source": "Anthropic News",
+        "rank": 7,
+        "title": "2026 Usage Policy update",
+        "summary": "2026 Usage Policy update",
+        "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+        "category": "News",
+        "date": "2026-10-08",
+        "timestamp": "2026-10-08T00:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+      },
+      {
+        "source": "TLDR AI",
+        "rank": 14,
+        "title": "ChatGPT Intelligent UI 🧠, Claude Haiku 5.5 ⚡, Grok Bot 3rd party models 🤖",
+        "summary": "",
+        "url": "https://tldr.tech/ai/2026-10-08",
+        "category": "Tech",
+        "date": "2026-10-08",
+        "timestamp": "2026-10-08T00:00:00+00:00",
+        "coverage": 1,
+        "image": "https://tldr.tech/logo-jpg.jpg"
+      },
+      {
+        "source": "IEEE Spectrum AI",
+        "rank": 20,
+        "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
+        "summary": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the…",
+        "url": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/",
+        "category": "Type-whitepaper",
+        "date": "2026-10-07",
+        "timestamp": "2026-10-07T13:49:48+00:00",
+        "coverage": 1,
+        "image": "https://assets.rbl.ms/68382308/origin.png"
+      },
+      {
+        "source": "Google AI",
+        "rank": 11,
+        "title": "Introducing Playground: Create and play custom games",
+        "summary": "Overview of Playground",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+        "category": "AI",
+        "date": "2026-10-07",
+        "timestamp": "2026-10-07T12:00:00+00:00",
+        "coverage": 1,
+        "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.max-600x600.format-webp.webp"
+      },
+      {
+        "source": "Anthropic News",
+        "rank": 7,
+        "title": "Introducing Claude Haiku 5.5",
+        "summary": "Introducing Claude Haiku 5.5",
+        "url": "https://www.anthropic.com/claude-haiku-5-5",
+        "category": "News",
+        "date": "2026-10-07",
+        "timestamp": "2026-10-07T00:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg"
+      },
+      {
+        "source": "Google DeepMind Blog",
+        "rank": 8,
+        "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+        "summary": "",
+        "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+        "category": "News",
+        "date": "2026-10-06",
+        "timestamp": "2026-10-06T19:57:04+00:00",
+        "coverage": 1,
+        "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png"
       }
     ],
     "sources": [
@@ -5807,7 +5807,7 @@
         "url": "https://mixmag.net/read/russian-dj-removed-ade-line-up-following-threatening-message-ukrainian-artist-news",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100875+00:00",
+        "timestamp": "2026-10-25T10:55:20.065547+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/russian-dj-ade.jpg?fit=cover&width=660&s=uPhF_imqhvjs8WGhmzxOikfb04wUIIZwQ-vksmNIZJQ"
       },
@@ -5819,7 +5819,7 @@
         "url": "https://mixmag.net/read/rockstar-reportedly-tried-reunite-daft-punk-gta-6-news",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100848+00:00",
+        "timestamp": "2026-10-25T10:55:20.065520+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/GTA-VI-1.jpg?fit=cover&width=660&s=0NDlDPReD8KO2BvgFBdN3PG4TwYABovnJB2EyBIXP-8"
       },
@@ -5831,7 +5831,7 @@
         "url": "https://mixmag.net/read/sama-abdulhadi-withdraws-ade-citing-booking-ex-idf-soldiers-news",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100823+00:00",
+        "timestamp": "2026-10-25T10:55:20.065483+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/sama-ade.jpg?fit=cover&width=660&s=NbhDQJ9EZaZpTSGUKJOwGtvd75UN6bW2_8mr9YpZ1K0"
       },
@@ -5843,7 +5843,7 @@
         "url": "https://mixmag.net/feature/eris-drew-octo-octa-alchemical-sisters-mixmag-lab-cover-mix",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100805+00:00",
+        "timestamp": "2026-10-25T10:55:20.065460+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/MM_COVERMIX_ALCHEMICAL_ARTWORK_2.jpg?fit=cover&format=baseline-jpeg&height=630&width=1200&s=gVpmV63EGP7Mzn_v8OLj7dm-0f8yqZiLKGp6wHW0VfI"
       },
@@ -5855,7 +5855,7 @@
         "url": "https://mixmag.net/feature/eris-drew-octo-octa-alchemical-sisters-cover-feature-interview",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100788+00:00",
+        "timestamp": "2026-10-25T10:55:20.065437+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/MM_COVER_WEB_ALCHEMICALSISTERS_2.jpg?fit=cover&format=baseline-jpeg&height=630&width=1200&s=4khe9Ff-rJeTVXCWiz00RB2sSqfihb0sZRURlCeeC88"
       },
@@ -5867,7 +5867,7 @@
         "url": "https://mixmag.net/read/oversold-glastonbury-2027-tickets-still-be-valid-festival-confirms-news",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100759+00:00",
+        "timestamp": "2026-10-25T10:55:20.065378+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/glasto-oversold.jpg?fit=cover&width=660&s=SX117OzUJY0CFy4QaCJL1-exOpZDnsdNvUnASky06kw"
       },
@@ -5879,7 +5879,7 @@
         "url": "https://mixmag.net/read/over-third-brits-cut-down-nights-out-gigs-rising-costs-study-finds-news",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100737+00:00",
+        "timestamp": "2026-10-25T10:55:20.065350+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/night-out-uk.jpg?fit=cover&width=660&s=gp0BwqtItzlfbr1tn7oK1zBZo66euprRyWDqSQF07Rg"
       },
@@ -5891,7 +5891,7 @@
         "url": "https://mixmag.net/read/watch-new-film-celebrating-late-dj-label-head-chris-stoker-news",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100706+00:00",
+        "timestamp": "2026-10-25T10:55:20.065322+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/chris-stoker.png?fit=cover&width=660&s=ra_aAHxuJ_Gbh06g3jdpqPJ3jNmAtNGGlg_5DzNr6J0"
       },
@@ -5903,7 +5903,7 @@
         "url": "https://mixmag.net/read/daft-punk-announce-first-ever-official-partnership-with-lego-news",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100681+00:00",
+        "timestamp": "2026-10-25T10:55:20.065290+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/DAFT-P.png?fit=cover&width=660&s=CAKli9NGMqU7qu5JrN2o0zKimZt7kN0QzPLYmMmDzzI"
       },
@@ -5915,7 +5915,7 @@
         "url": "https://mixmag.net/feature/the-mix-128-eden-samara",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100661+00:00",
+        "timestamp": "2026-10-25T10:55:20.065263+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/THE_MIX_ES2.jpg?fit=cover&format=baseline-jpeg&height=630&width=1200&s=v_TijYRMXoKTt9h6k_nMa9OtI-so3ePnhvrV2XYBap8"
       },
@@ -5927,7 +5927,7 @@
         "url": "https://mixmag.net/feature/newcastle-pulse-leading-hedonistic-charge-lesbian-trans-community",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100635+00:00",
+        "timestamp": "2026-10-25T10:55:20.065226+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/pulse-functions.jpg?fit=cover&format=baseline-jpeg&height=630&width=1200&s=cTp1TnA-n-WBOUP1pgb4GTDhWPzGLMLBVWRwCuZObZM"
       },
@@ -5939,9 +5939,93 @@
         "url": "https://mixmag.net/read/lost-seeks-24-hour-license-for-new-london-college-of-fashion-home-news",
         "category": "News",
         "date": "2026-10-25",
-        "timestamp": "2026-10-25T05:49:19.100556+00:00",
+        "timestamp": "2026-10-25T10:55:20.065100+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/UAL.png?fit=cover&width=660&s=ds2gk73Z3XCqdC5TcpBKTjcKNM-VrxNQo1FOcr5EXzY"
+      },
+      {
+        "source": "Billboard",
+        "rank": 2,
+        "title": "Cardi B Attends KATSEYE’s New York Concert With Daughters",
+        "summary": "Cardi B brought daughters Kulture and Blossom to the concert after previously declaring her love for the group and “Hootie Frutti.”",
+        "url": "https://www.billboard.com/music/music-news/cardi-b-katseye-concert-daughters-kulture-blossom-1236367584/",
+        "category": "Music",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:35:55+00:00",
+        "coverage": 1,
+        "image": ""
+      },
+      {
+        "source": "NME",
+        "rank": 4,
+        "title": "Watch Ali G mock Noel Gallagher’s Oasis comeback and try to kick him out of cinema",
+        "summary": "\"A 50-year-old white man trying to make a comeback after 20 years, so sad!\" The post Watch Ali G mock Noel Gallagher’s Oasis comeback and try to kick him out of cinema appeared first on NME .",
+        "url": "https://www.nme.com/news/music/watch-ali-g-mock-noel-gallagher-oasis-comeback-cinema-3974172?utm_source=rss&utm_medium=rss&utm_campaign=watch-ali-g-mock-noel-gallagher-oasis-comeback-cinema",
+        "category": "Music News",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:31:13+00:00",
+        "coverage": 1,
+        "image": "https://www.nme.com/wp-content/uploads/2026/10/Kevin_Winter_Jeff_Spicer.jpg"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "3 One-Hit Wonders From the 1950s That Parents Were Actually Scared Of",
+        "summary": "NEW YORK - SEPTEMBER 1958: Pianist Bob Gaudio, drummer Tom Austin, tenor sax Larry Qualiano, singer Dianne Costello and guitarist Billy Dalton of the rock and roll band \"The Royal Teens\" pose for a portrait in September…",
+        "url": "https://americansongwriter.com/3-one-hit-wonders-from-the-1950s-that-parents-were-actually-scared-of/",
+        "category": "Features",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:30:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/05/GettyImages-174774707.jpg?w=1056"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "Remembering When Led Zeppelin Chaotically Recorded a Masterpiece of a Sophomore Album in 1969",
+        "summary": "Left to right: Robert Plant, John Paul Jones and Jimmy Page, of British heavy rock group Led Zeppelin, performing at Earl's Court, London, May 1975. The band were initially booked to play three nights at the venue, from…",
+        "url": "https://americansongwriter.com/remembering-when-led-zeppelin-chaotically-recorded-a-masterpiece-of-a-sophomore-album-in-1969/",
+        "category": "Features",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T10:00:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/08/GettyImages-544866455.jpg?w=1056"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "Born 114 Years Ago Today in Tennessee, the “Queen of Country Comedy” Who Wore a $1.98 Price Tag and Became a Grand Ole Opry Icon",
+        "summary": "American country comedienne Minnie Pearl (1912 - 1996) performing, circa 1970. (Photo by Silver Screen Collection/Getty Images) Sarah Colley Cannon, better known as Grand Ole Opry star Minnie Pearl, was born 114 years…",
+        "url": "https://americansongwriter.com/born-114-years-ago-today-in-tennessee-the-queen-of-country-comedy-who-wore-a-1-98-price-tag-and-became-a-grand-ole-opry-icon/",
+        "category": "Features",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:30:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/minnie-pearl-1.jpg?w=1056"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "Every Baby Boomer Alive Remembers These 4 Incredible Hard Rock Hits From 1968",
+        "summary": "NEW YORK - JUNE 11: Rock and roll band Steppenwolf (L-R Jerry Edmonton, John Kay and Michael Monarch) perform at Steve Paul's The Scene nightclub on June 11, 1968 in New York, New York. (Photo by Don Paulsen/Michael…",
+        "url": "https://americansongwriter.com/every-baby-boomer-alive-remembers-these-4-incredible-hard-rock-hits-from-1968/",
+        "category": "Features",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T09:00:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/GettyImages-154682055.jpg?w=1056"
+      },
+      {
+        "source": "NME",
+        "rank": 4,
+        "title": "Sam Fender scraps premium front-standing tickets and announces reduced prices for 2027 stadium tour",
+        "summary": "The singer has confirmed that all standing tickets will cost £85 before fees, after hitting out at the original prices The post Sam Fender scraps premium front-standing tickets and announces reduced prices for 2027…",
+        "url": "https://www.nme.com/news/music/sam-fender-scraps-front-standing-tickets-reduced-prices-2027-stadium-tour-3974164?utm_source=rss&utm_medium=rss&utm_campaign=sam-fender-scraps-front-standing-tickets-reduced-prices-2027-stadium-tour",
+        "category": "Music News",
+        "date": "2026-10-25",
+        "timestamp": "2026-10-25T08:32:35+00:00",
+        "coverage": 1,
+        "image": "https://www.nme.com/wp-content/uploads/2025/07/NMEAR_NME-READING-2023-SAM-FENDER-LIVE-ANDY-FORD-1@2000x1270.jpg"
       },
       {
         "source": "Billboard",
@@ -6076,30 +6160,6 @@
         "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/paul-anka-getty.jpg?w=1056"
       },
       {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "This James Brown Smash Hit From 1965 Essentially Invented a New Musical Genre",
-        "summary": "American soul singer and songwriter James Brown (1933-2006) performs live on stage at The Venue in London in September 1979. James Brown would go on to play 5 nights at the venue from 5th to 9th September 1979. (Photo…",
-        "url": "https://americansongwriter.com/this-james-brown-smash-hit-from-1965-essentially-invented-a-new-musical-genre/",
-        "category": "Behind The Song",
-        "date": "2026-10-24",
-        "timestamp": "2026-10-24T20:30:00+00:00",
-        "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/07/james-brown-getty.jpg?w=1056"
-      },
-      {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "Born 92 Years Ago Today in the Lone Star State, the Legendary Nashville Songwriter Behind Hits for George Strait, Lefty Frizzell, and Keith Whitley",
-        "summary": "NASHVILLE, TN - Singer/Songwriter Whitey Shafer performs during the All-Star Whitey Shafer Benefit, Hosted By Moe Bandy at The Nashville Palace on March 18, 2015 in Nashville, Tennessee. (Photo by Rick Diamond/Getty…",
-        "url": "https://americansongwriter.com/born-92-years-ago-today-in-the-lone-star-state-the-legendary-nashville-songwriter-behind-hits-for-george-strait-lefty-frizzell-and-keith-whitley/",
-        "category": "Features",
-        "date": "2026-10-24",
-        "timestamp": "2026-10-24T20:00:00+00:00",
-        "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/Whitey-Shafer.jpg?w=1056"
-      },
-      {
         "source": "Billboard",
         "rank": 2,
         "title": "Jay-Z Brings Out Blue Ivy, John Legend, DJ Khaled & Scarface in Los Angeles",
@@ -6110,18 +6170,6 @@
         "timestamp": "2026-10-24T19:24:38+00:00",
         "coverage": 1,
         "image": "https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/public/lazyload-fallback.gif"
-      },
-      {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "Every Vietnam War Veteran Alive Remembers These 3 Must-Hear Anthems From 1971",
-        "summary": "THE JOHNNY CASH SHOW - \"History of Country Music\" - Airdate: January 21, 1971. (Photo by ABC Photo Archives/Disney General Entertainment Content via Getty Images) MERLE HAGGARD Many a Vietnam veteran alive today likely…",
-        "url": "https://americansongwriter.com/every-vietnam-war-veteran-alive-remembers-these-3-must-hear-anthems-from-1971/",
-        "category": "Features",
-        "date": "2026-10-24",
-        "timestamp": "2026-10-24T18:30:00+00:00",
-        "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/GettyImages-117090823.jpg?w=1056"
       },
       {
         "source": "Rolling Stone",
@@ -6146,18 +6194,6 @@
         "timestamp": "2026-10-24T17:49:03+00:00",
         "coverage": 1,
         "image": "https://www.rollingstone.com/wp-content/uploads/2026/10/RS-MOM-GALLERY-LEAD.jpg?w=1600&h=900&crop=1"
-      },
-      {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "4 Songs That High Schoolers in 1982 Knew Every Word To",
-        "summary": "UNSPECIFIED - CIRCA 1970: Photo of KC & Sunshine Band Photo by Michael Ochs Archives/Getty Images If I were a teen in 1982, these songs would definitely be first on my queue. Here are some hits from the year that still…",
-        "url": "https://americansongwriter.com/4-songs-that-high-schoolers-in-1982-knew-every-word-to/",
-        "category": "Features",
-        "date": "2026-10-24",
-        "timestamp": "2026-10-24T17:30:00+00:00",
-        "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/05/kc-and-the-sunshine-band-getty.jpg?w=1056"
       },
       {
         "source": "Rolling Stone",
@@ -6312,8 +6348,8 @@
         "category": "Music",
         "date": "2026-10-24",
         "timestamp": "2026-10-24T13:47:22+00:00",
-        "coverage": 3,
-        "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/10/Mobile-SOCIAL.jpeg?w=564"
+        "coverage": 4,
+        "image": "https://www.nme.com/wp-content/uploads/2026/10/gerard_way_mcr.jpg"
       },
       {
         "source": "Ultimate Classic Rock",
@@ -6362,18 +6398,6 @@
         "timestamp": "2026-10-24T11:16:40+00:00",
         "coverage": 1,
         "image": "https://www.nme.com/wp-content/uploads/2026/01/NMEAR_NME-READING-2023-SAM-FENDER-LIVE-ANDY-FORD-10@2000x1270.jpg"
-      },
-      {
-        "source": "NME",
-        "rank": 4,
-        "title": "De La Soul’s Posdnuos: “Tupac saved me from getting beat up in the Bay Area”",
-        "summary": "In Does Rock ‘N’ Roll Kill Braincells?!, we quiz an artist on their own career to see how much they can remember. This week: De La Soul's Posdnuos takes the ultimate test. The post De La Soul’s Posdnuos: “Tupac saved me…",
-        "url": "https://www.nme.com/features/music-interviews/does-rock-n-roll-kill-braincells-de-la-soul-posdnuos-3966843?utm_source=rss&utm_medium=rss&utm_campaign=does-rock-n-roll-kill-braincells-de-la-soul-posdnuos",
-        "category": "Features",
-        "date": "2026-10-24",
-        "timestamp": "2026-10-24T07:00:29+00:00",
-        "coverage": 1,
-        "image": "https://www.nme.com/wp-content/uploads/2026/09/de-la-soul-braincells-pic.jpg"
       },
       {
         "source": "Billboard",
@@ -6482,18 +6506,6 @@
         "timestamp": "2026-10-23T21:33:09+00:00",
         "coverage": 2,
         "image": "https://consequence.net/wp-content/uploads/2026/10/Noel-Gallagher-Chicken-Shop-Date-Watch.jpg?quality=80"
-      },
-      {
-        "source": "Billboard",
-        "rank": 2,
-        "title": "Vince Gill & Charlie Handsome Lead 2026 NMPA Gold & Platinum Gala Honorees",
-        "summary": "The 2026 National Music Publishers' Association Gold & Platinum Gala, held Thursday, honored over 150 Nashville songwriters.",
-        "url": "https://www.billboard.com/pro/vince-gill-charlie-handsome-2026-nmpa-gold-platinum-gala/",
-        "category": "Awards",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T21:19:40+00:00",
-        "coverage": 1,
-        "image": ""
       },
       {
         "source": "XXL",
@@ -6780,7 +6792,7 @@
         "category": "News",
         "date": "2026-10-23",
         "timestamp": "2026-10-23T17:35:39+00:00",
-        "coverage": 2,
+        "coverage": 1,
         "image": "https://media.pitchfork.com/photos/6adb8ef76ceab71c318b5572/master/pass/Screenshot%202026-10-23%20at%2012.44.20%E2%80%AFPM.png"
       },
       {
@@ -6902,18 +6914,6 @@
         "timestamp": "2026-10-23T16:38:38+00:00",
         "coverage": 1,
         "image": "https://cdn-p.smehost.net/sites/7f9737f2506941499994d771a29ad47a/wp-content/uploads/2026/10/MIMS-2-3-1024x576.png"
-      },
-      {
-        "source": "NME",
-        "rank": 4,
-        "title": "Queens Of The Stone Age announce 2027 ‘Perfecth’ US tour with Pixies",
-        "summary": "The 16-date run will support the band's upcoming ninth album ‘Perfecth’, with further shows set to be announced The post Queens Of The Stone Age announce 2027 ‘Perfecth’ US tour with Pixies appeared first on NME .",
-        "url": "https://www.nme.com/news/music/queens-of-the-stone-age-announce-2027-perfecth-us-tour-with-pixies-3974084?utm_source=rss&utm_medium=rss&utm_campaign=queens-of-the-stone-age-announce-2027-perfecth-us-tour-with-pixies",
-        "category": "Music News",
-        "date": "2026-10-23",
-        "timestamp": "2026-10-23T16:38:11+00:00",
-        "coverage": 3,
-        "image": "https://www.nme.com/wp-content/uploads/2026/10/josh_homme_qotsa.jpg"
       },
       {
         "source": "Clash",

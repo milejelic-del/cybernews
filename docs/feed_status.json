@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T05:49:37.013696+00:00",
+ "generated_at": "2026-10-25T10:55:40.499180+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -292,11 +292,11 @@
   },
   {
    "name": "CISA",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
@@ -304,7 +304,11 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 40 stavki (UA: feedparser)"
+     "result": "HTTP 503 (feedparser)"
+    },
+    {
+     "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+     "result": "trazenje feed-a: HTTP 403"
     }
    ],
    "tab": "cyber"
@@ -312,7 +316,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 10,
+   "items": 9,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -409,7 +413,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 127 stavki (UA: feedparser)"
+     "result": "OK 126 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -559,7 +563,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 63 stavki (UA: feedparser)"
+     "result": "OK 57 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -746,11 +750,11 @@
   },
   {
    "name": "The Batch",
-   "ok": true,
-   "items": 11,
-   "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://www.deeplearning.ai/the-batch/feed/",
@@ -762,7 +766,15 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 11 stavki (UA: feedparser)"
+     "result": "HTTP 503 (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deeplearning.ai+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "HTTP 503 (feedparser)"
+    },
+    {
+     "url": "https://www.deeplearning.ai/the-batch/",
+     "result": "trazenje feed-a: HTTP 403"
     }
    ],
    "tab": "ai"
@@ -829,11 +841,11 @@
   },
   {
    "name": "Stanford HAI News",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://hai.stanford.edu/news/feed",
@@ -853,7 +865,11 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 86 stavki (UA: feedparser)"
+     "result": "HTTP 503 (feedparser)"
+    },
+    {
+     "url": "https://hai.stanford.edu/news",
+     "result": "trazenje feed-a: nista pronadjeno"
     }
    ],
    "tab": "ai"
@@ -875,19 +891,51 @@
   },
   {
    "name": "Artificial Intelligence News",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 27 stavki (UA: feedparser)"
+     "result": "HTTP 503 (feedparser)"
+    },
+    {
+     "url": "https://www.artificialintelligence-news.com/",
+     "result": "trazenje feed-a: nista pronadjeno"
+    },
+    {
+     "url": "https://www.artificialintelligence-news.com/feed",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.artificialintelligence-news.com/rss.xml",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.artificialintelligence-news.com/rss/",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.artificialintelligence-news.com/rss",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.artificialintelligence-news.com/atom.xml",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.artificialintelligence-news.com/index.xml",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://www.artificialintelligence-news.com/feed.xml",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     }
    ],
    "tab": "ai"
