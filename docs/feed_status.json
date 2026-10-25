@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T18:13:16.945767+00:00",
+ "generated_at": "2026-10-25T21:30:48.853217+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -409,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 122 stavki (UA: feedparser)"
+     "result": "OK 121 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -717,14 +717,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 3,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 3 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -747,7 +751,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 11,
+   "items": 10,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -762,7 +766,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 11 stavki (UA: feedparser)"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -853,7 +857,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 87 stavki (UA: feedparser)"
+     "result": "OK 86 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -887,7 +891,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 27 stavki (UA: feedparser)"
+     "result": "OK 28 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
