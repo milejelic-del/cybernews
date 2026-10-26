@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T03:44:09.243257+00:00",
+ "generated_at": "2026-10-26T09:54:05.574896+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -312,7 +312,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 7,
+   "items": 10,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -327,7 +327,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -559,7 +559,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 50 stavki (UA: feedparser)"
+     "result": "OK 46 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -853,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 58 stavki (UA: feedparser)"
+     "result": "OK 81 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -887,7 +887,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 28 stavki (UA: feedparser)"
+     "result": "OK 27 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -985,7 +985,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 6,
+   "items": 4,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
