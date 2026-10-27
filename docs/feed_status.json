@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T14:05:38.049298+00:00",
+ "generated_at": "2026-10-27T19:56:56.185302+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -294,17 +294,13 @@
    "name": "CISA",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "used_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 42 stavki (UA: feedparser)"
+     "result": "OK 20 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 10,
+   "items": 8,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -327,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 8,
+   "items": 6,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -409,7 +405,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 127 stavki (UA: feedparser)"
+     "result": "OK 126 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -461,8 +457,8 @@
   },
   {
    "name": "Den of Geek",
-   "ok": false,
-   "items": 0,
+   "ok": true,
+   "items": 2,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -694,7 +690,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1325 stavki (UA: feedparser)"
+     "result": "OK 1328 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -717,7 +713,7 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 3,
+   "items": 4,
    "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -728,7 +724,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 3 stavki (UA: feedparser)"
+     "result": "OK 4 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -743,7 +739,7 @@
    "attempts": [
     {
      "url": "https://huggingface.co/blog/feed.xml",
-     "result": "OK 890 stavki (UA: feedparser)"
+     "result": "OK 891 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -857,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 64 stavki (UA: feedparser)"
+     "result": "OK 60 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -887,7 +883,7 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
+     "result": "HTTP 502 (feedparser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
@@ -1138,15 +1134,43 @@
   },
   {
    "name": "Dancing Astronaut",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://dancingastronaut.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://dancingastronaut.com/feed/",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/feed",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss/",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/atom.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/index.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/feed.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     }
    ],
    "tab": "music"
