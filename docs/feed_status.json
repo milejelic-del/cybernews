@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T19:56:56.185302+00:00",
+ "generated_at": "2026-10-27T23:38:58.564237+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 39 stavki (UA: feedparser)"
+     "result": "OK 44 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -300,7 +300,7 @@
    "attempts": [
     {
      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-     "result": "OK 20 stavki (UA: feedparser)"
+     "result": "OK 21 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 8,
+   "items": 10,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -405,7 +405,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 126 stavki (UA: feedparser)"
+     "result": "OK 127 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -555,7 +555,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 44 stavki (UA: feedparser)"
+     "result": "OK 61 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -690,7 +690,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1328 stavki (UA: feedparser)"
+     "result": "OK 1331 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -713,18 +713,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 4,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 4 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -784,15 +780,19 @@
   },
   {
    "name": "KDnuggets",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://www.kdnuggets.com/feed",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://www.kdnuggets.com/feed",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+    },
+    {
+     "url": "https://www.kdnuggets.com/",
+     "result": "trazenje feed-a: HTTP 403"
     }
    ],
    "tab": "ai"
@@ -883,7 +883,7 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "HTTP 502 (feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
