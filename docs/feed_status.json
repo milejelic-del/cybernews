@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T04:33:23.505276+00:00",
+ "generated_at": "2026-10-28T11:03:27.615783+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -123,15 +123,51 @@
   },
   {
    "name": "Infosecurity Magazine",
-   "ok": true,
-   "items": 12,
-   "used_url": "https://www.infosecurity-magazine.com/rss/news/",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://www.infosecurity-magazine.com/rss/news/",
-     "result": "OK 250 stavki (UA: feedparser)"
+     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (feedparser)"
+    },
+    {
+     "url": "https://www.infosecurity-magazine.com/",
+     "result": "trazenje feed-a: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl"
+    },
+    {
+     "url": "https://www.infosecurity-magazine.com/feed/",
+     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (feedparser)"
+    },
+    {
+     "url": "https://www.infosecurity-magazine.com/feed",
+     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (feedparser)"
+    },
+    {
+     "url": "https://www.infosecurity-magazine.com/rss.xml",
+     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (feedparser)"
+    },
+    {
+     "url": "https://www.infosecurity-magazine.com/rss/",
+     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (feedparser)"
+    },
+    {
+     "url": "https://www.infosecurity-magazine.com/rss",
+     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (feedparser)"
+    },
+    {
+     "url": "https://www.infosecurity-magazine.com/atom.xml",
+     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (feedparser)"
+    },
+    {
+     "url": "https://www.infosecurity-magazine.com/index.xml",
+     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (feedparser)"
+    },
+    {
+     "url": "https://www.infosecurity-magazine.com/feed.xml",
+     "result": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (feedparser)"
     }
    ],
    "tab": "cyber"
@@ -190,25 +226,9 @@
    "ok": true,
    "items": 10,
    "used_url": "https://securityaffairs.com/rss/",
-   "via": "generic",
+   "via": "previous",
    "ua": "feedparser",
    "attempts": [
-    {
-     "url": "https://securityaffairs.com/feed",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://securityaffairs.com/",
-     "result": "trazenje feed-a: nista pronadjeno"
-    },
-    {
-     "url": "https://securityaffairs.com/feed/",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://securityaffairs.com/rss.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
     {
      "url": "https://securityaffairs.com/rss/",
      "result": "OK 10 stavki (UA: feedparser)"
@@ -324,7 +344,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 8,
+   "items": 10,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -339,7 +359,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 7,
+   "items": 8,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -571,7 +591,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 61 stavki (UA: feedparser)"
+     "result": "OK 60 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -706,7 +726,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1331 stavki (UA: feedparser)"
+     "result": "OK 1332 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -729,7 +749,7 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 4,
+   "items": 3,
    "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -740,7 +760,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 4 stavki (UA: feedparser)"
+     "result": "OK 3 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -763,7 +783,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -778,7 +798,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 9 stavki (UA: feedparser)"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -869,7 +889,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 60 stavki (UA: feedparser)"
+     "result": "OK 58 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -899,11 +919,11 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 22 stavki (UA: feedparser)"
+     "result": "OK 19 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1001,7 +1021,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 4,
+   "items": 3,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1212,13 +1232,17 @@
    "name": "Digital Music News",
    "ok": true,
    "items": 12,
-   "used_url": "https://www.digitalmusicnews.com/feed/",
+   "used_url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.digitalmusicnews.com/feed/",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 86 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
@@ -1242,16 +1266,12 @@
    "name": "Clash",
    "ok": true,
    "items": 10,
-   "used_url": "https://www.clashmusic.com/feed/",
+   "used_url": "https://www.clashmusic.com/feed",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.clashmusic.com/feed",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://www.clashmusic.com/feed/",
      "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
