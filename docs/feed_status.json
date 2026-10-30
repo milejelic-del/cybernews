@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T01:41:59.505562+00:00",
+ "generated_at": "2026-10-30T08:12:45.822533+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 57 stavki (UA: feedparser)"
+     "result": "OK 71 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 10,
+   "items": 8,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 8,
+   "items": 9,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -458,7 +458,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -713,14 +713,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 3,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 3 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -743,7 +747,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 12,
+   "items": 6,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -758,7 +762,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 12 stavki (UA: feedparser)"
+     "result": "OK 6 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -849,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 51 stavki (UA: feedparser)"
+     "result": "OK 50 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -883,7 +887,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 18 stavki (UA: feedparser)"
+     "result": "OK 16 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1130,43 +1134,15 @@
   },
   {
    "name": "Dancing Astronaut",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 10,
+   "used_url": "https://dancingastronaut.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://dancingastronaut.com/feed/",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/feed",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/rss.xml",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/rss/",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/rss",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/atom.xml",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/index.xml",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/feed.xml",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
