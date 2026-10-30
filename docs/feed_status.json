@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T21:36:17.971682+00:00",
+ "generated_at": "2026-10-30T01:41:59.505562+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 7,
+   "items": 10,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 6,
+   "items": 8,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -405,7 +405,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 123 stavki (UA: feedparser)"
+     "result": "OK 122 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -849,7 +849,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 53 stavki (UA: feedparser)"
+     "result": "OK 51 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -981,7 +981,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 6,
+   "items": 3,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1011,7 +1011,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 8,
+   "items": 10,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -1130,15 +1130,43 @@
   },
   {
    "name": "Dancing Astronaut",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://dancingastronaut.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://dancingastronaut.com/feed/",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/feed",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss/",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/rss",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/atom.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/index.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/feed.xml",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     }
    ],
    "tab": "music"
