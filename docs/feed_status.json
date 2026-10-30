@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T08:12:45.822533+00:00",
+ "generated_at": "2026-10-30T15:39:39.151574+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 71 stavki (UA: feedparser)"
+     "result": "OK 68 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 8,
+   "items": 9,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 9,
+   "items": 6,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -405,7 +405,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 122 stavki (UA: feedparser)"
+     "result": "OK 121 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -458,7 +458,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 7,
+   "items": 1,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -555,7 +555,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 77 stavki (UA: feedparser)"
+     "result": "OK 79 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -747,7 +747,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -762,7 +762,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 6 stavki (UA: feedparser)"
+     "result": "OK 7 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -853,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 50 stavki (UA: feedparser)"
+     "result": "OK 51 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -887,7 +887,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 16 stavki (UA: feedparser)"
+     "result": "OK 15 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -985,7 +985,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 3,
+   "items": 6,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1015,7 +1015,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 10,
+   "items": 11,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -1196,12 +1196,16 @@
    "name": "Digital Music News",
    "ok": true,
    "items": 12,
-   "used_url": "https://www.digitalmusicnews.com/feed/",
+   "used_url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.digitalmusicnews.com/feed/",
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
      "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
