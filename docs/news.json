@@ -14,7 +14,7 @@
         "url": "https://www.bankinfosecurity.com/webinars/live-webinar-who-controls-ai-agents-once-theyre-running-inside-your-w-7470",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:42:58.017261+00:00",
+        "timestamp": "2026-10-31T13:23:27.527809+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -26,7 +26,7 @@
         "url": "https://www.bankinfosecurity.com/webinars/live-webinar-reuse-without-risk-proving-data-gone-as-hardware-costs-w-7473",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:42:58.017219+00:00",
+        "timestamp": "2026-10-31T13:23:27.527766+00:00",
         "coverage": 2,
         "image": ""
       },
@@ -38,7 +38,7 @@
         "url": "https://www.bankinfosecurity.com/webinars/live-webinar-governing-ai-agents-across-insurance-operations-w-7474",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:42:58.017197+00:00",
+        "timestamp": "2026-10-31T13:23:27.527746+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -50,7 +50,7 @@
         "url": "https://www.bankinfosecurity.com/agency-releases/fdic-supervisory-approach-to-payment-processing-relationships-r-2802",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:42:58.017176+00:00",
+        "timestamp": "2026-10-31T13:23:27.527726+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -62,7 +62,7 @@
         "url": "https://www.bankinfosecurity.com/agency-releases/ffiec-statement-on-end-microsoft-support-for-windows-xp-r-2803",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:42:58.017147+00:00",
+        "timestamp": "2026-10-31T13:23:27.527698+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -74,7 +74,7 @@
         "url": "https://www.bankinfosecurity.com/agency-releases/fdic-institutions-encouraged-to-work-borrowers-impacted-by-r-2804",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:42:58.017117+00:00",
+        "timestamp": "2026-10-31T13:23:27.527670+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -86,7 +86,7 @@
         "url": "https://www.bankinfosecurity.com/agency-releases/fdic-issues-guidance-to-areas-in-illinois-impacted-by-severe-r-2805",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:42:58.017067+00:00",
+        "timestamp": "2026-10-31T13:23:27.527641+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -98,7 +98,7 @@
         "url": "https://www.bankinfosecurity.com/hospital-cyberattacks-bring-disruptions-legal-fallout-a-33265",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:42:58.017028+00:00",
+        "timestamp": "2026-10-31T13:23:27.527598+00:00",
         "coverage": 1,
         "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/hospital-cyberattacks-bring-disruptions-legal-fallout-image_small-9-a-33265.jpg"
       },
@@ -110,7 +110,7 @@
         "url": "https://www.bankinfosecurity.com/ai-agent-identity-crisis-forces-banks-to-restrict-access-a-33266",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:42:58.016981+00:00",
+        "timestamp": "2026-10-31T13:23:27.527542+00:00",
         "coverage": 1,
         "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/ai-agent-identity-crisis-forces-banks-to-restrict-access-image_small-8-a-33266.jpg"
       },
@@ -122,7 +122,7 @@
         "url": "https://www.bankinfosecurity.com/ismg-editors-php2shell-fuels-cybersecuritys-black-october-a-33267",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:42:58.016930+00:00",
+        "timestamp": "2026-10-31T13:23:27.527471+00:00",
         "coverage": 1,
         "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/ismg-editors-php2shell-fuels-cybersecuritys-black-october-image_small-1-a-33267.jpg"
       },
@@ -134,9 +134,81 @@
         "url": "https://www.bankinfosecurity.com/alice-bob-claims-new-benchmark-for-breaking-rsa-2048-in-days-a-33268",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:42:58.016842+00:00",
+        "timestamp": "2026-10-31T13:23:27.527385+00:00",
         "coverage": 1,
         "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/alice-bob-claims-new-benchmark-for-breaking-rsa-2048-in-days-image_small-3-a-33268.jpg"
+      },
+      {
+        "source": "BleepingComputer",
+        "rank": 1,
+        "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+        "summary": "[...]",
+        "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+        "category": "Security",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:10:19+00:00",
+        "coverage": 1,
+        "image": "https://www.bleepstatic.com/content/posts/2026/10/30/tryhackme-laptop.jpg"
+      },
+      {
+        "source": "BleepingComputer",
+        "rank": 1,
+        "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+        "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and…",
+        "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+        "category": "Security",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:50:09+00:00",
+        "coverage": 1,
+        "image": "https://www.bleepstatic.com/content/hl-images/2025/03/18/Blockchain-2.jpg"
+      },
+      {
+        "source": "The Hacker News",
+        "rank": 6,
+        "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+        "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result…",
+        "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+        "category": "News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:01:56+00:00",
+        "coverage": 1,
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFRN0kXDPnLLvRBYqNZG4BTyUK0EaSxRtepYOQ-msXGAqu1IW8t2cdnav4ANAO8fXwY_-ug6Ictj29WcseInPhJmYOwpgcinvc8KO36A8HK6Wo41lgztgyH2jb9hGg7bVyWZ4A-adjBYuTi-hOJxMALa7myG172BWKwB_SyvrfMeqxH_3DdcyJxYwXFIKG/s1600/chain.jpg"
+      },
+      {
+        "source": "WIRED Security",
+        "rank": 18,
+        "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+        "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+        "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+        "category": "Security",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:00:00+00:00",
+        "coverage": 1,
+        "image": "https://media.wired.com/photos/6ae4e9f503c2c36f4cfc913c/master/pass/KernelPanic_10312026_v1.jpg"
+      },
+      {
+        "source": "Security Affairs",
+        "rank": 13,
+        "title": "Attackers Exploit Critical Drupal Commerce Core Vulnerability CVE-2026-118539",
+        "summary": "Drupal warns that attackers are exploiting a critical authorization flaw in Commerce Core, putting vulnerable online stores at risk. Drupal warns that threat actors are exploiting a highly critical security flaw,…",
+        "url": "https://securityaffairs.com/202162/security/attackers-exploit-critical-drupal-commerce-core-vulnerability-cve-2026-118539.html",
+        "category": "Breaking News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T09:08:58+00:00",
+        "coverage": 1,
+        "image": "https://securityaffairs.com/wp-content/uploads/2014/10/drupal.jpg"
+      },
+      {
+        "source": "The Hacker News",
+        "rank": 6,
+        "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active…",
+        "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+        "category": "News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T08:27:43+00:00",
+        "coverage": 1,
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeqP4vPt6j2lLPFj77A_1OthmSKb8mItfBrX_q8sQCAUVgTry1FxKizDI2SCLS4CglfjgbVkaMDN8ainqoOZm2pdaF6xw7sU4STZhwIFPCLSz84YXQTVx2tquPo7YJsZhgOWcD3V_w5td9BA_vVuOu1cFcrgL3SXyLF4E24IyGotrzDcbJ-M1mA85biDuW/s1600/1000120841.jpg"
       },
       {
         "source": "The Hacker News",
@@ -531,7 +603,7 @@
         "category": "Cybercrime",
         "date": "2026-10-30",
         "timestamp": "2026-10-30T14:24:00+00:00",
-        "coverage": 1,
+        "coverage": 2,
         "image": "https://cms.therecord.media/uploads/ahmed_al_agha_7fa8b4c586.jpg"
       },
       {
@@ -1039,18 +1111,6 @@
         "image": "https://www.csoonline.com/wp-content/uploads/2026/10/4242253-0-73036600-1793348800-shutterstock_2102457385.jpg?quality=50&strip=all"
       },
       {
-        "source": "SecurityWeek",
-        "rank": 3,
-        "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
-        "summary": "Blockchain analysts link the record crypto theft to North Korean hackers, as Binance probes a possibly compromised engineer laptop. The post $6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor…",
-        "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
-        "category": "Cybercrime",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T08:16:26+00:00",
-        "coverage": 1,
-        "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/north-korea-suspected-in-63-binance-hack-image_small-6-a-33259.jpg"
-      },
-      {
         "source": "Dark Reading",
         "rank": 4,
         "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
@@ -1085,18 +1145,6 @@
         "timestamp": "2026-10-30T07:41:45+00:00",
         "coverage": 1,
         "image": "https://media.cybernews.com/2026/10/finland-google-land-clearance.png"
-      },
-      {
-        "source": "The Hacker News",
-        "rank": 6,
-        "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active…",
-        "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-        "category": "News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T07:27:05+00:00",
-        "coverage": 2,
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1Ms9mKdtALczFoDaNy5Bm0HVMfxu0ps0ykDUXuLn3BeOEqUCDnzUiCP2lU_7xbC2kYuIAGCuOiQCGIlkR6wYBfCfb7g0wRESfIFaMtSltOjWphyswldC4LJxFf0RnCB9FzEVc-euJGtGbUvpJr7FOE0QefC3_rn8xLSFTij_yJn1MNP6bJVu8VgrcLaV/s1600/github-cisco.jpg"
       },
       {
         "source": "Cybernews",
@@ -1183,18 +1231,6 @@
         "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/12114701/smart_home.webp"
       },
       {
-        "source": "The Hacker News",
-        "rank": 6,
-        "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-        "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those…",
-        "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-        "category": "News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T04:14:59+00:00",
-        "coverage": 1,
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTtJggkBbk2ERH6bhZMSPnb_E1aQ44w4EpzkwAt1tqp45sGvG7jeAg2QvmbWQsBy5hyphenhyphen7ur18XQ1Uax7D9XRg-CZpQpMAByXt37Fn1loBClsu49KlBEsnxRCfy7vSuI-5yrpHB4JLWc1vtw0aITnhbFXDb4CosJzm07My3Lw6p3fOLTfcaxJLBR-Pdi2A6/s1600/Binance.jpg"
-      },
-      {
         "source": "SC Media",
         "rank": 10,
         "title": "Indonesia seeks storage upgrades to bolster national identity infrastructure",
@@ -1263,7 +1299,7 @@
         "category": "application-security",
         "date": "2026-10-30",
         "timestamp": "2026-10-30T03:09:14+00:00",
-        "coverage": 7,
+        "coverage": 8,
         "image": "https://files.cyberriskalliance.com/wp-content/uploads/2024/02/020724_linux.jpg"
       },
       {
@@ -1385,30 +1421,6 @@
         "timestamp": "2026-10-29T22:27:23+00:00",
         "coverage": 1,
         "image": "https://techcrunch.com/wp-content/uploads/2023/12/GettyImages-1258513563.jpg?resize=1200,800"
-      },
-      {
-        "source": "BleepingComputer",
-        "rank": 1,
-        "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-        "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on…",
-        "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-        "category": "Security",
-        "date": "2026-10-29",
-        "timestamp": "2026-10-29T22:09:24+00:00",
-        "coverage": 1,
-        "image": "https://www.bleepstatic.com/content/hl-images/2026/07/20/Hugging-Face.jpg"
-      },
-      {
-        "source": "BleepingComputer",
-        "rank": 1,
-        "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-        "summary": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
-        "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-        "category": "Security",
-        "date": "2026-10-29",
-        "timestamp": "2026-10-29T22:08:04+00:00",
-        "coverage": 1,
-        "image": "https://www.bleepstatic.com/content/hl-images/2026/10/29/aircraft.jpg"
       },
       {
         "source": "Security Affairs",
@@ -1637,18 +1649,6 @@
         "timestamp": "2026-10-29T11:15:00+00:00",
         "coverage": 1,
         "image": "https://assets.infosecurity-magazine.com/webpage/og/fe655587-6653-46a4-ad00-8e8ec7994055.jpeg"
-      },
-      {
-        "source": "Security Affairs",
-        "rank": 13,
-        "title": "Volt Typhoon Used Silent Train to Hide Zero-Day Attacks",
-        "summary": "Volt Typhoon used disposable relay chains to hide zero-day attacks on critical systems. Lumen linked Silent Train to at least four zero-days. Lumen’s Black Lotus Labs has spent three years tracking a covert network it…",
-        "url": "https://securityaffairs.com/202023/intelligence/volt-typhoon-used-silent-train-to-hide-zero-day-attacks.html",
-        "category": "APT",
-        "date": "2026-10-29",
-        "timestamp": "2026-10-29T10:34:54+00:00",
-        "coverage": 1,
-        "image": "https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/10/image-67.png?resize=848%2C566&ssl=1"
       },
       {
         "source": "Infosecurity Magazine",
@@ -1938,6 +1938,594 @@
     "tagline": "A digest of the latest news from 20 leading movie & TV portals",
     "news": [
       {
+        "source": "Collider",
+        "rank": 6,
+        "title": "Netflix’s 2-Season Fantasy Series Is So Good, You’ll Finish It in One Sitting",
+        "summary": "Netflix's Shadow and Bone delivers two seasons of magic, mystery, and unforgettable characters in a fantasy series that deserved a longer run.",
+        "url": "https://collider.com/netflix-best-fantasy-series-shadow-and-bone/",
+        "category": "TV Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:23:12+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2023/03/shadow-and-bone-freddy-carter-kaz.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "9-1-1 Confirms The Next Victim Of Athena’s Curse",
+        "summary": "Athena Grant has been a mainstay of 9-1-1 for years, but season 10 is repeating the detective's most divisive plot with another character entirely.",
+        "url": "https://screenrant.com/911-season-10-athena-curse-replacement-victim-maddie/",
+        "category": "Network TV",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:15:18+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/angela-bassett-as-athena-grant-in-9-1-1-10x3.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "10 Best 2026 Movies To Rewatch (So Far)",
+        "summary": "2026's movie lineup has several films that are practically tailor-made to get better and better for viewers every time you watch them again.",
+        "url": "https://screenrant.com/best-2026-movies-to-rewatch-so-far/",
+        "category": "Movies",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:15:18+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/04/ryan-gosling-looking-at-something-in-project-hail-mary.jpg"
+      },
+      {
+        "source": "TVLine",
+        "rank": 9,
+        "title": "Michael J. Fox's First Major TV Role Was On A Forgotten Historical Drama",
+        "summary": "Years before Back to the Future made him a star, Michael J. Fox landed his first major TV role on a short-lived drama from two legendary creators.",
+        "url": "https://www.tvline.com/2298387/michael-j-fox-first-major-tv-role-historical-drama-palmerstown-usa/",
+        "category": "Television",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:12:00+00:00",
+        "coverage": 1,
+        "image": "https://www.tvline.com/img/gallery/michael-j-foxs-first-major-tv-role-was-on-a-forgotten-historical-drama/l-intro-1793116484.jpg"
+      },
+      {
+        "source": "TVLine",
+        "rank": 9,
+        "title": "15 Best TV Villains Of The 2010s, Ranked",
+        "summary": "From calculating masterminds to terrifying figures hiding behind friendly faces, these TV villains helped make the 2010s an unforgettable decade for television.",
+        "url": "https://www.tvline.com/2296858/best-tv-villains-2010s-ranked/",
+        "category": "Television",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:02:00+00:00",
+        "coverage": 1,
+        "image": "https://www.tvline.com/img/gallery/15-best-tv-villains-of-the-2010s-ranked/l-intro-1793026481.jpg"
+      },
+      {
+        "source": "TV Insider",
+        "rank": 15,
+        "title": "What Do ‘NCIS: New York’s Ratings Suggest About a Season 2?",
+        "summary": "The latest series in the franchise is a hit. NCIS: New York has gotten off to a promising start for CBS. It seems like the all-NCIS night is continuing to work, and the newest spinoff in the hit franchise has slotted…",
+        "url": "https://www.tvinsider.com/1300892/ncis-new-york-ratings-renewed-canceled-season-2/",
+        "category": "News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:00:38+00:00",
+        "coverage": 1,
+        "image": "https://www.tvinsider.com/wp-content/uploads/2026/10/Jennifer-Beals-Scott-Caan-LL-Cool-J-Devin-Druid-NCIS-New-York-Season-1-Episode-1-CBS-October-6-2026-1014x570.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "Prime Video’s 62-Episode Sci-Fi Masterpiece Quietly Fills The Void Left By District 9",
+        "summary": "District 9’s long-speculated sequel may never see the light of day, but Prime Video’s greatest sci-fi show seems to fill the void it left behind.",
+        "url": "https://screenrant.com/prime-video-expanse-district-9-sci-fi-replacement/",
+        "category": "Classic TV",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:00:17+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/161d96d0-c979-4aae-bf83-293a6522e047.jpeg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "Ezra Bridger Officially Returns For New Ashoka Prequel Series In 3 Months",
+        "summary": "Along with Eman Esfandi reprising Ezra Bridger in Ahsoka season 2, the Star Wars Rebels character is also starring in a new prequel series.",
+        "url": "https://screenrant.com/star-wars-ezra-bridger-ashoka-prequel-series/",
+        "category": "Comics",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:00:17+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/eman-esfandi-in-ahsoka.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "The Legend Of Zelda: Twilight Princess Has A Sequel Nobody Remembers",
+        "summary": "Explore the forgotten sequel to Twilight Princess: Link's Crossbow Training and its place in the Zelda franchise.",
+        "url": "https://screenrant.com/zelda-twilight-princess-forgotten-sequel-crossbow-training/",
+        "category": "Gaming",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:00:17+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/02/twilight-princess-v1.jpg"
+      },
+      {
+        "source": "MovieWeb",
+        "rank": 14,
+        "title": "28 Years Later, Voldemort's Best 'Harry Potter' Quote Is Still the Coldest in Fantasy History",
+        "summary": "Voldemort's coldest 'Harry Potter' quote arrives as early as the first film, and it lays the foundation for a larger discussion about power.",
+        "url": "https://movieweb.com/harry-potter-voldemort-best-quote/",
+        "category": "Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:00:16+00:00",
+        "coverage": 1,
+        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2025/09/ralph-fiennes-in-harry-potter-and-the-deathly-hallows-part-1.jpg"
+      },
+      {
+        "source": "TV Insider",
+        "rank": 15,
+        "title": "From ‘Scream’ to ‘Crystal Lake,’ the 11 Hottest Horror Villains, Ranked",
+        "summary": "If looks could kill… Forget summer, Halloween might just be the hottest time of the year. And we’re not just talking about the costumes, although they’re certainly a great excuse to dress up and show off. There’s the…",
+        "url": "https://www.tvinsider.com/swooon/gallery/hottest-horror-villains-ranked/",
+        "category": "Galleries",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:00:03+00:00",
+        "coverage": 1,
+        "image": "https://www.tvinsider.com/wp-content/uploads/2026/10/hottest-horror-villains-1014x570.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "A24's John Carpenter Meets The Terminator Horror Movie Completes A Secret Halloween Trilogy",
+        "summary": "A24's latest action film is best described as John Carpenter's The Terminator and is part of a secret movie trilogy that's ideal for Halloween.",
+        "url": "https://screenrant.com/onslaught-a24-john-carpenter-meets-terminator-halloween-halloween-trilogy/",
+        "category": "Movies",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:55:18+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/maika-monroe-as-anna-looking-in-a-hall-of-mirrors-in-the-guest-2014.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "'Calvin and Hobbes' Greatest Story Is Still a Masterpiece Almost 40 Years Later",
+        "summary": "One of Calvin and Hobbes' best stories didn't shy away from death and grief, and it's all the better for it.",
+        "url": "https://collider.com/calvin-and-hobbes-best-story-grief-raccoon-comic-strip-masterpiece/",
+        "category": "Books and Comics",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:53:12+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2022/07/calvin-and-hobbs-movie-never-happened-feature.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "Prime Video's Helluva Boss Is Officially Not Returning With New Episodes In 2026",
+        "summary": "Just half a month after premiering, Helluva Boss season 3 is going on hiatus, with no more episodes of the Prime Video show releasing in 2026.",
+        "url": "https://screenrant.com/helluva-boss-season-3-part-2-release-early-2027/",
+        "category": "Streaming TV",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:45:18+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/helluva-boss-_1-sr.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "‘Lanterns’ Star’s 5-Part Masterpiece Officially Returns to Streaming Charts",
+        "summary": "Lanterns star Kyle Chandler's five-part masterpiece is officially staging a streaming comeback 15 years after going off the air.",
+        "url": "https://collider.com/kyle-chandler-friday-night-lights-streaming-success-october-2026/",
+        "category": "TV News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:45:12+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/08/lanterns-episode-2-aaron-pierre-kyle-chandler.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "59 Years Later, A Classic Star Trek Story Is Returning With New Release",
+        "summary": "The gold standard.",
+        "url": "https://screenrant.com/star-trek-gold-key-comic-return-1967/",
+        "category": "Comics",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:30:18+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/star-trek-s-spock-kirk-and-scotty-pointing-phasers-at-the-camera.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "This 36-Year-Old War Classic Still Has An Unmatched Closing Line About Grief",
+        "summary": "Arguably the most important war novel ever written, this classic has an unmatched closing line about grief that has resonated with readers for years.",
+        "url": "https://screenrant.com/things-they-carried-tim-obrien-best-closing-war-line/",
+        "category": "Books",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:30:18+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/this-36-year-old-war-classic-still-has-an-unmatched-opening-line.jpg"
+      },
+      {
+        "source": "Screen Rant",
+        "rank": 10,
+        "title": "ABC Sets The Stage For Meredith’s Grey’s Anatomy Replacements",
+        "summary": "One storyline in Grey's Anatomy season 23, episode 3 unites two of Meredith's best replacements, forcing them to face their challenges head-on.",
+        "url": "https://screenrant.com/greys-anatomy-jo-simone-meredith-replacements-prepare/",
+        "category": "Network TV",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:30:18+00:00",
+        "coverage": 1,
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/ellen-pompeo-as-meredith-grey-in-grey-s-anatomy-season-22-episode-1.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "Ridley Scott's Last Historical Epic With Russell Crowe Officially Hits Prime Video",
+        "summary": "Ridley Scott and Russell Crowe haven't worked together since 2010, and their last film with each other is now streaming on Prime Video.",
+        "url": "https://collider.com/ridley-scott-russell-crowe-robin-hood-streaming-prime-video-november-2026/",
+        "category": "Movie News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:30:12+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/01/gladiator-russell-crowe-ridley-scott.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "10 Must-Watch British Comedy Shows, According to the Cast of ‘SNL UK’",
+        "summary": "The cast of Saturday Night Live UK shares with Collider which British comedy shows you check out, including Peep Show, Motherland, and Blackadder.",
+        "url": "https://collider.com/snl-uk-saturday-night-live-cast-recommends-british-comedy-shows/",
+        "category": "TV",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:19:12+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/06/saturday-night-live-uk-season-1.jpg"
+      },
+      {
+        "source": "TVLine",
+        "rank": 9,
+        "title": "A Newspaper Story Inspired Gilligan's Island Creator Sherwood Schwartz To Write The Brady Bunch",
+        "summary": "Sherwood Schwartz is the creator of The Brady Bunch, and he credits the idea for the classic sitcom to something as simple as a small newspaper story.",
+        "url": "https://www.tvline.com/2301355/newspaper-story-inspired-gilligans-island-creator-the-brady-bunch/",
+        "category": "Sitcom",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:12:00+00:00",
+        "coverage": 1,
+        "image": "https://www.tvline.com/img/gallery/a-newspaper-story-inspired-gilligans-island-creator-sherwood-schwartz-to-write-the-brady-bunch/l-intro-1793296774.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "'9-1-1' Needs To Say Goodbye to Its Biggest Gimmick",
+        "summary": "9-1-1's disaster episodes are getting more extreme, and the more they escalate, the more it feels like the show's jumped the shark.",
+        "url": "https://collider.com/9-1-1-season-10-disaster-episodes-gimmick/",
+        "category": "TV Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:03:12+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/hen-aisha-hinds-athena-angela-bassett-look-out-spacecraft-window-9-1-1-season-9.jpg"
+      },
+      {
+        "source": "MovieWeb",
+        "rank": 14,
+        "title": "Goodbye 'Reacher,' Prime Video's New Action Thriller Scores 3.3B Views To Become a Streaming Smash Hit",
+        "summary": "A new series has emerged to give Alan Ritchson's hit Prime Video show a run for its money, and it's off to a stunning start.",
+        "url": "https://movieweb.com/neagley-streaming-hit-prime-video-october-2026/",
+        "category": "TV News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:00:17+00:00",
+        "coverage": 1,
+        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/08/movieweb-featured-image-template-2026-08-19t101959-761.jpg"
+      },
+      {
+        "source": "MovieWeb",
+        "rank": 14,
+        "title": "7 Prime Video Detective Shows With No Bad Seasons",
+        "summary": "Amazon Prime Video has many great thriller TV shows about well-developed detective characters, and these picks don't have any boring seasons.",
+        "url": "https://movieweb.com/prime-detective-thrillers-perfect/",
+        "category": "TV Lists",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:00:17+00:00",
+        "coverage": 1,
+        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/10/maria-sten-as-neagely-pointing-a-gun-at-someone-in-neagley.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "‘Doctor Who’ Officially Reunites With a Familiar Face Nearly 2 Decades Later",
+        "summary": "Doctor Who favorite Georgia Tennant is officially returning to the franchise, 18 years after starring in \"The Doctor's Daughter.\"",
+        "url": "https://collider.com/doctor-who-georgia-tennant-returning-big-finish-audio/",
+        "category": "TV News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:00:12+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/05/doctor-who-catherine-tate-david-tennant.jpg"
+      },
+      {
+        "source": "The Hollywood Reporter",
+        "rank": 2,
+        "title": "Canelo vs. Mbilli Livestream: Where to Watch the Fight Online",
+        "summary": "Canelo Alvarez returns to face WBC super middleweight champion Christian Mbilli on Saturday, Oct. 31 in Riyadh, Saudi Arabia.",
+        "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-canelo-vs-mbilli-fight-dazn-pay-per-view-boxing-2026-1236743971/",
+        "category": "TV",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:00:00+00:00",
+        "coverage": 1,
+        "image": ""
+      },
+      {
+        "source": "/Film (SlashFilm)",
+        "rank": 8,
+        "title": "After Star Trek, Patrick Stewart Played Captain Nemo In A Forgotten Hallmark Sci-Fi Movie",
+        "summary": "Patrick Stewart got to play a famous Jules Verne character in this forgotten sci-fi adventure adaptation for the Hallmark Channel.",
+        "url": "https://www.slashfilm.com/2301993/star-trek-patrick-stewart-captain-nemo-hallmar-sci-fi-movie-mysterious-island/",
+        "category": "Action & Adventure Movies",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www.slashfilm.com/img/gallery/after-star-trek-patrick-stewart-played-captain-nemo-in-a-forgotten-hallmark-sci-fi-movie/l-intro-1793360001.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "Hulu's 'Saving Private Ryan' Replacement Is Officially a Global Streaming Hit",
+        "summary": "While Saving Private Ryan may remain the gold standard for World War II films, Hulu's new Lucky Strike has audiences hooked as its most-streamed film.",
+        "url": "https://collider.com/lucky-strike-movie-saving-private-ryan-streaming-hulu-number-one/",
+        "category": "Movie Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:54:12+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/06/lucky-strike-scott-eastwood.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "‘Superman’ Spin-Off Officially Wraps Filming With a Very Different Take on the DC Universe",
+        "summary": "Skyler Gisondo exclusively confirms The People v. Gorilla Grodd has wrapped filming and teases a new approach to DC’s live-action universe.",
+        "url": "https://collider.com/people-v-gorilla-grodd-filming-wrap-skyler-gisondo-dc-hbo-max/",
+        "category": "TV News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:53:53+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/copy-of-collider-template-2026-10-30t141237-656.jpg"
+      },
+      {
+        "source": "Collider",
+        "rank": 6,
+        "title": "Will Smith’s New Prime Video Action Thriller Is Officially an “Absolute Rocket Ride”",
+        "summary": "AnnaSophia Robb exclusively shared an update on David Gordon Green's Supermax and her exciting time on set with Will Smith.",
+        "url": "https://collider.com/supermax-will-smith-annasophia-robb-david-gordon-green-prime-video/",
+        "category": "Exclusives",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:51:15+00:00",
+        "coverage": 1,
+        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/will-smith.jpg"
+      },
+      {
+        "source": "/Film (SlashFilm)",
+        "rank": 8,
+        "title": "All 4 Colleen Hoover Movies, Ranked",
+        "summary": "Colleen Hoover's novels seem to be always be a slam dunk at the box office. So, let's try and look beyond and rate the films at a critical level.",
+        "url": "https://www.slashfilm.com/2296368/colleen-hoover-movies-ranked/",
+        "category": "Drama Movies",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:45:00+00:00",
+        "coverage": 1,
+        "image": "https://www.slashfilm.com/img/gallery/all-4-colleen-hoover-movies-ranked/l-intro-1792907824.jpg"
+      },
+      {
+        "source": "TV Insider",
+        "rank": 15,
+        "title": "Nancy Guthrie Case: Sheriff Chris Nanos Shares Rare Evidence Update 9 Months Later",
+        "summary": "'Today' co-anchor Savannah Guthrie's mother, 84, has been missing since February. Today co-anchor Savannah Guthrie's mother, Nancy Guthrie, has been missing for nine months — and Pima County Sheriff Chris Nanos shared a…",
+        "url": "https://www.tvinsider.com/1301092/nancy-guthrie-sheriff-chris-nanos-rare-evidence-update-9-months-after-abduction/",
+        "category": "News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:30:53+00:00",
+        "coverage": 1,
+        "image": "https://www.tvinsider.com/wp-content/uploads/2026/10/nancy-guthrie-update-sheriff-chris-nanos-1014x570.jpg"
+      },
+      {
+        "source": "Digital Spy",
+        "rank": 16,
+        "title": "Celebrity Traitors' Romesh Ranganathan thinks co-star will \"kill\" him following 'embarrassing' win",
+        "summary": "\"I don't think his family are going to like me.\"",
+        "url": "https://www.digitalspy.com/tv/reality-tv/a74301431/celebrity-traitors-romesh-ranganathan-embarrassing-win/",
+        "category": "News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:21:00+00:00",
+        "coverage": 1,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/4eada4db-08d4-4030-82a4-f55913373d4f.png"
+      },
+      {
+        "source": "TVLine",
+        "rank": 9,
+        "title": "Young Sheldon Star Annie Potts Had One Issue With The Series Finale",
+        "summary": "Annie Potts, who played Sheldon Cooper's maternal grandmother Connie \"Meemaw\" Tucker in \"Young Sheldon,\" hated one scene from the series finale.",
+        "url": "https://www.tvline.com/2298150/young-sheldon-annie-potts-one-issue-series-finale/",
+        "category": "Young Sheldon",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:12:00+00:00",
+        "coverage": 1,
+        "image": "https://www.tvline.com/img/gallery/young-sheldon-star-annie-potts-had-one-issue-with-the-series-finale/l-intro-1793107627.jpg"
+      },
+      {
+        "source": "TV Insider",
+        "rank": 15,
+        "title": "‘The Gilded Age’ Returns, ‘Youth’ Finale, WNBA Final, Halloween Marathons",
+        "summary": "A curated critical checklist of notable weekend TV. HBO's deluxe The Gilded Age returns for a fourth season, while the network's cringe comedy Youth wraps its first. The WNBA Finals pitting the Atlanta Dream against the…",
+        "url": "https://www.tvinsider.com/1300942/the-gilded-age-premiere-youth-finale-wnba-finals-bewitched-halloween-marathon/",
+        "category": "Matt Roush",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:00:55+00:00",
+        "coverage": 1,
+        "image": "https://www.tvinsider.com/wp-content/uploads/2026/10/Carrie-Coon-The-Gilded-Age-Season-4-Episode-1-HBO-November-1-2026-1014x570.jpg"
+      },
+      {
+        "source": "MovieWeb",
+        "rank": 14,
+        "title": "12 Years Later, Patrick Stewart’s Single Greatest X-Men Line Is Still the Wisest in Marvel History",
+        "summary": "Patrick Stewart's greatest X-Men line drives home why he's the perfect fit for the character, and it defines the superhero genre more broadly.",
+        "url": "https://movieweb.com/patrick-stewart-best-xmen-marvel-quote/",
+        "category": "Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:00:17+00:00",
+        "coverage": 1,
+        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/10/patrick-stewart-days-of-future-past-1.jpg"
+      },
+      {
+        "source": "MovieWeb",
+        "rank": 14,
+        "title": "Brad Pitt & Jon Bernthal's 135-Minute Military Action Thriller Officially Sets Netflix Streaming Date",
+        "summary": "Brad Pitt and Jon Bernthal team up to battle Nazis in a harrowing WWII action thriller that's known for its intense tank battles.",
+        "url": "https://movieweb.com/fury-brad-pitt-jon-bernthal-streaming-netflix-october-2026/",
+        "category": "Movie News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:00:17+00:00",
+        "coverage": 1,
+        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/10/fury-1.jpg"
+      },
+      {
+        "source": "Digital Spy",
+        "rank": 16,
+        "title": "A 'Halloween treat': BBC confirms release date for spooky mystery drama with first-look clip",
+        "summary": "You don't have to wait long!",
+        "url": "https://www.digitalspy.com/tv/a74301491/witch-farm-bbc-release-date-first-look-clip/",
+        "category": "News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:00:00+00:00",
+        "coverage": 1,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/f747ffff-d892-4f15-b6ef-59f403897367.jpg"
+      },
+      {
+        "source": "Deadline",
+        "rank": 3,
+        "title": "Dubai-Based Director Faisal Hashmi Launches Spine Drop Pictures & Inaugural Horror Slate",
+        "summary": "EXCLUSIVE: Here’s a nicely timed company announcement for Halloween. Dubai-based indie director and writer Faisal Hashmi has officially launched genre-focused production company Spine Drop Pictures and unveiled its…",
+        "url": "https://deadline.com/2026/10/dubai-faisal-hashmi-spine-drop-pictures-horror-slate-1237210593/",
+        "category": "News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T10:35:47+00:00",
+        "coverage": 1,
+        "image": "https://deadline.com/wp-content/uploads/2026/10/SpineDrop-HeadShot-Logo-Combined-1.jpg"
+      },
+      {
+        "source": "Deadline",
+        "rank": 3,
+        "title": "‘The Celebrity Traitors’ Finale Draws Record Audience To BBC",
+        "summary": "The Celebrity Traitors bowed out with record ratings on Friday. The Claudia Winkleman-fronted BBC series drew an average overnight audience of 11.23 million viewers, topping the previous high of 11 million for last…",
+        "url": "https://deadline.com/2026/10/the-celebrity-traitors-finale-draws-record-rating-1237210586/",
+        "category": "News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T10:15:06+00:00",
+        "coverage": 1,
+        "image": "https://deadline.com/wp-content/uploads/2026/10/2afb9e70-b8c4-11f1-a430-4d16ee157c41-e1792646858526.jpg"
+      },
+      {
+        "source": "MovieWeb",
+        "rank": 14,
+        "title": "Liam Neeson's 106-Minute Non-Stop Action Thriller Is Officially Being Wiped from Streaming",
+        "summary": "You only have a short time left to stream the action thriller some people called \"better than Taken.\"",
+        "url": "https://movieweb.com/non-stop-liam-neeson-streaming-starz-october-2026/",
+        "category": "Movie News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T10:00:16+00:00",
+        "coverage": 1,
+        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/07/non-stop.jpg"
+      },
+      {
+        "source": "Variety",
+        "rank": 1,
+        "title": "Sanjay Gupta, Indian Director of ‘Kaante’ and ‘Zinda,’ Dies at 59",
+        "summary": "Indian filmmaker Sanjay Gupta, whose credits include the crime thriller “Kaante,” the gangster saga “Shootout at Wadala” and the Hrithik Roshan-starring “Kaabil,” has died following a fall at his Mumbai residence on…",
+        "url": "https://variety.com/2026/film/obituaries-people-news/sanjay-gupta-dead-kaante-zinda-1236935973/",
+        "category": "Asia",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T09:33:22+00:00",
+        "coverage": 1,
+        "image": "https://variety.com/wp-content/uploads/2026/10/Sanjay-Gupta.jpg"
+      },
+      {
+        "source": "Variety",
+        "rank": 1,
+        "title": "Pink Film Veteran Zeze Takahisa Champions Original Stories at Tokyo Masterclass",
+        "summary": "The Tokyo International Film Festival’s Tokyo Talk program presented a masterclass with Zeze Takahisa, director of the festival’s opening film, “Sukiyaki.” Held before a full-house crowd at Tokyo Midtown Hibiya, the…",
+        "url": "https://variety.com/2026/film/festivals/pink-film-veteran-zeze-takahisa-original-stories-1236935968/",
+        "category": "Asia",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T08:40:13+00:00",
+        "coverage": 1,
+        "image": "https://variety.com/wp-content/uploads/2026/10/Zeze-Takahisa.jpg"
+      },
+      {
+        "source": "TVLine",
+        "rank": 9,
+        "title": "Quote Of The Day By Michael J. Fox: 'It's Really Prolonged My Life And Made My Life Interesting In...'",
+        "summary": "The Family Ties actor's advocacy and humanitarian efforts have taken priority during the last few decades, but he still gets a lot out of performing.",
+        "url": "https://www.tvline.com/2302293/quote-of-the-day-michael-j-fox-make-life-interesting/",
+        "category": "Quotes",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T08:25:00+00:00",
+        "coverage": 1,
+        "image": "https://www.tvline.com/img/gallery/quote-of-the-day-by-michael-j-fox-its-really-prolonged-my-life-and-made-my-life-interesting-in/l-intro-1793371721.jpg"
+      },
+      {
+        "source": "Variety",
+        "rank": 1,
+        "title": "Japan’s Film Funds Look Beyond Production Committees to Build New Financing Models",
+        "summary": "Japan’s production committee system, in which a group of companies jointly finance a film and share its rights, has helped spread risk across the industry. But it can also cap budgets at what the industry itself can…",
+        "url": "https://variety.com/2026/film/markets-festivals/japans-film-funds-beyond-production-committees-new-financing-models-1236935964/",
+        "category": "Asia",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T08:15:56+00:00",
+        "coverage": 1,
+        "image": "https://variety.com/wp-content/uploads/2026/10/Tiffcom-panel.jpg"
+      },
+      {
+        "source": "/Film (SlashFilm)",
+        "rank": 8,
+        "title": "Rob Zombie's Disturbing Horror Movie Trilogy Is Worth Revisiting For Halloween",
+        "summary": "Rob Zombie's controversial, ultra-violent cult favorite horror trilogy now has a new 4K box set just in time for Halloween.",
+        "url": "https://www.slashfilm.com/2301098/rob-zombie-firefly-horror-movie-trilogy-worth-revisiting-halloween/",
+        "category": "Horror Movies",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T08:10:00+00:00",
+        "coverage": 1,
+        "image": "https://www.slashfilm.com/img/gallery/rob-zombies-disturbing-horror-movie-trilogy-is-worth-revisiting-for-halloween/l-intro-1793288868.jpg"
+      },
+      {
+        "source": "TheWrap",
+        "rank": 5,
+        "title": "‘It: Welcome to Derry’ Drops Surprise Episode on HBO Max",
+        "summary": "The Halloween miracle is now streaming The post ‘It: Welcome to Derry’ Drops Surprise Episode on HBO Max appeared first on TheWrap .",
+        "url": "https://www.thewrap.com/creative-content/tv-shows/it-welcome-to-derry-surprise-episode-hbo-max-halloween/",
+        "category": "Streaming",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T07:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www.thewrap.com/wp-content/uploads/2025/12/it-welcome-to-derry-bill-skarsgard-hbo.jpg"
+      },
+      {
+        "source": "TVLine",
+        "rank": 9,
+        "title": "What To Watch Saturday: WNBA Finals Game 7, Inde Navarrette Hosts SNL, And More",
+        "summary": "On TV this Saturday: Obsession star Inde Navarrette hosts SNL tonight, and the Atlanta Dream face the Golden State Valkyries in Game 7 of the WNBA Finals.",
+        "url": "https://www.tvline.com/2301871/what-to-watch-october-31-2026-tv-shows-movies-streaming/",
+        "category": "What To Watch",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T07:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www.tvline.com/img/gallery/w2w-saturday-october-31-2026/l-intro-1793320161.jpg"
+      },
+      {
+        "source": "Variety",
+        "rank": 1,
+        "title": "Japan’s New 2027 Anime Award Should Put Creators in the Spotlight, Industry Leaders Say at Tokyo Market",
+        "summary": "A new Japanese anime award planned for 2027 should put the people who make anime in the spotlight, industry leaders said at TIFFCOM, the market of the Tokyo International Film Festival. The session was moderated by…",
+        "url": "https://variety.com/2026/film/markets-festivals/japan-new-2027-anime-award-spotlight-creators-industry-leaders-1236935947/",
+        "category": "Asia",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T06:51:00+00:00",
+        "coverage": 1,
+        "image": "https://variety.com/wp-content/uploads/2026/08/TIFFCOM-2026.jpg"
+      },
+      {
         "source": "Variety",
         "rank": 1,
         "title": "Ozu Shapes Mishima Yukiko’s Tokyo Competition Title ‘Two Cigarettes, Three Nights’",
@@ -1948,18 +2536,6 @@
         "timestamp": "2026-10-31T06:40:15+00:00",
         "coverage": 1,
         "image": "https://variety.com/wp-content/uploads/2026/10/Mishima-Yoko.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "Apple TV's 19-Episode High-Concept Series Delivers A Masterclass In Hard Sci-Fi",
-        "summary": "One Apple TV+ series turns the multiverse from a source of light-hearted adventure into the foundation of a philosophically complex thriller.",
-        "url": "https://screenrant.com/dark-matter-apple-tv-high-concept-sci-fi/",
-        "category": "Streaming TV",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:30:19+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/jimmi-simpson-as-ryan-holder-in-dark-matter.jpg"
       },
       {
         "source": "Variety",
@@ -1974,42 +2550,6 @@
         "image": "https://variety.com/wp-content/uploads/2026/10/Bigg-Boss-Bangla.jpg"
       },
       {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "Netflix’s 33-Episode Dystopian Sci-Fi Masters The Art Of Predicting Our Darkest Future",
-        "summary": "One of Netflix’s greatest dystopian science fiction TV shows seems to master the art of predicting humanity’s darkest future in its 33-episode runtime",
-        "url": "https://screenrant.com/black-mirror-netflix-predict-darkest-future/",
-        "category": "Streaming TV",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:00:19+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/843308bd-fc61-4fc9-a586-48f3239ad546.jpeg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "The Wheel Of Time: The One Power Officially Releases 2027",
-        "summary": "Discover the upcoming board game The Wheel of Time: The One Power releasing in 2027, plus details on War of the Dragon.",
-        "url": "https://screenrant.com/wheel-of-time-one-power-2027-release-date-psa/",
-        "category": "Gaming",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:00:19+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/the-wheel-of-time-tv-show.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "The Stargate SG-1 Franchise Official Return Announced",
-        "summary": "Stargate SG-1 is making an official return that will feature iconic enemies from the franchise such as the Goa'uld Symbiont and Jaffa warriors.",
-        "url": "https://screenrant.com/stargate-sg1-lego-style-sets-announced/",
-        "category": "Gaming",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T05:46:19+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/stargate-sg-1_ixaras-1.jpg"
-      },
-      {
         "source": "Deadline",
         "rank": 3,
         "title": "Teodora Ana Mihai On Her Breakout Feature ‘Heysel 85’ & Plans For Her Next Film — Tokyo",
@@ -2022,42 +2562,6 @@
         "image": "https://deadline.com/wp-content/uploads/2026/02/Heysel-85-1.webp"
       },
       {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "10 Most Lovecraftian TV Shows Of All Time",
-        "summary": "Lovecraft's horror canon isn't easy to put on screen, but the unimaginable terrors make their way to it anyway, no more so than in these 10 shows.",
-        "url": "https://screenrant.com/tv-shows-most-like-hp-lovecraft/",
-        "category": "Classic TV",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T05:30:20+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/gus-birney-and-alyssa-sutherland-in-the-mist.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "Brandon Sanderson's Mistborn Officially Returns Fall 2026 In New Adaptation",
-        "summary": "Pre-order the Mistborn Sourcebooks for the Cosmere RPG, releasing Fall 2026, and dive into Sanderson's universe.",
-        "url": "https://screenrant.com/brandon-sanderson-mistborn-new-sourcebooks-fall-2026/",
-        "category": "Gaming",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T05:00:19+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/01/mistborn.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "No Fantasy Series Has Better Worldbuilding Than Netflix's 2-Season Steampunk Masterpiece",
-        "summary": "Fantasy shows are known for their impressive worldbuilding, but no TV series excels at this more than Netflix's beloved steampunk masterpiece.",
-        "url": "https://screenrant.com/arcane-netflix-fantasy-series-best-worldbuilding/",
-        "category": "Classic TV",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T05:00:19+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/james-mcavoy-in-his-dark-materials.jpg"
-      },
-      {
         "source": "Variety",
         "rank": 1,
         "title": "How Keanu Reeves Landed in Stop-Motion Samurai Epic ‘Hidari’ – and Why S.S. Rajamouli Wanted to Know How It Was Made",
@@ -2068,18 +2572,6 @@
         "timestamp": "2026-10-31T04:38:17+00:00",
         "coverage": 1,
         "image": "https://variety.com/wp-content/uploads/2026/06/MixCollage-25-Jun-2026-07-18-PM-2123.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "Star Trek Franchise Officially Bringing Back The Enterprise Era December 2026",
-        "summary": "Star Trek: Enterprise is back in December 2026 with new updates and a Mirror Universe NX-01 ship in Star Trek Online.",
-        "url": "https://screenrant.com/star-trek-december-2026-enterprise-return/",
-        "category": "Gaming",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T04:30:19+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/star-trek-enterprise-cast-on-a-desert-planet.jpg"
       },
       {
         "source": "Variety",
@@ -2118,6 +2610,18 @@
         "image": "https://www.thewrap.com/wp-content/uploads/2026/10/Untitled-design-2026-10-30T205536.237.jpg"
       },
       {
+        "source": "TheWrap",
+        "rank": 5,
+        "title": "‘The Kelly Clarkson Show’ Leads 2026 Daytime Emmys (Complete List of Winners)",
+        "summary": "Trailing the talk show that won five Emmys are \"General Hospital\" and \"Beyond the Gates,\" which each won four The post ‘The Kelly Clarkson Show’ Leads 2026 Daytime Emmys (Complete List of Winners) appeared first on…",
+        "url": "https://www.thewrap.com/industry-news/awards/2026-daytime-emmys-complete-list-of-winners/",
+        "category": "Awards",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T04:09:57+00:00",
+        "coverage": 2,
+        "image": "https://www.tvinsider.com/wp-content/uploads/2026/10/daytime-emmys-2026-winners-1014x570.jpg"
+      },
+      {
         "source": "Variety",
         "rank": 1,
         "title": "Ranbir Kapoor, Yash Light Up Gold House’s Diwali Event as Group Launches South Asian Shorts Fund",
@@ -2128,54 +2632,6 @@
         "timestamp": "2026-10-31T04:09:21+00:00",
         "coverage": 1,
         "image": "https://variety.com/wp-content/uploads/2026/10/Ramayana-team.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "The Greatest Gothic Book of the Last 5 Years Is a Dark Fantasy Take on 'The Gilded Age'",
-        "summary": "The Scarlet Ball is the latest book from author Nghi Vo, and it perfectly marries the dread of Gothic fantasy with the allure of TV's The Gilded Age.",
-        "url": "https://collider.com/the-scarlet-ball-2026-book-fantasy-gilded-age/",
-        "category": "Books and Comics",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T04:05:12+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/the-scarlet-ball.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "Pokémon Ruby, Sapphire, Emerald Officially Return February 2027",
-        "summary": "Celebrate 30 years of Pokémon with new Ruby, Sapphire, and Emerald merchandise launching in February 2027.",
-        "url": "https://screenrant.com/pokemon-ruby-sapphire-emerald-collection-2027/",
-        "category": "Gaming",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T04:00:19+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2024/05/pokemon-ruby-and-sapphire-best-feature-secret-bases-return-gen-10-games-groudon-kyogre.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "'The Gilded Age' Season 3 Recap: What To Remember Before HBO's Period Drama Returns",
-        "summary": "Before The Gilded Age returns, it's time to recap the biggest shocks and scandals of Season 3.",
-        "url": "https://collider.com/the-gilded-age-season-3-recap/",
-        "category": "TV Features",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T03:48:12+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/08/custom-image-the-gilded-age-season-3-carrie-coon-morgan-spector.jpg"
-      },
-      {
-        "source": "Screen Rant",
-        "rank": 10,
-        "title": "HBO's Hit 96% RT Crime Series Is Fully Switching Casts In Season 2",
-        "summary": "HBO’s highly-acclaimed crime thriller hit is all set to return for season 2 soon, and, this time around, it will completely switch its original cast.",
-        "url": "https://screenrant.com/task-season-2-switching-casts/",
-        "category": "Streaming TV",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T03:45:18+00:00",
-        "coverage": 1,
-        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/c40470dc-2f30-442d-a8ba-eeeda4f7fb24.jpeg"
       },
       {
         "source": "TV Insider",
@@ -2250,30 +2706,6 @@
         "image": "https://variety.com/wp-content/uploads/2026/10/Real-Time-With-Bill-Maher-President-Trump-Holds-Midterm-Campaign-Rally-In-Clarksville-Tennessee-1000.jpg"
       },
       {
-        "source": "TV Insider",
-        "rank": 15,
-        "title": "Daytime Emmys 2026: The Complete Winners List",
-        "summary": "Find out who won Outstanding Daytime Drama Series and more. The best of the best in daytime television were celebrated at the 53rd Annual Daytime Emmy Awards on October 30. Soap stars, lifestyle celebrities, and more…",
-        "url": "https://www.tvinsider.com/1301071/daytime-emmys-2026-winners/",
-        "category": "News",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T03:13:12+00:00",
-        "coverage": 1,
-        "image": "https://www.tvinsider.com/wp-content/uploads/2026/10/daytime-emmys-2026-winners-1014x570.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "Antonio Banderas' 'The Mummy' Replacement Is Officially Back on Free Streaming",
-        "summary": "Antonio Banderas and Anthony Hopkins revived a classic big screen hero in 1998's The Mask of Zorro, with the help of a James Bond director.",
-        "url": "https://collider.com/antonio-banderas-mask-of-zorro-the-mummy-streaming-october-2026/",
-        "category": "Movie Features",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T03:09:12+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2023/01/anthony-hopkins_antonio-banderas_the-mask-of-zorro.jpg"
-      },
-      {
         "source": "Deadline",
         "rank": 3,
         "title": "‘Beyond The Gates’ Wins Four Daytime Emmys In Its First Year Of Eligibility",
@@ -2284,18 +2716,6 @@
         "timestamp": "2026-10-31T03:05:03+00:00",
         "coverage": 1,
         "image": "https://deadline.com/wp-content/uploads/2025/02/beyond-the-gates-cast-photos-cbs.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "Netflix's 14-Episode Workplace Sitcom is Gen Z's 'The Office' Replacement",
-        "summary": "Netflix's new show Minimum Wage is the perfect workplace sitcom for Gen Z audiences to binge.",
-        "url": "https://collider.com/office-replacement-minimum-wage-netflix-comedy/",
-        "category": "TV",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T03:01:12+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/minimum-wage-grace-reiter-hyde-healy-1.jpg"
       },
       {
         "source": "TV Insider",
@@ -2310,18 +2730,6 @@
         "image": "https://www.tvinsider.com/wp-content/uploads/2026/10/Lana-Parrilla-in-The-Rainmaker-1014x570.jpg"
       },
       {
-        "source": "Collider",
-        "rank": 6,
-        "title": "Netflix’s Twisted 2-Season Fantasy Horror Will Keep You Hooked From Start to Finish",
-        "summary": "Alexandra Daddario stars in Anne Rice's Mayfair Witches, a two-season fantasy horror series on Netflix that's perfect for American Horror Story fans.",
-        "url": "https://collider.com/mayfair-witches-netflix-fantasy-horror-series/",
-        "category": "TV Features",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T02:44:12+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/mayfair-witches.jpg"
-      },
-      {
         "source": "The Hollywood Reporter",
         "rank": 2,
         "title": "Bill Maher Responds to Trump’s 1,318-Word Social Rant: “He Went Off on Me Like Kelly Clarkson in a Toy Store”",
@@ -2332,18 +2740,6 @@
         "timestamp": "2026-10-31T02:38:37+00:00",
         "coverage": 1,
         "image": ""
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "Florence Pugh’s Netflix Western Miniseries Officially Hits a Massive Streaming Milestone",
-        "summary": "Florence Pugh's East of Eden earns 1.16 billion minutes watched on Netflix, becoming one of America's biggest streaming hits.",
-        "url": "https://collider.com/florence-pugh-western-east-of-eden-netflix-streaming-success-october-2026/",
-        "category": "TV News",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T02:30:12+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/09/east-of-eden-series.jpg"
       },
       {
         "source": "Deadline",
@@ -2370,66 +2766,6 @@
         "image": "https://www.thewrap.com/wp-content/uploads/2026/09/Untitled-design-2026-09-25T194511.977.jpg"
       },
       {
-        "source": "Collider",
-        "rank": 6,
-        "title": "The 10 Greatest Crime Movies of the Last 25 Years, Ranked",
-        "summary": "The Departed, Promising Young Woman, and Uncut Gems are among the best crime movies of the last quarter century.",
-        "url": "https://collider.com/best-crime-movies-past-25-years-ranked/",
-        "category": "Movie",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T02:22:11+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/04/the-departed-2006-3.jpg"
-      },
-      {
-        "source": "Variety",
-        "rank": 1,
-        "title": "Bill Maher Fires Back at Trump by Comparing Him to Taylor Swift",
-        "summary": "Bill Maher learned that when it comes to Donald Trump, no good deed goes unpunished. On last week’s episode of “Real Time with Bill Maher,” the political pundit defended his recent White House dinner with the president,…",
-        "url": "https://variety.com/2026/tv/news/bill-maher-fires-back-trump-taylor-swift-real-time-hbo-1236935799/",
-        "category": "News",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T02:21:47+00:00",
-        "coverage": 1,
-        "image": "https://variety.com/wp-content/uploads/2017/01/real-time-with-bill-maher.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "3 Years Later, Nicolas Cage's Surreal Gem Is Officially Back on Streaming",
-        "summary": "Nicolas Cage's surreal gem, Dream Scenario, is moving to a free streamer three years after it was released. Read on for more.",
-        "url": "https://collider.com/nicolas-cage-dream-scenario-streaming-plex-november-2026/",
-        "category": "Movie News",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T02:15:12+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/nicolas-cage.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "Netflix Officially Reveals the All-Star Cast of New 'Heated Rivalry’ Meets ‘The Cutting Edge’ Rom-Com",
-        "summary": "Netflix’s Winter Games, starring Hailee Steinfeld and Miles Teller, has officially set a 2-month filming schedule. Get the details.",
-        "url": "https://collider.com/winter-games-hailee-steinfeld-miles-teller-netflix-filming/",
-        "category": "Movie News",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T02:06:11+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/06/netfilx-tv.jpg"
-      },
-      {
-        "source": "Collider",
-        "rank": 6,
-        "title": "6 Taylor Sheridan Shows You Can Binge in a Weekend",
-        "summary": "1883, Landman, Lioness, The Madison, and more make up our list of Taylor Sheridan shows you can binge in a weekend.",
-        "url": "https://collider.com/taylor-sheridan-shows-binge-weekend/",
-        "category": "TV",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T02:05:12+00:00",
-        "coverage": 1,
-        "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/09/lioness-season-3-episode-4-nicole-kidman.JPG"
-      },
-      {
         "source": "TheWrap",
         "rank": 5,
         "title": "Trump Mocks Hollywood for ‘Kissing My Ass’ Over Federal Film and TV Tax Credit",
@@ -2444,7 +2780,7 @@
       {
         "source": "Digital Spy",
         "rank": 16,
-        "title": "Strictly Come Dancing ratings crisis as it loses out to Great British Bake Off...what went wrong?",
+        "title": "Strictly Come Dancing ratings crisis as it loses out to Great British Bake Off... what went wrong?",
         "summary": "Nigella Lawson's debut on Bake Off had 7.1 million viewers, beating Strictly’s launch show with its three new hosts Emma, Johannes and Josh. But what is the real reason behind the fall in numbers?",
         "url": "https://www.digitalspy.com/tv/reality-tv/a74300421/strictly-come-dancing-ratings-crisis-as-it-loses-out-to-great-british-bake-off-what-went-wrong/",
         "category": "News",
@@ -2476,6 +2812,18 @@
         "timestamp": "2026-10-31T01:00:06+00:00",
         "coverage": 1,
         "image": "https://www.tvinsider.com/wp-content/uploads/2026/10/Rick-Ness-1-1014x570.png"
+      },
+      {
+        "source": "The A.V. Club",
+        "rank": 17,
+        "title": "Of course Curry Barker has already asked Nathan Fielder if he wants to team up",
+        "summary": "Of course Curry Barker has already asked Nathan Fielder if he wants to team up",
+        "url": "https://www.avclub.com/curry-barker-wants-to-team-up-with-nathan-fielder",
+        "category": "Filmnews",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T00:57:46+00:00",
+        "coverage": 1,
+        "image": "https://www.avclub.com/wp-content/uploads/2026/10/31/barker-fielder-feature.jpg"
       },
       {
         "source": "TV Insider",
@@ -2510,7 +2858,7 @@
         "category": "TV",
         "date": "2026-10-31",
         "timestamp": "2026-10-31T00:46:06+00:00",
-        "coverage": 2,
+        "coverage": 1,
         "image": "https://deadline.com/wp-content/uploads/2026/10/General-Hospital-Young-And-The-Restless-Beyond-The-Gates-Daytime-Emmys.jpg"
       },
       {
@@ -2582,20 +2930,8 @@
         "category": "News",
         "date": "2026-10-31",
         "timestamp": "2026-10-31T00:29:51+00:00",
-        "coverage": 1,
+        "coverage": 2,
         "image": "https://deadline.com/wp-content/uploads/2025/12/Screenshot-2025-12-28-at-2.25.47 PM.png"
-      },
-      {
-        "source": "TV Insider",
-        "rank": 15,
-        "title": "‘The Chairman’ Showrunner Matthew Weiner Exits Eddie Murphy Drama at Peacock",
-        "summary": "The comedian will no longer be teaming up with 'Mad Men' creator Matthew Weiner for the TV drama. Eddie Murphy is taking a dramatic turn in his career because the Saturday Night Live alum and movie star is taking on…",
-        "url": "https://www.tvinsider.com/1294617/the-chairman-premiere-date-trailer-cast-plot/",
-        "category": "Everything We Know",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T00:25:52+00:00",
-        "coverage": 1,
-        "image": "https://www.tvinsider.com/wp-content/uploads/2022/02/matthew-weiner-outfest-film-festival-1014x570.jpg"
       },
       {
         "source": "Deadline",
@@ -2608,42 +2944,6 @@
         "timestamp": "2026-10-31T00:19:28+00:00",
         "coverage": 1,
         "image": "https://deadline.com/wp-content/uploads/2026/10/Eric-Bauza.jpg"
-      },
-      {
-        "source": "Variety",
-        "rank": 1,
-        "title": "Martin Scorsese Says His ‘Cleopatra’ Movie With Angelina Jolie Was ‘Ruined’ by Seth Rogen and the Sony Hack: ‘It Was Gonna Be Really Wild’",
-        "summary": "Martin Scorsese’s “Cleopatra” never came to fruition, and he says the Angelina Jolie-starrer was nixed because of Seth Rogen and the Sony hack. For those who need a refresher, Sony emails were hacked in November 2014 by…",
-        "url": "https://variety.com/2026/film/news/martin-scorsese-cleopatra-angelina-jolie-ruined-sony-hack-1236935596/",
-        "category": "News",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T00:16:05+00:00",
-        "coverage": 1,
-        "image": "https://variety.com/wp-content/uploads/2026/10/split-image-1000_ede697.jpg"
-      },
-      {
-        "source": "The Hollywood Reporter",
-        "rank": 2,
-        "title": "‘The Celebrity Traitors’ Season 2 Crowns Its Winners After Dramatic Finale",
-        "summary": "The BBC reality series, hosted by Claudia Winkleman, wrapped its second installment Friday.",
-        "url": "https://www.hollywoodreporter.com/tv/tv-news/celebrity-traitors-season-2-winners-bbc-1236743967/",
-        "category": "TV",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T00:14:32+00:00",
-        "coverage": 2,
-        "image": "https://hips.hearstapps.com/hmg-prod/images/1c934326-72cb-49e1-9f0a-81500a379121.jpg"
-      },
-      {
-        "source": "Variety",
-        "rank": 1,
-        "title": "‘Kelly Clarkson Show,’ ‘General Hospital,’ ‘Beyond the Gates’ Lead Daytime Emmys 2026 Winners",
-        "summary": "“The Kelly Clarkson Show” went out with a bang. The daytime talk show won five awards at the 53rd Daytime Emmys on Friday, including the top daytime talk prize, the most of any program. Meanwhile, ABC’s “General…",
-        "url": "https://variety.com/2026/tv/news/daytime-emmys-2026-winners-list-1236935712/",
-        "category": "News",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T00:01:51+00:00",
-        "coverage": 2,
-        "image": "https://variety.com/wp-content/uploads/2026/10/NUP_209085_00524.jpg"
       },
       {
         "source": "MovieWeb",
@@ -2668,54 +2968,6 @@
         "timestamp": "2026-10-31T00:00:16+00:00",
         "coverage": 1,
         "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/10/movieweb-featured-image-template-2026-10-30t111548-753.jpg"
-      },
-      {
-        "source": "TV Insider",
-        "rank": 15,
-        "title": "‘Big Little Lies’ Season 3 Filming Begins for One Day: Everything We Know About the Show’s Return",
-        "summary": "The Monterey Five are closer to their TV return. It appears that Big Little Lies Season 3 is happening, as filming for the HBO hit took place for one day this October for a very special reason. While it's an exciting…",
-        "url": "https://www.tvinsider.com/1215503/big-little-lies-season-3-premiere-date-trailer-cast-plot/",
-        "category": "Everything We Know",
-        "date": "2026-10-31",
-        "timestamp": "2026-10-31T00:00:15+00:00",
-        "coverage": 1,
-        "image": "https://www.tvinsider.com/wp-content/uploads/2025/09/big-little-lies-season-1-nicole-kidman-shailene-woodley-reese-witherspoon-1014x570.jpg"
-      },
-      {
-        "source": "The Hollywood Reporter",
-        "rank": 2,
-        "title": "Japan’s Anime Industry Hits a Record High of $28 Billion in 2025",
-        "summary": "Anime saw growth in both foreign sales and the domestic market, driven in no small part by the huge global success of the latest 'Demon Slayer' movie",
-        "url": "https://www.hollywoodreporter.com/business/business-news/japan-anime-industry-revenue-28-billion-in-2025-1236743413/",
-        "category": "Business",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T23:45:32+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Variety",
-        "rank": 1,
-        "title": "Two Arrested in Murder of ‘SNL’ Writer’s Sister",
-        "summary": "Two suspects have been arrested in connection with the murder of Christina Downer, “Saturday Night Live” writer Jimmy Fowlie’s sister, according to the Los Angeles Police Department. Delorean Bijon Brandon, 41, Downer’s…",
-        "url": "https://variety.com/2026/tv/news/arrests-murder-christina-downer-jimmy-fowlie-1236935631/",
-        "category": "News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T23:32:36+00:00",
-        "coverage": 2,
-        "image": "https://variety.com/wp-content/uploads/2026/10/Christina-Downer-Death.jpg"
-      },
-      {
-        "source": "TV Insider",
-        "rank": 15,
-        "title": "‘Jeopardy!’: Did a Changed Final Answer Lead to Champion’s Third Win?",
-        "summary": "Plus, fans react to the final clue. That was close! Reigning Jeopardy! champion Stefanie Landeweer changed her Final Jeopardy clue at the last second. It was the correct response, but was her wager enough to win?…",
-        "url": "https://www.tvinsider.com/1300969/jeopardy-stefanie-landeweer-game-three-loss-erica-doornek-win/",
-        "category": "Game Shows",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T23:30:37+00:00",
-        "coverage": 1,
-        "image": "https://www.tvinsider.com/wp-content/uploads/2026/10/jeopardy-STEFANIE-LANDEWEER-Sam-Neal-eric-doornek-1014x570.jpg"
       },
       {
         "source": "Deadline",
@@ -2766,52 +3018,16 @@
         "image": "https://www.thewrap.com/wp-content/uploads/2026/10/SteyerDailyShow.jpg"
       },
       {
-        "source": "TV Insider",
-        "rank": 15,
-        "title": "Daytime Emmys 2026 Red Carpet: Photos of Michelle Stafford, Steve Burton & More",
-        "summary": "See your favorite soap stars and more daytime celebs on the red carpet. The best of daytime television will be celebrated at the 53rd Annual Daytime Emmy Awards. Ahead of the ceremony, the soap stars you know and love…",
-        "url": "https://www.tvinsider.com/gallery/daytime-emmys-2026-red-carpet-arrivals-photos/",
-        "category": "Galleries",
+        "source": "The A.V. Club",
+        "rank": 17,
+        "title": "You are once again about to out-live Criminal Minds",
+        "summary": "You are once again about to out-live <i>Criminal Minds</i>",
+        "url": "https://www.avclub.com/criminal-minds-canceled-season-20-2027",
+        "category": "Newstv",
         "date": "2026-10-30",
-        "timestamp": "2026-10-30T23:00:53+00:00",
+        "timestamp": "2026-10-30T23:09:52+00:00",
         "coverage": 1,
-        "image": "https://www.tvinsider.com/wp-content/uploads/2026/10/daytime-emmys-red-carpet-2026-new-1014x570.jpg"
-      },
-      {
-        "source": "MovieWeb",
-        "rank": 14,
-        "title": "Jason Statham's 98-Minute Non-Stop Action Thriller Shoots Onto New Free Streaming Home",
-        "summary": "The Stath's action thriller box office success hits free streaming in November.",
-        "url": "https://movieweb.com/mechanic-resurrection-jason-statham-stream-free-october-2026/",
-        "category": "Movie News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T23:00:16+00:00",
-        "coverage": 1,
-        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/10/zz-10.jpg"
-      },
-      {
-        "source": "MovieWeb",
-        "rank": 14,
-        "title": "'Dexter: Resurrection' Season 2 Officially Puts a New Spin on a 20-Year-Old Storyline",
-        "summary": "Harrison's new role feels oddly familiar, but at the same time, the show is keeping things fresh. Read on for more.",
-        "url": "https://movieweb.com/dexter-resurrection-harrison-cop-twist/",
-        "category": "Features",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T23:00:16+00:00",
-        "coverage": 1,
-        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/10/movieweb-featured-image-template-2026-10-30t180655-797.jpg"
-      },
-      {
-        "source": "MovieWeb",
-        "rank": 14,
-        "title": "8 Old-School Action Thriller Shows That Are Now Unwatchable",
-        "summary": "Nostalgia can't save everything, and these classic action thrillers have a few problems that are hard to ignore while watching today.",
-        "url": "https://movieweb.com/old-action-thriller-shows-unwatchable/",
-        "category": "TV Lists",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T23:00:16+00:00",
-        "coverage": 1,
-        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2024/05/lee-majors-as-steve-austin-the-six-million-dollar-man.jpeg"
+        "image": "https://www.avclub.com/wp-content/uploads/2026/10/30/criminal-minds-s20-feature.jpg"
       },
       {
         "source": "Digital Spy",
@@ -2838,18 +3054,6 @@
         "image": "https://deadline.com/wp-content/uploads/2026/10/Seth-Rogen-Martin-Scorsese-2-shot.jpg"
       },
       {
-        "source": "MovieWeb",
-        "rank": 14,
-        "title": "One of the Biggest Crime Series on TV Is Officially Ending After 20 Seasons",
-        "summary": "One of the longest-running shows in television history is in its final era.",
-        "url": "https://movieweb.com/criminal-minds-crime-series-ending-after-20-seasons/",
-        "category": "TV News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T22:27:40+00:00",
-        "coverage": 1,
-        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/08/1920x1080-image-format-18.jpg"
-      },
-      {
         "source": "Empire",
         "rank": 7,
         "title": "Gentle Monster",
@@ -2860,18 +3064,6 @@
         "timestamp": "2026-10-30T22:23:17+00:00",
         "coverage": 1,
         "image": "https://images.bauerhosting.com/celebrity/sites/42/2026/10/Gentle-Monster.jpg?q=80"
-      },
-      {
-        "source": "TheWrap",
-        "rank": 5,
-        "title": "‘Star Trek’ Actor Wil Wheaton Tells Stephen Miller to Keep Patrick Stewart’s Name Out of His ‘Nazi Mouth’",
-        "summary": "\"He despised you, and everything you stand for,\" he adds The post ‘Star Trek’ Actor Wil Wheaton Tells Stephen Miller to Keep Patrick Stewart’s Name Out of His ‘Nazi Mouth’ appeared first on TheWrap .",
-        "url": "https://www.thewrap.com/culture-lifestyle/culture/wil-wheaton-slams-stephen-miller-patrick-stewart-tribute/",
-        "category": "Culture",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T22:08:58+00:00",
-        "coverage": 1,
-        "image": "https://www.thewrap.com/wp-content/uploads/2026/10/WilWheaton.jpg"
       },
       {
         "source": "Deadline",
@@ -2934,18 +3126,6 @@
         "image": "https://decider.com/wp-content%2Fuploads%2F2026%2F10%2Fstephen-graham.jpg?quality%3D90%26"
       },
       {
-        "source": "MovieWeb",
-        "rank": 14,
-        "title": "With 8 Weeks to Go, HBO's New Snape Officially Takes On the 'Harry Potter' Casting Backlash",
-        "summary": "Paapa Essiedu opened up about some of the negative commentary surrounding his casting as Snape in the 'Harry Potter' series.",
-        "url": "https://movieweb.com/harry-potter-paapa-essiedu-snape-backlash/",
-        "category": "TV News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T21:53:23+00:00",
-        "coverage": 1,
-        "image": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/03/paapa-essiedu-severus-snape-hbo-harry-potter.jpg"
-      },
-      {
         "source": "Digital Spy",
         "rank": 16,
         "title": "The Voice UK's Sir Tom Jones provides sad career update after having \"a bad case of the flu\"",
@@ -2958,16 +3138,16 @@
         "image": "https://hips.hearstapps.com/hmg-prod/images/e7c45df2-5fa6-4300-b5d7-8b76233cb76c.jpg"
       },
       {
-        "source": "Deadline",
-        "rank": 3,
-        "title": "2026 Worldwide Box Office Headed To Near $36B, Best Since 2019",
-        "summary": "Box office authority Gower Street Analytics has revised their 2026 annual global ticket sales forecast to $35.7 billion, up 2.9% from their previous estimate which they reported at April’s CinemaCon. Their forecast is…",
-        "url": "https://deadline.com/2026/10/box-office-2026-global-projection-1237210039/",
+        "source": "Digital Spy",
+        "rank": 16,
+        "title": "The Celebrity Traitors confirms season 2 winner after \"tense\" finale - but who was \"robbed\"?",
+        "summary": "Who came out on top?",
+        "url": "https://www.digitalspy.com/tv/reality-tv/a74299342/celebrity-traitors-season-2-winners/",
         "category": "News",
         "date": "2026-10-30",
-        "timestamp": "2026-10-30T21:45:00+00:00",
+        "timestamp": "2026-10-30T21:28:00+00:00",
         "coverage": 1,
-        "image": "https://deadline.com/wp-content/uploads/2026/09/Drive-In.jpg"
+        "image": "https://hips.hearstapps.com/hmg-prod/images/1c934326-72cb-49e1-9f0a-81500a379121.jpg"
       },
       {
         "source": "IndieWire",
@@ -3004,6 +3184,18 @@
         "timestamp": "2026-10-30T21:06:20+00:00",
         "coverage": 1,
         "image": "https://www.avclub.com/wp-content/uploads/2026/10/30/big-little-lies-feature.jpg"
+      },
+      {
+        "source": "TVLine",
+        "rank": 9,
+        "title": "5 Best Star Trek Episodes With Patrick Stewart's Jean-Luc Picard, Ranked",
+        "summary": "Patrick Stewart delivered an acting masterclass as Jean-Luc Picard on Star Trek: The Next Generation - here are his 5 best episodes as Jean-Luc, ranked.",
+        "url": "https://www.tvline.com/2302915/star-trek-best-episodes-patrick-stewart-jean-luc-picard-ranked/",
+        "category": "Paramount+",
+        "date": "2026-10-30",
+        "timestamp": "2026-10-30T21:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www.tvline.com/img/gallery/5-best-star-trek-episodes-with-patrick-stewarts-jean-luc-picard-ranked/l-intro-1793389226.jpg"
       },
       {
         "source": "Den of Geek",
@@ -3126,30 +3318,6 @@
         "image": "https://images.bauerhosting.com/celebrity/sites/42/2026/10/Animol-Review.jpeg?q=80"
       },
       {
-        "source": "TVLine",
-        "rank": 9,
-        "title": "Gilligan's Island Actor Dawn Wells' TV Debut Was In A Classic Newspaper Drama",
-        "summary": "Before playing Mary Ann Summers in Gilligan's Island made her a household name, Dawn Wells appeared in one episode of an ABC drama set in the Roaring Twenties.",
-        "url": "https://www.tvline.com/2297277/gilligans-island-actor-dawn-wells-tv-debut-classic-newspaper-drama-the-roaring-20s/",
-        "category": "Drama",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T20:12:00+00:00",
-        "coverage": 1,
-        "image": "https://www.tvline.com/img/gallery/gilligans-island-actor-dawn-wells-tv-debut-was-in-a-classic-newspaper-drama/l-intro-1793036811.jpg"
-      },
-      {
-        "source": "TVLine",
-        "rank": 9,
-        "title": "The Diplomat Has Achieved Something Most Netflix Original Shows Never Do",
-        "summary": "The hit political drama The Diplomat is joining a small group of Netflix original series to reach this milestone. Can it go further and break records?",
-        "url": "https://www.tvline.com/2302938/the-diplomat-achievement-most-netflix-original-shows-never-hit/",
-        "category": "Netflix",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T20:09:00+00:00",
-        "coverage": 1,
-        "image": "https://www.tvline.com/img/gallery/the-diplomat-has-achieved-something-most-netflix-original-shows-never-do/l-intro-1793389810.jpg"
-      },
-      {
         "source": "Decider",
         "rank": 12,
         "title": "Stream It Or Skip It: ‘A Couple Of Lies’ On Netflix, A Thriller Where Two Couples’ Lives Unravel After They Swap Houses",
@@ -3160,18 +3328,6 @@
         "timestamp": "2026-10-30T20:00:00+00:00",
         "coverage": 1,
         "image": "https://decider.com/wp-content%2Fuploads%2F2026%2F10%2Fa-couple-of-lies-1.jpg?quality%3D90%26"
-      },
-      {
-        "source": "TVLine",
-        "rank": 9,
-        "title": "TVLine Asks: Was DWTS Guest Judge Too Harsh? Is There Still Hope For NCIS: Origins' Lala? Should Survivor Duo Get A Spin-Off? And More!",
-        "summary": "We've got questions about this week's TV, including Dancing With the Stars, NCIS: Origins, Survivor, Love is Blind, and more shows!",
-        "url": "https://www.tvline.com/2302910/dancing-with-the-stars-shirley-ballas-judge-ncis-origins-survivor-tv-questions/",
-        "category": "Television",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T19:55:42+00:00",
-        "coverage": 1,
-        "image": "https://www.tvline.com/img/gallery/tvline-asks-103026/l-intro-1793384269.jpg"
       },
       {
         "source": "Digital Spy",
@@ -3234,18 +3390,6 @@
         "image": "https://images.bauerhosting.com/celebrity/sites/42/2026/05/hokum.png?q=80"
       },
       {
-        "source": "TVLine",
-        "rank": 9,
-        "title": "Patrick Stewart's First Leading Role On TV Was On A Groundbreaking U.K. Medical Drama",
-        "summary": "Before he took command of the Enterprise, the late Patrick Stewart led a British series that tackled a tough subject with care. Here's a look back at the show.",
-        "url": "https://www.tvline.com/2302780/patrick-stewart-first-leading-role-tv-uk-medical-drama-maybury/",
-        "category": "Drama",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T19:00:18+00:00",
-        "coverage": 1,
-        "image": "https://www.tvline.com/img/gallery/patrick-stewarts-first-leading-role-on-tv-was-on-a-groundbreaking-u-k-medical-drama/l-intro-1793386598.jpg"
-      },
-      {
         "source": "Decider",
         "rank": 12,
         "title": "Stream It Or Skip It: ‘Dead-End Job’ On Netflix, A Horror Series Where A Man Takes A Series Of Scary Jobs In Order To Pay Off A Big Debt",
@@ -3280,18 +3424,6 @@
         "timestamp": "2026-10-30T18:42:40+00:00",
         "coverage": 1,
         "image": "https://www.slashfilm.com/img/gallery/patrick-stewart-had-one-piece-of-advice-for-fellow-star-trek-captain-kate-mulgrew/l-intro-1793385510.jpg"
-      },
-      {
-        "source": "TVLine",
-        "rank": 9,
-        "title": "Patrick Stewart's Futurama Role Was Nothing Like His Most Famous TV Characters",
-        "summary": "In Season 9 of Futurama, Patrick Stewart voiced a sadistic character, one of his many animated roles that run counter to the image of Jean-Luc Picard.",
-        "url": "https://www.tvline.com/2302699/patrick-stewart-futurama-role-explained-master-of-the-hunt/",
-        "category": "Sitcom",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T18:31:29+00:00",
-        "coverage": 1,
-        "image": "https://www.tvline.com/img/gallery/patrick-stewarts-futurama-role-was-nothing-like-his-most-famous-tv-characters/l-intro-1793384475.jpg"
       },
       {
         "source": "Decider",
@@ -3340,18 +3472,6 @@
         "timestamp": "2026-10-30T18:00:00+00:00",
         "coverage": 1,
         "image": "https://www.slashfilm.com/img/gallery/clayfaces-best-scene-wasnt-in-mike-flanagans-original-script/l-intro-1793198133.jpg"
-      },
-      {
-        "source": "TVLine",
-        "rank": 9,
-        "title": "20 Most Exciting New And Returning TV Shows Of 2027",
-        "summary": "A fresh calendar year is almost upon us, bringing a whole lot of television with it - here are the 20 new and returning shows we're most excited to watch.",
-        "url": "https://www.tvline.com/2302625/most-exciting-new-returning-tv-shows-2027/",
-        "category": "Television",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T18:00:00+00:00",
-        "coverage": 1,
-        "image": "https://www.tvline.com/img/gallery/20-most-exciting-new-and-returning-tv-shows-of-2027/l-intro-1793379794.jpg"
       },
       {
         "source": "Den of Geek",
@@ -3522,18 +3642,6 @@
         "image": "https://www.slashfilm.com/img/gallery/nasas-tribute-to-star-treks-patrick-stewart-is-literally-out-of-this-world/l-intro-1793378384.jpg"
       },
       {
-        "source": "/Film (SlashFilm)",
-        "rank": 8,
-        "title": "Harry Potter HBO TV Series Casts Nearly Headless Nick, The Sorting Hat",
-        "summary": "As we get closer and closer to the premiere of the first season of HBO's big Harry Potter TV show, even more casting news is coming in.",
-        "url": "https://www.slashfilm.com/2302445/harry-potter-hbo-tv-series-nearly-headless-nick-the-sorting-hat-casting/",
-        "category": "TV News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T16:21:12+00:00",
-        "coverage": 1,
-        "image": "https://www.slashfilm.com/img/gallery/harry-potter-hbo-tv-series-casts-nearly-headless-nick-the-sorting-hat/l-intro-1793377161.jpg"
-      },
-      {
         "source": "The A.V. Club",
         "rank": 17,
         "title": "AVQ&A: What's your favorite Patrick Stewart performance?",
@@ -3558,18 +3666,6 @@
         "image": "https://www.indiewire.com/wp-content/uploads/2026/10/Screen-Shot-2026-10-29-at-11.33.27-AM.png?w=650"
       },
       {
-        "source": "/Film (SlashFilm)",
-        "rank": 8,
-        "title": "Patrick Stewart's 5 Best Non-Star Trek Performances, Ranked",
-        "summary": "While the late, great Patrick Stewart's work on Star Trek will always be iconic, we're ranking his 5 best non-Star Trek roles here.",
-        "url": "https://www.slashfilm.com/2302384/patrick-stewart-best-non-star-trek-performances-ranked/",
-        "category": "Drama Movies",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T15:52:39+00:00",
-        "coverage": 2,
-        "image": "https://www.slashfilm.com/img/gallery/patrick-stewarts-5-best-non-star-trek-performances-ranked/l-intro-1793374101.jpg"
-      },
-      {
         "source": "IndieWire",
         "rank": 4,
         "title": "The 1973 ‘The Wicker Man’ Is a Classic, but Neil LaBute’s Loathed 2006 Remake Is Even Better",
@@ -3592,18 +3688,6 @@
         "timestamp": "2026-10-30T15:40:48+00:00",
         "coverage": 1,
         "image": "https://www.avclub.com/wp-content/uploads/2026/10/30/MixCollage-30-Oct-2026-11-38-AM-1687.jpg"
-      },
-      {
-        "source": "/Film (SlashFilm)",
-        "rank": 8,
-        "title": "Dark Matter Season 2 Ending Explained: Where Does The Apple TV Show Go From Here?",
-        "summary": "True to form, the Apple TV series Dark Matter just ended Season 2 with a complicated, slightly confusing finale. Let's break it all down.",
-        "url": "https://www.slashfilm.com/2302321/dark-matter-season-2-ending-explained/",
-        "category": "TV News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T15:23:00+00:00",
-        "coverage": 2,
-        "image": "https://www.slashfilm.com/img/gallery/dark-matter-season-2-ending-explained-where-does-the-apple-tv-show-go-from-here/l-intro-1793373631.jpg"
       },
       {
         "source": "The A.V. Club",
@@ -3642,18 +3726,6 @@
         "image": "https://www.denofgeek.com/wp-content/uploads/2026/10/Patrick-Stewart-Jean-Luc-Picard.png"
       },
       {
-        "source": "The A.V. Club",
-        "rank": 17,
-        "title": "Monarch: Legacy Of Monsters could go in a new direction if season three roars ahead",
-        "summary": "Apple TV's ambitious, time-spanning <i>Godzilla</i> spinoff <i>Monarch: Legacy Of Monsters</i> will undergo a creative shake-up if the streamer and producer Legendary Television agree to move forward with season three.",
-        "url": "https://www.avclub.com/monarch-legacy-of-monsters-season-three-shake-up-apple-tv",
-        "category": "Filmnews",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T14:57:43+00:00",
-        "coverage": 1,
-        "image": "https://img.pastemagazine.com/wp-content/avuploads/large/2026/02/02/king-kong-feature.jpg"
-      },
-      {
         "source": "ScreenCrush",
         "rank": 13,
         "title": "Why ‘Rocky’ Deserved to Win Best Picture",
@@ -3664,78 +3736,6 @@
         "timestamp": "2026-10-30T14:44:14+00:00",
         "coverage": 1,
         "image": "https://townsquare.media/site/442/files/2026/10/attachment-rocky-sc-4.jpg?format=natural"
-      },
-      {
-        "source": "The Film Stage",
-        "rank": 19,
-        "title": "The Complete Kubrick: The Killing, Paths of Glory, and Spartacus",
-        "summary": "In celebration of Criterion’s The Complete Kubrick, we’re publishing a season of features dedicated to the filmmaker’s oeuvre and beyond, going through Criterion’s box set era by era and disc by disc—plus a couple of…",
-        "url": "https://thefilmstage.com/the-complete-kubrick-the-killing-paths-of-glory-and-spartacus/",
-        "category": "Features",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T14:23:41+00:00",
-        "coverage": 1,
-        "image": "https://thefilmstage.com/wp-content/uploads/2026/10/Spartacus_image_03-750x338.jpg"
-      },
-      {
-        "source": "The A.V. Club",
-        "rank": 17,
-        "title": "Nocturne gets off to a slow but intriguing start in its opening episodes",
-        "summary": "Nocturne's opening pair of episodes feel a bit like a stretched-out premise pilot, taking nearly two hours to introduce the basic setup of the series and the various players.",
-        "url": "https://www.avclub.com/nocturne-recap-season-1-episode-1-2-lazarus-come-forth-for-such-a-time-as-this",
-        "category": "Tv",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T14:17:25+00:00",
-        "coverage": 1,
-        "image": "https://www.avclub.com/wp-content/uploads/2026/10/30/Nocturne_Photo_010102.jpg.photo_modal_show_home_large.jpg"
-      },
-      {
-        "source": "ScreenCrush",
-        "rank": 13,
-        "title": "10 Directors Famous for Making Terrible Movies",
-        "summary": "TPW Films / Panorama Entertainment / Full Moon Features",
-        "url": "https://screencrush.com/directors-famous-for-bad-movies/",
-        "category": "Galleries",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T13:35:21+00:00",
-        "coverage": 1,
-        "image": "https://townsquare.media/site/442/files/2026/10/attachment-worst-directors.jpg?format=natural"
-      },
-      {
-        "source": "Digital Spy",
-        "rank": 16,
-        "title": "Peter Andre reacts to kids on Race Across the World: 'Your sense of direction may be terrible...'",
-        "summary": "The pair had a difficult opening leg!",
-        "url": "https://www.digitalspy.com/tv/reality-tv/a74294056/peter-andre-princess-junior-celebrity-race-across-the-world/",
-        "category": "News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T13:26:00+00:00",
-        "coverage": 1,
-        "image": "https://hips.hearstapps.com/hmg-prod/images/009ccc6c-9099-4d94-bfde-aceed275d890.jpg"
-      },
-      {
-        "source": "RogerEbert.com",
-        "rank": 18,
-        "title": "Monsters on My Wall: Nick Digilio on 40 Years, 40 Horror Films",
-        "summary": "An interview with a Chicago legend about his favorite horror movies.",
-        "url": "https://www.rogerebert.com/interviews/monsters-on-my-wall-nick-digilio-on-40-years-40-horror-films",
-        "category": "Interviews",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T13:00:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "IndieWire",
-        "rank": 4,
-        "title": "‘Everest: The Other Side’ Review: A Grieving Ski Mountaineer Scales the Face of Death in Chai Vasarhelyi and Jimmy Chin’s Climbing Doc",
-        "summary": "Haunted by tragedies this NatGeo doc never flinches at, Jim Morrison makes the dangerous attempt to climb up and ski down the Everest's North Face in another spellbinding chronicle from the Oscar-winning \"Free Solo\"…",
-        "url": "https://www.indiewire.com/criticism/movies/everest-the-other-side-review-everest-climbing-doc-1235214536/",
-        "category": "Criticism",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T12:09:00+00:00",
-        "coverage": 1,
-        "image": "https://www.indiewire.com/wp-content/uploads/2026/09/everest_the_other_side.jpg?w=600"
       }
     ],
     "sources": [
@@ -3868,6 +3868,54 @@
     "hasSeverity": false,
     "tagline": "A digest of the latest news from 20 leading AI portals",
     "news": [
+      {
+        "source": "Unite.AI",
+        "rank": 18,
+        "title": "What Is Flow Matching? A Faster Path for Generative AI",
+        "summary": "Flow matching trains a continuous velocity field that transports samples from a simple distribution to a data distribution along defined probability paths. This guide explains the mechanism, trade-offs, evaluation, and…",
+        "url": "https://www.unite.ai/what-is-flow-matching-a-faster-path-for-generative-ai/",
+        "category": "AI Fundamentals",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www.unite.ai/wp-content/uploads/2026/08/56-flow-matching-1920x1080-1.jpg"
+      },
+      {
+        "source": "Unite.AI",
+        "rank": 18,
+        "title": "Google Plans Support for Shared Robots.txt AI Training Control",
+        "summary": "Google announced on October 30, 2026 that it plans to support a shared AI training control in robots.txt, giving website owners a single way to express training preferences across multiple AI providers. The commitment…",
+        "url": "https://www.unite.ai/google-plans-support-for-shared-robots-txt-ai-training-control/",
+        "category": "AI Models & Platforms",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:30:03+00:00",
+        "coverage": 1,
+        "image": "https://www.unite.ai/wp-content/uploads/2026/10/google-plans-support-for-shared-robots-txt-ai-training-control.jpg"
+      },
+      {
+        "source": "MarkTechPost",
+        "rank": 19,
+        "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
+        "summary": "Factory released Droid 1.0, a model-independent coding agent harness that makes programmatic tool calling the default. On Factory’s own Terminal-Bench 4 runs, Droid scores 65.2% with Claude Opus 5.5 at $4.73 per passed…",
+        "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
+        "category": "Agentic AI",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T10:38:14+00:00",
+        "coverage": 1,
+        "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-88881-2-scaled.png"
+      },
+      {
+        "source": "MarkTechPost",
+        "rank": 19,
+        "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
+        "summary": "Vercel Labs released agent-desktop, an Apache-2.0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels. The post Vercel…",
+        "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
+        "category": "Agentic AI",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T10:10:28+00:00",
+        "coverage": 1,
+        "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-88881-1-scaled.png"
+      },
       {
         "source": "TechCrunch AI",
         "rank": 2,
@@ -4277,18 +4325,6 @@
         "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt2b46c54c446bfa60/6ae4c3533620f4ca61f68469/AI_money.jpg?width=720&quality=80&disable=upscale"
       },
       {
-        "source": "Unite.AI",
-        "rank": 18,
-        "title": "Pope Leo XIV Calls to “Disarm” AI, Urges Ban on Lethal Autonomous Weapons",
-        "summary": "Pope Leo XIV called for artificial intelligence to be \"disarmed\" and encouraged the states meeting in Geneva in November to take concrete steps toward banning lethal autonomous weapons, in an address delivered in the…",
-        "url": "https://www.unite.ai/pope-leo-xiv-calls-to-disarm-ai-urges-ban-on-lethal-autonomous-weapons/",
-        "category": "Regulation",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T15:18:02+00:00",
-        "coverage": 1,
-        "image": "https://www.unite.ai/wp-content/uploads/2026/10/pope-leo-xiv-calls-to-disarm-ai-urges-ban-on-lethal-autonomous-weapons.jpg"
-      },
-      {
         "source": "The Batch",
         "rank": 10,
         "title": "Could Companies or Governments Shut Down Advanced AI Development?",
@@ -4323,18 +4359,6 @@
         "timestamp": "2026-10-30T15:05:00+00:00",
         "coverage": 1,
         "image": ""
-      },
-      {
-        "source": "Unite.AI",
-        "rank": 18,
-        "title": "AI Adoption Is Up. But Is Business Performance?",
-        "summary": "Companies are struggling to turn AI investment into meaningful returns. Usage is growing, yet only 13% of organizations report significant transformational value from AI. This gap should prompt leaders to take a step…",
-        "url": "https://www.unite.ai/ai-adoption-business-performance-workflow-roi/",
-        "category": "Thought Leaders",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T15:04:24+00:00",
-        "coverage": 1,
-        "image": "https://www.unite.ai/wp-content/uploads/2026/10/Automation-Meets-the-Inspection-Bottleneck.png"
       },
       {
         "source": "The Batch",
@@ -4383,6 +4407,18 @@
         "timestamp": "2026-10-30T14:30:00+00:00",
         "coverage": 1,
         "image": ""
+      },
+      {
+        "source": "The Rundown AI",
+        "rank": 13,
+        "title": "Binance hit by crypto’s biggest heist ever",
+        "summary": "PLUS: No account, no Reddit",
+        "url": "https://www.therundown.ai/articles/binance-hit-by-crypto-biggest-heist-ever",
+        "category": "tech",
+        "date": "2026-10-30",
+        "timestamp": "2026-10-30T14:30:00+00:00",
+        "coverage": 1,
+        "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/117498d9-22ad-4e96-82b4-be8e7012cf80/vadim-art-_92BitC3QEU-unsplash__1_.jpeg?t=1793356092"
       },
       {
         "source": "AI Business",
@@ -4793,18 +4829,6 @@
         "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-1209-scaled.png"
       },
       {
-        "source": "MarkTechPost",
-        "rank": 19,
-        "title": "AssemblyAI Ships AssemblyAI-TTS-1: A $15 per 1M Character Text-to-Speech API for Voice Agents",
-        "summary": "AssemblyAI has released AssemblyAI-TTS-1, its first text-to-speech model for voice agents. It costs $15 per 1M characters, offers unlimited concurrency without a contract, and supports 6 languages at launch. The post…",
-        "url": "https://www.marktechpost.com/2026/10/29/assemblyai-tts-1-text-to-speech-api-voice-agents/",
-        "category": "Agentic AI",
-        "date": "2026-10-29",
-        "timestamp": "2026-10-29T07:28:36+00:00",
-        "coverage": 1,
-        "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/tts1-scaled.png"
-      },
-      {
         "source": "OpenAI News",
         "rank": 6,
         "title": "How Ropes & Gray is developing AI for transactional diligence",
@@ -4813,30 +4837,6 @@
         "category": "News",
         "date": "2026-10-29",
         "timestamp": "2026-10-29T07:00:00+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "MarkTechPost",
-        "rank": 19,
-        "title": "NVIDIA Releases Nemotron 3.5 Transcribe: An Open 30B MoE Model for 40-Language Transcription with ~4B Active Parameters",
-        "summary": "NVIDIA released Nemotron 3.5 Transcribe, an open-weights speech LLM with 4.3B active parameters. It transcribes 40 languages, adds speaker labels and word timestamps, and posts a 4.71% mean WER on the English Open ASR…",
-        "url": "https://www.marktechpost.com/2026/10/28/nvidia-nemotron-3-5-transcribe-open-speech-llm/",
-        "category": "Agentic AI",
-        "date": "2026-10-29",
-        "timestamp": "2026-10-29T04:41:24+00:00",
-        "coverage": 1,
-        "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-2134-2-scaled.png"
-      },
-      {
-        "source": "The Batch",
-        "rank": 10,
-        "title": "How to read the top model leaderboard: Who pays the most for AI inference and context?",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQ3VtRFpBUGhxdkF5cFRKNWN1Si1Ub20zeW9HQ0ZCT1J4Q2J2OUVXQUREMmw0WUtTOFp3c1FwTERkdzRMUks3NzhhRUNOV2hXUW9hZGJYVVotN3AyS2dLUW05RDl3Y3phb3hNOFByTVJTN3lxYnFTdWFxMWpPYjNldA?oc=5",
-        "category": "News",
-        "date": "2026-10-29",
-        "timestamp": "2026-10-29T00:49:17+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -4961,18 +4961,6 @@
         "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-500x500.jpg"
       },
       {
-        "source": "Google DeepMind Blog",
-        "rank": 8,
-        "title": "Gemini 4 Carbon: Our next frontier model",
-        "summary": "",
-        "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-        "category": "News",
-        "date": "2026-10-28",
-        "timestamp": "2026-10-28T17:00:58+00:00",
-        "coverage": 1,
-        "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png"
-      },
-      {
         "source": "AI Business",
         "rank": 16,
         "title": "OpenAI slashes price for model again",
@@ -5040,7 +5028,7 @@
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSlJMQ3BVZ0NVRWV1b3dWNHN1WVJ2a1l5NmZXUXg3YnFVNHoyMDU1QTI3eGVUOHM0eGZzb190RnFtYmpnWTFwSTdaTnhhc3RweXpYMmo1NTg0TU1ucXdEU3FYajJHSFZpMVRDdnFuME85T1dWeXVobXd0NmVDbThmdm9QejBDXy1RZW1UVmVn?oc=5",
         "category": "News",
         "date": "2026-10-28",
-        "timestamp": "2026-10-28T11:34:18+00:00",
+        "timestamp": "2026-10-28T11:32:44+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -5156,13 +5144,13 @@
         "source": "Google DeepMind Blog",
         "rank": 8,
         "title": "Genie 4: A new generation of world simulation",
-        "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-        "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OSHE1Q2pvLWgzQk5SaDNUVjcwWnpNLUoteDhJZVRLU3RPZjFhX2dtSGdSRW9OVGdLbUZRQ2dyd3pMeWRqNEtUM080azFBX2l6RGZCd2diZkxYU19LSE9HNUNoTUFHa3NLMUN4SjhwMmRXdFFHVW1hVEpsZkxnWTA?oc=5",
         "category": "News",
         "date": "2026-10-27",
-        "timestamp": "2026-10-27T16:01:38+00:00",
+        "timestamp": "2026-10-27T16:06:33+00:00",
         "coverage": 1,
-        "image": "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w528-h297-n-nu-rw-lo"
+        "image": ""
       },
       {
         "source": "OpenAI News",
@@ -5441,18 +5429,6 @@
         "image": ""
       },
       {
-        "source": "Artificial Intelligence News",
-        "rank": 17,
-        "title": "Microsoft AI diagnostic tool outperforms doctors in clinical tests",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2ZVOXFWd2FMYTcxUFJ6UUZYdVBlUmNqR1E3OVN6bTVEOW1ZVjNCRklfUVZ4OUdmb1lqWXVuVnE1UGJRR1RZNkxlX2hpUm9qeVV1cUFxUTRRUHRQcUlhdE05aTk0dXh1ZVBOdlE0WDlIb3puNU9NTGJaaFJadHZGajlWUTI?oc=5",
-        "category": "News",
-        "date": "2026-10-24",
-        "timestamp": "2026-10-24T05:36:07+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
         "source": "AI Business",
         "rank": 16,
         "title": "Siemens, Nvidia deploy industrial AI to reduce engineering effort",
@@ -5539,12 +5515,12 @@
       {
         "source": "Artificial Intelligence News",
         "rank": 17,
-        "title": "State legislatures become de facto AI regulators as Congress stalls",
+        "title": "Microsoft AI diagnostic tool outperforms doctors in clinical tests",
         "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQUl1cmJkckQ1TTZ5b0xFOUJWb2FrWkwwNFk2ZnpGSTVaaWNISllxVGZscWxBUWNleUI0ZTdDNlNYS3VxQzBtOXEtTG1DdEROeWMzdjJBWnprQ3NZWXVuNTR5VU9wN3ZiaW5oRUhlYXNHeUlnNUctMnJScVZoSUJDLWhPUGN5ajAtN3FEcDNVQmZsUHNNYjh0cDRPQU5JdjZXcjRiOVFlNGdlb3c?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2ZVOXFWd2FMYTcxUFJ6UUZYdVBlUmNqR1E3OVN6bTVEOW1ZVjNCRklfUVZ4OUdmb1lqWXVuVnE1UGJRR1RZNkxlX2hpUm9qeVV1cUFxUTRRUHRQcUlhdE05aTk0dXh1ZVBOdlE0WDlIb3puNU9NTGJaaFJadHZGajlWUTI?oc=5",
         "category": "News",
         "date": "2026-10-23",
-        "timestamp": "2026-10-23T04:14:59+00:00",
+        "timestamp": "2026-10-23T07:00:00+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -5585,30 +5561,6 @@
         "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png"
       },
       {
-        "source": "Google DeepMind Blog",
-        "rank": 8,
-        "title": "Beyond tree cover: mapping the world’s forest types",
-        "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-        "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-        "category": "News",
-        "date": "2026-10-22",
-        "timestamp": "2026-10-22T14:30:24+00:00",
-        "coverage": 1,
-        "image": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo"
-      },
-      {
-        "source": "The Rundown AI",
-        "rank": 13,
-        "title": "A robot butler with Pixar ambitions",
-        "summary": "PLUS: Unitree demos a kung fu bodyguard",
-        "url": "https://www.therundown.ai/articles/a-robot-butler-with-pixar-ambitions",
-        "category": "robotics",
-        "date": "2026-10-22",
-        "timestamp": "2026-10-22T14:30:00+00:00",
-        "coverage": 1,
-        "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/56249eac-aab1-4c3b-ab00-934afd2a6d7e/Voxel_In_Home__1_.jpeg?t=1792672051"
-      },
-      {
         "source": "IEEE Spectrum AI",
         "rank": 20,
         "title": "Why Engineers Should Brave Capitol Hill",
@@ -5633,6 +5585,30 @@
         "image": "https://cdn-uploads.huggingface.co/production/uploads/6806091ee92bd22fd8ce9719/P6P8ZzHR8yL7GOOO4hQOg.png"
       },
       {
+        "source": "Google DeepMind Blog",
+        "rank": 8,
+        "title": "Not All Forests Are Equal: Mapping the World’s Forests",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWVZsbGt2Smt3d1JOcG01RkYzMzR2RjF3RDVWWFBvQWtmVXZHVlVNRnBRV3pwakZZdHl5VVp6bzIyVTRrZGtCT2JtTW9OSjVwRGlXNjhDU1JDRkMtbzVrYUxnTlUyamI5YU0xalRLYVNSOVR3YUhsWmdjNHdkX3ZhNGN0ZG5kdw?oc=5",
+        "category": "News",
+        "date": "2026-10-22",
+        "timestamp": "2026-10-22T07:00:00+00:00",
+        "coverage": 1,
+        "image": ""
+      },
+      {
+        "source": "Artificial Intelligence News",
+        "rank": 17,
+        "title": "State legislatures become de facto AI regulators as Congress stalls",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQUl1cmJkckQ1TTZ5b0xFOUJWb2FrWkwwNFk2ZnpGSTVaaWNISllxVGZscWxBUWNleUI0ZTdDNlNYS3VxQzBtOXEtTG1DdEROeWMzdjJBWnprQ3NZWXVuNTR5VU9wN3ZiaW5oRUhlYXNHeUlnNUctMnJScVZoSUJDLWhPUGN5ajAtN3FEcDNVQmZsUHNNYjh0cDRPQU5JdjZXcjRiOVFlNGdlb3c?oc=5",
+        "category": "News",
+        "date": "2026-10-22",
+        "timestamp": "2026-10-22T07:00:00+00:00",
+        "coverage": 1,
+        "image": ""
+      },
+      {
         "source": "TLDR AI",
         "rank": 14,
         "title": "Claude Duet 🤖, Anthropic API changes 👨‍💻, Recursive’s local model 💻",
@@ -5643,6 +5619,18 @@
         "timestamp": "2026-10-22T00:00:00+00:00",
         "coverage": 1,
         "image": "https://tldr.tech/logo-jpg.jpg"
+      },
+      {
+        "source": "The Batch",
+        "rank": 10,
+        "title": "Data Points: Minimax’s M3.1 Flash Cuts Prices",
+        "summary": "",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSa3ZmT3doUzVlMEZ4dkFwRFlmQy0wdVVaWmN5WnIxc1dQczAwQThNSFFXMm5hZ0t5cmVIMTFXWGw4YVBFakktUTdmZWtwUDhsQUtBMjFianU4OGpNUmh3c1NXRzdwZ1JJR2RLYklBQU9CanF1cFl6SA?oc=5",
+        "category": "News",
+        "date": "2026-10-21",
+        "timestamp": "2026-10-21T20:40:00+00:00",
+        "coverage": 1,
+        "image": ""
       },
       {
         "source": "Hugging Face Blog",
@@ -5667,6 +5655,18 @@
         "timestamp": "2026-10-21T16:04:43+00:00",
         "coverage": 1,
         "image": "https://cdn-uploads.huggingface.co/production/uploads/6ac67ea29579ea34f1f7e470/hEodPVvQZI24jETLbPooP.png"
+      },
+      {
+        "source": "IEEE Spectrum AI",
+        "rank": 20,
+        "title": "How Wikipedia’s Editors Keep the Online Encyclopedia Human-Written",
+        "summary": "Ellia Lebleu is a founding member of the WikiProject AI Cleanup , a volunteer effort launched in 2023 to find and remove AI-generated material from Wikipedia that breaks the website’s guidelines. When the cleanup began,…",
+        "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+        "category": "Wikipedia",
+        "date": "2026-10-21",
+        "timestamp": "2026-10-21T13:00:02+00:00",
+        "coverage": 1,
+        "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=980"
       }
     ],
     "sources": [
@@ -5807,7 +5807,7 @@
         "url": "https://mixmag.net/feature/the-mix-129-braga-circuit-interview-dj-margate-deep-house-rinse",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.101535+00:00",
+        "timestamp": "2026-10-31T13:23:50.920582+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/THE_MIX_BC2.jpg?fit=cover&format=baseline-jpeg&height=630&width=1200&s=2U2h_xW27zEqFnamK59k3orXCWZC0K1649SOR_HJAeM"
       },
@@ -5819,7 +5819,7 @@
         "url": "https://mixmag.net/feature/portola-festival-2026-review-edm-dance-music-us-europe-connection",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.101504+00:00",
+        "timestamp": "2026-10-31T13:23:50.920552+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/Credit_-Demian-Beccara-_-%40theholymountain14.jpg?fit=cover&format=baseline-jpeg&height=630&width=1200&s=-kGXQMJ8SsajFX6V2U2P_mMr1Uk-r8V6NAnuz0KSToQ"
       },
@@ -5831,7 +5831,7 @@
         "url": "https://mixmag.net/read/ministry-of-sound-long-standing-soundsystem-auction-wax-poetics-news",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.101464+00:00",
+        "timestamp": "2026-10-31T13:23:50.920513+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/ministry-soundystem.jpg?fit=cover&width=660&s=qGhQOCS0_hpemZWkGsO4Sm3N3y5IM2ZE4TDil8en_aI"
       },
@@ -5843,7 +5843,7 @@
         "url": "https://mixmag.net/read/massive-attack-robert-del-naja-soundtracks-new-gaza-focused-documentary-palestine-news",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.101422+00:00",
+        "timestamp": "2026-10-31T13:23:50.920472+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/robert-del-naja.jpg?fit=cover&width=660&s=jVkAVAgUv8KpJtnal82vtPG2B6glyNxfs59f-rSGF_Y"
       },
@@ -5855,7 +5855,7 @@
         "url": "https://mixmag.net/read/exit-festival-return-serbia-following-vucic-election-defeat-news",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.101374+00:00",
+        "timestamp": "2026-10-31T13:23:50.920430+00:00",
         "coverage": 2,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/EXIT-Festival.png?fit=cover&width=660&s=oJMy7WBs9jBd8cO0-BGd1SwtxwDwvO8Sc_R5kNR3GSE"
       },
@@ -5867,7 +5867,7 @@
         "url": "https://mixmag.net/read/justice-share-details-grand-theft-auto-vi-original-score-album-news",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.101307+00:00",
+        "timestamp": "2026-10-31T13:23:50.920384+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/justice-score.png?fit=cover&width=660&s=TsEF6b9MYFIjiik1CVZoPnjTC4di-i6ypcYYS7Sc3zo"
       },
@@ -5879,7 +5879,7 @@
         "url": "https://mixmag.net/read/wales-madruga-festival-will-no-longer-go-ahead-after-2027-news",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.101172+00:00",
+        "timestamp": "2026-10-31T13:23:50.920335+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/madruga-festival.jpg?fit=cover&width=660&s=TR73lHdDwvikQMoUeWGrTk7lJYzf3QCNcis-vg-1FdI"
       },
@@ -5891,7 +5891,7 @@
         "url": "https://mixmag.net/read/minneapolis-dj-school-slam-academy-to-shutter-following-misconduct-concerns-news",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.101123+00:00",
+        "timestamp": "2026-10-31T13:23:50.920292+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/dj-school-academt.jpg?fit=cover&width=660&s=QiEd7z3D1Cga0LRfg1OxY8UjAC2ZiQmnxL5iTTefFnw"
       },
@@ -5903,7 +5903,7 @@
         "url": "https://mixmag.net/read/unreleased-daft-punk-mix-from-1997-discovered-dj-ralph-lawson-news",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.101052+00:00",
+        "timestamp": "2026-10-31T13:23:50.920247+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/Daft-Punk-Lawson.png?fit=cover&width=660&s=NItu7ex_VO-pkaZk-szccoxscj9BSHbRsgofOLHklyc"
       },
@@ -5915,7 +5915,7 @@
         "url": "https://mixmag.net/read/dc3-shares-new-track-my-home-amid-launch-of-1-million-grant-for-uk-youth-clubs-news",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.101000+00:00",
+        "timestamp": "2026-10-31T13:23:50.920199+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/DC3.png?fit=cover&width=660&s=DMXzjNnE0_A5vIEjjCaIaRX1WCbjSykx_eC94VsxMH4"
       },
@@ -5927,7 +5927,7 @@
         "url": "https://mixmag.net/read/good-practice-guide-launched-new-independent-music-promoters-news",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.100945+00:00",
+        "timestamp": "2026-10-31T13:23:50.920146+00:00",
         "coverage": 1,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/promoters-good-practice.jpg?fit=cover&width=660&s=UAyJM3DoCQ8rEirZxbKaM4LIxTfgVw1cctz0UsGIVss"
       },
@@ -5939,9 +5939,165 @@
         "url": "https://mixmag.net/read/influential-new-jersey-house-dj-and-producer-cevin-fisher-has-died-aged-63-news",
         "category": "News",
         "date": "2026-10-31",
-        "timestamp": "2026-10-31T06:43:15.100854+00:00",
+        "timestamp": "2026-10-31T13:23:50.920065+00:00",
         "coverage": 2,
         "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/Cevin-Fisher.jpg?fit=cover&width=660&s=aXXHwPXSjieAPYbzlQF4ZE1On-8K59dwETqyKyDjZPw"
+      },
+      {
+        "source": "Loudwire",
+        "rank": 11,
+        "title": "11 Songs to Scare Off Trick-or-Treaters",
+        "summary": "Warner Bros. / Vertigo, ℗ 2003 Apocalyptic Vision Records GmbH, ℗ 2001 Prophecy",
+        "url": "https://loudwire.com/songs-to-scare-off-trick-or-treaters/",
+        "category": "Link in Bio",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:00:35+00:00",
+        "coverage": 1,
+        "image": "https://townsquare.media/site/366/files/2026/10/attachment-social-image-366-2026-10-20-10-23-37.jpg?format=natural"
+      },
+      {
+        "source": "Rolling Stone",
+        "rank": 1,
+        "title": "Come Back, Faith Hill",
+        "summary": "The Grammy-winning country superstar hasn't released a solo album since 2005. Will she ever return to making music?",
+        "url": "https://www.rollingstone.com/music/music-features/faith-hill-come-back-to-country-music-1235650396/",
+        "category": "Music",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T13:00:00+00:00",
+        "coverage": 1,
+        "image": "https://www.rollingstone.com/wp-content/uploads/2026/10/please-come-back-faith-hill.jpg?w=1600&h=900&crop=1"
+      },
+      {
+        "source": "Consequence",
+        "rank": 6,
+        "title": "My Chemical Romance Confirm Plans for New Album",
+        "summary": "Gerard Way says the band will work on the album in 2027. My Chemical Romance Confirm Plans for New Album Alex Young",
+        "url": "https://consequence.net/2026/10/my-chemical-romance-plans-for-new-album/",
+        "category": "Music News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:53:59+00:00",
+        "coverage": 1,
+        "image": "https://consequence.net/wp-content/uploads/2025/09/My-Chemical-Romance.jpg?quality=80"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "4 Songs From 1974 That Even Modern Music Fans Can Get Behind",
+        "summary": "Photo by Screen Archives/Getty Images These songs might not sound like today's popular hits, but that doesn't mean we shouldn't still give these 1974 songs a spin now and then. The post 4 Songs From 1974 That Even…",
+        "url": "https://americansongwriter.com/4-songs-from-1974-that-even-modern-music-fans-can-get-behind/",
+        "category": "Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:30:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/stevie-wonder-getty.jpg?w=1056"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "3 Country Tracks From the 2010s That Still Feel Effortlessly Cool",
+        "summary": "NEW YORK, NEW YORK - AUGUST 31: Kacey Musgraves performs at Madison Square Garden on August 31, 2026 in New York City. (Photo by Taylor Hill/WireImage) These country tracks from the 2010s still have something…",
+        "url": "https://americansongwriter.com/3-country-tracks-from-the-2010s-that-still-feel-effortlessly-cool/",
+        "category": "Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T12:00:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/KM.jpg?w=1056"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "Remember When Sting and Peter Gabriel Sang on a Phil Collins Song in 1985?",
+        "summary": "Photo by Larry Busacca/Getty Images In 1985, Phil Collins released a song that became a Top 10 hit, which features both Sting and Peter Gabriel. The post Remember When Sting and Peter Gabriel Sang on a Phil Collins Song…",
+        "url": "https://americansongwriter.com/remember-when-sting-and-peter-gabriel-sang-on-a-phil-collins-song-in-1985/",
+        "category": "Behind The Song",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:30:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/phil-collins-getty.jpg?w=1056"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "4 Soft Rock Songs That Deserve a Spot on Your Halloween Playlist",
+        "summary": "Photo by Michael Putland/Getty Images If you're looking for fresh soft rock songs to add to your Halloween playlist this year, then we've got you covered. The post 4 Soft Rock Songs That Deserve a Spot on Your Halloween…",
+        "url": "https://americansongwriter.com/4-soft-rock-songs-that-deserve-a-spot-on-your-halloween-playlist/",
+        "category": "Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T11:00:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/06/GettyImages-113248275.jpg?w=1056"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "3 One-Hit Wonders From 1983 That Changed Modern Music Forever",
+        "summary": "Die deutsche Popsängerin Nena (\"99 Luftballons\") mit ihrer Band (l-r): Rolf Brendel (Schlagzeug), Nena, Jürgen Demel (Bass), Uwe Fahrenkrog-Petersen (Tasteninstrumente) und Carlo Karges (Gitarre). Aufnahme vom…",
+        "url": "https://americansongwriter.com/3-one-hit-wonders-from-1983-that-changed-modern-music-forever/",
+        "category": "Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T10:30:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/09/nena.jpg?w=1056"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "Remembering When Bob Dylan Popped up Out of Nowhere on a Sitcom in 1999",
+        "summary": "Bob Dylan, Roskilde Festival, Denmark, 29th June 1990. (Photo by Goedefroit Music/Getty Images) What was Bob Dylan doing on a sitcom in 1999? The strange story of the legend's appearance on 'Dharma & Greg'. The post…",
+        "url": "https://americansongwriter.com/remembering-when-bob-dylan-popped-up-out-of-nowhere-on-a-sitcom-in-1999/",
+        "category": "Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T10:00:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/07/GettyImages-2214083652.jpg?w=1056"
+      },
+      {
+        "source": "NME",
+        "rank": 4,
+        "title": "Greta Thunberg, Paloma Faith and Nemahsis join Macklemore at London ‘Free Palestine’ tour finale",
+        "summary": "The sold-out Wembley concert also featured speeches from Holocaust survivor Stephen Kapos and Palestinian activist Arab Barghouthi The post Greta Thunberg, Paloma Faith and Nemahsis join Macklemore at London ‘Free…",
+        "url": "https://www.nme.com/news/music/greta-thunberg-paloma-faith-and-nemahsis-join-macklemore-at-london-free-palestine-tour-finale-3974723?utm_source=rss&utm_medium=rss&utm_campaign=greta-thunberg-paloma-faith-and-nemahsis-join-macklemore-at-london-free-palestine-tour-finale",
+        "category": "Music News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T09:33:07+00:00",
+        "coverage": 1,
+        "image": "https://www.nme.com/wp-content/uploads/2026/10/macklemore_live_2026.jpg"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "Born 62 Years Ago Today in Memphis, the Country Star Whose Post-9/11 Anthem Spent 7 Weeks at No. 1",
+        "summary": "COLLEGE GROVE, TENNESSEE - Darryl Worley performs during the Memories Of Honor's The Boot Bash Benefiting The Boots Of Honor Memorial And The Music Remembers Project at The Grove Golf Club on September 24, 2026 in…",
+        "url": "https://americansongwriter.com/born-62-years-ago-today-in-memphis-the-country-star-whose-post-9-11-anthem-spent-7-weeks-at-no-1/",
+        "category": "Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T09:30:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/darryl-worley.jpg?w=1056"
+      },
+      {
+        "source": "American Songwriter",
+        "rank": 19,
+        "title": "4 Unforgettable Hard Rock Hits From 1966 That Take Baby Boomers Back in Time",
+        "summary": "UNITED KINGDOM - JANUARY 01: Posed group shot of English band The Troggs in 1966. L-R: Ronnie Bond (1940-1992), Reg Presley (1941-2013), Pete Staples and Chris Britton. (Photo by CA/Redferns) Baby boomers couldn't get…",
+        "url": "https://americansongwriter.com/4-unforgettable-hard-rock-hits-from-1966-that-take-baby-boomers-back-in-time/",
+        "category": "Features",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T09:00:00+00:00",
+        "coverage": 1,
+        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/GettyImages-84893311.jpg?w=1056"
+      },
+      {
+        "source": "NME",
+        "rank": 4,
+        "title": "My Chemical Romance’s Gerard Way reveals plans to make new album in 2027 and return to touring in 2028",
+        "summary": "The band also reunited with The Used's Bert McCracken onstage for the first time since 2005 and debuted a rare ‘Danger Days’ track The post My Chemical Romance’s Gerard Way reveals plans to make new album in 2027 and…",
+        "url": "https://www.nme.com/news/music/my-chemical-romance-gerard-way-plans-new-album-2027-touring-2028-3974719?utm_source=rss&utm_medium=rss&utm_campaign=my-chemical-romance-gerard-way-plans-new-album-2027-touring-2028",
+        "category": "Music News",
+        "date": "2026-10-31",
+        "timestamp": "2026-10-31T08:42:13+00:00",
+        "coverage": 1,
+        "image": "https://www.nme.com/wp-content/uploads/2026/10/gerard_my_chemical_romance.jpg"
       },
       {
         "source": "Billboard",
@@ -6000,8 +6156,8 @@
         "category": "Music",
         "date": "2026-10-31",
         "timestamp": "2026-10-31T02:38:47+00:00",
-        "coverage": 1,
-        "image": "https://www.rollingstone.com/wp-content/uploads/2026/10/harryween-night-one-song.jpg?crop=0px%2C84px%2C1800px%2C1015px&resize=1600%2C900"
+        "coverage": 2,
+        "image": "https://www.nme.com/wp-content/uploads/2026/10/harry_styles_live.jpg"
       },
       {
         "source": "American Songwriter",
@@ -6042,14 +6198,14 @@
       {
         "source": "Digital Music News",
         "rank": 18,
-        "title": "Latest Music Industry Hires: Berklee, Empire, Believe, WMG, More",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUnk1OTNCd2ZVNmJtYm54Yl9KUXhFUmVDaVZTdjljUkd3b1RMNThXbTcwYV9CQndwNEkzbk9NR05Wb1h3ZGlXc21mckRGMVgwZnBvNm1fazJFSmVMTnJWWnZxQ1A3OXF2UXJ6dVFlaGdUYTZrcnRXT3VxQThhc1RUbktHQQ?oc=5",
-        "category": "News",
+        "title": "Latest Music Industry Hires: Berklee College of Music, Empire, Believe, Too Lost, Peermusic, WMG, Hybe Americas, More",
+        "summary": "Here’s a recap of recent music industry hires and in-house promotions as of October 30th, 2026. If you have a job shuffle to share, we’re all ears. Send us a note to news@digitalmusicnews.com. If you’d like to post a…",
+        "url": "https://www.digitalmusicnews.com/2026/10/30/music-industry-hires-oct-30-2026/",
+        "category": "Music Industry Hires",
         "date": "2026-10-30",
-        "timestamp": "2026-10-30T23:36:30+00:00",
+        "timestamp": "2026-10-30T23:34:03+00:00",
         "coverage": 1,
-        "image": ""
+        "image": "https://www.digitalmusicnews.com/wp-content/uploads/2026/10/Vickie-Nauman-1024x546.jpg"
       },
       {
         "source": "Billboard",
@@ -6072,18 +6228,6 @@
         "category": "Music",
         "date": "2026-10-30",
         "timestamp": "2026-10-30T23:13:07+00:00",
-        "coverage": 1,
-        "image": ""
-      },
-      {
-        "source": "Digital Music News",
-        "rank": 18,
-        "title": "- Digital Music News",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mcTktNWJlRWx5Qkl5aXFwT2FadzQ3VS1JOUM5X25md1ROMUxxOVJNR1hEall4ZHpWNnRocDlsMVFCYnl2UEFwU0pKZEt2U1JXN1pwT2dn?oc=5",
-        "category": "News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T23:07:56+00:00",
         "coverage": 1,
         "image": ""
       },
@@ -6124,18 +6268,6 @@
         "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/GettyImages-1034675788-1.jpg?w=1056"
       },
       {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "3 Classic Rock Albums From 1991 That Suddenly Sounded Old Overnight",
-        "summary": "Roth, David Lee; 24/03/1991; Ahoy'; Rotterdam, The Netherlands These classic rock albums dropped in 1991 and aged virtually overnight because of the sudden rise of grunge. The post 3 Classic Rock Albums From 1991 That…",
-        "url": "https://americansongwriter.com/3-classic-rock-albums-from-1991-that-suddenly-sounded-old-overnight/",
-        "category": "Features",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T22:15:00+00:00",
-        "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/GettyImages-1164304854.jpg?w=1056"
-      },
-      {
         "source": "XXL",
         "rank": 13,
         "title": "48 Hip-Hop-Inspired Jeopardy! Clues Featuring Rappers",
@@ -6148,18 +6280,6 @@
         "image": "https://townsquare.media/site/812/files/2016/04/attachment-drake-eminem-lil-wayne.jpg?format=natural"
       },
       {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "3 Country Songs From the 1980s We Hear All the Time in Bars and Restaurants",
-        "summary": "Dolly Parton and Kenny Rogers perform their hit duet \"Islands In The Stream\" at the CMT's 100 GREATEST DUETS concert. A celebration of the the Top 12 duets in country music history, the concert included live…",
-        "url": "https://americansongwriter.com/3-country-songs-from-the-1980s-we-hear-all-the-time-in-bars-and-restaurants/",
-        "category": "Features",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T22:00:00+00:00",
-        "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/DP.jpg?w=1056"
-      },
-      {
         "source": "Billboard",
         "rank": 2,
         "title": "25 Halloween-Themed Hip-Hop Songs to Soundtrack Your Weekend",
@@ -6170,18 +6290,6 @@
         "timestamp": "2026-10-30T21:48:06+00:00",
         "coverage": 1,
         "image": ""
-      },
-      {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "Every Baby Boomer Alive Has a Core Memory To Go With These 4 Songs From 1979",
-        "summary": "Photo by Ebet Roberts/Redferns Virtually every baby boomer alive likely has a core memory associated with one or all of these iconic songs from 1979. The post Every Baby Boomer Alive Has a Core Memory To Go With These 4…",
-        "url": "https://americansongwriter.com/every-baby-boomer-alive-has-a-core-memory-to-go-with-these-4-songs-from-1979/",
-        "category": "Features",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T21:30:00+00:00",
-        "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/07/Kenny-Rogers-1.jpg?w=1056"
       },
       {
         "source": "Rolling Stone",
@@ -6268,30 +6376,6 @@
         "image": "https://media.pitchfork.com/photos/6ae505f71534acc465adaaa1/master/pass/Atlas%20Sound%201%20%C2%A9%20Javier%20Morales.jpg"
       },
       {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "How Kaitlin Butts Crafted the Honky Tonk of Her Wildest Dreams on Her Latest LP (Exclusive)",
-        "summary": "Photo by Thomas Crabtree Kaitlin Butts new LP, 'Hello, Honky Tonk,' invites listeners to leave their troubles at the door and have some good, old fashioned fun. The post How Kaitlin Butts Crafted the Honky Tonk of Her…",
-        "url": "https://americansongwriter.com/how-kaitlin-butts-crafted-the-honky-tonk-of-her-wildest-dreams-on-her-latest-lp-exclusive/",
-        "category": "Features",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T21:00:00+00:00",
-        "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/Kaitlin-Butts_Photo-Credit_-Thomas-Crabtree_2-1.jpg?w=1056"
-      },
-      {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "Brooks & Dunn Recorded Their Biggest Hit From 2001 in Only Five Minutes",
-        "summary": "396207 20: Brooks and Dunn perform at the Country Freedom Concert October 21, 2001 at Nashville's Gaylord Entertainment Center. The concert will benefit the Salvation Army's Disaster Relief Fund and the victims,…",
-        "url": "https://americansongwriter.com/brooks-dunn-recorded-their-biggest-hit-from-2001-in-only-five-minutes/",
-        "category": "Behind The Song",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T21:00:00+00:00",
-        "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/brooks-and-dunn-getty.jpg?w=1056"
-      },
-      {
         "source": "Billboard",
         "rank": 2,
         "title": "Mariah Carey Shares ‘Hint’ on When Her Shelved Grunge Album Is Coming: ‘I Get Asked This About Once a Week’",
@@ -6306,14 +6390,14 @@
       {
         "source": "Digital Music News",
         "rank": 18,
-        "title": "Suno Plows Ahead With MLC Subpoena, Sets Response Deadline",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE00WnlpZFJFM2NFZ3NydTZXZm5pMWRjN1JlS2d3a21qMm15Yk9SNnhGZkJqeHBtS0h1cW9vVnhfWm0wN3g4SmRzQUJnWGdLRUd4UkpSQ25hVkpaOHdHR08xMlpVaXNWbndFMzNiZUlhNFpjb1JuSi1fbWpsRQ?oc=5",
-        "category": "News",
+        "title": "Suno Is Keeping the Pressure on the Mechanical Licensing Collective; Court Orders MLC Subpoena Response by Monday",
+        "summary": "Suno is charging ahead with its Mechanical Licensing Collective subpoena, and the MLC now has until Monday to formally oppose a related motion to compel. The involved parties just recently disclosed that quick-moving…",
+        "url": "https://www.digitalmusicnews.com/2026/10/30/suno-mlc-subpoena-schedule/",
+        "category": "Artificial Intelligence (AI)",
         "date": "2026-10-30",
-        "timestamp": "2026-10-30T20:56:09+00:00",
+        "timestamp": "2026-10-30T20:51:29+00:00",
         "coverage": 1,
-        "image": ""
+        "image": "https://www.digitalmusicnews.com/wp-content/uploads/2026/10/FT-Courthouse-1024x546.jpg"
       },
       {
         "source": "Billboard",
@@ -6352,28 +6436,16 @@
         "image": "https://www.rollingstone.com/wp-content/uploads/2026/10/jack-antonoff-and-margaret-qualley-divorce.jpg?w=1600&h=900&crop=1"
       },
       {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "The Leonard Cohen Lyric From 1988 That Eloquently Makes His Case as a Boyfriend",
-        "summary": "Canadian singer/songwriter Leonard Cohen (Photo by Fairchild Archive/Penske Media via Getty Images) Ever try to win back a lover? Leonard Cohen provided a how-to on this process on the 1988 song \"I'm Your Man\". The post…",
-        "url": "https://americansongwriter.com/the-leonard-cohen-lyric-from-1988-that-eloquently-makes-his-case-as-a-boyfriend/",
-        "category": "Behind The Lyrics",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T20:30:00+00:00",
-        "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/05/cohen.jpg?w=1056"
-      },
-      {
         "source": "Digital Music News",
         "rank": 18,
-        "title": "Live Nation/Ticketmaster Expands CashorTrade Tie-Up",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVVZFa2ZkQmNXUUxhU0tZVEdxWU5RSUJGYkZHU0JYeW5aSUs3VnBCNU54MHk5ZmpPeGZTNlVtTk5BYU54ajVjZ3RlOXd1QkQ3RXMzTXBSN01YUWZydjRmM1VVRjBtOUVkbkxQcjdwLVRMSEs5eGp1al9CYWJSTklFb0xwd3ZjdnRNM3NpdEFQbjRpb3psZlI0cGVSQjVmR21qd1E?oc=5",
-        "category": "News",
+        "title": "Spotify Reportedly Prepares to Launch Its AI Cover and Remix Tool in Early 2027, Charging Subscribers Up to $5 More Per Month",
+        "summary": "Spotify is reportedly preparing to roll out its long-awaited AI cover and remix tool – possibly at a $5-per-month price point in the States – early next year. That potential launch timetable surfaced in a Financial…",
+        "url": "https://www.digitalmusicnews.com/2026/10/30/spotify-ai-cover-remix-tool-launch/",
+        "category": "Artificial Intelligence (AI)",
         "date": "2026-10-30",
-        "timestamp": "2026-10-30T20:28:16+00:00",
+        "timestamp": "2026-10-30T20:30:58+00:00",
         "coverage": 1,
-        "image": ""
+        "image": "https://www.digitalmusicnews.com/wp-content/uploads/2026/10/Spotify-AI-Remix-Tool-1024x546.jpg"
       },
       {
         "source": "Alternative Press",
@@ -6451,25 +6523,25 @@
         "source": "Digital Music News",
         "rank": 18,
         "title": "A$AP Rocky Arrives in Fortnite in His Anime Look on November 1",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSHkxaVBoYmhXc2c3dFdZSDdudDExbDFQQ00yTEI4bXBvVWtMY0U5OUszVy1WMUxNYko0OEdDYnFKVWhBeFdXRFZTSkp0NktUenZwTzRPOWpQUzlpcGdYSkpWbG8zWmhRNm5MRWhvNmJWYmlJY2FMZ1ZSVmFDM2dKUQ?oc=5",
-        "category": "News",
+        "summary": "A$AP Rocky arrives in Fortnite on November 1, drawn in anime style and sailing alongside One Piece’s Straw Hats in Fortnite Treasure Hunters. A$AP Rocky arrives in Fortnite next month, drawn in anime style and sailing…",
+        "url": "https://www.digitalmusicnews.com/2026/10/30/asap-rocky-arrives-in-fortnite/",
+        "category": "Gaming",
         "date": "2026-10-30",
-        "timestamp": "2026-10-30T19:41:01+00:00",
+        "timestamp": "2026-10-30T19:36:44+00:00",
         "coverage": 1,
-        "image": ""
+        "image": "https://www.digitalmusicnews.com/wp-content/uploads/2026/10/anime-asap-rocky-arrives-in-fortnite-on-november-1-1024x576.png"
       },
       {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "Born 118 Years Ago Today in Arkansas, the Singing Cowgirl Who Became Country Music’s First Million-Selling Female Star",
-        "summary": "Patsy Montana One hundred eighteen years ago today, the star who became the first woman in country music to have a million-selling single was born. The post Born 118 Years Ago Today in Arkansas, the Singing Cowgirl Who…",
-        "url": "https://americansongwriter.com/born-118-years-ago-today-in-arkansas-the-singing-cowgirl-who-became-country-musics-first-million-selling-female-star/",
-        "category": "Features",
+        "source": "Digital Music News",
+        "rank": 18,
+        "title": "Live Nation/Ticketmaster Expands CashorTrade Tie-Up, This Time with Wholly Owned Front Gate Tickets",
+        "summary": "Ticketmaster is launching an integration with CashorTrade that allows verified tickets to be resold on the latter’s marketplace at face value or below. Bots are crashing shows and fans are left destitute after their…",
+        "url": "https://www.digitalmusicnews.com/2026/10/30/live-nation-ticketmaster-cashortrade-front-gate-tickets/",
+        "category": "Feature Story",
         "date": "2026-10-30",
-        "timestamp": "2026-10-30T19:30:00+00:00",
+        "timestamp": "2026-10-30T19:28:20+00:00",
         "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/GettyImages-1170785345-1-1.jpg?w=1056"
+        "image": "https://www.digitalmusicnews.com/wp-content/uploads/2026/10/live-nation-ticketmaster-expands-cashortrade-tie-up-with-front-gate-tickets-1024x576.png"
       },
       {
         "source": "Loudwire",
@@ -6580,18 +6652,6 @@
         "image": "https://cdn-p.smehost.net/sites/7f9737f2506941499994d771a29ad47a/wp-content/uploads/2026/10/Screenshot-2026-10-30-at-10.34.23-AM-1024x576.png"
       },
       {
-        "source": "American Songwriter",
-        "rank": 19,
-        "title": "Skid Row Unveils New Lead Singer With Blistering “Won’t Get Fooled Again” Performance",
-        "summary": "LAS VEGAS, NEVADA - MARCH 26: (L-R) Guitarist Dave Sabo, drummer Rob Hammersmith, singer Erik Grönwall, bassist Rachel Bolan and guitarist Scotti Hill of Skid Row perform as the band opens for the Scorpions' nine-date…",
-        "url": "https://americansongwriter.com/skid-row-unveils-new-lead-singer-with-blistering-wont-get-fooled-again-performance/",
-        "category": "Latest Music News & Stories",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T18:36:13+00:00",
-        "coverage": 1,
-        "image": "https://americansongwriter.com/wp-content/uploads/sites/7/2026/10/SR.jpg?w=1056"
-      },
-      {
         "source": "Rolling Stone",
         "rank": 1,
         "title": "Comeback or Farewell? Guns N’ Roses, Black Crowes, and Friends Salute Aerosmith at Hollywood Bowl",
@@ -6667,13 +6727,13 @@
         "source": "Digital Music News",
         "rank": 18,
         "title": "Backstreet Boys Launch Pro Video Game Team, Seek Women Gamers",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLTFRbEs3VGZKTGJvTUQzZlpUellCR0tQVnlmUFpPOHJhb2tRXzdoblU1YmxGLUYzc3NsTmd3MF9VWldtcVRwVFFrVDlhVmJfX3lpMGNhMjNDYlBTYzRqLWpUQlU3Y1F1SVBBM2UwX2VxUjlsTGdPUWl5aVBFNk1yWg?oc=5",
-        "category": "News",
+        "summary": "The Backstreet Boys expands its entertainment legacy into competitive gaming with a celebrity-owned team and a search for players to represent it. They’ve spent decades uniting fans through music. Now, the Backstreet…",
+        "url": "https://www.digitalmusicnews.com/2026/10/30/backstreet-boys-pro-gamer-team/",
+        "category": "Gaming",
         "date": "2026-10-30",
-        "timestamp": "2026-10-30T18:20:49+00:00",
+        "timestamp": "2026-10-30T18:16:38+00:00",
         "coverage": 1,
-        "image": ""
+        "image": "https://www.digitalmusicnews.com/wp-content/uploads/2026/10/backstreet-boys-launch-pro-video-game-team-1024x576.png"
       },
       {
         "source": "Alternative Press",
@@ -6768,7 +6828,7 @@
         "category": "Link in Bio",
         "date": "2026-10-30",
         "timestamp": "2026-10-30T17:50:19+00:00",
-        "coverage": 2,
+        "coverage": 1,
         "image": "https://townsquare.media/site/366/files/2026/10/attachment-social-image-366-2026-10-30-13-44-46.jpg?format=natural"
       },
       {
@@ -6782,18 +6842,6 @@
         "timestamp": "2026-10-30T17:44:32+00:00",
         "coverage": 1,
         "image": "https://consequence.net/wp-content/uploads/2026/10/Queens-of-the-Stone-Age.jpg?quality=80"
-      },
-      {
-        "source": "Digital Music News",
-        "rank": 18,
-        "title": "Spotify Reportedly Set to Debut AI Cover & Remix Tool in Early '27",
-        "summary": "",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTEl0eThkT1haWWMzZTRDLTdJQWlyYzJyWldBVk5vS2VCalBVVzh6MUQxSUpMRzlyOWlfbkVDc0htQUVsdlcyUDd6S1BIS2d1cHVlU3phRUZVeW1ENC1xNkxWR05MQVYtVnI3YVBzYmdHTGRnR3NQXzJsazZiWUlGNVdGQTJDQQ?oc=5",
-        "category": "News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T17:40:44+00:00",
-        "coverage": 1,
-        "image": ""
       },
       {
         "source": "Pitchfork",
@@ -6928,18 +6976,6 @@
         "image": "https://www.clashmusic.com/wp-content/uploads/2026/10/The-Heavy-North-Live-2.jpg"
       },
       {
-        "source": "Rolling Stone",
-        "rank": 1,
-        "title": "Daddy Yankee Is Back With New Album ‘La Postal,’ Featuring Cardi B, More",
-        "summary": "The star-studded LP looks at love and romance with collabs alongside guests like Myke Towers, Danny Ocean, Diljit Dosanjh",
-        "url": "https://www.rollingstone.com/music/music-latin/daddy-yankee-la-postal-album-cardi-b-1235650456/",
-        "category": "Latin Music",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T16:36:45+00:00",
-        "coverage": 1,
-        "image": "https://www.rollingstone.com/wp-content/uploads/2026/10/daddy-yankee-interview.jpg?crop=0px%2C12px%2C1800px%2C1015px&resize=1600%2C900"
-      },
-      {
         "source": "DJ Mag",
         "rank": 10,
         "title": "New book, How Music Can Save The World, explores how music can drive social change",
@@ -7020,7 +7056,7 @@
         "category": "News",
         "date": "2026-10-30",
         "timestamp": "2026-10-30T16:02:12+00:00",
-        "coverage": 2,
+        "coverage": 3,
         "image": "https://media.pitchfork.com/photos/6ae4bf2d17e545d96e189edd/master/pass/lily-allen.jpg"
       },
       {
@@ -7096,18 +7132,6 @@
         "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/10/fire-toolz.jpg?w=564"
       },
       {
-        "source": "NME",
-        "rank": 4,
-        "title": "Wunderhorse guitarist Harry Fowler surprise releases debut album ‘Blankets’",
-        "summary": "The solo record is made up of songs Fowler has accumulated since his teenage years The post Wunderhorse guitarist Harry Fowler surprise releases debut album ‘Blankets’ appeared first on NME .",
-        "url": "https://www.nme.com/news/music/wunderhorse-guitarist-harry-fowler-surprise-releases-debut-album-blankets-3974686?utm_source=rss&utm_medium=rss&utm_campaign=wunderhorse-guitarist-harry-fowler-surprise-releases-debut-album-blankets",
-        "category": "Music News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T15:32:18+00:00",
-        "coverage": 2,
-        "image": "https://www.nme.com/wp-content/uploads/2026/10/harry_fowler_blankets.jpg"
-      },
-      {
         "source": "SPIN",
         "rank": 7,
         "title": "OFF THE MAINSTREAM: Obscure’s October Selection",
@@ -7130,18 +7154,6 @@
         "timestamp": "2026-10-30T15:11:21+00:00",
         "coverage": 2,
         "image": "https://static.spinmagazine.com/files/2026/10/GettyImages-2235245140.jpg"
-      },
-      {
-        "source": "NME",
-        "rank": 4,
-        "title": "What does the music industry want from the future of AI – and how can the UK lead the way?",
-        "summary": "As we find ourselves “in the first five minutes of the next industrial revolution”, industry leaders and politicians met at Manchester’s Beyond The Music to lay out what we need for music to survive a future alongside…",
-        "url": "https://www.nme.com/news/music/ai-music-industry-future-native-models-beyond-the-music-manchester-principles-3974661?utm_source=rss&utm_medium=rss&utm_campaign=ai-music-industry-future-native-models-beyond-the-music-manchester-principles",
-        "category": "Music News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T15:09:21+00:00",
-        "coverage": 1,
-        "image": "https://www.nme.com/wp-content/uploads/2026/10/ai_music_feature_1.jpg"
       },
       {
         "source": "SPIN",
@@ -7252,18 +7264,6 @@
         "image": "https://cdn-p.smehost.net/sites/7f9737f2506941499994d771a29ad47a/wp-content/uploads/2026/10/Rob-Zombie-2026-1024x576.png"
       },
       {
-        "source": "NME",
-        "rank": 4,
-        "title": "Macklemore and Aurora lead call for solidarity as ‘Free Palestine’ tour hits Paris",
-        "summary": "\"We are in a moment right now, a collective awakening, remembering who we are” The post Macklemore and Aurora lead call for solidarity as ‘Free Palestine’ tour hits Paris appeared first on NME .",
-        "url": "https://www.nme.com/news/music/macklemore-aurora-call-solidarity-free-palestine-tour-paris-3974663?utm_source=rss&utm_medium=rss&utm_campaign=macklemore-aurora-call-solidarity-free-palestine-tour-paris",
-        "category": "Music News",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T14:46:05+00:00",
-        "coverage": 1,
-        "image": "https://www.nme.com/wp-content/uploads/2026/10/Kristy_Sparow_Mariano_Regidor.jpg"
-      },
-      {
         "source": "SPIN",
         "rank": 7,
         "title": "2nd Grade Continues to be Power Pop’s Valedictorian",
@@ -7298,18 +7298,6 @@
         "timestamp": "2026-10-30T14:40:07+00:00",
         "coverage": 1,
         "image": "https://djmag.com/sites/default/files/styles/djm_23_1005x565/public/2026-10/Fl%20Studio%20Mobile%20.png.webp?itok=hPOVu0KI1881384497"
-      },
-      {
-        "source": "Consequence",
-        "rank": 6,
-        "title": "Foo Fighters Close Out Week-Long Kimmel Takeover with Deep Cut Cover of “Baker Street”: Watch",
-        "summary": "The fan-favorite cover of Gerry Rafferty's 1978 hit has only been performed a handful of times. Foo Fighters Close Out Week-Long Kimmel Takeover with Deep Cut Cover of “Baker Street”: Watch Paolo Ragusa",
-        "url": "https://consequence.net/2026/10/foo-fighters-baker-street-kimmel-watch/",
-        "category": "Late Night Performances",
-        "date": "2026-10-30",
-        "timestamp": "2026-10-30T14:33:21+00:00",
-        "coverage": 1,
-        "image": "https://consequence.net/wp-content/uploads/2026/10/Foo-Fighters-Baker-Street-Jimmy-Kimmel-Live-Watch.jpg?quality=80"
       },
       {
         "source": "Metal Injection",
@@ -7466,6 +7454,18 @@
         "timestamp": "2026-10-30T12:45:29+00:00",
         "coverage": 1,
         "image": "https://djmag.com/sites/default/files/styles/djm_23_1005x565/public/2026-10/260502_%40DAISYDENHAM_MINTFESTIVAL_SATURDAY-6254.jpg.webp?itok=GUyPWDWn951092859"
+      },
+      {
+        "source": "Clash",
+        "rank": 20,
+        "title": "Wunderhorse Guitarist Harry Fowler Releases Surprise Solo Album ‘Blankets’",
+        "summary": "Wunderhorse guitarist Harry Fowler has surprised fans with new solo album ‘Blankets’. Out now, the album landed without warning on streaming services a few moments ago, but it actually represents the culmination of more…",
+        "url": "https://www.clashmusic.com/news/wunderhorse-guitarist-harry-fowler-releases-surprise-solo-album-blankets/",
+        "category": "News",
+        "date": "2026-10-30",
+        "timestamp": "2026-10-30T12:17:45+00:00",
+        "coverage": 1,
+        "image": "https://www.clashmusic.com/wp-content/uploads/2026/10/Wunderhorse-man.jpg"
       },
       {
         "source": "Ultimate Classic Rock",
