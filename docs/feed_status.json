@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T13:24:05.429102+00:00",
+ "generated_at": "2026-10-31T18:17:57.052769+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 66 stavki (UA: feedparser)"
+     "result": "OK 65 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 10,
+   "items": 7,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -405,7 +405,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 124 stavki (UA: feedparser)"
+     "result": "OK 121 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -592,15 +592,23 @@
   },
   {
    "name": "Little White Lies",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://www.lwlies.com/feed.rss",
-   "via": "previous",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://www.lwlies.com/feed.rss",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+    },
+    {
+     "url": "https://lwlies.com/feed/",
+     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+    },
+    {
+     "url": "https://lwlies.com/",
+     "result": "trazenje feed-a: HTTP 403"
     }
    ],
    "tab": "entertainment"
@@ -713,7 +721,7 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -724,7 +732,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 2 stavki (UA: feedparser)"
+     "result": "OK 3 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -853,7 +861,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 38 stavki (UA: feedparser)"
+     "result": "OK 33 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
