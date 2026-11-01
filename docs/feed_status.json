@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T15:52:08.877110+00:00",
+ "generated_at": "2026-11-01T20:19:03.428160+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 52 stavki (UA: feedparser)"
+     "result": "OK 50 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 8,
+   "items": 7,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 8,
+   "items": 7,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -405,7 +405,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 113 stavki (UA: feedparser)"
+     "result": "OK 112 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -713,18 +713,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 3,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 3 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -747,7 +743,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -762,7 +758,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 11 stavki (UA: feedparser)"
+     "result": "OK 12 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -853,7 +849,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 29 stavki (UA: feedparser)"
+     "result": "OK 28 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1136,12 +1132,16 @@
    "name": "Dancing Astronaut",
    "ok": true,
    "items": 10,
-   "used_url": "https://dancingastronaut.com/feed/",
-   "via": "declared",
+   "used_url": "https://dancingastronaut.com/feed",
+   "via": "generic",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://dancingastronaut.com/feed/",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/feed",
      "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
