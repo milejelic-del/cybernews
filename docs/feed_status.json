@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T07:23:04.026374+00:00",
+ "generated_at": "2026-11-02T17:56:06.525853+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 50 stavki (UA: feedparser)"
+     "result": "OK 51 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 8,
+   "items": 4,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -457,8 +457,8 @@
   },
   {
    "name": "Den of Geek",
-   "ok": true,
-   "items": 5,
+   "ok": false,
+   "items": 0,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -555,7 +555,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 54 stavki (UA: feedparser)"
+     "result": "OK 50 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -690,7 +690,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1341 stavki (UA: feedparser)"
+     "result": "OK 1343 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -742,11 +742,11 @@
   },
   {
    "name": "The Batch",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 8,
+   "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.deeplearning.ai/the-batch/feed/",
@@ -758,15 +758,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "HTTP 503 (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deeplearning.ai+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "HTTP 503 (feedparser)"
-    },
-    {
-     "url": "https://www.deeplearning.ai/the-batch/",
-     "result": "trazenje feed-a: HTTP 403"
+     "result": "OK 8 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -833,11 +825,11 @@
   },
   {
    "name": "Stanford HAI News",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://hai.stanford.edu/news/feed",
@@ -857,11 +849,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "HTTP 503 (feedparser)"
-    },
-    {
-     "url": "https://hai.stanford.edu/news",
-     "result": "trazenje feed-a: nista pronadjeno"
+     "result": "OK 26 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -883,23 +871,19 @@
   },
   {
    "name": "Artificial Intelligence News",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "HTTP 403 (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "HTTP 503 (feedparser)"
-    },
-    {
-     "url": "https://www.artificialintelligence-news.com/",
-     "result": "trazenje feed-a: nista pronadjeno"
+     "result": "OK 17 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1109,7 +1093,7 @@
    "attempts": [
     {
      "url": "https://loudwire.com/feed/",
-     "result": "OK 35 stavki (UA: feedparser)"
+     "result": "OK 33 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
