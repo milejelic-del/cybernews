@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T15:55:27.295960+00:00",
+ "generated_at": "2026-11-03T21:34:28.706724+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 52 stavki (UA: feedparser)"
+     "result": "OK 53 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 5,
+   "items": 3,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -405,7 +405,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 113 stavki (UA: feedparser)"
+     "result": "OK 114 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -458,7 +458,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 3,
+   "items": 5,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -690,7 +690,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1349 stavki (UA: feedparser)"
+     "result": "OK 1352 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -713,18 +713,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 3,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 3 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -739,7 +735,7 @@
    "attempts": [
     {
      "url": "https://huggingface.co/blog/feed.xml",
-     "result": "OK 895 stavki (UA: feedparser)"
+     "result": "OK 896 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -853,7 +849,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 22 stavki (UA: feedparser)"
+     "result": "OK 23 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -985,7 +981,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1090,7 +1086,7 @@
   {
    "name": "Loudwire",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "used_url": "https://loudwire.com/feed/",
    "via": "declared",
    "ua": "feedparser",
