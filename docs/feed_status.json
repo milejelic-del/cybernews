@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T07:39:52.042524+00:00",
+ "generated_at": "2026-11-03T15:55:27.295960+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 49 stavki (UA: feedparser)"
+     "result": "OK 52 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 10,
+   "items": 8,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 7,
+   "items": 5,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -690,7 +690,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1348 stavki (UA: feedparser)"
+     "result": "OK 1349 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -853,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 25 stavki (UA: feedparser)"
+     "result": "OK 22 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -887,7 +887,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 17 stavki (UA: feedparser)"
+     "result": "OK 13 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -985,7 +985,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 3,
+   "items": 6,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1015,7 +1015,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -1090,7 +1090,7 @@
   {
    "name": "Loudwire",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "used_url": "https://loudwire.com/feed/",
    "via": "declared",
    "ua": "feedparser",
