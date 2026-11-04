@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T16:55:55.796030+00:00",
+ "generated_at": "2026-11-04T22:29:09.365007+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 59 stavki (UA: feedparser)"
+     "result": "OK 57 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -294,13 +294,17 @@
    "name": "CISA",
    "ok": true,
    "items": 12,
-   "used_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+   "used_url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-     "result": "OK 28 stavki (UA: feedparser)"
+     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 39 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +312,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 4,
+   "items": 8,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -405,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 117 stavki (UA: feedparser)"
+     "result": "OK 119 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -458,7 +462,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -540,7 +544,7 @@
    "attempts": [
     {
      "url": "https://www.digitalspy.com/rss/tv.xml",
-     "result": "OK 50 stavki (UA: feedparser)"
+     "result": "OK 49 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -555,7 +559,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 58 stavki (UA: feedparser)"
+     "result": "OK 67 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -690,7 +694,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1356 stavki (UA: feedparser)"
+     "result": "OK 1358 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -735,7 +739,7 @@
    "attempts": [
     {
      "url": "https://huggingface.co/blog/feed.xml",
-     "result": "OK 896 stavki (UA: feedparser)"
+     "result": "OK 897 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -743,7 +747,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 7,
+   "items": 6,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -758,7 +762,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 7 stavki (UA: feedparser)"
+     "result": "OK 6 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -849,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 27 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -872,7 +876,7 @@
   {
    "name": "Artificial Intelligence News",
    "ok": true,
-   "items": 10,
+   "items": 11,
    "used_url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -883,7 +887,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "OK 11 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1011,7 +1015,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
