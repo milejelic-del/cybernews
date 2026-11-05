@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T11:57:06.047231+00:00",
+ "generated_at": "2026-11-05T19:45:32.560560+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -304,7 +304,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:cisa.gov/news-events+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 27 stavki (UA: feedparser)"
+     "result": "OK 18 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -312,7 +312,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 10,
+   "items": 7,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -327,7 +327,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 6,
+   "items": 8,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -409,7 +409,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 118 stavki (UA: feedparser)"
+     "result": "OK 119 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -694,7 +694,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1360 stavki (UA: feedparser)"
+     "result": "OK 1361 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -853,7 +853,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 29 stavki (UA: feedparser)"
+     "result": "OK 26 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -876,7 +876,7 @@
   {
    "name": "Artificial Intelligence News",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "used_url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -887,7 +887,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 11 stavki (UA: feedparser)"
+     "result": "OK 12 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -985,7 +985,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 4,
+   "items": 6,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1097,7 +1097,7 @@
    "attempts": [
     {
      "url": "https://loudwire.com/feed/",
-     "result": "OK 35 stavki (UA: feedparser)"
+     "result": "OK 33 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
