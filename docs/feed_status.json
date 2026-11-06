@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T00:50:38.448819+00:00",
+ "generated_at": "2026-11-06T07:44:37.255236+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 8,
+   "items": 4,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -592,19 +592,15 @@
   },
   {
    "name": "Little White Lies",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 10,
+   "used_url": "https://lwlies.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://lwlies.com/feed/",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
-    },
-    {
-     "url": "https://lwlies.com/",
-     "result": "trazenje feed-a: HTTP 403"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -694,7 +690,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1363 stavki (UA: feedparser)"
+     "result": "OK 1366 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -853,7 +849,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 26 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -985,7 +981,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 6,
+   "items": 4,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1097,7 +1093,7 @@
    "attempts": [
     {
      "url": "https://loudwire.com/feed/",
-     "result": "OK 35 stavki (UA: feedparser)"
+     "result": "OK 33 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
