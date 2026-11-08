@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T23:33:21.894430+00:00",
+ "generated_at": "2026-11-08T04:55:46.860967+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 6,
+   "items": 9,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 8,
+   "items": 6,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -747,7 +747,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 5,
+   "items": 3,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -762,7 +762,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 5 stavki (UA: feedparser)"
+     "result": "OK 3 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -876,18 +876,18 @@
   {
    "name": "Artificial Intelligence News",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "used_url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "HTTP 403 (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 12 stavki (UA: feedparser)"
+     "result": "OK 11 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
