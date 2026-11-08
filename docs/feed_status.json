@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T17:43:39.782318+00:00",
+ "generated_at": "2026-11-08T21:47:45.198702+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 52 stavki (UA: feedparser)"
+     "result": "OK 58 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 9,
+   "items": 6,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 10,
+   "items": 8,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -405,7 +405,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 120 stavki (UA: feedparser)"
+     "result": "OK 118 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -555,7 +555,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 63 stavki (UA: feedparser)"
+     "result": "OK 54 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -1011,7 +1011,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 9,
+   "items": 8,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
