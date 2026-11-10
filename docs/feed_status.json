@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T03:15:59.803351+00:00",
+ "generated_at": "2026-11-10T12:15:06.460935+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 7,
+   "items": 8,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 4,
+   "items": 6,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -690,7 +690,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1372 stavki (UA: feedparser)"
+     "result": "OK 1373 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -713,18 +713,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 3,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 3 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -747,7 +743,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -762,7 +758,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 6 stavki (UA: feedparser)"
+     "result": "OK 7 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -784,19 +780,15 @@
   },
   {
    "name": "KDnuggets",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.kdnuggets.com/feed",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.kdnuggets.com/feed",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
-    },
-    {
-     "url": "https://www.kdnuggets.com/",
-     "result": "trazenje feed-a: HTTP 403"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -857,7 +849,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -989,7 +981,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 4,
+   "items": 7,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
