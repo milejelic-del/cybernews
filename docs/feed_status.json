@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T13:50:30.646881+00:00",
+ "generated_at": "2026-11-11T17:03:35.479616+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -93,43 +93,15 @@
   },
   {
    "name": "Help Net Security",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 10,
+   "used_url": "https://www.helpnetsecurity.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.helpnetsecurity.com/feed/",
-     "result": "HTTP 301 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/feed",
-     "result": "HTTP 301 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/rss.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/rss/",
-     "result": "HTTP 301 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/rss",
-     "result": "HTTP 301 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/atom.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/index.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.helpnetsecurity.com/feed.xml",
-     "result": "HTTP 404 (feedparser)"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -178,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 66 stavki (UA: feedparser)"
+     "result": "OK 67 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -351,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 9,
+   "items": 5,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -486,7 +458,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -741,18 +713,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 4,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 4 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -767,7 +735,7 @@
    "attempts": [
     {
      "url": "https://huggingface.co/blog/feed.xml",
-     "result": "OK 903 stavki (UA: feedparser)"
+     "result": "OK 904 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -775,7 +743,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 4,
+   "items": 5,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -790,7 +758,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 4 stavki (UA: feedparser)"
+     "result": "OK 5 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -881,7 +849,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 23 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -904,7 +872,7 @@
   {
    "name": "Artificial Intelligence News",
    "ok": true,
-   "items": 9,
+   "items": 10,
    "used_url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -915,7 +883,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 9 stavki (UA: feedparser)"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1013,7 +981,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 5,
+   "items": 6,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1043,7 +1011,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 11,
+   "items": 12,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -1171,10 +1139,6 @@
     {
      "url": "https://dancingastronaut.com/feed/",
      "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/",
-     "result": "trazenje feed-a: TimeoutError: The read operation timed out"
     },
     {
      "url": "https://dancingastronaut.com/feed",
@@ -1330,7 +1294,7 @@
    "attempts": [
     {
      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-     "result": "OK 71 stavki (UA: feedparser)"
+     "result": "OK 72 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1360,7 +1324,7 @@
    "attempts": [
     {
      "url": "https://www.theguardian.com/sport/rss",
-     "result": "OK 26 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1405,7 +1369,7 @@
    "attempts": [
     {
      "url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30",
-     "result": "OK 23 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1439,7 +1403,7 @@
     },
     {
      "url": "https://www.si.com/feed",
-     "result": "OK 84 stavki (UA: feedparser)"
+     "result": "OK 87 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
