@@ -1,7 +1,7 @@
 {
-  "name": "SIGNAL/20 — Cybersecurity News Digest",
+  "name": "SIGNAL/20 — News Digest",
   "short_name": "SIGNAL/20",
-  "description": "A digest of the latest news from 20 leading cybersecurity portals. Made by Mile Jelic.",
+  "description": "A digest of the latest news across cyber, movies & TV, AI and music. Made by Mile Jelic.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
