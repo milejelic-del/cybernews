@@ -33,6 +33,7 @@
   body[data-tab="entertainment"]{--accent:#ff7566; --accent-rgb:255,117,102;}
   body[data-tab="ai"]{--accent:#63c4f5; --accent-rgb:99,196,245;}
   body[data-tab="music"]{--accent:#c59bff; --accent-rgb:197,155,255;}
+  body[data-tab="sports"]{--accent:#5fd68f; --accent-rgb:95,214,143;}
 
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
@@ -307,7 +308,7 @@
 <script>
 const DATA = __DATA_JSON__;
 const GENERATED_AT_ISO = "__GENERATED_AT_ISO__";
-const TAB_ORDER = ["cyber", "entertainment", "ai", "music"].filter(id => DATA[id]);
+const TAB_ORDER = ["cyber", "entertainment", "ai", "music", "sports"].filter(id => DATA[id]);
 
 // ---------- prikaz vremena azuriranja u lokalnoj vremenskoj zoni uredjaja ----------
 function formatLocalDateTime(iso){
