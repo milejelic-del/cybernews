@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T11:51:31.997191+00:00",
+ "generated_at": "2026-11-11T12:01:17.417009+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -592,19 +592,15 @@
   },
   {
    "name": "Little White Lies",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 10,
+   "used_url": "https://lwlies.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://lwlies.com/feed/",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
-    },
-    {
-     "url": "https://lwlies.com/",
-     "result": "trazenje feed-a: HTTP 403"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -717,18 +713,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 4,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 4 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -857,7 +849,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 26 stavki (UA: feedparser)"
+     "result": "OK 23 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1145,16 +1137,12 @@
    "ua": null,
    "attempts": [
     {
-     "url": "https://dancingastronaut.com/feed",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
      "url": "https://dancingastronaut.com/feed/",
      "result": "TimeoutError: The read operation timed out (feedparser)"
     },
     {
-     "url": "https://dancingastronaut.com/",
-     "result": "trazenje feed-a: TimeoutError: The read operation timed out"
+     "url": "https://dancingastronaut.com/feed",
+     "result": "TimeoutError: The read operation timed out (feedparser)"
     },
     {
      "url": "https://dancingastronaut.com/rss.xml",
