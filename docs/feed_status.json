@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T13:45:02.278460+00:00",
+ "generated_at": "2026-11-11T13:50:30.646881+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -93,15 +93,43 @@
   },
   {
    "name": "Help Net Security",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://www.helpnetsecurity.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://www.helpnetsecurity.com/feed/",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "HTTP 301 (feedparser)"
+    },
+    {
+     "url": "https://www.helpnetsecurity.com/feed",
+     "result": "HTTP 301 (feedparser)"
+    },
+    {
+     "url": "https://www.helpnetsecurity.com/rss.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://www.helpnetsecurity.com/rss/",
+     "result": "HTTP 301 (feedparser)"
+    },
+    {
+     "url": "https://www.helpnetsecurity.com/rss",
+     "result": "HTTP 301 (feedparser)"
+    },
+    {
+     "url": "https://www.helpnetsecurity.com/atom.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://www.helpnetsecurity.com/index.xml",
+     "result": "HTTP 404 (feedparser)"
+    },
+    {
+     "url": "https://www.helpnetsecurity.com/feed.xml",
+     "result": "HTTP 404 (feedparser)"
     }
    ],
    "tab": "cyber"
@@ -458,7 +486,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -713,14 +741,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 4,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 4 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -849,7 +881,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 23 stavki (UA: feedparser)"
+     "result": "OK 24 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1278,6 +1310,10 @@
      "result": "feed je prazan ili neprepoznat (feedparser)"
     },
     {
+     "url": "https://www.espn.co.uk/espn/rss/news",
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
      "url": "https://news.google.com/rss/search?q=site:espn.com+when:14d&hl=en-US&gl=US&ceid=US:en",
      "result": "OK 100 stavki (UA: feedparser)"
     }
@@ -1409,52 +1445,24 @@
    "tab": "sports"
   },
   {
-   "name": "Eurosport",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "name": "Marca",
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:marca.com/en+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
-     "url": "https://www.eurosport.com/rss.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:eurosport.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://googlepublisher.tntsports.co.uk/",
+     "url": "https://e00-marca.cdnstatics.com/rss/en/index.xml",
      "result": "URLError: <urlopen error [Errno -2] Name or service not known> (feedparser)"
     },
     {
-     "url": "https://www.eurosport.com/feed/",
+     "url": "https://www.marca.com/en/rss/index.xml",
      "result": "HTTP 404 (feedparser)"
     },
     {
-     "url": "https://www.eurosport.com/feed",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.eurosport.com/rss/",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.eurosport.com/rss",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.eurosport.com/atom.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.eurosport.com/index.xml",
-     "result": "HTTP 404 (feedparser)"
-    },
-    {
-     "url": "https://www.eurosport.com/feed.xml",
-     "result": "HTTP 404 (feedparser)"
+     "url": "https://news.google.com/rss/search?q=site:marca.com/en+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1491,15 +1499,23 @@
   },
   {
    "name": "The Independent Sport",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 12,
+   "used_url": "https://news.google.com/rss/search?q=site:independent.co.uk/sport+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.independent.co.uk/sport/rss",
      "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://www.independent.co.uk/sport/football/rss",
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:independent.co.uk/sport+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
