@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T12:01:17.417009+00:00",
+ "generated_at": "2026-11-11T12:06:41.025796+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -458,7 +458,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -849,7 +849,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 23 stavki (UA: feedparser)"
+     "result": "OK 26 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1139,6 +1139,10 @@
     {
      "url": "https://dancingastronaut.com/feed/",
      "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://dancingastronaut.com/",
+     "result": "trazenje feed-a: TimeoutError: The read operation timed out"
     },
     {
      "url": "https://dancingastronaut.com/feed",
