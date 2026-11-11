@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>SIGNAL/20 — News Digest</title>
 
 <!-- PWA: govori telefonu da ovo može da se instalira kao aplikacija -->
@@ -16,180 +16,266 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@600&display=swap" rel="stylesheet">
 <style>
+  /* ---------- boje i tipografija ----------
+     Svaki tab ima svoju boju signala (--accent); sve ostalo je isto. */
   :root{
-    --bg:#0a0c11; --bg-elevated:#11141c; --border:#1e222c; --border-soft:#171a22;
-    --text:#e7e9ee; --text-dim:#8991a1; --text-faint:#525968;
-    --accent:#e8a33d; --accent-soft:rgba(232,163,61,.14); --link:#8fb8ff;
+    --bg:#0a0c11; --surface:#12151d; --surface-2:#181c26;
+    --line:#222733; --line-soft:#191d27;
+    --text:#f1f3f7; --text-dim:#a3abba; --text-faint:#6b7385;
+    --accent:#f0a53a; --accent-rgb:240,165,58;
+    --danger:#ff7a6b;
+    --font:'Schibsted Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+    --wrap:1200px; --pad:28px;
   }
+  body[data-tab="entertainment"]{--accent:#ff7566; --accent-rgb:255,117,102;}
+  body[data-tab="ai"]{--accent:#63c4f5; --accent-rgb:99,196,245;}
+  body[data-tab="music"]{--accent:#c59bff; --accent-rgb:197,155,255;}
+
   *{box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
-  body{margin:0;background:var(--bg);color:var(--text);font-family:'IBM Plex Sans',-apple-system,sans-serif;-webkit-font-smoothing:antialiased;}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;}
   a{color:inherit;text-decoration:none;}
+  button{font-family:inherit;color:inherit;}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px;}
+  ::selection{background:rgba(var(--accent-rgb),.35);}
 
-  header.top{position:sticky;top:0;z-index:20;background:rgba(10,12,17,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);}
+  /* ---------- gornja traka (ostaje pri skrolovanju) ---------- */
+  .bar{position:sticky;top:0;z-index:30;background:rgba(10,12,17,.86);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line);}
+  .bar-in{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad);display:flex;align-items:center;gap:28px;height:60px;}
+  .bar-head{display:contents;}
+  .brand{display:flex;align-items:center;gap:10px;flex:0 0 auto;order:1;}
+  .brand .mark{width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(var(--accent-rgb),.16);transition:background .3s,box-shadow .3s;}
+  .brand h1{font-family:var(--mono);font-size:17px;font-weight:600;letter-spacing:.01em;margin:0;}
 
-  .tab-bar{max-width:1180px;margin:0 auto;padding:16px 24px 0;display:flex;gap:10px;}
-  .tab-btn{font-family:'IBM Plex Mono',monospace;font-size:13.5px;font-weight:600;padding:9px 20px;border-radius:8px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-dim);cursor:pointer;transition:.15s;letter-spacing:.02em;}
-  .tab-btn:hover{border-color:var(--text-faint);color:var(--text);}
-  .tab-btn.active{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);}
+  .tabs{display:flex;gap:4px;align-self:stretch;order:2;flex:1 1 auto;min-width:0;}
+  .tab-btn{position:relative;background:none;border:0;padding:0 14px;font-size:15px;font-weight:600;color:var(--text-faint);cursor:pointer;white-space:nowrap;transition:color .15s;}
+  .tab-btn:hover{color:var(--text);}
+  .tab-btn.active{color:var(--text);}
+  .tab-btn.active::after{content:"";position:absolute;left:14px;right:14px;bottom:-1px;height:3px;border-radius:3px 3px 0 0;background:var(--accent);}
 
-  .top-inner{max-width:1180px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;}
-  .brand{display:flex;align-items:baseline;gap:12px;}
-  .brand .mark{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--accent-soft);animation:pulse 2.4s ease-in-out infinite;position:relative;top:-2px;}
-  @keyframes pulse{0%,100%{box-shadow:0 0 0 3px var(--accent-soft);}50%{box-shadow:0 0 0 6px rgba(232,163,61,.05);}}
-  .brand h1{font-family:'IBM Plex Mono',monospace;font-size:19px;font-weight:600;letter-spacing:.02em;margin:0;}
-  .meta-line{display:flex;flex-direction:column;align-items:flex-start;gap:2px;}
-  .tagline{color:var(--text-dim);font-size:13px;margin-top:2px;}
-  .credit{color:var(--text-faint);font-size:11.5px;margin-top:1px;font-family:'IBM Plex Mono',monospace;}
-  .streak-badge{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--text-faint);margin-top:1px;}
-  .updated{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-top:2px;}
-
-  .search-wrap{position:relative;min-width:260px;flex:0 0 auto;}
-  .search-wrap input{width:100%;background:var(--bg-elevated);border:1px solid var(--border);color:var(--text);font-family:'IBM Plex Sans',sans-serif;font-size:14px;padding:9px 12px 9px 34px;border-radius:6px;outline:none;transition:border-color .15s;}
-  .search-wrap input:focus{border-color:var(--accent);}
+  .search-wrap{position:relative;flex:0 1 250px;order:3;}
+  .search-wrap input{width:100%;height:38px;background:var(--surface);border:1px solid var(--line);color:var(--text);font-family:var(--font);font-size:14.5px;padding:0 12px 0 36px;border-radius:10px;outline:none;transition:border-color .15s,background .15s;}
+  .search-wrap input:focus{border-color:var(--accent);background:var(--surface-2);}
   .search-wrap input::placeholder{color:var(--text-faint);}
-  .search-wrap svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:14px;height:14px;color:var(--text-faint);pointer-events:none;}
+  .search-wrap svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:15px;height:15px;color:var(--text-faint);pointer-events:none;}
 
-  .filters{max-width:1180px;margin:0 auto;padding:14px 24px 0;}
-  .filters .cat-label{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-bottom:10px;letter-spacing:.03em;}
-  .pill-row{display:flex;gap:8px;flex-wrap:wrap;padding-bottom:16px;}
-  .pill{font-family:'IBM Plex Mono',monospace;font-size:12.5px;padding:6px 12px;border-radius:20px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-dim);cursor:pointer;white-space:nowrap;transition:.15s;user-select:none;}
+  .actions{display:flex;gap:8px;order:4;flex:0 0 auto;}
+  .saved-toggle{display:inline-flex;align-items:center;gap:7px;height:38px;padding:0 13px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--text-dim);font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;transition:border-color .15s,color .15s,background .15s;}
+  .saved-toggle svg{width:15px;height:15px;flex:0 0 auto;}
+  .saved-toggle:hover{border-color:var(--text-faint);color:var(--text);}
+  .saved-toggle.active{background:rgba(var(--accent-rgb),.14);border-color:var(--accent);color:var(--accent);}
+  .saved-toggle.active svg{fill:currentColor;}
+
+  /* ---------- zaglavlje taba ---------- */
+  .mast{max-width:var(--wrap);margin:0 auto;padding:36px var(--pad) 8px;display:flex;align-items:flex-end;justify-content:space-between;gap:32px;flex-wrap:wrap;}
+  .mast h2{font-size:clamp(34px,5vw,54px);line-height:1;font-weight:800;letter-spacing:-.035em;margin:0 0 10px;}
+  .tagline{color:var(--text-dim);font-size:15.5px;max-width:52ch;}
+  .mast-side{display:flex;flex-direction:column;align-items:flex-end;gap:3px;font-size:13px;color:var(--text-faint);text-align:right;}
+  .streak-badge{color:var(--text-dim);font-weight:500;}
+  .streak-badge:empty{display:none;}
+
+  /* ---------- EU regulative ---------- */
+  .reg-strip{max-width:var(--wrap);margin:0 auto;padding:20px var(--pad) 0;display:flex;align-items:center;gap:14px;}
+  .strip-label{flex:0 0 auto;font-size:13px;font-weight:600;color:var(--text-faint);}
+  .pill-row{display:flex;gap:8px;flex-wrap:wrap;}
+  .pill{font-size:13.5px;font-weight:500;padding:6px 13px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--text-dim);cursor:pointer;white-space:nowrap;transition:border-color .15s,color .15s,background .15s;user-select:none;}
   .pill:hover{border-color:var(--text-faint);color:var(--text);}
-  .pill.active{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);}
-  .pill .count{opacity:.6;margin-left:4px;}
+  .pill.active{background:rgba(var(--accent-rgb),.14);border-color:var(--accent);color:var(--accent);}
+  .pill .count{opacity:.6;margin-left:6px;font-weight:400;}
+  .pill.reg{background:transparent;}
+  .pill.reg:hover{border-color:var(--accent);color:var(--accent);}
 
-  .layout{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1fr 300px;gap:48px;padding:8px 24px 80px;}
-  @media (max-width:880px){.layout{grid-template-columns:1fr;} aside.sources{order:2;}}
+  /* ---------- raspored ---------- */
+  .layout{max-width:var(--wrap);margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:56px;padding:28px var(--pad) 80px;}
+  .section-title{font-size:13px;font-weight:600;color:var(--text-faint);margin:0 0 12px;}
 
-  .feed-count{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-faint);margin:20px 0 4px;}
-  .item{display:flex;gap:16px;padding:20px 0;border-bottom:1px solid var(--border-soft);}
-  .item .bar{width:3px;border-radius:2px;flex-shrink:0;margin-top:3px;align-self:stretch;}
-  .item-body{flex:1;min-width:0;}
-  .thumb{flex:0 0 auto;width:112px;height:76px;margin-top:2px;border-radius:8px;overflow:hidden;background:var(--bg-elevated);border:1px solid var(--border);display:block;}
-  .thumb img{width:100%;height:100%;object-fit:cover;display:block;}
-  .item-meta{display:flex;align-items:center;gap:10px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-faint);margin-bottom:6px;}
-  .item-meta .src{color:var(--accent);font-weight:600;}
-  .save-btn{margin-left:auto;background:none;border:none;cursor:pointer;font-size:16px;line-height:1;color:var(--text-faint);padding:2px 4px;transition:color .15s,transform .15s;}
-  .save-btn:hover{color:var(--accent);transform:scale(1.15);}
-  .save-btn.saved{color:var(--accent);}
-  .item-title{font-size:17px;line-height:1.4;font-weight:600;margin:0 0 6px;}
-  .item-title a{transition:color .15s;}
-  .item-title a:hover{color:var(--link);}
-  .item-summary{font-size:14.5px;line-height:1.55;color:var(--text-dim);margin:0 0 10px;max-width:62ch;}
-  .item-tags{display:flex;gap:8px;flex-wrap:wrap;}
-  .item-cat{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);border:1px solid var(--border);padding:2px 8px;border-radius:4px;}
-  .coverage-badge{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--link);border:1px solid rgba(143,184,255,.35);background:rgba(143,184,255,.08);padding:2px 8px;border-radius:4px;}
-  .new-tag{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.04em;color:var(--bg);background:var(--accent);padding:1px 6px;border-radius:3px;}
-  .severity-badge{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;padding:2px 8px;border-radius:4px;letter-spacing:.02em;}
-  .sev-critical{background:rgba(239,106,90,.14);color:#ef6a5a;border:1px solid rgba(239,106,90,.35);}
-  .sev-exploited{background:rgba(239,83,80,.18);color:#ff8a80;border:1px solid rgba(255,138,128,.4);}
-  .empty-state{padding:60px 0;text-align:center;color:var(--text-faint);font-family:'IBM Plex Mono',monospace;font-size:13px;}
-
-  aside.sources{padding-top:20px;}
-  aside.sources h2{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-faint);letter-spacing:.03em;margin:0 0 14px;padding-bottom:10px;border-bottom:1px solid var(--border);}
-  .source-list{list-style:none;margin:0;padding:0;}
-  .source-list li{padding:11px 0;border-bottom:1px solid var(--border-soft);}
-  .source-list a.sname{font-size:13.5px;font-weight:600;}
-  .source-list a.sname:hover{color:var(--link);}
-  .source-list .stag{display:block;font-size:12px;color:var(--text-faint);margin-top:3px;line-height:1.4;}
-  .source-list .rank{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--text-faint);margin-right:8px;}
-  .source-list li{display:flex;flex-wrap:wrap;align-items:center;gap:8px 0;}
-  .source-list .stag{flex:1 0 100%;}
-  .follow-btn{margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:10.5px;padding:3px 9px;border-radius:12px;border:1px solid var(--border);background:transparent;color:var(--text-faint);cursor:pointer;white-space:nowrap;transition:.15s;}
-  .follow-btn:hover{border-color:var(--text-faint);color:var(--text);}
-  .follow-btn.following{border-color:var(--accent);color:var(--accent);background:var(--accent-soft);}
-
-  .new-banner{display:none;align-items:center;justify-content:space-between;gap:12px;background:var(--accent-soft);border:1px solid var(--accent);border-radius:8px;padding:12px 16px;margin:16px 0;font-size:13.5px;color:var(--text);}
-  .new-banner button{font-family:'IBM Plex Mono',monospace;font-size:11.5px;background:none;border:1px solid var(--border);color:var(--text-dim);padding:5px 10px;border-radius:6px;cursor:pointer;}
+  .new-banner{display:none;align-items:center;justify-content:space-between;gap:12px;background:rgba(var(--accent-rgb),.12);border:1px solid rgba(var(--accent-rgb),.5);border-radius:12px;padding:12px 16px;margin:0 0 24px;font-size:14.5px;font-weight:500;}
+  .new-banner button{font-size:13px;background:none;border:1px solid var(--line);color:var(--text-dim);padding:5px 12px;border-radius:8px;cursor:pointer;}
   .new-banner button:hover{border-color:var(--text-faint);color:var(--text);}
 
-  .recap-panel{margin:4px 0 24px;}
+  /* ---------- najvažnije vesti nedelje ---------- */
+  .recap-panel{margin:0 0 36px;}
   .recap-panel:empty{margin:0;}
-  .recap-title{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-faint);letter-spacing:.03em;margin:0 0 12px;}
-  .recap-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;}
-  .recap-list li{display:flex;align-items:baseline;gap:10px;padding:10px 14px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:8px;}
-  .recap-list a{font-size:14px;font-weight:600;flex:1;}
-  .recap-list a:hover{color:var(--link);}
+  .recap{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;}
+  .lead{display:flex;flex-direction:column;border-right:1px solid var(--line);}
+  .lead-img{display:block;aspect-ratio:16/9;background:var(--surface-2);overflow:hidden;}
+  .lead-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease;}
+  .lead:hover .lead-img img{transform:scale(1.03);}
+  .lead-text{padding:20px 22px 22px;display:flex;flex-direction:column;gap:10px;flex:1;}
+  .lead.no-img .lead-text{justify-content:flex-end;padding-top:28px;background:radial-gradient(120% 90% at 0% 0%,rgba(var(--accent-rgb),.16),transparent 60%);}
+  .lead-title{font-size:23px;line-height:1.22;font-weight:700;letter-spacing:-.015em;margin:0;}
+  .lead.no-img .lead-title{font-size:28px;}
+  .lead-title a:hover,.recap-list a:hover,.item-title a:hover{color:var(--accent);}
+  .recap-list{list-style:none;margin:0;padding:6px 0;display:flex;flex-direction:column;}
+  .recap-list li{display:grid;grid-template-columns:26px 1fr;gap:4px 8px;padding:13px 20px;border-bottom:1px solid var(--line-soft);flex:1;align-content:center;}
+  .recap-list li:last-child{border-bottom:0;}
+  .recap-list .num{font-size:15px;font-weight:800;color:var(--accent);line-height:1.35;}
+  .recap-list a{font-size:15px;line-height:1.35;font-weight:600;}
+  .recap-list .sub{grid-column:2;}
+  .kicker{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12.5px;color:var(--text-faint);}
+  .kicker .src{color:var(--accent);font-weight:600;}
 
-  .stats-bar{display:flex;gap:24px;flex-wrap:wrap;padding:14px 0;margin-bottom:4px;border-bottom:1px solid var(--border);font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:var(--text-dim);}
-  .stats-bar strong{color:var(--accent);font-weight:600;}
-  .saved-toggle{font-family:'IBM Plex Mono',monospace;font-size:12.5px;padding:9px 14px;border-radius:6px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--text-dim);cursor:pointer;white-space:nowrap;transition:.15s;}
-  .saved-toggle:hover{border-color:var(--text-faint);color:var(--text);}
-  .saved-toggle.active{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);}
+  /* ---------- izvori (pilule na telefonu, lista sa strane na desktopu) ---------- */
+  .source-strip{display:none;margin:0 0 20px;}
 
-  .pill.reg{border-color:rgba(143,184,255,.3);}
-  .pill.reg:hover{border-color:var(--link);color:var(--link);}
+  .stats-bar{display:flex;gap:8px 28px;flex-wrap:wrap;padding:0 0 14px;border-bottom:1px solid var(--line);font-size:13.5px;color:var(--text-dim);}
+  .stats-bar strong{color:var(--text);font-weight:700;}
+  .stats-bar .flag strong{color:var(--danger);}
+  .feed-count{font-size:13px;color:var(--text-faint);margin:14px 0 0;}
 
-  .reg-detail{max-width:820px;margin:8px auto 80px;padding:0 24px;}
-  .back-btn{font-family:'IBM Plex Mono',monospace;font-size:12.5px;background:var(--bg-elevated);border:1px solid var(--border);color:var(--text-dim);padding:8px 16px;border-radius:6px;cursor:pointer;margin-bottom:24px;transition:.15s;}
+  /* ---------- lista vesti ---------- */
+  .day{display:flex;align-items:baseline;gap:10px;margin:30px 0 0;padding:0 0 10px;border-bottom:1px solid var(--line);font-size:20px;font-weight:800;letter-spacing:-.02em;}
+  .day small{font-size:13px;font-weight:500;color:var(--text-faint);letter-spacing:0;}
+  .item{display:flex;gap:20px;padding:20px 0;border-bottom:1px solid var(--line-soft);}
+  .item-body{flex:1;min-width:0;}
+  .item-meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:12.5px;color:var(--text-faint);margin-bottom:7px;}
+  .item-meta .src{color:var(--accent);font-weight:600;}
+  .item-meta .sep{width:3px;height:3px;border-radius:50%;background:var(--text-faint);opacity:.7;}
+  .item-title{font-size:18.5px;line-height:1.3;font-weight:700;letter-spacing:-.01em;margin:0 0 6px;text-wrap:pretty;}
+  .item-title a{transition:color .15s;}
+  .item-summary{font-size:14.5px;line-height:1.55;color:var(--text-dim);margin:0;max-width:64ch;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
+  .item-summary:empty{display:none;}
+  .item-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .item-tags:empty{display:none;}
+  .thumb{flex:0 0 auto;align-self:flex-start;width:150px;aspect-ratio:3/2;border-radius:10px;overflow:hidden;background:var(--surface);display:block;}
+  .thumb img{width:100%;height:100%;object-fit:cover;display:block;}
+  .save-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;margin:-8px -6px -8px auto;background:none;border:0;border-radius:8px;cursor:pointer;color:var(--text-faint);transition:color .15s,background .15s;}
+  .save-btn svg{width:17px;height:17px;}
+  .save-btn:hover{color:var(--accent);background:rgba(var(--accent-rgb),.1);}
+  .save-btn.saved{color:var(--accent);}
+  .save-btn.saved svg{fill:currentColor;}
+
+  .coverage-badge,.severity-badge,.new-tag{display:inline-flex;align-items:center;font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:6px;white-space:nowrap;}
+  .coverage-badge{color:var(--text-dim);background:var(--surface-2);border:1px solid var(--line);}
+  .new-tag{color:#0a0c11;background:var(--accent);}
+  .sev-critical{color:var(--danger);background:rgba(255,122,107,.12);border:1px solid rgba(255,122,107,.35);}
+  .sev-exploited{color:#0a0c11;background:var(--danger);}
+  .empty-state{padding:64px 0;text-align:center;color:var(--text-faint);font-size:15px;}
+
+  /* ---------- bočna lista izvora ---------- */
+  aside.sources{align-self:start;position:sticky;top:76px;max-height:calc(100vh - 92px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--line) transparent;padding-right:4px;}
+  .source-list{list-style:none;margin:0;padding:0;}
+  .source-list li{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:2px 8px;padding:9px 10px;margin:0 -10px;border-radius:10px;}
+  .source-list li.active{background:rgba(var(--accent-rgb),.1);}
+  .source-pick{display:flex;align-items:baseline;gap:8px;min-width:0;background:none;border:0;padding:0;text-align:left;cursor:pointer;font-size:14.5px;font-weight:600;}
+  .source-pick .rank{flex:0 0 18px;font-size:12px;font-weight:500;color:var(--text-faint);}
+  .source-pick .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .source-pick .cnt{font-size:12.5px;font-weight:500;color:var(--text-faint);}
+  .source-pick:hover .nm{color:var(--accent);}
+  li.active .source-pick .nm{color:var(--accent);}
+  .source-pick:disabled{cursor:default;opacity:.5;}
+  .source-pick:disabled .nm{color:inherit;}
+  .source-list .stag{grid-column:1/-1;font-size:12.5px;color:var(--text-faint);line-height:1.4;padding-left:26px;}
+  .source-list .stag a{color:var(--text-dim);white-space:nowrap;}
+  .source-list .stag a:hover{color:var(--accent);}
+  .follow-btn{font-size:12px;font-weight:500;padding:3px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--text-faint);cursor:pointer;white-space:nowrap;transition:border-color .15s,color .15s,background .15s;}
+  .follow-btn:hover{border-color:var(--text-faint);color:var(--text);}
+  .follow-btn.following{border-color:var(--accent);color:var(--accent);background:rgba(var(--accent-rgb),.12);}
+
+  /* ---------- stranica regulative ---------- */
+  .reg-detail{max-width:760px;margin:36px auto 80px;padding:0 var(--pad);}
+  .back-btn{font-size:14px;font-weight:500;background:var(--surface);border:1px solid var(--line);color:var(--text-dim);padding:8px 16px;border-radius:10px;cursor:pointer;margin-bottom:32px;transition:border-color .15s,color .15s;}
   .back-btn:hover{border-color:var(--text-faint);color:var(--text);}
-  .reg-name{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--link);letter-spacing:.03em;margin:0 0 6px;}
-  .reg-title{font-size:26px;font-weight:700;margin:0 0 24px;line-height:1.3;}
-  .reg-section{margin-bottom:24px;}
-  .reg-section h3{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-faint);letter-spacing:.03em;margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid var(--border);}
-  .reg-section p{font-size:15px;line-height:1.65;color:var(--text-dim);margin:0;}
+  .reg-name{font-size:13.5px;font-weight:600;color:var(--accent);margin:0 0 8px;}
+  .reg-title{font-size:clamp(30px,5vw,44px);font-weight:800;letter-spacing:-.03em;margin:0 0 32px;line-height:1.1;}
+  .reg-section{margin-bottom:28px;padding-top:20px;border-top:1px solid var(--line);}
+  .reg-section h3{font-size:17px;font-weight:700;margin:0 0 10px;}
+  .reg-section p{font-size:16px;line-height:1.65;color:var(--text-dim);margin:0;}
   .reg-section ul{margin:0;padding-left:20px;}
-  .reg-section li{font-size:15px;line-height:1.7;color:var(--text-dim);margin-bottom:8px;}
-  .reg-section li::marker{color:var(--link);}
+  .reg-section li{font-size:16px;line-height:1.65;color:var(--text-dim);margin-bottom:10px;}
+  .reg-section li::marker{color:var(--accent);}
 
-  footer{max-width:1180px;margin:0 auto;padding:0 24px 60px;color:var(--text-faint);font-size:12.5px;line-height:1.7;border-top:1px solid var(--border);padding-top:24px;}
+  footer{max-width:var(--wrap);margin:0 auto;padding:24px var(--pad) 60px;color:var(--text-faint);font-size:13px;line-height:1.7;border-top:1px solid var(--line);}
+  footer p{margin:0 0 8px;max-width:90ch;}
 
-  /* ---------- mobilni telefoni ---------- */
-  @media (max-width:640px){
-    .tab-bar{overflow-x:auto;flex-wrap:nowrap;padding:12px 16px 0;scrollbar-width:none;}
-    .tab-bar::-webkit-scrollbar{display:none;}
-    .tab-btn{font-size:12.5px;padding:8px 16px;}
-    .top-inner{padding:14px 16px;gap:10px;}
-    .brand h1{font-size:17px;}
-    .tagline{font-size:12px;}
-    .search-wrap{min-width:0;width:100%;order:3;}
-    .filters{padding:12px 16px 0;}
-    .pill-row{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:14px;scrollbar-width:none;}
+  /* ---------- tablet i telefon ---------- */
+  @media (max-width:1020px){
+    .search-wrap{flex-basis:180px;}
+    .saved-toggle span{display:none;}
+    .saved-toggle{padding:0;width:38px;justify-content:center;}
+    .bar-in{gap:16px;}
+  }
+  @media (max-width:880px){
+    :root{--pad:18px;}
+    .layout{grid-template-columns:minmax(0,1fr);gap:40px;padding-top:22px;}
+    aside.sources{position:static;max-height:none;overflow:visible;}
+    .source-strip{display:block;}
+    .source-strip .pill-row,.reg-strip .pill-row{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:0 calc(-1 * var(--pad));padding:0 var(--pad);}
     .pill-row::-webkit-scrollbar{display:none;}
-    .layout{padding:8px 16px 60px;gap:32px;}
-    .item{padding:16px 0;gap:12px;}
-    .item-title{font-size:16px;}
-    .thumb{width:84px;height:60px;}
-    .item-summary{font-size:14px;}
-    footer{padding:0 16px 40px;padding-top:20px;}
+    .reg-strip{flex-direction:column;align-items:stretch;gap:10px;}
+    .recap{grid-template-columns:minmax(0,1fr);}
+    .lead{border-right:0;border-bottom:1px solid var(--line);}
+  }
+  @media (max-width:700px){
+    /* na telefonu pri skrolovanju ostaju samo tabovi */
+    .bar,.bar-in{display:contents;}
+    .bar-head{display:flex;align-items:center;justify-content:space-between;padding:14px var(--pad) 10px;padding-top:calc(14px + env(safe-area-inset-top));}
+    .saved-toggle span{display:inline;}
+    .saved-toggle{width:auto;padding:0 12px;height:36px;font-size:13.5px;}
+    .search-wrap{margin:0 var(--pad) 4px;}
+    .search-wrap input{height:42px;font-size:16px;}
+    .tabs{position:sticky;top:0;z-index:30;height:48px;padding:0 calc(var(--pad) - 12px);overflow-x:auto;scrollbar-width:none;background:var(--bg);border-bottom:1px solid var(--line);}
+    .tabs::-webkit-scrollbar{display:none;}
+    .tab-btn{padding:0 12px;}
+    .tab-btn.active::after{left:12px;right:12px;}
+    .mast{padding-top:24px;gap:14px;}
+    .mast-side{align-items:flex-start;text-align:left;flex-direction:row;flex-wrap:wrap;gap:2px 14px;}
+    .lead-title,.lead.no-img .lead-title{font-size:21px;}
+    .lead-text{padding:16px 16px 18px;}
+    .recap-list li{padding:12px 16px;}
+    .day{font-size:18px;margin-top:26px;}
+    .item{gap:14px;padding:18px 0;}
+    .item-title{font-size:17px;}
+    .item-summary{-webkit-line-clamp:2;}
+    .thumb{width:92px;aspect-ratio:1/1;border-radius:8px;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+    *{transition:none !important;}
   }
 </style>
 </head>
 <body>
 
-<header class="top">
-  <div class="tab-bar" id="tabBar"></div>
-  <div class="top-inner">
-    <div class="meta-line">
+<header class="bar">
+  <div class="bar-in">
+    <div class="bar-head">
       <div class="brand"><span class="mark"></span><h1>SIGNAL/20</h1></div>
-      <div class="credit">made by Mile Jelic</div>
-      <div class="streak-badge" id="streakBadge"></div>
-      <div class="tagline" id="taglineText"></div>
-      <div class="updated" id="updatedText"></div>
-    </div>
-    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
-      <div class="search-wrap">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input id="searchInput" type="text" placeholder="Search news…">
+      <div class="actions">
+        <button class="saved-toggle" id="savedToggle" aria-label="Show saved articles" title="Show saved articles"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg><span>Saved</span></button>
+        <button class="saved-toggle" id="followingToggle" aria-label="Show sources you follow" title="Show sources you follow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20s-7.5-4.6-7.5-10A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 7.5 3c0 5.4-7.5 10-7.5 10z"/></svg><span>Following</span></button>
       </div>
-      <button class="saved-toggle" id="savedToggle">★ Saved</button>
-      <button class="saved-toggle" id="followingToggle">♥ Following</button>
     </div>
-  </div>
-  <div class="filters" id="regFiltersRow">
-    <div class="cat-label">EU REGULATIONS</div>
-    <div class="pill-row" id="regRow"></div>
-  </div>
-  <div class="filters" style="padding-top:0;">
-    <div class="cat-label">SOURCE</div>
-    <div class="pill-row" id="pillRow"></div>
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input id="searchInput" type="search" placeholder="Search news" aria-label="Search news">
+    </div>
+    <nav class="tabs" id="tabBar" aria-label="News sections"></nav>
   </div>
 </header>
 
+<section class="mast" id="mast">
+  <div>
+    <h2 id="tabTitle"></h2>
+    <div class="tagline" id="taglineText"></div>
+  </div>
+  <div class="mast-side">
+    <div class="streak-badge" id="streakBadge"></div>
+    <div class="updated" id="updatedText"></div>
+    <div class="credit">made by Mile Jelic</div>
+  </div>
+</section>
+
+<div class="reg-strip" id="regFiltersRow">
+  <div class="strip-label">EU regulations explained</div>
+  <div class="pill-row" id="regRow"></div>
+</div>
+
 <div class="reg-detail" id="regDetail" style="display:none;">
-  <button class="back-btn" id="regBackBtn">← Back to News</button>
+  <button class="back-btn" id="regBackBtn">← Back to news</button>
   <div class="reg-name" id="regName"></div>
   <h2 class="reg-title" id="regTitle"></h2>
   <div id="regBody"></div>
@@ -199,18 +285,23 @@
   <main>
     <div class="new-banner" id="newBanner"></div>
     <div class="recap-panel" id="recapPanel"></div>
+    <div class="source-strip">
+      <div class="section-title">Sources</div>
+      <div class="pill-row" id="pillRow"></div>
+    </div>
     <div class="stats-bar" id="statsBar"></div>
     <div class="feed-count" id="feedCount"></div>
     <div id="feed"></div>
   </main>
   <aside class="sources">
-    <h2 id="sourcesHeading">20 TRACKED PORTALS</h2>
+    <h2 class="section-title" id="sourcesHeading">Sources</h2>
     <ul class="source-list" id="sourceList"></ul>
   </aside>
 </div>
 
 <footer>
-  This site updates automatically from RSS feeds across 20 portals (last updated: <span id="footerUpdated"></span>). Headlines and summaries are pulled in the source's original language — click a headline to read the full article. When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.
+  <p>This site updates automatically from RSS feeds across 20 portals per section (last updated: <span id="footerUpdated"></span>). Headlines and summaries are pulled in the source's original language — click a headline to read the full article.</p>
+  <p>When the same story is covered by multiple portals, only the version from the higher-ranked source is shown, to avoid duplicate entries.</p>
 </footer>
 
 <script>
@@ -242,10 +333,24 @@ function escAttr(s){
 }
 
 const monthsEN = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const weekdaysEN = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 function fmtDate(iso){
   const d = new Date(iso+"T00:00:00");
   return `${monthsEN[d.getMonth()]} ${String(d.getDate()).padStart(2,"0")}, ${d.getFullYear()}`;
 }
+function localDayStr(d){
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+}
+function dayLabel(iso){
+  const now = new Date();
+  const today = localDayStr(now);
+  const yesterday = localDayStr(new Date(now.getFullYear(), now.getMonth(), now.getDate()-1));
+  if(iso >= today) return "Today";
+  if(iso === yesterday) return "Yesterday";
+  const d = new Date(iso+"T00:00:00");
+  return `${weekdaysEN[d.getDay()]}, ${monthsEN[d.getMonth()]} ${d.getDate()}`;
+}
+const STAR_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>';
 
 // ---------- active tab state ----------
 function readActiveTab(){
@@ -331,7 +436,7 @@ function severityFor(title){
 function renderStreak(){
   const count = updateStreak();
   document.getElementById("streakBadge").textContent =
-    `\u{1F525} ${count} day${count===1?"":"s"} streak`;
+    `\u{1F525} ${count}-day streak`;
 }
 
 function renderNewBanner(){
@@ -362,17 +467,44 @@ function renderRecap(){
     (b.coverage||1) - (a.coverage||1) || new Date(b.timestamp) - new Date(a.timestamp)
   ).slice(0,5);
   if(!top.length){ panel.innerHTML = ""; return; }
+  const kicker = n => `
+    <div class="kicker">
+      <span class="src">${n.source}</span>
+      ${(n.coverage||1) > 1 ? `<span class="coverage-badge">${n.coverage} sources</span>` : ""}
+    </div>`;
+  const lead = top[0];
+  const rest = top.slice(1);
   panel.innerHTML = `
-    <h2 class="recap-title">THIS WEEK'S TOP STORIES</h2>
-    <ul class="recap-list">
-      ${top.map(n => `
-        <li>
-          <a href="${n.url}" target="_blank" rel="noopener">${n.title}</a>
-          ${(n.coverage||1) > 1 ? `<span class="coverage-badge">${n.coverage} sources</span>` : ""}
-        </li>
-      `).join("")}
-    </ul>
+    <h2 class="section-title">Top stories this week</h2>
+    <div class="recap">
+      <article class="lead ${lead.image ? "" : "no-img"}">
+        ${lead.image ? `<a class="lead-img" href="${lead.url}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${escAttr(lead.image)}" alt="" decoding="async" referrerpolicy="no-referrer"></a>` : ""}
+        <div class="lead-text">
+          ${kicker(lead)}
+          <h3 class="lead-title"><a href="${lead.url}" target="_blank" rel="noopener">${lead.title}</a></h3>
+        </div>
+      </article>
+      <ol class="recap-list">
+        ${rest.map((n,i) => `
+          <li>
+            <span class="num">${i+2}</span>
+            <a href="${n.url}" target="_blank" rel="noopener">${n.title}</a>
+            <div class="sub">${kicker(n)}</div>
+          </li>
+        `).join("")}
+      </ol>
+    </div>
   `;
+  const img = panel.querySelector(".lead-img img");
+  if(img){
+    const drop = ()=>{
+      const a = img.closest(".lead-img");
+      if(a){ a.parentElement.classList.add("no-img"); a.remove(); }
+    };
+    img.addEventListener("error", drop);
+    img.addEventListener("load", ()=>{ if(img.naturalWidth && img.naturalWidth < 200) drop(); });
+    if(img.complete && img.naturalWidth === 0) drop();
+  }
 }
 
 function countsBySource(){
@@ -389,13 +521,20 @@ function renderStats(){
   let extra = "";
   if(TAB_META.hasSeverity){
     const flagged = NEWS.filter(n=>severityFor(n.title)).length;
-    extra = `<span><strong>${flagged}</strong> flagged critical / actively exploited</span>`;
+    extra = `<span class="flag"><strong>${flagged}</strong> critical or actively exploited</span>`;
   }
   bar.innerHTML = `
-    <span><strong>${NEWS.length}</strong> articles tracked</span>
-    <span><strong>${topSource}</strong> most active (${topCount})</span>
+    <span><strong>${NEWS.length}</strong> articles</span>
+    <span>Most active: <strong>${topSource}</strong> (${topCount})</span>
     ${extra}
   `;
+}
+
+function pickSource(name){
+  activeSource = (name !== "All" && name === activeSource) ? "All" : name;
+  renderPills();
+  renderSidebar();
+  renderFeed();
 }
 
 function renderPills(){
@@ -406,28 +545,32 @@ function renderPills(){
     const cnt = name==="All" ? NEWS.length : (counts[name]||0);
     if(name!=="All" && !cnt) return "";
     const activeCls = (name===activeSource) ? "active" : "";
-    return `<span class="pill ${activeCls}" data-name="${name}">${name}<span class="count">${cnt}</span></span>`;
+    return `<span class="pill ${activeCls}" data-name="${escAttr(name)}">${name}<span class="count">${cnt}</span></span>`;
   }).join("");
   row.querySelectorAll(".pill").forEach(p=>{
-    p.addEventListener("click", ()=>{
-      activeSource = p.dataset.name;
-      renderPills();
-      renderFeed();
-    });
+    p.addEventListener("click", ()=> pickSource(p.dataset.name));
   });
 }
 
 function renderSidebar(){
-  document.getElementById("sourcesHeading").textContent = `${SOURCES.length} TRACKED PORTALS`;
+  const counts = countsBySource();
+  document.getElementById("sourcesHeading").textContent = `${SOURCES.length} sources`;
   const list = document.getElementById("sourceList");
-  list.innerHTML = SOURCES.map(s=>`
-    <li>
-      <span class="rank">${String(s.rank).padStart(2,"0")}</span>
-      <a class="sname" href="${s.url}" target="_blank" rel="noopener">${s.name}</a>
-      <button class="follow-btn ${isFollowed(s.name)?"following":""}" data-name="${s.name}">${isFollowed(s.name)?"\u2713 Following":"+ Follow"}</button>
-      <span class="stag">${s.tag}</span>
-    </li>
-  `).join("");
+  list.innerHTML = `
+    <li class="${activeSource==="All"?"active":""}">
+      <button class="source-pick" data-name="All"><span class="rank"></span><span class="nm">All sources</span><span class="cnt">${NEWS.length}</span></button>
+    </li>` + SOURCES.map(s=>{
+    const cnt = counts[s.name]||0;
+    return `
+    <li class="${s.name===activeSource?"active":""}">
+      <button class="source-pick" data-name="${escAttr(s.name)}" ${cnt?"":"disabled"} title="${cnt?"Show only this source":"No recent articles"}"><span class="rank">${s.rank}</span><span class="nm">${s.name}</span><span class="cnt">${cnt}</span></button>
+      <button class="follow-btn ${isFollowed(s.name)?"following":""}" data-name="${escAttr(s.name)}">${isFollowed(s.name)?"Following":"Follow"}</button>
+      <span class="stag">${s.tag} <a href="${s.url}" target="_blank" rel="noopener" aria-label="Open ${escAttr(s.name)} website">Visit site</a></span>
+    </li>`;
+  }).join("");
+  list.querySelectorAll(".source-pick").forEach(btn=>{
+    btn.addEventListener("click", ()=> pickSource(btn.dataset.name));
+  });
   list.querySelectorAll(".follow-btn").forEach(btn=>{
     btn.addEventListener("click", ()=>{
       toggleFollowed(btn.dataset.name);
@@ -448,38 +591,46 @@ function renderFeed(){
     return sourceOk && qOk && savedOk && followingOk;
   });
 
+  const scope = activeSource==="All" ? "" : ` from ${activeSource}`;
   document.getElementById("feedCount").textContent =
-    `${filtered.length} ${filtered.length===1?"article":"articles"} \u00b7 sorted newest to oldest`;
+    `${filtered.length} ${filtered.length===1?"article":"articles"}${scope}, newest first`;
 
   if(!filtered.length){
     let msg = "No articles match your search.";
-    if(showSavedOnly) msg = "You haven't saved any articles yet.";
-    else if(showFollowingOnly) msg = "You're not following any sources with articles yet.";
+    if(showSavedOnly) msg = "No saved articles yet. Tap the star on an article to keep it here.";
+    else if(showFollowingOnly) msg = "No articles from followed sources. Follow a source in the Sources list to see it here.";
     feed.innerHTML = `<div class="empty-state">${msg}</div>`;
     return;
   }
+
+  const dayCounts = {};
+  filtered.forEach(n=> dayCounts[n.date] = (dayCounts[n.date]||0)+1);
+  let currentDay = null;
 
   feed.innerHTML = filtered.map(n=>{
     const sev = TAB_META.hasSeverity ? severityFor(n.title) : null;
     const saved = isSaved(n.url);
     const isNew = isNewArticle(n);
-    return `
+    let dayHead = "";
+    const label = dayLabel(n.date);
+    if(label !== currentDay){
+      currentDay = label;
+      const total = filtered.filter(x=>dayLabel(x.date)===label).length;
+      dayHead = `<h2 class="day">${label} <small>${total} ${total===1?"article":"articles"}</small></h2>`;
+    }
+    const showCat = n.category && n.category !== "News";
+    return dayHead + `
     <article class="item">
-      <span class="bar" style="background:${colorFor(n.category)}"></span>
       <div class="item-body">
         <div class="item-meta">
           <span class="src">${n.source}</span>
-          <span>${fmtDate(n.date)}</span>
-          ${isNew ? `<span class="new-tag">NEW</span>` : ""}
-          <button class="save-btn ${saved?"saved":""}" data-url="${n.url}" aria-label="Save article" title="Save for later">${saved?"\u2605":"\u2606"}</button>
+          ${showCat ? `<span class="sep"></span><span>${n.category}</span>` : ""}
+          ${isNew ? `<span class="new-tag">New</span>` : ""}
+          <button class="save-btn ${saved?"saved":""}" data-url="${escAttr(n.url)}" aria-label="${saved?"Remove from saved":"Save article"}" title="${saved?"Remove from saved":"Save for later"}">${STAR_SVG}</button>
         </div>
         <h3 class="item-title"><a href="${n.url}" target="_blank" rel="noopener">${n.title}</a></h3>
         <p class="item-summary">${n.summary}</p>
-        <div class="item-tags">
-          <span class="item-cat">${n.category}</span>
-          ${sev ? `<span class="severity-badge ${sev.cls}">${sev.label}</span>` : ""}
-          ${(n.coverage||1) > 1 ? `<span class="coverage-badge">${n.coverage} sources</span>` : ""}
-        </div>
+        <div class="item-tags">${sev ? `<span class="severity-badge ${sev.cls}">${sev.label}</span>` : ""}${(n.coverage||1) > 1 ? `<span class="coverage-badge">${n.coverage} sources</span>` : ""}</div>
       </div>
       ${n.image ? `<a class="thumb" href="${n.url}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${escAttr(n.image)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a>` : ""}
     </article>
@@ -496,8 +647,11 @@ function renderFeed(){
   feed.querySelectorAll(".save-btn").forEach(btn=>{
     btn.addEventListener("click", ()=>{
       toggleSaved(btn.dataset.url);
-      renderPills();
-      renderFeed();
+      if(showSavedOnly){ renderFeed(); return; }
+      const on = isSaved(btn.dataset.url);
+      btn.classList.toggle("saved", on);
+      btn.setAttribute("aria-label", on ? "Remove from saved" : "Save article");
+      btn.title = on ? "Remove from saved" : "Save for later";
     });
   });
 }
@@ -607,19 +761,21 @@ function showRegulation(key){
   document.getElementById("regTitle").textContent = reg.name;
   document.getElementById("regBody").innerHTML = `
     <div class="reg-section">
-      <h3>WHAT IT IS</h3>
+      <h3>What it is</h3>
       <p>${reg.what}</p>
     </div>
     <div class="reg-section">
-      <h3>WHO IT'S FOR</h3>
+      <h3>Who it's for</h3>
       <p>${reg.who}</p>
     </div>
     <div class="reg-section">
-      <h3>WHAT COMPANIES NEED TO DO</h3>
+      <h3>What companies need to do</h3>
       <ul>${reg.steps.map(s=>`<li>${s}</li>`).join("")}</ul>
     </div>
   `;
   document.getElementById("mainLayout").style.display = "none";
+  document.getElementById("mast").style.display = "none";
+  document.getElementById("regFiltersRow").style.display = "none";
   document.getElementById("regDetail").style.display = "block";
   window.scrollTo(0,0);
 }
@@ -627,6 +783,8 @@ function showRegulation(key){
 function hideRegulation(){
   document.getElementById("regDetail").style.display = "none";
   document.getElementById("mainLayout").style.display = "";
+  document.getElementById("mast").style.display = "";
+  document.getElementById("regFiltersRow").style.display = TAB_META.hasRegulations ? "" : "none";
 }
 
 document.getElementById("regBackBtn").addEventListener("click", hideRegulation);
@@ -665,8 +823,10 @@ function loadTab(tabId){
   document.getElementById("savedToggle").classList.remove("active");
   document.getElementById("followingToggle").classList.remove("active");
 
+  document.body.dataset.tab = activeTab;
+  document.getElementById("tabTitle").textContent = tabData.label || "";
   document.getElementById("taglineText").textContent = tabData.tagline || "";
-  document.getElementById("updatedText").textContent = "Automatically updated: " + generatedAtLocal;
+  document.getElementById("updatedText").textContent = "Updated " + generatedAtLocal;
 
   // last-visit tracking is per tab
   const v = localStorage.getItem(lastVisitKey());
