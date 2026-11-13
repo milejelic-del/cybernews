@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T22:09:59.248995+00:00",
+ "generated_at": "2026-11-13T03:14:09.026514+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 68 stavki (UA: feedparser)"
+     "result": "OK 64 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 7,
+   "items": 8,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 6,
+   "items": 8,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -690,7 +690,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1384 stavki (UA: feedparser)"
+     "result": "OK 1385 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -743,7 +743,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 5,
+   "items": 6,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -758,7 +758,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 5 stavki (UA: feedparser)"
+     "result": "OK 6 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -849,7 +849,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 20 stavki (UA: feedparser)"
+     "result": "OK 18 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -981,7 +981,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 8,
+   "items": 5,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1011,7 +1011,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 12,
+   "items": 10,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -1130,43 +1130,15 @@
   },
   {
    "name": "Dancing Astronaut",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 10,
+   "used_url": "https://dancingastronaut.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://dancingastronaut.com/feed/",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/feed",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/rss.xml",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/rss/",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/rss",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/atom.xml",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/index.xml",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
-    },
-    {
-     "url": "https://dancingastronaut.com/feed.xml",
-     "result": "TimeoutError: The read operation timed out (feedparser)"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
@@ -1294,7 +1266,7 @@
    "attempts": [
     {
      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-     "result": "OK 68 stavki (UA: feedparser)"
+     "result": "OK 67 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1324,7 +1296,7 @@
    "attempts": [
     {
      "url": "https://www.theguardian.com/sport/rss",
-     "result": "OK 28 stavki (UA: feedparser)"
+     "result": "OK 27 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1369,7 +1341,7 @@
    "attempts": [
     {
      "url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30",
-     "result": "OK 21 stavki (UA: feedparser)"
+     "result": "OK 15 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1403,7 +1375,7 @@
     },
     {
      "url": "https://www.si.com/feed",
-     "result": "OK 89 stavki (UA: feedparser)"
+     "result": "OK 90 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
