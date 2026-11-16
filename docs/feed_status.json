@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T05:16:17.844932+00:00",
+ "generated_at": "2026-11-16T15:04:28.834352+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 59 stavki (UA: feedparser)"
+     "result": "OK 58 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 7,
+   "items": 9,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -405,7 +405,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 110 stavki (UA: feedparser)"
+     "result": "OK 113 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -458,7 +458,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 6,
+   "items": 1,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -555,7 +555,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 46 stavki (UA: feedparser)"
+     "result": "OK 41 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -592,15 +592,19 @@
   },
   {
    "name": "Little White Lies",
-   "ok": true,
-   "items": 10,
-   "used_url": "https://lwlies.com/feed/",
-   "via": "declared",
-   "ua": "feedparser",
+   "ok": false,
+   "items": 0,
+   "used_url": null,
+   "via": null,
+   "ua": null,
    "attempts": [
     {
      "url": "https://lwlies.com/feed/",
-     "result": "OK 10 stavki (UA: feedparser)"
+     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+    },
+    {
+     "url": "https://lwlies.com/",
+     "result": "trazenje feed-a: HTTP 403"
     }
    ],
    "tab": "entertainment"
@@ -690,7 +694,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1389 stavki (UA: feedparser)"
+     "result": "OK 1393 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -713,18 +717,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 6,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 6 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -876,7 +876,7 @@
   {
    "name": "Artificial Intelligence News",
    "ok": true,
-   "items": 11,
+   "items": 10,
    "used_url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -887,7 +887,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 11 stavki (UA: feedparser)"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -985,7 +985,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1270,7 +1270,7 @@
    "attempts": [
     {
      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-     "result": "OK 65 stavki (UA: feedparser)"
+     "result": "OK 68 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1300,7 +1300,7 @@
    "attempts": [
     {
      "url": "https://www.theguardian.com/sport/rss",
-     "result": "OK 27 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1345,7 +1345,7 @@
    "attempts": [
     {
      "url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30",
-     "result": "OK 16 stavki (UA: feedparser)"
+     "result": "OK 27 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1379,7 +1379,7 @@
     },
     {
      "url": "https://www.si.com/feed",
-     "result": "OK 90 stavki (UA: feedparser)"
+     "result": "OK 81 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
