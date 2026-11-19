@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T00:59:45.908052+00:00",
+ "generated_at": "2026-11-19T08:39:10.301855+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -234,13 +234,21 @@
    "name": "Cybernews",
    "ok": true,
    "items": 12,
-   "used_url": "https://cybernews.com/feed/",
+   "used_url": "https://news.google.com/rss/search?q=site:cybernews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://cybernews.com/feed/",
-     "result": "OK 50 stavki (UA: feedparser)"
+     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+    },
+    {
+     "url": "https://cybernews.com/security/feed/",
+     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:cybernews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +316,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 5,
+   "items": 7,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -592,19 +600,15 @@
   },
   {
    "name": "Little White Lies",
-   "ok": false,
-   "items": 0,
-   "used_url": null,
-   "via": null,
-   "ua": null,
+   "ok": true,
+   "items": 10,
+   "used_url": "https://lwlies.com/feed/",
+   "via": "declared",
+   "ua": "feedparser",
    "attempts": [
     {
      "url": "https://lwlies.com/feed/",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
-    },
-    {
-     "url": "https://lwlies.com/",
-     "result": "trazenje feed-a: HTTP 403"
+     "result": "OK 10 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -717,18 +721,14 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 6,
-   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "items": 12,
+   "used_url": "https://deepmind.google/blog/rss.xml",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 6 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -751,22 +751,22 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 6,
+   "items": 7,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.deeplearning.ai/the-batch/feed/",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+     "result": "HTTP 404 (feedparser)"
     },
     {
      "url": "https://www.deeplearning.ai/feed/",
-     "result": "HTTP 403 (feedparser); HTTP 403 (identified); HTTP 403 (browser)"
+     "result": "HTTP 404 (feedparser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 6 stavki (UA: feedparser)"
+     "result": "OK 7 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -887,11 +887,11 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "HTTP 403 (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 19 stavki (UA: feedparser)"
+     "result": "OK 18 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1019,7 +1019,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 12,
+   "items": 11,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -1200,13 +1200,17 @@
    "name": "Digital Music News",
    "ok": true,
    "items": 12,
-   "used_url": "https://www.digitalmusicnews.com/feed/",
+   "used_url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.digitalmusicnews.com/feed/",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 82 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
@@ -1245,21 +1249,13 @@
    "name": "ESPN",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:espn.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "used_url": "https://www.espn.com/espn/rss/news",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.espn.com/espn/rss/news",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://www.espn.co.uk/espn/rss/news",
-     "result": "feed je prazan ili neprepoznat (feedparser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:espn.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "OK 51 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1304,7 +1300,7 @@
    "attempts": [
     {
      "url": "https://www.theguardian.com/sport/rss",
-     "result": "OK 47 stavki (UA: feedparser)"
+     "result": "OK 28 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1343,13 +1339,17 @@
    "name": "Fox Sports",
    "ok": true,
    "items": 12,
-   "used_url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30",
+   "used_url": "https://news.google.com/rss/search?q=site:foxsports.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30",
-     "result": "OK 23 stavki (UA: feedparser)"
+     "result": "TimeoutError: The read operation timed out (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:foxsports.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1383,7 +1383,7 @@
     },
     {
      "url": "https://www.si.com/feed",
-     "result": "OK 83 stavki (UA: feedparser)"
+     "result": "OK 90 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
