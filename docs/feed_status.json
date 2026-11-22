@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T01:00:21.660630+00:00",
+ "generated_at": "2026-11-22T07:56:42.640069+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 7,
+   "items": 9,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -881,7 +881,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 25 stavki (UA: feedparser)"
+     "result": "OK 24 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -911,11 +911,11 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "HTTP 403 (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 15 stavki (UA: feedparser)"
+     "result": "OK 14 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1224,13 +1224,17 @@
    "name": "Digital Music News",
    "ok": true,
    "items": 12,
-   "used_url": "https://www.digitalmusicnews.com/feed/",
+   "used_url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.digitalmusicnews.com/feed/",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 88 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
@@ -1298,7 +1302,7 @@
    "attempts": [
     {
      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-     "result": "OK 67 stavki (UA: feedparser)"
+     "result": "OK 71 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1328,7 +1332,7 @@
    "attempts": [
     {
      "url": "https://www.theguardian.com/sport/rss",
-     "result": "OK 26 stavki (UA: feedparser)"
+     "result": "OK 27 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1366,14 +1370,14 @@
   {
    "name": "Fox Sports",
    "ok": true,
-   "items": 6,
+   "items": 8,
    "used_url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30",
-     "result": "OK 6 stavki (UA: feedparser)"
+     "result": "OK 8 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1422,7 +1426,7 @@
    "attempts": [
     {
      "url": "https://www.marca.com/en/rss/googlenews/portada.xml",
-     "result": "OK 35 stavki (UA: feedparser)"
+     "result": "OK 34 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
