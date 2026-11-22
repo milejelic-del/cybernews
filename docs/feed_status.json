@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T07:56:42.640069+00:00",
+ "generated_at": "2026-11-22T16:04:05.140440+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 70 stavki (UA: feedparser)"
+     "result": "OK 69 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -405,7 +405,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 103 stavki (UA: feedparser)"
+     "result": "OK 102 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -555,7 +555,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 64 stavki (UA: feedparser)"
+     "result": "OK 61 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -745,14 +745,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 4,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 4 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -881,7 +885,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 23 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -911,7 +915,7 @@
    "attempts": [
     {
      "url": "https://www.artificialintelligence-news.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
+     "result": "HTTP 403 (feedparser); odgovor je HTML, nije feed (identified); RemoteDisconnected: Remote end closed connection without response (browser)"
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
@@ -1224,17 +1228,13 @@
    "name": "Digital Music News",
    "ok": true,
    "items": 12,
-   "used_url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
+   "used_url": "https://www.digitalmusicnews.com/feed/",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://www.digitalmusicnews.com/feed/",
-     "result": "odgovor je HTML, nije feed (feedparser); odgovor je HTML, nije feed (identified); odgovor je HTML, nije feed (browser)"
-    },
-    {
-     "url": "https://news.google.com/rss/search?q=site:digitalmusicnews.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 88 stavki (UA: feedparser)"
+     "result": "OK 100 stavki (UA: feedparser)"
     }
    ],
    "tab": "music"
@@ -1302,7 +1302,7 @@
    "attempts": [
     {
      "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-     "result": "OK 71 stavki (UA: feedparser)"
+     "result": "OK 67 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1332,7 +1332,7 @@
    "attempts": [
     {
      "url": "https://www.theguardian.com/sport/rss",
-     "result": "OK 27 stavki (UA: feedparser)"
+     "result": "OK 24 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1370,14 +1370,14 @@
   {
    "name": "Fox Sports",
    "ok": true,
-   "items": 8,
+   "items": 12,
    "used_url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30",
-     "result": "OK 8 stavki (UA: feedparser)"
+     "result": "OK 22 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1411,7 +1411,7 @@
     },
     {
      "url": "https://www.si.com/feed",
-     "result": "OK 90 stavki (UA: feedparser)"
+     "result": "OK 80 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1426,7 +1426,7 @@
    "attempts": [
     {
      "url": "https://www.marca.com/en/rss/googlenews/portada.xml",
-     "result": "OK 34 stavki (UA: feedparser)"
+     "result": "OK 35 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
