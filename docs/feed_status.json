@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T14:08:09.520156+00:00",
+ "generated_at": "2026-11-24T02:01:54.780115+00:00",
  "sources": [
   {
    "name": "BleepingComputer",
@@ -150,7 +150,7 @@
     },
     {
      "url": "https://www.scworld.com/feed/topic/threat-management",
-     "result": "OK 72 stavki (UA: feedparser)"
+     "result": "OK 66 stavki (UA: feedparser)"
     }
    ],
    "tab": "cyber"
@@ -308,7 +308,7 @@
   {
    "name": "Variety",
    "ok": true,
-   "items": 8,
+   "items": 7,
    "used_url": "https://variety.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -323,7 +323,7 @@
   {
    "name": "The Hollywood Reporter",
    "ok": true,
-   "items": 7,
+   "items": 4,
    "used_url": "https://www.hollywoodreporter.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -405,7 +405,7 @@
    "attempts": [
     {
      "url": "https://rss.onebauer.media/api/feed-aggregator?hostname=https://www.empireonline.com",
-     "result": "OK 101 stavki (UA: feedparser)"
+     "result": "OK 106 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -458,7 +458,7 @@
   {
    "name": "Den of Geek",
    "ok": true,
-   "items": 2,
+   "items": 7,
    "used_url": "https://www.denofgeek.com/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -555,7 +555,7 @@
    "attempts": [
     {
      "url": "https://www.avclub.com/rss",
-     "result": "OK 47 stavki (UA: feedparser)"
+     "result": "OK 44 stavki (UA: feedparser)"
     }
    ],
    "tab": "entertainment"
@@ -722,7 +722,7 @@
    "attempts": [
     {
      "url": "https://openai.com/news/rss.xml",
-     "result": "OK 1422 stavki (UA: feedparser)"
+     "result": "OK 1425 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -745,14 +745,18 @@
   {
    "name": "Google DeepMind Blog",
    "ok": true,
-   "items": 12,
-   "used_url": "https://deepmind.google/blog/rss.xml",
+   "items": 5,
+   "used_url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
    "attempts": [
     {
      "url": "https://deepmind.google/blog/rss.xml",
-     "result": "OK 100 stavki (UA: feedparser)"
+     "result": "feed je prazan ili neprepoznat (feedparser)"
+    },
+    {
+     "url": "https://news.google.com/rss/search?q=site:deepmind.google/blog+when:14d&hl=en-US&gl=US&ceid=US:en",
+     "result": "OK 5 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -775,7 +779,7 @@
   {
    "name": "The Batch",
    "ok": true,
-   "items": 8,
+   "items": 7,
    "used_url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
    "ua": "feedparser",
@@ -790,7 +794,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:deeplearning.ai/the-batch+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 8 stavki (UA: feedparser)"
+     "result": "OK 7 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -861,7 +865,7 @@
    "items": 12,
    "used_url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
    "via": "declared",
-   "ua": "feedparser",
+   "ua": "identified",
    "attempts": [
     {
      "url": "https://hai.stanford.edu/news/feed",
@@ -881,7 +885,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:hai.stanford.edu/news+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 20 stavki (UA: feedparser)"
+     "result": "OK 22 stavki (UA: identified) [pre toga: HTTP 429 (feedparser)]"
     }
    ],
    "tab": "ai"
@@ -915,7 +919,7 @@
     },
     {
      "url": "https://news.google.com/rss/search?q=site:artificialintelligence-news.com+when:14d&hl=en-US&gl=US&ceid=US:en",
-     "result": "OK 16 stavki (UA: feedparser)"
+     "result": "OK 17 stavki (UA: feedparser)"
     }
    ],
    "tab": "ai"
@@ -1013,7 +1017,7 @@
   {
    "name": "NME",
    "ok": true,
-   "items": 7,
+   "items": 4,
    "used_url": "https://www.nme.com/feed",
    "via": "declared",
    "ua": "feedparser",
@@ -1043,7 +1047,7 @@
   {
    "name": "Consequence",
    "ok": true,
-   "items": 12,
+   "items": 9,
    "used_url": "https://consequence.net/feed/",
    "via": "declared",
    "ua": "feedparser",
@@ -1328,7 +1332,7 @@
    "attempts": [
     {
      "url": "https://www.theguardian.com/sport/rss",
-     "result": "OK 24 stavki (UA: feedparser)"
+     "result": "OK 25 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1373,7 +1377,7 @@
    "attempts": [
     {
      "url": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30",
-     "result": "OK 19 stavki (UA: feedparser)"
+     "result": "OK 21 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1407,7 +1411,7 @@
     },
     {
      "url": "https://www.si.com/feed",
-     "result": "OK 82 stavki (UA: feedparser)"
+     "result": "OK 90 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
@@ -1422,7 +1426,7 @@
    "attempts": [
     {
      "url": "https://www.marca.com/en/rss/googlenews/portada.xml",
-     "result": "OK 34 stavki (UA: feedparser)"
+     "result": "OK 35 stavki (UA: feedparser)"
     }
    ],
    "tab": "sports"
